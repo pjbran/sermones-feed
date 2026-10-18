@@ -26,7 +26,7 @@ def clip(voice, text, stability=0.2):
         os.makedirs('clips', exist_ok=True)
         el.tts(voice, text, p, stability=stability)
         log('  rendered:', text[:60])
-    return audio.norm(audio.trim(audio.load(p)))
+    return audio.debreath(audio.norm(audio.load(p)))  # breaths and 'hah' exhales removed (19 Oct)
 
 
 def fast(t, on=True):
@@ -78,6 +78,87 @@ def run_audition(job):
     return {'auditions': len(rows), 'page': f'{BASE}/auditions/'}
 
 
+# ---------------- sound test ----------------
+def run_test(job):
+    """Render the same few lines in several ways and publish tests/<name>/index.html to compare by ear."""
+    V = resolve_voices({**json.load(open('pipeline/voices.json')), **job.get('voices', {})})
+    lines = job['lines']; name = job.get('name', 'test'); st = job.get('stability', 0.5)
+    out_dir = f'tests/{name}'; os.makedirs(out_dir, exist_ok=True)
+    seq = []  # (who, text, latin?)
+    for ln in lines:
+        seq += [(ln['who'], ln['en'], False), (ln['who'], smart(ln['la']), True)]
+    gaps = [0.35 if i % 2 == 0 else 0.55 for i in range(len(seq))]
+    rows = []
+
+    def save(x, key, label):
+        f = f'{out_dir}/{key}.mp3'
+        audio.save_mp3(audio.np.concatenate([audio.sil(0.4), x, audio.sil(0.6)]), f, {'title': label})
+        rows.append((label, os.path.basename(f))); log('test ok:', label)
+
+    def per_line(model, ctx=False, quick=False):
+        clips = []
+        for i, (w, t, la) in enumerate(seq):
+            txt = ('[quickly] ' + t) if quick else t
+            h = hashlib.sha1(f'{V[w]}|{model}|{txt}|{st}|{ctx}'.encode()).hexdigest()[:16]
+            p = f'clips/t-{h}.mp3'
+            if not os.path.exists(p):
+                body = {'text': txt, 'model_id': model, 'voice_settings': {'stability': st, 'similarity_boost': 0.75}}
+                if ctx:
+                    if i: body['previous_text'] = seq[i - 1][1]
+                    if i + 1 < len(seq): body['next_text'] = seq[i + 1][1]
+                r = el.req('POST', f'/text-to-speech/{V[w]}?output_format=mp3_44100_128', json=body)
+                if r.status_code != 200:
+                    raise RuntimeError(f'{model}: {r.status_code} {r.text[:200]}')
+                open(p, 'wb').write(r.content)
+            clips.append(audio.debreath(audio.norm(audio.load(p))))
+        return audio.sequence(list(zip(clips, gaps)), lead=0.2, tail=0.2)[0]
+
+    variants = job.get('variants', ['v4_lines', 'v4_dialogue', 'v2_lines'])
+    if 'now' in variants:
+        try:
+            el._MODEL = el._MODEL or 'eleven_v4'
+            save(per_line_cached(V, seq, gaps, job.get('now_stability', 0.5)), 'a-now', 'A · As Ep 3 (v4, [quickly]), breaths cut')
+        except Exception as e:
+            log('now failed:', e)
+    for v in variants:
+        try:
+            if v == 'v4_lines':
+                save(per_line('eleven_v4'), 'b-v4-lines', 'B · Eleven v4, line by line, natural speed, breaths cut')
+            elif v == 'v4_dialogue':
+                x = None
+                for model in ('eleven_v4', 'eleven_v3'):
+                    body = {'inputs': [{'text': t, 'voice_id': V[w]} for w, t, la in seq], 'model_id': model,
+                            'settings': {'stability': st}}
+                    r = el.req('POST', '/text-to-dialogue?output_format=mp3_44100_128', json=body)
+                    if r.status_code == 200:
+                        p = f'{out_dir}/raw-dialogue-{model}.mp3'; open(p, 'wb').write(r.content)
+                        x = audio.debreath(audio.norm(audio.load(p)), max_gap=0.55); used = model; break
+                    log('dialogue refused', model, r.status_code, r.text[:200])
+                if x is not None:
+                    save(x, 'c-dialogue', f'C · Whole conversation in one go ({used} dialogue), breaths cut')
+            elif v == 'v2_lines':
+                save(per_line('eleven_multilingual_v2', ctx=True), 'd-v2-lines', 'D · Calm narration model (Multilingual v2), line by line, breaths cut')
+        except Exception as e:
+            log('variant failed:', v, e)
+    items = ''.join(f'<li><b>{html.escape(l)}</b><br><audio controls preload="none" src="{f}"></audio></li>' for l, f in rows)
+    script = ''.join(f'<li>{html.escape(ln["en"])}<br><i>{html.escape(ln["la"])}</i></li>' for ln in lines)
+    open(f'{out_dir}/index.html', 'w').write(
+        '<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+        '<meta name="robots" content="noindex"><title>Sound test</title>'
+        '<style>body{font:16px/1.5 system-ui;max-width:560px;margin:24px auto;padding:0 16px;background:#1f3a38;color:#f4ecdc}'
+        'li{margin:0 0 18px}audio{width:100%}small{opacity:.7}</style>'
+        f'<h1>Sound test</h1><p>Same lines, different ways. Pick the one that sounds most like two calm people talking.</p><ol>{items}</ol>'
+        f'<h2>Script</h2><ol><small>{script}</small></ol>')
+    if not rows:
+        raise RuntimeError('No test variant rendered.')
+    return {'tests': len(rows), 'page': f'{BASE}/{out_dir}/'}
+
+
+def per_line_cached(V, seq, gaps, st):
+    clips = [clip(V[w], '[quickly] ' + t, st) for w, t, la in seq]
+    return audio.sequence(list(zip(clips, gaps)), lead=0.2, tail=0.2)[0]
+
+
 # ---------------- episode ----------------
 def resolve_voices(V):
     """Turn "name:Australian man" into a voice ID (exact, case-sensitive name in My Voices)."""
@@ -106,7 +187,7 @@ def run_episode(job):
     host = job.get('intro_by', 'F')
     pe, pl, plat = (job.get('pause_after_english', 0.35), job.get('pause_before_next', 0.55), job.get('pause_latin_only', 0.35))
     st = job.get('stability', 0.5)  # 0.5 = Natural: mild tags, no breathiness (19 Oct)
-    q = job.get('quick', True)
+    q = job.get('quick', False)  # [quickly] made voices rush and gasp (19 Oct)
     intro = job.get('intro', [])  # [{en, la}], said by the host
     lines = job['lines']          # [{who: F|M, en, la}]
 
@@ -179,7 +260,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update(run_audition(job) if job['type'] == 'audition' else run_episode(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]

@@ -1,0 +1,37 @@
+{
+ "type": "test",
+ "name": "flow-1",
+ "stability": 0.5,
+ "voices": {
+  "F": "cvpTJfe9LINpHIOmB2Hp",
+  "M": "name:Australian man"
+ },
+ "variants": [
+  "now",
+  "v4_lines",
+  "v4_dialogue",
+  "v2_lines"
+ ],
+ "lines": [
+  {
+   "who": "F",
+   "en": "So, Marcus. What did you do on Sunday?",
+   "la": "Ergō, Marce. Quid diē Dominicō fēcistī?"
+  },
+  {
+   "who": "M",
+   "en": "In the morning we went to Mass. All of us.",
+   "la": "Māne ad Missam īvimus. Omnēs."
+  },
+  {
+   "who": "M",
+   "en": "I drank only water. Only water.",
+   "la": "Tantum aquam bibī. Tantum aquam."
+  },
+  {
+   "who": "F",
+   "en": "Marcus, the Romans used to say: in wine, there is truth.",
+   "la": "Marce, Rōmānī dīcēbant: in vīnō vēritās."
+  }
+ ]
+}

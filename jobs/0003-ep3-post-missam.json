@@ -2,7 +2,7 @@
  "type": "episode",
  "number": 3,
  "season": 1,
- "slug": "post-missam-ad-tabernam",
+ "slug": "post-missam-ad-tabernam-v2",
  "title": "Post Missam ad tabernam",
  "summary": "Sunday: Mass with the family, then the pub, where Marcus drinks only water. Is the pub after Mass a good custom? Quotes: Īte, missa est (end of the Latin Mass), In vīnō vēritās (old proverb; Pliny the Elder), Tū servāstī bonum vīnum ūsque adhūc (John 2:10).",
  "voices": {
@@ -313,5 +313,6 @@
    "en": "Thanks. Goodbye, Iulia!",
    "la": "Grātiās. Valē, Iūlia!"
   }
- ]
+ ],
+ "quick": true
 }

@@ -2,7 +2,7 @@
  "type": "episode",
  "number": 2,
  "season": 1,
- "slug": "pica-et-filius-v2",
+ "slug": "pica-et-filius-v3",
  "title": "Pīca et fīlius",
  "summary": "A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Quotes: Festīnā lentē (Augustus), Sinite parvulōs venīre ad mē (Mark 10:14), Dum spīrō, spērō (Cicero's idea).",
  "voices": {
@@ -363,5 +363,7 @@
    "en": "[warmly] Goodbye, Iulia!",
    "la": "[warmly] Valē, Iūlia!"
   }
- ]
+ ],
+ "stability": 0.2,
+ "quick": true
 }

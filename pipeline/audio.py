@@ -111,3 +111,37 @@ def make_cover(base, text, out):
     except Exception as e:
         print('cover failed:', e)
         return base
+
+
+def debreath(x, speech_db=-25.0, keep_short_gap=0.20, pre=0.06, post=0.10, max_gap=0.35):
+    """Remove breaths and 'hah' exhales: keep only speech (plus a small margin), silence the rest,
+    cut lead/tail, and shorten long internal gaps. x must be normalised first (norm)."""
+    n = int(0.01 * SR)
+    if len(x) < n * 5:
+        return x
+    e = np.array([20 * np.log10(np.sqrt(np.mean(x[i:i + n] ** 2)) + 1e-9) for i in range(0, len(x) - n + 1, n)])
+    core = e > speech_db
+    if not core.any():
+        return x
+    idx = np.where(core)[0]
+    # join speech regions that are close (gaps inside words and short pauses stay untouched)
+    regs = [[idx[0], idx[0]]]
+    for i in idx[1:]:
+        if (i - regs[-1][1]) * 0.01 <= keep_short_gap:
+            regs[-1][1] = i
+        else:
+            regs.append([i, i])
+    parts = []
+    for k, (a, b) in enumerate(regs):
+        s = max(0, int((a * 0.01 - pre) * SR)); t = min(len(x), int(((b + 1) * 0.01 + post) * SR))
+        if parts:
+            prev_end = parts[-1][1]
+            s = max(s, prev_end)
+        parts.append((s, t))
+    out = []
+    for k, (s, t) in enumerate(parts):
+        if k:
+            gap = (s - parts[k - 1][1]) / SR
+            out.append(sil(min(max(gap, 0.0), max_gap)))
+        out.append(fade(x[s:t], 8))
+    return np.concatenate(out)
