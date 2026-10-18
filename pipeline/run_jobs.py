@@ -3,8 +3,7 @@
 Job types
 - audition: find Australian voices, render one test line in each, publish auditions/index.html
 - episode:  render every line (English + Latin, each speaker in their own voice), build
-            A = English then Latin, D = English then Latin x 3, B = Latin only, C = Latin only x N (loop),
-            add them to the feed. Voices can be IDs or "name:<exact voice name>" (looked up in My Voices).
+            a = English then Latin x 3, b = Latin only x 3 (optional c = long Latin loop), add them to the feed. Voices can be IDs or "name:<exact voice name>" (looked up in My Voices).
 """
 import glob, json, os, sys, hashlib, html, datetime, traceback, subprocess
 sys.path.insert(0, os.path.dirname(__file__))
@@ -124,14 +123,18 @@ def run_episode(job):
     for ln in lines:
         A += [(E(ln['who'], ln['en']), pe), (L(ln['who'], ln['la']), pl)]
         B += [(L(ln['who'], ln['la']), plat)]
-    loops = int(job.get('loops', 8))
-    C = []
-    for k in range(loops):
-        C += B[:-1] + [(B[-1][0], 2.5)]
-    loops_en = int(job.get('loops_en', 3))
-    D = []
-    for k in range(loops_en):
-        D += A[:-1] + [(A[-1][0], 2.5)]
+    def rep(items, n):
+        out = []
+        for k in range(n):
+            out += items[:-1] + [(items[-1][0], 2.5)]
+        return out
+
+    n3 = int(job.get('repeat', 3))      # every track = the whole dialogue, 3 times
+    tracks = [('a', rep(A, n3), f'English → Latin × {n3}', f' Each line in English, then in Latin. The whole dialogue {n3} times.'),
+              ('b', rep(B, n3), f'Latin only × {n3}', f' Latin only. The whole dialogue {n3} times.')]
+    if job.get('latin_loop'):           # optional extra long Latin loop
+        k = int(job['latin_loop'])
+        tracks.append(('c', rep(B, k), f'Latin only × {k}', f' Latin only, {k} times in a row (a long loop).'))
 
     music = MUSIC.get(job.get('music', 'v5'), MUSIC['v5'])
     lvl, dip = job.get('music_level_db', -9), job.get('music_dip_db', 7)
@@ -141,11 +144,8 @@ def run_episode(job):
     cover = audio.make_cover('cover.jpg', f'Ep {num} · {title}', f'episodes/s{season}e{num:02d}-cover.jpg')
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=11)))
     made = []
-    for code, items, label, summ in (
-            ('a', A, 'English → Latin', job.get('summary', '') + ' Each line in English, then in Latin.'),
-            ('d', D, f'English → Latin × {loops_en}', job.get('summary', '') + f' English then Latin, {loops_en} times in a row.'),
-            ('b', B, 'Latin only', job.get('summary', '') + ' Latin only.'),
-            ('c', C, f'Latin only × {loops}', job.get('summary', '') + f' Latin only, {loops} times in a row (a long loop).')):
+    for code, items, label, extra in tracks:
+        summ = job.get('summary', '') + extra
         voice, ev = audio.sequence(items)
         x = audio.mix_music(voice, ev, music, lvl, dip)
         fn = f's{season}e{num:02d}{code}-{slug}.mp3'
