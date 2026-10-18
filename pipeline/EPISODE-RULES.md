@@ -29,7 +29,18 @@ His strong words get no points. They are the glue and they come back anyway.
 | **ChatGPT survival kit**: 4–6 "her" lines, each with one of his fix replies (*Lentius, quaesō*, *Quid significat…?*, *Satis est, pergāmus*) | 2 |
 | **Easy to hear**: lines of 8 Latin words or fewer, about 90% known words | 2 |
 
-## 3. Fixed format
+## 3. Manner: make it sound like a real podcast, not ping-pong
+
+- **Not symmetrical.** Sometimes one person talks for 3–4 lines in a row and the other only says *Ita.* / *Mmm.* / *Vērē?*
+- **Long turns**: one person tells a small story; the other reacts, interrupts, asks one short question.
+- **Thinking out loud**: *Hmm… quōmodo dīcitur… ah, mēta!* / *Exspectā, cōgitō…* / *Verbum mihi deest.*
+- **Self-correction**: *Ad taberna… nōn, ad tabernam!* (this also drills his real mistakes).
+- **Clarify for yourself**: *Id est…* / *Hoc est, …* / *Sīve…* (the same say-it-again moves ChatGPT uses).
+- **Real reactions**: laughs, teasing, *Ecce!*, *Euge!*, *Minimē!*, *Quid?!*
+- Same-speaker lines get a shorter gap (the renderer does this); a line can also set its own `gap` in seconds.
+- Score: count this inside "Story" and "Humour". A script that is all A-B-A-B loses 1 point.
+
+## 4. Fixed format
 
 - Two voices: Marcus = Patrick's own clone ("Australian man"), Iulia = the female voice.
 - Intro by one host: *Bene vēnistis ad colloquium! Hodiē loquāmur dē …*

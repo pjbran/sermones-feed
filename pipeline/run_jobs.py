@@ -120,9 +120,12 @@ def run_episode(job):
     for i, it in enumerate(intro):
         A += [(E(host, it['en']), pe), (L(host, it['la']), pl * (1.4 if i == len(intro) - 1 else 1))]
         B += [(L(host, it['la']), pl)]
-    for ln in lines:
-        A += [(E(ln['who'], ln['en']), pe), (L(ln['who'], ln['la']), pl)]
-        B += [(L(ln['who'], ln['la']), plat)]
+    for i, ln in enumerate(lines):
+        # same speaker goes on (a long turn, thinking for a word): a shorter gap; a line can set its own "gap"
+        same = i + 1 < len(lines) and lines[i + 1]['who'] == ln['who']
+        g = ln.get('gap', pl * 0.6 if same else pl)
+        A += [(E(ln['who'], ln['en']), pe), (L(ln['who'], ln['la']), g)]
+        B += [(L(ln['who'], ln['la']), ln.get('gap', plat * 0.7 if same else plat))]
     def rep(items, n):
         out = []
         for k in range(n):
