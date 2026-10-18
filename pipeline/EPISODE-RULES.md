@@ -52,7 +52,7 @@ His strong words get no points. They are the glue and they come back anyway.
 
 - Bible (Vulgate) and famous classical Latin that fit the scene: *Festīnā lentē* (Augustus), *Sinite parvulōs venīre ad mē* (Mark 10:14), *Dum spīrō, spērō* (motto; the idea is in Cicero).
 - In the banter, someone says the quote, the other asks *Quis hoc dīxit?* / *Scīsne unde veniat?*, then: credit it (who, which book) and explain it in simple Latin (*id est…*).
-- Never use the same quote twice in a season. Used: Festīnā lentē, Sinite parvulōs venīre ad mē, Dum spīrō spērō (Ep 2).
+- Never use the same quote twice in a season. The ChatGPT-teacher gag is a hit: keep it as a running joke. Used: Festīnā lentē, Sinite parvulōs venīre ad mē, Dum spīrō spērō (Ep 2); Īte missa est, In vīnō vēritās, Tū servāstī bonum vīnum ūsque adhūc (Ep 3).
 
 ## 5. Fixed format
 
@@ -60,5 +60,6 @@ His strong words get no points. They are the glue and they come back anyway.
 - Intro by one host: *Bene vēnistis ad colloquium! Hodiē loquāmur dē …*
 - Each line: English, then Latin, same voice. Short pauses. [quickly].
 - About 50 lines (about 5 min per pass).
+- Music bed: V5 at -7 dB (raised 2 dB on 19 Oct; Patrick could barely hear it).
 - Tracks: **a = English → Latin × 3**, **b = Latin only × 3** (about 15 min each).
 - After each episode, update a "heard" list, so the next one picks new weak words.

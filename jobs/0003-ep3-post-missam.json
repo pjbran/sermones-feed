@@ -1,0 +1,317 @@
+{
+ "type": "episode",
+ "number": 3,
+ "season": 1,
+ "slug": "post-missam-ad-tabernam",
+ "title": "Post Missam ad tabernam",
+ "summary": "Sunday: Mass with the family, then the pub, where Marcus drinks only water. Is the pub after Mass a good custom? Quotes: Īte, missa est (end of the Latin Mass), In vīnō vēritās (old proverb; Pliny the Elder), Tū servāstī bonum vīnum ūsque adhūc (John 2:10).",
+ "voices": {
+  "F": "cvpTJfe9LINpHIOmB2Hp",
+  "M": "name:Australian man"
+ },
+ "intro_by": "M",
+ "music": "v5",
+ "repeat": 3,
+ "intro": [
+  {
+   "en": "Welcome to the conversation!",
+   "la": "Bene vēnistis ad colloquium!"
+  },
+  {
+   "en": "Today, let's talk about Sunday: Mass, the pub… and water.",
+   "la": "Hodiē loquāmur dē diē Dominicō: dē Missā, dē tabernā… et dē aquā."
+  }
+ ],
+ "lines": [
+  {
+   "who": "F",
+   "en": "So, Marcus. What did you do on Sunday?",
+   "la": "Ergō, Marce. Quid diē Dominicō fēcistī?"
+  },
+  {
+   "who": "M",
+   "en": "In the morning we went to Mass. All of us.",
+   "la": "Māne ad Missam īvimus. Omnēs."
+  },
+  {
+   "who": "F",
+   "en": "All of you? Who?",
+   "la": "Omnēs? Quī?"
+  },
+  {
+   "who": "M",
+   "en": "With my wife, my two daughters, and my son.",
+   "la": "Cum uxōre meā, duābus fīliābus, et fīliō."
+  },
+  {
+   "who": "M",
+   "en": "I have two daughters and one son. Five people in one row.",
+   "la": "Duās fīliās et ūnum fīlium habeō. Quīnque hominēs in ūnō ōrdine."
+  },
+  {
+   "who": "F",
+   "en": "And the little one? Was he quiet?",
+   "la": "Et parvulus? Tacuitne?"
+  },
+  {
+   "who": "M",
+   "en": "Quiet? No. [light chuckle] He talked the whole time.",
+   "la": "Tacuit? Minimē. [light chuckle] Tōtum tempus loquēbātur."
+  },
+  {
+   "who": "M",
+   "en": "And at the end, he shouted: Amen!",
+   "la": "Et in fīne clāmāvit: Āmēn."
+  },
+  {
+   "who": "F",
+   "en": "He was listening, though.",
+   "la": "Audiēbat tamen."
+  },
+  {
+   "who": "F",
+   "en": "Do you know how the old Latin Mass ended?",
+   "la": "Scīsne quōmodo Missa Latīna antīqua fīniēbātur?"
+  },
+  {
+   "who": "M",
+   "en": "No. Tell me.",
+   "la": "Nesciō. Dīc mihi."
+  },
+  {
+   "who": "F",
+   "en": "The priest said: Ite, missa est.",
+   "la": "Sacerdōs dīcēbat: Īte, missa est."
+  },
+  {
+   "who": "F",
+   "en": "That is: go, now it's over. And that's where the name Missa comes from.",
+   "la": "Id est: īte, nunc fīnis est. Et inde venit nōmen Missa."
+  },
+  {
+   "who": "M",
+   "en": "[thoughtful] So the Mass is named after its last words.",
+   "la": "[thoughtful] Ergō Missa nōmen ā verbīs ultimīs habet."
+  },
+  {
+   "who": "M",
+   "en": "And after Ite, missa est… we went.",
+   "la": "Et post Īte, missa est… īvimus."
+  },
+  {
+   "who": "F",
+   "en": "Where did you go?",
+   "la": "Quō īstis?"
+  },
+  {
+   "who": "M",
+   "en": "After Mass, we came to the pub.",
+   "la": "Post Missam ad tabernam vēnimus."
+  },
+  {
+   "who": "F",
+   "en": "[dry] Almost right.",
+   "la": "[dry] Ferē rēctē."
+  },
+  {
+   "who": "M",
+   "en": "Almost? What did I get wrong?",
+   "la": "Ferē? Quid errāvī?"
+  },
+  {
+   "who": "F",
+   "en": "Nothing. [light chuckle] I wanted to talk like your teacher.",
+   "la": "Nihil. [light chuckle] Sīcut magistra tua loquī volēbam."
+  },
+  {
+   "who": "M",
+   "en": "Please, correct only one mistake. And only real ones.",
+   "la": "Ūnum tantum errōrem corrige, quaesō. Et tantum vērōs."
+  },
+  {
+   "who": "F",
+   "en": "Fine, fine. Let's go on.",
+   "la": "Bene, bene. Pergāmus."
+  },
+  {
+   "who": "F",
+   "en": "So. The pub. What did you eat?",
+   "la": "Ergō. Taberna. Quid ēdistī?"
+  },
+  {
+   "who": "M",
+   "en": "The others ate meat. A lot of meat.",
+   "la": "Aliī carnem ēdērunt. Multam carnem."
+  },
+  {
+   "who": "M",
+   "en": "I ate only vegetables.",
+   "la": "Ego tantum holera ēdī."
+  },
+  {
+   "who": "F",
+   "en": "Only vegetables? Why?",
+   "la": "Tantum holera? Cūr?"
+  },
+  {
+   "who": "M",
+   "en": "Because tomorrow I have a meeting with my clients.",
+   "la": "Quia crās conventum cum clientibus meīs habeō."
+  },
+  {
+   "who": "M",
+   "en": "And I want a clear head.",
+   "la": "Et caput clārum volō."
+  },
+  {
+   "who": "F",
+   "en": "And what did you drink? Wine? Beer?",
+   "la": "Et quid bibistī? Vīnum? Cervīsiam?"
+  },
+  {
+   "who": "M",
+   "en": "I drank only water. Only water.",
+   "la": "Tantum aquam bibī. Tantum aquam."
+  },
+  {
+   "who": "F",
+   "en": "[a little more serious] Water. At the pub. On a Sunday.",
+   "la": "[a little more serious] Aquam. In tabernā. Diē Dominicō."
+  },
+  {
+   "who": "F",
+   "en": "Marcus, the Romans used to say: in wine, there is truth.",
+   "la": "Marce, Rōmānī dīcēbant: in vīnō vēritās."
+  },
+  {
+   "who": "M",
+   "en": "Who said that?",
+   "la": "Quis hoc dīxit?"
+  },
+  {
+   "who": "F",
+   "en": "It's an old proverb. Pliny the Elder writes about it.",
+   "la": "Vetus prōverbium est. Plīnius Maior dē eō scrībit."
+  },
+  {
+   "who": "F",
+   "en": "Wine opens the mouth; then people tell the truth.",
+   "la": "Vīnum ōs aperit; tum hominēs vērum dīcunt."
+  },
+  {
+   "who": "M",
+   "en": "So in water there is… nothing?",
+   "la": "Ergō in aquā est… nihil?"
+  },
+  {
+   "who": "F",
+   "en": "In water there's only water. [light chuckle]",
+   "la": "In aquā tantum aqua est. [light chuckle]"
+  },
+  {
+   "who": "M",
+   "en": "Fine. Tomorrow, after the meeting, I'll drink wine.",
+   "la": "Bene. Crās, post conventum, vīnum bibam."
+  },
+  {
+   "who": "F",
+   "en": "May I ask a serious question?",
+   "la": "Licetne mihi quaestiōnem gravem pōnere?"
+  },
+  {
+   "who": "M",
+   "en": "Of course.",
+   "la": "Certē."
+  },
+  {
+   "who": "F",
+   "en": "First Mass, then the pub. Is that a good custom, in your opinion?",
+   "la": "Prīmum Missa, deinde taberna. Estne bona cōnsuētūdō, tuā sententiā?"
+  },
+  {
+   "who": "M",
+   "en": "Hmm… yes, I think so.",
+   "la": "Hmm… ita putō."
+  },
+  {
+   "who": "M",
+   "en": "At Mass, we are with God.",
+   "la": "In Missā cum Deō sumus."
+  },
+  {
+   "who": "M",
+   "en": "At the pub, we are with our friends.",
+   "la": "In tabernā cum amīcīs sumus."
+  },
+  {
+   "who": "M",
+   "en": "Both are good. Both are human.",
+   "la": "Utrumque bonum est. Utrumque hūmānum."
+  },
+  {
+   "who": "F",
+   "en": "But some people say: the pub after Mass? That's not holy.",
+   "la": "Sed quīdam dīcunt: taberna post Missam? Nōn sānctum est."
+  },
+  {
+   "who": "M",
+   "en": "[matter-of-fact] Even Jesus went to a wedding. And he made wine.",
+   "la": "[matter-of-fact] Etiam Iēsus ad nūptiās iit. Et vīnum fēcit."
+  },
+  {
+   "who": "F",
+   "en": "At Cana. In the Gospel of John, chapter two.",
+   "la": "In Cānā. In Ēvangeliō Iōannis, capite secundō."
+  },
+  {
+   "who": "F",
+   "en": "And a man there said: you have kept the good wine until now.",
+   "la": "Et aliquis dīxit: tū servāstī bonum vīnum ūsque adhūc."
+  },
+  {
+   "who": "M",
+   "en": "Until now! Ūsque adhūc. I like that.",
+   "la": "Ūsque adhūc! Hoc mihi placet."
+  },
+  {
+   "who": "F",
+   "en": "Because the best wine came last.",
+   "la": "Quia vīnum optimum ultimum vēnit."
+  },
+  {
+   "who": "M",
+   "en": "Like my wine… [lightly amused] tomorrow, after the meeting.",
+   "la": "Sīcut vīnum meum… [lightly amused] crās, post conventum."
+  },
+  {
+   "who": "F",
+   "en": "So the debate is over?",
+   "la": "Ergō disputātiō fīnīta est?"
+  },
+  {
+   "who": "M",
+   "en": "It's over. Mass, the pub, wine: all good.",
+   "la": "Fīnīta est. Missa, taberna, vīnum: omnia bona."
+  },
+  {
+   "who": "F",
+   "en": "And water?",
+   "la": "Et aqua?"
+  },
+  {
+   "who": "M",
+   "en": "Water… is for the magpies.",
+   "la": "Aqua… pīcīs est."
+  },
+  {
+   "who": "F",
+   "en": "[light chuckle] Goodbye, Marcus. Good luck tomorrow!",
+   "la": "[light chuckle] Valē, Marce. Crās bona fortūna tibi sit!"
+  },
+  {
+   "who": "M",
+   "en": "Thanks. Goodbye, Iulia!",
+   "la": "Grātiās. Valē, Iūlia!"
+  }
+ ]
+}

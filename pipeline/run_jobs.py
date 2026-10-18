@@ -140,7 +140,7 @@ def run_episode(job):
         tracks.append(('c', rep(B, k), f'Latin only × {k}', f' Latin only, {k} times in a row (a long loop).'))
 
     music = MUSIC.get(job.get('music', 'v5'), MUSIC['v5'])
-    lvl, dip = job.get('music_level_db', -9), job.get('music_dip_db', 7)
+    lvl, dip = job.get('music_level_db', -7), job.get('music_dip_db', 7)
     num = int(job['number']); season = int(job.get('season', 1)); slug = job['slug']; title = job['title']
     eps = json.load(open('episodes.json'))
     pre = f's{season}e{num:02d}'
