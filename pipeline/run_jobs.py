@@ -73,6 +73,8 @@ def run_audition(job):
         'li{margin:0 0 18px}audio{width:100%}code{font-size:11px;opacity:.6}</style>'
         f'<h1>Voice auditions</h1><p>"{html.escape(en)}" then <i>{html.escape(la)}</i></p><ol>{items}</ol>')
     json.dump([{**c, 'file': p} for c, p in rows], open('auditions/voices.json', 'w'), indent=1)
+    if not rows:
+        raise RuntimeError('No auditions rendered (see the log above; the API key may need Voices: Read and Write).')
     return {'auditions': len(rows), 'page': f'{BASE}/auditions/'}
 
 
