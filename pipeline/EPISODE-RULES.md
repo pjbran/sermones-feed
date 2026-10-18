@@ -34,9 +34,11 @@ His strong words get no points. They are the glue and they come back anyway.
 - **Not symmetrical.** Sometimes one person talks for 3–4 lines in a row and the other only says *Ita.* / *Mmm.* / *Vērē?*
 - **Long turns**: one person tells a small story; the other reacts, interrupts, asks one short question.
 - **Thinking out loud**: *Hmm… quōmodo dīcitur… ah, mēta!* / *Exspectā, cōgitō…* / *Verbum mihi deest.*
-- **Self-correction**: *Ad taberna… nōn, ad tabernam!* (this also drills his real mistakes).
+- **Never say a wrong form.** "Self-correction" = a pause while thinking for a word: *Cum… [short pause] cum fīliō meō.*
 - **Clarify for yourself**: *Id est…* / *Hoc est, …* / *Sīve…* (the same say-it-again moves ChatGPT uses).
 - **Real reactions**: laughs, teasing, *Ecce!*, *Euge!*, *Minimē!*, *Quid?!*
+- **Emotion tags on most lines** (ElevenLabs v4 reads them; smart spelling leaves them alone): [laughs], [chuckles], [laughing], [sighs], [groans], [gasps], [curious], [thoughtful], [softly], [gently], [surprised], [worried], [indignant], [playfully], [mischievously], [dryly], [calmly], [warmly], [hesitates], [short pause]. Put the same tag on the English and the Latin of a line.
+- **B1–C1 talk, with his words**: opinions (*Meā sententiā…*, *Putō…*, *Quid māvīs?*, *Cūr id putās?*), agree and disagree (*Vērē dīcis*, *Tamen…*), reasons (*quia, quoniam*), a small debate that the story settles at the end.
 - Same-speaker lines get a shorter gap (the renderer does this); a line can also set its own `gap` in seconds.
 - Score: count this inside "Story" and "Humour". A script that is all A-B-A-B loses 1 point.
 

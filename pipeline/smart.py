@@ -7,7 +7,12 @@ EXTRA_J = {}
 
 
 def smart(t: str) -> str:
-    t = unicodedata.normalize('NFC', t)
+    """Respell Latin; leave ElevenLabs tags like [laughs] or [short pause] as they are."""
+    parts = re.split(r'(\[[^\]]*\])', unicodedata.normalize('NFC', t))
+    return ''.join(x if x.startswith('[') else _smart(x) for x in parts)
+
+
+def _smart(t: str) -> str:
     t = re.sub(r'\b([Ii])(?=[aeouāēōūAEOU])', lambda m: 'J' if m.group(1) == 'I' else 'j', t)  # iam -> jam
     t = re.sub(r'(?<=[sS])u(?=[ēeāa]t)', 'w', t)  # cōnsuētūdō -> kōnswētūdō
     t = t.replace('qu', 'kw').replace('Qu', 'Kw')
@@ -21,5 +26,5 @@ def smart(t: str) -> str:
 
 
 if __name__ == '__main__':
-    for s in ['Salvē, Marce! Iamne vigilās?', 'Mea cōnsuētūdō est mātūrē surgere.', 'Quid in linguā Latīnā?']:
+    for s in ['Salvē, Marce! Iamne vigilās?', 'Mea cōnsuētūdō est mātūrē surgere.', 'Quid in linguā Latīnā?', '[excited] Ecce! [short pause] Vōcem audiō.']:
         print(s, '->', smart(s))
