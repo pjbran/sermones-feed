@@ -1,0 +1,30 @@
+{
+ "job": "jobs/0001-audition.json",
+ "ok": true,
+ "auditions": 6,
+ "page": "https://pjbran.github.io/sermones-feed/auditions/",
+ "log": [
+  "== job jobs/0001-audition.json audition",
+  "models list: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission models_read to execute this operation.\",\"status\":\"missing_permissions\",\"request",
+  "model: eleven_v4",
+  "  rendered: [quickly] Hey! Are you out walking already? I got up early t",
+  "  rendered: [quickly] Salwē! Jam ambulās? Mātūrē surrēksī. Hōram, līberī",
+  "audition ok: Charlie - Deep, Confident, Energetic male IKne3meq5aSn9XLyUdCD",
+  "  rendered: [quickly] Hey! Are you out walking already? I got up early t",
+  "  rendered: [quickly] Salwē! Jam ambulās? Mātūrē surrēksī. Hōram, līberī",
+  "audition ok: Charlotte - Warm & Conversational female cvpTJfe9LINpHIOmB2Hp",
+  "  rendered: [quickly] Hey! Are you out walking already? I got up early t",
+  "  rendered: [quickly] Salwē! Jam ambulās? Mātūrē surrēksī. Hōram, līberī",
+  "audition ok: Charlotte - Friendly & Professional female gEdKKVxVhNCulBgRQ9GW",
+  "  rendered: [quickly] Hey! Are you out walking already? I got up early t",
+  "  rendered: [quickly] Salwē! Jam ambulās? Mātūrē surrēksī. Hōram, līberī",
+  "audition ok: Sunny - Australian Female female VyyyOgRmsqOzaZXnKWnI",
+  "  rendered: [quickly] Hey! Are you out walking already? I got up early t",
+  "  rendered: [quickly] Salwē! Jam ambulās? Mātūrē surrēksī. Hōram, līberī",
+  "audition ok: Ziggy - Cute little Australian character male fjgAVa6FpNYGo4UpjqML",
+  "  rendered: [quickly] Hey! Are you out walking already? I got up early t",
+  "  rendered: [quickly] Salwē! Jam ambulās? Mātūrē surrēksī. Hōram, līberī",
+  "audition ok: Aussie Dan - Professional & Engaging male MmeR9e26IbVV6RCrOjbE"
+ ],
+ "at": "2026-10-18T10:54:19+00:00"
+}
