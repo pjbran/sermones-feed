@@ -1,0 +1,15 @@
+{
+ "job": "jobs/0004-test-flow.json",
+ "ok": true,
+ "tests": 4,
+ "page": "https://pjbran.github.io/sermones-feed/tests/flow-1/",
+ "log": [
+  "== job jobs/0004-test-flow.json test",
+  "voice M = Australian man H3hIaDEluHU5NQH2uxJ2",
+  "test ok: A · As Ep 3 (v4, [quickly]), breaths cut",
+  "test ok: B · Eleven v4, line by line, natural speed, breaths cut",
+  "test ok: C · Whole conversation in one go (eleven_v4 dialogue), breaths cut",
+  "test ok: D · Calm narration model (Multilingual v2), line by line, breaths cut"
+ ],
+ "at": "2026-10-18T23:43:08+00:00"
+}
