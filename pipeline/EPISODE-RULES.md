@@ -37,9 +37,13 @@ His strong words get no points. They are the glue and they come back anyway.
 - **Never say a wrong form.** "Self-correction" = a pause while thinking for a word: *Cum… [short pause] cum fīliō meō.*
 - **Clarify for yourself**: *Id est…* / *Hoc est, …* / *Sīve…* (the same say-it-again moves ChatGPT uses).
 - **Real reactions**: laughs, teasing, *Ecce!*, *Euge!*, *Minimē!*, *Quid?!*
-- **Emotion tags on most lines** (ElevenLabs v4 reads them; smart spelling leaves them alone). Allowed: [laughs], [chuckles], [laughing], [curious], [thoughtful], [surprised], [indignant], [playfully], [mischievously], [dryly], [excited], [cheerfully], [delighted], [hesitates], [short pause]. Put the same tag on the English and the Latin of a line.
-- **BANNED: anything breathy.** No [sighs], [exhales], [inhales], [breathes], [gasps], [groans], [panting], [breathless], [softly], [whispers], [gently], [calmly], [warmly]. Patrick (19 Oct): the breaths and sighs in Ep 2 sound "pseudo-erotic" and are very distracting. Show feeling with words and laughs, never with breath.
-- Next time also consider stability 0.35–0.5 (not 0.2): low stability adds breathiness. Ep 2 stays as it is (Patrick: do not fix it).
+- **Emotion = "podcast level" (Rogan/Peterson), about 20% of what ElevenLabs does by default.** (Researched 19 Oct.)
+  - **Stability 0.5 ("Natural")**, now the renderer default. Low stability (0.2) makes tags extreme and breathy.
+  - **Tags on about 1 line in 4**, not on most lines. Let the words and punctuation carry the feeling ("…" for a thinking pause, "?" for curiosity). Use few "!" and no CAPITALS.
+  - **Write mild tags in plain words** (v4 accepts free text): [lightly amused], [quietly amused], [light chuckle], [matter-of-fact], [a little more serious], [dry], [relaxed], [curious], [thoughtful], [hesitates], [short pause].
+  - **Put a laugh mid-line, after the funny word** ("Cum petasō… [light chuckle]"). A tag at the start colours the whole line.
+  - No more than 1 tag per line. Never stack tags, and never use [laughing], [excited], [indignant] or [panicked] (too big).
+  - **BANNED: anything breathy.** No [sighs], [exhales], [inhales], [gasps], [groans], [panting], [softly], [whispers], [gently], [calmly], [warmly]. Patrick (19 Oct): Ep 2's breaths sound "pseudo-erotic" and are very distracting. Ep 2 stays as it is.
 - **B1–C1 talk, with his words**: opinions (*Meā sententiā…*, *Putō…*, *Quid māvīs?*, *Cūr id putās?*), agree and disagree (*Vērē dīcis*, *Tamen…*), reasons (*quia, quoniam*), a small debate that the story settles at the end.
 - Same-speaker lines get a shorter gap (the renderer does this); a line can also set its own `gap` in seconds.
 - Score: count this inside "Story" and "Humour". A script that is all A-B-A-B loses 1 point.

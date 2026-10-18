@@ -105,7 +105,7 @@ def run_episode(job):
             raise RuntimeError(f'No voice set for speaker {k} (pipeline/voices.json or job "voices").')
     host = job.get('intro_by', 'F')
     pe, pl, plat = (job.get('pause_after_english', 0.35), job.get('pause_before_next', 0.55), job.get('pause_latin_only', 0.35))
-    st = job.get('stability', 0.2)
+    st = job.get('stability', 0.5)  # 0.5 = Natural: mild tags, no breathiness (19 Oct)
     q = job.get('quick', True)
     intro = job.get('intro', [])  # [{en, la}], said by the host
     lines = job['lines']          # [{who: F|M, en, la}]
