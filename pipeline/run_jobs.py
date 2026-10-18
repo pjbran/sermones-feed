@@ -3,7 +3,8 @@
 Job types
 - audition: find Australian voices, render one test line in each, publish auditions/index.html
 - episode:  render every line (English + Latin, each speaker in their own voice), build
-            A = English then Latin, B = Latin only, C = Latin only x N (loop), add them to the feed
+            A = English then Latin, D = English then Latin x 3, B = Latin only, C = Latin only x N (loop),
+            add them to the feed. Voices can be IDs or "name:<exact voice name>" (looked up in My Voices).
 """
 import glob, json, os, sys, hashlib, html, datetime, traceback, subprocess
 sys.path.insert(0, os.path.dirname(__file__))
@@ -79,9 +80,30 @@ def run_audition(job):
 
 
 # ---------------- episode ----------------
+def resolve_voices(V):
+    """Turn "name:Australian man" into a voice ID (exact, case-sensitive name in My Voices)."""
+    if not any(str(v).startswith('name:') for v in V.values()):
+        return V
+    mine = el.my_voices()
+    out = {}
+    for k, v in V.items():
+        if str(v).startswith('name:'):
+            hit = [m['voice_id'] for m in mine if m.get('name') == v[5:]]
+            if not hit:
+                raise RuntimeError(f'Voice "{v[5:]}" not found. My voices: ' + ', '.join(m.get('name', '?') for m in mine))
+            out[k] = hit[0]; log('voice', k, '=', v[5:], hit[0])
+        else:
+            out[k] = v
+    return out
+
+
 def run_episode(job):
     V = json.load(open('pipeline/voices.json'))
     V.update(job.get('voices', {}))
+    V = resolve_voices(V)
+    for k in {job.get('intro_by', 'F')} | {ln['who'] for ln in job['lines']}:
+        if not V.get(k):
+            raise RuntimeError(f'No voice set for speaker {k} (pipeline/voices.json or job "voices").')
     host = job.get('intro_by', 'F')
     pe, pl, plat = (job.get('pause_after_english', 0.35), job.get('pause_before_next', 0.55), job.get('pause_latin_only', 0.35))
     st = job.get('stability', 0.2)
@@ -106,6 +128,10 @@ def run_episode(job):
     C = []
     for k in range(loops):
         C += B[:-1] + [(B[-1][0], 2.5)]
+    loops_en = int(job.get('loops_en', 3))
+    D = []
+    for k in range(loops_en):
+        D += A[:-1] + [(A[-1][0], 2.5)]
 
     music = MUSIC.get(job.get('music', 'v5'), MUSIC['v5'])
     lvl, dip = job.get('music_level_db', -9), job.get('music_dip_db', 7)
@@ -117,6 +143,7 @@ def run_episode(job):
     made = []
     for code, items, label, summ in (
             ('a', A, 'English → Latin', job.get('summary', '') + ' Each line in English, then in Latin.'),
+            ('d', D, f'English → Latin × {loops_en}', job.get('summary', '') + f' English then Latin, {loops_en} times in a row.'),
             ('b', B, 'Latin only', job.get('summary', '') + ' Latin only.'),
             ('c', C, f'Latin only × {loops}', job.get('summary', '') + f' Latin only, {loops} times in a row (a long loop).')):
         voice, ev = audio.sequence(items)

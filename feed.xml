@@ -14,7 +14,20 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Sun, 18 Oct 2026 10:47:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 11:07:07 +0000</lastBuildDate>
+    <item>
+      <title>Ep 1 · Mane ambulō · English → Latin × 3</title>
+      <description>My morning walk. English then Latin, 3 times in a row (about 15 minutes).</description>
+      <itunes:summary>My morning walk. English then Latin, 3 times in a row (about 15 minutes).</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/s1e01d-mane-ambulo-english-latin-x3.mp3" length="22142941" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-s1e01d-mane-ambulo-english-latin-x3.mp3</guid>
+      <pubDate>Sun, 18 Oct 2026 22:20:00 +1100</pubDate>
+      <itunes:duration>15:17</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Ep 1 · Mane ambulō · Latin only × 8</title>
       <description>My morning walk. Latin only, 8 times in a row (about 20 minutes). Hit play and walk.</description>
