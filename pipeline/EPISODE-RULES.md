@@ -42,7 +42,13 @@ His strong words get no points. They are the glue and they come back anyway.
 - Same-speaker lines get a shorter gap (the renderer does this); a line can also set its own `gap` in seconds.
 - Score: count this inside "Story" and "Humour". A script that is all A-B-A-B loses 1 point.
 
-## 4. Fixed format
+## 4. Famous quotes (2–3 per episode)
+
+- Bible (Vulgate) and famous classical Latin that fit the scene: *Festīnā lentē* (Augustus), *Sinite parvulōs venīre ad mē* (Mark 10:14), *Dum spīrō, spērō* (motto; the idea is in Cicero).
+- In the banter, someone says the quote, the other asks *Quis hoc dīxit?* / *Scīsne unde veniat?*, then: credit it (who, which book) and explain it in simple Latin (*id est…*).
+- Never use the same quote twice in a season. Used: Festīnā lentē, Sinite parvulōs venīre ad mē, Dum spīrō spērō (Ep 2).
+
+## 5. Fixed format
 
 - Two voices: Marcus = Patrick's own clone ("Australian man"), Iulia = the female voice.
 - Intro by one host: *Bene vēnistis ad colloquium! Hodiē loquāmur dē …*

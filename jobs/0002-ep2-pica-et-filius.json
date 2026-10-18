@@ -2,9 +2,9 @@
  "type": "episode",
  "number": 2,
  "season": 1,
- "slug": "pica-et-filius",
+ "slug": "pica-et-filius-v2",
  "title": "Pīca et fīlius",
- "summary": "A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Iulia and Marcus.",
+ "summary": "A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Quotes: Festīnā lentē (Augustus), Sinite parvulōs venīre ad mē (Mark 10:14), Dum spīrō, spērō (Cicero's idea).",
  "voices": {
   "F": "cvpTJfe9LINpHIOmB2Hp",
   "M": "name:Australian man"
@@ -47,6 +47,26 @@
    "who": "M",
    "en": "Three. So we walk slowly. [sighs] Very slowly.",
    "la": "Trēs. Itaque lentē ambulāmus. [sighs] Lentissimē."
+  },
+  {
+   "who": "F",
+   "en": "[playfully] Make haste slowly, Marcus!",
+   "la": "[playfully] Festīnā lentē, Marce!"
+  },
+  {
+   "who": "M",
+   "en": "[laughs] Make haste slowly! Who said that?",
+   "la": "[laughs] Festīnā lentē! Quis hoc dīxit?"
+  },
+  {
+   "who": "F",
+   "en": "The emperor Augustus. He said it often.",
+   "la": "Imperātor Augustus. Hoc saepe dīcēbat."
+  },
+  {
+   "who": "F",
+   "en": "Hurry… but slowly. Like your son.",
+   "la": "Festīnā… sed lentē. Sīcut fīlius tuus."
   },
   {
    "who": "F",
@@ -155,6 +175,21 @@
   },
   {
    "who": "F",
+   "en": "You know what Jesus said? Let the little children come to me.",
+   "la": "Scīsne quid Iēsus dīxit? Sinite parvulōs venīre ad mē."
+  },
+  {
+   "who": "M",
+   "en": "[curious] From the Gospel of Mark?",
+   "la": "[curious] Ex Ēvangeliō Mārcī?"
+  },
+  {
+   "who": "F",
+   "en": "Yes, chapter ten. Parvulī: that is, the little ones.",
+   "la": "Ita, capite decimō. Parvulī: id est, puerī parvī."
+  },
+  {
+   "who": "F",
    "en": "[gently] And he won't be three forever.",
    "la": "[gently] Et nōn semper trēs annōs nātus erit."
   },
@@ -229,14 +264,29 @@
    "la": "[indignant] Nōlī rīdēre! Vērum perīculum est!"
   },
   {
-   "who": "F",
-   "en": "[still laughing] Sorry, sorry.",
-   "la": "[still laughing] Ignōsce, ignōsce."
+   "who": "M",
+   "en": "I was thinking… while I breathe, I hope!",
+   "la": "Cōgitābam… dum spīrō, spērō!"
   },
   {
    "who": "F",
-   "en": "[seriously] But you're right. In spring the magpies are angry.",
-   "la": "[seriously] Sed rēctē dīcis. Vēre pīcae īrātae sunt."
+   "en": "[still laughing] Sorry, sorry. Dum spīrō, spērō… do you know where that comes from?",
+   "la": "[still laughing] Ignōsce, ignōsce. Dum spīrō, spērō… scīsne unde veniat?"
+  },
+  {
+   "who": "M",
+   "en": "No. Tell me.",
+   "la": "Nesciō. Dīc mihi."
+  },
+  {
+   "who": "F",
+   "en": "It's an old motto. Cicero wrote: while there's life, they say there's hope.",
+   "la": "Vetus dictum est. Cicerō scrīpsit: dum anima est, spēs esse dīcitur."
+  },
+  {
+   "who": "F",
+   "en": "[seriously] And you're right. In spring the magpies are angry.",
+   "la": "[seriously] Et rēctē dīcis. Vēre pīcae īrātae sunt."
   },
   {
    "who": "M",

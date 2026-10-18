@@ -143,6 +143,11 @@ def run_episode(job):
     lvl, dip = job.get('music_level_db', -9), job.get('music_dip_db', 7)
     num = int(job['number']); season = int(job.get('season', 1)); slug = job['slug']; title = job['title']
     eps = json.load(open('episodes.json'))
+    pre = f's{season}e{num:02d}'
+    for e in [e for e in eps if e['file'].startswith(pre)]:   # a remake replaces the old version
+        if os.path.exists('episodes/' + e['file']):
+            os.remove('episodes/' + e['file'])
+    eps = [e for e in eps if not e['file'].startswith(pre)]
     nxt = max([e['episode'] for e in eps] + [0]) + 1
     cover = audio.make_cover('cover.jpg', f'Ep {num} · {title}', f'episodes/s{season}e{num:02d}-cover.jpg')
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=11)))
