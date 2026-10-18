@@ -1,0 +1,287 @@
+{
+ "type": "episode",
+ "number": 2,
+ "season": 1,
+ "slug": "pica-et-filius",
+ "title": "Pīca et fīlius",
+ "summary": "The walk with my son, the big hill, and a magpie with a plan. Iulia and Marcus.",
+ "voices": {
+  "F": "cvpTJfe9LINpHIOmB2Hp",
+  "M": "name:Australian man"
+ },
+ "intro_by": "F",
+ "music": "v5",
+ "repeat": 3,
+ "intro": [
+  {
+   "en": "Welcome to the conversation!",
+   "la": "Bene vēnistis ad colloquium!"
+  },
+  {
+   "en": "Today, let's talk about a walk, a little boy, and a magpie.",
+   "la": "Hodiē loquāmur dē ambulātiōne, dē puerō, dē pīcā."
+  }
+ ],
+ "lines": [
+  {
+   "who": "F",
+   "en": "Marcus! Are you walking already?",
+   "la": "Marce! Iam ambulās?"
+  },
+  {
+   "who": "M",
+   "en": "Already. And not alone.",
+   "la": "Iam. Et nōn sōlus."
+  },
+  {
+   "who": "M",
+   "en": "I'm walking with my son… with my son, yes.",
+   "la": "Cum fīlius… nōn: cum fīliō meō ambulō."
+  },
+  {
+   "who": "F",
+   "en": "With your son? How old is he?",
+   "la": "Cum fīliō tuō? Quot annōs nātus est?"
+  },
+  {
+   "who": "M",
+   "en": "Three. So we walk slowly. Very slowly.",
+   "la": "Trēs. Itaque lentē ambulāmus. Lentissimē."
+  },
+  {
+   "who": "F",
+   "en": "Is he holding your hand?",
+   "la": "Tenetne manum tuam?"
+  },
+  {
+   "who": "M",
+   "en": "No. He's pulling a little pram.",
+   "la": "Minimē. Currum puerīlem trahit."
+  },
+  {
+   "who": "F",
+   "en": "A pram? Is there a baby in it?",
+   "la": "Currum puerīlem? Estne īnfāns in eō?"
+  },
+  {
+   "who": "M",
+   "en": "No, it's empty. That's how he plays.",
+   "la": "Minimē, vacuus est. Sīc lūdit."
+  },
+  {
+   "who": "F",
+   "en": "An empty pram. Unusual, but fine.",
+   "la": "Currus vacuus. Īnsolēns est, sed bene."
+  },
+  {
+   "who": "M",
+   "en": "Unusual? You talk like my teacher in the phone.",
+   "la": "Īnsolēns? Loqueris sīcut magistra mea in telephōnō."
+  },
+  {
+   "who": "F",
+   "en": "Your teacher? Is she good?",
+   "la": "Magistra tua? Estne bona?"
+  },
+  {
+   "who": "M",
+   "en": "Very good. But she speaks too fast.",
+   "la": "Optima. Sed nimis celeriter loquitur."
+  },
+  {
+   "who": "M",
+   "en": "And she always says: in one go! Without a break!",
+   "la": "Et semper dīcit: ūnō impetū! Sine intermissiōne!"
+  },
+  {
+   "who": "F",
+   "en": "Ha! Say it again, in one go.",
+   "la": "Ha! Iterum dīc, ūnō impetū."
+  },
+  {
+   "who": "M",
+   "en": "Slower, please. Enough. Let's go on.",
+   "la": "Lentius, quaesō. Satis est. Pergāmus."
+  },
+  {
+   "who": "F",
+   "en": "Fine. Where are you two going?",
+   "la": "Bene. Quō ītis?"
+  },
+  {
+   "who": "M",
+   "en": "To the playground. Then I'll sit on a chair.",
+   "la": "Ad locum lūdōrum. Tum in sellā sedēbō."
+  },
+  {
+   "who": "F",
+   "en": "And he'll play for a little while.",
+   "la": "Et ille paulisper lūdet."
+  },
+  {
+   "who": "M",
+   "en": "Yes. And I'll rest. My whole body hurts.",
+   "la": "Ita. Et ego quiēscam. Tōtum corpus dolet."
+  },
+  {
+   "who": "F",
+   "en": "Why? Because of the walk?",
+   "la": "Cūr? Propter ambulātiōnem?"
+  },
+  {
+   "who": "M",
+   "en": "No. Because of coffee. Too much coffee.",
+   "la": "Minimē. Propter caffeam. Nimium caffeae."
+  },
+  {
+   "who": "F",
+   "en": "Ah. That's your own fault, then.",
+   "la": "Ā. Tua ipsīus culpa est."
+  },
+  {
+   "who": "M",
+   "en": "My own fault. Yes.",
+   "la": "Mea ipsīus culpa. Ita."
+  },
+  {
+   "who": "F",
+   "en": "And later? Did you walk on alone?",
+   "la": "Et posteā? Sōlus ambulāvistī?"
+  },
+  {
+   "who": "M",
+   "en": "Yes. My son stayed at home.",
+   "la": "Ita. Fīlius meus domī mānsit."
+  },
+  {
+   "who": "M",
+   "en": "I walked up the big hill.",
+   "la": "Magnum collem ascendī."
+  },
+  {
+   "who": "M",
+   "en": "And then… how do you say it… a bird. Black and white.",
+   "la": "Et tum… quōmodo dīcitur… avis. Nigra et alba."
+  },
+  {
+   "who": "F",
+   "en": "A magpie!",
+   "la": "Pīca!"
+  },
+  {
+   "who": "M",
+   "en": "Yes! A magpie. It followed me.",
+   "la": "Ita! Pīca. Mē secūta est."
+  },
+  {
+   "who": "F",
+   "en": "Really?",
+   "la": "Vērē?"
+  },
+  {
+   "who": "M",
+   "en": "Really. It flew at my head.",
+   "la": "Vērē. Ad caput meum volāvit."
+  },
+  {
+   "who": "M",
+   "en": "Once, twice, three times!",
+   "la": "Semel, bis, ter!"
+  },
+  {
+   "who": "M",
+   "en": "I shouted, and I ran. Fast.",
+   "la": "Clāmāvī et cucurrī. Celeriter."
+  },
+  {
+   "who": "F",
+   "en": "A big man runs away from a little bird!",
+   "la": "Vir magnus fugit avem parvam!"
+  },
+  {
+   "who": "M",
+   "en": "Don't laugh! It's a real danger.",
+   "la": "Nōlī rīdēre! Vērum perīculum est."
+  },
+  {
+   "who": "F",
+   "en": "In spring in Australia, the magpies are angry.",
+   "la": "Vēre in Austrāliā pīcae īrātae sunt."
+  },
+  {
+   "who": "M",
+   "en": "Yes, because they have chicks.",
+   "la": "Ita, quoniam pullōs habent."
+  },
+  {
+   "who": "F",
+   "en": "Do you remember the kangaroo?",
+   "la": "Meministīne macropodem?"
+  },
+  {
+   "who": "M",
+   "en": "Of course! A week ago a magpie attacked a kangaroo.",
+   "la": "Certē! Ante hebdomadem pīca macropodem oppugnāvit."
+  },
+  {
+   "who": "F",
+   "en": "And you laughed.",
+   "la": "Et tū rīsistī."
+  },
+  {
+   "who": "M",
+   "en": "I laughed. Today the magpie is laughing.",
+   "la": "Rīsī. Hodiē pīca rīdet."
+  },
+  {
+   "who": "F",
+   "en": "Almost right: today the magpie is laughing at you.",
+   "la": "Ferē rēctē: hodiē pīca tē rīdet."
+  },
+  {
+   "who": "M",
+   "en": "Thanks, teacher.",
+   "la": "Grātiās, magistra."
+  },
+  {
+   "who": "F",
+   "en": "And now? Are you still on the hill?",
+   "la": "Et nunc? Adhūc in colle es?"
+  },
+  {
+   "who": "M",
+   "en": "Yes, at the top. The magpie has left me.",
+   "la": "Ita, in summō. Pīca mē relīquit."
+  },
+  {
+   "who": "M",
+   "en": "Now my mind is becoming calm.",
+   "la": "Nunc mēns mea tranquilla fit."
+  },
+  {
+   "who": "F",
+   "en": "Calm. Good. Shall we go home?",
+   "la": "Tranquilla. Bene. Domum redeāmus?"
+  },
+  {
+   "who": "M",
+   "en": "Wait, I'm thinking… which road is safe?",
+   "la": "Exspectā, cōgitō… quae via tūta est?"
+  },
+  {
+   "who": "F",
+   "en": "Not that one. The magpie is waiting there.",
+   "la": "Nōn illa. Ibi pīca exspectat."
+  },
+  {
+   "who": "M",
+   "en": "Then I'll walk home… slowly, like my son.",
+   "la": "Tum domum ambulābō… lentē, sīcut fīlius meus."
+  },
+  {
+   "who": "F",
+   "en": "Goodbye, Marcus! Watch your head!",
+   "la": "Valē, Marce! Cavē caput!"
+  }
+ ]
+}
