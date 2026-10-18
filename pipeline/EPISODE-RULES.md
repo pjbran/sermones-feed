@@ -63,7 +63,7 @@ His strong words get no points. They are the glue and they come back anyway.
 
 ## 5. Fixed format
 
-- Two voices: Marcus = Patrick's own clone ("Australian man"), Iulia = the female voice.
+- Two voices: Marcus = **an Italian male voice** (from 19 Oct; Patrick's own clone felt uncanny and was half the problem, so do not use it), Iulia = Charlotte – Warm & Conversational. Before Ep 4: audition 2–3 Italian male library voices and pick one.
 - Intro by one host: *Bene vēnistis ad colloquium! Hodiē loquāmur dē …*
 - Each line: English, then Latin, same voice. Short pauses. [quickly].
 - About 50 lines (about 5 min per pass).
