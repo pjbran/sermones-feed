@@ -1,0 +1,43 @@
+name: render
+on:
+  push:
+    branches: [main]
+    paths: ['jobs/**', 'pipeline/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: render
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install -q numpy requests pillow
+      - name: Run jobs
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python pipeline/run_jobs.py
+      - name: Save results
+        if: always()
+        run: |
+          git config user.name "sermones-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Render jobs [bot]"
+            git pull --rebase -q origin main || true
+            git push
+          fi
+      - name: Rebuild the site
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true

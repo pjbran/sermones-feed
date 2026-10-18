@@ -1,0 +1,104 @@
+"""Small ElevenLabs API client (text to speech, voice library). Needs env ELEVENLABS_API_KEY."""
+import os, time, json
+import requests
+
+API = 'https://api.elevenlabs.io/v1'
+LOG = []
+
+
+def log(*a):
+    s = ' '.join(str(x) for x in a)
+    print(s, flush=True)
+    LOG.append(s)
+
+
+def _headers():
+    k = os.environ.get('ELEVENLABS_API_KEY', '').strip()
+    if not k:
+        raise RuntimeError('ELEVENLABS_API_KEY is not set (GitHub: Settings > Secrets and variables > Actions).')
+    return {'xi-api-key': k}
+
+
+def req(method, path, **kw):
+    r = None
+    for i in range(5):
+        r = requests.request(method, API + path, headers=_headers(), timeout=180, **kw)
+        if r.status_code == 429 or r.status_code >= 500:
+            time.sleep(4 * (i + 1)); continue
+        return r
+    return r
+
+
+_MODEL = None
+
+
+def pick_model():
+    """Prefer Eleven v4, then v3, then multilingual v2."""
+    global _MODEL
+    if _MODEL:
+        return _MODEL
+    want = ['eleven_v4', 'eleven_v3', 'eleven_multilingual_v2']
+    try:
+        r = req('GET', '/models')
+        if r.status_code == 200:
+            ids = [m.get('model_id') for m in r.json()]
+            log('models available:', ', '.join(i for i in ids if i))
+            for w in want:
+                if w in ids:
+                    _MODEL = w; break
+            if not _MODEL:
+                v4 = [i for i in ids if i and 'v4' in i]
+                _MODEL = v4[0] if v4 else want[1]
+        else:
+            log('models list:', r.status_code, r.text[:200]); _MODEL = want[0]
+    except Exception as e:
+        log('models list failed:', e); _MODEL = want[0]
+    log('model:', _MODEL)
+    return _MODEL
+
+
+def tts(voice_id, text, out, stability=0.2, similarity=0.75):
+    """Render one clip to an MP3 file. Falls back on stability and model when the API refuses."""
+    global _MODEL
+    model = pick_model()
+    tries = [(model, stability), (model, 0.5), ('eleven_v3', 0.5), ('eleven_multilingual_v2', 0.5)]
+    last = ''
+    for m, st in tries:
+        body = {'text': text, 'model_id': m, 'voice_settings': {'stability': st, 'similarity_boost': similarity}}
+        r = req('POST', f'/text-to-speech/{voice_id}?output_format=mp3_44100_128', json=body)
+        if r.status_code == 200 and r.content:
+            open(out, 'wb').write(r.content)
+            if m != _MODEL:
+                log('switched model to', m); _MODEL = m
+            return m
+        last = f'{r.status_code} {r.text[:300]}'
+        log(f'TTS refused ({m}, stability {st}):', last)
+        if r.status_code in (401, 403):
+            break
+    raise RuntimeError('TTS failed: ' + last)
+
+
+def my_voices():
+    r = req('GET', '/voices')
+    if r.status_code != 200:
+        log('voices list:', r.status_code, r.text[:200]); return []
+    return r.json().get('voices', [])
+
+
+def shared_voices(gender, accent='australian', n=3):
+    params = {'page_size': 40, 'gender': gender, 'accent': accent, 'language': 'en'}
+    r = req('GET', '/shared-voices', params=params)
+    if r.status_code != 200:
+        log('shared voices:', r.status_code, r.text[:200]); return []
+    vs = [v for v in r.json().get('voices', []) if 'austral' in (v.get('accent') or '').lower()]
+    vs.sort(key=lambda v: -(v.get('cloned_by_count') or 0))
+    return vs[:n]
+
+
+def add_shared(v):
+    """Add a library voice to my voices; returns the new voice id (or None)."""
+    r = req('POST', f"/voices/add/{v['public_owner_id']}/{v['voice_id']}", json={'new_name': f"{v['name']} (AU)"[:40]})
+    if r.status_code == 200:
+        return r.json().get('voice_id')
+    log('add voice failed:', v.get('name'), r.status_code, r.text[:200])
+    return None
