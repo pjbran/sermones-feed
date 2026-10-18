@@ -48,11 +48,18 @@ His strong words get no points. They are the glue and they come back anyway.
 - Same-speaker lines get a shorter gap (the renderer does this); a line can also set its own `gap` in seconds.
 - Score: count this inside "Story" and "Humour". A script that is all A-B-A-B loses 1 point.
 
+## 3b. Tone (Patrick, 19 Oct, after Ep 3: "unhinged", "condescending", "cringe")
+
+- Two relaxed friends, equals. Iulia is never the teacher; nobody corrects or "tests" the other.
+- Humour comes from the situation (magpies, the empty pram, ChatGPT itself), never from teasing Marcus.
+- No moralising and no fake debates about faith or rules ("the pub after Mass isn't holy" = banned). Opinions are light and practical.
+- Default voices: no emotion tags unless one is really needed. Calm, normal speaking.
+
 ## 4. Famous quotes (2–3 per episode)
 
 - Bible (Vulgate) and famous classical Latin that fit the scene: *Festīnā lentē* (Augustus), *Sinite parvulōs venīre ad mē* (Mark 10:14), *Dum spīrō, spērō* (motto; the idea is in Cicero).
 - In the banter, someone says the quote, the other asks *Quis hoc dīxit?* / *Scīsne unde veniat?*, then: credit it (who, which book) and explain it in simple Latin (*id est…*).
-- Never use the same quote twice in a season. The ChatGPT-teacher gag is a hit: keep it as a running joke. Used: Festīnā lentē, Sinite parvulōs venīre ad mē, Dum spīrō spērō (Ep 2); Īte missa est, In vīnō vēritās, Tū servāstī bonum vīnum ūsque adhūc (Ep 3).
+- Never use the same quote twice in a season. The ChatGPT gag works only when Marcus jokes about the app (Ep 2). It fails when Iulia copies the teacher to correct him (Ep 3). Used: Festīnā lentē, Sinite parvulōs venīre ad mē, Dum spīrō spērō (Ep 2); Īte missa est, In vīnō vēritās, Tū servāstī bonum vīnum ūsque adhūc (Ep 3).
 
 ## 5. Fixed format
 
