@@ -14,7 +14,33 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Sun, 18 Oct 2026 11:19:21 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 11:22:49 +0000</lastBuildDate>
+    <item>
+      <title>Ep 2 · Pīca et fīlius · Latin only × 3</title>
+      <description>A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Quotes: Festīnā lentē (Augustus), Sinite parvulōs venīre ad mē (Mark 10:14), Dum spīrō, spērō (Cicero's idea). Latin only. The whole dialogue 3 times.</description>
+      <itunes:summary>A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Quotes: Festīnā lentē (Augustus), Sinite parvulōs venīre ad mē (Mark 10:14), Dum spīrō, spērō (Cicero's idea). Latin only. The whole dialogue 3 times.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/s1e02b-pica-et-filius-v2.mp3" length="13141756" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-s1e02b-pica-et-filius-v2.mp3</guid>
+      <pubDate>Sun, 18 Oct 2026 22:22:49 +1100</pubDate>
+      <itunes:duration>10:50</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Ep 2 · Pīca et fīlius · English → Latin × 3</title>
+      <description>A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Quotes: Festīnā lentē (Augustus), Sinite parvulōs venīre ad mē (Mark 10:14), Dum spīrō, spērō (Cicero's idea). Each line in English, then in Latin. The whole dialogue 3 times.</description>
+      <itunes:summary>A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Quotes: Festīnā lentē (Augustus), Sinite parvulōs venīre ad mē (Mark 10:14), Dum spīrō, spērō (Cicero's idea). Each line in English, then in Latin. The whole dialogue 3 times.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/s1e02a-pica-et-filius-v2.mp3" length="25747415" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-s1e02a-pica-et-filius-v2.mp3</guid>
+      <pubDate>Sun, 18 Oct 2026 22:21:49 +1100</pubDate>
+      <itunes:duration>21:21</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Ep 1 · Mane ambulō · English → Latin × 3</title>
       <description>My morning walk. English then Latin, 3 times in a row (about 15 minutes).</description>
@@ -25,32 +51,6 @@
       <itunes:duration>15:17</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>4</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Ep 2 · Pīca et fīlius · Latin only × 3</title>
-      <description>A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Iulia and Marcus. Latin only. The whole dialogue 3 times.</description>
-      <itunes:summary>A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Iulia and Marcus. Latin only. The whole dialogue 3 times.</itunes:summary>
-      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/s1e02b-pica-et-filius.mp3" length="10986654" type="audio/mpeg"/>
-      <guid isPermaLink="false">sermones-s1e02b-pica-et-filius.mp3</guid>
-      <pubDate>Sun, 18 Oct 2026 22:19:35 +1100</pubDate>
-      <itunes:duration>9:03</itunes:duration>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>6</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Ep 2 · Pīca et fīlius · English → Latin × 3</title>
-      <description>A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Iulia and Marcus. Each line in English, then in Latin. The whole dialogue 3 times.</description>
-      <itunes:summary>A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Iulia and Marcus. Each line in English, then in Latin. The whole dialogue 3 times.</itunes:summary>
-      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/s1e02a-pica-et-filius.mp3" length="21456019" type="audio/mpeg"/>
-      <guid isPermaLink="false">sermones-s1e02a-pica-et-filius.mp3</guid>
-      <pubDate>Sun, 18 Oct 2026 22:18:35 +1100</pubDate>
-      <itunes:duration>17:46</itunes:duration>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>5</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

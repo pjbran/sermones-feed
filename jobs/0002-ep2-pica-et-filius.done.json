@@ -1,0 +1,41 @@
+{
+ "job": "jobs/0002-ep2-pica-et-filius.json",
+ "ok": true,
+ "files": [
+  "s1e02a-pica-et-filius-v2.mp3",
+  "s1e02b-pica-et-filius-v2.mp3"
+ ],
+ "log": [
+  "== job jobs/0002-ep2-pica-et-filius.json episode",
+  "voice M = Australian man H3hIaDEluHU5NQH2uxJ2",
+  "models list: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission models_read to execute this operation.\",\"status\":\"missing_permissions\",\"request",
+  "model: eleven_v4",
+  "  rendered: [quickly] [playfully] Make haste slowly, Marcus!",
+  "  rendered: [quickly] [playfully] Festīnā lentē, Marke!",
+  "  rendered: [quickly] [laughs] Make haste slowly! Who said that?",
+  "  rendered: [quickly] [laughs] Festīnā lentē! Kwis hok dīksit?",
+  "  rendered: [quickly] The emperor Augustus. He said it often.",
+  "  rendered: [quickly] Imperātor Augustus. Hok saipe dīkēbat.",
+  "  rendered: [quickly] Hurry… but slowly. Like your son.",
+  "  rendered: [quickly] Festīnā… sed lentē. Sīkut fīlius tuus.",
+  "  rendered: [quickly] You know what Jesus said? Let the little children ",
+  "  rendered: [quickly] Skīsne kwid Jēsus dīksit? Sinite parwulōs wenīre a",
+  "  rendered: [quickly] [curious] From the Gospel of Mark?",
+  "  rendered: [quickly] [curious] Eks Ēwangeliō Mārkī?",
+  "  rendered: [quickly] Yes, chapter ten. Parvulī: that is, the little one",
+  "  rendered: [quickly] Ita, kapite dekimō. Parwulī: id est, puerī parwī.",
+  "  rendered: [quickly] I was thinking… while I breathe, I hope!",
+  "  rendered: [quickly] Kōgitābam… dum spīrō, spērō!",
+  "  rendered: [quickly] [still laughing] Sorry, sorry. Dum spīrō, spērō… d",
+  "  rendered: [quickly] [still laughing] Ignōske, ignōske. Dum spīrō, spēr",
+  "  rendered: [quickly] No. Tell me.",
+  "  rendered: [quickly] Neskiō. Dīk mihi.",
+  "  rendered: [quickly] It's an old motto. Cicero wrote: while there's lif",
+  "  rendered: [quickly] Wetus diktum est. Kikerō skrīpsit: dum anima est, ",
+  "  rendered: [quickly] [seriously] And you're right. In spring the magpie",
+  "  rendered: [quickly] [seriously] Et rēktē dīkis. Wēre pīkai īrātai sunt",
+  "built s1e02a-pica-et-filius-v2.mp3 21.4 min",
+  "built s1e02b-pica-et-filius-v2.mp3 10.8 min"
+ ],
+ "at": "2026-10-18T11:22:49+00:00"
+}
