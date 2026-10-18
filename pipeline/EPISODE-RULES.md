@@ -37,13 +37,9 @@ His strong words get no points. They are the glue and they come back anyway.
 - **Never say a wrong form.** "Self-correction" = a pause while thinking for a word: *Cum… [short pause] cum fīliō meō.*
 - **Clarify for yourself**: *Id est…* / *Hoc est, …* / *Sīve…* (the same say-it-again moves ChatGPT uses).
 - **Real reactions**: laughs, teasing, *Ecce!*, *Euge!*, *Minimē!*, *Quid?!*
-- **Emotion = "podcast level" (Rogan/Peterson), about 20% of what ElevenLabs does by default.** (Researched 19 Oct.)
-  - **Stability 0.5 ("Natural")**, now the renderer default. Low stability (0.2) makes tags extreme and breathy.
-  - **Tags on about 1 line in 4**, not on most lines. Let the words and punctuation carry the feeling ("…" for a thinking pause, "?" for curiosity). Use few "!" and no CAPITALS.
-  - **Write mild tags in plain words** (v4 accepts free text): [lightly amused], [quietly amused], [light chuckle], [matter-of-fact], [a little more serious], [dry], [relaxed], [curious], [thoughtful], [hesitates], [short pause].
-  - **Put a laugh mid-line, after the funny word** ("Cum petasō… [light chuckle]"). A tag at the start colours the whole line.
-  - No more than 1 tag per line. Never stack tags, and never use [laughing], [excited], [indignant] or [panicked] (too big).
-  - **BANNED: anything breathy.** No [sighs], [exhales], [inhales], [gasps], [groans], [panting], [softly], [whispers], [gently], [calmly], [warmly]. Patrick (19 Oct): Ep 2's breaths sound "pseudo-erotic" and are very distracting. Ep 2 stays as it is.
+- **NO emotion tags at all** (19 Oct). Patrick: the custom directions make the speakers "sound like they're on drugs". Ep 2 and Ep 3 used them and were deleted.
+- **Ep 1 is the benchmark**: no tags, ElevenLabs Dialogue mode (the whole conversation in one go), plain natural speech. Match Ep 1.
+- Breathy sounds are removed automatically (audio.debreath).
 - **B1–C1 talk, with his words**: opinions (*Meā sententiā…*, *Putō…*, *Quid māvīs?*, *Cūr id putās?*), agree and disagree (*Vērē dīcis*, *Tamen…*), reasons (*quia, quoniam*), a small debate that the story settles at the end.
 - Same-speaker lines get a shorter gap (the renderer does this); a line can also set its own `gap` in seconds.
 - Score: count this inside "Story" and "Humour". A script that is all A-B-A-B loses 1 point.
@@ -59,7 +55,7 @@ His strong words get no points. They are the glue and they come back anyway.
 
 - Bible (Vulgate) and famous classical Latin that fit the scene: *Festīnā lentē* (Augustus), *Sinite parvulōs venīre ad mē* (Mark 10:14), *Dum spīrō, spērō* (motto; the idea is in Cicero).
 - In the banter, someone says the quote, the other asks *Quis hoc dīxit?* / *Scīsne unde veniat?*, then: credit it (who, which book) and explain it in simple Latin (*id est…*).
-- Never use the same quote twice in a season. The ChatGPT gag works only when Marcus jokes about the app (Ep 2). It fails when Iulia copies the teacher to correct him (Ep 3). Used: Festīnā lentē, Sinite parvulōs venīre ad mē, Dum spīrō spērō (Ep 2); Īte missa est, In vīnō vēritās, Tū servāstī bonum vīnum ūsque adhūc (Ep 3).
+- Never use the same quote twice in a season. The ChatGPT gag works only when Marcus jokes about the app (Ep 2). It fails when Iulia copies the teacher to correct him (Ep 3). (Ep 2 and 3 were deleted, so all quotes are free to use again.)
 
 ## 5. Fixed format
 

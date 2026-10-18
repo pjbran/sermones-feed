@@ -14,59 +14,7 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Sun, 18 Oct 2026 23:41:04 +0000</lastBuildDate>
-    <item>
-      <title>Ep 3 · Post Missam ad tabernam · Latin only × 3</title>
-      <description>Sunday: Mass with the family, then the pub, where Marcus drinks only water. Is the pub after Mass a good custom? Quotes: Īte, missa est (end of the Latin Mass), In vīnō vēritās (old proverb; Pliny the Elder), Tū servāstī bonum vīnum ūsque adhūc (John 2:10). Latin only. The whole dialogue 3 times.</description>
-      <itunes:summary>Sunday: Mass with the family, then the pub, where Marcus drinks only water. Is the pub after Mass a good custom? Quotes: Īte, missa est (end of the Latin Mass), In vīnō vēritās (old proverb; Pliny the Elder), Tū servāstī bonum vīnum ūsque adhūc (John 2:10). Latin only. The whole dialogue 3 times.</itunes:summary>
-      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/s1e03b-post-missam-ad-tabernam-v2.mp3" length="9101467" type="audio/mpeg"/>
-      <guid isPermaLink="false">sermones-s1e03b-post-missam-ad-tabernam-v2.mp3</guid>
-      <pubDate>Mon, 19 Oct 2026 10:41:26 +1100</pubDate>
-      <itunes:duration>7:28</itunes:duration>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>12</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Ep 2 · Pīca et fīlius · Latin only × 3</title>
-      <description>A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Quotes: Festīnā lentē (Augustus), Sinite parvulōs venīre ad mē (Mark 10:14), Dum spīrō, spērō (Cicero's idea). Latin only. The whole dialogue 3 times.</description>
-      <itunes:summary>A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Quotes: Festīnā lentē (Augustus), Sinite parvulōs venīre ad mē (Mark 10:14), Dum spīrō, spērō (Cicero's idea). Latin only. The whole dialogue 3 times.</itunes:summary>
-      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/s1e02b-pica-et-filius-v3.mp3" length="11367521" type="audio/mpeg"/>
-      <guid isPermaLink="false">sermones-s1e02b-pica-et-filius-v3.mp3</guid>
-      <pubDate>Mon, 19 Oct 2026 10:40:28 +1100</pubDate>
-      <itunes:duration>9:22</itunes:duration>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>10</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Ep 3 · Post Missam ad tabernam · English → Latin × 3</title>
-      <description>Sunday: Mass with the family, then the pub, where Marcus drinks only water. Is the pub after Mass a good custom? Quotes: Īte, missa est (end of the Latin Mass), In vīnō vēritās (old proverb; Pliny the Elder), Tū servāstī bonum vīnum ūsque adhūc (John 2:10). Each line in English, then in Latin. The whole dialogue 3 times.</description>
-      <itunes:summary>Sunday: Mass with the family, then the pub, where Marcus drinks only water. Is the pub after Mass a good custom? Quotes: Īte, missa est (end of the Latin Mass), In vīnō vēritās (old proverb; Pliny the Elder), Tū servāstī bonum vīnum ūsque adhūc (John 2:10). Each line in English, then in Latin. The whole dialogue 3 times.</itunes:summary>
-      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/s1e03a-post-missam-ad-tabernam-v2.mp3" length="17902652" type="audio/mpeg"/>
-      <guid isPermaLink="false">sermones-s1e03a-post-missam-ad-tabernam-v2.mp3</guid>
-      <pubDate>Mon, 19 Oct 2026 10:40:26 +1100</pubDate>
-      <itunes:duration>14:48</itunes:duration>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>11</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Ep 2 · Pīca et fīlius · English → Latin × 3</title>
-      <description>A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Quotes: Festīnā lentē (Augustus), Sinite parvulōs venīre ad mē (Mark 10:14), Dum spīrō, spērō (Cicero's idea). Each line in English, then in Latin. The whole dialogue 3 times.</description>
-      <itunes:summary>A slow walk with my son, a real question (alone or with the kids?), and a magpie with a plan. Quotes: Festīnā lentē (Augustus), Sinite parvulōs venīre ad mē (Mark 10:14), Dum spīrō, spērō (Cicero's idea). Each line in English, then in Latin. The whole dialogue 3 times.</itunes:summary>
-      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/s1e02a-pica-et-filius-v3.mp3" length="22564134" type="audio/mpeg"/>
-      <guid isPermaLink="false">sermones-s1e02a-pica-et-filius-v3.mp3</guid>
-      <pubDate>Mon, 19 Oct 2026 10:39:28 +1100</pubDate>
-      <itunes:duration>18:42</itunes:duration>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>9</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
+    <lastBuildDate>Sun, 18 Oct 2026 23:52:10 +0000</lastBuildDate>
     <item>
       <title>Ep 1 · Mane ambulō · English → Latin × 3</title>
       <description>My morning walk. English then Latin, 3 times in a row (about 15 minutes).</description>
