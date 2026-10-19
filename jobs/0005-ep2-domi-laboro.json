@@ -1,0 +1,293 @@
+{
+ "type": "episode",
+ "mode": "dialogue",
+ "number": 2,
+ "season": 1,
+ "slug": "domi-laboro",
+ "title": "Domī labōrō",
+ "summary": "Working from home: getting up late, the kids after school, a client meeting tomorrow. Home or the city: which is better? Quotes: Festīnā lentē (Augustus), Venīte ad mē omnēs quī labōrātis (Matthew 11:28), Carpe diem (Horace, Odes 1.11).",
+ "voices": {
+  "F": "name:Rossana",
+  "M": "name:Australian man"
+ },
+ "intro_by": "F",
+ "music": "v5",
+ "repeat": 3,
+ "intro": [
+  {
+   "en": "Welcome to the conversation!",
+   "la": "Bene vēnistis ad colloquium!"
+  },
+  {
+   "en": "Today, let's talk about working from home.",
+   "la": "Hodiē loquāmur dē labōre domī."
+  }
+ ],
+ "lines": [
+  {
+   "who": "F",
+   "en": "Hi Marcus. How was your day?",
+   "la": "Salvē, Marce. Quōmodo fuit diēs tuus?"
+  },
+  {
+   "who": "M",
+   "en": "Good, thanks. I worked at home today.",
+   "la": "Bonus, grātiās. Hodiē domī labōrāvī."
+  },
+  {
+   "who": "F",
+   "en": "At home again? Not in the city?",
+   "la": "Iterum domī? Nōn in urbe?"
+  },
+  {
+   "who": "M",
+   "en": "No. I prefer working at home.",
+   "la": "Minimē. Domī labōrāre mālō."
+  },
+  {
+   "who": "M",
+   "en": "I work near my family. I like that.",
+   "la": "Prope familiam meam labōrō. Hoc mihi placet."
+  },
+  {
+   "who": "F",
+   "en": "What time did you get up?",
+   "la": "Quandō surrēxistī?"
+  },
+  {
+   "who": "M",
+   "en": "Late, honestly. At eight.",
+   "la": "Sērō, vērē. Hōrā octāvā."
+  },
+  {
+   "who": "M",
+   "en": "In the city I have to get up at six.",
+   "la": "In urbe hōrā sextā surgere dēbeō."
+  },
+  {
+   "who": "F",
+   "en": "So you sleep two hours longer.",
+   "la": "Ergō duābus hōrīs diūtius dormīs."
+  },
+  {
+   "who": "M",
+   "en": "Exactly. That's why I work at home.",
+   "la": "Ita. Ideō domī labōrō."
+  },
+  {
+   "who": "F",
+   "en": "And the kids? Weren't they at school?",
+   "la": "Et līberī? Nōnne in lūdō erant?"
+  },
+  {
+   "who": "M",
+   "en": "Yes, they were at school until three.",
+   "la": "Ita, in lūdō erant ūsque ad hōram tertiam."
+  },
+  {
+   "who": "M",
+   "en": "Then they came home, and I saw them.",
+   "la": "Deinde domum rediērunt, et eōs vīdī."
+  },
+  {
+   "who": "M",
+   "en": "I was glad, because I like seeing my family.",
+   "la": "Gāvīsus sum, quia familiam meam vidēre mihi placet."
+  },
+  {
+   "who": "F",
+   "en": "That's nice. In the city, you wouldn't see them.",
+   "la": "Pulchrum est. In urbe eōs nōn vidērēs."
+  },
+  {
+   "who": "M",
+   "en": "No. I'd get home at seven. Tired.",
+   "la": "Minimē. Hōrā septimā domum redīrem. Fessus."
+  },
+  {
+   "who": "F",
+   "en": "What are you doing at work this week?",
+   "la": "Quid hāc hebdomade in labōre agis?"
+  },
+  {
+   "who": "M",
+   "en": "I'm making a game for a client. A big project.",
+   "la": "Lūdum prō cliente faciō. Magnum inceptum."
+  },
+  {
+   "who": "M",
+   "en": "Tomorrow I have a meeting with the client.",
+   "la": "Crās conventum cum cliente habeō."
+  },
+  {
+   "who": "F",
+   "en": "Are you ready?",
+   "la": "Parātusne es?"
+  },
+  {
+   "who": "M",
+   "en": "Almost. I still have a lot of work.",
+   "la": "Paene. Adhūc multum labōris habeō."
+  },
+  {
+   "who": "M",
+   "en": "And so… I have to hurry.",
+   "la": "Itaque… festīnāre dēbeō."
+  },
+  {
+   "who": "F",
+   "en": "Make haste slowly, Marcus.",
+   "la": "Festīnā lentē, Marce."
+  },
+  {
+   "who": "M",
+   "en": "Make haste slowly… who said that? I can't remember.",
+   "la": "Festīnā lentē… quis hoc dīxit? Nōn meminī."
+  },
+  {
+   "who": "F",
+   "en": "The emperor Augustus. He said it often.",
+   "la": "Imperātor Augustus. Hoc saepe dīcēbat."
+  },
+  {
+   "who": "F",
+   "en": "That is: work quickly, but carefully.",
+   "la": "Id est: celeriter labōrā, sed cum cūrā."
+  },
+  {
+   "who": "M",
+   "en": "Good advice. For an emperor, and for me.",
+   "la": "Bonum cōnsilium. Imperātōrī, et mihi."
+  },
+  {
+   "who": "F",
+   "en": "Can I ask you something? Home or the city: which is better?",
+   "la": "Licetne rogāre? Domus an urbs: utra melior est?"
+  },
+  {
+   "who": "M",
+   "en": "Hmm… good question.",
+   "la": "Hmm… bona quaestiō."
+  },
+  {
+   "who": "M",
+   "en": "At home I work alone, and it's quiet.",
+   "la": "Domī sōlus et tranquillē labōrō."
+  },
+  {
+   "who": "M",
+   "en": "But sometimes I'm too alone. I don't talk to anyone.",
+   "la": "Sed interdum nimis sōlus sum. Cum nūllō loquor."
+  },
+  {
+   "who": "F",
+   "en": "And in the city?",
+   "la": "Et in urbe?"
+  },
+  {
+   "who": "M",
+   "en": "In the city I see my colleagues. We talk, we laugh.",
+   "la": "In urbe collēgās meōs videō. Loquimur, rīdēmus."
+  },
+  {
+   "who": "M",
+   "en": "But the trip takes an hour. Every day.",
+   "la": "Sed iter hōram postulat. Cotīdiē."
+  },
+  {
+   "who": "F",
+   "en": "So for you, home is better?",
+   "la": "Ergō tibi domus melior est?"
+  },
+  {
+   "who": "M",
+   "en": "Yes, I think so. But not every day.",
+   "la": "Ita putō. Sed nōn omnī diē."
+  },
+  {
+   "who": "M",
+   "en": "Two days in the city, three at home. That's my plan.",
+   "la": "Duōs diēs in urbe, trēs domī. Hoc est cōnsilium meum."
+  },
+  {
+   "who": "F",
+   "en": "A wise plan.",
+   "la": "Cōnsilium sapiēns."
+  },
+  {
+   "who": "F",
+   "en": "And this evening? What will you do?",
+   "la": "Et hodiē vesperī? Quid faciēs?"
+  },
+  {
+   "who": "M",
+   "en": "I'm very tired. I'll sit with my wife.",
+   "la": "Valdē fessus sum. Cum uxōre meā sedēbō."
+  },
+  {
+   "who": "M",
+   "en": "Maybe we'll drink a little wine.",
+   "la": "Fortasse paulum vīnī bibēmus."
+  },
+  {
+   "who": "F",
+   "en": "You've earned it. Do you know what Jesus says?",
+   "la": "Hoc meruistī. Scīsne quid Iēsus dīcit?"
+  },
+  {
+   "who": "F",
+   "en": "Come to me, all you who labour, and I will refresh you.",
+   "la": "Venīte ad mē omnēs quī labōrātis, et ego reficiam vōs."
+  },
+  {
+   "who": "M",
+   "en": "Is that from the Gospel of Matthew?",
+   "la": "Estne ex Ēvangeliō Matthaeī?"
+  },
+  {
+   "who": "F",
+   "en": "Yes, chapter eleven. Reficiam: that is, I will give you strength again.",
+   "la": "Ita, capite ūndecimō. Reficiam: id est, vīrēs vōbīs reddam."
+  },
+  {
+   "who": "M",
+   "en": "I like that. Today I really need it.",
+   "la": "Hoc mihi placet. Hodiē hōc maximē egeō."
+  },
+  {
+   "who": "F",
+   "en": "And tomorrow, the meeting. Seize the day!",
+   "la": "Et crās, conventus. Carpe diem!"
+  },
+  {
+   "who": "M",
+   "en": "Carpe diem… Horace wrote that?",
+   "la": "Carpe diem… Horātius hoc scrīpsit?"
+  },
+  {
+   "who": "F",
+   "en": "Yes, in his Odes. Use this day well; don't trust tomorrow.",
+   "la": "Ita, in Carminibus. Hōc diē bene ūtere; nōlī crāstinō crēdere."
+  },
+  {
+   "who": "M",
+   "en": "Don't trust tomorrow… but I have a meeting tomorrow!",
+   "la": "Nōlī crāstinō crēdere… sed crās conventum habeō!"
+  },
+  {
+   "who": "F",
+   "en": "Then carpe diem: finish your work today.",
+   "la": "Ergō carpe diem: hodiē opus tuum fīnī."
+  },
+  {
+   "who": "M",
+   "en": "Fine. I'll finish it today. Goodbye, Iulia!",
+   "la": "Bene. Hodiē id fīniam. Valē, Iūlia!"
+  },
+  {
+   "who": "F",
+   "en": "Goodbye, Marcus. Good luck tomorrow!",
+   "la": "Valē, Marce. Crās tibi bona fortūna sit!"
+  }
+ ]
+}

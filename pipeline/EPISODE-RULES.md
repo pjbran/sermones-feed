@@ -39,7 +39,7 @@ His strong words get no points. They are the glue and they come back anyway.
 - **Real reactions**: laughs, teasing, *Ecce!*, *Euge!*, *Minimē!*, *Quid?!*
 - **NO emotion tags at all** (19 Oct). Patrick: the custom directions make the speakers "sound like they're on drugs". Ep 2 and Ep 3 used them and were deleted.
 - **Ep 1 is the benchmark**: no tags, ElevenLabs Dialogue mode (the whole conversation in one go), plain natural speech. Match Ep 1.
-- Breathy sounds are removed automatically (audio.debreath).
+- No breath cutter (it made hard snips at line ends, 19 Oct). Soft cuts as in Ep 1.
 - **B1–C1 talk, with his words**: opinions (*Meā sententiā…*, *Putō…*, *Quid māvīs?*, *Cūr id putās?*), agree and disagree (*Vērē dīcis*, *Tamen…*), reasons (*quia, quoniam*), a small debate that the story settles at the end.
 - Same-speaker lines get a shorter gap (the renderer does this); a line can also set its own `gap` in seconds.
 - Score: count this inside "Story" and "Humour". A script that is all A-B-A-B loses 1 point.
@@ -57,12 +57,11 @@ His strong words get no points. They are the glue and they come back anyway.
 - In the banter, someone says the quote, the other asks *Quis hoc dīxit?* / *Scīsne unde veniat?*, then: credit it (who, which book) and explain it in simple Latin (*id est…*).
 - Never use the same quote twice in a season. The ChatGPT gag works only when Marcus jokes about the app (Ep 2). It fails when Iulia copies the teacher to correct him (Ep 3). (Ep 2 and 3 were deleted, so all quotes are free to use again.)
 
-## 5. Fixed format
+## 5. Fixed format (back to the Ep 1 recipe, confirmed 19 Oct)
 
-- Two voices: Marcus = **an Italian male voice** (from 19 Oct; Patrick's own clone felt uncanny and was half the problem, so do not use it), Iulia = Charlotte – Warm & Conversational. Before Ep 4: audition 2–3 Italian male library voices and pick one.
+- Voices: Marcus = Patrick's clone "Australian man", Iulia = "Rossana – Warm Italian Conversational" (exactly as Ep 1).
+- Job `"mode": "dialogue"`: the whole English conversation and the whole Latin conversation are each rendered in one go (ElevenLabs text-to-dialogue with timestamps, chunks under 1,800 characters), then cut softly at the given times and stitched English → Latin.
+- No emotion tags, no [quickly], stability 0.2 (as Ep 1). Pauses 0.5 s after the English, 0.8 s before the next line (Ep 1); Latin only 0.35 s.
 - Intro by one host: *Bene vēnistis ad colloquium! Hodiē loquāmur dē …*
-- Each line: English, then Latin, same voice. Short pauses. [quickly].
-- About 50 lines (about 5 min per pass).
-- Music bed: V5 at -7 dB (raised 2 dB on 19 Oct; Patrick could barely hear it).
-- Tracks: **a = English → Latin × 3**, **b = Latin only × 3** (about 15 min each).
-- After each episode, update a "heard" list, so the next one picks new weak words.
+- About 50 lines. Music: V5 Hammock at -7 dB (2 dB above Ep 1).
+- Tracks: **a = English → Latin × 3**, **b = Latin only × 3**.

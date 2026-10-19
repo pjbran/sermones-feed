@@ -26,7 +26,7 @@ def clip(voice, text, stability=0.2):
         os.makedirs('clips', exist_ok=True)
         el.tts(voice, text, p, stability=stability)
         log('  rendered:', text[:60])
-    return audio.debreath(audio.norm(audio.load(p)))  # breaths and 'hah' exhales removed (19 Oct)
+    return audio.norm(audio.trim(audio.load(p)))  # (debreath removed 19 Oct: it made hard snips)
 
 
 def fast(t, on=True):
@@ -159,6 +159,57 @@ def per_line_cached(V, seq, gaps, st):
     return audio.sequence(list(zip(clips, gaps)), lead=0.2, tail=0.2)[0]
 
 
+# ---------------- dialogue mode (the Episode 1 recipe) ----------------
+def render_dialogue(seq, st):
+    """One ElevenLabs dialogue render (whole conversation in one go) with exact times per input.
+    seq: [(voice_id, text)]. Cached in clips/d-<hash>.mp3 + .json."""
+    import base64
+    h = hashlib.sha1(json.dumps([seq, st], ensure_ascii=False).encode()).hexdigest()[:16]
+    mp3, js = f'clips/d-{h}.mp3', f'clips/d-{h}.json'
+    if not (os.path.exists(mp3) and os.path.exists(js)):
+        os.makedirs('clips', exist_ok=True)
+        last = ''
+        for model, stab in (('eleven_v4', st), ('eleven_v4', 0.5), ('eleven_v3', 0.5)):
+            body = {'inputs': [{'text': t, 'voice_id': v} for v, t in seq], 'model_id': model, 'settings': {'stability': stab}}
+            r = el.req('POST', '/text-to-dialogue/with-timestamps?output_format=mp3_44100_128', json=body)
+            if r.status_code == 200:
+                d = r.json()
+                open(mp3, 'wb').write(base64.b64decode(d['audio_base64']))
+                json.dump({'model': model, 'stability': stab, 'segments': d.get('voice_segments', [])}, open(js, 'w'))
+                log('  dialogue rendered:', model, stab, len(seq), 'inputs')
+                break
+            last = f'{r.status_code} {r.text[:300]}'; log('dialogue refused', model, stab, last)
+        else:
+            raise RuntimeError('Dialogue render failed: ' + last)
+    x = audio.load(mp3); segs = json.load(open(js))['segments']
+    spans = []
+    for i in range(len(seq)):
+        ss = [g for g in segs if g.get('dialogue_input_index') == i]
+        if not ss:
+            raise RuntimeError(f'No timing for dialogue input {i}: {seq[i][1][:40]}')
+        spans.append((min(g['start_time_seconds'] for g in ss), max(g['end_time_seconds'] for g in ss)))
+    out = []
+    for i, (a, b) in enumerate(spans):   # soft edges, as in Episode 1 (no hard snips)
+        gp = a - spans[i - 1][1] if i else 1.0
+        gn = spans[i + 1][0] - b if i + 1 < len(spans) else 1.0
+        pre = min(0.06, max(0.0, gp - 0.05)); post = min(0.18, max(0.02, gn - 0.06))
+        seg = x[max(0, int((a - pre) * audio.SR)):min(len(x), int((b + post) * audio.SR))]
+        out.append(audio.fade(audio.norm(seg), 12))
+    return out
+
+
+def dialogue_clips(seq, st, max_chars=1800):
+    """Split a long conversation into renders under the API's ~2,000 character limit (at line breaks)."""
+    out, chunk, n = [], [], 0
+    for item in seq:
+        if chunk and n + len(item[1]) > max_chars:
+            out += render_dialogue(chunk, st); chunk, n = [], 0
+        chunk.append(item); n += len(item[1])
+    if chunk:
+        out += render_dialogue(chunk, st)
+    return out
+
+
 # ---------------- episode ----------------
 def resolve_voices(V):
     """Turn "name:Australian man" into a voice ID (exact, case-sensitive name in My Voices)."""
@@ -168,7 +219,8 @@ def resolve_voices(V):
     out = {}
     for k, v in V.items():
         if str(v).startswith('name:'):
-            hit = [m['voice_id'] for m in mine if m.get('name') == v[5:]]
+            hit = [m['voice_id'] for m in mine if m.get('name') == v[5:]] or \
+                  [m['voice_id'] for m in mine if m.get('name', '').startswith(v[5:])][:1]
             if not hit:
                 raise RuntimeError(f'Voice "{v[5:]}" not found. My voices: ' + ', '.join(m.get('name', '?') for m in mine))
             out[k] = hit[0]; log('voice', k, '=', v[5:], hit[0])
@@ -198,12 +250,27 @@ def run_episode(job):
         return clip(V[who], fast(en, q), st)
 
     A, B = [], []
+    if job.get('mode') == 'dialogue':   # the Episode 1 recipe: whole conversation in one go, cut softly
+        pe, pl = job.get('pause_after_english', 0.5), job.get('pause_before_next', 0.8)
+        st = job.get('stability', 0.2)
+        IN = dialogue_clips([x for it in intro for x in ((V[host], it['en']), (V[host], smart(it['la'])))], st) if intro else []
+        EN = dialogue_clips([(V[ln['who']], ln['en']) for ln in lines], st)
+        LA = dialogue_clips([(V[ln['who']], smart(ln['la'])) for ln in lines], st)
+        for i in range(len(intro)):
+            A += [(IN[2 * i], pe), (IN[2 * i + 1], pl * (1.5 if i == len(intro) - 1 else 1))]
+            B += [(IN[2 * i + 1], pl)]
+        for i in range(len(lines)):
+            A += [(EN[i], pe), (LA[i], pl)]
+            B += [(LA[i], plat)]
+        intro, lines_iter = [], []
+    else:
+        lines_iter = lines
     for i, it in enumerate(intro):
         A += [(E(host, it['en']), pe), (L(host, it['la']), pl * (1.4 if i == len(intro) - 1 else 1))]
         B += [(L(host, it['la']), pl)]
-    for i, ln in enumerate(lines):
+    for i, ln in enumerate(lines_iter):
         # same speaker goes on (a long turn, thinking for a word): a shorter gap; a line can set its own "gap"
-        same = i + 1 < len(lines) and lines[i + 1]['who'] == ln['who']
+        same = i + 1 < len(lines_iter) and lines_iter[i + 1]['who'] == ln['who']
         g = ln.get('gap', pl * 0.6 if same else pl)
         A += [(E(ln['who'], ln['en']), pe), (L(ln['who'], ln['la']), g)]
         B += [(L(ln['who'], ln['la']), ln.get('gap', plat * 0.7 if same else plat))]
