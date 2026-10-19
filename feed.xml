@@ -14,7 +14,33 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Sun, 18 Oct 2026 23:52:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 00:11:37 +0000</lastBuildDate>
+    <item>
+      <title>Ep 2 · Domī labōrō · Latin only × 3</title>
+      <description>Working from home: getting up late, the kids after school, a client meeting tomorrow. Home or the city: which is better? Quotes: Festīnā lentē (Augustus), Venīte ad mē omnēs quī labōrātis (Matthew 11:28), Carpe diem (Horace, Odes 1.11). Latin only. The whole dialogue 3 times.</description>
+      <itunes:summary>Working from home: getting up late, the kids after school, a client meeting tomorrow. Home or the city: which is better? Quotes: Festīnā lentē (Augustus), Venīte ad mē omnēs quī labōrātis (Matthew 11:28), Carpe diem (Horace, Odes 1.11). Latin only. The whole dialogue 3 times.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/s1e02b-domi-laboro.mp3" length="11122505" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-s1e02b-domi-laboro.mp3</guid>
+      <pubDate>Mon, 19 Oct 2026 11:11:49 +1100</pubDate>
+      <itunes:duration>9:09</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Ep 2 · Domī labōrō · English → Latin × 3</title>
+      <description>Working from home: getting up late, the kids after school, a client meeting tomorrow. Home or the city: which is better? Quotes: Festīnā lentē (Augustus), Venīte ad mē omnēs quī labōrātis (Matthew 11:28), Carpe diem (Horace, Odes 1.11). Each line in English, then in Latin. The whole dialogue 3 times.</description>
+      <itunes:summary>Working from home: getting up late, the kids after school, a client meeting tomorrow. Home or the city: which is better? Quotes: Festīnā lentē (Augustus), Venīte ad mē omnēs quī labōrātis (Matthew 11:28), Carpe diem (Horace, Odes 1.11). Each line in English, then in Latin. The whole dialogue 3 times.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/s1e02a-domi-laboro.mp3" length="22832164" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-s1e02a-domi-laboro.mp3</guid>
+      <pubDate>Mon, 19 Oct 2026 11:10:49 +1100</pubDate>
+      <itunes:duration>18:55</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Ep 1 · Mane ambulō · English → Latin × 3</title>
       <description>My morning walk. English then Latin, 3 times in a row (about 15 minutes).</description>
