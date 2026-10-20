@@ -1,0 +1,43 @@
+{
+ "type": "test",
+ "name": "cheap-models",
+ "stability": 0.5,
+ "dialogue_stability": 0.2,
+ "variants": [
+  "v4_dialogue",
+  "flash_lines",
+  "turbo_lines"
+ ],
+ "lines": [
+  {
+   "who": "F",
+   "en": "Hi Marcus. What did you do last night?",
+   "la": "Salvē, Marce. Quid herī vesperī fēcistī?"
+  },
+  {
+   "who": "M",
+   "en": "Last night? First, a battle with my son.",
+   "la": "Herī vesperī? Prīmum, proelium cum fīliō meō."
+  },
+  {
+   "who": "F",
+   "en": "Madidus? What does it mean?",
+   "la": "Madidus? Quid significat?"
+  },
+  {
+   "who": "M",
+   "en": "That is: full of water, like after a bath.",
+   "la": "Id est: plēnus aquae, sīcut post balneum."
+  },
+  {
+   "who": "M",
+   "en": "Yes. Cheese is very dear to my wife.",
+   "la": "Ita. Cāseus uxōrī meae valdē cārus est."
+  },
+  {
+   "who": "M",
+   "en": "We sing it at Mass. And after Mass, we have lunch!",
+   "la": "Hoc in Missā cantāmus. Et post Missam, prandēmus!"
+  }
+ ]
+}

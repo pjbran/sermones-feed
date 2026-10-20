@@ -95,7 +95,7 @@ def run_test(job):
         audio.save_mp3(audio.np.concatenate([audio.sil(0.4), x, audio.sil(0.6)]), f, {'title': label})
         rows.append((label, os.path.basename(f))); log('test ok:', label)
 
-    def per_line(model, ctx=False, quick=False):
+    def per_line(model, ctx=False, quick=False, cut=True):
         clips = []
         for i, (w, t, la) in enumerate(seq):
             txt = ('[quickly] ' + t) if quick else t
@@ -110,7 +110,8 @@ def run_test(job):
                 if r.status_code != 200:
                     raise RuntimeError(f'{model}: {r.status_code} {r.text[:200]}')
                 open(p, 'wb').write(r.content)
-            clips.append(audio.debreath(audio.norm(audio.load(p))))
+            y = audio.norm(audio.load(p))
+            clips.append(audio.debreath(y) if cut else y)
         return audio.sequence(list(zip(clips, gaps)), lead=0.2, tail=0.2)[0]
 
     variants = job.get('variants', ['v4_lines', 'v4_dialogue', 'v2_lines'])
@@ -128,14 +129,20 @@ def run_test(job):
                 x = None
                 for model in ('eleven_v4', 'eleven_v3'):
                     body = {'inputs': [{'text': t, 'voice_id': V[w]} for w, t, la in seq], 'model_id': model,
-                            'settings': {'stability': st}}
+                            'settings': {'stability': job.get('dialogue_stability', st)}}
                     r = el.req('POST', '/text-to-dialogue?output_format=mp3_44100_128', json=body)
                     if r.status_code == 200:
                         p = f'{out_dir}/raw-dialogue-{model}.mp3'; open(p, 'wb').write(r.content)
-                        x = audio.debreath(audio.norm(audio.load(p)), max_gap=0.55); used = model; break
+                        x = audio.norm(audio.load(p)); x = x if job.get('dialogue_stability') else audio.debreath(x, max_gap=0.55); used = model; break
                     log('dialogue refused', model, r.status_code, r.text[:200])
                 if x is not None:
-                    save(x, 'c-dialogue', f'C · Whole conversation in one go ({used} dialogue), breaths cut')
+                    save(x, 'c-dialogue', f'NOW · {used} Dialogue mode (as the episodes) · full price' if job.get('dialogue_stability') else f'C · Whole conversation in one go ({used} dialogue), breaths cut')
+            elif v == 'flash_lines':  # 20 Oct: the half-price models (0.5 credits a character), no breath cutter
+                save(per_line('eleven_flash_v2_5', ctx=True, cut=False), 'e-flash', 'Flash v2.5 · HALF PRICE · line by line')
+            elif v == 'turbo_lines':
+                save(per_line('eleven_turbo_v2_5', ctx=True, cut=False), 'f-turbo', 'Turbo v2.5 · HALF PRICE · line by line')
+            elif v == 'v2_plain':
+                save(per_line('eleven_multilingual_v2', ctx=True, cut=False), 'g-v2', 'Multilingual v2 · full price · line by line')
             elif v == 'v2_lines':
                 save(per_line('eleven_multilingual_v2', ctx=True), 'd-v2-lines', 'D · Calm narration model (Multilingual v2), line by line, breaths cut')
         except Exception as e:
