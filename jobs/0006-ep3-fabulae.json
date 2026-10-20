@@ -1,0 +1,383 @@
+{
+ "type": "episode",
+ "mode": "dialogue",
+ "number": 3,
+ "season": 1,
+ "slug": "fabulae",
+ "title": "Fābulae",
+ "summary": "Latin stories about the family: a son who won't sleep, a wet dog, the cheese Marcus always forgets, and two daughters who find out they're in the stories. Easy stories or hard ones: which are better? Then Christmas and the Nativity. Quotes: Sinite parvulōs venīre ad mē (Mark 10:14), Glōria in altissimīs Deō (Luke 2:14).",
+ "voices": {
+  "F": "name:Rossana",
+  "M": "name:Australian man"
+ },
+ "intro_by": "F",
+ "music": "v5",
+ "repeat": 3,
+ "intro": [
+  {
+   "en": "Welcome to the conversation!",
+   "la": "Bene vēnistis ad colloquium!"
+  },
+  {
+   "en": "Today, let's talk about Latin stories.",
+   "la": "Hodiē loquāmur dē fābulīs Latīnīs."
+  }
+ ],
+ "lines": [
+  {
+   "who": "F",
+   "en": "Hi Marcus. What did you do last night?",
+   "la": "Salvē, Marce. Quid herī vesperī fēcistī?"
+  },
+  {
+   "who": "M",
+   "en": "Last night? First, a battle with my son.",
+   "la": "Herī vesperī? Prīmum, proelium cum fīliō meō."
+  },
+  {
+   "who": "F",
+   "en": "A battle? Why?",
+   "la": "Proelium? Cūr?"
+  },
+  {
+   "who": "M",
+   "en": "He didn't want to sleep. He wanted to play.",
+   "la": "Dormīre nōlēbat. Lūdere volēbat."
+  },
+  {
+   "who": "M",
+   "en": "I told a story. Then I sang a Latin song, slowly.",
+   "la": "Fābulam nārrāvī. Deinde carmen Latīnum lentē cantāvī."
+  },
+  {
+   "who": "F",
+   "en": "And did he sleep?",
+   "la": "Et dormīvit?"
+  },
+  {
+   "who": "M",
+   "en": "Yes. After the third song!",
+   "la": "Ita. Post tertium carmen!"
+  },
+  {
+   "who": "M",
+   "en": "After my son fell asleep, I read Latin stories.",
+   "la": "Postquam fīlius meus dormīvit, fābulās Latīnās lēgī."
+  },
+  {
+   "who": "F",
+   "en": "Which stories?",
+   "la": "Quās fābulās?"
+  },
+  {
+   "who": "M",
+   "en": "Short stories about my family.",
+   "la": "Fābulās brevēs dē familiā meā."
+  },
+  {
+   "who": "F",
+   "en": "About your family? Tell me one!",
+   "la": "Dē familiā tuā? Nārrā mihi ūnam!"
+  },
+  {
+   "who": "M",
+   "en": "OK. In the first story, it's raining.",
+   "la": "Age. In prīmā fābulā pluit."
+  },
+  {
+   "who": "M",
+   "en": "Our dog runs in the rain.",
+   "la": "Canis noster in pluviā currit."
+  },
+  {
+   "who": "M",
+   "en": "Then he runs into the house, wet!",
+   "la": "Deinde madidus in domum currit!"
+  },
+  {
+   "who": "F",
+   "en": "Madidus? What does it mean?",
+   "la": "Madidus? Quid significat?"
+  },
+  {
+   "who": "M",
+   "en": "That is: full of water, like after a bath.",
+   "la": "Id est: plēnus aquae, sīcut post balneum."
+  },
+  {
+   "who": "F",
+   "en": "Oh dear! And the children?",
+   "la": "Ēheu! Et līberī?"
+  },
+  {
+   "who": "M",
+   "en": "The dog shakes himself… and the children are wet too!",
+   "la": "Canis sē quatit… et līberī quoque madidī sunt!"
+  },
+  {
+   "who": "M",
+   "en": "A true story. Our dog is always wet.",
+   "la": "Vēra fābula est. Canis noster semper madidus est."
+  },
+  {
+   "who": "F",
+   "en": "And the second story?",
+   "la": "Et secunda fābula?"
+  },
+  {
+   "who": "M",
+   "en": "In the second, there's no milk at home.",
+   "la": "In secundā, domī nūllum lac est."
+  },
+  {
+   "who": "M",
+   "en": "So I go to the shop.",
+   "la": "Ergō ad tabernam eō."
+  },
+  {
+   "who": "M",
+   "en": "I buy milk and bread… but I forget the cheese.",
+   "la": "Lac et pānem emō… sed cāseum oblīvīscor."
+  },
+  {
+   "who": "F",
+   "en": "The cheese! Did your wife want cheese?",
+   "la": "Cāseum! Uxor tua cāseum volēbat?"
+  },
+  {
+   "who": "M",
+   "en": "Yes. Cheese is very dear to my wife.",
+   "la": "Ita. Cāseus uxōrī meae valdē cārus est."
+  },
+  {
+   "who": "F",
+   "en": "Dearer than you?",
+   "la": "Cārior quam tū?"
+  },
+  {
+   "who": "M",
+   "en": "Maybe! So I go to the shop again.",
+   "la": "Fortasse! Ergō iterum ad tabernam eō."
+  },
+  {
+   "who": "F",
+   "en": "With your wife?",
+   "la": "Cum uxōre tuā?"
+  },
+  {
+   "who": "M",
+   "en": "Not with my wife. With my daughters.",
+   "la": "Nōn cum uxōre meā. Cum fīliābus."
+  },
+  {
+   "who": "M",
+   "en": "My wife stayed at home, with the wet dog.",
+   "la": "Uxor mea domī mānsit, cum cane madidō."
+  },
+  {
+   "who": "F",
+   "en": "Your stories are true! Are they easy or hard?",
+   "la": "Fābulae tuae vērae sunt! Facilēsne an difficilēs?"
+  },
+  {
+   "who": "M",
+   "en": "Some are easy, some are hard.",
+   "la": "Aliae facilēs, aliae difficilēs."
+  },
+  {
+   "who": "M",
+   "en": "The easy ones give me help: I learn the words.",
+   "la": "Facilēs mihi auxilium dant: vocābula discō."
+  },
+  {
+   "who": "M",
+   "en": "The hard ones force me to think in Latin.",
+   "la": "Difficilēs mē Latīnē cōgitāre cōgunt."
+  },
+  {
+   "who": "F",
+   "en": "If you have to choose: easy or hard?",
+   "la": "Sī ēligere dēbēs: facilēs an difficilēs?"
+  },
+  {
+   "who": "M",
+   "en": "Hmm… the hard ones. But not every day.",
+   "la": "Hmm… difficilēs. Tamen nōn cotīdiē."
+  },
+  {
+   "who": "F",
+   "en": "I agree with you. For the easy ones make the words firm.",
+   "la": "Tēcum cōnsentiō. Facilēs enim vocābula firmant."
+  },
+  {
+   "who": "M",
+   "en": "Yesterday, though, something new happened.",
+   "la": "Herī tamen aliquid novum accidit."
+  },
+  {
+   "who": "M",
+   "en": "My daughters saw the stories.",
+   "la": "Fīliae meae fābulās vīdērunt."
+  },
+  {
+   "who": "M",
+   "en": "\"Dad! We're in the stories!\"",
+   "la": "\"Pater! Nōs in fābulīs sumus!\""
+  },
+  {
+   "who": "M",
+   "en": "They were very happy. But they decided something at once.",
+   "la": "Laetissimae erant. Sed statim aliquid cōnstituērunt."
+  },
+  {
+   "who": "F",
+   "en": "What did they decide?",
+   "la": "Quid cōnstituērunt?"
+  },
+  {
+   "who": "M",
+   "en": "They want to choose the next story themselves.",
+   "la": "Proximam fābulam ipsae ēligere volunt."
+  },
+  {
+   "who": "M",
+   "en": "The older one chose: \"The dog eats the cheese.\"",
+   "la": "Maior ēlēgit: \"Canis cāseum edit.\""
+  },
+  {
+   "who": "F",
+   "en": "The cheese again!",
+   "la": "Iterum cāseus!"
+  },
+  {
+   "who": "M",
+   "en": "After they chose, my son came in. He wasn't asleep!",
+   "la": "Postquam ēlēgērunt, fīlius meus intrāvit. Nōn dormiēbat!"
+  },
+  {
+   "who": "M",
+   "en": "I wanted to send him back to bed.",
+   "la": "Eum in lectum remittere volēbam."
+  },
+  {
+   "who": "F",
+   "en": "Let the little children come to me.",
+   "la": "Sinite parvulōs venīre ad mē."
+  },
+  {
+   "who": "M",
+   "en": "Hmm… who said that?",
+   "la": "Hmm… quis hoc dīxit?"
+  },
+  {
+   "who": "F",
+   "en": "Jesus, in the Gospel of Mark, chapter ten.",
+   "la": "Iēsus, in Ēvangeliō Marcī, capite decimō."
+  },
+  {
+   "who": "F",
+   "en": "That is: let them come. Don't send them away.",
+   "la": "Id est: sine eōs venīre. Nōlī eōs dīmittere."
+  },
+  {
+   "who": "M",
+   "en": "Fine. I let the boy stay… but not for long.",
+   "la": "Bene. Puerum manēre sīvī… sed nōn diū."
+  },
+  {
+   "who": "F",
+   "en": "Christmas is coming. Is there a story about this feast?",
+   "la": "Nātālis Dominī appropinquat. Estne fābula dē hōc fēstō?"
+  },
+  {
+   "who": "M",
+   "en": "There is! The Nativity: Mary, Joseph, the shepherds, the Magi.",
+   "la": "Est! Nātīvitās: Marīa, Iōsēph, pāstōrēs, magī."
+  },
+  {
+   "who": "M",
+   "en": "An angel is a messenger. He brings the shepherds great news.",
+   "la": "Angelus nūntius est. Pāstōribus nūntium magnum fert."
+  },
+  {
+   "who": "F",
+   "en": "And the angels sing: Glory to God in the highest.",
+   "la": "Et angelī cantant: Glōria in altissimīs Deō."
+  },
+  {
+   "who": "M",
+   "en": "Luke wrote that, didn't he?",
+   "la": "Lūcās hoc scrīpsit, nōnne?"
+  },
+  {
+   "who": "F",
+   "en": "Yes, chapter two. And on earth peace to men of good will.",
+   "la": "Ita, capite secundō. Et in terrā pāx hominibus bonae voluntātis."
+  },
+  {
+   "who": "M",
+   "en": "We sing it at Mass. And after Mass, we have lunch!",
+   "la": "Hoc in Missā cantāmus. Et post Missam, prandēmus!"
+  },
+  {
+   "who": "F",
+   "en": "But your daughters aren't in this story.",
+   "la": "Sed fīliae tuae in hāc fābulā nōn sunt."
+  },
+  {
+   "who": "M",
+   "en": "No. No dog. No cheese!",
+   "la": "Minimē. Nūllus canis. Nūllus cāseus!"
+  },
+  {
+   "who": "F",
+   "en": "And how do you learn the stories? In one go?",
+   "la": "Et quōmodo fābulās discis? Ūnō impetū?"
+  },
+  {
+   "who": "M",
+   "en": "In one go! ChatGPT always says that.",
+   "la": "Ūnō impetū! ChatGPT hoc semper dīcit."
+  },
+  {
+   "who": "M",
+   "en": "Yes: three stories without a break.",
+   "la": "Ita: trēs fābulās sine intermissiōne."
+  },
+  {
+   "who": "M",
+   "en": "I read a line in English and say it in Latin.",
+   "la": "Versum Anglicē legō et Latīnē dīcō."
+  },
+  {
+   "who": "M",
+   "en": "Then I see it: right, or almost right.",
+   "la": "Deinde videō: rēctē, aut ferē rēctē."
+  },
+  {
+   "who": "F",
+   "en": "Almost right… like ChatGPT!",
+   "la": "Ferē rēctē… sīcut ChatGPT!"
+  },
+  {
+   "who": "M",
+   "en": "Yes! It always says \"almost right.\"",
+   "la": "Ita! Semper dīcit: \"ferē rēctē.\""
+  },
+  {
+   "who": "M",
+   "en": "Even when it's right!",
+   "la": "Etiam sī rēctum est!"
+  },
+  {
+   "who": "F",
+   "en": "Bye, Marcus! Say hi to your dear wife and the children.",
+   "la": "Valē, Marce! Salūtā uxōrem cāram et līberōs."
+  },
+  {
+   "who": "M",
+   "en": "Bye, Iulia! Now I'm going to the shop, to buy cheese.",
+   "la": "Valē, Iūlia! Nunc ad tabernam eō, ut cāseum emam."
+  }
+ ]
+}

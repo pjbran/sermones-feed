@@ -6,10 +6,14 @@ import re, unicodedata
 EXTRA_J = {}
 
 
+# English names said as in English (20 Oct: "ChatGPT" became "KatGPT")
+KEEP = ['ChatGPT']
+
+
 def smart(t: str) -> str:
-    """Respell Latin; leave ElevenLabs tags like [laughs] or [short pause] as they are."""
-    parts = re.split(r'(\[[^\]]*\])', unicodedata.normalize('NFC', t))
-    return ''.join(x if x.startswith('[') else _smart(x) for x in parts)
+    """Respell Latin; leave ElevenLabs tags like [laughs] or [short pause], and KEEP words, as they are."""
+    parts = re.split(r'(\[[^\]]*\]|' + '|'.join(map(re.escape, KEEP)) + r')', unicodedata.normalize('NFC', t))
+    return ''.join(x if (x.startswith('[') or x in KEEP) else _smart(x) for x in parts)
 
 
 def _smart(t: str) -> str:
