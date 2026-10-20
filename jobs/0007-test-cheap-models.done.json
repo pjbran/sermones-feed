@@ -1,0 +1,15 @@
+{
+ "job": "jobs/0007-test-cheap-models.json",
+ "ok": true,
+ "tests": 3,
+ "page": "https://pjbran.github.io/sermones-feed/tests/cheap-models/",
+ "log": [
+  "== job jobs/0007-test-cheap-models.json test",
+  "voice F = Rossana MuTiG4dbrEGYEy3XP4iP",
+  "voice M = Australian man H3hIaDEluHU5NQH2uxJ2",
+  "test ok: NOW · eleven_v4 Dialogue mode (as the episodes) · full price",
+  "test ok: Flash v2.5 · HALF PRICE · line by line",
+  "test ok: Turbo v2.5 · HALF PRICE · line by line"
+ ],
+ "at": "2026-10-20T10:13:10+00:00"
+}
