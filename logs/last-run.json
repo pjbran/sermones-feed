@@ -1,21 +1,16 @@
 {
- "job": "jobs/0005-ep2-domi-laboro.json",
- "ok": true,
- "files": [
-  "s1e02a-domi-laboro.mp3",
-  "s1e02b-domi-laboro.mp3"
- ],
+ "job": "jobs/0006-ep3-fabulae.json",
+ "ok": false,
+ "error": "RuntimeError('Dialogue render failed: 401 {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your API key (Merciless Bobcat) quota of 10000. You have 646 credits remaining, while 709 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"dcf887dc75c0a3eb2a6da4d15b19b0fe\"}}')",
  "log": [
-  "== job jobs/0005-ep2-domi-laboro.json episode",
+  "== job jobs/0006-ep3-fabulae.json episode",
   "voice F = Rossana MuTiG4dbrEGYEy3XP4iP",
   "voice M = Australian man H3hIaDEluHU5NQH2uxJ2",
   "  dialogue rendered: eleven_v4 0.2 4 inputs",
-  "  dialogue rendered: eleven_v4 0.2 48 inputs",
-  "  dialogue rendered: eleven_v4 0.2 5 inputs",
-  "  dialogue rendered: eleven_v4 0.2 51 inputs",
-  "  dialogue rendered: eleven_v4 0.2 2 inputs",
-  "built s1e02a-domi-laboro.mp3 18.9 min",
-  "built s1e02b-domi-laboro.mp3 9.2 min"
+  "dialogue refused eleven_v4 0.2 401 {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your API key (Merciless Bobcat) quota of 10000. You have 646 credits remaining, while 709 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"c288b9272d1b745eee0606f6bbc1afbd\"}}",
+  "dialogue refused eleven_v4 0.5 401 {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your API key (Merciless Bobcat) quota of 10000. You have 646 credits remaining, while 709 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"a9dda5492adde60ade58c5f2d8d8af97\"}}",
+  "dialogue refused eleven_v3 0.5 401 {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your API key (Merciless Bobcat) quota of 10000. You have 646 credits remaining, while 709 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"dcf887dc75c0a3eb2a6da4d15b19b0fe\"}}",
+  "Traceback (most recent call last):\n  File \"/home/runner/work/sermones-feed/sermones-feed/pipeline/run_jobs.py\", line 330, in main\n    res.update({'audition': run_audition, 'test': run_test}.get(job['type'], run_episode)(job)); res['ok'] = True\n               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^\n  File \"/home/runner/work/sermones-feed/sermones-feed/pipeline/run_jobs.py\", line 257, in run_episode\n    EN = dialogue_clips([(V[ln['who']], ln['en']) for ln in lines], st)\n  File \"/home/runner/work/sermones-feed/sermones-feed/pipeline/run_jobs.py\", line 206, in dialogue_clips\n    out += render_dialogue(chunk, st); chunk, n = [], 0\n           ~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"/home/runner/work/sermones-feed/sermones-feed/pipeline/run_jobs.py\", line 183, in render_dialogue\n    raise RuntimeError('Dialogue render failed: ' + last)\nRuntimeError: Dialogue render failed: 401 {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_exceeded\",\"message\":\"This request exceeds your API key (Merciless Bobcat) quota of 10000. You have 646 credits remaining, while 709 credits are required for this request.\",\"status\":\"quota_exceeded\",\"request_id\":\"dcf887dc75c0a3eb2a6da4d15b19b0fe\"}}\n"
  ],
- "at": "2026-10-19T00:11:37+00:00"
+ "at": "2026-10-20T09:50:01+00:00"
 }
