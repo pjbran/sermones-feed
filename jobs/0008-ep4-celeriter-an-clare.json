@@ -1,0 +1,318 @@
+{
+ "type": "episode",
+ "mode": "dialogue",
+ "number": 4,
+ "season": 1,
+ "slug": "celeriter-an-clare",
+ "title": "Celeriter an clārē?",
+ "summary": "Too much coffee, a carrot, beautiful birds, and today's chat with ChatGPT: speak fast, or speak clearly? Quotes: Īra furor brevis est (Horace, Letters 1.2), Rem tenē, verba sequentur (Cato the Elder), Sit sermō vester: est, est; nōn, nōn (Matthew 5:37).",
+ "voices": {
+  "F": "name:Rossana",
+  "M": "shared:italian:male"
+ },
+ "intro_by": "F",
+ "music": "v5",
+ "repeat": 3,
+ "intro": [
+  {
+   "en": "Welcome to the conversation!",
+   "la": "Bene vēnistis ad colloquium!"
+  },
+  {
+   "en": "Today, let's talk about speaking: fast, or clearly?",
+   "la": "Hodiē loquāmur dē sermōne: celeriter, an clārē?"
+  }
+ ],
+ "lines": [
+  {
+   "who": "F",
+   "en": "Hi Marcus. How are you today?",
+   "la": "Salvē, Marce. Quōmodo tē hodiē habēs?"
+  },
+  {
+   "who": "M",
+   "en": "Honestly? A bit angry today.",
+   "la": "Vērē? Hodiē paulum īrātus sum."
+  },
+  {
+   "who": "F",
+   "en": "Angry? Why?",
+   "la": "Īrātus? Cūr?"
+  },
+  {
+   "who": "M",
+   "en": "Because I drank too much coffee.",
+   "la": "Quia nimium caffeae bibī."
+  },
+  {
+   "who": "M",
+   "en": "My heart is beating fast, and my mind isn't calm.",
+   "la": "Cor celeriter pulsat, et mēns nōn tranquilla est."
+  },
+  {
+   "who": "F",
+   "en": "Then drink a little water, and breathe slowly.",
+   "la": "Ergō paulum aquae bibe, et lentē spīrā."
+  },
+  {
+   "who": "F",
+   "en": "Do you know what Horace says? Anger is a short madness.",
+   "la": "Scīsne quid Horātius dīcat? Īra furor brevis est."
+  },
+  {
+   "who": "M",
+   "en": "Anger is a short madness… where does he say that?",
+   "la": "Īra furor brevis est… ubi hoc dīcit?"
+  },
+  {
+   "who": "F",
+   "en": "In his Letters. Furor: that is, madness.",
+   "la": "In Epistulīs. Furor: id est, īnsānia."
+  },
+  {
+   "who": "M",
+   "en": "So my anger is short. Good. It's the coffee's fault, not mine.",
+   "la": "Ergō īra mea brevis est. Bene. Culpa caffeae est, nōn mea."
+  },
+  {
+   "who": "F",
+   "en": "Did you talk with your teacher on the phone today?",
+   "la": "Hodiē cum magistrā tuā per tēlephōnum locūtus es?"
+  },
+  {
+   "who": "M",
+   "en": "Yes. But first I said to her: be quiet, please!",
+   "la": "Ita. Sed prīmum eī dīxī: tacē, quaesō!"
+  },
+  {
+   "who": "F",
+   "en": "Be quiet? To your teacher?",
+   "la": "Tacē? Magistrae tuae?"
+  },
+  {
+   "who": "M",
+   "en": "Yes. I didn't want questions. I only wanted to talk.",
+   "la": "Ita. Quaestiōnēs nōlēbam. Tantum loquī volēbam."
+  },
+  {
+   "who": "M",
+   "en": "And she said: fine, I'm quiet.",
+   "la": "Et illa dīxit: bene, taceō."
+  },
+  {
+   "who": "F",
+   "en": "A good teacher. She listens.",
+   "la": "Bona magistra. Audit."
+  },
+  {
+   "who": "M",
+   "en": "Then I talked about my game on the computer.",
+   "la": "Deinde dē lūdō meō in computātrō locūtus sum."
+  },
+  {
+   "who": "M",
+   "en": "And I was eating a carrot.",
+   "la": "Et carōtam edēbam."
+  },
+  {
+   "who": "F",
+   "en": "A carrot? Was it good?",
+   "la": "Carōtam? Bonane erat?"
+  },
+  {
+   "who": "M",
+   "en": "Very good. My carrot was the best part of the chat.",
+   "la": "Optima. Carōta mea pars optima colloquiī erat."
+  },
+  {
+   "who": "F",
+   "en": "And what did you talk about?",
+   "la": "Et dē quā rē locūtī estis?"
+  },
+  {
+   "who": "M",
+   "en": "About speaking fast. I think speaking fast is important.",
+   "la": "Dē celeriter loquendō. Putō: celeriter loquī magnī mōmentī est."
+  },
+  {
+   "who": "M",
+   "en": "In English, people speak fast. Why not in Latin?",
+   "la": "Anglicē hominēs celeriter loquuntur. Cūr nōn Latīnē?"
+  },
+  {
+   "who": "F",
+   "en": "And what did your teacher say?",
+   "la": "Et quid magistra tua dīxit?"
+  },
+  {
+   "who": "M",
+   "en": "She said: first clearly, then fast.",
+   "la": "Dīxit: prīmum clārē, deinde celeriter."
+  },
+  {
+   "who": "M",
+   "en": "But I didn't understand. I said: part in Latin, part in English, please.",
+   "la": "Sed nōn intellēxī. Dīxī: partim Latīnē, partim Anglicē, quaesō."
+  },
+  {
+   "who": "F",
+   "en": "And then?",
+   "la": "Et tum?"
+  },
+  {
+   "who": "M",
+   "en": "Then I disagreed. How can I speak more clearly, if I don't know how?",
+   "la": "Tum dissēnsī. Quōmodo clārius loquar, sī nesciō?"
+  },
+  {
+   "who": "F",
+   "en": "Good question. There's an old answer.",
+   "la": "Bona quaestiō. Vetus respōnsum est."
+  },
+  {
+   "who": "F",
+   "en": "Cato said: hold the subject, and the words will follow.",
+   "la": "Catō dīxit: rem tenē, verba sequentur."
+  },
+  {
+   "who": "M",
+   "en": "Rem tenē, verba sequentur… which Cato?",
+   "la": "Rem tenē, verba sequentur… quī Catō?"
+  },
+  {
+   "who": "F",
+   "en": "Cato the Elder. A Roman senator, very strict.",
+   "la": "Catō Maior. Senātor Rōmānus, valdē sevērus."
+  },
+  {
+   "who": "F",
+   "en": "That is: if you know the subject, the words will come.",
+   "la": "Id est: sī rem scīs, verba venient."
+  },
+  {
+   "who": "M",
+   "en": "Hmm. So first, clear thoughts.",
+   "la": "Hmm. Ergō prīmum cōgitātiōnēs clārae."
+  },
+  {
+   "who": "F",
+   "en": "Yes. Clear thoughts, then words.",
+   "la": "Ita. Cōgitātiōnēs clārae, deinde verba."
+  },
+  {
+   "who": "M",
+   "en": "Today I learned: cōgitātiō is feminine. Hae cōgitātiōnēs.",
+   "la": "Hodiē didicī: cōgitātiō fēminīna est. Hae cōgitātiōnēs."
+  },
+  {
+   "who": "M",
+   "en": "And at the end, we agreed.",
+   "la": "Et in fīne cōnsēnsimus."
+  },
+  {
+   "who": "M",
+   "en": "Easy sentences: fast. Hard sentences: slowly and simply.",
+   "la": "Sententiae facilēs: celeriter. Sententiae difficilēs: lentē et simpliciter."
+  },
+  {
+   "who": "F",
+   "en": "I agree too.",
+   "la": "Ego quoque cōnsentiō."
+  },
+  {
+   "who": "F",
+   "en": "Jesus said something similar. Let your speech be: yes, yes; no, no.",
+   "la": "Iēsus simile dīxit. Sit sermō vester: est, est; nōn, nōn."
+  },
+  {
+   "who": "M",
+   "en": "Is that from Matthew?",
+   "la": "Estne ex Matthaeō?"
+  },
+  {
+   "who": "F",
+   "en": "Yes, chapter five. That is: speak simply and clearly.",
+   "la": "Ita, capite quīntō. Id est: simpliciter et clārē loquere."
+  },
+  {
+   "who": "M",
+   "en": "Simply and clearly. Even Jesus agrees with my teacher.",
+   "la": "Simpliciter et clārē. Etiam Iēsus cum magistrā meā cōnsentit."
+  },
+  {
+   "who": "F",
+   "en": "Where were you during the chat? At home?",
+   "la": "Ubi erās in colloquiō? Domī?"
+  },
+  {
+   "who": "M",
+   "en": "No, outside. Near the road. And there were birds.",
+   "la": "Minimē, forīs. Prope viam. Et avēs erant."
+  },
+  {
+   "who": "M",
+   "en": "I stopped and said: oh, beautiful birds!",
+   "la": "Cōnstitī et dīxī: ō, avēs pulchrae!"
+  },
+  {
+   "who": "F",
+   "en": "In the middle of the debate?",
+   "la": "In mediā disputātiōne?"
+  },
+  {
+   "who": "M",
+   "en": "Yes. The birds were more beautiful than the debate.",
+   "la": "Ita. Avēs pulchriōrēs erant quam disputātiō."
+  },
+  {
+   "who": "F",
+   "en": "And at the end?",
+   "la": "Et in fīne?"
+  },
+  {
+   "who": "M",
+   "en": "I said: thank you, you taught me well.",
+   "la": "Dīxī: grātiās tibi agō; bene mē docuistī."
+  },
+  {
+   "who": "M",
+   "en": "And she reminded me about a word. So I said: thank you for reminding me.",
+   "la": "Et dē verbō mē admonuit. Dīxī: grātiās tibi agō quod mē admonuistī."
+  },
+  {
+   "who": "F",
+   "en": "Quod mē admonuistī. A useful sentence.",
+   "la": "Quod mē admonuistī. Sententia ūtilis."
+  },
+  {
+   "who": "M",
+   "en": "Very useful. Thank you for reminding me, Iulia!",
+   "la": "Valdē ūtilis. Grātiās tibi agō quod mē admonuistī, Iūlia!"
+  },
+  {
+   "who": "F",
+   "en": "But I didn't remind you of anything!",
+   "la": "Sed nihil tē admonuī!"
+  },
+  {
+   "who": "M",
+   "en": "I know. I'm practising.",
+   "la": "Sciō. Mē exerceō."
+  },
+  {
+   "who": "F",
+   "en": "Good. Today we spoke well. Clearly… and fast.",
+   "la": "Bene. Hodiē bene locūtī sumus. Clārē… et celeriter."
+  },
+  {
+   "who": "M",
+   "en": "Rem tenē, verba sequentur. Goodbye, Iulia!",
+   "la": "Rem tenē, verba sequentur. Valē, Iūlia!"
+  },
+  {
+   "who": "F",
+   "en": "Goodbye, Marcus. And less coffee!",
+   "la": "Valē, Marce. Et minus caffeae!"
+  }
+ ]
+}

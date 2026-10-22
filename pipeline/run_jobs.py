@@ -220,11 +220,26 @@ def dialogue_clips(seq, st, max_chars=1800):
 # ---------------- episode ----------------
 def resolve_voices(V):
     """Turn "name:Australian man" into a voice ID (exact, case-sensitive name in My Voices)."""
-    if not any(str(v).startswith('name:') for v in V.values()):
+    if not any(str(v).startswith(('name:', 'shared:')) for v in V.values()):
         return V
     mine = el.my_voices()
     out = {}
+    for k, v in list(V.items()):
+        if str(v).startswith('shared:'):          # e.g. "shared:italian:male" = best library voice, added once
+            _, accent, gender = v.split(':')[:3]
+            have = [m for m in mine if accent in ((m.get('labels') or {}).get('accent') or '').lower()
+                    and ((m.get('labels') or {}).get('gender') or '') == gender and m.get('category') != 'cloned']
+            if have:
+                V[k] = 'id:' + have[0]['voice_id']; log('voice', k, '=', have[0]['name'], '(already in my voices)')
+            else:
+                pick = el.pick_shared(accent, gender)
+                vid = el.add_shared(pick) if pick else None
+                if not vid:
+                    raise RuntimeError(f'Could not add a {accent} {gender} library voice (voice slots full?).')
+                V[k] = 'id:' + vid; log('voice', k, '=', pick['name'], vid, '(added from the library)')
     for k, v in V.items():
+        if str(v).startswith('id:'):
+            out[k] = v[3:]; continue
         if str(v).startswith('name:'):
             hit = [m['voice_id'] for m in mine if m.get('name') == v[5:]] or \
                   [m['voice_id'] for m in mine if m.get('name', '').startswith(v[5:])][:1]

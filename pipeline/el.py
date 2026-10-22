@@ -95,9 +95,24 @@ def shared_voices(gender, accent='australian', n=3):
     return vs[:n]
 
 
+def pick_shared(accent, gender, prefer=('conversational', 'natural', 'warm')):
+    """Best library voice for an accent + gender: conversational first, then most cloned."""
+    r = req('GET', '/shared-voices', params={'page_size': 60, 'gender': gender, 'accent': accent})
+    if r.status_code != 200:
+        log('shared voices:', r.status_code, r.text[:200]); return None
+    vs = [v for v in r.json().get('voices', []) if accent in (v.get('accent') or '').lower()]
+    def score(v):
+        txt = ' '.join(str(v.get(k) or '') for k in ('name', 'description', 'use_case', 'descriptive')).lower()
+        return (sum(w in txt for w in prefer), v.get('cloned_by_count') or 0)
+    vs.sort(key=score, reverse=True)
+    for v in vs[:5]:
+        log('  candidate:', v.get('name'), '|', v.get('use_case'), '|', v.get('cloned_by_count'))
+    return vs[0] if vs else None
+
+
 def add_shared(v):
     """Add a library voice to my voices; returns the new voice id (or None)."""
-    r = req('POST', f"/voices/add/{v['public_owner_id']}/{v['voice_id']}", json={'new_name': f"{v['name']} (AU)"[:40]})
+    r = req('POST', f"/voices/add/{v['public_owner_id']}/{v['voice_id']}", json={'new_name': v['name'][:40]})
     if r.status_code == 200:
         return r.json().get('voice_id')
     log('add voice failed:', v.get('name'), r.status_code, r.text[:200])
