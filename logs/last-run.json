@@ -1,26 +1,12 @@
 {
- "job": "jobs/0008-ep4-celeriter-an-clare.json",
+ "job": "jobs/0009-test-free-voices.json",
  "ok": true,
- "files": [
-  "s1e04a-celeriter-an-clare.mp3",
-  "s1e04b-celeriter-an-clare.mp3"
- ],
+ "tests": 2,
+ "page": "https://pjbran.github.io/sermones-feed/tests/free-voices/",
  "log": [
-  "== job jobs/0008-ep4-celeriter-an-clare.json episode",
-  "  candidate: Emanuele Matte - Clear and Serious | narrative_story | 3634",
-  "  candidate: Valentino - English with italian accent | conversational | 1904",
-  "  candidate: Rocco G. - Italian accent | entertainment_tv | 543",
-  "  candidate: Enrico | conversational | 98",
-  "  candidate: Antonio - Grumpy Grandpa | narrative_story | 36496",
-  "voice M = Emanuele Matte - Clear and Serious qQFoiN2eQXULODjD1SwL (added from the library)",
-  "voice F = Rossana MuTiG4dbrEGYEy3XP4iP",
-  "  dialogue rendered: eleven_v4 0.2 4 inputs",
-  "  dialogue rendered: eleven_v4 0.2 44 inputs",
-  "  dialogue rendered: eleven_v4 0.2 14 inputs",
-  "  dialogue rendered: eleven_v4 0.2 47 inputs",
-  "  dialogue rendered: eleven_v4 0.2 11 inputs",
-  "built s1e04a-celeriter-an-clare.mp3 23.1 min",
-  "built s1e04b-celeriter-an-clare.mp3 11.3 min"
+  "== job jobs/0009-test-free-voices.json test",
+  "test ok: FREE 1 · English voice for English, Italian voice for Latin (Piper)",
+  "test ok: FREE 2 · Italian voice for both (Piper)"
  ],
- "at": "2026-10-22T05:17:27+00:00"
+ "at": "2026-10-22T05:21:58+00:00"
 }
