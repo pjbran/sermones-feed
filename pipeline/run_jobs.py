@@ -381,7 +381,7 @@ def run_episode(job):
             os.remove('episodes/' + e['file'])
     eps = [e for e in eps if not e['file'].startswith(pre)]
     nxt = max([e['episode'] for e in eps] + [0]) + 1
-    cover = audio.make_cover('cover.jpg', f'Ep {num} · {title}', f'episodes/s{season}e{num:02d}-cover.jpg')
+    cover = audio.make_cover('cover.jpg', title, f'episodes/s{season}e{num:02d}-cover.jpg')
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=11)))
     made = []
     for code, items, label, extra in tracks:
@@ -389,7 +389,7 @@ def run_episode(job):
         voice, ev = audio.sequence(items)
         x = audio.mix_music(voice, ev, music, lvl, dip)
         fn = f's{season}e{num:02d}{code}-{slug}.mp3'
-        tags = {'title': f'Ep {num} · {title} · {label}', 'artist': 'Sermones Ambulātōriī', 'album_artist': 'Sermones Ambulātōriī',
+        tags = {'title': f'{title} · {label}', 'artist': 'Sermones Ambulātōriī', 'album_artist': 'Sermones Ambulātōriī',
                 'album': f'Sermones Ambulātōriī · Season {season}', 'track': str(nxt), 'genre': 'Language Learning', 'date': str(now.year)}
         audio.save_mp3(x, 'episodes/' + fn, tags, cover)
         eps = [e for e in eps if e['file'] != fn]

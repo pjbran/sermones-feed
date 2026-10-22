@@ -65,3 +65,4 @@ His strong words get no points. They are the glue and they come back anyway.
 - Intro by one host: *Bene vēnistis ad colloquium! Hodiē loquāmur dē …*
 - About 50 lines. Music: V5 Hammock at -7 dB (2 dB above Ep 1).
 - Tracks: **a = English → Latin × 3**, **b = Latin only × 3**.
+- Titles: no "Ep N" (Patrick, 22 Oct: the podcast app shows the number). Title = "<name> · English → Latin × 3" / "<name> · Latin only × 3".

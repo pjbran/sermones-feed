@@ -1,7 +1,7 @@
 [
  {
   "file": "s1e01a-mane-ambulo-english-latin.mp3",
-  "title": "Ep 1 · Mane ambulō · English → Latin",
+  "title": "Mane ambulō · English → Latin",
   "season": 1,
   "episode": 1,
   "date": "2026-10-18T07:00:00+11:00",
@@ -9,7 +9,7 @@
  },
  {
   "file": "s1e01b-mane-ambulo-latin-only.mp3",
-  "title": "Ep 1 · Mane ambulō · Latin only",
+  "title": "Mane ambulō · Latin only",
   "season": 1,
   "episode": 2,
   "date": "2026-10-18T07:01:00+11:00",
@@ -17,7 +17,7 @@
  },
  {
   "file": "s1e01c-mane-ambulo-latin-only-x8.mp3",
-  "title": "Ep 1 · Mane ambulō · Latin only × 8",
+  "title": "Mane ambulō · Latin only × 8",
   "season": 1,
   "episode": 3,
   "date": "2026-10-18T21:50:00+11:00",
@@ -25,7 +25,7 @@
  },
  {
   "file": "s1e01d-mane-ambulo-english-latin-x3.mp3",
-  "title": "Ep 1 · Mane ambulō · English → Latin × 3",
+  "title": "Mane ambulō · English → Latin × 3",
   "season": 1,
   "episode": 4,
   "date": "2026-10-18T22:20:00+11:00",
@@ -33,7 +33,7 @@
  },
  {
   "file": "s1e02a-domi-laboro.mp3",
-  "title": "Ep 2 · Domī labōrō · English → Latin × 3",
+  "title": "Domī labōrō · English → Latin × 3",
   "season": 1,
   "episode": 5,
   "date": "2026-10-19T11:10:49+11:00",
@@ -41,7 +41,7 @@
  },
  {
   "file": "s1e02b-domi-laboro.mp3",
-  "title": "Ep 2 · Domī labōrō · Latin only × 3",
+  "title": "Domī labōrō · Latin only × 3",
   "season": 1,
   "episode": 6,
   "date": "2026-10-19T11:11:49+11:00",
@@ -49,7 +49,7 @@
  },
  {
   "file": "s1e03a-fabulae.mp3",
-  "title": "Ep 3 · Fābulae · English → Latin × 3",
+  "title": "Fābulae · English → Latin × 3",
   "season": 1,
   "episode": 7,
   "date": "2026-10-20T21:12:07+11:00",
@@ -57,7 +57,7 @@
  },
  {
   "file": "s1e03b-fabulae.mp3",
-  "title": "Ep 3 · Fābulae · Latin only × 3",
+  "title": "Fābulae · Latin only × 3",
   "season": 1,
   "episode": 8,
   "date": "2026-10-20T21:13:07+11:00",
@@ -65,7 +65,7 @@
  },
  {
   "file": "s1e04a-celeriter-an-clare.mp3",
-  "title": "Ep 4 · Celeriter an clārē? · English → Latin × 3",
+  "title": "Celeriter an clārē? · English → Latin × 3",
   "season": 1,
   "episode": 9,
   "date": "2026-10-22T16:16:48+11:00",
@@ -73,7 +73,7 @@
  },
  {
   "file": "s1e04b-celeriter-an-clare.mp3",
-  "title": "Ep 4 · Celeriter an clārē? · Latin only × 3",
+  "title": "Celeriter an clārē? · Latin only × 3",
   "season": 1,
   "episode": 10,
   "date": "2026-10-22T16:17:48+11:00",
