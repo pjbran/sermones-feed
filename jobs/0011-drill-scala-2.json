@@ -1,0 +1,202 @@
+{
+ "type": "drill",
+ "slug": "scala-2-ambulo-puto-dico",
+ "title": "Bonus · Sentence ladder 2 (× 3)",
+ "summary": "Ladder 2: walking with my son, I think / I know, the meeting, he said that…, I can / I could, thank you for…, when I get home. English then Latin, each sentence shifts a little. Played 3 times. Free voices.",
+ "repeat": 3,
+ "music": "v5",
+ "pairs": [
+  [
+   "I walk.",
+   "Ambulō."
+  ],
+  [
+   "I walk in the morning.",
+   "Māne ambulō."
+  ],
+  [
+   "I walk with my son.",
+   "Cum fīliō meō ambulō."
+  ],
+  [
+   "I walked with my son.",
+   "Cum fīliō meō ambulāvī."
+  ],
+  [
+   "I was walking slowly.",
+   "Lentē ambulābam."
+  ],
+  [
+   "Why were you walking slowly?",
+   "Cūr lentē ambulābās?"
+  ],
+  [
+   "Because my son is small.",
+   "Quia fīlius meus parvus est."
+  ],
+  [
+   "He is three years old.",
+   "Trēs annōs nātus est."
+  ],
+  [
+   "He walks slowly, but I walk fast.",
+   "Ille lentē ambulat, sed ego celeriter."
+  ],
+  [
+   "Let's walk together.",
+   "Ūnā ambulēmus."
+  ],
+  [
+   "I think.",
+   "Putō."
+  ],
+  [
+   "I think so.",
+   "Ita putō."
+  ],
+  [
+   "I don't think so.",
+   "Nōn ita putō."
+  ],
+  [
+   "What do you think?",
+   "Quid putās?"
+  ],
+  [
+   "I think it's easy.",
+   "Putō facile esse."
+  ],
+  [
+   "I thought it was hard.",
+   "Putābam difficile esse."
+  ],
+  [
+   "I know.",
+   "Sciō."
+  ],
+  [
+   "I don't know.",
+   "Nesciō."
+  ],
+  [
+   "I understand what you're saying.",
+   "Intellegō quid dīcās."
+  ],
+  [
+   "I don't know what to do.",
+   "Nesciō quid faciam."
+  ],
+  [
+   "What are you doing?",
+   "Quid agis?"
+  ],
+  [
+   "What did you do today?",
+   "Quid hodiē fēcistī?"
+  ],
+  [
+   "What will you do tomorrow?",
+   "Quid crās faciēs?"
+  ],
+  [
+   "Tomorrow I will meet the client.",
+   "Crās clientem conveniam."
+  ],
+  [
+   "I have a meeting tomorrow.",
+   "Crās conventum habeō."
+  ],
+  [
+   "I had a meeting yesterday.",
+   "Herī conventum habuī."
+  ],
+  [
+   "The meeting was long.",
+   "Conventus longus erat."
+  ],
+  [
+   "The meeting was long, but good.",
+   "Conventus longus erat, sed bonus."
+  ],
+  [
+   "I said.",
+   "Dīxī."
+  ],
+  [
+   "I said nothing.",
+   "Nihil dīxī."
+  ],
+  [
+   "What did you say?",
+   "Quid dīxistī?"
+  ],
+  [
+   "He said that he was tired.",
+   "Dīxit sē fessum esse."
+  ],
+  [
+   "She says that she is happy.",
+   "Dīcit sē laetam esse."
+  ],
+  [
+   "I am happy, because I am learning.",
+   "Laetus sum, quia discō."
+  ],
+  [
+   "I want to speak better.",
+   "Melius loquī volō."
+  ],
+  [
+   "I can speak a little.",
+   "Paulum loquī possum."
+  ],
+  [
+   "I couldn't speak.",
+   "Loquī nōn poteram."
+  ],
+  [
+   "Now I can speak.",
+   "Nunc loquī possum."
+  ],
+  [
+   "Help me, please.",
+   "Adiuvā mē, quaesō."
+  ],
+  [
+   "Thank you for helping me.",
+   "Grātiās tibi agō quod mē adiūvistī."
+  ],
+  [
+   "Thank you for reminding me.",
+   "Grātiās tibi agō quod mē admonuistī."
+  ],
+  [
+   "I must go.",
+   "Īre dēbeō."
+  ],
+  [
+   "I must go home.",
+   "Domum īre dēbeō."
+  ],
+  [
+   "When I get home, I will eat.",
+   "Cum domum vēnerō, edam."
+  ],
+  [
+   "When I got home, I ate.",
+   "Cum domum vēnissem, ēdī."
+  ],
+  [
+   "After dinner, I will read.",
+   "Post cēnam legam."
+  ],
+  [
+   "I read a book every day.",
+   "Cotīdiē librum legō."
+  ],
+  [
+   "See you tomorrow, my friend.",
+   "Crās tē vidēbō, amīce."
+  ]
+ ]
+}

@@ -252,7 +252,10 @@ def run_drill(job):
         return audio.norm(audio.trim(audio.load(w)))
     items = []
     for en, la in job['pairs']:
-        items += [(fclip(ven, en), job.get('pause_after_english', 0.45)), (fclip(vla, free_tts.latin_for_italian(la)), job.get('pause_after_latin', 0.8))]
+        if job.get('latin_only'):
+            items += [(fclip(vla, free_tts.latin_for_italian(la)), job.get('pause_latin_only', 0.6))]
+        else:
+            items += [(fclip(ven, en), job.get('pause_after_english', 0.45)), (fclip(vla, free_tts.latin_for_italian(la)), job.get('pause_after_latin', 0.8))]
     n = int(job.get('repeat', 3)); seq = []
     for k in range(n):
         seq += items[:-1] + [(items[-1][0], 2.5)]
