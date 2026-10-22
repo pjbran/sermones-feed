@@ -315,9 +315,10 @@ def run_drill(job):
         w = f'clips/free/{h}.wav'
         if not os.path.exists(w):
             free_tts.say(voice, text, w)
-        return audio.norm(audio.trim(audio.load(w)))
+        return audio.norm(audio.trim(audio.load(w), thr_db=-55, pad=0.12))   # gentle trim: never touches speech
     items = []
-    conv = free_tts.latin_ipa if job.get('latin_ipa', True) else free_tts.latin_for_italian   # IPA = Patrick's pick (22 Oct)
+    vv = job.get('v_as_v', True)   # v said as v: Patrick's pick (22 Oct, 9:27 pm)
+    conv = (lambda la: free_tts.latin_ipa(la, v_as_v=vv)) if job.get('latin_ipa', True) else free_tts.latin_for_italian
     for en, la in job['pairs']:
         if job.get('latin_only'):
             items += [(fclip(vla, conv(la)), job.get('pause_latin_only', 0.6))]

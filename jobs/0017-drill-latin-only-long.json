@@ -800,5 +800,6 @@
   ]
  ],
  "latin_only": true,
- "latin_ipa": false
+ "latin_ipa": false,
+ "v_as_v": false
 }

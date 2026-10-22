@@ -14,9 +14,9 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Thu, 22 Oct 2026 09:51:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 10:29:02 +0000</lastBuildDate>
     <item>
-      <title>Bonus · Sentence ladder 4: talking to myself (15 min)</title>
+      <title>Bonus · Sentence ladder 4: talking to myself (10 min, old voice)</title>
       <description>160 useful sentences as a conversation with yourself, with questions all the way through (why? where? how much? who?): getting up tired, the walk and the magpie, thinking about Latin, the family, the missing cheese, the client, and the day looked back on. English then Latin, Latin read from IPA, free voices.</description>
       <itunes:summary>160 useful sentences as a conversation with yourself, with questions all the way through (why? where? how much? who?): getting up tired, the walk and the magpie, thinking about Latin, the family, the missing cheese, the client, and the day looked back on. English then Latin, Latin read from IPA, free voices.</itunes:summary>
       <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-scala-4-quindecim.mp3" length="12375028" type="audio/mpeg"/>
@@ -29,7 +29,7 @@
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Fābella · Rūfus et cāseus (× 3)</title>
+      <title>Fābella · Rūfus et cāseus (× 3, old voice)</title>
       <description>Iulia's Saturday: rain, coffee, her dog Rufus, the market, and a stolen cheese. English then Latin, free voices, Latin read from IPA. Quotes: Canis timidus vehementius lātrat quam mordet (Quintus Curtius), Post nūbila Phoebus (old saying). Played 3 times.</description>
       <itunes:summary>Iulia's Saturday: rain, coffee, her dog Rufus, the market, and a stolen cheese. English then Latin, free voices, Latin read from IPA. Quotes: Canis timidus vehementius lātrat quam mordet (Quintus Curtius), Post nūbila Phoebus (old saying). Played 3 times.</itunes:summary>
       <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-fabella-rufus-et-caseus.mp3" length="15559548" type="audio/mpeg"/>
@@ -152,7 +152,7 @@
       <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-scala-2-longa.mp3" length="21276083" type="audio/mpeg"/>
       <guid isPermaLink="false">sermones-bonus-scala-2-longa.mp3</guid>
       <pubDate>Thu, 22 Oct 2026 17:01:42 +1100</pubDate>
-      <itunes:duration>17:36</itunes:duration>
+      <itunes:duration>17:37</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>12</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
