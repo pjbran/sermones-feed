@@ -1,12 +1,20 @@
 {
- "job": "jobs/0020-drill-scala-4.json",
+ "job": "jobs/0021-test-ipa-voices.json",
  "ok": true,
- "files": [
-  "bonus-scala-4-quindecim.mp3"
- ],
+ "tests": 10,
+ "page": "https://pjbran.github.io/sermones-feed/tests/ipa-voices/",
  "log": [
-  "== job jobs/0020-drill-scala-4.json drill",
-  "built bonus-scala-4-quindecim.mp3 10.2 min"
+  "== job jobs/0021-test-ipa-voices.json test",
+  "test ok: 1 · it_IT-paola-medium",
+  "test ok: 2 · es_MX-claude-high",
+  "test ok: 3 · es_ES-davefx-medium",
+  "test ok: 4 · lv_LV-aivars-medium",
+  "test ok: 5 · cs_CZ-jirka-medium",
+  "test ok: 6 · fi_FI-harri-medium",
+  "test ok: 7 · ro_RO-mihai-medium",
+  "test ok: 8 · pl_PL-gosia-medium",
+  "test ok: 9 · hu_HU-anna-medium",
+  "test ok: 10 · sk_SK-lili-medium"
  ],
- "at": "2026-10-22T09:51:55+00:00"
+ "at": "2026-10-22T09:59:48+00:00"
 }
