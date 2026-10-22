@@ -66,3 +66,8 @@ His strong words get no points. They are the glue and they come back anyway.
 - About 50 lines. Music: V5 Hammock at -7 dB (2 dB above Ep 1).
 - Tracks: **a = English → Latin × 3**, **b = Latin only × 3**.
 - Titles: no "Ep N" (Patrick, 22 Oct: the podcast app shows the number). Title = "<name> · English → Latin × 3" / "<name> · Latin only × 3".
+
+## 6. Sentence ladders (Patrick, 22 Oct: "the sentence ladder is good")
+- Job `"type": "drill"`: pairs [English, Latin]; each sentence shifts a little from the one before (person, tense, can / want / let's, one added part). About 50 pairs ≈ 3 min, `repeat: 3`. `"latin_only": true` = no English.
+- Free: Piper voices in the Action (English: en_GB-jenny_dioco-medium; Latin: it_IT-paola-medium with the classical respelling in `pipeline/free_tts.py`). 0 credits.
+- Done: ladder 1 (going, working, liking, playing, seeing, talking, learning, eating), ladder 2 (walking with my son, putō / sciō, the meeting, dīxit sē…, possum / poteram, grātiās… quod, cum domum vēnerō), ladders 1 + 2 Latin only.
