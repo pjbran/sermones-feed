@@ -304,11 +304,12 @@ def run_drill(job):
             free_tts.say(voice, text, w)
         return audio.norm(audio.trim(audio.load(w)))
     items = []
+    conv = free_tts.latin_ipa if job.get('latin_ipa', True) else free_tts.latin_for_italian   # IPA = Patrick's pick (22 Oct)
     for en, la in job['pairs']:
         if job.get('latin_only'):
-            items += [(fclip(vla, free_tts.latin_for_italian(la)), job.get('pause_latin_only', 0.6))]
+            items += [(fclip(vla, conv(la)), job.get('pause_latin_only', 0.6))]
         else:
-            items += [(fclip(ven, en), job.get('pause_after_english', 0.45)), (fclip(vla, free_tts.latin_for_italian(la)), job.get('pause_after_latin', 0.8))]
+            items += [(fclip(ven, en), job.get('pause_after_english', 0.45)), (fclip(vla, conv(la)), job.get('pause_after_latin', 0.8))]
     n = int(job.get('repeat', 3)); seq = []
     for k in range(n):
         seq += items[:-1] + [(items[-1][0], 2.5)]
