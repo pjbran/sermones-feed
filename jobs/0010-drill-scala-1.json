@@ -1,0 +1,218 @@
+{
+ "type": "drill",
+ "slug": "scala-1-eo-laboro-loquor",
+ "title": "Bonus · Sentence ladder 1 (× 3)",
+ "summary": "About 3 minutes of useful sentences, English then Latin, each one shifting a little (going, working, liking, playing, seeing, talking, learning, eating; present, past, future, can, want, let's). Played 3 times. Free voices.",
+ "repeat": 3,
+ "music": "v5",
+ "pairs": [
+  [
+   "I am going.",
+   "Eō."
+  ],
+  [
+   "I am going home.",
+   "Domum eō."
+  ],
+  [
+   "I am going to work.",
+   "Ad labōrem eō."
+  ],
+  [
+   "I like going to work.",
+   "Mihi placet ad labōrem īre."
+  ],
+  [
+   "I can go to work.",
+   "Ad labōrem īre possum."
+  ],
+  [
+   "I want to go to work.",
+   "Ad labōrem īre volō."
+  ],
+  [
+   "I will go to work tomorrow.",
+   "Crās ad labōrem ībō."
+  ],
+  [
+   "I went to work yesterday.",
+   "Herī ad labōrem iī."
+  ],
+  [
+   "I was going to work.",
+   "Ad labōrem ībam."
+  ],
+  [
+   "We are going to work.",
+   "Ad labōrem īmus."
+  ],
+  [
+   "Are you going to work?",
+   "Īsne ad labōrem?"
+  ],
+  [
+   "Where are you going?",
+   "Quō īs?"
+  ],
+  [
+   "Where did you go?",
+   "Quō īvistī?"
+  ],
+  [
+   "Let's go home.",
+   "Domum eāmus."
+  ],
+  [
+   "Go home!",
+   "Domum ī!"
+  ],
+  [
+   "I work at home.",
+   "Domī labōrō."
+  ],
+  [
+   "I worked at home today.",
+   "Hodiē domī labōrāvī."
+  ],
+  [
+   "I will work tomorrow.",
+   "Crās labōrābō."
+  ],
+  [
+   "I like work.",
+   "Labor mihi placet."
+  ],
+  [
+   "What do you like?",
+   "Quid tibi placet?"
+  ],
+  [
+   "What do you like to play?",
+   "Quid lūdere tibi placet?"
+  ],
+  [
+   "I like to play with a ball.",
+   "Pilā lūdere mihi placet."
+  ],
+  [
+   "My son likes to play.",
+   "Fīliō meō placet lūdere."
+  ],
+  [
+   "My son is playing outside.",
+   "Fīlius meus forīs lūdit."
+  ],
+  [
+   "My son was playing outside.",
+   "Fīlius meus forīs lūdēbat."
+  ],
+  [
+   "I see my son.",
+   "Fīlium meum videō."
+  ],
+  [
+   "I saw my son.",
+   "Fīlium meum vīdī."
+  ],
+  [
+   "I will see my son this evening.",
+   "Hodiē vesperī fīlium meum vidēbō."
+  ],
+  [
+   "I want to see my family.",
+   "Familiam meam vidēre volō."
+  ],
+  [
+   "I have a family.",
+   "Familiam habeō."
+  ],
+  [
+   "I have two daughters and a son.",
+   "Duās fīliās et ūnum fīlium habeō."
+  ],
+  [
+   "I talk with my daughters.",
+   "Cum fīliābus meīs loquor."
+  ],
+  [
+   "I talked with my wife.",
+   "Cum uxōre meā locūtus sum."
+  ],
+  [
+   "I want to talk with you.",
+   "Tēcum loquī volō."
+  ],
+  [
+   "Can you speak slowly?",
+   "Potesne lentē loquī?"
+  ],
+  [
+   "Speak slowly, please.",
+   "Lentē loquere, quaesō."
+  ],
+  [
+   "I don't understand.",
+   "Nōn intellegō."
+  ],
+  [
+   "I didn't understand.",
+   "Nōn intellēxī."
+  ],
+  [
+   "Say it again, please.",
+   "Iterum dīc, quaesō."
+  ],
+  [
+   "What does that mean?",
+   "Quid hoc significat?"
+  ],
+  [
+   "How do you say it in Latin?",
+   "Quōmodo dīcitur Latīnē?"
+  ],
+  [
+   "I am learning Latin.",
+   "Linguam Latīnam discō."
+  ],
+  [
+   "I learned a lot today.",
+   "Hodiē multa didicī."
+  ],
+  [
+   "I will learn more tomorrow.",
+   "Crās plūra discam."
+  ],
+  [
+   "I am tired.",
+   "Fessus sum."
+  ],
+  [
+   "I was tired yesterday.",
+   "Herī fessus eram."
+  ],
+  [
+   "I am hungry.",
+   "Ēsuriō."
+  ],
+  [
+   "I want to eat.",
+   "Edere volō."
+  ],
+  [
+   "I ate bread.",
+   "Pānem ēdī."
+  ],
+  [
+   "I drank only water.",
+   "Tantum aquam bibī."
+  ],
+  [
+   "I drink too much coffee.",
+   "Nimium caffeae bibō."
+  ],
+  [
+   "Let's go.",
+   "Eāmus."
+  ]
+ ]
+}

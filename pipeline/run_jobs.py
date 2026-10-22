@@ -238,6 +238,44 @@ def dialogue_clips(seq, st, max_chars=1800):
     return out
 
 
+# ---------------- drill (free voices, Piper) ----------------
+def run_drill(job):
+    """A sentence ladder: each line English then Latin, each sentence shifts a little. Free (Piper), no credits."""
+    import free_tts
+    ven, vla = job.get('voice_en', 'en_GB-jenny_dioco-medium'), job.get('voice_la', 'it_IT-paola-medium')
+    os.makedirs('clips/free', exist_ok=True)
+    def fclip(voice, text):
+        h = hashlib.sha1(f'{voice}|{text}'.encode()).hexdigest()[:16]
+        w = f'clips/free/{h}.wav'
+        if not os.path.exists(w):
+            free_tts.say(voice, text, w)
+        return audio.norm(audio.trim(audio.load(w)))
+    items = []
+    for en, la in job['pairs']:
+        items += [(fclip(ven, en), job.get('pause_after_english', 0.45)), (fclip(vla, free_tts.latin_for_italian(la)), job.get('pause_after_latin', 0.8))]
+    n = int(job.get('repeat', 3)); seq = []
+    for k in range(n):
+        seq += items[:-1] + [(items[-1][0], 2.5)]
+    voice, ev = audio.sequence(seq)
+    x = audio.mix_music(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -7), job.get('music_dip_db', 7))
+    eps = json.load(open('episodes.json'))
+    fn = f"bonus-{job['slug']}.mp3"
+    eps = [e for e in eps if e['file'] != fn]
+    nxt = max([e['episode'] for e in eps] + [0]) + 1
+    title = job['title']
+    cover = audio.make_cover('cover.jpg', title, f"episodes/bonus-{job['slug']}-cover.jpg")
+    now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=11)))
+    tags = {'title': title, 'artist': 'Sermones Ambulātōriī', 'album_artist': 'Sermones Ambulātōriī',
+            'album': 'Sermones Ambulātōriī · Season 1', 'track': str(nxt), 'genre': 'Language Learning', 'date': str(now.year)}
+    audio.save_mp3(x, 'episodes/' + fn, tags, cover)
+    eps.append({'file': fn, 'title': title, 'season': 1, 'episode': nxt, 'date': now.isoformat(timespec='seconds'),
+                'summary': job.get('summary', '')})
+    json.dump(eps, open('episodes.json', 'w'), indent=1, ensure_ascii=False)
+    subprocess.run([sys.executable, 'build_feed.py', BASE], check=True)
+    log('built', fn, f'{len(x) / audio.SR / 60:.1f} min')
+    return {'files': [fn]}
+
+
 # ---------------- episode ----------------
 def resolve_voices(V):
     """Turn "name:Australian man" into a voice ID (exact, case-sensitive name in My Voices)."""
@@ -370,7 +408,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update({'audition': run_audition, 'test': run_test}.get(job['type'], run_episode)(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]
