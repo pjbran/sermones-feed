@@ -1,0 +1,12 @@
+{
+ "job": "jobs/0011-drill-scala-2.json",
+ "ok": true,
+ "files": [
+  "bonus-scala-2-ambulo-puto-dico.mp3"
+ ],
+ "log": [
+  "== job jobs/0011-drill-scala-2.json drill",
+  "built bonus-scala-2-ambulo-puto-dico.mp3 8.8 min"
+ ],
+ "at": "2026-10-22T05:32:13+00:00"
+}
