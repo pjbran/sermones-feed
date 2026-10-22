@@ -14,7 +14,33 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Tue, 20 Oct 2026 10:12:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 05:17:27 +0000</lastBuildDate>
+    <item>
+      <title>Ep 4 · Celeriter an clārē? · Latin only × 3</title>
+      <description>Too much coffee, a carrot, beautiful birds, and today's chat with ChatGPT: speak fast, or speak clearly? Quotes: Īra furor brevis est (Horace, Letters 1.2), Rem tenē, verba sequentur (Cato the Elder), Sit sermō vester: est, est; nōn, nōn (Matthew 5:37). Latin only. The whole dialogue 3 times.</description>
+      <itunes:summary>Too much coffee, a carrot, beautiful birds, and today's chat with ChatGPT: speak fast, or speak clearly? Quotes: Īra furor brevis est (Horace, Letters 1.2), Rem tenē, verba sequentur (Cato the Elder), Sit sermō vester: est, est; nōn, nōn (Matthew 5:37). Latin only. The whole dialogue 3 times.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/s1e04b-celeriter-an-clare.mp3" length="13682611" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-s1e04b-celeriter-an-clare.mp3</guid>
+      <pubDate>Thu, 22 Oct 2026 16:17:48 +1100</pubDate>
+      <itunes:duration>11:17</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>10</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Ep 4 · Celeriter an clārē? · English → Latin × 3</title>
+      <description>Too much coffee, a carrot, beautiful birds, and today's chat with ChatGPT: speak fast, or speak clearly? Quotes: Īra furor brevis est (Horace, Letters 1.2), Rem tenē, verba sequentur (Cato the Elder), Sit sermō vester: est, est; nōn, nōn (Matthew 5:37). Each line in English, then in Latin. The whole dialogue 3 times.</description>
+      <itunes:summary>Too much coffee, a carrot, beautiful birds, and today's chat with ChatGPT: speak fast, or speak clearly? Quotes: Īra furor brevis est (Horace, Letters 1.2), Rem tenē, verba sequentur (Cato the Elder), Sit sermō vester: est, est; nōn, nōn (Matthew 5:37). Each line in English, then in Latin. The whole dialogue 3 times.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/s1e04a-celeriter-an-clare.mp3" length="27901069" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-s1e04a-celeriter-an-clare.mp3</guid>
+      <pubDate>Thu, 22 Oct 2026 16:16:48 +1100</pubDate>
+      <itunes:duration>23:08</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Ep 3 · Fābulae · Latin only × 3</title>
       <description>Latin stories about the family: a son who won't sleep, a wet dog, the cheese Marcus always forgets, and two daughters who find out they're in the stories. Easy stories or hard ones: which are better? Then Christmas and the Nativity. Quotes: Sinite parvulōs venīre ad mē (Mark 10:14), Glōria in altissimīs Deō (Luke 2:14). Latin only. The whole dialogue 3 times.</description>
