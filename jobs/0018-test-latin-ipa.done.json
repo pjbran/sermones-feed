@@ -1,0 +1,12 @@
+{
+ "job": "jobs/0018-test-latin-ipa.json",
+ "ok": true,
+ "tests": 2,
+ "page": "https://pjbran.github.io/sermones-feed/tests/latin-ipa/",
+ "log": [
+  "== job jobs/0018-test-latin-ipa.json test",
+  "test ok: A · Now: Italian spelling (what the ladders use)",
+  "test ok: B · IPA: exact sounds, stress and long vowels"
+ ],
+ "at": "2026-10-22T09:23:06+00:00"
+}

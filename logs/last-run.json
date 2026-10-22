@@ -1,12 +1,12 @@
 {
- "job": "jobs/0017-drill-latin-only-long.json",
+ "job": "jobs/0018-test-latin-ipa.json",
  "ok": true,
- "files": [
-  "bonus-scala-latina-longa.mp3"
- ],
+ "tests": 2,
+ "page": "https://pjbran.github.io/sermones-feed/tests/latin-ipa/",
  "log": [
-  "== job jobs/0017-drill-latin-only-long.json drill",
-  "built bonus-scala-latina-longa.mp3 17.2 min"
+  "== job jobs/0018-test-latin-ipa.json test",
+  "test ok: A · Now: Italian spelling (what the ladders use)",
+  "test ok: B · IPA: exact sounds, stress and long vowels"
  ],
- "at": "2026-10-22T06:08:55+00:00"
+ "at": "2026-10-22T09:23:06+00:00"
 }
