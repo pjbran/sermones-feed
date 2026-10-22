@@ -1,0 +1,114 @@
+{
+ "type": "test",
+ "name": "latin-ipa",
+ "variants": [
+  "free_la_respell",
+  "free_la_ipa"
+ ],
+ "voices": {
+  "F": "id:x",
+  "M": "id:x"
+ },
+ "lines": [
+  {
+   "who": "F",
+   "en": "",
+   "la": "Bene dormīvī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Nōn bene dormīvī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Fīlius meus dormīre nōn vult."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Hodiē sērō surrēxī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Crās prīmā lūce surgam."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Cum fīliō meō ambulāvī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Herī ad labōrem iī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Quō īvistī?"
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Domum eāmus."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Hodiē domī labōrāvī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Duās fīliās et ūnum fīlium habeō."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Cum uxōre meā locūtus sum."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Gāvīsus sum, quia familiam meam vidēre mihi placet."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Grātiās tibi agō quod mē admonuistī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Hae cōgitātiōnēs meae sunt."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Rem tenē, verba sequentur."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Cicerō scrīpsit: dum anima est, spēs esse dīcitur."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Quōmodo dīcitur Latīnē?"
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Lentē loquere, quaesō."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Valē, amīce. Crās tē vidēbō."
+  }
+ ]
+}

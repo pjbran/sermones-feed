@@ -128,9 +128,20 @@ def run_test(job):
                     free_tts.say(FV[w][lang], txt, f)
                     clips.append(audio.norm(audio.trim(audio.load(f)))); os.remove(f)
             return audio.sequence(list(zip(clips, gaps)), lead=0.2, tail=0.2)[0]
+        def free_latin(conv):
+            clips = []
+            for ln in lines:
+                f = f'{out_dir}/tmp-la-{len(clips)}.wav'
+                free_tts.say(FV[ln['who']]['it'], conv(ln['la']), f)
+                clips.append(audio.norm(audio.trim(audio.load(f)))); os.remove(f)
+            return audio.sequence([(c, 0.6) for c in clips], lead=0.2, tail=0.2)[0]
         for v in variants:
             try:
-                if v == 'free_split':
+                if v == 'free_la_respell':
+                    save(free_latin(free_tts.latin_for_italian), 'a-latin-respell', 'A · Now: Italian spelling (what the ladders use)')
+                elif v == 'free_la_ipa':
+                    save(free_latin(free_tts.latin_ipa), 'b-latin-ipa', 'B · IPA: exact sounds, stress and long vowels')
+                elif v == 'free_split':
                     save(free_seq('en'), 'f-free-split', 'FREE 1 · English voice for English, Italian voice for Latin (Piper)')
                 elif v == 'free_italian':
                     save(free_seq('it'), 'g-free-italian', 'FREE 2 · Italian voice for both (Piper)')

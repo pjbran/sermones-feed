@@ -37,3 +37,17 @@ def latin_for_italian(t):
 if __name__ == '__main__':
     for s in ['Cicerō scrīpsit: dum anima est, spēs esse dīcitur.', 'Rem tenē, verba sequentur.', 'Scīsne quid Horātius dīcat?']:
         print(s, '->', latin_for_italian(s))
+
+
+def latin_ipa(t):
+    """Classical Latin -> IPA with stress and long vowels (eSpeak's Latin rules, built into Piper),
+    sent to the voice as raw phonemes, so it does not guess (dormīvī -> dɔrmˈiːwiː)."""
+    import piper
+    from piper.phonemize_espeak import EspeakPhonemizer
+    global _PH
+    try:
+        _PH
+    except NameError:
+        _PH = EspeakPhonemizer(os.path.join(os.path.dirname(piper.__file__), 'espeak-ng-data'))
+    ipa = ' '.join(''.join(s) for s in _PH.phonemize('la', unicodedata.normalize('NFC', t)))
+    return '[[ ' + ipa.replace('ʲ', '') + ' ]]'
