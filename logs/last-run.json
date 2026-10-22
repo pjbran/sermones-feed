@@ -1,20 +1,11 @@
 {
- "job": "jobs/0021-test-ipa-voices.json",
+ "job": "jobs/0022-test-ipa-v.json",
  "ok": true,
- "tests": 10,
- "page": "https://pjbran.github.io/sermones-feed/tests/ipa-voices/",
+ "tests": 1,
+ "page": "https://pjbran.github.io/sermones-feed/tests/ipa-v/",
  "log": [
-  "== job jobs/0021-test-ipa-voices.json test",
-  "test ok: 1 · it_IT-paola-medium",
-  "test ok: 2 · es_MX-claude-high",
-  "test ok: 3 · es_ES-davefx-medium",
-  "test ok: 4 · lv_LV-aivars-medium",
-  "test ok: 5 · cs_CZ-jirka-medium",
-  "test ok: 6 · fi_FI-harri-medium",
-  "test ok: 7 · ro_RO-mihai-medium",
-  "test ok: 8 · pl_PL-gosia-medium",
-  "test ok: 9 · hu_HU-anna-medium",
-  "test ok: 10 · sk_SK-lili-medium"
+  "== job jobs/0022-test-ipa-v.json test",
+  "test ok: 1 · it_IT-paola-medium"
  ],
- "at": "2026-10-22T09:59:48+00:00"
+ "at": "2026-10-22T10:19:10+00:00"
 }
