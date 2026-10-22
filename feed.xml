@@ -14,7 +14,20 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Thu, 22 Oct 2026 05:41:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 05:46:41 +0000</lastBuildDate>
+    <item>
+      <title>Bonus · Sentence ladder 3: talking with her (× 3)</title>
+      <description>Ladder 3, for your ChatGPT chats: loquor in every person and tense; hic / haec / hoc and hae (hae cōgitātiōnēs, hae avēs, hae rēs); my opinion, I think that…; I agree / I disagree; you taught me, I learned something new, remember; let's continue, let's finish. English then Latin. Played 3 times. Free voices.</description>
+      <itunes:summary>Ladder 3, for your ChatGPT chats: loquor in every person and tense; hic / haec / hoc and hae (hae cōgitātiōnēs, hae avēs, hae rēs); my opinion, I think that…; I agree / I disagree; you taught me, I learned something new, remember; let's continue, let's finish. English then Latin. Played 3 times. Free voices.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-scala-3-loquor.mp3" length="10808088" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-bonus-scala-3-loquor.mp3</guid>
+      <pubDate>Thu, 22 Oct 2026 16:46:32 +1100</pubDate>
+      <itunes:duration>8:53</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Bonus · Sentence ladders 1 + 2 · Latin only (× 3)</title>
       <description>Ladders 1 and 2 in Latin only: twice as much Latin, no English. Played 3 times. Free voices.</description>
