@@ -1,0 +1,12 @@
+{
+ "job": "jobs/0019-fabella-rufus.json",
+ "ok": true,
+ "files": [
+  "bonus-fabella-rufus-et-caseus.mp3"
+ ],
+ "log": [
+  "== job jobs/0019-fabella-rufus.json drill",
+  "built bonus-fabella-rufus-et-caseus.mp3 12.9 min"
+ ],
+ "at": "2026-10-22T09:41:51+00:00"
+}

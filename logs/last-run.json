@@ -1,12 +1,12 @@
 {
- "job": "jobs/0018-test-latin-ipa.json",
+ "job": "jobs/0020-drill-scala-4.json",
  "ok": true,
- "tests": 2,
- "page": "https://pjbran.github.io/sermones-feed/tests/latin-ipa/",
- "log": [
-  "== job jobs/0018-test-latin-ipa.json test",
-  "test ok: A · Now: Italian spelling (what the ladders use)",
-  "test ok: B · IPA: exact sounds, stress and long vowels"
+ "files": [
+  "bonus-scala-4-quindecim.mp3"
  ],
- "at": "2026-10-22T09:23:06+00:00"
+ "log": [
+  "== job jobs/0020-drill-scala-4.json drill",
+  "built bonus-scala-4-quindecim.mp3 10.2 min"
+ ],
+ "at": "2026-10-22T09:51:55+00:00"
 }

@@ -1,0 +1,12 @@
+{
+ "job": "jobs/0020-drill-scala-4.json",
+ "ok": true,
+ "files": [
+  "bonus-scala-4-quindecim.mp3"
+ ],
+ "log": [
+  "== job jobs/0020-drill-scala-4.json drill",
+  "built bonus-scala-4-quindecim.mp3 10.2 min"
+ ],
+ "at": "2026-10-22T09:51:55+00:00"
+}
