@@ -1,12 +1,12 @@
 {
- "job": "jobs/0009-test-free-voices.json",
+ "job": "jobs/0010-drill-scala-1.json",
  "ok": true,
- "tests": 2,
- "page": "https://pjbran.github.io/sermones-feed/tests/free-voices/",
- "log": [
-  "== job jobs/0009-test-free-voices.json test",
-  "test ok: FREE 1 · English voice for English, Italian voice for Latin (Piper)",
-  "test ok: FREE 2 · Italian voice for both (Piper)"
+ "files": [
+  "bonus-scala-1-eo-laboro-loquor.mp3"
  ],
- "at": "2026-10-22T05:21:58+00:00"
+ "log": [
+  "== job jobs/0010-drill-scala-1.json drill",
+  "built bonus-scala-1-eo-laboro-loquor.mp3 9.2 min"
+ ],
+ "at": "2026-10-22T05:27:47+00:00"
 }

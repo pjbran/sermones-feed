@@ -1,0 +1,12 @@
+{
+ "job": "jobs/0010-drill-scala-1.json",
+ "ok": true,
+ "files": [
+  "bonus-scala-1-eo-laboro-loquor.mp3"
+ ],
+ "log": [
+  "== job jobs/0010-drill-scala-1.json drill",
+  "built bonus-scala-1-eo-laboro-loquor.mp3 9.2 min"
+ ],
+ "at": "2026-10-22T05:27:47+00:00"
+}
