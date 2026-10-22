@@ -14,7 +14,33 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Thu, 22 Oct 2026 10:29:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 10:47:22 +0000</lastBuildDate>
+    <item>
+      <title>Fābella · Rūfus et cāseus (× 3)</title>
+      <description>Iulia's Saturday: rain, coffee, her dog Rufus, the market, and a stolen cheese. English then Latin, free voices, Latin read from IPA. Quotes: Canis timidus vehementius lātrat quam mordet (Quintus Curtius), Post nūbila Phoebus (old saying). Played 3 times. Latin v said as v.</description>
+      <itunes:summary>Iulia's Saturday: rain, coffee, her dog Rufus, the market, and a stolen cheese. English then Latin, free voices, Latin read from IPA. Quotes: Canis timidus vehementius lātrat quam mordet (Quintus Curtius), Post nūbila Phoebus (old saying). Played 3 times. Latin v said as v.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-fabella-rufus-et-caseus-v.mp3" length="15886078" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-bonus-fabella-rufus-et-caseus-v.mp3</guid>
+      <pubDate>Thu, 22 Oct 2026 21:47:09 +1100</pubDate>
+      <itunes:duration>13:07</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>18</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Bonus · Sentence ladder 4: talking to myself (15 min)</title>
+      <description>232 useful sentences as a conversation with yourself, with questions all the way through (why? where? how much? who?): getting up tired, the walk and the magpie, thinking about Latin, the family, the missing cheese, the client, the day looked back on, then night, a rainy morning at home with the kids, and stories. English then Latin, Latin read from IPA, free voices. Latin v said as v.</description>
+      <itunes:summary>232 useful sentences as a conversation with yourself, with questions all the way through (why? where? how much? who?): getting up tired, the walk and the magpie, thinking about Latin, the family, the missing cheese, the client, the day looked back on, then night, a rainy morning at home with the kids, and stories. English then Latin, Latin read from IPA, free voices. Latin v said as v.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-scala-4-quindecim-v.mp3" length="18452154" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-bonus-scala-4-quindecim-v.mp3</guid>
+      <pubDate>Thu, 22 Oct 2026 21:43:32 +1100</pubDate>
+      <itunes:duration>15:15</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>17</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Bonus · Sentence ladder 4: talking to myself (10 min, old voice)</title>
       <description>160 useful sentences as a conversation with yourself, with questions all the way through (why? where? how much? who?): getting up tired, the walk and the magpie, thinking about Latin, the family, the missing cheese, the client, and the day looked back on. English then Latin, Latin read from IPA, free voices.</description>
@@ -152,7 +178,7 @@
       <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-scala-2-longa.mp3" length="21276083" type="audio/mpeg"/>
       <guid isPermaLink="false">sermones-bonus-scala-2-longa.mp3</guid>
       <pubDate>Thu, 22 Oct 2026 17:01:42 +1100</pubDate>
-      <itunes:duration>17:37</itunes:duration>
+      <itunes:duration>17:36</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>12</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
