@@ -75,5 +75,7 @@ His strong words get no points. They are the glue and they come back anyway.
 
 ## 6. Sentence ladders (Patrick, 22 Oct: "the sentence ladder is good")
 - Job `"type": "drill"`: pairs [English, Latin]; each sentence shifts a little from the one before (person, tense, can / want / let's, one added part). About 50 pairs ≈ 3 min, `repeat: 3`. `"latin_only": true` = no English.
-- Free: Piper voices in the Action (English: en_GB-jenny_dioco-medium; Latin: it_IT-paola-medium with the classical respelling in `pipeline/free_tts.py`). 0 credits.
+- Free: Piper voices in the Action (English: en_GB-jenny_dioco-medium; Latin: it_IT-paola-medium). **Latin goes in as IPA** (`free_tts.latin_ipa`: eSpeak's Latin rules → raw phonemes with stress and long vowels, e.g. dormīvī → dɔrmˈiːwiː). Patrick picked IPA over the Italian respelling on 22 Oct (test job 0018). 0 credits.
+- Ladders: put questions all the way through (a conversation with yourself: why? where? how much? and clarifying, 'that is…').
+- Done 22 Oct evening: ladder 4 'talking to myself' (160 pairs, 10 min, IPA), story 'Fābella · Rūfus et cāseus' (56 pairs × 3, IPA).
 - Done: ladder 1 (going, working, liking, playing, seeing, talking, learning, eating), ladder 2 (walking with my son, putō / sciō, the meeting, dīxit sē…, possum / poteram, grātiās… quod, cum domum vēnerō), ladders 1 + 2 Latin only.
