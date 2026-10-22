@@ -135,6 +135,19 @@ def run_test(job):
                 free_tts.say(FV[ln['who']]['it'], conv(ln['la']), f)
                 clips.append(audio.norm(audio.trim(audio.load(f)))); os.remove(f)
             return audio.sequence([(c, 0.6) for c in clips], lead=0.2, tail=0.2)[0]
+        if 'free_ipa_voices' in variants:
+            for k, vname in enumerate(job.get('ipa_voices', [])):
+                try:
+                    clips = []
+                    for ln in lines:
+                        f = f'{out_dir}/tmp-{k}-{len(clips)}.wav'
+                        free_tts.say(vname, free_tts.latin_ipa(ln['la'], pad=job.get('pad', True)), f)
+                        x = audio.load(f); os.remove(f)
+                        clips.append(audio.norm(audio.trim(x, thr_db=-55, pad=0.12)))   # gentle: never touch speech
+                    seqx = audio.sequence([(c, 0.7) for c in clips], lead=0.3, tail=0.3)[0]
+                    save(seqx, f'v{k + 1}-{vname}', f'{k + 1} · {vname}')
+                except Exception as e:
+                    log('voice failed:', vname, repr(e))
         for v in variants:
             try:
                 if v == 'free_la_respell':

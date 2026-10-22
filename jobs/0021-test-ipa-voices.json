@@ -1,0 +1,75 @@
+{
+ "type": "test",
+ "name": "ipa-voices",
+ "variants": [
+  "free_ipa_voices"
+ ],
+ "ipa_voices": [
+  "it_IT-paola-medium",
+  "es_MX-claude-high",
+  "es_ES-davefx-medium",
+  "lv_LV-aivars-medium",
+  "cs_CZ-jirka-medium",
+  "fi_FI-harri-medium",
+  "ro_RO-mihai-medium",
+  "pl_PL-gosia-medium",
+  "hu_HU-anna-medium",
+  "sk_SK-lili-medium"
+ ],
+ "voices": {
+  "F": "id:x",
+  "M": "id:x"
+ },
+ "lines": [
+  {
+   "who": "F",
+   "en": "",
+   "la": "Bene dormīvī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Nōn bene dormīvī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Hodiē sērō surrēxī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Cum fīliō meō ambulāvī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Gāvīsus sum, quia familiam meam vidēre mihi placet."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Grātiās tibi agō quod mē admonuistī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Hae cōgitātiōnēs meae sunt."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Rem tenē, verba sequentur."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Quōmodo dīcitur Latīnē?"
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Valē, amīce. Crās tē vidēbō."
+  }
+ ]
+}
