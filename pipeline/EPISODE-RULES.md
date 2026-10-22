@@ -59,7 +59,7 @@ His strong words get no points. They are the glue and they come back anyway.
 
 ## 5. Fixed format (back to the Ep 1 recipe, confirmed 19 Oct)
 
-- Voices: Marcus = Patrick's clone "Australian man", Iulia = "Rossana – Warm Italian Conversational" (exactly as Ep 1).
+- Voices: Iulia = "Rossana – Warm Italian Conversational". Marcus = an **Italian male** library voice (Patrick, 22 Oct: no more his own voice). Ep 4 used "Emanuele Matte – Clear and Serious" (qQFoiN2eQXULODjD1SwL). Backup if he dislikes it: "Valentino – English with Italian accent" (conversational).
 - Job `"mode": "dialogue"`: the whole English conversation and the whole Latin conversation are each rendered in one go (ElevenLabs text-to-dialogue with timestamps, chunks under 1,800 characters), then cut softly at the given times and stitched English → Latin.
 - No emotion tags, no [quickly], stability 0.2 (as Ep 1). Pauses 0.5 s after the English, 0.8 s before the next line (Ep 1); Latin only 0.35 s.
 - Intro by one host: *Bene vēnistis ad colloquium! Hodiē loquāmur dē …*
