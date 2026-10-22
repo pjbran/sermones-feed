@@ -3,6 +3,12 @@
 Each episode joins 3 things: **ChatGPT chats → VERBA cards → this audio.**
 Patrick listens on repeat, so every line must earn its place.
 
+
+## 0. NO SNIPPING (Patrick, 22 Oct, 5 pm: "DO NOT DO ANY MORE SNIPPING. It has completely ruined the new episode")
+- Never cut into a word or its fade-out. Ep 4 was cut at the ElevenLabs text timestamps, which end before the sound ends: every line was clipped.
+- A cut may only be made in real silence (measured on the audio), with a soft fade. Before publishing, check every cut point: the sound there must be below about -45 dB. If a line cannot be cut cleanly, do not publish it.
+- No breath cutter, no trimming that touches speech.
+
 ## 1. Pick the words (about 25 targets)
 
 Give each candidate word or pattern points. Take the top 25. Use no more than 3 new words.
