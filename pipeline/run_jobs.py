@@ -216,13 +216,55 @@ def render_dialogue(seq, st):
         if not ss:
             raise RuntimeError(f'No timing for dialogue input {i}: {seq[i][1][:40]}')
         spans.append((min(g['start_time_seconds'] for g in ss), max(g['end_time_seconds'] for g in ss)))
+    return split_whole(x, spans)
+
+
+def split_whole(x, spans):
+    """Cut a dialogue render into lines WITHOUT snipping (Patrick, 22 Oct): every cut goes in real silence,
+    found on the audio. The text timestamps only say roughly where to look."""
+    SR, hop = audio.SR, int(0.01 * audio.SR)
+    e = 20 * audio.np.log10(audio.np.array([audio.np.sqrt(audio.np.mean(x[i:i + hop] ** 2)) + 1e-9
+                                            for i in range(0, len(x) - hop + 1, hop)]))
+    speech = audio.np.percentile(e[e > audio.np.percentile(e, 30)], 70)   # typical speech level of this render
+    quiet = speech - 32                                                  # silence = 32 dB below speech
+    fr = lambda t: max(0, min(len(e) - 1, int(t / 0.01)))
+    def quietest(t0, t1, target):
+        """The silence (80 ms or more) nearest to where the timestamps put the change of line;
+        else the longest silence; else the quietest frame."""
+        a, b = fr(t0), fr(t1)
+        if b <= a: return a
+        q = list(e[a:b] < quiet) + [False]; runs, start = [], None
+        for k, v in enumerate(q):
+            if v and start is None: start = k
+            if not v and start is not None: runs.append((start, k)); start = None
+        good = [r for r in runs if r[1] - r[0] >= 8]
+        if good:
+            r = min(good, key=lambda r: abs(a + (r[0] + r[1]) / 2 - target / 0.01)); short.append(r[1] - r[0])
+            return a + (r[0] + r[1]) // 2
+        if runs:
+            r = max(runs, key=lambda r: r[1] - r[0]); short.append(r[1] - r[0])
+            return a + (r[0] + r[1]) // 2
+        short.append(0)
+        return a + int(audio.np.argmin(e[a:b]))
+    short = []
+    cuts = [fr(max(0, spans[0][0] - 0.6)) if spans[0][0] > 0.6 else 0]
+    for i in range(len(spans) - 1):
+        cuts.append(quietest(max(spans[i][0] + 0.3, spans[i][1] - 0.35), min(spans[i + 1][1] - 0.3, spans[i + 1][0] + 0.6),
+                             (spans[i][1] + spans[i + 1][0]) / 2))
+    cuts.append(len(e))
+    loud = 0
     out = []
-    for i, (a, b) in enumerate(spans):   # soft edges, as in Episode 1 (no hard snips)
-        gp = a - spans[i - 1][1] if i else 1.0
-        gn = spans[i + 1][0] - b if i + 1 < len(spans) else 1.0
-        pre = min(0.06, max(0.0, gp - 0.05)); post = min(0.18, max(0.02, gn - 0.06))
-        seg = x[max(0, int((a - pre) * audio.SR)):min(len(x), int((b + post) * audio.SR))]
-        out.append(audio.fade(audio.norm(seg), 12))
+    for i in range(len(spans)):
+        a, b = cuts[i], cuts[i + 1]
+        if i + 1 < len(spans) and e[min(b, len(e) - 1)] > quiet: loud += 1
+        seg = e[a:b]; idx = audio.np.where(seg > quiet)[0]              # keep a margin around the sound
+        if len(idx):
+            a2 = a + max(0, idx[0] - 8); b2 = a + min(len(seg), idx[-1] + 20)   # 80 ms before, 200 ms after the last sound
+        else:
+            a2, b2 = a, b
+        clip = x[a2 * hop:b2 * hop]
+        out.append(audio.fade(audio.norm(clip), 15))
+    log(f'  split: {len(spans)} lines, cuts not in silence: {loud}, gaps under 80 ms: {sum(1 for b in short if b < 8)}')
     return out
 
 
@@ -283,7 +325,7 @@ def run_drill(job):
 def resolve_voices(V):
     """Turn "name:Australian man" into a voice ID (exact, case-sensitive name in My Voices)."""
     if not any(str(v).startswith(('name:', 'shared:')) for v in V.values()):
-        return V
+        return {k: (v[3:] if str(v).startswith('id:') else v) for k, v in V.items()}
     mine = el.my_voices()
     out = {}
     for k, v in list(V.items()):
