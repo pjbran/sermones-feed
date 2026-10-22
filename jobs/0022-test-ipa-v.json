@@ -1,0 +1,68 @@
+{
+ "type": "test",
+ "name": "ipa-v",
+ "variants": [
+  "free_ipa_voices"
+ ],
+ "ipa_voices": [
+  "it_IT-paola-medium"
+ ],
+ "pad": false,
+ "v_as_v": true,
+ "voices": {
+  "F": "id:x",
+  "M": "id:x"
+ },
+ "lines": [
+  {
+   "who": "F",
+   "en": "",
+   "la": "Bene dormīvī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Nōn bene dormīvī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Vīnum bonum est."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Venīsne mēcum? Ita, veniō."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Quōmodo vīvis?"
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Cum fīliō meō ambulāvī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Gāvīsus sum, quia familiam meam vidēre mihi placet."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Grātiās tibi agō quod mē admonuistī."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Rem tenē, verba sequentur."
+  },
+  {
+   "who": "F",
+   "en": "",
+   "la": "Valē, amīce. Crās tē vidēbō."
+  }
+ ]
+}

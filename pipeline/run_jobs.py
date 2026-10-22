@@ -141,7 +141,7 @@ def run_test(job):
                     clips = []
                     for ln in lines:
                         f = f'{out_dir}/tmp-{k}-{len(clips)}.wav'
-                        free_tts.say(vname, free_tts.latin_ipa(ln['la'], pad=job.get('pad', True)), f)
+                        free_tts.say(vname, free_tts.latin_ipa(ln['la'], pad=job.get('pad', True), v_as_v=job.get('v_as_v', False)), f)
                         x = audio.load(f); os.remove(f)
                         clips.append(audio.norm(audio.trim(x, thr_db=-55, pad=0.12)))   # gentle: never touch speech
                     seqx = audio.sequence([(c, 0.7) for c in clips], lead=0.3, tail=0.3)[0]
