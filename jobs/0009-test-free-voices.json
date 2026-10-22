@@ -1,0 +1,44 @@
+{
+ "type": "test",
+ "name": "free-voices",
+ "variants": [
+  "free_split",
+  "free_italian"
+ ],
+ "voices": {
+  "F": "id:x",
+  "M": "id:x"
+ },
+ "lines": [
+  {
+   "who": "F",
+   "en": "Hi Marcus. How are you today?",
+   "la": "Salvē, Marce. Quōmodo tē hodiē habēs?"
+  },
+  {
+   "who": "M",
+   "en": "Honestly? A bit angry today.",
+   "la": "Vērē? Hodiē paulum īrātus sum."
+  },
+  {
+   "who": "M",
+   "en": "Because I drank too much coffee.",
+   "la": "Quia nimium caffeae bibī."
+  },
+  {
+   "who": "F",
+   "en": "Cato said: hold the subject, and the words will follow.",
+   "la": "Catō dīxit: rem tenē, verba sequentur."
+  },
+  {
+   "who": "M",
+   "en": "I stopped and said: oh, beautiful birds!",
+   "la": "Cōnstitī et dīxī: ō, avēs pulchrae!"
+  },
+  {
+   "who": "F",
+   "en": "Cicero wrote: while there's life, they say there's hope.",
+   "la": "Cicerō scrīpsit: dum anima est, spēs esse dīcitur."
+  }
+ ]
+}

@@ -115,6 +115,27 @@ def run_test(job):
         return audio.sequence(list(zip(clips, gaps)), lead=0.2, tail=0.2)[0]
 
     variants = job.get('variants', ['v4_lines', 'v4_dialogue', 'v2_lines'])
+    if any(v.startswith('free') for v in variants):   # Piper: free, no credits
+        import free_tts
+        FV = {'F': {'en': 'en_GB-jenny_dioco-medium', 'it': 'it_IT-paola-medium'},
+              'M': {'en': 'en_GB-alan-medium', 'it': 'it_IT-riccardo-x_low'}}
+        def free_seq(en_lang):
+            clips = []
+            for k, ln in enumerate(lines):
+                w = ln['who']
+                for txt, lang in ((ln['en'], en_lang), (free_tts.latin_for_italian(ln['la']), 'it')):
+                    f = f'{out_dir}/tmp-{k}-{lang}-{len(clips)}.wav'
+                    free_tts.say(FV[w][lang], txt, f)
+                    clips.append(audio.norm(audio.trim(audio.load(f)))); os.remove(f)
+            return audio.sequence(list(zip(clips, gaps)), lead=0.2, tail=0.2)[0]
+        for v in variants:
+            try:
+                if v == 'free_split':
+                    save(free_seq('en'), 'f-free-split', 'FREE 1 · English voice for English, Italian voice for Latin (Piper)')
+                elif v == 'free_italian':
+                    save(free_seq('it'), 'g-free-italian', 'FREE 2 · Italian voice for both (Piper)')
+            except Exception as e:
+                log('variant failed:', v, repr(e))
     if 'now' in variants:
         try:
             el._MODEL = el._MODEL or 'eleven_v4'

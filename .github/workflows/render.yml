@@ -20,7 +20,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
-          pip install -q numpy requests pillow
+          pip install -q numpy requests pillow piper-tts
       - name: Run jobs
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
