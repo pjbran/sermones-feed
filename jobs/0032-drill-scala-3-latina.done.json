@@ -1,0 +1,12 @@
+{
+ "job": "jobs/0032-drill-scala-3-latina.json",
+ "ok": true,
+ "files": [
+  "bonus-scala-3-v2-latina.mp3"
+ ],
+ "log": [
+  "== job jobs/0032-drill-scala-3-latina.json drill",
+  "built bonus-scala-3-v2-latina.mp3 19.6 min"
+ ],
+ "at": "2026-10-24T06:58:55+00:00"
+}
