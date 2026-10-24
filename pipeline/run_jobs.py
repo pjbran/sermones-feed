@@ -5,7 +5,7 @@ Job types
 - episode:  render every line (English + Latin, each speaker in their own voice), build
             a = English then Latin x 3, b = Latin only x 3 (optional c = long Latin loop), add them to the feed. Voices can be IDs or "name:<exact voice name>" (looked up in My Voices).
 """
-import glob, json, os, sys, hashlib, html, datetime, traceback, subprocess
+import glob, json, os, re, sys, hashlib, html, datetime, traceback, subprocess
 sys.path.insert(0, os.path.dirname(__file__))
 import el, audio
 from smart import smart
@@ -344,7 +344,13 @@ def run_drill(job):
     json.dump(eps, open('episodes.json', 'w'), indent=1, ensure_ascii=False)
     subprocess.run([sys.executable, 'build_feed.py', BASE], check=True)
     log('built', fn, f'{len(x) / audio.SR / 60:.1f} min')
-    return {'files': [fn]}
+    files = [fn]
+    if not job.get('latin_only') and job.get('with_latin_only', True):   # every ladder also gets a Latin-only track (24 Oct)
+        t = job['title']
+        t2 = re.sub(r'(\s*\(×[^)]*\))?$', lambda m: ' · Latin only' + (m.group(1) or ''), t, count=1)
+        files += run_drill({**job, 'latin_only': True, 'slug': job['slug'] + '-latina', 'title': t2,
+                            'summary': 'Latin only. ' + job.get('summary', '')})['files']
+    return {'files': files}
 
 
 # ---------------- episode ----------------

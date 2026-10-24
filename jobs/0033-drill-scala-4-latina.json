@@ -1,0 +1,1449 @@
+{
+ "type": "drill",
+ "slug": "scala-4-v2-latina",
+ "title": "Ladder 4 · talking to myself · Latin only",
+ "summary": "Latin only. Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
+ "repeat": 1,
+ "music": "v5",
+ "latin_ipa": true,
+ "v_as_v": true,
+ "pairs": [
+  [
+   "What time is it?",
+   "Quota hōra est?"
+  ],
+  [
+   "It's seven.",
+   "Hōra septima est."
+  ],
+  [
+   "Seven? Really?",
+   "Septima? Vērē?"
+  ],
+  [
+   "Yes, seven. I have to get up.",
+   "Ita, septima. Surgere dēbeō."
+  ],
+  [
+   "Do I want to get up?",
+   "Volōne surgere?"
+  ],
+  [
+   "No, I don't want to get up.",
+   "Minimē, surgere nōlō."
+  ],
+  [
+   "Why not?",
+   "Cūr nōn?"
+  ],
+  [
+   "Because I'm tired.",
+   "Quia fessus sum."
+  ],
+  [
+   "Why am I tired?",
+   "Cūr fessus sum?"
+  ],
+  [
+   "Because I slept badly.",
+   "Quia male dormīvī."
+  ],
+  [
+   "Why did I sleep badly?",
+   "Cūr male dormīvī?"
+  ],
+  [
+   "Because my son woke up in the night.",
+   "Quia fīlius meus nocte experrēctus est."
+  ],
+  [
+   "How many times?",
+   "Quotiēs?"
+  ],
+  [
+   "Three times.",
+   "Ter."
+  ],
+  [
+   "So I'm tired. That is, very tired.",
+   "Ergō fessus sum. Id est, valdē fessus."
+  ],
+  [
+   "I'm tired, because my son woke up in the night.",
+   "Fessus sum, quia fīlius meus nocte experrēctus est."
+  ],
+  [
+   "How many times did he wake up? Three times.",
+   "Quotiēs experrēctus est? Ter."
+  ],
+  [
+   "If my son wakes up in the night, I sleep badly.",
+   "Sī fīlius meus nocte expergīscitur, male dormiō."
+  ],
+  [
+   "My wife says that my son woke up in the night.",
+   "Uxor mea dīcit fīlium meum nocte experrēctum esse."
+  ],
+  [
+   "My wife slept well. Why?",
+   "Uxor mea bene dormīvit. Cūr?"
+  ],
+  [
+   "Because my son came to me, not to her.",
+   "Quia fīlius meus ad mē vēnit, nōn ad eam."
+  ],
+  [
+   "I don't want to get up, but I try.",
+   "Surgere nōlō, sed cōnor."
+  ],
+  [
+   "What shall I do?",
+   "Quid faciam?"
+  ],
+  [
+   "I'll drink coffee.",
+   "Caffeam bibam."
+  ],
+  [
+   "How much coffee?",
+   "Quantum caffeae?"
+  ],
+  [
+   "One cup. Only one.",
+   "Ūnum pōculum. Ūnum tantum."
+  ],
+  [
+   "Why only one?",
+   "Cūr ūnum tantum?"
+  ],
+  [
+   "If I drink two cups, I talk too fast.",
+   "Sī duo pōcula bibō, nimis celeriter loquor."
+  ],
+  [
+   "One cup is better than two.",
+   "Ūnum pōculum melius est quam duo."
+  ],
+  [
+   "How many cups do I drink? Only one.",
+   "Quot pōcula bibō? Ūnum tantum."
+  ],
+  [
+   "My wife thinks that one cup is enough.",
+   "Uxor mea putat ūnum pōculum satis esse."
+  ],
+  [
+   "Good. Now I get up.",
+   "Bene. Nunc surgō."
+  ],
+  [
+   "What do I want to do today?",
+   "Quid hodiē facere volō?"
+  ],
+  [
+   "I want to walk.",
+   "Ambulāre volō."
+  ],
+  [
+   "Where do I want to walk?",
+   "Ubi ambulāre volō?"
+  ],
+  [
+   "Up the hill.",
+   "In collem."
+  ],
+  [
+   "Can I walk up the hill today?",
+   "Possumne hodiē in collem ambulāre?"
+  ],
+  [
+   "Yes, I can.",
+   "Ita, possum."
+  ],
+  [
+   "But do I have time?",
+   "Sed habeōne tempus?"
+  ],
+  [
+   "I have a meeting at ten.",
+   "Hōrā decimā conventum habeō."
+  ],
+  [
+   "So I have to walk fast.",
+   "Ergō celeriter ambulāre dēbeō."
+  ],
+  [
+   "Or I can walk tomorrow.",
+   "Aut crās ambulāre possum."
+  ],
+  [
+   "What's better? Today or tomorrow?",
+   "Quid melius est? Hodiē an crās?"
+  ],
+  [
+   "Today. Because tomorrow it will rain.",
+   "Hodiē. Quia crās pluet."
+  ],
+  [
+   "How do I know?",
+   "Quōmodo sciō?"
+  ],
+  [
+   "My phone says so.",
+   "Tēlephōnum meum hoc dīcit."
+  ],
+  [
+   "Today I'm walking up the hill, because tomorrow it will rain.",
+   "Hodiē in collem ambulō, quia crās pluet."
+  ],
+  [
+   "If I have time, I walk up the hill.",
+   "Sī tempus habeō, in collem ambulō."
+  ],
+  [
+   "I think my phone is right.",
+   "Putō tēlephōnum meum rēctē dīcere."
+  ],
+  [
+   "At what time do I have the meeting? At ten.",
+   "Quotā hōrā conventum habeō? Hōrā decimā."
+  ],
+  [
+   "Today I'm walking faster than yesterday, because I have a meeting.",
+   "Hodiē celerius ambulō quam herī, quia conventum habeō."
+  ],
+  [
+   "Good. Let's go.",
+   "Bene. Eāmus."
+  ],
+  [
+   "Wait. Where are my shoes?",
+   "Exspectā. Ubi sunt calceī meī?"
+  ],
+  [
+   "Under the bed?",
+   "Sub lectō?"
+  ],
+  [
+   "No. Near the door.",
+   "Minimē. Prope iānuam."
+  ],
+  [
+   "Found them. Let's go.",
+   "Invēnī. Eāmus."
+  ],
+  [
+   "Where did I find my shoes? Near the door. Not under the bed.",
+   "Ubi calceōs invēnī? Prope iānuam. Nōn sub lectō."
+  ],
+  [
+   "If my shoes aren't under the bed, they're near the door.",
+   "Sī calceī sub lectō nōn sunt, prope iānuam sunt."
+  ],
+  [
+   "My wife says that my shoes are always near the door.",
+   "Uxor mea dīcit calceōs meōs semper prope iānuam esse."
+  ],
+  [
+   "I'm walking. Good.",
+   "Ambulō. Bene."
+  ],
+  [
+   "What do I see?",
+   "Quid videō?"
+  ],
+  [
+   "I see a bird.",
+   "Avem videō."
+  ],
+  [
+   "What bird is it?",
+   "Quae avis est?"
+  ],
+  [
+   "A magpie, I think.",
+   "Pīca, putō."
+  ],
+  [
+   "Is it angry?",
+   "Estne īrāta?"
+  ],
+  [
+   "I don't know. Let's walk fast.",
+   "Nesciō. Celeriter ambulēmus."
+  ],
+  [
+   "Why am I walking fast?",
+   "Cūr celeriter ambulō?"
+  ],
+  [
+   "Because magpies attack in spring.",
+   "Quia pīcae vēre oppugnant."
+  ],
+  [
+   "Did it attack me?",
+   "Oppugnāvitne mē?"
+  ],
+  [
+   "No. It only looked at me.",
+   "Minimē. Mē tantum spectāvit."
+  ],
+  [
+   "Good. I'm safe.",
+   "Bene. Tūtus sum."
+  ],
+  [
+   "I walk fast, because magpies attack in spring.",
+   "Celeriter ambulō, quia pīcae vēre oppugnant."
+  ],
+  [
+   "If a magpie attacks me, I run. If not, I'm safe.",
+   "Sī pīca mē oppugnat, currō. Sī nōn, tūtus sum."
+  ],
+  [
+   "I know that magpies attack in spring.",
+   "Sciō pīcās vēre oppugnāre."
+  ],
+  [
+   "Am I afraid of the magpie? A little.",
+   "Timeōne pīcam? Paulum."
+  ],
+  [
+   "What a magpie! It's smaller than me, but I'm the one who's afraid.",
+   "Quālis pīca! Minor est quam ego, sed ego timeō."
+  ],
+  [
+   "And what do I see now?",
+   "Et quid nunc videō?"
+  ],
+  [
+   "I see the sun.",
+   "Sōlem videō."
+  ],
+  [
+   "Is it hot?",
+   "Estne calidum?"
+  ],
+  [
+   "Not yet. It's morning.",
+   "Nōndum. Māne est."
+  ],
+  [
+   "What do I hear?",
+   "Quid audiō?"
+  ],
+  [
+   "I hear the wind.",
+   "Ventum audiō."
+  ],
+  [
+   "And the birds?",
+   "Et avēs?"
+  ],
+  [
+   "Yes, the birds are singing.",
+   "Ita, avēs canunt."
+  ],
+  [
+   "It's beautiful here.",
+   "Hīc pulchrum est."
+  ],
+  [
+   "I see the sun, I hear the wind. It's beautiful here.",
+   "Sōlem videō, ventum audiō. Hīc pulchrum est."
+  ],
+  [
+   "If there's sun and the birds are singing, I'm happy.",
+   "Sī sōl est et avēs canunt, laetus sum."
+  ],
+  [
+   "Is it more beautiful here than at home?",
+   "Estne hīc pulchrius quam domī?"
+  ],
+  [
+   "Yes. Here the birds sing. At home the children shout.",
+   "Ita. Hīc avēs canunt. Domī līberī clāmant."
+  ],
+  [
+   "Is it hot? Not yet. At ten it will be hot.",
+   "Estne calidum? Nōndum. Hōrā decimā calidum erit."
+  ],
+  [
+   "What am I thinking about?",
+   "Dē quā rē cōgitō?"
+  ],
+  [
+   "About Latin.",
+   "Dē linguā Latīnā."
+  ],
+  [
+   "Why about Latin?",
+   "Cūr dē linguā Latīnā?"
+  ],
+  [
+   "Because I want to speak better.",
+   "Quia melius loquī volō."
+  ],
+  [
+   "How can I speak better?",
+   "Quōmodo melius loquī possum?"
+  ],
+  [
+   "I must speak every day.",
+   "Cotīdiē loquī dēbeō."
+  ],
+  [
+   "With whom?",
+   "Quōcum?"
+  ],
+  [
+   "With my teacher on the phone.",
+   "Cum magistrā meā per tēlephōnum."
+  ],
+  [
+   "I'm thinking about Latin, because I want to speak better.",
+   "Dē linguā Latīnā cōgitō, quia melius loquī volō."
+  ],
+  [
+   "If I speak Latin every day, I speak better.",
+   "Sī cotīdiē Latīnē loquor, melius loquor."
+  ],
+  [
+   "My teacher says that I speak Latin better.",
+   "Magistra mea dīcit mē melius Latīnē loquī."
+  ],
+  [
+   "How often do I speak? Every day. With whom? With my teacher.",
+   "Quotiēs loquor? Cotīdiē. Quōcum? Cum magistrā."
+  ],
+  [
+   "Is she a good teacher?",
+   "Estne bona magistra?"
+  ],
+  [
+   "Yes. But she speaks too fast.",
+   "Ita. Sed nimis celeriter loquitur."
+  ],
+  [
+   "What do I say then?",
+   "Quid tum dīcō?"
+  ],
+  [
+   "I say: slower, please.",
+   "Dīcō: lentius, amābō tē."
+  ],
+  [
+   "And if I don't understand?",
+   "Et sī nōn intellegō?"
+  ],
+  [
+   "I say: say it again, please.",
+   "Dīcō: iterum dīc, amābō tē."
+  ],
+  [
+   "On the phone my teacher speaks faster than I do.",
+   "Magistra mea per tēlephōnum celerius loquitur quam ego."
+  ],
+  [
+   "If she speaks too fast, I say: slower, please.",
+   "Sī nimis celeriter loquitur, dīcō: lentius, amābō tē."
+  ],
+  [
+   "Does she speak more slowly? A little. Then fast again.",
+   "Loquiturne lentius? Paulum. Deinde iterum celeriter."
+  ],
+  [
+   "And if I don't know a word?",
+   "Et sī verbum nesciō?"
+  ],
+  [
+   "I ask: how do you say it in Latin?",
+   "Rogō: quōmodo dīcitur Latīnē?"
+  ],
+  [
+   "What does cōgitātiō mean?",
+   "Quid significat cōgitātiō?"
+  ],
+  [
+   "It means: what I think.",
+   "Significat id quod cōgitō."
+  ],
+  [
+   "Is it masculine or feminine?",
+   "Estne masculīnum an fēminīnum?"
+  ],
+  [
+   "Feminine: these thoughts.",
+   "Fēminīnum: hae cōgitātiōnēs."
+  ],
+  [
+   "If I don't know a word, I ask: what does it mean?",
+   "Sī verbum nesciō, rogō: quid significat?"
+  ],
+  [
+   "And cāseus? Masculine: this cheese.",
+   "Et cāseus? Masculīnum: hic cāseus."
+  ],
+  [
+   "And pīca? Feminine. And canis? Masculine.",
+   "Et pīca? Fēminīnum. Et canis? Masculīnum."
+  ],
+  [
+   "How many thoughts do I have? Many. Too many.",
+   "Quot cōgitātiōnēs habeō? Multās. Nimis multās."
+  ],
+  [
+   "Who is waiting for me at home?",
+   "Quis mē domī exspectat?"
+  ],
+  [
+   "My family.",
+   "Familia mea."
+  ],
+  [
+   "Who is in my family?",
+   "Quis est in familiā meā?"
+  ],
+  [
+   "My wife, my two daughters, and my son.",
+   "Uxor mea, duae fīliae meae, et fīlius meus."
+  ],
+  [
+   "At home my family is waiting for me: wife, daughters, son.",
+   "Domī mē exspectat familia mea: uxor, fīliae, fīlius."
+  ],
+  [
+   "My daughters are bigger than my son.",
+   "Fīliae meae maiōrēs sunt quam fīlius meus."
+  ],
+  [
+   "How old is my son?",
+   "Quot annōs nātus est fīlius meus?"
+  ],
+  [
+   "Three.",
+   "Trēs."
+  ],
+  [
+   "He's three, and he wakes up in the night.",
+   "Trēs annōs nātus est, et nocte expergīscitur."
+  ],
+  [
+   "What does he like?",
+   "Quid eī placet?"
+  ],
+  [
+   "He likes to play. And to run.",
+   "Lūdere eī placet. Et currere."
+  ],
+  [
+   "What do my daughters like?",
+   "Quid fīliābus meīs placet?"
+  ],
+  [
+   "Stories. They like stories.",
+   "Fābulae. Fābulae eīs placent."
+  ],
+  [
+   "Who reads them stories?",
+   "Quis eīs fābulās legit?"
+  ],
+  [
+   "I do. Every evening.",
+   "Ego. Cotīdiē vesperī."
+  ],
+  [
+   "What story will I read tonight?",
+   "Quam fābulam hodiē vesperī legam?"
+  ],
+  [
+   "Maybe the story about the cheese.",
+   "Fortasse fābulam dē cāseō."
+  ],
+  [
+   "Why that one?",
+   "Cūr eam?"
+  ],
+  [
+   "Because it's funny.",
+   "Quia rīdicula est."
+  ],
+  [
+   "Do they laugh?",
+   "Rīdentne?"
+  ],
+  [
+   "Yes, they always laugh.",
+   "Ita, semper rīdent."
+  ],
+  [
+   "And then?",
+   "Et tum?"
+  ],
+  [
+   "Then they sleep. I hope.",
+   "Tum dormiunt. Spērō."
+  ],
+  [
+   "I chose the story about the cheese, because it's funny.",
+   "Fābulam dē cāseō ēlēgī, quia rīdicula est."
+  ],
+  [
+   "If the story is funny, my daughters laugh.",
+   "Sī fābula rīdicula est, fīliae meae rīdent."
+  ],
+  [
+   "Is it funnier than the story about the magpie?",
+   "Estne rīdiculior quam fābula dē pīcā?"
+  ],
+  [
+   "Yes. Cheese is funnier than a magpie.",
+   "Ita. Cāseus rīdiculior est quam pīca."
+  ],
+  [
+   "What am I thinking about now? About cheese.",
+   "Dē quā rē nunc cōgitō? Dē cāseō."
+  ],
+  [
+   "Am I hungry?",
+   "Ēsuriōne?"
+  ],
+  [
+   "Yes, a little.",
+   "Ita, paulum."
+  ],
+  [
+   "What do I want to eat?",
+   "Quid edere volō?"
+  ],
+  [
+   "Bread? Cheese? Honey?",
+   "Pānem? Cāseum? Mel?"
+  ],
+  [
+   "Bread and cheese.",
+   "Pānem et cāseum."
+  ],
+  [
+   "Is there cheese at home?",
+   "Estne cāseus domī?"
+  ],
+  [
+   "I don't know. I'll look.",
+   "Nesciō. Spectābō."
+  ],
+  [
+   "No cheese! Who ate the cheese?",
+   "Nūllus cāseus! Quis cāseum ēdit?"
+  ],
+  [
+   "The dog? My son? Me?",
+   "Canis? Fīlius meus? Egone?"
+  ],
+  [
+   "Me, I think.",
+   "Ego, putō."
+  ],
+  [
+   "There's no cheese left, because I ate it.",
+   "Nūllus cāseus restat, quia ego eum ēdī."
+  ],
+  [
+   "If there's cheese at home, I eat it.",
+   "Sī cāseus domī est, eum edō."
+  ],
+  [
+   "My wife says that I ate the cheese.",
+   "Uxor mea dīcit mē cāseum ēdisse."
+  ],
+  [
+   "The dog says that he didn't eat the cheese.",
+   "Canis dīcit sē cāseum nōn ēdisse."
+  ],
+  [
+   "So I must buy cheese.",
+   "Ergō cāseum emere dēbeō."
+  ],
+  [
+   "Where do I buy cheese?",
+   "Ubi cāseum emō?"
+  ],
+  [
+   "At the shop near the church.",
+   "In tabernā prope ecclēsiam."
+  ],
+  [
+   "How much does it cost?",
+   "Quantī cōnstat?"
+  ],
+  [
+   "Too expensive. But I'll buy it.",
+   "Nimis cārus est. Sed emam."
+  ],
+  [
+   "I'll buy cheese at the shop near the church.",
+   "Cāseum in tabernā prope ecclēsiam emam."
+  ],
+  [
+   "If the cheese is too expensive, I'll buy less.",
+   "Sī cāseus nimis cārus est, minus emam."
+  ],
+  [
+   "How much does bread cost? Less.",
+   "Quantī cōnstat pānis? Minōris."
+  ],
+  [
+   "My wife says that I must buy cheese at the shop near the church.",
+   "Uxor mea dīcit mē cāseum in tabernā prope ecclēsiam emere dēbēre."
+  ],
+  [
+   "And what will I drink?",
+   "Et quid bibam?"
+  ],
+  [
+   "Water. Not coffee.",
+   "Aquam. Nōn caffeam."
+  ],
+  [
+   "Why not coffee?",
+   "Cūr nōn caffeam?"
+  ],
+  [
+   "Because coffee makes me angry.",
+   "Quia caffea mē īrātum facit."
+  ],
+  [
+   "I chose well.",
+   "Bene ēlēgī."
+  ],
+  [
+   "I drink water, because coffee makes me angry.",
+   "Aquam bibō, quia caffea mē īrātum facit."
+  ],
+  [
+   "If I drink two cups of coffee, I'm angry.",
+   "Sī duo pōcula caffeae bibō, īrātus sum."
+  ],
+  [
+   "My wife says that coffee makes me angry.",
+   "Uxor mea dīcit caffeam mē īrātum facere."
+  ],
+  [
+   "Is water better than coffee?",
+   "Estne aqua melior quam caffea?"
+  ],
+  [
+   "Today, yes. I chose well.",
+   "Hodiē, ita. Bene ēlēgī."
+  ],
+  [
+   "What must I do today at work?",
+   "Quid hodiē in labōre facere dēbeō?"
+  ],
+  [
+   "I must write to the client.",
+   "Clientī scrībere dēbeō."
+  ],
+  [
+   "The client asks: is the game finished?",
+   "Cliēns rogat: estne lūdus fīnītus?"
+  ],
+  [
+   "What will I write?",
+   "Quid scrībam?"
+  ],
+  [
+   "That the game is almost finished.",
+   "Lūdum paene fīnītum esse."
+  ],
+  [
+   "Is it really almost finished?",
+   "Estne vērē paene fīnītus?"
+  ],
+  [
+   "Not really. It isn't finished yet.",
+   "Nōn vērē. Nōndum fīnītus est."
+  ],
+  [
+   "How much work is left?",
+   "Quantum labōris restat?"
+  ],
+  [
+   "A lot. Two weeks.",
+   "Multum. Duae hebdomadēs."
+  ],
+  [
+   "Will the client be angry?",
+   "Eritne cliēns īrātus?"
+  ],
+  [
+   "Maybe. Maybe not.",
+   "Fortasse. Fortasse nōn."
+  ],
+  [
+   "What can I do?",
+   "Quid facere possum?"
+  ],
+  [
+   "I can work faster.",
+   "Celerius labōrāre possum."
+  ],
+  [
+   "Or I can tell the truth.",
+   "Aut vērum dīcere possum."
+  ],
+  [
+   "What is better?",
+   "Quid melius est?"
+  ],
+  [
+   "The truth. Always the truth.",
+   "Vērum. Semper vērum."
+  ],
+  [
+   "So what will I write?",
+   "Quid ergō scrībam?"
+  ],
+  [
+   "The game is good, but I need two weeks.",
+   "Lūdus bonus est, sed duābus hebdomadibus mihi opus est."
+  ],
+  [
+   "I write: the game is good, but I need two weeks.",
+   "Scrībō: lūdus bonus est, sed duābus hebdomadibus mihi opus est."
+  ],
+  [
+   "How much time do I need? Two weeks.",
+   "Quantum temporis mihi opus est? Duae hebdomadēs."
+  ],
+  [
+   "If I tell the truth, the client isn't angry.",
+   "Sī vērum dīcō, cliēns nōn īrātus est."
+  ],
+  [
+   "I think the truth is always better.",
+   "Putō vērum semper melius esse."
+  ],
+  [
+   "Will he answer?",
+   "Respondēbitne?"
+  ],
+  [
+   "Yes. He answered: no problem!",
+   "Ita. Respondit: nūlla difficultās!"
+  ],
+  [
+   "Wonderful. I'm happy.",
+   "Optimē. Laetus sum."
+  ],
+  [
+   "The client says there's no problem.",
+   "Cliēns dīcit nūllam difficultātem esse."
+  ],
+  [
+   "Two weeks? No problem.",
+   "Duae hebdomadēs? Nūlla difficultās."
+  ],
+  [
+   "If I tell the truth, there is no problem.",
+   "Sī vērum dīcō, nūlla difficultās est."
+  ],
+  [
+   "What did I do today?",
+   "Quid hodiē fēcī?"
+  ],
+  [
+   "First, I got up. Tired.",
+   "Prīmum surrēxī. Fessus."
+  ],
+  [
+   "Why tired? Because my son woke up three times in the night.",
+   "Cūr fessus? Quia fīlius meus nocte ter experrēctus est."
+  ],
+  [
+   "Then I drank one cup of coffee.",
+   "Deinde ūnum pōculum caffeae bibī."
+  ],
+  [
+   "Then I walked up the hill.",
+   "Tum in collem ambulāvī."
+  ],
+  [
+   "Did I see the magpie?",
+   "Vīdīne pīcam?"
+  ],
+  [
+   "Yes. But it didn't attack me.",
+   "Ita. Sed mē nōn oppugnāvit."
+  ],
+  [
+   "Then I worked. A lot of work!",
+   "Deinde labōrāvī. Multum labōris!"
+  ],
+  [
+   "Did I write to the client?",
+   "Scrīpsīne clientī?"
+  ],
+  [
+   "Yes, and he answered on the phone.",
+   "Ita, et per tēlephōnum respondit."
+  ],
+  [
+   "Then I ate bread and cheese.",
+   "Deinde pānem et cāseum ēdī."
+  ],
+  [
+   "Who bought the cheese?",
+   "Quis cāseum ēmit?"
+  ],
+  [
+   "I did. Because I had eaten the old one.",
+   "Ego. Quia veterem ēderam."
+  ],
+  [
+   "I bought cheese at the shop near the church. How much? It was too expensive.",
+   "Cāseum in tabernā prope ecclēsiam ēmī. Quantī? Nimis cārus erat."
+  ],
+  [
+   "My wife says that I ate the old one.",
+   "Uxor mea dīcit mē veterem ēdisse."
+  ],
+  [
+   "The new one is bigger than the old one. The old one was better.",
+   "Novus maior est quam vetus. Vetus melior erat."
+  ],
+  [
+   "Where did I buy the cheese? At the shop near the church.",
+   "Ubi cāseum ēmī? In tabernā prope ecclēsiam."
+  ],
+  [
+   "And in the evening?",
+   "Et vesperī?"
+  ],
+  [
+   "I read a story to my daughters.",
+   "Fīliābus meīs fābulam lēgī."
+  ],
+  [
+   "Did they laugh?",
+   "Rīsēruntne?"
+  ],
+  [
+   "Yes. And then they slept.",
+   "Ita. Et tum dormīvērunt."
+  ],
+  [
+   "Was it a good day?",
+   "Fuitne bonus diēs?"
+  ],
+  [
+   "Yes, a good day.",
+   "Ita, bonus diēs."
+  ],
+  [
+   "And tomorrow?",
+   "Et crās?"
+  ],
+  [
+   "Tomorrow it will rain. But that's fine.",
+   "Crās pluet. Sed bene est."
+  ],
+  [
+   "Tomorrow it will rain, but today was a good day.",
+   "Crās pluet, sed hodiē bonus diēs fuit."
+  ],
+  [
+   "If it rains tomorrow, we'll stay at home.",
+   "Sī crās pluet, domī manēbimus."
+  ],
+  [
+   "Today was better than yesterday.",
+   "Hodiē melius fuit quam herī."
+  ],
+  [
+   "My wife says that today was a good day.",
+   "Uxor mea dīcit hodiē bonum diem fuisse."
+  ],
+  [
+   "It's night. What do I do now?",
+   "Nox est. Quid nunc faciō?"
+  ],
+  [
+   "Do I read, or do I sleep?",
+   "Legōne an dormiō?"
+  ],
+  [
+   "I read a little.",
+   "Paulum legō."
+  ],
+  [
+   "What am I reading?",
+   "Quid legō?"
+  ],
+  [
+   "A Latin book.",
+   "Librum Latīnum."
+  ],
+  [
+   "Is it easy?",
+   "Estne facilis?"
+  ],
+  [
+   "Not easy. But good.",
+   "Nōn facilis. Sed bonus."
+  ],
+  [
+   "The cheese story is easier than the Latin book.",
+   "Fābula dē cāseō facilior est quam liber Latīnus."
+  ],
+  [
+   "How many pages did I read?",
+   "Quot pāginās lēgī?"
+  ],
+  [
+   "Ten pages.",
+   "Decem pāginās."
+  ],
+  [
+   "Did I understand them?",
+   "Intellēxīne eās?"
+  ],
+  [
+   "I understood many of them.",
+   "Multās intellēxī."
+  ],
+  [
+   "Which words were new?",
+   "Quae verba nova erant?"
+  ],
+  [
+   "Three words. I'll learn them tomorrow.",
+   "Tria verba. Crās ea discam."
+  ],
+  [
+   "Three words were new. I'll learn them tomorrow.",
+   "Tria verba nova erant. Crās ea discam."
+  ],
+  [
+   "If I learn them tomorrow, I'll speak better.",
+   "Sī crās ea discam, melius loquar."
+  ],
+  [
+   "I think three words are enough. Not ten.",
+   "Putō tria verba satis esse. Nōn decem."
+  ],
+  [
+   "Today I read ten pages. Yesterday none.",
+   "Hodiē decem pāginās lēgī. Herī nūllās."
+  ],
+  [
+   "Now I want to sleep.",
+   "Nunc dormīre volō."
+  ],
+  [
+   "I close the book.",
+   "Librum claudō."
+  ],
+  [
+   "I turn off the light.",
+   "Lūcem exstinguō."
+  ],
+  [
+   "Why do I close the book and turn off the light? Because I'm tired.",
+   "Cūr librum claudō et lūcem exstinguō? Quia fessus sum."
+  ],
+  [
+   "I close the book, I turn off the light, and I'm almost asleep.",
+   "Librum claudō, lūcem exstinguō, et paene dormiō."
+  ],
+  [
+   "If I close the book and turn off the light, I sleep well.",
+   "Sī librum claudō et lūcem exstinguō, bene dormiō."
+  ],
+  [
+   "Who turns off the light? I do.",
+   "Quis lūcem exstinguit? Ego."
+  ],
+  [
+   "My wife says that I always turn off the light.",
+   "Uxor mea dīcit mē semper lūcem exstinguere."
+  ],
+  [
+   "I hope my son doesn't wake up tonight.",
+   "Spērō fīlium meum hāc nocte nōn experrēctūrum esse."
+  ],
+  [
+   "If he doesn't wake up, I'll sleep well.",
+   "Sī nōn expergīscitur, bene dormiam."
+  ],
+  [
+   "I sleep.",
+   "Dormiō."
+  ],
+  [
+   "It's morning again. What time is it?",
+   "Iterum māne est. Quota hōra est?"
+  ],
+  [
+   "Six. Why six?",
+   "Sexta. Cūr sexta?"
+  ],
+  [
+   "Because my son is shouting.",
+   "Quia fīlius meus clāmat."
+  ],
+  [
+   "What is he shouting?",
+   "Quid clāmat?"
+  ],
+  [
+   "He's shouting: Dad! I'm hungry!",
+   "Clāmat: pater! Ēsuriō!"
+  ],
+  [
+   "He's three. Small, but he shouts a lot.",
+   "Trēs annōs nātus est. Parvus, sed valdē clāmat."
+  ],
+  [
+   "At six my son shouts, because he's hungry.",
+   "Hōrā sextā fīlius meus clāmat, quia ēsurit."
+  ],
+  [
+   "If my son is hungry, he shouts.",
+   "Sī fīlius meus ēsurit, clāmat."
+  ],
+  [
+   "My son says that he's always hungry in the morning.",
+   "Fīlius meus dīcit sē māne semper ēsurīre."
+  ],
+  [
+   "Did he wake up in the night? No! He slept well.",
+   "Experrēctusne est nocte? Minimē! Bene dormīvit."
+  ],
+  [
+   "Today I'm less tired than yesterday.",
+   "Hodiē minus fessus sum quam herī."
+  ],
+  [
+   "What does he want to eat?",
+   "Quid edere vult?"
+  ],
+  [
+   "Bread with honey.",
+   "Pānem cum melle."
+  ],
+  [
+   "Is there honey?",
+   "Estne mel?"
+  ],
+  [
+   "Yes. Not much, but enough.",
+   "Ita. Nōn multum, sed satis."
+  ],
+  [
+   "How much honey is left? A little. But enough.",
+   "Quantum mellis restat? Paulum. Sed satis."
+  ],
+  [
+   "If there's honey at home, my son is happy.",
+   "Sī mel domī est, fīlius meus laetus est."
+  ],
+  [
+   "Is honey better than cheese? My son thinks so.",
+   "Estne mel melius quam cāseus? Fīlius meus ita putat."
+  ],
+  [
+   "Is it raining today?",
+   "Pluitne hodiē?"
+  ],
+  [
+   "Yes, it's raining. My phone was right.",
+   "Ita, pluit. Tēlephōnum meum rēctē dīxit."
+  ],
+  [
+   "It's raining. I hear the wind. It's less warm.",
+   "Pluit. Ventum audiō. Minus calidum est."
+  ],
+  [
+   "My phone knows better than I do.",
+   "Tēlephōnum meum melius scit quam ego."
+  ],
+  [
+   "My wife says that my phone is always right.",
+   "Uxor mea dīcit tēlephōnum meum semper rēctē dīcere."
+  ],
+  [
+   "What will we do?",
+   "Quid faciēmus?"
+  ],
+  [
+   "We'll stay at home.",
+   "Domī manēbimus."
+  ],
+  [
+   "What will the children do at home?",
+   "Quid līberī domī facient?"
+  ],
+  [
+   "They'll play. And they'll shout.",
+   "Lūdent. Et clāmābunt."
+  ],
+  [
+   "And what will I do?",
+   "Et quid ego faciam?"
+  ],
+  [
+   "I'll work. Or I'll try.",
+   "Labōrābō. Aut cōnābor."
+  ],
+  [
+   "Can I work at home with the children?",
+   "Possumne domī cum līberīs labōrāre?"
+  ],
+  [
+   "Not really. It's hard.",
+   "Nōn vērē. Difficile est."
+  ],
+  [
+   "Why is it hard?",
+   "Cūr difficile est?"
+  ],
+  [
+   "Because they always come to me.",
+   "Quia semper ad mē veniunt."
+  ],
+  [
+   "It's hard, because the children always come to me.",
+   "Difficile est, quia līberī semper ad mē veniunt."
+  ],
+  [
+   "Who do they want to play with? With Dad.",
+   "Quōcum lūdere volunt? Cum patre."
+  ],
+  [
+   "If they come to me, I can't work.",
+   "Sī ad mē veniunt, labōrāre nōn possum."
+  ],
+  [
+   "My wife thinks that working at home is hard.",
+   "Uxor mea putat domī labōrāre difficile esse."
+  ],
+  [
+   "What do they want?",
+   "Quid volunt?"
+  ],
+  [
+   "They want to play with me.",
+   "Mēcum lūdere volunt."
+  ],
+  [
+   "Do I want to play with them?",
+   "Volōne cum eīs lūdere?"
+  ],
+  [
+   "Yes. But I have to work.",
+   "Ita. Sed labōrāre dēbeō."
+  ],
+  [
+   "What shall I do?",
+   "Quid faciam?"
+  ],
+  [
+   "I'll work for one hour.",
+   "Ūnam hōram labōrābō."
+  ],
+  [
+   "Then I'll play with them.",
+   "Deinde cum eīs lūdam."
+  ],
+  [
+   "Is that a good plan?",
+   "Estne hoc bonum cōnsilium?"
+  ],
+  [
+   "Yes, I think so. A good plan.",
+   "Ita, putō. Bonum cōnsilium."
+  ],
+  [
+   "I'll try to work for one hour, then I'll play with the children.",
+   "Ūnam hōram labōrāre cōnābor, deinde cum līberīs lūdam."
+  ],
+  [
+   "If I work for one hour, the client is happy.",
+   "Sī ūnam hōram labōrō, cliēns laetus est."
+  ],
+  [
+   "My wife thinks that this is a good plan.",
+   "Uxor mea putat hoc bonum cōnsilium esse."
+  ],
+  [
+   "The children think that playing is better than working.",
+   "Līberī putant lūdere melius esse quam labōrāre."
+  ],
+  [
+   "What shall we play?",
+   "Quid lūdēmus?"
+  ],
+  [
+   "Shall we play with a ball?",
+   "Pilāne lūdēmus?"
+  ],
+  [
+   "No! It's raining, and the house is small.",
+   "Minimē! Pluit, et domus parva est."
+  ],
+  [
+   "If we play with a ball at home, my wife is angry.",
+   "Sī domī pilā lūdimus, uxor mea īrāta est."
+  ],
+  [
+   "So what shall we play?",
+   "Quid ergō lūdēmus?"
+  ],
+  [
+   "We'll tell stories.",
+   "Fābulās nārrābimus."
+  ],
+  [
+   "Who will tell the first story?",
+   "Quis prīmam fābulam nārrābit?"
+  ],
+  [
+   "My daughter. She tells good stories.",
+   "Fīlia mea. Bonās fābulās nārrat."
+  ],
+  [
+   "What is her story about?",
+   "Dē quā rē est fābula eius?"
+  ],
+  [
+   "About a dog and a cheese.",
+   "Dē cane et cāseō."
+  ],
+  [
+   "The cheese again?",
+   "Iterum cāseus?"
+  ],
+  [
+   "Yes. The children like the cheese story.",
+   "Ita. Fābula dē cāseō līberīs placet."
+  ],
+  [
+   "And the dog? Does he eat the cheese?",
+   "Et canis? Editne cāseum?"
+  ],
+  [
+   "Of course. Dogs always eat the cheese.",
+   "Certē. Canēs semper cāseum edunt."
+  ],
+  [
+   "What a story! The dog eats the cheese. Of course.",
+   "Quālis fābula! Canis cāseum edit. Certē."
+  ],
+  [
+   "If a dog sees cheese, he eats it. Of course.",
+   "Sī canis cāseum videt, eum edit. Certē."
+  ],
+  [
+   "My daughter says that dogs always eat the cheese.",
+   "Fīlia mea dīcit canēs semper cāseum edere."
+  ],
+  [
+   "Who eats the cheese, the dog or me? Me.",
+   "Quis cāseum edit, canis an ego? Ego."
+  ],
+  [
+   "Then I tell a story.",
+   "Deinde ego fābulam nārrō."
+  ],
+  [
+   "What will I tell?",
+   "Quid nārrābō?"
+  ],
+  [
+   "About the magpie and the kangaroo.",
+   "Dē pīcā et macropode."
+  ],
+  [
+   "Do the children laugh?",
+   "Rīdentne līberī?"
+  ],
+  [
+   "Yes, they laugh a lot.",
+   "Ita, valdē rīdent."
+  ],
+  [
+   "In my story, first the magpie attacks the kangaroo.",
+   "In fābulā meā prīmum pīca macropodem oppugnat."
+  ],
+  [
+   "If the magpie attacks the kangaroo, the kangaroo runs.",
+   "Sī pīca macropodem oppugnat, macropūs currit."
+  ],
+  [
+   "The kangaroo is bigger than the magpie. But it's afraid.",
+   "Macropūs maior est quam pīca. Sed timet."
+  ],
+  [
+   "The kangaroo says that he's safe. He isn't.",
+   "Macropūs dīcit sē tūtum esse. Nōn est."
+  ],
+  [
+   "Then the rain stops.",
+   "Deinde pluvia dēsinit."
+  ],
+  [
+   "Is the rain stopping? I hope so.",
+   "Dēsinitne pluvia? Spērō."
+  ],
+  [
+   "The children don't want to stay at home.",
+   "Līberī domī manēre nōlunt."
+  ],
+  [
+   "If the rain stops, we go outside.",
+   "Sī pluvia dēsinit, forās īmus."
+  ],
+  [
+   "Can we go outside now?",
+   "Possumusne nunc forās īre?"
+  ],
+  [
+   "Yes! Let's go outside!",
+   "Ita! Forās eāmus!"
+  ],
+  [
+   "The children shout: Dad! Let's play ball!",
+   "Līberī clāmant: pater! Pilā lūdāmus!"
+  ],
+  [
+   "Where are my shoes? Again?",
+   "Ubi sunt calceī meī? Iterum?"
+  ],
+  [
+   "Near the door. Not under the bed.",
+   "Prope iānuam. Nōn sub lectō."
+  ],
+  [
+   "My shoes are always near the door.",
+   "Calceī meī semper prope iānuam sunt."
+  ],
+  [
+   "If I don't see my shoes, I look near the door.",
+   "Sī calceōs nōn videō, prope iānuam spectō."
+  ],
+  [
+   "Found them! My wife laughs. She was right.",
+   "Invēnī! Uxor mea rīdet. Rēctē dīxit."
+  ],
+  [
+   "Good. Now I know.",
+   "Bene. Nunc sciō."
+  ],
+  [
+   "What a day!",
+   "Quālis diēs!"
+  ]
+ ],
+ "latin_only": true
+}

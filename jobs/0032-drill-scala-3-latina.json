@@ -1,0 +1,705 @@
+{
+ "type": "drill",
+ "slug": "scala-3-v2-latina",
+ "title": "Ladder 3 · talking with her · Latin only (× 3)",
+ "summary": "Latin only. Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
+ "repeat": 3,
+ "music": "v5",
+ "latin_ipa": true,
+ "v_as_v": true,
+ "pairs": [
+  [
+   "I speak.",
+   "Loquor."
+  ],
+  [
+   "I speak Latin.",
+   "Latīnē loquor."
+  ],
+  [
+   "You speak Latin.",
+   "Latīnē loqueris."
+  ],
+  [
+   "She speaks Latin.",
+   "Latīnē loquitur."
+  ],
+  [
+   "We speak Latin.",
+   "Latīnē loquimur."
+  ],
+  [
+   "They speak Latin.",
+   "Latīnē loquuntur."
+  ],
+  [
+   "I want to speak Latin.",
+   "Latīnē loquī volō."
+  ],
+  [
+   "I spoke Latin today.",
+   "Hodiē Latīnē locūtus sum."
+  ],
+  [
+   "We spoke well.",
+   "Bene locūtī sumus."
+  ],
+  [
+   "I will speak tomorrow.",
+   "Crās loquar."
+  ],
+  [
+   "You speak too fast.",
+   "Nimis celeriter loqueris."
+  ],
+  [
+   "Speak more slowly, please.",
+   "Lentius loquere, quaesō."
+  ],
+  [
+   "Speak simply, please.",
+   "Simpliciter loquere, quaesō."
+  ],
+  [
+   "I think that you speak too fast.",
+   "Putō tē nimis celeriter loquī."
+  ],
+  [
+   "If you speak more slowly, I understand better.",
+   "Sī lentius loqueris, melius intellegō."
+  ],
+  [
+   "I speak more slowly than you.",
+   "Ego lentius loquor quam tū."
+  ],
+  [
+   "Simply, that is, with easy words.",
+   "Simpliciter, id est verbīs facilibus."
+  ],
+  [
+   "I want to say something.",
+   "Aliquid dīcere volō."
+  ],
+  [
+   "I don't know how to say it.",
+   "Nesciō quōmodo dīcam."
+  ],
+  [
+   "What do you want to say? I don't know.",
+   "Quid dīcere vīs? Nesciō."
+  ],
+  [
+   "If I don't know how to say it, I say it in English.",
+   "Sī nesciō quōmodo dīcam, Anglicē dīcō."
+  ],
+  [
+   "I want to say something, but I'm missing a word.",
+   "Aliquid dīcere volō, sed verbum mihi deest."
+  ],
+  [
+   "What are you missing? A word.",
+   "Quid tibi deest? Verbum."
+  ],
+  [
+   "If I'm missing a word, I say it in English.",
+   "Sī verbum mihi deest, Anglicē dīcō."
+  ],
+  [
+   "My wife says that I am missing a word.",
+   "Uxor mea dīcit verbum mihi deesse."
+  ],
+  [
+   "What is this word?",
+   "Quid est hoc verbum?"
+  ],
+  [
+   "This word is difficult.",
+   "Hoc verbum difficile est."
+  ],
+  [
+   "These words are difficult.",
+   "Haec verba difficilia sunt."
+  ],
+  [
+   "This thing is easy.",
+   "Haec rēs facilis est."
+  ],
+  [
+   "These things are easy.",
+   "Hae rēs facilēs sunt."
+  ],
+  [
+   "This thought is mine.",
+   "Haec cōgitātiō mea est."
+  ],
+  [
+   "These thoughts are mine.",
+   "Hae cōgitātiōnēs meae sunt."
+  ],
+  [
+   "This bird is beautiful.",
+   "Haec avis pulchra est."
+  ],
+  [
+   "These birds are beautiful.",
+   "Hae avēs pulchrae sunt."
+  ],
+  [
+   "Which birds are beautiful? These magpies.",
+   "Quae avēs pulchrae sunt? Hae pīcae."
+  ],
+  [
+   "This bird is less beautiful than that one.",
+   "Haec avis minus pulchra est quam illa."
+  ],
+  [
+   "I think that magpies are beautiful.",
+   "Putō pīcās pulchrās esse."
+  ],
+  [
+   "Which bird is more beautiful? This one.",
+   "Quae avis pulchrior est? Haec."
+  ],
+  [
+   "If the birds are beautiful, I am happy.",
+   "Sī avēs pulchrae sunt, laetus sum."
+  ],
+  [
+   "In my opinion, it's easy.",
+   "Meā sententiā, facile est."
+  ],
+  [
+   "I think that this is easy.",
+   "Putō hoc facile esse."
+  ],
+  [
+   "I think that speaking fast is good.",
+   "Putō celeriter loquī bonum esse."
+  ],
+  [
+   "What do you think? Speaking slowly is better.",
+   "Quid putās? Lentē loquī melius est."
+  ],
+  [
+   "If I speak too fast, I make mistakes.",
+   "Sī nimis celeriter loquor, errō."
+  ],
+  [
+   "In my opinion, speaking fast is less easy than speaking slowly.",
+   "Meā sententiā, celeriter loquī minus facile est quam lentē."
+  ],
+  [
+   "Is speaking fast easy? In my opinion, no.",
+   "Estne celeriter loquī facile? Meā sententiā, nōn."
+  ],
+  [
+   "My friend thinks that speaking slowly is easier.",
+   "Amīca mea putat lentē loquī facilius esse."
+  ],
+  [
+   "If I speak slowly, it's easy.",
+   "Sī lentē loquor, facile est."
+  ],
+  [
+   "I agree.",
+   "Cōnsentiō."
+  ],
+  [
+   "I agree with you.",
+   "Tēcum cōnsentiō."
+  ],
+  [
+   "I don't agree.",
+   "Nōn cōnsentiō."
+  ],
+  [
+   "I disagree with you.",
+   "Ā tē dissentiō."
+  ],
+  [
+   "Do you agree?",
+   "Cōnsentīsne?"
+  ],
+  [
+   "We agree.",
+   "Cōnsentīmus."
+  ],
+  [
+   "Why do you think that?",
+   "Cūr hoc putās?"
+  ],
+  [
+   "Because it is true.",
+   "Quia vērum est."
+  ],
+  [
+   "You're right.",
+   "Vērē dīcis."
+  ],
+  [
+   "Almost right.",
+   "Ferē rēctē."
+  ],
+  [
+   "If it's true, I agree with you.",
+   "Sī vērum est, tēcum cōnsentiō."
+  ],
+  [
+   "Do you think that this is true? Almost.",
+   "Putāsne hoc vērum esse? Ferē."
+  ],
+  [
+   "Good thought! You're right.",
+   "Bona cōgitātiō! Vērē dīcis."
+  ],
+  [
+   "I say that this is true, but you don't agree.",
+   "Dīcō hoc vērum esse, sed tū nōn cōnsentīs."
+  ],
+  [
+   "When do I agree with you? If it's true.",
+   "Quandō tēcum cōnsentiō? Sī vērum est."
+  ],
+  [
+   "You taught me.",
+   "Mē docuistī."
+  ],
+  [
+   "You taught me well.",
+   "Bene mē docuistī."
+  ],
+  [
+   "You teach well.",
+   "Bene docēs."
+  ],
+  [
+   "I learned something new.",
+   "Novam rem didicī."
+  ],
+  [
+   "I learned something new with you.",
+   "Novam rem tēcum didicī."
+  ],
+  [
+   "Thank you for teaching me.",
+   "Grātiās tibi agō quod mē docuistī."
+  ],
+  [
+   "Why do you teach well? Because you speak slowly.",
+   "Cūr bene docēs? Quia lentē loqueris."
+  ],
+  [
+   "I say that you teach well.",
+   "Dīcō tē bene docēre."
+  ],
+  [
+   "How much did I learn today? A lot.",
+   "Quantum hodiē didicī? Multum."
+  ],
+  [
+   "Remember this!",
+   "Mementō hoc!"
+  ],
+  [
+   "I remember.",
+   "Meminī."
+  ],
+  [
+   "I don't remember.",
+   "Nōn meminī."
+  ],
+  [
+   "Remember this word! I remember it.",
+   "Mementō hoc verbum! Meminī."
+  ],
+  [
+   "If I remember the word, I say it.",
+   "Sī verbum meminī, id dīcō."
+  ],
+  [
+   "Do you remember this word? I don't remember.",
+   "Meministīne hoc verbum? Nōn meminī."
+  ],
+  [
+   "My friend says that I remember many words.",
+   "Amīca mea dīcit mē multa verba meminisse."
+  ],
+  [
+   "Let's continue.",
+   "Pergāmus."
+  ],
+  [
+   "That's enough. Let's continue.",
+   "Satis est. Pergāmus."
+  ],
+  [
+   "Let's finish.",
+   "Fīniāmus."
+  ],
+  [
+   "Thank you for the conversation.",
+   "Grātiās tibi agō prō colloquiō."
+  ],
+  [
+   "This conversation is good.",
+   "Hoc colloquium bonum est."
+  ],
+  [
+   "It's better to continue than to finish.",
+   "Melius est pergere quam fīnīre."
+  ],
+  [
+   "Is that enough? You're right; let's finish.",
+   "Satis est? Vērē dīcis; fīniāmus."
+  ],
+  [
+   "If the conversation is good, let's continue.",
+   "Sī colloquium bonum est, pergāmus."
+  ],
+  [
+   "My friend thinks that it's better to continue, but I am tired.",
+   "Amīca mea putat melius esse pergere, sed ego fessus sum."
+  ],
+  [
+   "Hello! How are you?",
+   "Salvē! Quōmodo tē habēs?"
+  ],
+  [
+   "I am well, thank you.",
+   "Bene mē habeō, grātiās."
+  ],
+  [
+   "And you?",
+   "Et tū?"
+  ],
+  [
+   "What shall we talk about?",
+   "Dē quā rē loquāmur?"
+  ],
+  [
+   "Let's talk about the walk.",
+   "Dē ambulātiōne loquāmur."
+  ],
+  [
+   "Let's talk about many things.",
+   "Dē multīs rēbus loquāmur."
+  ],
+  [
+   "Ask me something.",
+   "Rogā mē aliquid."
+  ],
+  [
+   "Don't ask me.",
+   "Nōlī mē rogāre."
+  ],
+  [
+   "I only want to talk.",
+   "Tantum loquī volō."
+  ],
+  [
+   "If we talk about the walk, I talk about the magpies.",
+   "Sī dē ambulātiōne loquimur, dē pīcīs loquor."
+  ],
+  [
+   "I think that talking about many things is good.",
+   "Putō dē multīs rēbus loquī bonum esse."
+  ],
+  [
+   "About which walk? About the walk with my wife.",
+   "Dē quā ambulātiōne? Dē ambulātiōne cum uxōre."
+  ],
+  [
+   "What do I talk about with my wife? About the magpies.",
+   "Dē quā rē cum uxōre loquor? Dē pīcīs."
+  ],
+  [
+   "Be quiet, please.",
+   "Tacē, quaesō."
+  ],
+  [
+   "Listen to me.",
+   "Audī mē."
+  ],
+  [
+   "I'm listening.",
+   "Audiō."
+  ],
+  [
+   "Go on.",
+   "Perge."
+  ],
+  [
+   "I will go on.",
+   "Pergam."
+  ],
+  [
+   "I'm listening and I understand.",
+   "Audiō et intellegō."
+  ],
+  [
+   "If you're quiet, I talk.",
+   "Sī tacēs, ego loquor."
+  ],
+  [
+   "Why are you quiet? Because I'm thinking.",
+   "Cūr tacēs? Quia cōgitō."
+  ],
+  [
+   "Wait, I'm thinking.",
+   "Exspectā, cōgitō."
+  ],
+  [
+   "When do you listen and understand? If you speak slowly.",
+   "Quandō audīs et intellegis? Sī lentē loqueris."
+  ],
+  [
+   "My friend says that I listen well.",
+   "Amīca mea dīcit mē bene audīre."
+  ],
+  [
+   "I'm missing a word.",
+   "Verbum mihi deest."
+  ],
+  [
+   "What was the first word you said?",
+   "Quod verbum prīmum dīxistī?"
+  ],
+  [
+   "What did I say?",
+   "Quid dīxī?"
+  ],
+  [
+   "Did I say it right?",
+   "Rēctēne dīxī?"
+  ],
+  [
+   "You said it almost right.",
+   "Ferē rēctē dīxistī."
+  ],
+  [
+   "I made a mistake.",
+   "Errāvī."
+  ],
+  [
+   "Where did I go wrong?",
+   "Ubi errāvī?"
+  ],
+  [
+   "Correct only one mistake, please.",
+   "Ūnum tantum errōrem corrige, quaesō."
+  ],
+  [
+   "Don't correct me; let's continue.",
+   "Nōlī mē corrigere; pergāmus."
+  ],
+  [
+   "If I make mistakes, correct only one mistake.",
+   "Sī errō, ūnum tantum errōrem corrige."
+  ],
+  [
+   "Where is the mistake? This word, that is, the first one.",
+   "Ubi est error? Hoc verbum, id est prīmum."
+  ],
+  [
+   "Today I went wrong less than yesterday.",
+   "Hodiē minus errāvī quam herī."
+  ],
+  [
+   "How much did I go wrong? A little.",
+   "Quantum errāvī? Paulum."
+  ],
+  [
+   "Say it in other words.",
+   "Dīc aliīs verbīs."
+  ],
+  [
+   "Say it in one word.",
+   "Dīc ūnō verbō."
+  ],
+  [
+   "Say the sentence again.",
+   "Sententiam iterum dīc."
+  ],
+  [
+   "Say it a little more slowly.",
+   "Dīc paulum lentius."
+  ],
+  [
+   "First in English, then in Latin.",
+   "Prīmum Anglicē, deinde Latīnē."
+  ],
+  [
+   "Partly in Latin, partly in English.",
+   "Partim Latīnē, partim Anglicē."
+  ],
+  [
+   "Why partly in English? Because I'm missing a word.",
+   "Cūr partim Anglicē? Quia verbum mihi deest."
+  ],
+  [
+   "If I don't understand, say it in other words, that is, simply.",
+   "Sī nōn intellegō, dīc aliīs verbīs, id est simpliciter."
+  ],
+  [
+   "Speaking in Latin is better than in English.",
+   "Latīnē loquī melius est quam Anglicē."
+  ],
+  [
+   "How shall I say it? In other words.",
+   "Quōmodo dīcam? Aliīs verbīs."
+  ],
+  [
+   "With my friend I speak simply, in other words.",
+   "Cum amīcā meā simpliciter loquor, aliīs verbīs."
+  ],
+  [
+   "Is this word masculine or feminine?",
+   "Estne hoc verbum masculīnum an fēminīnum?"
+  ],
+  [
+   "It is feminine.",
+   "Fēminīnum est."
+  ],
+  [
+   "One bird, many birds.",
+   "Ūna avis, multae avēs."
+  ],
+  [
+   "One thing, many things.",
+   "Ūna rēs, multae rēs."
+  ],
+  [
+   "One word, many words.",
+   "Ūnum verbum, multa verba."
+  ],
+  [
+   "\"Vir\" is masculine, \"fēmina\" feminine.",
+   "\"Vir\" masculīnum est, \"fēmina\" fēminīnum."
+  ],
+  [
+   "Is \"pīca\" masculine or feminine? Feminine.",
+   "Estne \"pīca\" masculīnum an fēminīnum? Fēminīnum."
+  ],
+  [
+   "One magpie or many? Many magpies.",
+   "Ūna pīca an multae? Multae pīcae."
+  ],
+  [
+   "My friend says that \"pīca\" is feminine.",
+   "Amīca mea dīcit \"pīca\" fēminīnum esse."
+  ],
+  [
+   "This man is tired.",
+   "Hic vir fessus est."
+  ],
+  [
+   "These men are tired.",
+   "Hī virī fessī sunt."
+  ],
+  [
+   "That woman is happy.",
+   "Illa fēmina laeta est."
+  ],
+  [
+   "Those women are happy.",
+   "Illae fēminae laetae sunt."
+  ],
+  [
+   "Why is this man tired? Because he speaks Latin a lot.",
+   "Cūr hic vir fessus est? Quia multum Latīnē loquitur."
+  ],
+  [
+   "This man is less happy than that woman.",
+   "Hic vir minus laetus est quam illa fēmina."
+  ],
+  [
+   "I think that those women are happy.",
+   "Putō illās fēminās laetās esse."
+  ],
+  [
+   "If a man speaks Latin a lot, he is tired.",
+   "Sī vir multum Latīnē loquitur, fessus est."
+  ],
+  [
+   "I am, you are, he is.",
+   "Sum, es, est."
+  ],
+  [
+   "We are, you are, they are.",
+   "Sumus, estis, sunt."
+  ],
+  [
+   "I can, you can, he can.",
+   "Possum, potes, potest."
+  ],
+  [
+   "I want, you want, he wants.",
+   "Volō, vīs, vult."
+  ],
+  [
+   "I said, you said, she said.",
+   "Dīxī, dīxistī, dīxit."
+  ],
+  [
+   "I spoke, you spoke, she spoke.",
+   "Locūtus sum, locūtus es, locūta est."
+  ],
+  [
+   "Can I speak Latin? You can!",
+   "Possumne Latīnē loquī? Potes!"
+  ],
+  [
+   "What did she say? \"You spoke well.\"",
+   "Quid dīxit? \"Bene locūtus es.\""
+  ],
+  [
+   "Who said it? You, my friend.",
+   "Quis dīxit? Tū, amīca mea."
+  ],
+  [
+   "Yesterday you couldn't speak Latin; today you can.",
+   "Herī Latīnē loquī nōn poterās; hodiē potes."
+  ],
+  [
+   "Thank you for listening to me.",
+   "Grātiās tibi agō quod mē audīvistī."
+  ],
+  [
+   "I'm a little tired. Let's finish.",
+   "Paulum fessus sum. Fīniāmus."
+  ],
+  [
+   "Let's talk again tomorrow.",
+   "Crās iterum loquāmur."
+  ],
+  [
+   "When shall we talk again? Tomorrow.",
+   "Quandō iterum loquāmur? Crās."
+  ],
+  [
+   "Today I have spoken enough Latin.",
+   "Hodiē satis Latīnē locūtus sum."
+  ],
+  [
+   "How much Latin did I speak today? Enough.",
+   "Quantum hodiē Latīnē locūtus sum? Satis."
+  ],
+  [
+   "If I have spoken enough, let's finish.",
+   "Sī satis locūtus sum, fīniāmus."
+  ],
+  [
+   "My friend says that today I spoke Latin better than yesterday.",
+   "Amīca mea dīcit mē hodiē melius Latīnē locūtum esse quam herī."
+  ],
+  [
+   "Thank you for the conversation, my friend.",
+   "Grātiās tibi agō prō colloquiō, amīca mea."
+  ],
+  [
+   "Goodbye, my friend!",
+   "Valē, amīca mea!"
+  ]
+ ],
+ "latin_only": true
+}
