@@ -1,12 +1,12 @@
 {
- "job": "jobs/0024-fabella-rufus-v.json",
+ "job": "jobs/0029-drill-latin-only-v2.json",
  "ok": true,
  "files": [
-  "bonus-fabella-rufus-et-caseus-v.mp3"
+  "bonus-scala-latina-v2.mp3"
  ],
  "log": [
-  "== job jobs/0024-fabella-rufus-v.json drill",
-  "built bonus-fabella-rufus-et-caseus-v.mp3 13.1 min"
+  "== job jobs/0029-drill-latin-only-v2.json drill",
+  "built bonus-scala-latina-v2.mp3 36.8 min"
  ],
- "at": "2026-10-22T10:47:22+00:00"
+ "at": "2026-10-24T01:25:18+00:00"
 }
