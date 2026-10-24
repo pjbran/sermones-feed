@@ -12,10 +12,21 @@ def ensure(voice):
     return f'{DATA}/{voice}.onnx'
 
 
+_VOICES = {}
+
+
 def say(voice, text, out_wav, length_scale=1.0):
-    model = ensure(voice)
-    subprocess.run([sys.executable, '-m', 'piper', '-m', model, '-f', out_wav, '--length-scale', str(length_scale)],
-                   input=text.encode('utf-8'), check=True)
+    """Synthesize with the voice kept in memory (much faster than one process per line)."""
+    import wave
+    from piper import PiperVoice, SynthesisConfig
+    if voice not in _VOICES:
+        _VOICES[voice] = PiperVoice.load(ensure(voice))
+    v = _VOICES[voice]
+    with wave.open(out_wav, 'wb') as wf:
+        if length_scale != 1.0:
+            v.synthesize_wav(text, wf, syn_config=SynthesisConfig(length_scale=length_scale))
+        else:
+            v.synthesize_wav(text, wf)
     return out_wav
 
 

@@ -1,0 +1,1289 @@
+{
+ "type": "drill",
+ "slug": "scala-latina-v2",
+ "title": "Bonus · Sentence ladders 1 + 2 · Latin only (× 3)",
+ "summary": "Ladders 1 and 2 (rebuilt 24 Oct) in Latin only. Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
+ "repeat": 3,
+ "music": "v5",
+ "latin_ipa": true,
+ "v_as_v": true,
+ "latin_only": true,
+ "pairs": [
+  [
+   "I am going.",
+   "Eō."
+  ],
+  [
+   "I am going home.",
+   "Domum eō."
+  ],
+  [
+   "I am going to work.",
+   "Ad labōrem eō."
+  ],
+  [
+   "I like going to work.",
+   "Mihi placet ad labōrem īre."
+  ],
+  [
+   "I can go to work.",
+   "Ad labōrem īre possum."
+  ],
+  [
+   "I want to go to work.",
+   "Ad labōrem īre volō."
+  ],
+  [
+   "I will go to work tomorrow.",
+   "Crās ad labōrem ībō."
+  ],
+  [
+   "I went to work yesterday.",
+   "Herī ad labōrem iī."
+  ],
+  [
+   "I was going to work.",
+   "Ad labōrem ībam."
+  ],
+  [
+   "We are going to work.",
+   "Ad labōrem īmus."
+  ],
+  [
+   "Are you going to work?",
+   "Īsne ad labōrem?"
+  ],
+  [
+   "Where are you going?",
+   "Quō īs?"
+  ],
+  [
+   "Where did you go?",
+   "Quō īvistī?"
+  ],
+  [
+   "Let's go home.",
+   "Domum eāmus."
+  ],
+  [
+   "Go home!",
+   "Domum ī!"
+  ],
+  [
+   "I work at home.",
+   "Domī labōrō."
+  ],
+  [
+   "I worked at home today.",
+   "Hodiē domī labōrāvī."
+  ],
+  [
+   "I will work tomorrow.",
+   "Crās labōrābō."
+  ],
+  [
+   "I like work.",
+   "Labor mihi placet."
+  ],
+  [
+   "Tomorrow I will not go to work, but I will work at home.",
+   "Crās ad labōrem nōn ībō, sed domī labōrābō."
+  ],
+  [
+   "I will work at home, that is, with my family.",
+   "Domī labōrābō, id est cum familiā meā."
+  ],
+  [
+   "Why do you work at home? Because I see my son.",
+   "Cūr domī labōrās? Quia fīlium meum videō."
+  ],
+  [
+   "My wife thinks that I work better at home.",
+   "Uxor mea putat mē domī melius labōrāre."
+  ],
+  [
+   "What do you like?",
+   "Quid tibi placet?"
+  ],
+  [
+   "What do you like to play?",
+   "Quid lūdere tibi placet?"
+  ],
+  [
+   "I like to play with a ball.",
+   "Pilā lūdere mihi placet."
+  ],
+  [
+   "My son likes to play.",
+   "Fīliō meō placet lūdere."
+  ],
+  [
+   "My son is playing outside.",
+   "Fīlius meus forīs lūdit."
+  ],
+  [
+   "My son was playing outside.",
+   "Fīlius meus forīs lūdēbat."
+  ],
+  [
+   "I see my son.",
+   "Fīlium meum videō."
+  ],
+  [
+   "I saw my son.",
+   "Fīlium meum vīdī."
+  ],
+  [
+   "I will see my son this evening.",
+   "Hodiē vesperī fīlium meum vidēbō."
+  ],
+  [
+   "This evening I will see my son, and we will play outside with a ball.",
+   "Hodiē vesperī fīlium meum vidēbō, et forīs pilā lūdēmus."
+  ],
+  [
+   "If it is raining, we do not play outside.",
+   "Sī pluit, forīs nōn lūdimus."
+  ],
+  [
+   "I know that my son likes to play outside.",
+   "Sciō fīliō meō placēre forīs lūdere."
+  ],
+  [
+   "Who plays better with a ball? My son, not I.",
+   "Quis melius pilā lūdit? Fīlius meus, nōn ego."
+  ],
+  [
+   "I want to see my family.",
+   "Familiam meam vidēre volō."
+  ],
+  [
+   "I have a family.",
+   "Familiam habeō."
+  ],
+  [
+   "I have two daughters and a son.",
+   "Duās fīliās et ūnum fīlium habeō."
+  ],
+  [
+   "I talk with my daughters.",
+   "Cum fīliābus meīs loquor."
+  ],
+  [
+   "I talked with my wife.",
+   "Cum uxōre meā locūtus sum."
+  ],
+  [
+   "I want to talk with you.",
+   "Tēcum loquī volō."
+  ],
+  [
+   "This evening I will talk with my wife and my two daughters.",
+   "Hodiē vesperī cum uxōre meā et duābus fīliābus meīs loquar."
+  ],
+  [
+   "How many daughters do you have? Two daughters and one son.",
+   "Quot fīliās habēs? Duās fīliās et ūnum fīlium."
+  ],
+  [
+   "If I talk with my daughters, I talk slowly.",
+   "Sī cum fīliābus meīs loquor, lentē loquor."
+  ],
+  [
+   "My wife says that I talk too much.",
+   "Uxor mea dīcit mē nimium loquī."
+  ],
+  [
+   "Can you speak slowly?",
+   "Potesne lentē loquī?"
+  ],
+  [
+   "Speak slowly, please.",
+   "Lentē loquere, quaesō."
+  ],
+  [
+   "I don't understand.",
+   "Nōn intellegō."
+  ],
+  [
+   "I didn't understand.",
+   "Nōn intellēxī."
+  ],
+  [
+   "Say it again, please.",
+   "Iterum dīc, quaesō."
+  ],
+  [
+   "What did you say?",
+   "Quid dīxistī?"
+  ],
+  [
+   "How do you say it in Latin?",
+   "Quōmodo dīcitur Latīnē?"
+  ],
+  [
+   "I am learning Latin.",
+   "Linguam Latīnam discō."
+  ],
+  [
+   "I learned a lot today.",
+   "Hodiē multa didicī."
+  ],
+  [
+   "I will learn more tomorrow.",
+   "Crās plūra discam."
+  ],
+  [
+   "I am learning Latin because I want to speak Latin.",
+   "Linguam Latīnam discō, quia Latīnē loquī volō."
+  ],
+  [
+   "If you speak slowly, I can understand.",
+   "Sī lentē loqueris, intellegere possum."
+  ],
+  [
+   "Today I understood more than yesterday.",
+   "Hodiē plūra intellēxī quam herī."
+  ],
+  [
+   "How do you learn Latin? I read stories.",
+   "Quōmodo linguam Latīnam discis? Fābulās legō."
+  ],
+  [
+   "If you speak slowly, I understand more.",
+   "Sī lentē loqueris, plūra intellegō."
+  ],
+  [
+   "I am tired.",
+   "Fessus sum."
+  ],
+  [
+   "I was tired yesterday.",
+   "Herī fessus eram."
+  ],
+  [
+   "I am hungry.",
+   "Ēsuriō."
+  ],
+  [
+   "I want to eat.",
+   "Edere volō."
+  ],
+  [
+   "I ate bread.",
+   "Pānem ēdī."
+  ],
+  [
+   "I drank water.",
+   "Aquam bibī."
+  ],
+  [
+   "I drink too much coffee.",
+   "Nimium caffeae bibō."
+  ],
+  [
+   "Because I am tired, I drink too much coffee.",
+   "Quia fessus sum, nimium caffeae bibō."
+  ],
+  [
+   "Why do you drink too much coffee? Because I am tired.",
+   "Cūr nimium caffeae bibis? Quia fessus sum."
+  ],
+  [
+   "If I am hungry, I eat bread.",
+   "Sī ēsuriō, pānem edō."
+  ],
+  [
+   "My wife thinks that water is better than coffee.",
+   "Uxor mea putat aquam meliōrem esse quam caffeam."
+  ],
+  [
+   "Let's go.",
+   "Eāmus."
+  ],
+  [
+   "I come.",
+   "Veniō."
+  ],
+  [
+   "I am coming home.",
+   "Domum veniō."
+  ],
+  [
+   "Come to me!",
+   "Venī ad mē!"
+  ],
+  [
+   "Are you coming with me?",
+   "Venīsne mēcum?"
+  ],
+  [
+   "I came with my son.",
+   "Cum fīliō meō vēnī."
+  ],
+  [
+   "I will come tomorrow.",
+   "Crās veniam."
+  ],
+  [
+   "When will you come?",
+   "Quandō veniēs?"
+  ],
+  [
+   "This evening I will come home with my son.",
+   "Hodiē vesperī cum fīliō meō domum veniam."
+  ],
+  [
+   "If I come home late, my wife is sleeping.",
+   "Sī domum sērō veniō, uxor mea dormit."
+  ],
+  [
+   "My wife knows that I am coming home this evening.",
+   "Uxor mea scit mē hodiē vesperī domum venīre."
+  ],
+  [
+   "Who is coming with you? My son.",
+   "Quis tēcum venit? Fīlius meus."
+  ],
+  [
+   "I get up.",
+   "Surgō."
+  ],
+  [
+   "I get up at six.",
+   "Hōrā sextā surgō."
+  ],
+  [
+   "I got up late today.",
+   "Hodiē sērō surrēxī."
+  ],
+  [
+   "I will get up at six tomorrow.",
+   "Crās hōrā sextā surgam."
+  ],
+  [
+   "I sleep.",
+   "Dormiō."
+  ],
+  [
+   "I slept well.",
+   "Bene dormīvī."
+  ],
+  [
+   "I didn't sleep well.",
+   "Nōn bene dormīvī."
+  ],
+  [
+   "My son doesn't want to sleep.",
+   "Fīlius meus dormīre nōn vult."
+  ],
+  [
+   "I want to sleep.",
+   "Dormīre volō."
+  ],
+  [
+   "Today I got up late, because my son did not sleep well.",
+   "Hodiē sērō surrēxī, quia fīlius meus nōn bene dormīvit."
+  ],
+  [
+   "How did you sleep? Not well.",
+   "Quōmodo dormīvistī? Nōn bene."
+  ],
+  [
+   "If I get up at six, I am tired.",
+   "Sī hōrā sextā surgō, fessus sum."
+  ],
+  [
+   "How many hours did you sleep? Less than my son.",
+   "Quot hōrās dormīvistī? Minus quam fīlius meus."
+  ],
+  [
+   "What are you making?",
+   "Quid parās?"
+  ],
+  [
+   "I am making dinner.",
+   "Cēnam parō."
+  ],
+  [
+   "I made dinner.",
+   "Cēnam parāvī."
+  ],
+  [
+   "My wife made dinner.",
+   "Uxor mea cēnam parāvit."
+  ],
+  [
+   "Dinner is ready.",
+   "Cēna parāta est."
+  ],
+  [
+   "Let's have dinner.",
+   "Cēnēmus."
+  ],
+  [
+   "We had dinner together.",
+   "Ūnā cēnāvimus."
+  ],
+  [
+   "This evening my wife and I made dinner together.",
+   "Hodiē vesperī uxor mea et ego ūnā cēnam parāvimus."
+  ],
+  [
+   "If we make dinner together, dinner is better.",
+   "Sī ūnā cēnam parāmus, cēna melior est."
+  ],
+  [
+   "My daughters are hungry, that is, they want dinner.",
+   "Fīliae meae ēsuriunt, id est cēnam volunt."
+  ],
+  [
+   "When will we have dinner? This evening.",
+   "Quandō cēnābimus? Hodiē vesperī."
+  ],
+  [
+   "I read.",
+   "Legō."
+  ],
+  [
+   "I am reading a story.",
+   "Fābulam legō."
+  ],
+  [
+   "I read a story to my daughters.",
+   "Fīliābus meīs fābulam legō."
+  ],
+  [
+   "My daughters like stories.",
+   "Fābulae fīliābus meīs placent."
+  ],
+  [
+   "I write.",
+   "Scrībō."
+  ],
+  [
+   "I am writing a story.",
+   "Fābulam scrībō."
+  ],
+  [
+   "I wrote a story yesterday.",
+   "Herī fābulam scrīpsī."
+  ],
+  [
+   "I will write another story.",
+   "Aliam fābulam scrībam."
+  ],
+  [
+   "Tomorrow I will write my daughters another story in Latin.",
+   "Crās fīliābus meīs aliam fābulam Latīnē scrībam."
+  ],
+  [
+   "How many stories have you written? One; tomorrow I will write another.",
+   "Quot fābulās scrīpsistī? Ūnam; crās aliam scrībam."
+  ],
+  [
+   "If I write a story in Latin, my daughters don't understand.",
+   "Sī fābulam Latīnē scrībō, fīliae meae nōn intellegunt."
+  ],
+  [
+   "Why do you write stories? Because my daughters like them.",
+   "Cūr fābulās scrībis? Quia fīliābus meīs placent."
+  ],
+  [
+   "I give.",
+   "Dō."
+  ],
+  [
+   "I give my son a ball.",
+   "Fīliō meō pilam dō."
+  ],
+  [
+   "Give me the ball!",
+   "Dā mihi pilam!"
+  ],
+  [
+   "He gave me the ball.",
+   "Pilam mihi dedit."
+  ],
+  [
+   "My son gave me the ball, and we played together.",
+   "Fīlius meus pilam mihi dedit, et ūnā lūsimus."
+  ],
+  [
+   "Who gave you the ball? My son.",
+   "Quis tibi pilam dedit? Fīlius meus."
+  ],
+  [
+   "Give me the ball again, please!",
+   "Dā mihi iterum pilam, quaesō!"
+  ],
+  [
+   "If he gives me the ball, we play again.",
+   "Sī mihi pilam dat, iterum lūdimus."
+  ],
+  [
+   "I buy.",
+   "Emō."
+  ],
+  [
+   "I am buying bread.",
+   "Pānem emō."
+  ],
+  [
+   "I bought bread and milk.",
+   "Pānem et lac ēmī."
+  ],
+  [
+   "How much does it cost?",
+   "Quantī cōnstat?"
+  ],
+  [
+   "It's too expensive.",
+   "Nimis cārum est."
+  ],
+  [
+   "Yesterday I bought bread and milk, but the milk was too expensive.",
+   "Herī pānem et lac ēmī, sed lac nimis cārum erat."
+  ],
+  [
+   "How much does milk cost? It's too expensive.",
+   "Quantī lac cōnstat? Nimis cārum est."
+  ],
+  [
+   "I think that milk is more expensive than bread.",
+   "Putō lac cārius esse quam pānem."
+  ],
+  [
+   "How much does bread cost?",
+   "Quantī pānis cōnstat?"
+  ],
+  [
+   "I need water.",
+   "Aquā mihi opus est."
+  ],
+  [
+   "I need coffee.",
+   "Caffeā mihi opus est."
+  ],
+  [
+   "I have to work.",
+   "Labōrāre dēbeō."
+  ],
+  [
+   "I had to work yesterday.",
+   "Herī labōrāre dēbuī."
+  ],
+  [
+   "Today I have to work at home, and I need coffee.",
+   "Hodiē domī labōrāre dēbeō, et caffeā mihi opus est."
+  ],
+  [
+   "My wife knows that I have to work today.",
+   "Uxor mea scit mē hodiē labōrāre dēbēre."
+  ],
+  [
+   "I need coffee, that is, I am tired.",
+   "Caffeā mihi opus est, id est fessus sum."
+  ],
+  [
+   "When will you work less? Tomorrow.",
+   "Quandō minus labōrābis? Crās."
+  ],
+  [
+   "It's cold today.",
+   "Hodiē frīgus est."
+  ],
+  [
+   "The sun was shining yesterday.",
+   "Herī sōl lūcēbat."
+  ],
+  [
+   "The sun is shining.",
+   "Sōl lūcet."
+  ],
+  [
+   "It's raining.",
+   "Pluit."
+  ],
+  [
+   "Let's go outside.",
+   "Forās eāmus."
+  ],
+  [
+   "Let's walk outside.",
+   "Forīs ambulēmus."
+  ],
+  [
+   "Today it is cold, but the sun is shining; let's go outside and walk.",
+   "Hodiē frīgus est, sed sōl lūcet; forās eāmus et ambulēmus."
+  ],
+  [
+   "Where are we going? Outside.",
+   "Quō īmus? Forās."
+  ],
+  [
+   "If it is raining, we do not walk outside.",
+   "Sī pluit, forīs nōn ambulāmus."
+  ],
+  [
+   "Yesterday it was less cold than today.",
+   "Herī minus frīgus erat quam hodiē."
+  ],
+  [
+   "I walk.",
+   "Ambulō."
+  ],
+  [
+   "I walk in the morning.",
+   "Māne ambulō."
+  ],
+  [
+   "I walk with my son.",
+   "Cum fīliō meō ambulō."
+  ],
+  [
+   "I walked with my son.",
+   "Cum fīliō meō ambulāvī."
+  ],
+  [
+   "I was walking slowly.",
+   "Lentē ambulābam."
+  ],
+  [
+   "Why were you walking slowly?",
+   "Cūr lentē ambulābās?"
+  ],
+  [
+   "Because my son is small.",
+   "Quia fīlius meus parvus est."
+  ],
+  [
+   "He is three years old.",
+   "Trēs annōs nātus est."
+  ],
+  [
+   "He walks slowly, but I walk fast.",
+   "Ille lentē ambulat, sed ego celeriter."
+  ],
+  [
+   "Who walks faster? I do, because my son is three years old.",
+   "Quis celerius ambulat? Ego, quia fīlius trēs annōs nātus est."
+  ],
+  [
+   "If my son wants to play, we walk slowly.",
+   "Sī fīlius lūdere vult, lentē ambulāmus."
+  ],
+  [
+   "My son says that he is three years old, not small!",
+   "Fīlius dīcit sē trēs annōs nātum esse, nōn parvum!"
+  ],
+  [
+   "Let's walk together.",
+   "Ūnā ambulēmus."
+  ],
+  [
+   "I think.",
+   "Putō."
+  ],
+  [
+   "I think so.",
+   "Ita putō."
+  ],
+  [
+   "I don't think so.",
+   "Nōn ita putō."
+  ],
+  [
+   "What do you think?",
+   "Quid putās?"
+  ],
+  [
+   "I think it's easy.",
+   "Putō facile esse."
+  ],
+  [
+   "I thought it was hard.",
+   "Putābam difficile esse."
+  ],
+  [
+   "I thought Latin was hard.",
+   "Putābam linguam Latīnam difficilem esse."
+  ],
+  [
+   "Why did you think so? Because I knew nothing.",
+   "Cūr ita putābās? Quia nihil sciēbam."
+  ],
+  [
+   "Now Latin is easier than I thought.",
+   "Nunc lingua Latīna facilior est quam putābam."
+  ],
+  [
+   "My wife thought that Latin was easy.",
+   "Uxor mea putābat linguam Latīnam facilem esse."
+  ],
+  [
+   "I know.",
+   "Sciō."
+  ],
+  [
+   "I don't know.",
+   "Nesciō."
+  ],
+  [
+   "I understand what you're saying.",
+   "Intellegō quid dīcās."
+  ],
+  [
+   "I don't know what to do.",
+   "Nesciō quid faciam."
+  ],
+  [
+   "This morning I don't know what to do, that is, I have to do many things.",
+   "Hodiē māne nesciō quid faciam, id est, multa facere dēbeō."
+  ],
+  [
+   "If I don't know, my wife knows.",
+   "Sī nesciō, uxor mea scit."
+  ],
+  [
+   "I understand that I have to do many things.",
+   "Intellegō mē multa facere dēbēre."
+  ],
+  [
+   "What shall I do? I have to do many things.",
+   "Quid faciam? Multa facere dēbeō."
+  ],
+  [
+   "What are you doing?",
+   "Quid agis?"
+  ],
+  [
+   "What did you do today?",
+   "Quid hodiē fēcistī?"
+  ],
+  [
+   "What will you do tomorrow?",
+   "Quid crās faciēs?"
+  ],
+  [
+   "Tomorrow I will meet the client.",
+   "Crās clientem conveniam."
+  ],
+  [
+   "I have a meeting tomorrow.",
+   "Crās conventum habeō."
+  ],
+  [
+   "I had a meeting yesterday.",
+   "Herī conventum habuī."
+  ],
+  [
+   "The meeting was long.",
+   "Conventus longus erat."
+  ],
+  [
+   "The meeting was long, but good.",
+   "Conventus longus erat, sed bonus."
+  ],
+  [
+   "Yesterday I met the client; the meeting was long, but good.",
+   "Herī clientem convēnī; conventus longus erat, sed bonus."
+  ],
+  [
+   "When will you meet the client again? Tomorrow.",
+   "Quandō clientem iterum conveniēs? Crās."
+  ],
+  [
+   "If I have a good meeting, I am happy.",
+   "Sī conventum bonum habeō, laetus sum."
+  ],
+  [
+   "I think that the meeting with the client was good.",
+   "Putō conventum cum cliente bonum fuisse."
+  ],
+  [
+   "I said.",
+   "Dīxī."
+  ],
+  [
+   "I said nothing.",
+   "Nihil dīxī."
+  ],
+  [
+   "What did you say?",
+   "Quid dīxistī?"
+  ],
+  [
+   "He said that he was tired.",
+   "Dīxit sē fessum esse."
+  ],
+  [
+   "She says that she is happy.",
+   "Dīcit sē laetam esse."
+  ],
+  [
+   "I am happy, because I am learning.",
+   "Laetus sum, quia discō."
+  ],
+  [
+   "Why are you happy? Because I am learning, like a boy at school.",
+   "Cūr laetus es? Quia ut puer in lūdō discō."
+  ],
+  [
+   "My wife says that I am happy, because I am learning.",
+   "Uxor mea dīcit mē laetum esse, quia discō."
+  ],
+  [
+   "If I learn every day, I am happy; if I learn nothing, sad.",
+   "Sī cotīdiē discō, laetus sum; sī nihil discō, trīstis."
+  ],
+  [
+   "I want to speak better.",
+   "Melius loquī volō."
+  ],
+  [
+   "I can speak a little.",
+   "Paulum loquī possum."
+  ],
+  [
+   "I couldn't speak.",
+   "Loquī nōn poteram."
+  ],
+  [
+   "Now I can speak.",
+   "Nunc loquī possum."
+  ],
+  [
+   "Now I can speak Latin a little.",
+   "Nunc paulum Latīnē loquī possum."
+  ],
+  [
+   "Do you speak Latin? A little; I speak English better.",
+   "Loquerisne Latīnē? Paulum; linguā Anglicā melius loquor."
+  ],
+  [
+   "If I speak slowly, you understand well.",
+   "Sī lentē loquor, bene intellegis."
+  ],
+  [
+   "My wife says that I can now speak Latin a little.",
+   "Uxor mea dīcit mē nunc paulum Latīnē loquī posse."
+  ],
+  [
+   "Help me, please.",
+   "Adiuvā mē, sī vīs."
+  ],
+  [
+   "Thank you for helping me.",
+   "Grātiās tibi agō quod mē adiūvistī."
+  ],
+  [
+   "Thank you for helping my son.",
+   "Grātiās tibi agō quod fīlium meum adiūvistī."
+  ],
+  [
+   "Who helped you, Patrick? My wife.",
+   "Quis tē adiūvit, Patricī? Uxor mea."
+  ],
+  [
+   "If you help me again, I will help you.",
+   "Sī mē iterum adiuvābis, tē adiuvābō."
+  ],
+  [
+   "I know that you helped my son.",
+   "Sciō tē fīlium meum adiūvisse."
+  ],
+  [
+   "I must go.",
+   "Īre dēbeō."
+  ],
+  [
+   "I must go home.",
+   "Domum īre dēbeō."
+  ],
+  [
+   "When I get home, I will eat.",
+   "Cum domum vēnerō, edam."
+  ],
+  [
+   "When I got home, I ate.",
+   "Cum domum vēnissem, ēdī."
+  ],
+  [
+   "When I got home, I ate dinner with my family.",
+   "Cum domum vēnissem, cum familiā meā cēnam ēdī."
+  ],
+  [
+   "Why must you go home? So that I can eat dinner with my daughters.",
+   "Cūr domum īre dēbēs? Ut cum fīliābus meīs cēnam edam."
+  ],
+  [
+   "If I get home fast, I will play with my little son.",
+   "Sī domum celeriter vēnerō, cum fīliō parvō lūdam."
+  ],
+  [
+   "My wife knows that I ate dinner with the family.",
+   "Uxor mea scit mē cum familiā cēnam ēdisse."
+  ],
+  [
+   "After dinner, I will read.",
+   "Post cēnam legam."
+  ],
+  [
+   "I read a book every day.",
+   "Cotīdiē librum legō."
+  ],
+  [
+   "Which book do you read after dinner? A Latin book.",
+   "Post cēnam quem librum legis? Librum Latīnum."
+  ],
+  [
+   "See you tomorrow, my friend.",
+   "Crās tē vidēbō, amīce."
+  ],
+  [
+   "I am happy.",
+   "Laetus sum."
+  ],
+  [
+   "I was happy yesterday.",
+   "Herī laetus eram."
+  ],
+  [
+   "Why are you happy?",
+   "Cūr laetus es?"
+  ],
+  [
+   "Because my family is here.",
+   "Quia familia mea adest."
+  ],
+  [
+   "I am happy, because my family is here.",
+   "Laetus sum, quia familia mea adest."
+  ],
+  [
+   "If my family is here, I am happy.",
+   "Sī familia mea adest, laetus sum."
+  ],
+  [
+   "My wife says that I am happy, because the family is here.",
+   "Uxor mea dīcit mē laetum esse, quia familia adest."
+  ],
+  [
+   "I am sad.",
+   "Trīstis sum."
+  ],
+  [
+   "Why are you sad?",
+   "Cūr trīstis es?"
+  ],
+  [
+   "Because my body hurts.",
+   "Quia corpus dolet."
+  ],
+  [
+   "My head hurts.",
+   "Caput dolet."
+  ],
+  [
+   "My legs hurt.",
+   "Crūra dolent."
+  ],
+  [
+   "Why do your body and legs hurt? Because I walked a lot.",
+   "Cūr corpus et crūra dolent? Quia multum ambulāvī."
+  ],
+  [
+   "Today my head and legs hurt less than yesterday.",
+   "Hodiē caput et crūra minus dolent quam herī."
+  ],
+  [
+   "If my head and body hurt, I stay at home and sleep well.",
+   "Sī caput et corpus dolent, domī maneō et bene dormiō."
+  ],
+  [
+   "My wife thinks that I am sad, because my head hurts.",
+   "Uxor mea putat mē trīstem esse, quia caput dolet."
+  ],
+  [
+   "If you are tired, sleep.",
+   "Sī fessus es, dormī."
+  ],
+  [
+   "If it rains, we stay at home.",
+   "Sī pluit, domī manēmus."
+  ],
+  [
+   "If you want, we can walk.",
+   "Sī vīs, ambulāre possumus."
+  ],
+  [
+   "If you want, let's talk.",
+   "Sī vīs, loquāmur."
+  ],
+  [
+   "Do you want to walk together after dinner? I do, but it's raining.",
+   "Vīsne post cēnam ūnā ambulāre? Volō, sed pluit."
+  ],
+  [
+   "My wife is here and says that it isn't raining.",
+   "Uxor mea adest et dīcit nōn pluere."
+  ],
+  [
+   "Walking is better than staying at home and sleeping.",
+   "Ambulāre melius est quam domī manēre et dormīre."
+  ],
+  [
+   "If it rains, we don't walk together after dinner.",
+   "Sī pluit, post cēnam ūnā nōn ambulāmus."
+  ],
+  [
+   "Who are you?",
+   "Quis es?"
+  ],
+  [
+   "Who is that?",
+   "Quis est ille?"
+  ],
+  [
+   "That is my friend.",
+   "Ille amīcus meus est."
+  ],
+  [
+   "My friend is called Marcus.",
+   "Amīcus meus Marcus vocātur."
+  ],
+  [
+   "What is the friend's name? He is called Marcus.",
+   "Quod nōmen est amīcō? Marcus vocātur."
+  ],
+  [
+   "What is your name?",
+   "Quod nōmen tibi est?"
+  ],
+  [
+   "My name is Patrick.",
+   "Nōmen mihi est Patricius."
+  ],
+  [
+   "Where do you live?",
+   "Ubi habitās?"
+  ],
+  [
+   "I live in Australia.",
+   "In Austrāliā habitō."
+  ],
+  [
+   "What are you called? I'm called Patrick, and I live in Australia.",
+   "Quōmodo vocāris? Patricius vocor, et in Austrāliā habitō."
+  ],
+  [
+   "Where does Marcus live? In Australia.",
+   "Ubi habitat Marcus? In Austrāliā."
+  ],
+  [
+   "If Marcus is here, we speak Latin.",
+   "Sī Marcus adest, Latīnē loquimur."
+  ],
+  [
+   "My friend Marcus says that he lives in Australia.",
+   "Amīcus meus Marcus dīcit sē in Austrāliā habitāre."
+  ],
+  [
+   "Where were you born?",
+   "Ubi nātus es?"
+  ],
+  [
+   "When did you come?",
+   "Quandō vēnistī?"
+  ],
+  [
+   "How did you come?",
+   "Quōmodo vēnistī?"
+  ],
+  [
+   "I came by car.",
+   "Currū vēnī."
+  ],
+  [
+   "I came on foot.",
+   "Pedibus vēnī."
+  ],
+  [
+   "How did you come today? On foot, that is, I walked.",
+   "Quōmodo hodiē vēnistī? Pedibus, id est, ambulāvī."
+  ],
+  [
+   "If it rains, I come by car.",
+   "Sī pluit, currū veniō."
+  ],
+  [
+   "Coming on foot is better than sitting in the car.",
+   "Pedibus venīre melius est quam in currū sedēre."
+  ],
+  [
+   "My wife says that I came on foot today.",
+   "Uxor mea dīcit mē hodiē pedibus vēnisse."
+  ],
+  [
+   "This is better.",
+   "Hoc melius est."
+  ],
+  [
+   "This road is better.",
+   "Haec via melior est."
+  ],
+  [
+   "Walking is better than sitting.",
+   "Ambulāre melius est quam sedēre."
+  ],
+  [
+   "Latin is harder than English.",
+   "Lingua Latīna difficilior est quam Anglica."
+  ],
+  [
+   "But Latin is more beautiful.",
+   "Sed Latīna pulchrior est."
+  ],
+  [
+   "I think that English is easier, but less beautiful.",
+   "Putō linguam Anglicam faciliōrem esse, sed minus pulchram."
+  ],
+  [
+   "My wife thinks that Latin is more beautiful than English.",
+   "Uxor mea putat linguam Latīnam pulchriōrem esse quam Anglicam."
+  ],
+  [
+   "Is English easier? Yes, but less beautiful.",
+   "Estne lingua Anglica facilior? Ita, sed minus pulchra."
+  ],
+  [
+   "If Latin is hard, I learn slowly.",
+   "Sī lingua Latīna difficilis est, lentē discō."
+  ],
+  [
+   "Why is this road better? Because it is more beautiful.",
+   "Cūr haec via melior est? Quia pulchrior est."
+  ],
+  [
+   "If I walk on the road, I am happy; if I sit, tired.",
+   "Sī in viā ambulō, laetus sum; sī sedeō, fessus."
+  ],
+  [
+   "When I was a boy, I played.",
+   "Cum puer eram, lūdēbam."
+  ],
+  [
+   "When I was a boy, I didn't learn Latin.",
+   "Cum puer eram, linguam Latīnam nōn discēbam."
+  ],
+  [
+   "Now I learn every day.",
+   "Nunc cotīdiē discō."
+  ],
+  [
+   "My daughters learn at school.",
+   "Fīliae meae in lūdō discunt."
+  ],
+  [
+   "What did you learn at school?",
+   "Quid in lūdō didicistī?"
+  ],
+  [
+   "I learned many words.",
+   "Multa verba didicī."
+  ],
+  [
+   "I want to learn two thousand words.",
+   "Duo mīlia verbōrum discere volō."
+  ],
+  [
+   "My goal is two thousand words.",
+   "Mēta mea est duo mīlia verbōrum."
+  ],
+  [
+   "Why do you want to learn two thousand words? So that I can speak better.",
+   "Cūr duo mīlia verbōrum discere vīs? Ut melius loquar."
+  ],
+  [
+   "My daughters think that my goal is good.",
+   "Fīliae meae putant mētam meam bonam esse."
+  ],
+  [
+   "If I learn two thousand words, I speak better.",
+   "Sī duo mīlia verbōrum discō, melius loquor."
+  ],
+  [
+   "My goal is less easy than I thought, but don't worry!",
+   "Mēta mea minus facilis est quam putābam, sed nōlī cūrāre!"
+  ],
+  [
+   "It's hard, but I will try.",
+   "Difficile est, sed cōnābor."
+  ],
+  [
+   "Try again!",
+   "Iterum cōnāre!"
+  ],
+  [
+   "I tried, but I couldn't.",
+   "Cōnātus sum, sed nōn potuī."
+  ],
+  [
+   "Why couldn't you? Because it was hard.",
+   "Cūr nōn potuistī? Quia difficile erat."
+  ],
+  [
+   "If it's hard, I try again.",
+   "Sī difficile est, iterum cōnor."
+  ],
+  [
+   "My wife says that I tried.",
+   "Uxor mea dīcit mē cōnātum esse."
+  ],
+  [
+   "Don't worry.",
+   "Nōlī cūrāre."
+  ],
+  [
+   "It's fine.",
+   "Bene est."
+  ],
+  [
+   "I'm going for a walk.",
+   "Ambulātum eō."
+  ],
+  [
+   "Goodbye, look after yourself.",
+   "Valē, cūrā ut valeās."
+  ],
+  [
+   "See you on Sunday.",
+   "Diē Dominicō tē vidēbō."
+  ],
+  [
+   "When will you see me? On Sunday, that is, tomorrow.",
+   "Quandō mē vidēbis? Diē Dominicō, id est, crās."
+  ],
+  [
+   "On Sunday morning let's go for a walk together with the family.",
+   "Diē Dominicō māne ūnā cum familiā ambulātum eāmus."
+  ],
+  [
+   "When will we go for a walk? On Sunday morning, with the family.",
+   "Quandō ambulātum ībimus? Diē Dominicō māne, cum familiā."
+  ],
+  [
+   "If it rains on Sunday, we will not go for a walk.",
+   "Sī Diē Dominicō pluet, ambulātum nōn ībimus."
+  ],
+  [
+   "My wife wants to go for a walk together on Sunday.",
+   "Uxor mea vult Diē Dominicō ūnā ambulātum īre."
+  ],
+  [
+   "Thank you, my friend. Don't worry. Goodbye!",
+   "Grātiās tibi agō, amīce. Nōlī cūrāre. Valē!"
+  ]
+ ]
+}
