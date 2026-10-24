@@ -457,7 +457,7 @@ def run_episode(job):
         voice, ev = audio.sequence(items)
         x = audio.mix_music(voice, ev, music, lvl, dip)
         fn = f's{season}e{num:02d}{code}-{slug}.mp3'
-        tags = {'title': f'{title} · {label}', 'artist': 'Sermones Ambulātōriī', 'album_artist': 'Sermones Ambulātōriī',
+        tags = {'title': f'Chat · {title} · {label}', 'artist': 'Sermones Ambulātōriī', 'album_artist': 'Sermones Ambulātōriī',
                 'album': f'Sermones Ambulātōriī · Season {season}', 'track': str(nxt), 'genre': 'Language Learning', 'date': str(now.year)}
         audio.save_mp3(x, 'episodes/' + fn, tags, cover)
         eps = [e for e in eps if e['file'] != fn]

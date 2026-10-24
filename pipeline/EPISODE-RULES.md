@@ -85,3 +85,8 @@ His strong words get no points. They are the glue and they come back anyway.
   - **Before publishing, a separate agent reviews every ladder** for this (each top reused 3+ times; each new word reused 3+ times), plus the Latin itself.
 - Done 22 Oct evening: ladder 4 'talking to myself' (160 pairs, 10 min, IPA), story 'Fābella · Rūfus et cāseus' (56 pairs × 3, IPA).
 - Done: ladder 1 (going, working, liking, playing, seeing, talking, learning, eating), ladder 2 (walking with my son, putō / sciō, the meeting, dīxit sē…, possum / poteram, grātiās… quod, cum domum vēnerō), ladders 1 + 2 Latin only.
+
+## 7. Naming (Patrick, 24 Oct: "standardise… Ladder or Chat")
+- Every title starts with **Chat ·** (a conversation or a story: two hosts, or Iulia telling a story) or **Ladder ·** (a sentence ladder).
+- Chat: "Chat · <name> · English → Latin × 3" / "Chat · <name> · Latin only × 3" (the renderer adds "Chat ·" itself). Stories: "Chat · <name> (story, × 3)".
+- Ladder: "Ladder N · <topic> (× 3)", "Ladder 1 + 2 · Latin only (× 3)". Older versions end in "(old)". No "Ep N", no "Bonus".
