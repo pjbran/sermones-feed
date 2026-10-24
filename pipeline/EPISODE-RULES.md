@@ -81,7 +81,7 @@ His strong words get no points. They are the glue and they come back anyway.
   - The TOP of every ladder (its longest, most interesting sentence) gets its main parts reused **at least 3 more times** before the next ladder starts, in new frames: the whole sentence again, then in an *if* sentence, a *that* sentence (*putō / dīcō… + accusative and infinitive*), a comparison, a question and answer, another person or tense.
     Example: *Fessus sum, quia fīlius meus nocte experrēctus est.* → *Sī fīlius meus nocte expergīscitur, fessus sum.* → *Uxor mea dīcit fīlium nocte experrēctum esse.* → *Hodiē minus fessus sum quam herī.*
   - No new word or form at the top that is not used again. Every new element gets 3+ uses.
-  - **Free tracks cost nothing, so length is fine:** make it longer rather than drop content. Every new ladder: 10–20% longer than the last.
+  - **Free tracks cost nothing, so length is fine:** make it longer rather than drop content. Every new ladder: 10–20% longer than the last, as a SOFT minimum (Patrick, 24 Oct: 30, 40, 50% longer is fine, as long as the ladder follows the other rules).
   - **Before publishing, a separate agent reviews every ladder** for this (each top reused 3+ times; each new word reused 3+ times), plus the Latin itself.
 - Done 22 Oct evening: ladder 4 'talking to myself' (160 pairs, 10 min, IPA), story 'Fābella · Rūfus et cāseus' (56 pairs × 3, IPA).
 - Done: ladder 1 (going, working, liking, playing, seeing, talking, learning, eating), ladder 2 (walking with my son, putō / sciō, the meeting, dīxit sē…, possum / poteram, grātiās… quod, cum domum vēnerō), ladders 1 + 2 Latin only.
