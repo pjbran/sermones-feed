@@ -1,0 +1,1164 @@
+{
+ "type": "drill",
+ "slug": "scala-5-subiunctivus",
+ "title": "Ladder 5 · ut, nē, cum: the subjunctive pyramid",
+ "summary": "A pyramid on 5 subjunctive patterns: Rogō ut lentius loquāris · Linguam Latīnam discō, ut tēcum loquar · Caffeam nōn bibō, nē īrātus sim · Cum domum venīrem, fīlius meus clāmābat · Dīc mihi quid hoc significet. Slow steps, plain vs subjunctive contrasts, reviews, and a funny day at the end. English then Latin, free voice (IPA, v as v).",
+ "repeat": 1,
+ "music": "v5",
+ "latin_ipa": true,
+ "v_as_v": true,
+ "pairs": [
+  [
+   "Today: five sentences. Ut, nē, cum.",
+   "Hodiē: quīnque sententiae. Ut, nē, cum."
+  ],
+  [
+   "Five sentences, slowly.",
+   "Quīnque sententiae, lentē."
+  ],
+  [
+   "Sentence one.",
+   "Sententia prīma."
+  ],
+  [
+   "My teacher.",
+   "Magistra mea."
+  ],
+  [
+   "My teacher speaks.",
+   "Magistra mea loquitur."
+  ],
+  [
+   "My teacher speaks fast.",
+   "Magistra mea celeriter loquitur."
+  ],
+  [
+   "My teacher speaks too fast.",
+   "Magistra mea nimis celeriter loquitur."
+  ],
+  [
+   "You speak too fast.",
+   "Nimis celeriter loqueris."
+  ],
+  [
+   "Yes, you speak too fast.",
+   "Ita, nimis celeriter loqueris."
+  ],
+  [
+   "Speak slowly.",
+   "Lentē loquere."
+  ],
+  [
+   "Speak more slowly.",
+   "Lentius loquere."
+  ],
+  [
+   "Speak more slowly, please.",
+   "Lentius loquere, amābō tē."
+  ],
+  [
+   "I ask: speak more slowly.",
+   "Rogō: lentius loquere."
+  ],
+  [
+   "What do I ask?",
+   "Quid rogō?"
+  ],
+  [
+   "I ask. You speak.",
+   "Rogō. Loqueris."
+  ],
+  [
+   "I ask you to speak.",
+   "Rogō ut loquāris."
+  ],
+  [
+   "You speak slowly.",
+   "Lentē loqueris."
+  ],
+  [
+   "I ask you to speak slowly.",
+   "Rogō ut lentē loquāris."
+  ],
+  [
+   "You speak more slowly.",
+   "Lentius loqueris."
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "Why? Because you speak too fast.",
+   "Cūr? Quia nimis celeriter loqueris."
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "I ask again.",
+   "Iterum rogō."
+  ],
+  [
+   "You say it again.",
+   "Iterum dīcis."
+  ],
+  [
+   "Say it again.",
+   "Iterum dīc."
+  ],
+  [
+   "Say it again, please.",
+   "Iterum dīc, amābō tē."
+  ],
+  [
+   "You say it again. Yes, you say it again.",
+   "Iterum dīcis. Ita, iterum dīcis."
+  ],
+  [
+   "I ask you to say it again.",
+   "Rogō ut iterum dīcās."
+  ],
+  [
+   "What do I ask? That you say it again.",
+   "Quid rogō? Ut iterum dīcās."
+  ],
+  [
+   "I ask you to speak simply.",
+   "Rogō ut simpliciter loquāris."
+  ],
+  [
+   "Simply, please.",
+   "Simpliciter, amābō tē."
+  ],
+  [
+   "Speak slowly and simply.",
+   "Lentē et simpliciter loquere."
+  ],
+  [
+   "I ask you to speak slowly and simply.",
+   "Rogō ut lentē et simpliciter loquāris."
+  ],
+  [
+   "I ask. And I want.",
+   "Rogō. Et volō."
+  ],
+  [
+   "I want to walk with you.",
+   "Tēcum ambulāre volō."
+  ],
+  [
+   "You walk with me.",
+   "Mēcum ambulās."
+  ],
+  [
+   "You walk with me. Good.",
+   "Mēcum ambulās. Bene."
+  ],
+  [
+   "I want you to walk with me.",
+   "Volō ut mēcum ambulēs."
+  ],
+  [
+   "What do I want?",
+   "Quid volō?"
+  ],
+  [
+   "I want you to walk with me.",
+   "Volō ut mēcum ambulēs."
+  ],
+  [
+   "And I want you to speak slowly.",
+   "Et volō ut lentē loquāris."
+  ],
+  [
+   "My wife speaks.",
+   "Uxor mea loquitur."
+  ],
+  [
+   "My wife asks me.",
+   "Uxor mea mē rogat."
+  ],
+  [
+   "My wife asks me to speak more slowly.",
+   "Uxor mea mē rogat ut lentius loquar."
+  ],
+  [
+   "Why? Because I speak too fast.",
+   "Cūr? Quia nimis celeriter loquor."
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "What does my wife ask? That I speak more slowly.",
+   "Quid uxor mea rogat? Ut lentius loquar."
+  ],
+  [
+   "I ask you to say it again.",
+   "Rogō ut iterum dīcās."
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "Sentence two.",
+   "Sententia secunda."
+  ],
+  [
+   "I'm learning.",
+   "Discō."
+  ],
+  [
+   "I'm learning Latin.",
+   "Linguam Latīnam discō."
+  ],
+  [
+   "Every day I'm learning Latin.",
+   "Cotīdiē linguam Latīnam discō."
+  ],
+  [
+   "Why am I learning Latin?",
+   "Cūr linguam Latīnam discō?"
+  ],
+  [
+   "I speak Latin.",
+   "Latīnē loquor."
+  ],
+  [
+   "I speak with you.",
+   "Tēcum loquor."
+  ],
+  [
+   "I speak with you in Latin.",
+   "Latīnē tēcum loquor."
+  ],
+  [
+   "I want to speak with you.",
+   "Tēcum loquī volō."
+  ],
+  [
+   "So that I can speak with you.",
+   "Ut tēcum loquar."
+  ],
+  [
+   "I speak with you.",
+   "Tēcum loquor."
+  ],
+  [
+   "…so that I can speak with you.",
+   "…ut tēcum loquar."
+  ],
+  [
+   "I'm learning Latin so that I can talk with you.",
+   "Linguam Latīnam discō, ut tēcum loquar."
+  ],
+  [
+   "Why am I learning Latin? So that I can talk with you.",
+   "Cūr linguam Latīnam discō? Ut tēcum loquar."
+  ],
+  [
+   "I'm learning Latin so that I can talk with you.",
+   "Linguam Latīnam discō, ut tēcum loquar."
+  ],
+  [
+   "I speak well.",
+   "Bene loquor."
+  ],
+  [
+   "I speak better.",
+   "Melius loquor."
+  ],
+  [
+   "I want to speak better.",
+   "Melius loquī volō."
+  ],
+  [
+   "Every day I learn so that I speak better.",
+   "Cotīdiē discō ut melius loquar."
+  ],
+  [
+   "I learn and I walk.",
+   "Discō et ambulō."
+  ],
+  [
+   "I walk and I think.",
+   "Ambulō et cōgitō."
+  ],
+  [
+   "I think.",
+   "Cōgitō."
+  ],
+  [
+   "I walk so that I can think.",
+   "Ambulō ut cōgitem."
+  ],
+  [
+   "Why do I walk? So that I can think.",
+   "Cūr ambulō? Ut cōgitem."
+  ],
+  [
+   "I walk so that I can think. I learn so that I speak better.",
+   "Ambulō ut cōgitem. Discō ut melius loquar."
+  ],
+  [
+   "My son.",
+   "Fīlius meus."
+  ],
+  [
+   "My son is learning Latin too.",
+   "Et fīlius meus linguam Latīnam discit."
+  ],
+  [
+   "Why is he learning Latin? So that he can talk with me.",
+   "Cūr linguam Latīnam discit? Ut mēcum loquātur."
+  ],
+  [
+   "My son is learning Latin so that he can talk with me.",
+   "Fīlius meus linguam Latīnam discit, ut mēcum loquātur."
+  ],
+  [
+   "And my teacher? She speaks too fast.",
+   "Et magistra mea? Nimis celeriter loquitur."
+  ],
+  [
+   "No. I'm learning Latin so that I can talk with you.",
+   "Minimē. Linguam Latīnam discō, ut tēcum loquar."
+  ],
+  [
+   "Sentence one, again.",
+   "Sententia prīma, iterum."
+  ],
+  [
+   "My teacher speaks too fast. What do I ask?",
+   "Magistra mea nimis celeriter loquitur. Quid rogō?"
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "And I ask you to say it again.",
+   "Et rogō ut iterum dīcās."
+  ],
+  [
+   "I want you to walk with me.",
+   "Volō ut mēcum ambulēs."
+  ],
+  [
+   "I walk so that I can think.",
+   "Ambulō ut cōgitem."
+  ],
+  [
+   "I'm learning Latin so that I can talk with you.",
+   "Linguam Latīnam discō, ut tēcum loquar."
+  ],
+  [
+   "Sentence three.",
+   "Sententia tertia."
+  ],
+  [
+   "I drink coffee.",
+   "Caffeam bibō."
+  ],
+  [
+   "In the morning I drink coffee.",
+   "Māne caffeam bibō."
+  ],
+  [
+   "Coffee today? No.",
+   "Hodiē caffeam? Minimē."
+  ],
+  [
+   "I drink coffee. But today I'm not drinking coffee.",
+   "Caffeam bibō. Sed hodiē caffeam nōn bibō."
+  ],
+  [
+   "Why am I not drinking coffee?",
+   "Cūr caffeam nōn bibō?"
+  ],
+  [
+   "I'm angry.",
+   "Īrātus sum."
+  ],
+  [
+   "If I drink coffee, I'm angry.",
+   "Sī caffeam bibō, īrātus sum."
+  ],
+  [
+   "Angry? Yes. Very angry.",
+   "Īrātus? Ita. Valdē īrātus."
+  ],
+  [
+   "To be angry? No.",
+   "Īrātus esse? Minimē."
+  ],
+  [
+   "I don't want to be angry.",
+   "Īrātus esse nōlō."
+  ],
+  [
+   "Why am I not drinking coffee? Because I don't want to be angry.",
+   "Cūr caffeam nōn bibō? Quia īrātus esse nōlō."
+  ],
+  [
+   "I'm not angry.",
+   "Īrātus nōn sum."
+  ],
+  [
+   "…so that I'm not angry.",
+   "…nē īrātus sim."
+  ],
+  [
+   "So that I'm not angry.",
+   "Nē īrātus sim."
+  ],
+  [
+   "I'm not drinking coffee, so that I'm not angry.",
+   "Caffeam nōn bibō, nē īrātus sim."
+  ],
+  [
+   "Why am I not drinking coffee? So that I'm not angry.",
+   "Cūr caffeam nōn bibō? Nē īrātus sim."
+  ],
+  [
+   "I'm not drinking coffee, so that I'm not angry.",
+   "Caffeam nōn bibō, nē īrātus sim."
+  ],
+  [
+   "I don't drink coffee. I walk, so that I can think.",
+   "Caffeam nōn bibō. Ambulō ut cōgitem."
+  ],
+  [
+   "I don't drink coffee, so that I'm not angry.",
+   "Caffeam nōn bibō, nē īrātus sim."
+  ],
+  [
+   "What do I do so that I'm not angry?",
+   "Quid faciō nē īrātus sim?"
+  ],
+  [
+   "I'm not drinking coffee, so that I'm not angry.",
+   "Caffeam nōn bibō, nē īrātus sim."
+  ],
+  [
+   "And I eat cheese, so that I'm not angry.",
+   "Et cāseum edō, nē īrātus sim."
+  ],
+  [
+   "Cheese, not coffee.",
+   "Cāseum, nōn caffeam."
+  ],
+  [
+   "I eat cheese and I walk.",
+   "Cāseum edō et ambulō."
+  ],
+  [
+   "I walk slowly.",
+   "Lentē ambulō."
+  ],
+  [
+   "I want to walk slowly.",
+   "Lentē ambulāre volō."
+  ],
+  [
+   "If I walk fast, I fall.",
+   "Sī celeriter ambulō, cadō."
+  ],
+  [
+   "I fall. I don't want to fall.",
+   "Cadō. Cadere nōlō."
+  ],
+  [
+   "I don't want to fall. I walk slowly.",
+   "Cadere nōlō. Lentē ambulō."
+  ],
+  [
+   "I walk slowly so that I don't fall.",
+   "Lentē ambulō nē cadam."
+  ],
+  [
+   "Why do I walk slowly? So that I don't fall.",
+   "Cūr lentē ambulō? Nē cadam."
+  ],
+  [
+   "I walk slowly and I'm quiet.",
+   "Lentē ambulō et taceō."
+  ],
+  [
+   "Why am I quiet? My son is sleeping.",
+   "Cūr taceō? Fīlius meus dormit."
+  ],
+  [
+   "My son wakes up.",
+   "Fīlius meus expergīscitur."
+  ],
+  [
+   "If my son wakes up, he shouts.",
+   "Sī fīlius meus expergīscitur, clāmat."
+  ],
+  [
+   "My son sleeps. I'm quiet.",
+   "Fīlius meus dormit. Taceō."
+  ],
+  [
+   "I'm quiet so that my son doesn't wake up.",
+   "Taceō nē fīlius meus expergīscātur."
+  ],
+  [
+   "What do I do so that I'm not angry?",
+   "Quid faciō nē īrātus sim?"
+  ],
+  [
+   "I ask you not to speak too fast.",
+   "Rogō nē nimis celeriter loquāris."
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "My son shouts. I ask you not to shout.",
+   "Fīlius meus clāmat. Rogō nē clāmēs."
+  ],
+  [
+   "Sentence one, sentence two.",
+   "Sententia prīma, sententia secunda."
+  ],
+  [
+   "What do I ask?",
+   "Quid rogō?"
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "You walk with me. I want you to walk with me.",
+   "Mēcum ambulās. Volō ut mēcum ambulēs."
+  ],
+  [
+   "Why do I walk? So that I can think.",
+   "Cūr ambulō? Ut cōgitem."
+  ],
+  [
+   "Why am I learning Latin?",
+   "Cūr linguam Latīnam discō?"
+  ],
+  [
+   "I'm learning Latin so that I can talk with you.",
+   "Linguam Latīnam discō, ut tēcum loquar."
+  ],
+  [
+   "And my son learns Latin so that he can talk with me.",
+   "Et fīlius meus linguam Latīnam discit, ut mēcum loquātur."
+  ],
+  [
+   "I learn, and I don't drink coffee.",
+   "Discō, et caffeam nōn bibō."
+  ],
+  [
+   "Why am I not drinking coffee?",
+   "Cūr caffeam nōn bibō?"
+  ],
+  [
+   "I'm not drinking coffee, so that I'm not angry.",
+   "Caffeam nōn bibō, nē īrātus sim."
+  ],
+  [
+   "Sentence four.",
+   "Sententia quārta."
+  ],
+  [
+   "I come home.",
+   "Domum veniō."
+  ],
+  [
+   "Yesterday I came home.",
+   "Herī domum vēnī."
+  ],
+  [
+   "I was coming home.",
+   "Domum veniēbam."
+  ],
+  [
+   "I come home. My son shouts.",
+   "Domum veniō. Fīlius meus clāmat."
+  ],
+  [
+   "Yesterday I came home. My son shouted.",
+   "Herī domum vēnī. Fīlius meus clāmāvit."
+  ],
+  [
+   "When did I come home? Yesterday.",
+   "Quandō domum vēnī? Herī."
+  ],
+  [
+   "I was coming home. My son was shouting.",
+   "Domum veniēbam. Fīlius meus clāmābat."
+  ],
+  [
+   "When I was coming home…",
+   "Cum domum venīrem…"
+  ],
+  [
+   "When I was coming home, my son was shouting.",
+   "Cum domum venīrem, fīlius meus clāmābat."
+  ],
+  [
+   "When was my son shouting? When I was coming home.",
+   "Quandō fīlius meus clāmābat? Cum domum venīrem."
+  ],
+  [
+   "When I was coming home, my son was shouting.",
+   "Cum domum venīrem, fīlius meus clāmābat."
+  ],
+  [
+   "What was my son doing when I was coming home?",
+   "Quid faciēbat fīlius meus, cum domum venīrem?"
+  ],
+  [
+   "He was shouting. My son was shouting.",
+   "Clāmābat. Fīlius meus clāmābat."
+  ],
+  [
+   "I ask you not to shout.",
+   "Rogō nē clāmēs."
+  ],
+  [
+   "Where was I?",
+   "Ubi eram?"
+  ],
+  [
+   "Where was I when my son was shouting?",
+   "Ubi eram, cum fīlius meus clāmāret?"
+  ],
+  [
+   "Where was I? I was coming home.",
+   "Ubi eram? Domum veniēbam."
+  ],
+  [
+   "When I was coming home, my son was shouting.",
+   "Cum domum venīrem, fīlius meus clāmābat."
+  ],
+  [
+   "I was coming home. I was walking.",
+   "Domum veniēbam. Ambulābam."
+  ],
+  [
+   "I was walking.",
+   "Ambulābam."
+  ],
+  [
+   "When I was walking…",
+   "Cum ambulārem…"
+  ],
+  [
+   "I was walking and I saw a magpie.",
+   "Ambulābam et pīcam vīdī."
+  ],
+  [
+   "When I was walking, I saw a magpie.",
+   "Cum ambulārem, pīcam vīdī."
+  ],
+  [
+   "What did I see when I was walking?",
+   "Quid vīdī, cum ambulārem?"
+  ],
+  [
+   "I saw a magpie. A big magpie.",
+   "Pīcam vīdī. Magnam pīcam."
+  ],
+  [
+   "A big magpie. Very big.",
+   "Magnam pīcam. Valdē magnam."
+  ],
+  [
+   "The magpie attacked me.",
+   "Pīca mē petīvit."
+  ],
+  [
+   "When I was walking, the magpie attacked me.",
+   "Cum ambulārem, pīca mē petīvit."
+  ],
+  [
+   "When I was walking, the magpie shouted.",
+   "Cum ambulārem, pīca clāmāvit."
+  ],
+  [
+   "My son shouted.",
+   "Fīlius meus clāmāvit."
+  ],
+  [
+   "I was sleeping. My son shouted.",
+   "Dormiēbam. Fīlius meus clāmāvit."
+  ],
+  [
+   "I was sleeping.",
+   "Dormiēbam."
+  ],
+  [
+   "When I was sleeping…",
+   "Cum dormīrem…"
+  ],
+  [
+   "When I was sleeping, my son shouted.",
+   "Cum dormīrem, fīlius meus clāmāvit."
+  ],
+  [
+   "When did my son shout? When I was sleeping.",
+   "Quandō fīlius meus clāmāvit? Cum dormīrem."
+  ],
+  [
+   "I was sleeping. My son was shouting.",
+   "Dormiēbam. Fīlius meus clāmābat."
+  ],
+  [
+   "Where was I when my son was shouting?",
+   "Ubi eram, cum fīlius meus clāmāret?"
+  ],
+  [
+   "Where was I? I was coming home.",
+   "Ubi eram? Domum veniēbam."
+  ],
+  [
+   "When I was coming home, my son was shouting.",
+   "Cum domum venīrem, fīlius meus clāmābat."
+  ],
+  [
+   "Sentence one, two, three.",
+   "Sententia prīma, secunda, tertia."
+  ],
+  [
+   "My teacher speaks too fast.",
+   "Magistra mea nimis celeriter loquitur."
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "I'm learning Latin so that I can talk with you.",
+   "Linguam Latīnam discō, ut tēcum loquar."
+  ],
+  [
+   "And every day I learn so that I speak better.",
+   "Et cotīdiē discō ut melius loquar."
+  ],
+  [
+   "And I'm not drinking coffee, so that I'm not angry.",
+   "Et caffeam nōn bibō, nē īrātus sim."
+  ],
+  [
+   "I walk slowly so that I don't fall.",
+   "Lentē ambulō nē cadam."
+  ],
+  [
+   "I'm quiet so that my son doesn't wake up.",
+   "Taceō nē fīlius meus expergīscātur."
+  ],
+  [
+   "When I was coming home, my son was shouting.",
+   "Cum domum venīrem, fīlius meus clāmābat."
+  ],
+  [
+   "What was my son doing? He was shouting.",
+   "Quid faciēbat fīlius meus? Clāmābat."
+  ],
+  [
+   "Sentence five.",
+   "Sententia quīnta."
+  ],
+  [
+   "My teacher says a word.",
+   "Magistra mea verbum dīcit."
+  ],
+  [
+   "What does this word mean?",
+   "Quid hoc verbum significat?"
+  ],
+  [
+   "Tell me: what does this mean?",
+   "Dīc mihi: quid hoc significat?"
+  ],
+  [
+   "Tell me what this means.",
+   "Dīc mihi quid hoc significet."
+  ],
+  [
+   "What does it mean?",
+   "Quid significat?"
+  ],
+  [
+   "Tell me what it means.",
+   "Dīc mihi quid significet."
+  ],
+  [
+   "Tell me what this means.",
+   "Dīc mihi quid hoc significet."
+  ],
+  [
+   "What do I say?",
+   "Quid dīcō?"
+  ],
+  [
+   "I say: tell me what this means.",
+   "Dīcō: dīc mihi quid hoc significet."
+  ],
+  [
+   "What does this word mean? I don't know.",
+   "Quid hoc verbum significat? Nesciō."
+  ],
+  [
+   "I don't know what this word means.",
+   "Nesciō quid hoc verbum significet."
+  ],
+  [
+   "What shall I say?",
+   "Quid dīcam?"
+  ],
+  [
+   "I don't know what to say.",
+   "Nesciō quid dīcam."
+  ],
+  [
+   "My shoes.",
+   "Calceī meī."
+  ],
+  [
+   "I don't know. Where are my shoes?",
+   "Nesciō. Ubi sunt calceī meī?"
+  ],
+  [
+   "I don't know where my shoes are.",
+   "Nesciō ubi sint calceī meī."
+  ],
+  [
+   "Where are my shoes? I don't know where my shoes are.",
+   "Ubi sunt calceī meī? Nesciō ubi sint calceī meī."
+  ],
+  [
+   "My son knows where my shoes are.",
+   "Fīlius meus scit ubi sint calceī meī."
+  ],
+  [
+   "My son laughs.",
+   "Fīlius meus rīdet."
+  ],
+  [
+   "Why are you laughing?",
+   "Cūr rīdēs?"
+  ],
+  [
+   "Tell me why you're laughing.",
+   "Dīc mihi cūr rīdeās."
+  ],
+  [
+   "The magpie laughs too.",
+   "Et pīca rīdet."
+  ],
+  [
+   "Why are you laughing, magpie?",
+   "Cūr rīdēs, pīca?"
+  ],
+  [
+   "Tell me why you're laughing, magpie.",
+   "Dīc mihi cūr rīdeās, pīca."
+  ],
+  [
+   "Tell me where my shoes are.",
+   "Dīc mihi ubi sint calceī meī."
+  ],
+  [
+   "Where are my shoes? Tell me.",
+   "Ubi sunt calceī meī? Dīc mihi."
+  ],
+  [
+   "Tell me what this means.",
+   "Dīc mihi quid hoc significet."
+  ],
+  [
+   "I don't know what this means.",
+   "Nesciō quid hoc significet."
+  ],
+  [
+   "Sentence five: tell me what this means.",
+   "Sententia quīnta: dīc mihi quid hoc significet."
+  ],
+  [
+   "Sentence one, two, three, four.",
+   "Sententia prīma, secunda, tertia, quārta."
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "I'm learning Latin so that I can talk with you.",
+   "Linguam Latīnam discō, ut tēcum loquar."
+  ],
+  [
+   "I walk so that I can think.",
+   "Ambulō ut cōgitem."
+  ],
+  [
+   "I walk slowly so that I don't fall.",
+   "Lentē ambulō nē cadam."
+  ],
+  [
+   "I'm not drinking coffee, so that I'm not angry.",
+   "Caffeam nōn bibō, nē īrātus sim."
+  ],
+  [
+   "I'm quiet so that my son doesn't wake up.",
+   "Taceō nē fīlius meus expergīscātur."
+  ],
+  [
+   "When I was coming home, my son was shouting.",
+   "Cum domum venīrem, fīlius meus clāmābat."
+  ],
+  [
+   "When I was walking, I saw a magpie.",
+   "Cum ambulārem, pīcam vīdī."
+  ],
+  [
+   "The magpie: what does this mean?",
+   "Pīca: quid hoc significat?"
+  ],
+  [
+   "Tell me what this means.",
+   "Dīc mihi quid hoc significet."
+  ],
+  [
+   "Today. In the morning.",
+   "Hodiē. Māne."
+  ],
+  [
+   "In the morning I'm learning Latin.",
+   "Māne linguam Latīnam discō."
+  ],
+  [
+   "My teacher speaks Latin.",
+   "Magistra mea Latīnē loquitur."
+  ],
+  [
+   "But my teacher speaks too fast.",
+   "Sed magistra mea nimis celeriter loquitur."
+  ],
+  [
+   "Very fast. What do I say?",
+   "Valdē celeriter. Quid dīcō?"
+  ],
+  [
+   "I say: I ask you to speak more slowly.",
+   "Dīcō: rogō ut lentius loquāris."
+  ],
+  [
+   "My teacher speaks more slowly.",
+   "Magistra mea lentius loquitur."
+  ],
+  [
+   "Now she speaks too slowly.",
+   "Nunc nimis lentē loquitur."
+  ],
+  [
+   "My teacher, I ask you to speak simply.",
+   "Magistra mea, rogō ut simpliciter loquāris."
+  ],
+  [
+   "My teacher says a word.",
+   "Magistra mea verbum dīcit."
+  ],
+  [
+   "I don't know what this word means.",
+   "Nesciō quid hoc verbum significet."
+  ],
+  [
+   "I don't know what to say.",
+   "Nesciō quid dīcam."
+  ],
+  [
+   "Tell me what this means.",
+   "Dīc mihi quid hoc significet."
+  ],
+  [
+   "Now: coffee?",
+   "Nunc caffeam?"
+  ],
+  [
+   "No. I'm not drinking coffee, so that I'm not angry.",
+   "Minimē. Caffeam nōn bibō, nē īrātus sim."
+  ],
+  [
+   "Why not? Because I don't want to be angry.",
+   "Cūr nōn? Quia īrātus esse nōlō."
+  ],
+  [
+   "What do I do so that I'm not angry?",
+   "Quid faciō nē īrātus sim?"
+  ],
+  [
+   "I eat cheese, so that I'm not angry.",
+   "Cāseum edō, nē īrātus sim."
+  ],
+  [
+   "Now I'm not angry.",
+   "Nunc īrātus nōn sum."
+  ],
+  [
+   "I want to walk, so that I can think.",
+   "Ambulāre volō, ut cōgitem."
+  ],
+  [
+   "I walk and I think.",
+   "Ambulō et cōgitō."
+  ],
+  [
+   "If I walk fast, I fall.",
+   "Sī celeriter ambulō, cadō."
+  ],
+  [
+   "I walk slowly. I don't want to fall.",
+   "Lentē ambulō. Cadere nōlō."
+  ],
+  [
+   "I walk slowly so that I don't fall.",
+   "Lentē ambulō nē cadam."
+  ],
+  [
+   "When I was walking, I saw a magpie.",
+   "Cum ambulārem, pīcam vīdī."
+  ],
+  [
+   "When I was walking, the magpie attacked me.",
+   "Cum ambulārem, pīca mē petīvit."
+  ],
+  [
+   "The magpie laughs.",
+   "Pīca rīdet."
+  ],
+  [
+   "Why are you laughing, magpie?",
+   "Cūr rīdēs, pīca?"
+  ],
+  [
+   "Tell me why you're laughing, magpie.",
+   "Dīc mihi cūr rīdeās, pīca."
+  ],
+  [
+   "I come home.",
+   "Domum veniō."
+  ],
+  [
+   "When I was coming home, my son was shouting.",
+   "Cum domum venīrem, fīlius meus clāmābat."
+  ],
+  [
+   "Where was I when my son was shouting? I was coming home.",
+   "Ubi eram, cum fīlius meus clāmāret? Domum veniēbam."
+  ],
+  [
+   "What was my son doing? He was shouting.",
+   "Quid faciēbat fīlius meus? Clāmābat."
+  ],
+  [
+   "I say: I ask you not to shout.",
+   "Dīcō: rogō nē clāmēs."
+  ],
+  [
+   "My son doesn't shout. He laughs.",
+   "Fīlius meus nōn clāmat. Rīdet."
+  ],
+  [
+   "Tell me why you're laughing.",
+   "Dīc mihi cūr rīdeās."
+  ],
+  [
+   "He laughs. He knows where my shoes are.",
+   "Rīdet. Scit ubi sint calceī meī."
+  ],
+  [
+   "But I don't know where my shoes are.",
+   "Sed nesciō ubi sint calceī meī."
+  ],
+  [
+   "Tell me where my shoes are.",
+   "Dīc mihi ubi sint calceī meī."
+  ],
+  [
+   "My son says: the magpie knows where my shoes are.",
+   "Fīlius meus dīcit: pīca scit ubi sint calceī meī."
+  ],
+  [
+   "Now my son is sleeping.",
+   "Nunc fīlius meus dormit."
+  ],
+  [
+   "Yesterday, when I was sleeping, my son shouted.",
+   "Herī, cum dormīrem, fīlius meus clāmāvit."
+  ],
+  [
+   "If my son wakes up, he shouts.",
+   "Sī fīlius meus expergīscitur, clāmat."
+  ],
+  [
+   "I'm quiet so that my son doesn't wake up.",
+   "Taceō nē fīlius meus expergīscātur."
+  ],
+  [
+   "I'm quiet and I learn Latin.",
+   "Taceō et linguam Latīnam discō."
+  ],
+  [
+   "Why am I learning Latin?",
+   "Cūr linguam Latīnam discō?"
+  ],
+  [
+   "I'm learning Latin so that I can talk with you.",
+   "Linguam Latīnam discō, ut tēcum loquar."
+  ],
+  [
+   "I want to speak with you, slowly.",
+   "Tēcum loquī volō, lentē."
+  ],
+  [
+   "My wife asks me to speak more slowly.",
+   "Uxor mea mē rogat ut lentius loquar."
+  ],
+  [
+   "And my teacher? She speaks too fast.",
+   "Et magistra mea? Nimis celeriter loquitur."
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "Five sentences. Good.",
+   "Quīnque sententiae. Bene."
+  ],
+  [
+   "Sentence one: I ask you to speak more slowly.",
+   "Sententia prīma: rogō ut lentius loquāris."
+  ],
+  [
+   "Sentence two: I'm learning Latin so that I can talk with you.",
+   "Sententia secunda: linguam Latīnam discō, ut tēcum loquar."
+  ],
+  [
+   "Sentence three: I'm not drinking coffee, so that I'm not angry.",
+   "Sententia tertia: caffeam nōn bibō, nē īrātus sim."
+  ],
+  [
+   "Sentence four: when I was coming home, my son was shouting.",
+   "Sententia quārta: cum domum venīrem, fīlius meus clāmābat."
+  ],
+  [
+   "Sentence five: tell me what this means.",
+   "Sententia quīnta: dīc mihi quid hoc significet."
+  ]
+ ]
+}
