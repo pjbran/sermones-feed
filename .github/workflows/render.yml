@@ -24,6 +24,7 @@ jobs:
       - name: Run jobs
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
         run: python pipeline/run_jobs.py
       - name: Save results
         if: always()

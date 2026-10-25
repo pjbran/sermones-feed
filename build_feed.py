@@ -11,14 +11,17 @@ items = []
 for e in sorted(eps, key=lambda e: e['date'], reverse=True):
     p = 'episodes/' + e['file']
     d = datetime.datetime.fromisoformat(e['date'])
+    url = e.get('url') or f"{BASE}/{p}"                      # MP3s live in a GitHub release (26 Oct)
+    length = e.get('bytes') or os.path.getsize(p)
+    duration = e.get('duration') or dur(p)
     items.append(f"""    <item>
       <title>{x(e['title'])}</title>
       <description>{x(e['summary'])}</description>
       <itunes:summary>{x(e['summary'])}</itunes:summary>
-      <enclosure url="{BASE}/{p}" length="{os.path.getsize(p)}" type="audio/mpeg"/>
+      <enclosure url="{url}" length="{length}" type="audio/mpeg"/>
       <guid isPermaLink="false">sermones-{e['file']}</guid>
       <pubDate>{email.utils.format_datetime(d)}</pubDate>
-      <itunes:duration>{dur(p)}</itunes:duration>
+      <itunes:duration>{duration}</itunes:duration>
       <itunes:season>{e['season']}</itunes:season>
       <itunes:episode>{e['episode']}</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>

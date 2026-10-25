@@ -92,3 +92,8 @@ His strong words get no points. They are the glue and they come back anyway.
 - Every title starts with **Chat ·** (a conversation or a story: two hosts, or Iulia telling a story) or **Ladder ·** (a sentence ladder).
 - Chat: "Chat · <name> · English → Latin × 3" / "Chat · <name> · Latin only × 3" (the renderer adds "Chat ·" itself). Stories: "Chat · <name> (story, × 3)".
 - Ladder: "Ladder N · <topic> (× 3)", "Ladder 1 + 2 · Latin only (× 3)". Older versions end in "(old)". No "Ep N", no "Bonus".
+
+## 8. Storage (26 Oct)
+- MP3s are NOT kept in the website any more (GitHub Pages limit about 1 GB). After each run, `pipeline/publish.py` uploads every new MP3 to the GitHub release `audio` and the feed points to `https://github.com/pjbran/sermones-feed/releases/download/audio/<file>`. Free, no real size limit.
+- Free tracks (ladders, pyramids, stories) are saved at 64 kbps mono (speech-friendly, about 60% smaller).
+- The "(old)" versions were removed on 26 Oct (Patrick: "do 123").

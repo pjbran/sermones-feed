@@ -77,14 +77,14 @@ def mix_music(voice, ev, loop_path, level_db=-9.0, dip_db=7.0):
     return out * min(1.0, 0.95 / np.max(np.abs(out)))
 
 
-def save_mp3(x, path, tags, cover=None):
+def save_mp3(x, path, tags, cover=None, bitrate='160k', channels=2):
     tmp = path + '.wav'
     with wave.open(tmp, 'wb') as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
         w.writeframes((np.clip(x, -1, 1) * 32767).astype('<i2').tobytes())
     tmp2 = path + '.tmp.mp3'
     subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', tmp, '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11',
-                    '-ac', '2', '-ar', '44100', '-b:a', '160k', tmp2], check=True)
+                    '-ac', str(channels), '-ar', '44100', '-b:a', bitrate, tmp2], check=True)
     cmd = ['ffmpeg', '-y', '-v', 'error', '-i', tmp2]
     if cover and os.path.exists(cover):
         cmd += ['-i', cover, '-map', '0:a', '-map', '1', '-metadata:s:v', 'title=Cover', '-metadata:s:v', 'comment=Cover (front)']

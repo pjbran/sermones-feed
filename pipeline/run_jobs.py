@@ -338,7 +338,7 @@ def run_drill(job):
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=11)))
     tags = {'title': title, 'artist': 'Sermones Ambulātōriī', 'album_artist': 'Sermones Ambulātōriī',
             'album': 'Sermones Ambulātōriī · Season 1', 'track': str(nxt), 'genre': 'Language Learning', 'date': str(now.year)}
-    audio.save_mp3(x, 'episodes/' + fn, tags, cover)
+    audio.save_mp3(x, 'episodes/' + fn, tags, cover, bitrate='64k', channels=1)   # speech-friendly size (26 Oct)
     eps.append({'file': fn, 'title': title, 'season': 1, 'episode': nxt, 'date': now.isoformat(timespec='seconds'),
                 'summary': job.get('summary', '')})
     json.dump(eps, open('episodes.json', 'w'), indent=1, ensure_ascii=False)
@@ -476,6 +476,14 @@ def run_episode(job):
     return {'files': made}
 
 
+any_migrate = [False]
+
+
+def run_migrate(job):
+    any_migrate[0] = True      # publish step shrinks the free tracks and moves every MP3 to the release
+    return {'migrate': True}
+
+
 def main():
     done_any = False
     for jp in sorted(glob.glob('jobs/*.json')):
@@ -485,7 +493,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill}.get(job['type'], run_episode)(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]
@@ -497,6 +505,11 @@ def main():
         done_any = True
     if not done_any:
         print('no new jobs')
+    import publish
+    try:
+        publish.publish_all(log=log, shrink_free=any_migrate[0])
+    except Exception as e:
+        log('publish failed (files stay in the site):', repr(e))
 
 
 if __name__ == '__main__':
