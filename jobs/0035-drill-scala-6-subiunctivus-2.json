@@ -1,0 +1,1248 @@
+{
+ "type": "drill",
+ "slug": "scala-6-subiunctivus-2",
+ "title": "Ladder 6 · ut, nē, cum: pyramid 2 (× 2)",
+ "summary": "Subjunctive pyramid 2, new sentences: Dīc fīliō meō ut domum veniat · Domum eō, ut cum līberīs cēnem · Timeō nē pīca mē oppugnet · Cum fessus essem, domī mānsī · Scīsne ubi sit cāseus? Slow steps, plain vs subjunctive contrasts, reviews (and pyramid 1's peaks), a funny rainy day at the end. Played twice. Free voice (IPA, v as v).",
+ "repeat": 2,
+ "music": "v5",
+ "latin_ipa": true,
+ "v_as_v": true,
+ "pairs": [
+  [
+   "Today: five new sentences. Ut, nē, cum.",
+   "Hodiē: quīnque sententiae novae. Ut, nē, cum."
+  ],
+  [
+   "Five new sentences, slowly.",
+   "Quīnque sententiae novae, lentē."
+  ],
+  [
+   "Five new sentences, and old sentences too.",
+   "Quīnque sententiae novae, et sententiae veterēs."
+  ],
+  [
+   "Sentence one: my son.",
+   "Sententia prīma: fīlius meus."
+  ],
+  [
+   "Where is my son?",
+   "Ubi est fīlius meus?"
+  ],
+  [
+   "Where? In the garden.",
+   "Ubi? In hortō."
+  ],
+  [
+   "My son is in the garden.",
+   "Fīlius meus in hortō est."
+  ],
+  [
+   "He is in the garden. It's evening.",
+   "In hortō est. Vesper est."
+  ],
+  [
+   "Evening. Dinner.",
+   "Vesper. Cēna."
+  ],
+  [
+   "Dinner! My son comes home.",
+   "Cēna! Fīlius meus domum venit."
+  ],
+  [
+   "He comes home.",
+   "Domum venit."
+  ],
+  [
+   "Come home!",
+   "Domum venī!"
+  ],
+  [
+   "Come home, please.",
+   "Domum venī, amābō tē."
+  ],
+  [
+   "I say: come home.",
+   "Dīcō: domum venī."
+  ],
+  [
+   "I say: come home. To my son.",
+   "Dīcō: domum venī. Fīliō meō."
+  ],
+  [
+   "I say to my son: come home.",
+   "Fīliō meō dīcō: domum venī."
+  ],
+  [
+   "To my son.",
+   "Fīliō meō."
+  ],
+  [
+   "Tell my son: come home.",
+   "Dīc fīliō meō: domum venī."
+  ],
+  [
+   "Tell him: come home.",
+   "Dīc eī: domum venī."
+  ],
+  [
+   "He comes home.",
+   "Domum venit."
+  ],
+  [
+   "…that he should come home.",
+   "…ut domum veniat."
+  ],
+  [
+   "Tell him to come home.",
+   "Dīc eī ut domum veniat."
+  ],
+  [
+   "Tell my son to come home.",
+   "Dīc fīliō meō ut domum veniat."
+  ],
+  [
+   "What do I say? Tell my son to come home.",
+   "Quid dīcō? Dīc fīliō meō ut domum veniat."
+  ],
+  [
+   "He comes home.",
+   "Domum venit."
+  ],
+  [
+   "Tell him to come home.",
+   "Dīc eī ut domum veniat."
+  ],
+  [
+   "In the garden? Tell my son to come home.",
+   "In hortō? Dīc fīliō meō ut domum veniat."
+  ],
+  [
+   "My son comes home. He shouts.",
+   "Fīlius meus domum venit. Clāmat."
+  ],
+  [
+   "He shouts. Be quiet!",
+   "Clāmat. Tacē!"
+  ],
+  [
+   "Be quiet, please.",
+   "Tacē, amābō tē."
+  ],
+  [
+   "He is quiet.",
+   "Tacet."
+  ],
+  [
+   "Tell him to be quiet.",
+   "Dīc eī ut taceat."
+  ],
+  [
+   "He shouts. Tell him to be quiet.",
+   "Clāmat. Dīc eī ut taceat."
+  ],
+  [
+   "He shouts. Tell him not to shout.",
+   "Clāmat. Dīc eī nē clāmet."
+  ],
+  [
+   "Tell him not to shout.",
+   "Dīc eī nē clāmet."
+  ],
+  [
+   "Why? He shouts.",
+   "Cūr? Clāmat."
+  ],
+  [
+   "Why? Because my son shouts.",
+   "Cūr? Quia fīlius meus clāmat."
+  ],
+  [
+   "My son shouts. I beg.",
+   "Fīlius meus clāmat. Ōrō."
+  ],
+  [
+   "I beg: help!",
+   "Ōrō: adiuvā!"
+  ],
+  [
+   "I beg: help me!",
+   "Ōrō: adiuvā mē!"
+  ],
+  [
+   "Help me, please.",
+   "Adiuvā mē, amābō tē."
+  ],
+  [
+   "You help me.",
+   "Mē adiuvās."
+  ],
+  [
+   "I beg you to help me.",
+   "Ōrō ut mē adiuvēs."
+  ],
+  [
+   "You help me. I beg you to help me.",
+   "Mē adiuvās. Ōrō ut mē adiuvēs."
+  ],
+  [
+   "My teacher. Help me!",
+   "Magistra mea. Adiuvā mē!"
+  ],
+  [
+   "My teacher, I beg you to help me.",
+   "Magistra mea, ōrō ut mē adiuvēs."
+  ],
+  [
+   "My wife.",
+   "Uxor mea."
+  ],
+  [
+   "My wife advises me.",
+   "Uxor mea mē monet."
+  ],
+  [
+   "My wife: sleep!",
+   "Uxor mea: dormī!"
+  ],
+  [
+   "Sleep! I sleep.",
+   "Dormī! Dormiō."
+  ],
+  [
+   "My wife advises me to sleep.",
+   "Uxor mea mē monet ut dormiam."
+  ],
+  [
+   "Why do I sleep? Because I'm tired.",
+   "Cūr dormiō? Quia fessus sum."
+  ],
+  [
+   "I sleep. My wife advises me to sleep.",
+   "Dormiō. Uxor mea mē monet ut dormiam."
+  ],
+  [
+   "What does my wife advise? That I sleep.",
+   "Quid uxor mea monet? Ut dormiam."
+  ],
+  [
+   "What do I beg? That you help me.",
+   "Quid ōrō? Ut mē adiuvēs."
+  ],
+  [
+   "What do I say? Tell my son to come home.",
+   "Quid dīcō? Dīc fīliō meō ut domum veniat."
+  ],
+  [
+   "Tell my son to come home.",
+   "Dīc fīliō meō ut domum veniat."
+  ],
+  [
+   "Sentence two: I go.",
+   "Sententia secunda: eō."
+  ],
+  [
+   "I go home.",
+   "Domum eō."
+  ],
+  [
+   "I'm going home. Why?",
+   "Domum eō. Cūr?"
+  ],
+  [
+   "Why? Dinner. I have dinner.",
+   "Cūr? Cēna. Cēnō."
+  ],
+  [
+   "I have dinner. The kids.",
+   "Cēnō. Līberī."
+  ],
+  [
+   "The kids are at home.",
+   "Līberī domī sunt."
+  ],
+  [
+   "With the kids.",
+   "Cum līberīs."
+  ],
+  [
+   "I have dinner with the kids.",
+   "Cum līberīs cēnō."
+  ],
+  [
+   "I want to have dinner.",
+   "Cēnāre volō."
+  ],
+  [
+   "I want to have dinner with the kids.",
+   "Cum līberīs cēnāre volō."
+  ],
+  [
+   "…so that I can have dinner with the kids.",
+   "…ut cum līberīs cēnem."
+  ],
+  [
+   "I have dinner with the kids.",
+   "Cum līberīs cēnō."
+  ],
+  [
+   "So that I can have dinner with the kids.",
+   "Ut cum līberīs cēnem."
+  ],
+  [
+   "I'm going home so that I can have dinner with the kids.",
+   "Domum eō, ut cum līberīs cēnem."
+  ],
+  [
+   "Why am I going home? So that I can have dinner with the kids.",
+   "Cūr domum eō? Ut cum līberīs cēnem."
+  ],
+  [
+   "I'm going home so that I can have dinner with the kids.",
+   "Domum eō, ut cum līberīs cēnem."
+  ],
+  [
+   "It's evening. I'm going home so that I can have dinner with the kids.",
+   "Vesper est. Domum eō, ut cum līberīs cēnem."
+  ],
+  [
+   "I go outside.",
+   "Forās eō."
+  ],
+  [
+   "I go outside. I walk.",
+   "Forās eō. Ambulō."
+  ],
+  [
+   "I go outside to walk.",
+   "Forās eō ut ambulem."
+  ],
+  [
+   "Why do I go outside? To walk.",
+   "Cūr forās eō? Ut ambulem."
+  ],
+  [
+   "I walk. I go outside to walk.",
+   "Ambulō. Forās eō ut ambulem."
+  ],
+  [
+   "I walk. A shop.",
+   "Ambulō. Taberna."
+  ],
+  [
+   "I walk. To the shop.",
+   "Ambulō. Ad tabernam."
+  ],
+  [
+   "I go to the shop.",
+   "Ad tabernam eō."
+  ],
+  [
+   "I go to the shop. I buy.",
+   "Ad tabernam eō. Emō."
+  ],
+  [
+   "I buy bread.",
+   "Pānem emō."
+  ],
+  [
+   "I go to the shop to buy bread.",
+   "Ad tabernam eō ut pānem emam."
+  ],
+  [
+   "I buy bread. I go to the shop to buy bread.",
+   "Pānem emō. Ad tabernam eō ut pānem emam."
+  ],
+  [
+   "Why do I go to the shop? To buy bread.",
+   "Cūr ad tabernam eō? Ut pānem emam."
+  ],
+  [
+   "And cheese? I buy cheese too.",
+   "Et cāseum? Et cāseum emō."
+  ],
+  [
+   "I go to the shop to buy bread and cheese.",
+   "Ad tabernam eō ut pānem et cāseum emam."
+  ],
+  [
+   "I come to the shop.",
+   "Ad tabernam veniō."
+  ],
+  [
+   "I come. I see you.",
+   "Veniō. Tē videō."
+  ],
+  [
+   "I come to see you.",
+   "Veniō ut tē videam."
+  ],
+  [
+   "Why do I come? To see you.",
+   "Cūr veniō? Ut tē videam."
+  ],
+  [
+   "I see you. I come to see you.",
+   "Tē videō. Veniō ut tē videam."
+  ],
+  [
+   "My teacher, I come to see you.",
+   "Magistra mea, veniō ut tē videam."
+  ],
+  [
+   "I'm going home so that I can have dinner with the kids.",
+   "Domum eō, ut cum līberīs cēnem."
+  ],
+  [
+   "Sentence one: my son.",
+   "Sententia prīma: fīlius meus."
+  ],
+  [
+   "My son is in the garden.",
+   "Fīlius meus in hortō est."
+  ],
+  [
+   "Tell my son to come home.",
+   "Dīc fīliō meō ut domum veniat."
+  ],
+  [
+   "Why come home? I want to have dinner with the kids.",
+   "Cūr domum? Cum līberīs cēnāre volō."
+  ],
+  [
+   "I'm going home so that I can have dinner with the kids.",
+   "Domum eō, ut cum līberīs cēnem."
+  ],
+  [
+   "My son shouts. Tell him to be quiet.",
+   "Fīlius meus clāmat. Dīc eī ut taceat."
+  ],
+  [
+   "Be quiet! He is quiet. Good.",
+   "Tacē! Tacet. Bene."
+  ],
+  [
+   "He is quiet. My wife: sleep!",
+   "Tacet. Uxor mea: dormī!"
+  ],
+  [
+   "My wife advises me to sleep.",
+   "Uxor mea mē monet ut dormiam."
+  ],
+  [
+   "My teacher, I beg you to help me.",
+   "Magistra mea, ōrō ut mē adiuvēs."
+  ],
+  [
+   "Sentence three: the magpie.",
+   "Sententia tertia: pīca."
+  ],
+  [
+   "A big magpie, in the garden.",
+   "Magna pīca, in hortō."
+  ],
+  [
+   "The magpie is big.",
+   "Pīca magna est."
+  ],
+  [
+   "The magpie attacks.",
+   "Pīca oppugnat."
+  ],
+  [
+   "The magpie attacks me.",
+   "Pīca mē oppugnat."
+  ],
+  [
+   "The magpie attacks me. I'm afraid.",
+   "Pīca mē oppugnat. Timeō."
+  ],
+  [
+   "I'm afraid of the magpie.",
+   "Pīcam timeō."
+  ],
+  [
+   "Why am I afraid? The magpie attacks me.",
+   "Cūr timeō? Pīca mē oppugnat."
+  ],
+  [
+   "I'm afraid that…",
+   "Timeō nē…"
+  ],
+  [
+   "I'm afraid. The magpie attacks.",
+   "Timeō. Pīca oppugnat."
+  ],
+  [
+   "I'm afraid the magpie will attack.",
+   "Timeō nē pīca oppugnet."
+  ],
+  [
+   "It attacks? Yes. I'm afraid it will attack.",
+   "Oppugnat? Ita. Timeō nē oppugnet."
+  ],
+  [
+   "The magpie attacks me.",
+   "Pīca mē oppugnat."
+  ],
+  [
+   "I'm afraid the magpie will attack me.",
+   "Timeō nē pīca mē oppugnet."
+  ],
+  [
+   "The magpie attacks me? Yes. I'm afraid the magpie will attack me.",
+   "Pīca mē oppugnat? Ita. Timeō nē pīca mē oppugnet."
+  ],
+  [
+   "Do you fear the magpie?",
+   "Timēsne pīcam?"
+  ],
+  [
+   "Do you fear the magpie? Yes. I'm afraid the magpie will attack me.",
+   "Timēsne pīcam? Ita. Timeō nē pīca mē oppugnet."
+  ],
+  [
+   "Why don't I go outside? I'm afraid of the magpie.",
+   "Cūr forās nōn eō? Pīcam timeō."
+  ],
+  [
+   "I'm afraid the magpie will attack me.",
+   "Timeō nē pīca mē oppugnet."
+  ],
+  [
+   "I'm afraid. And it's raining.",
+   "Timeō. Et pluit."
+  ],
+  [
+   "It's raining.",
+   "Pluit."
+  ],
+  [
+   "Today it's not raining.",
+   "Hodiē nōn pluit."
+  ],
+  [
+   "It's not raining. But I'm afraid.",
+   "Nōn pluit. Sed timeō."
+  ],
+  [
+   "It's not raining. But I'm afraid it will rain.",
+   "Nōn pluit. Sed timeō nē pluat."
+  ],
+  [
+   "I'm afraid it will rain.",
+   "Timeō nē pluat."
+  ],
+  [
+   "I go outside to walk. But I'm afraid it will rain.",
+   "Forās eō ut ambulem. Sed timeō nē pluat."
+  ],
+  [
+   "I walk? No. I'm afraid it will rain.",
+   "Ambulō? Minimē. Timeō nē pluat."
+  ],
+  [
+   "I don't walk. My son is sleeping.",
+   "Nōn ambulō. Fīlius meus dormit."
+  ],
+  [
+   "Why am I quiet? My son is sleeping.",
+   "Cūr taceō? Fīlius meus dormit."
+  ],
+  [
+   "My son wakes up.",
+   "Fīlius meus expergīscitur."
+  ],
+  [
+   "If my son wakes up, he shouts.",
+   "Sī fīlius meus expergīscitur, clāmat."
+  ],
+  [
+   "If he wakes up, he shouts.",
+   "Sī expergīscitur, clāmat."
+  ],
+  [
+   "I'm afraid my son will wake up.",
+   "Timeō nē fīlius meus expergīscātur."
+  ],
+  [
+   "Why am I quiet? I'm afraid my son will wake up.",
+   "Cūr taceō? Timeō nē fīlius meus expergīscātur."
+  ],
+  [
+   "I'm afraid. And the cheese?",
+   "Timeō. Et cāseus?"
+  ],
+  [
+   "Cheese.",
+   "Cāseus."
+  ],
+  [
+   "There's no cheese.",
+   "Cāseus nūllus est."
+  ],
+  [
+   "There's no cheese. I'm afraid there's no cheese.",
+   "Cāseus nūllus est. Timeō nē cāseus nūllus sit."
+  ],
+  [
+   "I'm afraid there's no cheese.",
+   "Timeō nē cāseus nūllus sit."
+  ],
+  [
+   "What am I afraid of? That the magpie will attack me.",
+   "Quid timeō? Nē pīca mē oppugnet."
+  ],
+  [
+   "What am I afraid of? That there's no cheese.",
+   "Quid timeō? Nē cāseus nūllus sit."
+  ],
+  [
+   "Do you fear the magpie?",
+   "Timēsne pīcam?"
+  ],
+  [
+   "I'm afraid the magpie will attack me.",
+   "Timeō nē pīca mē oppugnet."
+  ],
+  [
+   "Sentence one, sentence two.",
+   "Sententia prīma, sententia secunda."
+  ],
+  [
+   "Tell my son to come home.",
+   "Dīc fīliō meō ut domum veniat."
+  ],
+  [
+   "I'm going home so that I can have dinner with the kids.",
+   "Domum eō, ut cum līberīs cēnem."
+  ],
+  [
+   "I go to the shop to buy bread.",
+   "Ad tabernam eō ut pānem emam."
+  ],
+  [
+   "I go to the shop. But I'm afraid the magpie will attack me.",
+   "Ad tabernam eō. Sed timeō nē pīca mē oppugnet."
+  ],
+  [
+   "I go to the shop to buy cheese.",
+   "Ad tabernam eō ut cāseum emam."
+  ],
+  [
+   "Why? I'm afraid there's no cheese.",
+   "Cūr? Timeō nē cāseus nūllus sit."
+  ],
+  [
+   "Old sentences.",
+   "Sententiae veterēs."
+  ],
+  [
+   "My teacher speaks.",
+   "Magistra mea loquitur."
+  ],
+  [
+   "My teacher, I ask you to speak more slowly.",
+   "Magistra mea, rogō ut lentius loquāris."
+  ],
+  [
+   "I ask: do I drink coffee? No.",
+   "Rogō: caffeam bibō? Minimē."
+  ],
+  [
+   "I'm not drinking coffee, so that I'm not angry.",
+   "Caffeam nōn bibō, nē īrātus sim."
+  ],
+  [
+   "Ut and nē. I ask you to speak more slowly.",
+   "Ut et nē. Rogō ut lentius loquāris."
+  ],
+  [
+   "Sentence four: I'm tired.",
+   "Sententia quārta: fessus sum."
+  ],
+  [
+   "I was tired.",
+   "Fessus eram."
+  ],
+  [
+   "Yesterday I was tired.",
+   "Herī fessus eram."
+  ],
+  [
+   "Yesterday morning I was tired.",
+   "Herī māne fessus eram."
+  ],
+  [
+   "In the morning? Yes, in the morning.",
+   "Māne? Ita, māne."
+  ],
+  [
+   "I was tired.",
+   "Fessus eram."
+  ],
+  [
+   "I was tired, at home.",
+   "Fessus eram, domī."
+  ],
+  [
+   "Yesterday I stayed at home.",
+   "Herī domī mānsī."
+  ],
+  [
+   "I was tired. I stayed at home.",
+   "Fessus eram. Domī mānsī."
+  ],
+  [
+   "I was tired.",
+   "Fessus eram."
+  ],
+  [
+   "Because I was tired…",
+   "Cum fessus essem…"
+  ],
+  [
+   "Because I was tired, I stayed at home.",
+   "Cum fessus essem, domī mānsī."
+  ],
+  [
+   "Why did I stay at home? Because I was tired.",
+   "Cūr domī mānsī? Quia fessus eram."
+  ],
+  [
+   "Because I was tired, I stayed at home.",
+   "Cum fessus essem, domī mānsī."
+  ],
+  [
+   "Where did I stay, because I was tired? At home.",
+   "Ubi mānsī, cum fessus essem? Domī."
+  ],
+  [
+   "At home. I was sick.",
+   "Domī. Aegrōtus eram."
+  ],
+  [
+   "I was sick. I didn't work.",
+   "Aegrōtus eram. Nōn labōrāvī."
+  ],
+  [
+   "Because I was sick…",
+   "Cum aegrōtus essem…"
+  ],
+  [
+   "Because I was sick, I didn't work.",
+   "Cum aegrōtus essem, nōn labōrāvī."
+  ],
+  [
+   "I was sick. Because I was sick, I didn't work.",
+   "Aegrōtus eram. Cum aegrōtus essem, nōn labōrāvī."
+  ],
+  [
+   "I didn't work. My son was shouting.",
+   "Nōn labōrāvī. Fīlius meus clāmābat."
+  ],
+  [
+   "My son was shouting. I didn't sleep.",
+   "Fīlius meus clāmābat. Nōn dormīvī."
+  ],
+  [
+   "Because my son was shouting…",
+   "Cum fīlius meus clāmāret…"
+  ],
+  [
+   "Because my son was shouting, I didn't sleep.",
+   "Cum fīlius meus clāmāret, nōn dormīvī."
+  ],
+  [
+   "Why didn't I sleep? Because my son was shouting.",
+   "Cūr nōn dormīvī? Quia fīlius meus clāmābat."
+  ],
+  [
+   "Because my son was shouting, I didn't sleep.",
+   "Cum fīlius meus clāmāret, nōn dormīvī."
+  ],
+  [
+   "I didn't sleep. And I was hungry.",
+   "Nōn dormīvī. Et ēsuriēbam."
+  ],
+  [
+   "I was hungry. I ate bread.",
+   "Ēsuriēbam. Pānem ēdī."
+  ],
+  [
+   "Because I was hungry, I ate bread.",
+   "Cum ēsurīrem, pānem ēdī."
+  ],
+  [
+   "Why did I eat bread? Because I was hungry.",
+   "Cūr pānem ēdī? Quia ēsuriēbam."
+  ],
+  [
+   "Because I was hungry, I ate bread.",
+   "Cum ēsurīrem, pānem ēdī."
+  ],
+  [
+   "Because I was tired, I stayed at home.",
+   "Cum fessus essem, domī mānsī."
+  ],
+  [
+   "Sentence one, two, three.",
+   "Sententia prīma, secunda, tertia."
+  ],
+  [
+   "Tell my son to come home.",
+   "Dīc fīliō meō ut domum veniat."
+  ],
+  [
+   "I'm going home so that I can have dinner with the kids.",
+   "Domum eō, ut cum līberīs cēnem."
+  ],
+  [
+   "I go home. The magpie is in the garden.",
+   "Domum eō. Pīca in hortō est."
+  ],
+  [
+   "I'm afraid the magpie will attack me.",
+   "Timeō nē pīca mē oppugnet."
+  ],
+  [
+   "The magpie? No. Yesterday I stayed at home.",
+   "Pīca? Minimē. Herī domī mānsī."
+  ],
+  [
+   "Because I was tired, I stayed at home.",
+   "Cum fessus essem, domī mānsī."
+  ],
+  [
+   "I'm tired. Help me!",
+   "Fessus sum. Adiuvā mē!"
+  ],
+  [
+   "I beg you to help me.",
+   "Ōrō ut mē adiuvēs."
+  ],
+  [
+   "You help me. Good. I come to see you.",
+   "Mē adiuvās. Bene. Veniō ut tē videam."
+  ],
+  [
+   "Sentence five: the cheese.",
+   "Sententia quīnta: cāseus."
+  ],
+  [
+   "Where is the cheese?",
+   "Ubi est cāseus?"
+  ],
+  [
+   "Where is the cheese? I don't know.",
+   "Ubi est cāseus? Nesciō."
+  ],
+  [
+   "Do you know? I don't know.",
+   "Scīsne? Nesciō."
+  ],
+  [
+   "Where is the cheese? Do you know?",
+   "Ubi est cāseus? Scīsne?"
+  ],
+  [
+   "Do you know where the cheese is?",
+   "Scīsne ubi sit cāseus?"
+  ],
+  [
+   "Where is the cheese?",
+   "Ubi est cāseus?"
+  ],
+  [
+   "Do you know where the cheese is?",
+   "Scīsne ubi sit cāseus?"
+  ],
+  [
+   "I don't know where the cheese is.",
+   "Nesciō ubi sit cāseus."
+  ],
+  [
+   "Who knows where the cheese is? My son.",
+   "Quis scit ubi sit cāseus? Fīlius meus."
+  ],
+  [
+   "Do you know where the cheese is?",
+   "Scīsne ubi sit cāseus?"
+  ],
+  [
+   "My son knows where the cheese is.",
+   "Fīlius meus scit ubi sit cāseus."
+  ],
+  [
+   "Why is my son shouting?",
+   "Cūr fīlius meus clāmat?"
+  ],
+  [
+   "Why is he shouting? I don't know.",
+   "Cūr clāmat? Nesciō."
+  ],
+  [
+   "I don't know why my son is shouting.",
+   "Nesciō cūr fīlius meus clāmet."
+  ],
+  [
+   "Why is my son shouting? I don't know why my son is shouting.",
+   "Cūr fīlius meus clāmat? Nesciō cūr fīlius meus clāmet."
+  ],
+  [
+   "I don't know. When?",
+   "Nesciō. Quandō?"
+  ],
+  [
+   "When are you coming?",
+   "Quandō venīs?"
+  ],
+  [
+   "When? Tell me.",
+   "Quandō? Dīc mihi."
+  ],
+  [
+   "Tell me when you're coming.",
+   "Dīc mihi quandō veniās."
+  ],
+  [
+   "When are you coming? Tell me when you're coming.",
+   "Quandō venīs? Dīc mihi quandō veniās."
+  ],
+  [
+   "Tell me when you're coming home.",
+   "Dīc mihi quandō domum veniās."
+  ],
+  [
+   "My son comes home. What does he want?",
+   "Fīlius meus domum venit. Quid vult?"
+  ],
+  [
+   "What does my son want?",
+   "Quid vult fīlius meus?"
+  ],
+  [
+   "What does he want? Ask!",
+   "Quid vult? Rogā!"
+  ],
+  [
+   "Ask him.",
+   "Rogā eum."
+  ],
+  [
+   "Ask him what he wants.",
+   "Rogā eum quid velit."
+  ],
+  [
+   "What does he want? Ask him what he wants.",
+   "Quid vult? Rogā eum quid velit."
+  ],
+  [
+   "My son is shouting. Ask him what he wants.",
+   "Fīlius meus clāmat. Rogā eum quid velit."
+  ],
+  [
+   "He wants cheese.",
+   "Cāseum vult."
+  ],
+  [
+   "He says: I want cheese.",
+   "Dīcit: cāseum volō."
+  ],
+  [
+   "Cheese? Do you know where the cheese is?",
+   "Cāseum? Scīsne ubi sit cāseus?"
+  ],
+  [
+   "I don't know where the cheese is.",
+   "Nesciō ubi sit cāseus."
+  ],
+  [
+   "Sentence five: do you know where the cheese is?",
+   "Sententia quīnta: scīsne ubi sit cāseus?"
+  ],
+  [
+   "Sentence one, two, three, four.",
+   "Sententia prīma, secunda, tertia, quārta."
+  ],
+  [
+   "Tell my son to come home.",
+   "Dīc fīliō meō ut domum veniat."
+  ],
+  [
+   "I'm going home so that I can have dinner with the kids.",
+   "Domum eō, ut cum līberīs cēnem."
+  ],
+  [
+   "Why did I stay at home? Because I was tired.",
+   "Cūr domī mānsī? Quia fessus eram."
+  ],
+  [
+   "Because I was tired, I stayed at home.",
+   "Cum fessus essem, domī mānsī."
+  ],
+  [
+   "Because I was hungry, I ate bread.",
+   "Cum ēsurīrem, pānem ēdī."
+  ],
+  [
+   "Because my son was shouting, I didn't sleep.",
+   "Cum fīlius meus clāmāret, nōn dormīvī."
+  ],
+  [
+   "Now my son is sleeping. I'm quiet.",
+   "Nunc fīlius meus dormit. Taceō."
+  ],
+  [
+   "If my son wakes up, he shouts.",
+   "Sī fīlius meus expergīscitur, clāmat."
+  ],
+  [
+   "I'm afraid my son will wake up.",
+   "Timeō nē fīlius meus expergīscātur."
+  ],
+  [
+   "And I'm afraid the magpie will attack me.",
+   "Et timeō nē pīca mē oppugnet."
+  ],
+  [
+   "Now a story.",
+   "Nunc fābula."
+  ],
+  [
+   "Now a short story.",
+   "Nunc fābula brevis."
+  ],
+  [
+   "Today it's raining.",
+   "Hodiē pluit."
+  ],
+  [
+   "This morning I was tired.",
+   "Hodiē māne fessus eram."
+  ],
+  [
+   "Because I was tired, I stayed at home.",
+   "Cum fessus essem, domī mānsī."
+  ],
+  [
+   "At home: coffee? No.",
+   "Domī: caffeam? Minimē."
+  ],
+  [
+   "I'm not drinking coffee, so that I'm not angry.",
+   "Caffeam nōn bibō, nē īrātus sim."
+  ],
+  [
+   "Now I'm not angry. But it's raining.",
+   "Nunc īrātus nōn sum. Sed pluit."
+  ],
+  [
+   "It's raining. Where is my son?",
+   "Pluit. Ubi est fīlius meus?"
+  ],
+  [
+   "My son is in the garden, and it's raining.",
+   "Fīlius meus in hortō est, et pluit."
+  ],
+  [
+   "I say: tell my son to come home.",
+   "Dīcō: dīc fīliō meō ut domum veniat."
+  ],
+  [
+   "My wife says: come home!",
+   "Uxor mea dīcit: domum venī!"
+  ],
+  [
+   "My son doesn't come home.",
+   "Fīlius meus domum nōn venit."
+  ],
+  [
+   "Why doesn't he come home? Ask him what he wants.",
+   "Cūr domum nōn venit? Rogā eum quid velit."
+  ],
+  [
+   "What does he want? He wants the magpie.",
+   "Quid vult? Pīcam vult."
+  ],
+  [
+   "The magpie is in the garden too.",
+   "Et pīca in hortō est."
+  ],
+  [
+   "I see the magpie. A big magpie.",
+   "Pīcam videō. Magna pīca."
+  ],
+  [
+   "A big magpie. I don't go outside.",
+   "Magna pīca. Forās nōn eō."
+  ],
+  [
+   "Why don't I go outside? I'm afraid the magpie will attack me.",
+   "Cūr forās nōn eō? Timeō nē pīca mē oppugnet."
+  ],
+  [
+   "I'm afraid. When are you coming home?",
+   "Timeō. Quandō domum venīs?"
+  ],
+  [
+   "I beg you to come home.",
+   "Ōrō ut domum veniās."
+  ],
+  [
+   "My son comes home. He is quiet. Good.",
+   "Fīlius meus domum venit. Tacet. Bene."
+  ],
+  [
+   "The kids are at home. Good.",
+   "Līberī domī sunt. Bene."
+  ],
+  [
+   "Good. Now I'm hungry.",
+   "Bene. Nunc ēsuriō."
+  ],
+  [
+   "I'm hungry. Do you know where the cheese is?",
+   "Ēsuriō. Scīsne ubi sit cāseus?"
+  ],
+  [
+   "Who knows where the cheese is?",
+   "Quis scit ubi sit cāseus?"
+  ],
+  [
+   "My son doesn't know where the cheese is.",
+   "Fīlius meus nescit ubi sit cāseus."
+  ],
+  [
+   "My wife doesn't know where the cheese is.",
+   "Uxor mea nescit ubi sit cāseus."
+  ],
+  [
+   "My teacher doesn't know where the cheese is.",
+   "Magistra mea nescit ubi sit cāseus."
+  ],
+  [
+   "I'm afraid there's no cheese.",
+   "Timeō nē cāseus nūllus sit."
+  ],
+  [
+   "And bread? There's no bread.",
+   "Et pānis? Pānis nūllus est."
+  ],
+  [
+   "I'm afraid there's no bread.",
+   "Timeō nē pānis nūllus sit."
+  ],
+  [
+   "I'm afraid and I'm tired.",
+   "Timeō et fessus sum."
+  ],
+  [
+   "I'm tired. My wife says: sleep!",
+   "Fessus sum. Uxor mea dīcit: dormī!"
+  ],
+  [
+   "My wife advises me to sleep.",
+   "Uxor mea mē monet ut dormiam."
+  ],
+  [
+   "Do I sleep? No. I'm hungry.",
+   "Dormiō? Minimē. Ēsuriō."
+  ],
+  [
+   "I'm hungry. I go to the shop to buy bread.",
+   "Ēsuriō. Ad tabernam eō ut pānem emam."
+  ],
+  [
+   "I go. It's raining. And the magpie?",
+   "Eō. Pluit. Et pīca?"
+  ],
+  [
+   "I'm afraid the magpie will attack me.",
+   "Timeō nē pīca mē oppugnet."
+  ],
+  [
+   "The magpie doesn't attack me. Good.",
+   "Pīca mē nōn oppugnat. Bene."
+  ],
+  [
+   "Good. I buy bread and cheese.",
+   "Bene. Pānem et cāseum emō."
+  ],
+  [
+   "Bread and cheese! I'm going home.",
+   "Pānem et cāseum! Domum eō."
+  ],
+  [
+   "I'm going home so that I can have dinner with the kids.",
+   "Domum eō, ut cum līberīs cēnem."
+  ],
+  [
+   "Yes. I want to have dinner with the kids.",
+   "Ita. Cum līberīs cēnāre volō."
+  ],
+  [
+   "It's evening. Dinner.",
+   "Vesper est. Cēna."
+  ],
+  [
+   "I come home. The cheese is on the table.",
+   "Domum veniō. Cāseus in mēnsā est."
+  ],
+  [
+   "On the table? Yes, on the table.",
+   "In mēnsā? Ita, in mēnsā."
+  ],
+  [
+   "On the table? Who knows? The magpie.",
+   "In mēnsā? Quis scit? Pīca."
+  ],
+  [
+   "The magpie knows where the cheese is.",
+   "Pīca scit ubi sit cāseus."
+  ],
+  [
+   "Cheese! Now I have dinner with the kids. Good.",
+   "Cāseus! Nunc cum līberīs cēnō. Bene."
+  ],
+  [
+   "A short story. Good.",
+   "Fābula brevis. Bene."
+  ],
+  [
+   "A short story, and five new sentences.",
+   "Fābula brevis, et quīnque sententiae novae."
+  ],
+  [
+   "Sentence one: tell my son to come home.",
+   "Sententia prīma: dīc fīliō meō ut domum veniat."
+  ],
+  [
+   "Sentence two: I'm going home so that I can have dinner with the kids.",
+   "Sententia secunda: domum eō, ut cum līberīs cēnem."
+  ],
+  [
+   "Sentence three: I'm afraid the magpie will attack me.",
+   "Sententia tertia: timeō nē pīca mē oppugnet."
+  ],
+  [
+   "Sentence four: because I was tired, I stayed at home.",
+   "Sententia quārta: cum fessus essem, domī mānsī."
+  ],
+  [
+   "Sentence five: do you know where the cheese is?",
+   "Sententia quīnta: scīsne ubi sit cāseus?"
+  ],
+  [
+   "And old sentences: I ask you to speak more slowly.",
+   "Et sententiae veterēs: rogō ut lentius loquāris."
+  ],
+  [
+   "And: I'm not drinking coffee, so that I'm not angry.",
+   "Et caffeam nōn bibō, nē īrātus sim."
+  ],
+  [
+   "Sentences, new and old. Good.",
+   "Sententiae novae et veterēs. Bene."
+  ]
+ ]
+}
