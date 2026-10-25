@@ -1,0 +1,1260 @@
+{
+ "type": "drill",
+ "slug": "scala-7-impera-ut",
+ "title": "Ladder 7 · Docē mē, ut discam: pyramid 3 (× 2)",
+ "summary": "Commands + 'so that…' on how to learn, listen, ask, agree and avoid mistakes: Docē mē, ut discam · Audī mē, ut intellegās · Rogā mē, ut cōgitem · Loquāmur, ut cōnsentiāmus · Prīmum cōgitā, nē errēs. Quotes: Errāre hūmānum est, Docendō discimus. Played twice. Free voice (IPA, v as v).",
+ "repeat": 2,
+ "music": "v5",
+ "latin_ipa": true,
+ "v_as_v": true,
+ "pairs": [
+  [
+   "Today: five new things. Ut and nē.",
+   "Hodiē: quīnque nova. Ut et nē."
+  ],
+  [
+   "Five new things, slowly.",
+   "Quīnque nova, lentē."
+  ],
+  [
+   "Five new things, and old things too.",
+   "Quīnque nova, et vetera."
+  ],
+  [
+   "Five new things. One.",
+   "Quīnque nova. Ūnum."
+  ],
+  [
+   "One: the teacher.",
+   "Ūnum: magistra."
+  ],
+  [
+   "My teacher.",
+   "Magistra mea."
+  ],
+  [
+   "My teacher teaches.",
+   "Magistra mea docet."
+  ],
+  [
+   "She teaches. I learn.",
+   "Docet. Discō."
+  ],
+  [
+   "My teacher teaches, and I learn.",
+   "Magistra mea docet, et discō."
+  ],
+  [
+   "I learn Latin.",
+   "Linguam Latīnam discō."
+  ],
+  [
+   "My teacher teaches Latin.",
+   "Magistra mea linguam Latīnam docet."
+  ],
+  [
+   "My teacher teaches me.",
+   "Magistra mea mē docet."
+  ],
+  [
+   "You teach me.",
+   "Mē docēs."
+  ],
+  [
+   "You teach me Latin.",
+   "Mē linguam Latīnam docēs."
+  ],
+  [
+   "Teach me!",
+   "Docē mē!"
+  ],
+  [
+   "Teach me, please.",
+   "Docē mē, amābō tē."
+  ],
+  [
+   "You teach me. Teach me!",
+   "Mē docēs. Docē mē!"
+  ],
+  [
+   "Teach me! I learn.",
+   "Docē mē! Discō."
+  ],
+  [
+   "…so that I may learn.",
+   "…ut discam."
+  ],
+  [
+   "So that I may learn.",
+   "Ut discam."
+  ],
+  [
+   "Teach me, so that I may learn.",
+   "Docē mē, ut discam."
+  ],
+  [
+   "Why? So that I may learn.",
+   "Cūr? Ut discam."
+  ],
+  [
+   "What do I say? Teach me, so that I may learn.",
+   "Quid dīcō? Docē mē, ut discam."
+  ],
+  [
+   "My teacher, teach me, so that I may learn.",
+   "Magistra mea, docē mē, ut discam."
+  ],
+  [
+   "Teach me a word.",
+   "Docē mē verbum."
+  ],
+  [
+   "A new word.",
+   "Verbum novum."
+  ],
+  [
+   "My teacher says a new word.",
+   "Magistra mea verbum novum dīcit."
+  ],
+  [
+   "This word is new.",
+   "Hoc verbum novum est."
+  ],
+  [
+   "What does this word mean?",
+   "Quid hoc verbum significat?"
+  ],
+  [
+   "What does this mean? I don't understand.",
+   "Quid hoc significat? Nōn intellegō."
+  ],
+  [
+   "I don't understand this word.",
+   "Hoc verbum nōn intellegō."
+  ],
+  [
+   "I don't understand. Explain!",
+   "Nōn intellegō. Explicā!"
+  ],
+  [
+   "Explain this.",
+   "Explicā hoc."
+  ],
+  [
+   "Explain this, please.",
+   "Explicā hoc, amābō tē."
+  ],
+  [
+   "You explain this. Explain this!",
+   "Hoc explicās. Explicā hoc!"
+  ],
+  [
+   "My teacher explains.",
+   "Magistra mea explicat."
+  ],
+  [
+   "You explain this. I understand.",
+   "Hoc explicās. Intellegō."
+  ],
+  [
+   "…so that I may understand.",
+   "…ut intellegam."
+  ],
+  [
+   "Explain this, so that I may understand.",
+   "Explicā hoc, ut intellegam."
+  ],
+  [
+   "Why? So that I may understand.",
+   "Cūr? Ut intellegam."
+  ],
+  [
+   "Explain this word, so that I may understand.",
+   "Explicā hoc verbum, ut intellegam."
+  ],
+  [
+   "Explain this. An example?",
+   "Explicā hoc. Exemplum?"
+  ],
+  [
+   "An example. You show me.",
+   "Exemplum. Mihi ostendis."
+  ],
+  [
+   "Show me!",
+   "Ostende mihi!"
+  ],
+  [
+   "Show me an example.",
+   "Ostende mihi exemplum."
+  ],
+  [
+   "You show me an example. My teacher shows an example.",
+   "Exemplum mihi ostendis. Magistra mea exemplum ostendit."
+  ],
+  [
+   "An example. I see.",
+   "Exemplum. Videō."
+  ],
+  [
+   "Show me an example, so that I may see.",
+   "Ostende mihi exemplum, ut videam."
+  ],
+  [
+   "I see. So that I may see.",
+   "Videō. Ut videam."
+  ],
+  [
+   "What do I say? Show me an example, so that I may see.",
+   "Quid dīcō? Ostende mihi exemplum, ut videam."
+  ],
+  [
+   "Explain this, so that I may understand.",
+   "Explicā hoc, ut intellegam."
+  ],
+  [
+   "Teach me, so that I may learn.",
+   "Docē mē, ut discam."
+  ],
+  [
+   "The students.",
+   "Discipulī."
+  ],
+  [
+   "The students learn.",
+   "Discipulī discunt."
+  ],
+  [
+   "My teacher teaches the students.",
+   "Magistra mea discipulōs docet."
+  ],
+  [
+   "Teach the students!",
+   "Docē discipulōs!"
+  ],
+  [
+   "Teach the students, so that they may learn.",
+   "Docē discipulōs, ut discant."
+  ],
+  [
+   "They learn. So that they may learn.",
+   "Discunt. Ut discant."
+  ],
+  [
+   "Why do you teach the students? So that they may learn.",
+   "Cūr discipulōs docēs? Ut discant."
+  ],
+  [
+   "I teach the students, so that they may learn.",
+   "Discipulōs doceō, ut discant."
+  ],
+  [
+   "And me? Teach me, so that I may learn.",
+   "Et mē? Docē mē, ut discam."
+  ],
+  [
+   "I teach, and I learn.",
+   "Doceō, et discō."
+  ],
+  [
+   "We learn.",
+   "Discimus."
+  ],
+  [
+   "We learn by teaching.",
+   "Docendō discimus."
+  ],
+  [
+   "We learn by teaching. It's an old saying.",
+   "Docendō discimus. Dictum vetus est."
+  ],
+  [
+   "We learn by teaching. One, two.",
+   "Docendō discimus. Ūnum, duo."
+  ],
+  [
+   "Two: I listen.",
+   "Duo: audiō."
+  ],
+  [
+   "I listen to my teacher.",
+   "Magistram meam audiō."
+  ],
+  [
+   "I listen, and I understand.",
+   "Audiō, et intellegō."
+  ],
+  [
+   "You listen.",
+   "Audīs."
+  ],
+  [
+   "You listen to me.",
+   "Mē audīs."
+  ],
+  [
+   "Listen to me!",
+   "Audī mē!"
+  ],
+  [
+   "Listen to me, please.",
+   "Audī mē, amābō tē."
+  ],
+  [
+   "You listen to me. You understand.",
+   "Mē audīs. Intellegis."
+  ],
+  [
+   "…so that you may understand.",
+   "…ut intellegās."
+  ],
+  [
+   "Listen to me, so that you may understand.",
+   "Audī mē, ut intellegās."
+  ],
+  [
+   "Why? So that you may understand.",
+   "Cūr? Ut intellegās."
+  ],
+  [
+   "Do you understand?",
+   "Intellegisne?"
+  ],
+  [
+   "Do you understand? Yes, I understand.",
+   "Intellegisne? Ita, intellegō."
+  ],
+  [
+   "Do you understand? No. Listen to me, so that you may understand.",
+   "Intellegisne? Minimē. Audī mē, ut intellegās."
+  ],
+  [
+   "Students, listen!",
+   "Discipulī, audīte!"
+  ],
+  [
+   "Students, do you understand?",
+   "Discipulī, intellegitis?"
+  ],
+  [
+   "Students, listen, so that you may understand.",
+   "Discipulī, audīte, ut intellegātis."
+  ],
+  [
+   "Listen, all of you, so that you may understand.",
+   "Audīte, ut intellegātis."
+  ],
+  [
+   "Listen, all of you! My opinion.",
+   "Audīte! Sententia mea."
+  ],
+  [
+   "My opinion. Listen!",
+   "Sententia mea. Audī!"
+  ],
+  [
+   "Listen to my opinion.",
+   "Audī sententiam meam."
+  ],
+  [
+   "You listen to my opinion. You understand it.",
+   "Sententiam meam audīs. Eam intellegis."
+  ],
+  [
+   "My teacher listens. She understands.",
+   "Magistra mea audit. Intellegit."
+  ],
+  [
+   "Listen to my opinion, so that you may understand it.",
+   "Audī sententiam meam, ut eam intellegās."
+  ],
+  [
+   "My opinion? Yes. Listen to my opinion, so that you may understand it.",
+   "Sententia mea? Ita. Audī sententiam meam, ut eam intellegās."
+  ],
+  [
+   "And your opinion?",
+   "Et sententia tua?"
+  ],
+  [
+   "Your opinion. I listen to you.",
+   "Sententia tua. Tē audiō."
+  ],
+  [
+   "I listen to you, so that I may understand.",
+   "Audiō tē, ut intellegam."
+  ],
+  [
+   "Why do I listen to you? So that I may understand.",
+   "Cūr tē audiō? Ut intellegam."
+  ],
+  [
+   "I listen to you, so that I may understand. Listen to me, so that you may understand.",
+   "Audiō tē, ut intellegam. Audī mē, ut intellegās."
+  ],
+  [
+   "Listen to me, so that you may understand.",
+   "Audī mē, ut intellegās."
+  ],
+  [
+   "Listen to me. One, two.",
+   "Audī mē. Ūnum, duo."
+  ],
+  [
+   "What do I say? Teach me, so that I may learn.",
+   "Quid dīcō? Docē mē, ut discam."
+  ],
+  [
+   "Explain this, so that I may understand.",
+   "Explicā hoc, ut intellegam."
+  ],
+  [
+   "Listen to me, so that you may understand. Now you understand.",
+   "Audī mē, ut intellegās. Nunc intellegis."
+  ],
+  [
+   "Now old things: my teacher.",
+   "Nunc vetera: magistra mea."
+  ],
+  [
+   "My teacher speaks.",
+   "Magistra mea loquitur."
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "My teacher, I ask you to speak more slowly.",
+   "Magistra mea, rogō ut lentius loquāris."
+  ],
+  [
+   "My teacher says a new word. What does this mean?",
+   "Magistra mea verbum novum dīcit. Quid hoc significat?"
+  ],
+  [
+   "Tell me what this means.",
+   "Dīc mihi quid hoc significet."
+  ],
+  [
+   "What does this word mean? Tell me what this means.",
+   "Quid hoc verbum significat? Dīc mihi quid hoc significet."
+  ],
+  [
+   "Tell me. One, two, three.",
+   "Dīc mihi. Ūnum, duo, tria."
+  ],
+  [
+   "Three: a question.",
+   "Tria: quaestiō."
+  ],
+  [
+   "A question. A good question.",
+   "Quaestiō. Bona quaestiō."
+  ],
+  [
+   "You ask a question.",
+   "Quaestiōnem rogās."
+  ],
+  [
+   "You ask me.",
+   "Mē rogās."
+  ],
+  [
+   "Ask me!",
+   "Rogā mē!"
+  ],
+  [
+   "Ask me, please.",
+   "Rogā mē, amābō tē."
+  ],
+  [
+   "You ask me, and I think.",
+   "Mē rogās, et cōgitō."
+  ],
+  [
+   "…so that I think.",
+   "…ut cōgitem."
+  ],
+  [
+   "Ask me, so that I think.",
+   "Rogā mē, ut cōgitem."
+  ],
+  [
+   "Why? So that I think.",
+   "Cūr? Ut cōgitem."
+  ],
+  [
+   "You ask me. Ask me, so that I think.",
+   "Mē rogās. Rogā mē, ut cōgitem."
+  ],
+  [
+   "Ask a question!",
+   "Rogā quaestiōnem!"
+  ],
+  [
+   "You ask, I answer.",
+   "Rogās, respondeō."
+  ],
+  [
+   "Ask a question, so that I may answer.",
+   "Rogā quaestiōnem, ut respondeam."
+  ],
+  [
+   "Ask a good question, so that I may answer.",
+   "Rogā bonam quaestiōnem, ut respondeam."
+  ],
+  [
+   "You ask a good question. Good.",
+   "Bonam quaestiōnem rogās. Bene."
+  ],
+  [
+   "My teacher asks a question. I answer.",
+   "Magistra mea quaestiōnem rogat. Respondeō."
+  ],
+  [
+   "I ask a question. My teacher answers.",
+   "Quaestiōnem rogō. Magistra mea respondet."
+  ],
+  [
+   "An answer. A good answer.",
+   "Respōnsum. Bonum respōnsum."
+  ],
+  [
+   "A good question, a good answer.",
+   "Bona quaestiō, bonum respōnsum."
+  ],
+  [
+   "A good answer: the reason.",
+   "Bonum respōnsum: causa."
+  ],
+  [
+   "What is the reason?",
+   "Quae causa est?"
+  ],
+  [
+   "Ask me the reason.",
+   "Rogā mē causam."
+  ],
+  [
+   "Ask me! I explain.",
+   "Rogā mē! Explicō."
+  ],
+  [
+   "I explain the reason.",
+   "Causam explicō."
+  ],
+  [
+   "You explain the reason. Explain the reason!",
+   "Causam explicās. Explicā causam!"
+  ],
+  [
+   "Ask me the reason, so that I may explain it.",
+   "Rogā mē causam, ut eam explicem."
+  ],
+  [
+   "What is the reason? Ask me the reason, so that I may explain it.",
+   "Quae causa est? Rogā mē causam, ut eam explicem."
+  ],
+  [
+   "Ask me, so that I think.",
+   "Rogā mē, ut cōgitem."
+  ],
+  [
+   "Ask me questions. Good questions.",
+   "Rogā mē quaestiōnēs. Bonae quaestiōnēs."
+  ],
+  [
+   "Questions and the mind.",
+   "Quaestiōnēs et mēns."
+  ],
+  [
+   "My mind. My mind thinks.",
+   "Mēns mea. Mēns mea cōgitat."
+  ],
+  [
+   "A question moves the mind.",
+   "Quaestiō mentem movet."
+  ],
+  [
+   "A good question moves the mind.",
+   "Bona quaestiō mentem movet."
+  ],
+  [
+   "Good questions move the mind.",
+   "Bonae quaestiōnēs mentem movent."
+  ],
+  [
+   "Why do I ask? Good questions move the mind.",
+   "Cūr rogō? Bonae quaestiōnēs mentem movent."
+  ],
+  [
+   "Ask me, so that I think. Good questions move the mind.",
+   "Rogā mē, ut cōgitem. Bonae quaestiōnēs mentem movent."
+  ],
+  [
+   "A question: why do I learn Latin?",
+   "Quaestiō: cūr linguam Latīnam discō?"
+  ],
+  [
+   "A good question. I think. I answer.",
+   "Bona quaestiō. Cōgitō. Respondeō."
+  ],
+  [
+   "I think. I learn Latin so that I may understand.",
+   "Cōgitō. Linguam Latīnam discō, ut intellegam."
+  ],
+  [
+   "Ask me, so that I think.",
+   "Rogā mē, ut cōgitem."
+  ],
+  [
+   "Ask me. One, two, three.",
+   "Rogā mē. Ūnum, duo, tria."
+  ],
+  [
+   "Teach me, so that I may learn.",
+   "Docē mē, ut discam."
+  ],
+  [
+   "Show me an example, so that I may see.",
+   "Ostende mihi exemplum, ut videam."
+  ],
+  [
+   "Listen to me, so that you may understand.",
+   "Audī mē, ut intellegās."
+  ],
+  [
+   "Listen to my opinion, so that you may understand it.",
+   "Audī sententiam meam, ut eam intellegās."
+  ],
+  [
+   "Ask me, so that I think.",
+   "Rogā mē, ut cōgitem."
+  ],
+  [
+   "Ask a question, so that I may answer.",
+   "Rogā quaestiōnem, ut respondeam."
+  ],
+  [
+   "Students, listen, so that you may understand. Do you understand?",
+   "Discipulī, audīte, ut intellegātis. Intellegitis?"
+  ],
+  [
+   "I teach, and I learn. We learn by teaching.",
+   "Doceō, et discō. Docendō discimus."
+  ],
+  [
+   "We learn. Four: we talk.",
+   "Discimus. Quattuor: loquimur."
+  ],
+  [
+   "I talk. You talk.",
+   "Loquor. Loqueris."
+  ],
+  [
+   "I talk, you talk. We talk.",
+   "Loquor, loqueris. Loquimur."
+  ],
+  [
+   "Let's talk!",
+   "Loquāmur!"
+  ],
+  [
+   "We talk. Let's talk!",
+   "Loquimur. Loquāmur!"
+  ],
+  [
+   "Let's talk, please.",
+   "Loquāmur, amābō tē."
+  ],
+  [
+   "Let's talk: my opinion, your opinion.",
+   "Loquāmur: sententia mea, sententia tua."
+  ],
+  [
+   "Your opinion? We agree.",
+   "Sententia tua? Cōnsentīmus."
+  ],
+  [
+   "Do we agree? Yes, we agree.",
+   "Cōnsentīmus? Ita, cōnsentīmus."
+  ],
+  [
+   "Let's agree!",
+   "Cōnsentiāmus!"
+  ],
+  [
+   "We agree. Let's agree!",
+   "Cōnsentīmus. Cōnsentiāmus!"
+  ],
+  [
+   "…so that we can agree.",
+   "…ut cōnsentiāmus."
+  ],
+  [
+   "Let's talk, so that we can agree.",
+   "Loquāmur, ut cōnsentiāmus."
+  ],
+  [
+   "Let's talk. Why? So that we can agree.",
+   "Loquāmur. Cūr? Ut cōnsentiāmus."
+  ],
+  [
+   "Let's talk, so that we can agree.",
+   "Loquāmur, ut cōnsentiāmus."
+  ],
+  [
+   "We talk. We listen.",
+   "Loquimur. Audīmus."
+  ],
+  [
+   "Let's listen!",
+   "Audiāmus!"
+  ],
+  [
+   "We listen. We understand.",
+   "Audīmus. Intellegimus."
+  ],
+  [
+   "Let's listen, so that we may understand.",
+   "Audiāmus, ut intellegāmus."
+  ],
+  [
+   "We listen. Let's listen, so that we may understand.",
+   "Audīmus. Audiāmus, ut intellegāmus."
+  ],
+  [
+   "Students, you understand. We understand.",
+   "Discipulī, intellegitis. Intellegimus."
+  ],
+  [
+   "We understand. Your opinion? Give your opinion!",
+   "Intellegimus. Sententia tua? Dīc sententiam tuam!"
+  ],
+  [
+   "Give your opinion, so that we can agree.",
+   "Dīc sententiam tuam, ut cōnsentiāmus."
+  ],
+  [
+   "Your opinion? Give your opinion, so that we can agree.",
+   "Sententia tua? Dīc sententiam tuam, ut cōnsentiāmus."
+  ],
+  [
+   "We don't agree. We disagree.",
+   "Nōn cōnsentīmus. Dissentīmus."
+  ],
+  [
+   "Do we agree? No. We disagree.",
+   "Cōnsentīmus? Minimē. Dissentīmus."
+  ],
+  [
+   "We disagree. Let's talk again.",
+   "Dissentīmus. Loquāmur iterum."
+  ],
+  [
+   "If we disagree…",
+   "Sī dissentīmus…"
+  ],
+  [
+   "If we disagree, let's talk again.",
+   "Sī dissentīmus, loquāmur iterum."
+  ],
+  [
+   "Do we disagree? Let's talk again.",
+   "Dissentīmus? Loquāmur iterum."
+  ],
+  [
+   "Let's talk, so that we can agree.",
+   "Loquāmur, ut cōnsentiāmus."
+  ],
+  [
+   "Let's speak the truth.",
+   "Vērum loquāmur."
+  ],
+  [
+   "You speak the truth.",
+   "Vērum dīcis."
+  ],
+  [
+   "A good example shows the truth.",
+   "Bonum exemplum vērum ostendit."
+  ],
+  [
+   "Do you speak the truth? Yes. Let's agree!",
+   "Vērum dīcis? Ita. Cōnsentiāmus!"
+  ],
+  [
+   "If you speak the truth, we agree.",
+   "Sī vērum dīcis, cōnsentīmus."
+  ],
+  [
+   "Does my friend speak the truth?",
+   "Amīcus meus vērum dīcit?"
+  ],
+  [
+   "My friend disagrees.",
+   "Amīcus meus dissentit."
+  ],
+  [
+   "My friend disagrees. Let's talk, so that we can agree.",
+   "Amīcus meus dissentit. Loquāmur, ut cōnsentiāmus."
+  ],
+  [
+   "Why does my friend disagree? What is the reason?",
+   "Cūr amīcus meus dissentit? Quae causa est?"
+  ],
+  [
+   "A good reason. Good advice.",
+   "Bona causa. Bonum cōnsilium."
+  ],
+  [
+   "Good advice: let's talk, so that we can agree.",
+   "Bonum cōnsilium: loquāmur, ut cōnsentiāmus."
+  ],
+  [
+   "Good advice. One, two, three, four.",
+   "Bonum cōnsilium. Ūnum, duo, tria, quattuor."
+  ],
+  [
+   "One: teach me, so that I may learn.",
+   "Ūnum: docē mē, ut discam."
+  ],
+  [
+   "Teach the students, so that they may learn.",
+   "Docē discipulōs, ut discant."
+  ],
+  [
+   "The students learn. Listen to me, so that you may understand.",
+   "Discipulī discunt. Audī mē, ut intellegās."
+  ],
+  [
+   "I listen to you, so that I may understand.",
+   "Audiō tē, ut intellegam."
+  ],
+  [
+   "Ask me, so that I think.",
+   "Rogā mē, ut cōgitem."
+  ],
+  [
+   "Ask me the reason, so that I may explain it.",
+   "Rogā mē causam, ut eam explicem."
+  ],
+  [
+   "I explain the reason. Let's talk, so that we can agree.",
+   "Causam explicō. Loquāmur, ut cōnsentiāmus."
+  ],
+  [
+   "Let's talk. Five: a mistake.",
+   "Loquāmur. Quīnque: error."
+  ],
+  [
+   "A mistake. My mistake.",
+   "Error. Error meus."
+  ],
+  [
+   "I make a mistake.",
+   "Errō."
+  ],
+  [
+   "You make a mistake.",
+   "Errās."
+  ],
+  [
+   "Do you make a mistake? Yes, you make a mistake.",
+   "Errās? Ita, errās."
+  ],
+  [
+   "To err is human.",
+   "Errāre hūmānum est."
+  ],
+  [
+   "To err is human. It's an old saying.",
+   "Errāre hūmānum est. Dictum vetus est."
+  ],
+  [
+   "You make a mistake. To err is human.",
+   "Errās. Errāre hūmānum est."
+  ],
+  [
+   "You make a mistake? Think!",
+   "Errās? Cōgitā!"
+  ],
+  [
+   "First. Think first!",
+   "Prīmum. Prīmum cōgitā!"
+  ],
+  [
+   "You think first.",
+   "Prīmum cōgitās."
+  ],
+  [
+   "You think first. Think first!",
+   "Prīmum cōgitās. Prīmum cōgitā!"
+  ],
+  [
+   "My teacher thinks first.",
+   "Magistra mea prīmum cōgitat."
+  ],
+  [
+   "She doesn't make a mistake. You don't make a mistake.",
+   "Nōn errat. Nōn errās."
+  ],
+  [
+   "…so that you don't make a mistake.",
+   "…nē errēs."
+  ],
+  [
+   "Think first, so that you don't make a mistake.",
+   "Prīmum cōgitā, nē errēs."
+  ],
+  [
+   "Why? So that you don't make a mistake.",
+   "Cūr? Nē errēs."
+  ],
+  [
+   "You make a mistake? Think first, so that you don't make a mistake.",
+   "Errās? Prīmum cōgitā, nē errēs."
+  ],
+  [
+   "You make a mistake? Speak slowly.",
+   "Errās? Lentē loquere."
+  ],
+  [
+   "Speak slowly, so that you don't make a mistake.",
+   "Lentē loquere, nē errēs."
+  ],
+  [
+   "You speak fast. You make a mistake.",
+   "Celeriter loqueris. Errās."
+  ],
+  [
+   "Speak slowly, so that you don't make a mistake.",
+   "Lentē loquere, nē errēs."
+  ],
+  [
+   "Speak slowly. Listen first!",
+   "Lentē loquere. Prīmum audī!"
+  ],
+  [
+   "Listen first, so that you don't make a mistake.",
+   "Prīmum audī, nē errēs."
+  ],
+  [
+   "Listen first. Do you repeat the words?",
+   "Prīmum audī. Verba repetis?"
+  ],
+  [
+   "Repeat! Repeat the words.",
+   "Repete! Repete verba."
+  ],
+  [
+   "Repeat the words, so that you don't make a mistake.",
+   "Repete verba, nē errēs."
+  ],
+  [
+   "You repeat the words. Good.",
+   "Verba repetis. Bene."
+  ],
+  [
+   "The words? Repeat the words, so that you don't make a mistake.",
+   "Verba? Repete verba, nē errēs."
+  ],
+  [
+   "Think first, so that you don't make a mistake.",
+   "Prīmum cōgitā, nē errēs."
+  ],
+  [
+   "My teacher makes a mistake. To err is human.",
+   "Magistra mea errat. Errāre hūmānum est."
+  ],
+  [
+   "So that I don't make a mistake.",
+   "Nē errem."
+  ],
+  [
+   "I think first, so that I don't make a mistake.",
+   "Prīmum cōgitō, nē errem."
+  ],
+  [
+   "Why do I think first? So that I don't make a mistake.",
+   "Cūr prīmum cōgitō? Nē errem."
+  ],
+  [
+   "Think first, so that you don't make a mistake. Good advice.",
+   "Prīmum cōgitā, nē errēs. Bonum cōnsilium."
+  ],
+  [
+   "To err is human. But think first, so that you don't make a mistake.",
+   "Errāre hūmānum est. Sed prīmum cōgitā, nē errēs."
+  ],
+  [
+   "Think first. One, two, three, four, five.",
+   "Prīmum cōgitā. Ūnum, duo, tria, quattuor, quīnque."
+  ],
+  [
+   "One: teach me, so that I may learn.",
+   "Ūnum: docē mē, ut discam."
+  ],
+  [
+   "Listen to me, so that you may understand.",
+   "Audī mē, ut intellegās."
+  ],
+  [
+   "Ask me, so that I think. Good questions move the mind.",
+   "Rogā mē, ut cōgitem. Bonae quaestiōnēs mentem movent."
+  ],
+  [
+   "Let's talk, so that we can agree.",
+   "Loquāmur, ut cōnsentiāmus."
+  ],
+  [
+   "Let's listen, so that we may understand. Now we understand.",
+   "Audiāmus, ut intellegāmus. Nunc intellegimus."
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "I speak slowly, so that I don't make a mistake.",
+   "Lentē loquor, nē errem."
+  ],
+  [
+   "Do you repeat the words? Repeat the words, so that you don't make a mistake.",
+   "Verba repetis? Repete verba, nē errēs."
+  ],
+  [
+   "Do you think first? Think first, so that you don't make a mistake.",
+   "Prīmum cōgitās? Prīmum cōgitā, nē errēs."
+  ],
+  [
+   "Five: think first, so that you don't make a mistake.",
+   "Quīnque: prīmum cōgitā, nē errēs."
+  ],
+  [
+   "Now a story.",
+   "Nunc fābula."
+  ],
+  [
+   "Now a short story.",
+   "Nunc fābula brevis."
+  ],
+  [
+   "A short story: a student and a teacher.",
+   "Fābula brevis: discipulus et magistra."
+  ],
+  [
+   "Today the student is learning Latin.",
+   "Hodiē discipulus linguam Latīnam discit."
+  ],
+  [
+   "The student says: I learn fast!",
+   "Discipulus dīcit: celeriter discō!"
+  ],
+  [
+   "The teacher says: we learn slowly.",
+   "Magistra dīcit: lentē discimus."
+  ],
+  [
+   "The student says: I don't make mistakes!",
+   "Discipulus dīcit: nōn errō!"
+  ],
+  [
+   "The teacher says: to err is human.",
+   "Magistra dīcit: errāre hūmānum est."
+  ],
+  [
+   "Fast? Slowly? The student says: we disagree!",
+   "Celeriter? Lentē? Discipulus dīcit: dissentīmus!"
+  ],
+  [
+   "The teacher: if we disagree, let's talk again.",
+   "Magistra: sī dissentīmus, loquāmur iterum."
+  ],
+  [
+   "We disagree? Let's talk, so that we can agree.",
+   "Dissentīmus? Loquāmur, ut cōnsentiāmus."
+  ],
+  [
+   "The teacher: listen to me, so that you may understand.",
+   "Magistra: audī mē, ut intellegās."
+  ],
+  [
+   "The student listens to the teacher. But he doesn't understand.",
+   "Discipulus magistram audit. Sed nōn intellegit."
+  ],
+  [
+   "The student: explain this, so that I may understand.",
+   "Discipulus: explicā hoc, ut intellegam."
+  ],
+  [
+   "The teacher explains. She speaks slowly.",
+   "Magistra explicat. Lentē loquitur."
+  ],
+  [
+   "The student: explain! Show me an example, so that I may see.",
+   "Discipulus: explicā! Ostende mihi exemplum, ut videam."
+  ],
+  [
+   "The teacher shows an example.",
+   "Magistra exemplum ostendit."
+  ],
+  [
+   "The student: you show me an example. I see!",
+   "Discipulus: exemplum mihi ostendis. Videō!"
+  ],
+  [
+   "The student: now I understand.",
+   "Discipulus: nunc intellegō."
+  ],
+  [
+   "Now the student asks a good question.",
+   "Nunc discipulus bonam quaestiōnem rogat."
+  ],
+  [
+   "A good question moves the mind. Good questions move the mind.",
+   "Bona quaestiō mentem movet. Bonae quaestiōnēs mentem movent."
+  ],
+  [
+   "The teacher: a good question. Ask me, so that I think.",
+   "Magistra: bona quaestiō. Rogā mē, ut cōgitem."
+  ],
+  [
+   "The teacher thinks. The student: think first!",
+   "Magistra cōgitat. Discipulus: prīmum cōgitā!"
+  ],
+  [
+   "The student: think first, so that you don't make a mistake.",
+   "Discipulus: prīmum cōgitā, nē errēs."
+  ],
+  [
+   "The teacher answers. But she makes a mistake.",
+   "Magistra respondet. Sed errat."
+  ],
+  [
+   "A mistake! The teacher makes a mistake.",
+   "Error! Magistra errat."
+  ],
+  [
+   "The student: you make a mistake!",
+   "Discipulus: errās!"
+  ],
+  [
+   "The teacher: I'm wrong. You speak the truth.",
+   "Magistra: errō. Vērum dīcis."
+  ],
+  [
+   "A mistake? Yes. To err is human.",
+   "Error? Ita. Errāre hūmānum est."
+  ],
+  [
+   "The student: a mistake? Ask me the reason, so that I may explain it.",
+   "Discipulus: error? Rogā mē causam, ut eam explicem."
+  ],
+  [
+   "The teacher asks the reason.",
+   "Magistra causam rogat."
+  ],
+  [
+   "The student answers. He explains the reason.",
+   "Discipulus respondet. Causam explicat."
+  ],
+  [
+   "The teacher listens. She understands the reason.",
+   "Magistra audit. Causam intellegit."
+  ],
+  [
+   "Now the student teaches the teacher!",
+   "Nunc discipulus magistram docet!"
+  ],
+  [
+   "The teacher: teach me, so that I may learn.",
+   "Magistra: docē mē, ut discam."
+  ],
+  [
+   "The student teaches. And he learns.",
+   "Discipulus docet. Et discit."
+  ],
+  [
+   "And the teacher? She learns too.",
+   "Et magistra? Et discit."
+  ],
+  [
+   "We learn by teaching.",
+   "Docendō discimus."
+  ],
+  [
+   "We learn by teaching. It's an old saying.",
+   "Docendō discimus. Dictum vetus est."
+  ],
+  [
+   "Do we learn fast? No. Slowly. And to err is human.",
+   "Celeriter discimus? Minimē. Lentē. Et errāre hūmānum est."
+  ],
+  [
+   "The teacher: slowly. The student: slowly. We agree!",
+   "Magistra: lentē. Discipulus: lentē. Cōnsentīmus!"
+  ],
+  [
+   "Let's talk, so that we can agree. Good.",
+   "Loquāmur, ut cōnsentiāmus. Bene."
+  ],
+  [
+   "The student: think first, so that you don't make a mistake. Good advice.",
+   "Discipulus: prīmum cōgitā, nē errēs. Bonum cōnsilium."
+  ],
+  [
+   "A short story, and good advice.",
+   "Fābula brevis, et bonum cōnsilium."
+  ],
+  [
+   "A short story. And today: five new things.",
+   "Fābula brevis. Et hodiē: quīnque nova."
+  ],
+  [
+   "Five new things. One.",
+   "Quīnque nova. Ūnum."
+  ],
+  [
+   "One: teach me, so that I may learn.",
+   "Ūnum: docē mē, ut discam."
+  ],
+  [
+   "Two: listen to me, so that you may understand.",
+   "Duo: audī mē, ut intellegās."
+  ],
+  [
+   "Three: ask me, so that I think.",
+   "Tria: rogā mē, ut cōgitem."
+  ],
+  [
+   "Four: let's talk, so that we can agree.",
+   "Quattuor: loquāmur, ut cōnsentiāmus."
+  ],
+  [
+   "Five: think first, so that you don't make a mistake.",
+   "Quīnque: prīmum cōgitā, nē errēs."
+  ],
+  [
+   "And old things: my teacher speaks.",
+   "Et vetera: magistra mea loquitur."
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "And I ask: tell me what this means.",
+   "Et rogō: dīc mihi quid hoc significet."
+  ],
+  [
+   "And: to err is human. We learn by teaching.",
+   "Et: errāre hūmānum est. Docendō discimus."
+  ],
+  [
+   "New things and old. Good.",
+   "Nova et vetera. Bene."
+  ]
+ ]
+}
