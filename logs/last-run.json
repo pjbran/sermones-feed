@@ -1,12 +1,14 @@
 {
- "job": "jobs/0033-drill-scala-4-latina.json",
+ "job": "jobs/0034-drill-scala-5-subiunctivus.json",
  "ok": true,
  "files": [
-  "bonus-scala-4-v2-latina.mp3"
+  "bonus-scala-5-subiunctivus.mp3",
+  "bonus-scala-5-subiunctivus-latina.mp3"
  ],
  "log": [
-  "== job jobs/0033-drill-scala-4-latina.json drill",
-  "built bonus-scala-4-v2-latina.mp3 14.1 min"
+  "== job jobs/0034-drill-scala-5-subiunctivus.json drill",
+  "built bonus-scala-5-subiunctivus.mp3 22.8 min",
+  "built bonus-scala-5-subiunctivus-latina.mp3 11.2 min"
  ],
- "at": "2026-10-24T06:59:32+00:00"
+ "at": "2026-10-25T04:13:26+00:00"
 }

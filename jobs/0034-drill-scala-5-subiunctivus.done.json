@@ -1,0 +1,14 @@
+{
+ "job": "jobs/0034-drill-scala-5-subiunctivus.json",
+ "ok": true,
+ "files": [
+  "bonus-scala-5-subiunctivus.mp3",
+  "bonus-scala-5-subiunctivus-latina.mp3"
+ ],
+ "log": [
+  "== job jobs/0034-drill-scala-5-subiunctivus.json drill",
+  "built bonus-scala-5-subiunctivus.mp3 22.8 min",
+  "built bonus-scala-5-subiunctivus-latina.mp3 11.2 min"
+ ],
+ "at": "2026-10-25T04:13:26+00:00"
+}
