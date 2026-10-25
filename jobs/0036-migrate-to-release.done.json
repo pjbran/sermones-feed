@@ -1,0 +1,9 @@
+{
+ "job": "jobs/0036-migrate-to-release.json",
+ "ok": true,
+ "migrate": true,
+ "log": [
+  "== job jobs/0036-migrate-to-release.json migrate"
+ ],
+ "at": "2026-10-25T20:42:27+00:00"
+}

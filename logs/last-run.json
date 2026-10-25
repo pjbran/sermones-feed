@@ -1,14 +1,9 @@
 {
- "job": "jobs/0035-drill-scala-6-subiunctivus-2.json",
+ "job": "jobs/0036-migrate-to-release.json",
  "ok": true,
- "files": [
-  "bonus-scala-6-subiunctivus-2.mp3",
-  "bonus-scala-6-subiunctivus-2-latina.mp3"
- ],
+ "migrate": true,
  "log": [
-  "== job jobs/0035-drill-scala-6-subiunctivus-2.json drill",
-  "built bonus-scala-6-subiunctivus-2.mp3 49.3 min",
-  "built bonus-scala-6-subiunctivus-2-latina.mp3 24.0 min"
+  "== job jobs/0036-migrate-to-release.json migrate"
  ],
- "at": "2026-10-25T20:06:02+00:00"
+ "at": "2026-10-25T20:42:27+00:00"
 }
