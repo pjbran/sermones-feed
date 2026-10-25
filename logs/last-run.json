@@ -1,9 +1,14 @@
 {
- "job": "jobs/0036-migrate-to-release.json",
+ "job": "jobs/0037-drill-scala-7-impera-ut.json",
  "ok": true,
- "migrate": true,
- "log": [
-  "== job jobs/0036-migrate-to-release.json migrate"
+ "files": [
+  "bonus-scala-7-impera-ut.mp3",
+  "bonus-scala-7-impera-ut-latina.mp3"
  ],
- "at": "2026-10-25T20:42:27+00:00"
+ "log": [
+  "== job jobs/0037-drill-scala-7-impera-ut.json drill",
+  "built bonus-scala-7-impera-ut.mp3 52.9 min",
+  "built bonus-scala-7-impera-ut-latina.mp3 25.1 min"
+ ],
+ "at": "2026-10-25T21:11:38+00:00"
 }

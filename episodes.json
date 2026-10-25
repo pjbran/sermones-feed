@@ -262,5 +262,27 @@
   "bytes": 11656054,
   "duration": "24:00",
   "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-6-subiunctivus-2-latina.mp3"
+ },
+ {
+  "file": "bonus-scala-7-impera-ut.mp3",
+  "title": "Ladder 7 · Docē mē, ut discam: pyramid 3 (× 2)",
+  "season": 1,
+  "episode": 32,
+  "date": "2026-10-26T08:10:45+11:00",
+  "summary": "Commands + 'so that…' on how to learn, listen, ask, agree and avoid mistakes: Docē mē, ut discam · Audī mē, ut intellegās · Rogā mē, ut cōgitem · Loquāmur, ut cōnsentiāmus · Prīmum cōgitā, nē errēs. Quotes: Errāre hūmānum est, Docendō discimus. Played twice. Free voice (IPA, v as v).",
+  "bytes": 25517733,
+  "duration": "52:52",
+  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-7-impera-ut.mp3"
+ },
+ {
+  "file": "bonus-scala-7-impera-ut-latina.mp3",
+  "title": "Ladder 7 · Docē mē, ut discam: pyramid 3 · Latin only (× 2)",
+  "season": 1,
+  "episode": 33,
+  "date": "2026-10-26T08:11:24+11:00",
+  "summary": "Latin only. Commands + 'so that…' on how to learn, listen, ask, agree and avoid mistakes: Docē mē, ut discam · Audī mē, ut intellegās · Rogā mē, ut cōgitem · Loquāmur, ut cōnsentiāmus · Prīmum cōgitā, nē errēs. Quotes: Errāre hūmānum est, Docendō discimus. Played twice. Free voice (IPA, v as v).",
+  "bytes": 12188215,
+  "duration": "25:06",
+  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-7-impera-ut-latina.mp3"
  }
 ]
