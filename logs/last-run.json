@@ -1,14 +1,14 @@
 {
- "job": "jobs/0037-drill-scala-7-impera-ut.json",
+ "job": "jobs/0038-drill-scala-8-verba-nova-1.json",
  "ok": true,
  "files": [
-  "bonus-scala-7-impera-ut.mp3",
-  "bonus-scala-7-impera-ut-latina.mp3"
+  "bonus-scala-8-verba-nova-1.mp3",
+  "bonus-scala-8-verba-nova-1-latina.mp3"
  ],
  "log": [
-  "== job jobs/0037-drill-scala-7-impera-ut.json drill",
-  "built bonus-scala-7-impera-ut.mp3 52.9 min",
-  "built bonus-scala-7-impera-ut-latina.mp3 25.1 min"
+  "== job jobs/0038-drill-scala-8-verba-nova-1.json drill",
+  "built bonus-scala-8-verba-nova-1.mp3 54.1 min",
+  "built bonus-scala-8-verba-nova-1-latina.mp3 26.4 min"
  ],
- "at": "2026-10-25T21:11:38+00:00"
+ "at": "2026-10-26T01:28:39+00:00"
 }

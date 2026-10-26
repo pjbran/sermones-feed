@@ -1,0 +1,14 @@
+{
+ "job": "jobs/0038-drill-scala-8-verba-nova-1.json",
+ "ok": true,
+ "files": [
+  "bonus-scala-8-verba-nova-1.mp3",
+  "bonus-scala-8-verba-nova-1-latina.mp3"
+ ],
+ "log": [
+  "== job jobs/0038-drill-scala-8-verba-nova-1.json drill",
+  "built bonus-scala-8-verba-nova-1.mp3 54.1 min",
+  "built bonus-scala-8-verba-nova-1-latina.mp3 26.4 min"
+ ],
+ "at": "2026-10-26T01:28:39+00:00"
+}

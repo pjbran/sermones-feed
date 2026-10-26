@@ -284,5 +284,27 @@
   "bytes": 12188215,
   "duration": "25:06",
   "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-7-impera-ut-latina.mp3"
+ },
+ {
+  "file": "bonus-scala-8-verba-nova-1.mp3",
+  "title": "Ladder 8 · 50 new words + 30 hard ones",
+  "season": 1,
+  "episode": 34,
+  "date": "2026-10-26T12:27:03+11:00",
+  "summary": "Road to 2,000, set 1: the next 50 Road words (induō, tunica, sūmō, piscis, mūrus, umbra, collum, iaceō, stēlla, scaena…) in 5 scenes (morning, kitchen, walk, a long night, evening), each word heard 6+ times, plus your 30 stickiest hell words (quoniam, ideō, quidem, quīdam, tamen, īdem, tālis…) in clear sentences. Closing story of the whole day, then a quick-fire list of all 80 words. Free voice (IPA, v as v).",
+  "bytes": 26120133,
+  "duration": "54:08",
+  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-8-verba-nova-1.mp3"
+ },
+ {
+  "file": "bonus-scala-8-verba-nova-1-latina.mp3",
+  "title": "Ladder 8 · 50 new words + 30 hard ones · Latin only",
+  "season": 1,
+  "episode": 35,
+  "date": "2026-10-26T12:28:17+11:00",
+  "summary": "Latin only. Road to 2,000, set 1: the next 50 Road words (induō, tunica, sūmō, piscis, mūrus, umbra, collum, iaceō, stēlla, scaena…) in 5 scenes (morning, kitchen, walk, a long night, evening), each word heard 6+ times, plus your 30 stickiest hell words (quoniam, ideō, quidem, quīdam, tamen, īdem, tālis…) in clear sentences. Closing story of the whole day, then a quick-fire list of all 80 words. Free voice (IPA, v as v).",
+  "bytes": 12786962,
+  "duration": "26:21",
+  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-8-verba-nova-1-latina.mp3"
  }
 ]
