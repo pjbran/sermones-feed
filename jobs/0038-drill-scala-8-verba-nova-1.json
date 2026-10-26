@@ -1,0 +1,2937 @@
+{
+ "type": "drill",
+ "slug": "scala-8-verba-nova-1",
+ "title": "Ladder 8 · 50 new words + 30 hard ones",
+ "summary": "Road to 2,000, set 1: the next 50 Road words (induō, tunica, sūmō, piscis, mūrus, umbra, collum, iaceō, stēlla, scaena…) in 5 scenes (morning, kitchen, walk, a long night, evening), each word heard 6+ times, plus your 30 stickiest hell words (quoniam, ideō, quidem, quīdam, tamen, īdem, tālis…) in clear sentences. Closing story of the whole day, then a quick-fire list of all 80 words. Free voice (IPA, v as v).",
+ "repeat": 1,
+ "music": "v5",
+ "latin_ipa": true,
+ "v_as_v": true,
+ "not_before": "2026-10-28",
+ "pairs": [
+  [
+   "Part one: the morning.",
+   "Pars prīma: māne."
+  ],
+  [
+   "In the morning.",
+   "Māne."
+  ],
+  [
+   "I put on.",
+   "Induō."
+  ],
+  [
+   "I put on clothes.",
+   "Vestīmenta induō."
+  ],
+  [
+   "In the morning I put on clothes.",
+   "Māne vestīmenta induō."
+  ],
+  [
+   "Why do I put on clothes? I work at home.",
+   "Cūr vestīmenta induō? Domī labōrō."
+  ],
+  [
+   "I work at home. However, I put on clothes.",
+   "Domī labōrō. Vestīmenta tamen induō."
+  ],
+  [
+   "Kids, put on your clothes!",
+   "Līberī, vestīmenta induite!"
+  ],
+  [
+   "Put on your clothes quickly!",
+   "Vestīmenta celeriter induite!"
+  ],
+  [
+   "At least put on your clothes!",
+   "Vestīmenta saltem induite!"
+  ],
+  [
+   "Tunic.",
+   "Tunica."
+  ],
+  [
+   "I put on a tunic.",
+   "Tunicam induō."
+  ],
+  [
+   "In the morning I put on a tunic.",
+   "Māne tunicam induō."
+  ],
+  [
+   "Which tunic do I put on?",
+   "Quam tunicam induō?"
+  ],
+  [
+   "Where is my tunic?",
+   "Ubi est tunica mea?"
+  ],
+  [
+   "My tunic is on the bed.",
+   "Tunica mea in lectō est."
+  ],
+  [
+   "My tunic is not on the bed.",
+   "Tunica mea in lectō nōn est."
+  ],
+  [
+   "Where is my tunic?",
+   "Ubi est tunica mea?"
+  ],
+  [
+   "I am cold.",
+   "Frīgeō."
+  ],
+  [
+   "I am very cold.",
+   "Valdē frīgeō."
+  ],
+  [
+   "Where is my tunic? I am very cold.",
+   "Ubi est tunica mea? Valdē frīgeō."
+  ],
+  [
+   "Since I am cold, I want a tunic.",
+   "Quoniam frīgeō, tunicam cupiō."
+  ],
+  [
+   "Are you cold?",
+   "Frīgēsne?"
+  ],
+  [
+   "Are you cold, my son?",
+   "Frīgēsne, mī fīlī?"
+  ],
+  [
+   "You are cold. However, you don't put on a tunic.",
+   "Frīgēs. Tunicam tamen nōn induis."
+  ],
+  [
+   "Why don't you put on a tunic?",
+   "Cūr tunicam nōn induis?"
+  ],
+  [
+   "You don't put on a tunic. So you are cold.",
+   "Tunicam nōn induis. Ideō frīgēs."
+  ],
+  [
+   "Thin.",
+   "Tenuis."
+  ],
+  [
+   "A thin tunic.",
+   "Tunica tenuis."
+  ],
+  [
+   "This tunic is thin.",
+   "Haec tunica tenuis est."
+  ],
+  [
+   "This tunic is thin; I am cold.",
+   "Haec tunica tenuis est; frīgeō."
+  ],
+  [
+   "Why am I cold? Because the tunic is thin.",
+   "Cūr frīgeō? Quia tunica tenuis est."
+  ],
+  [
+   "I don't want a thin tunic.",
+   "Tunicam tenuem nōlō."
+  ],
+  [
+   "Thick.",
+   "Crassus."
+  ],
+  [
+   "A thick tunic.",
+   "Tunica crassa."
+  ],
+  [
+   "A thin tunic or a thick one?",
+   "Tunica tenuis an crassa?"
+  ],
+  [
+   "I prefer a thick tunic.",
+   "Tunicam crassam mālō."
+  ],
+  [
+   "Why do I prefer a thick tunic? Since I am cold.",
+   "Cūr tunicam crassam mālō? Quoniam frīgeō."
+  ],
+  [
+   "So I put on a thick tunic.",
+   "Ideō tunicam crassam induō."
+  ],
+  [
+   "My wife prefers a thin tunic.",
+   "Uxor mea tunicam tenuem māvult."
+  ],
+  [
+   "Why does she prefer a thin tunic? She is never cold.",
+   "Cūr tunicam tenuem māvult? Numquam frīget."
+  ],
+  [
+   "Never? She is never cold.",
+   "Numquam? Numquam frīget."
+  ],
+  [
+   "My daughter prefers a thick book.",
+   "Fīlia mea librum crassum māvult."
+  ],
+  [
+   "My daughter is reading a thick book.",
+   "Fīlia mea librum crassum legit."
+  ],
+  [
+   "She reads a thick book; however, she doesn't put on her clothes.",
+   "Librum crassum legit; vestīmenta tamen nōn induit."
+  ],
+  [
+   "Why doesn't she put on her clothes? The book is thick, very thick.",
+   "Cūr vestīmenta nōn induit? Liber crassus est, valdē crassus."
+  ],
+  [
+   "I order.",
+   "Iubeō."
+  ],
+  [
+   "I tell the kids.",
+   "Līberōs iubeō."
+  ],
+  [
+   "I tell the kids to put on clothes.",
+   "Līberōs iubeō vestīmenta induere."
+  ],
+  [
+   "What do I tell the kids?",
+   "Quid līberōs iubeō?"
+  ],
+  [
+   "I tell my son to put on a tunic.",
+   "Fīlium meum iubeō tunicam induere."
+  ],
+  [
+   "I tell my daughter to put on clothes.",
+   "Fīliam meam iubeō vestīmenta induere."
+  ],
+  [
+   "I told you to put on clothes!",
+   "Tē iussī vestīmenta induere!"
+  ],
+  [
+   "I told you to put on a tunic!",
+   "Tē iussī tunicam induere!"
+  ],
+  [
+   "I obey.",
+   "Pāreō."
+  ],
+  [
+   "I obey my wife.",
+   "Uxōrī meae pāreō."
+  ],
+  [
+   "Why do I obey? I prefer peace.",
+   "Cūr pāreō? Pācem mālō."
+  ],
+  [
+   "I obey. Do you obey, my son?",
+   "Ego pāreō. Pārēsne tū, mī fīlī?"
+  ],
+  [
+   "My son does not obey.",
+   "Fīlius meus nōn pāret."
+  ],
+  [
+   "I told you! Why don't you obey?",
+   "Tē iussī! Cūr nōn pārēs?"
+  ],
+  [
+   "The kids don't always obey.",
+   "Līberī nōn semper pārent."
+  ],
+  [
+   "The kids don't always obey their father.",
+   "Līberī nōn semper patrī pārent."
+  ],
+  [
+   "Naughty.",
+   "Improbus."
+  ],
+  [
+   "A naughty boy.",
+   "Puer improbus."
+  ],
+  [
+   "My son is a naughty boy.",
+   "Fīlius meus puer improbus est."
+  ],
+  [
+   "Why is he naughty? He does not obey.",
+   "Cūr improbus est? Nōn pāret."
+  ],
+  [
+   "You naughty boy, what have you done?",
+   "Ō puer improbe, quid fēcistī?"
+  ],
+  [
+   "Naughty kids don't obey.",
+   "Līberī improbī nōn pārent."
+  ],
+  [
+   "Naughty kids? No, tired kids.",
+   "Līberī improbī? Minimē, līberī fessī."
+  ],
+  [
+   "I demand.",
+   "Poscō."
+  ],
+  [
+   "I demand food.",
+   "Cibum poscō."
+  ],
+  [
+   "The kids demand food.",
+   "Līberī cibum poscunt."
+  ],
+  [
+   "What do naughty kids demand? Food. Always food.",
+   "Quid līberī improbī poscunt? Cibum. Semper cibum."
+  ],
+  [
+   "My son demands sweets.",
+   "Fīlius meus dulcia poscit."
+  ],
+  [
+   "Sweets? In the morning? No.",
+   "Dulcia? Māne? Minimē."
+  ],
+  [
+   "In the morning I tell him to eat bread at least.",
+   "Māne eum iubeō pānem saltem edere."
+  ],
+  [
+   "He wants sweets. He doesn't want bread.",
+   "Dulcia cupit. Pānem nōn cupit."
+  ],
+  [
+   "The kids demand sweets again.",
+   "Līberī iterum dulcia poscunt."
+  ],
+  [
+   "I want sweets too.",
+   "Ego quoque dulcia cupiō."
+  ],
+  [
+   "I demand sweets too!",
+   "Ego quoque dulcia poscō!"
+  ],
+  [
+   "I hide.",
+   "Occultō."
+  ],
+  [
+   "I hide the sweets.",
+   "Dulcia occultō."
+  ],
+  [
+   "Where do I hide the sweets?",
+   "Ubi dulcia occultō?"
+  ],
+  [
+   "I hide the sweets under the bed.",
+   "Dulcia sub lectō occultō."
+  ],
+  [
+   "Since he demands sweets, I hide the sweets.",
+   "Quoniam dulcia poscit, dulcia occultō."
+  ],
+  [
+   "He demands sweets; so I hide the sweets.",
+   "Dulcia poscit; ideō dulcia occultō."
+  ],
+  [
+   "But who hid my tunic?",
+   "Sed quis tunicam meam occultāvit?"
+  ],
+  [
+   "My son hid my tunic.",
+   "Fīlius meus tunicam meam occultāvit."
+  ],
+  [
+   "Why did he hide it? Because he is naughty.",
+   "Cūr occultāvit? Quia improbus est."
+  ],
+  [
+   "You naughty boy, where did you hide my tunic?",
+   "Ō puer improbe, ubi tunicam meam occultāvistī?"
+  ],
+  [
+   "Where did you hide it? Under the bed?",
+   "Ubi occultāvistī? Sub lectō?"
+  ],
+  [
+   "Where did you hide my tunic? Not under the bed.",
+   "Ubi tunicam meam occultāvistī? Nōn sub lectō."
+  ],
+  [
+   "I order you to give me the tunic!",
+   "Tē iubeō mihi tunicam dare!"
+  ],
+  [
+   "He doesn't give me the tunic. He demands sweets.",
+   "Tunicam nōn dat. Dulcia poscit."
+  ],
+  [
+   "Why don't you obey? Since you are naughty?",
+   "Cūr nōn pārēs? Quoniam improbus es?"
+  ],
+  [
+   "A sweet, then the tunic? You naughty boy!",
+   "Dulce, deinde tunicam? Ō puer improbe!"
+  ],
+  [
+   "I am cold. So I give him one sweet.",
+   "Frīgeō. Ideō eī ūnum dulce dō."
+  ],
+  [
+   "One sweet, not two.",
+   "Ūnum dulce, nōn duo."
+  ],
+  [
+   "One sweet. Now he obeys.",
+   "Ūnum dulce. Nunc pāret."
+  ],
+  [
+   "Now he gives me the tunic.",
+   "Nunc mihi tunicam dat."
+  ],
+  [
+   "The tunic is thin. However, I put it on.",
+   "Tunica tenuis est. Eam tamen induō."
+  ],
+  [
+   "I am still cold. I want a thick tunic.",
+   "Adhūc frīgeō. Tunicam crassam cupiō."
+  ],
+  [
+   "A thick tunic or a sweet? I prefer a sweet!",
+   "Tunica crassa an dulce? Dulce mālō!"
+  ],
+  [
+   "I tell the kids to put on thick clothes.",
+   "Līberōs iubeō vestīmenta crassa induere."
+  ],
+  [
+   "Why thick clothes? Since I am cold in the morning.",
+   "Cūr vestīmenta crassa? Quoniam māne frīgeō."
+  ],
+  [
+   "In the morning my daughters obey.",
+   "Māne fīliae meae pārent."
+  ],
+  [
+   "My daughters obey. My son doesn't.",
+   "Fīliae meae pārent. Fīlius meus nōn pāret."
+  ],
+  [
+   "My son doesn't put on a tunic.",
+   "Fīlius meus tunicam nōn induit."
+  ],
+  [
+   "My son demands a thin tunic.",
+   "Fīlius meus tunicam tenuem poscit."
+  ],
+  [
+   "Why a thin tunic? Because he is never cold.",
+   "Cūr tunicam tenuem? Quia numquam frīget."
+  ],
+  [
+   "At least put on a tunic, my son!",
+   "Tunicam saltem indue, mī fīlī!"
+  ],
+  [
+   "Where is my tunic? Did the naughty boy hide it?",
+   "Ubi est tunica mea? Puer improbus eam occultāvit?"
+  ],
+  [
+   "Yes, he hid my thick tunic. He is naughty!",
+   "Ita, tunicam meam crassam occultāvit. Improbus est!"
+  ],
+  [
+   "I want my tunic. At least my tunic.",
+   "Tunicam meam cupiō. Saltem tunicam meam."
+  ],
+  [
+   "The morning, again, slowly.",
+   "Māne, iterum, lentē."
+  ],
+  [
+   "In the morning I am cold, so I put on a tunic.",
+   "Māne frīgeō; ideō tunicam induō."
+  ],
+  [
+   "My tunic is thin. I prefer a thick one.",
+   "Tunica mea tenuis est. Crassam mālō."
+  ],
+  [
+   "I tell the kids to put on thick clothes.",
+   "Līberōs iubeō vestīmenta crassa induere."
+  ],
+  [
+   "The kids? My daughters obey; the naughty boy doesn't.",
+   "Līberī? Fīliae pārent; puer improbus nōn pāret."
+  ],
+  [
+   "The naughty boy demands sweets; he hid my tunic.",
+   "Puer improbus dulcia poscit; tunicam meam occultāvit."
+  ],
+  [
+   "However, I hide the sweets. Since I am the father.",
+   "Ego tamen dulcia occultō. Quoniam pater sum."
+  ],
+  [
+   "The father wants peace. At least in the morning.",
+   "Pater pācem cupit. Saltem māne."
+  ],
+  [
+   "Part two: the kitchen.",
+   "Pars secunda: culīna."
+  ],
+  [
+   "The kids are in the kitchen.",
+   "Līberī in culīnā sunt."
+  ],
+  [
+   "The kids demand food.",
+   "Līberī cibum poscunt."
+  ],
+  [
+   "My son demands food too.",
+   "Et fīlius meus cibum poscit."
+  ],
+  [
+   "Why does he demand food? Hunger.",
+   "Cūr cibum poscit? Famēs."
+  ],
+  [
+   "Hunger, indeed! He's three.",
+   "Famēs quidem! Trīmus est."
+  ],
+  [
+   "He's three. I tell him to wait.",
+   "Trīmus est. Eum exspectāre iubeō."
+  ],
+  [
+   "I tell him to wait; he doesn't obey.",
+   "Eum exspectāre iubeō; nōn pāret."
+  ],
+  [
+   "He's a naughty boy; he doesn't obey.",
+   "Puer improbus est; nōn pāret."
+  ],
+  [
+   "The naughty boy hides the bread.",
+   "Puer improbus pānem occultat."
+  ],
+  [
+   "Where does he hide the bread?",
+   "Ubi pānem occultat?"
+  ],
+  [
+   "I take.",
+   "Sūmō."
+  ],
+  [
+   "I take the bread.",
+   "Pānem sūmō."
+  ],
+  [
+   "I have a meal.",
+   "Cibum sūmō."
+  ],
+  [
+   "When do we have a meal?",
+   "Quandō cibum sūmimus?"
+  ],
+  [
+   "We have a meal soon.",
+   "Mox cibum sūmimus."
+  ],
+  [
+   "Soon. Which food do I choose?",
+   "Mox. Quem cibum ēligō?"
+  ],
+  [
+   "Fish.",
+   "Piscis."
+  ],
+  [
+   "I eat fish.",
+   "Piscem edō."
+  ],
+  [
+   "I choose fish.",
+   "Piscem ēligō."
+  ],
+  [
+   "Why do I choose fish?",
+   "Cūr piscem ēligō?"
+  ],
+  [
+   "On Friday we eat fish.",
+   "Diē Veneris piscem edimus."
+  ],
+  [
+   "We eat fish. The fish is big.",
+   "Piscem edimus. Piscis magnus est."
+  ],
+  [
+   "So big.",
+   "Tantus."
+  ],
+  [
+   "Such a big fish!",
+   "Tantus piscis!"
+  ],
+  [
+   "The fish is so big!",
+   "Piscis tantus est!"
+  ],
+  [
+   "Why is the fish so big?",
+   "Cūr piscis tantus est?"
+  ],
+  [
+   "A knife.",
+   "Culter."
+  ],
+  [
+   "I cut with a knife.",
+   "Cultrō secō."
+  ],
+  [
+   "I cut the fish with a knife.",
+   "Piscem cultrō secō."
+  ],
+  [
+   "Where is the knife?",
+   "Ubi est culter?"
+  ],
+  [
+   "Where is the knife? My wife has the knife.",
+   "Ubi est culter? Uxor mea cultrum habet."
+  ],
+  [
+   "I take the knife.",
+   "Cultrum sūmō."
+  ],
+  [
+   "My wife says: take the knife!",
+   "Uxor mea dīcit: sūme cultrum!"
+  ],
+  [
+   "Take the knife and cut the fish.",
+   "Sūme cultrum et piscem secā."
+  ],
+  [
+   "It's better to cut the fish.",
+   "Praestat piscem secāre."
+  ],
+  [
+   "It's better to cut with a knife.",
+   "Praestat cultrō secāre."
+  ],
+  [
+   "Then I cut the fish with the knife.",
+   "Tum piscem cultrō secō."
+  ],
+  [
+   "A cup.",
+   "Pōculum."
+  ],
+  [
+   "A cup of water.",
+   "Pōculum aquae."
+  ],
+  [
+   "My daughter demands a cup of water.",
+   "Fīlia mea pōculum aquae poscit."
+  ],
+  [
+   "Give me a cup of water, please.",
+   "Dā mihi pōculum aquae, quaesō."
+  ],
+  [
+   "Which cup does she choose?",
+   "Quod pōculum ēligit?"
+  ],
+  [
+   "She chooses the red cup.",
+   "Pōculum rubrum ēligit."
+  ],
+  [
+   "Her sister, however, wants the red cup.",
+   "Soror autem pōculum rubrum vult."
+  ],
+  [
+   "Two daughters, one red cup.",
+   "Duae fīliae, ūnum pōculum rubrum."
+  ],
+  [
+   "What's better? It's better to have two cups.",
+   "Quid praestat? Praestat duo pōcula habēre."
+  ],
+  [
+   "They take two cups; now at least they're quiet.",
+   "Duo pōcula sūmunt; nunc quidem tacent."
+  ],
+  [
+   "Where are the cups? On the table.",
+   "Ubi sunt pōcula? In mēnsā."
+  ],
+  [
+   "Ugly.",
+   "Foedus."
+  ],
+  [
+   "An ugly fish.",
+   "Piscis foedus."
+  ],
+  [
+   "Such a big fish, and so ugly!",
+   "Tantus piscis, et tam foedus!"
+  ],
+  [
+   "My daughter says: \"The fish is ugly.\"",
+   "Fīlia mea dīcit: \"Piscis foedus est.\""
+  ],
+  [
+   "The fish is ugly; the weather is horrible.",
+   "Piscis foedus est; tempestās foeda est."
+  ],
+  [
+   "Horrible weather. And so much rain!",
+   "Tempestās foeda. Et tanta pluvia!"
+  ],
+  [
+   "Is the weather horrible today? Yes, horrible.",
+   "Estne hodiē tempestās foeda? Ita, foeda."
+  ],
+  [
+   "A line.",
+   "Līnea."
+  ],
+  [
+   "I fish with a line.",
+   "Līneā piscor."
+  ],
+  [
+   "So much rain! And I fish with a line?",
+   "Tanta pluvia! Et līneā piscor?"
+  ],
+  [
+   "Yes. I fish with a line with my son.",
+   "Ita. Cum fīliō meō līneā piscor."
+  ],
+  [
+   "My son holds the line.",
+   "Fīlius meus līneam tenet."
+  ],
+  [
+   "A fish pulls the line.",
+   "Piscis līneam trahit."
+  ],
+  [
+   "Then my son no longer holds the line!",
+   "Tum fīlius meus līneam nōn iam tenet!"
+  ],
+  [
+   "I, however, hold the line.",
+   "Ego autem līneam teneō."
+  ],
+  [
+   "Such a big fish, such a thin line!",
+   "Tantus piscis, līnea tam tenuis!"
+  ],
+  [
+   "Such a big fish! Now we eat the fish.",
+   "Tantus piscis! Nunc piscem edimus."
+  ],
+  [
+   "Now, at last, we have the meal.",
+   "Nunc tandem cibum sūmimus."
+  ],
+  [
+   "I knock.",
+   "Pulsō."
+  ],
+  [
+   "I knock on the door.",
+   "Ōstium pulsō."
+  ],
+  [
+   "Who is knocking on the door?",
+   "Quis ōstium pulsat?"
+  ],
+  [
+   "Who is knocking at the door so late?",
+   "Quis ōstium tam sērō pulsat?"
+  ],
+  [
+   "Then someone knocks again.",
+   "Tum aliquis iterum pulsat."
+  ],
+  [
+   "I go away.",
+   "Abeō."
+  ],
+  [
+   "I go away from the table.",
+   "Ā mēnsā abeō."
+  ],
+  [
+   "I go off to the door.",
+   "Ad ōstium abeō."
+  ],
+  [
+   "I go off; the kids, however, eat my fish.",
+   "Abeō; līberī autem piscem meum edunt."
+  ],
+  [
+   "The kids eat; my daughter tells her brother: go away!",
+   "Līberī edunt; fīlia frātrī dīcit: abī!"
+  ],
+  [
+   "Go away from my cup!",
+   "Abī ā pōculō meō!"
+  ],
+  [
+   "Go away! Take another cup!",
+   "Abī! Sūme aliud pōculum!"
+  ],
+  [
+   "I come back.",
+   "Reveniō."
+  ],
+  [
+   "I come back home.",
+   "Domum reveniō."
+  ],
+  [
+   "Who's knocking? My wife! She's coming back home.",
+   "Quis pulsat? Uxor mea! Domum revenit."
+  ],
+  [
+   "My wife went off in the morning; now she comes back.",
+   "Uxor mea māne abiit; nunc revenit."
+  ],
+  [
+   "She went off without keys.",
+   "Sine clāvibus abiit."
+  ],
+  [
+   "She went off; she comes back; but she knocks.",
+   "Abiit; revenit, sed ōstium pulsat."
+  ],
+  [
+   "Why does she knock? She has no keys!",
+   "Cūr pulsat? Clāvēs nōn habet!"
+  ],
+  [
+   "Her keys are in the kitchen; I go off to the door.",
+   "Clāvēs in culīnā sunt; ad ōstium abeō."
+  ],
+  [
+   "I go off and come back with my wife.",
+   "Abeō et cum uxōre meā reveniō."
+  ],
+  [
+   "I came back; but where is my fish?",
+   "Revēnī; ubi autem est piscis meus?"
+  ],
+  [
+   "I came back. My fish? The naughty boy ate it.",
+   "Revēnī. Piscis meus? Puer improbus eum ēdit."
+  ],
+  [
+   "The naughty boy is three; so great is his hunger!",
+   "Puer improbus trīmus est; tanta est famēs!"
+  ],
+  [
+   "So great is his hunger! And what's better now?",
+   "Tanta est famēs! Quid autem nunc praestat?"
+  ],
+  [
+   "It's better to eat bread.",
+   "Praestat pānem edere."
+  ],
+  [
+   "Bread? The naughty boy hid it!",
+   "Pānem? Puer improbus eum occultāvit!"
+  ],
+  [
+   "He hid it in the cup!",
+   "In pōculō eum occultāvit!"
+  ],
+  [
+   "I take the bread out of the cup.",
+   "Pānem ē pōculō sūmō."
+  ],
+  [
+   "I take the bread and the knife.",
+   "Pānem et cultrum sūmō."
+  ],
+  [
+   "I cut the bread with the knife.",
+   "Pānem cultrō secō."
+  ],
+  [
+   "My wife takes bread and a cup of wine.",
+   "Uxor mea pānem et pōculum vīnī sūmit."
+  ],
+  [
+   "Then she takes a second cup.",
+   "Tum alterum pōculum sūmit."
+  ],
+  [
+   "She takes a second cup? The day was indeed horrible.",
+   "Alterum pōculum sūmit? Diēs quidem foedus erat."
+  ],
+  [
+   "A horrible day. Again, slowly.",
+   "Diēs foedus. Iterum, lentē."
+  ],
+  [
+   "The weather is horrible; I fish with a line.",
+   "Tempestās foeda est; līneā piscor."
+  ],
+  [
+   "With the line I catch a fish. Such a big fish!",
+   "Līneā piscem capiō. Tantus piscis!"
+  ],
+  [
+   "I cut the fish with a knife; my daughters take cups.",
+   "Piscem cultrō secō; fīliae pōcula sūmunt."
+  ],
+  [
+   "My daughters take cups; then someone knocks.",
+   "Fīliae pōcula sūmunt; tum aliquis pulsat."
+  ],
+  [
+   "Someone knocks; I go off to the door.",
+   "Aliquis pulsat; ad ōstium abeō."
+  ],
+  [
+   "I go off and come back with my wife.",
+   "Abeō et cum uxōre reveniō."
+  ],
+  [
+   "I came back; my fish, however, is gone.",
+   "Revēnī; piscis autem meus abest."
+  ],
+  [
+   "My fish is gone. Hunger, indeed!",
+   "Piscis meus abest. Famēs quidem!"
+  ],
+  [
+   "Part three: the walk.",
+   "Pars tertia: ambulātiō."
+  ],
+  [
+   "A walk? Yes, a walk today.",
+   "Ambulātiō? Ita, hodiē ambulātiō."
+  ],
+  [
+   "Before the walk I put on a tunic.",
+   "Ante ambulātiōnem tunicam induō."
+  ],
+  [
+   "I put on a thick tunic.",
+   "Tunicam crassam induō."
+  ],
+  [
+   "I put on a thick tunic, because I'm cold.",
+   "Tunicam crassam induō, nam frīgeō."
+  ],
+  [
+   "Autumn.",
+   "Autumnus."
+  ],
+  [
+   "Why am I cold? Autumn.",
+   "Cūr frīgeō? Autumnus."
+  ],
+  [
+   "It's autumn, and I'm cold.",
+   "Autumnus est, et frīgeō."
+  ],
+  [
+   "In autumn I'm usually cold.",
+   "Autumnō plērumque frīgeō."
+  ],
+  [
+   "This autumn I'm very cold.",
+   "Hōc autumnō valdē frīgeō."
+  ],
+  [
+   "I'm cold, but we go off.",
+   "Frīgeō, sed abīmus."
+  ],
+  [
+   "We go off from home: me, my wife, the kids.",
+   "Domō abīmus: ego, uxor mea, līberī."
+  ],
+  [
+   "When do we come back home?",
+   "Quandō domum revenīmus?"
+  ],
+  [
+   "Usually we come back before dinner.",
+   "Plērumque ante cēnam revenīmus."
+  ],
+  [
+   "Before dinner I want a cup of wine.",
+   "Ante cēnam pōculum vīnī volō."
+  ],
+  [
+   "A cup of wine? Later. First, a walk.",
+   "Pōculum vīnī? Posteā. Prīmum ambulātiō."
+  ],
+  [
+   "Gate.",
+   "Porta."
+  ],
+  [
+   "The town gate.",
+   "Porta oppidī."
+  ],
+  [
+   "We walk to the gate.",
+   "Ad portam ambulāmus."
+  ],
+  [
+   "Where is the gate?",
+   "Ubi est porta?"
+  ],
+  [
+   "Over there.",
+   "Illīc."
+  ],
+  [
+   "The gate is over there.",
+   "Porta illīc est."
+  ],
+  [
+   "Over there? We walk over there.",
+   "Illīc? Illūc ambulāmus."
+  ],
+  [
+   "We walk all the way to the gate.",
+   "Ūsque ad portam ambulāmus."
+  ],
+  [
+   "My son usually walks all the way to the gate.",
+   "Fīlius meus plērumque ūsque ad portam ambulat."
+  ],
+  [
+   "Then my son sits, as if tired.",
+   "Tum fīlius meus sedet, quasi fessus."
+  ],
+  [
+   "He sits at the gate like a tired dog.",
+   "Ad portam sedet, quasi canis fessus."
+  ],
+  [
+   "Wall.",
+   "Mūrus."
+  ],
+  [
+   "And next to the gate? A wall.",
+   "Et prope portam? Mūrus."
+  ],
+  [
+   "On the wall.",
+   "In mūrō."
+  ],
+  [
+   "A cat sits on the wall.",
+   "Fēlēs in mūrō sedet."
+  ],
+  [
+   "The wall is old.",
+   "Mūrus vetus est."
+  ],
+  [
+   "Is the wall high? Yes, the wall is high.",
+   "Estne mūrus altus? Ita, mūrus altus est."
+  ],
+  [
+   "My son wants to sit on the wall.",
+   "Fīlius meus in mūrō sedēre vult."
+  ],
+  [
+   "On the wall? No! The wall is too high.",
+   "In mūrō? Minimē! Mūrus nimis altus est."
+  ],
+  [
+   "Meanwhile the cat sits on the wall.",
+   "Intereā fēlēs in mūrō sedet."
+  ],
+  [
+   "Hill.",
+   "Collis."
+  ],
+  [
+   "Behind the wall? A hill.",
+   "Post mūrum? Collis."
+  ],
+  [
+   "On the hill.",
+   "In colle."
+  ],
+  [
+   "On the hill there are trees.",
+   "In colle sunt arborēs."
+  ],
+  [
+   "Where is the hill? Over there.",
+   "Ubi est collis? Illīc."
+  ],
+  [
+   "The hill is over there, behind the wall.",
+   "Collis illīc est, post mūrum."
+  ],
+  [
+   "We go all the way to the hill.",
+   "Ūsque ad collem īmus."
+  ],
+  [
+   "We walk up the hill.",
+   "In collem ambulāmus."
+  ],
+  [
+   "Meanwhile my son runs up the hill.",
+   "Intereā fīlius meus in collem currit."
+  ],
+  [
+   "He runs, because he's three years old.",
+   "Currit, nam trēs annōs nātus est."
+  ],
+  [
+   "I don't run up the hill; I walk.",
+   "Ego in collem nōn currō; ambulō."
+  ],
+  [
+   "Shade.",
+   "Umbra."
+  ],
+  [
+   "On the hill: trees and shade.",
+   "In colle: arborēs et umbra."
+  ],
+  [
+   "In the shade.",
+   "In umbrā."
+  ],
+  [
+   "We sit in the shade.",
+   "In umbrā sedēmus."
+  ],
+  [
+   "In the shade of a tree.",
+   "In umbrā arboris."
+  ],
+  [
+   "Why in the shade? It's autumn!",
+   "Cūr in umbrā? Autumnus est!"
+  ],
+  [
+   "Usually I want shade, but not in autumn.",
+   "Plērumque umbram volō, sed nōn autumnō."
+  ],
+  [
+   "In the shade I'm cold.",
+   "In umbrā frīgeō."
+  ],
+  [
+   "My wife sits in the shade, like the cat.",
+   "Uxor mea in umbrā sedet, quasi fēlēs."
+  ],
+  [
+   "Rose.",
+   "Rosa."
+  ],
+  [
+   "In the shade there are roses too.",
+   "In umbrā sunt etiam rosae."
+  ],
+  [
+   "Red roses.",
+   "Rosae rubrae."
+  ],
+  [
+   "Over there are red roses.",
+   "Illīc sunt rosae rubrae."
+  ],
+  [
+   "My daughter wants a rose.",
+   "Fīlia mea rosam vult."
+  ],
+  [
+   "My daughter gives my wife a rose.",
+   "Fīlia mea uxōrī meae rosam dat."
+  ],
+  [
+   "And for me? No rose.",
+   "Et mihi? Nūlla rosa."
+  ],
+  [
+   "Bird.",
+   "Avis."
+  ],
+  [
+   "Meanwhile, near the roses, a bird.",
+   "Intereā prope rosās avis."
+  ],
+  [
+   "A bird sits on the wall.",
+   "Avis in mūrō sedet."
+  ],
+  [
+   "Do I see the bird? Yes, I see the bird.",
+   "Avemne videō? Ita, avem videō."
+  ],
+  [
+   "The cat sees the bird too.",
+   "Et fēlēs avem videt."
+  ],
+  [
+   "I sing.",
+   "Canō."
+  ],
+  [
+   "What does the bird do? It sings.",
+   "Quid facit avis? Canit."
+  ],
+  [
+   "I sing a song.",
+   "Carmen canō."
+  ],
+  [
+   "Do I sing well? Not at all.",
+   "Bene canō? Minimē."
+  ],
+  [
+   "Birds sing.",
+   "Avēs canunt."
+  ],
+  [
+   "On the hill the birds sing.",
+   "In colle avēs canunt."
+  ],
+  [
+   "The birds sing, because it's morning.",
+   "Avēs canunt, nam māne est."
+  ],
+  [
+   "Usually the birds sing in the morning.",
+   "Plērumque avēs māne canunt."
+  ],
+  [
+   "The birds sing, and my son sings too.",
+   "Avēs canunt, et fīlius meus quoque canit."
+  ],
+  [
+   "He sings like a bird.",
+   "Quasi avis canit."
+  ],
+  [
+   "Like a bird? No, like a dog!",
+   "Quasi avis? Minimē, quasi canis!"
+  ],
+  [
+   "My daughters sing a song, not like a dog.",
+   "Fīliae meae carmen canunt, nōn quasi canis."
+  ],
+  [
+   "What song do they sing?",
+   "Quod carmen canunt?"
+  ],
+  [
+   "Meanwhile I don't sing.",
+   "Intereā ego nōn canō."
+  ],
+  [
+   "Footprint.",
+   "Vestīgium."
+  ],
+  [
+   "I don't sing; I look. What do I see? Footprints.",
+   "Nōn canō; spectō. Quid videō? Vestīgia."
+  ],
+  [
+   "A dog's footprints.",
+   "Vestīgia canis."
+  ],
+  [
+   "I see footprints on the path.",
+   "In viā vestīgia videō."
+  ],
+  [
+   "Whose footprints? A dog's?",
+   "Cuius vestīgia? Canis?"
+  ],
+  [
+   "No, my son's footprints!",
+   "Minimē, vestīgia fīliī meī!"
+  ],
+  [
+   "There's a footprint on my tunic.",
+   "Vestīgium in tunicā meā est."
+  ],
+  [
+   "Where do the footprints go? All the way to the roses.",
+   "Quō eunt vestīgia? Ūsque ad rosās."
+  ],
+  [
+   "The footprints go over there.",
+   "Vestīgia illūc eunt."
+  ],
+  [
+   "Over there, among the roses, my son is sitting.",
+   "Illīc, inter rosās, fīlius meus sedet."
+  ],
+  [
+   "I walk over there, to my son.",
+   "Illūc ambulō, ad fīlium meum."
+  ],
+  [
+   "Then we all walk to the gate.",
+   "Tum omnēs ad portam ambulāmus."
+  ],
+  [
+   "The gate is over there; we go over there.",
+   "Porta illīc est; illūc īmus."
+  ],
+  [
+   "Near the gate the cat is still sitting on the wall.",
+   "Prope portam fēlēs adhūc in mūrō sedet."
+  ],
+  [
+   "The cat sits; we come back home.",
+   "Fēlēs sedet; nōs domum revenīmus."
+  ],
+  [
+   "We come back home, and I want a cup of wine.",
+   "Domum revenīmus, et pōculum vīnī volō."
+  ],
+  [
+   "The walk, once more.",
+   "Ambulātiō, iterum."
+  ],
+  [
+   "It's autumn; we walk all the way to the gate.",
+   "Autumnus est; ūsque ad portam ambulāmus."
+  ],
+  [
+   "Near the gate a cat sits on the wall.",
+   "Prope portam fēlēs in mūrō sedet."
+  ],
+  [
+   "Behind the wall is a hill; we go over there.",
+   "Post mūrum est collis; illūc īmus."
+  ],
+  [
+   "On the hill we sit in the shade.",
+   "In colle in umbrā sedēmus."
+  ],
+  [
+   "Over there, in the shade, are red roses.",
+   "Illīc, in umbrā, sunt rosae rubrae."
+  ],
+  [
+   "Near the roses the birds sing.",
+   "Prope rosās avēs canunt."
+  ],
+  [
+   "Meanwhile my son sings, like a dog.",
+   "Intereā fīlius meus canit, quasi canis."
+  ],
+  [
+   "On the path: my son's footprints.",
+   "In viā vestīgia fīliī meī."
+  ],
+  [
+   "My son and I come back home, because I'm cold.",
+   "Fīlius meus et ego domum revenīmus, nam frīgeō."
+  ],
+  [
+   "Part four: a long night.",
+   "Pars quārta: nox longa."
+  ],
+  [
+   "It's night. My son is cold.",
+   "Nox est. Fīlius meus frīget."
+  ],
+  [
+   "My son is cold and calls for his mother.",
+   "Fīlius meus frīget et mātrem poscit."
+  ],
+  [
+   "He calls for a cup of water.",
+   "Pōculum aquae poscit."
+  ],
+  [
+   "I fetch the cup and come back.",
+   "Pōculum petō et reveniō."
+  ],
+  [
+   "I come back and sing him a song.",
+   "Reveniō et eī carmen canō."
+  ],
+  [
+   "I sing in the shadows.",
+   "In umbrīs canō."
+  ],
+  [
+   "I am awake.",
+   "Vigilō."
+  ],
+  [
+   "I am awake at night.",
+   "Nocte vigilō."
+  ],
+  [
+   "I am awake all night.",
+   "Tōtam noctem vigilō."
+  ],
+  [
+   "Why am I awake all night?",
+   "Cūr tōtam noctem vigilō?"
+  ],
+  [
+   "I'm awake because of my son.",
+   "Propter fīlium meum vigilō."
+  ],
+  [
+   "My son is awake.",
+   "Fīlius meus vigilat."
+  ],
+  [
+   "My son is awake; I'm awake too.",
+   "Fīlius meus vigilat; ego quoque vigilō."
+  ],
+  [
+   "My son is awake at night: that's his habit.",
+   "Fīlius meus nocte vigilat: haec cōnsuētūdō eius est."
+  ],
+  [
+   "A bad habit? Clearly a bad habit.",
+   "Mala cōnsuētūdō? Plānē mala cōnsuētūdō."
+  ],
+  [
+   "Because of this habit, I was awake last night.",
+   "Propter hanc cōnsuētūdinem proximā nocte vigilāvī."
+  ],
+  [
+   "I was awake all night.",
+   "Tōtam noctem vigilāvī."
+  ],
+  [
+   "Was I awake all night? Yes indeed, all of it.",
+   "Tōtamne noctem vigilāvī? Ita vērō, tōtam."
+  ],
+  [
+   "I'm lying down.",
+   "Iaceō."
+  ],
+  [
+   "I'm lying on the floor.",
+   "In pavīmentō iaceō."
+  ],
+  [
+   "Why am I lying on the floor?",
+   "Cūr in pavīmentō iaceō?"
+  ],
+  [
+   "I lie on the floor because of my son.",
+   "Propter fīlium meum in pavīmentō iaceō."
+  ],
+  [
+   "My son lies in bed; I lie on the floor.",
+   "Fīlius in lectō iacet; ego in pavīmentō iaceō."
+  ],
+  [
+   "Who is lying in bed? My son.",
+   "Quis in lectō iacet? Fīlius meus."
+  ],
+  [
+   "And who is lying on the floor? I am.",
+   "Et quis in pavīmentō iacet? Ego."
+  ],
+  [
+   "I decide to lie on the floor.",
+   "Cōnstituō in pavīmentō iacēre."
+  ],
+  [
+   "What do I decide? To lie next to him.",
+   "Quid cōnstituō? Iūxtā eum iacēre."
+  ],
+  [
+   "All night I lie next to him.",
+   "Tōtam noctem iūxtā eum iaceō."
+  ],
+  [
+   "A tear.",
+   "Lacrima."
+  ],
+  [
+   "One tear, then many tears.",
+   "Ūna lacrima, deinde multae lacrimae."
+  ],
+  [
+   "In tears.",
+   "Cum lacrimīs."
+  ],
+  [
+   "My son calls me in tears.",
+   "Fīlius meus cum lacrimīs mē vocat."
+  ],
+  [
+   "Why is he calling me in tears?",
+   "Cūr cum lacrimīs mē vocat?"
+  ],
+  [
+   "Where do the tears come from?",
+   "Unde veniunt lacrimae?"
+  ],
+  [
+   "Fear.",
+   "Metus."
+  ],
+  [
+   "Because of fear.",
+   "Propter metum."
+  ],
+  [
+   "The tears are because of fear.",
+   "Lacrimae sunt propter metum."
+  ],
+  [
+   "He trembles with fear.",
+   "Metū tremit."
+  ],
+  [
+   "My son trembles with fear and cries.",
+   "Fīlius meus metū tremit et flet."
+  ],
+  [
+   "Fear? What fear?",
+   "Metus? Quī metus?"
+  ],
+  [
+   "I'm afraid.",
+   "Metuō."
+  ],
+  [
+   "I'm afraid of wolves.",
+   "Lupōs metuō."
+  ],
+  [
+   "My son is afraid of wolves.",
+   "Fīlius meus lupōs metuit."
+  ],
+  [
+   "He's afraid of a wolf under the bed.",
+   "Lupum sub lectō metuit."
+  ],
+  [
+   "Is there a wolf under the bed?",
+   "Estne lupus sub lectō?"
+  ],
+  [
+   "There's no wolf at all.",
+   "Omnīnō nūllus lupus est."
+  ],
+  [
+   "What are you afraid of, son? The wolf?",
+   "Quid metuis, fīlī? Lupumne?"
+  ],
+  [
+   "You're afraid of the wolf? I'm not afraid of wolves.",
+   "Lupum metuis? Ego lupōs nōn metuō."
+  ],
+  [
+   "I, though, am afraid of dawn.",
+   "Ego vērō prīmam lūcem metuō."
+  ],
+  [
+   "Neck.",
+   "Collum."
+  ],
+  [
+   "My neck hurts.",
+   "Collum mihi dolet."
+  ],
+  [
+   "Why does my neck hurt?",
+   "Cūr collum mihi dolet?"
+  ],
+  [
+   "My neck hurts because I lie on the floor.",
+   "Collum mihi dolet, quia in pavīmentō iaceō."
+  ],
+  [
+   "Shoulder.",
+   "Umerus."
+  ],
+  [
+   "On my shoulders.",
+   "In umerīs meīs."
+  ],
+  [
+   "I carry my son on my shoulders.",
+   "Fīlium meum in umerīs portō."
+  ],
+  [
+   "At night? Yes, at night, on my shoulders.",
+   "Nocte? Ita, nocte, in umerīs."
+  ],
+  [
+   "He's heavy; my shoulder hurts.",
+   "Gravis est; umerus mihi dolet."
+  ],
+  [
+   "My shoulder hurts, and my neck too.",
+   "Umerus mihi dolet, collum quoque."
+  ],
+  [
+   "Limb.",
+   "Membrum."
+  ],
+  [
+   "Every limb aches.",
+   "Omne membrum mihi dolet."
+  ],
+  [
+   "My limbs ache.",
+   "Membra mihi dolent."
+  ],
+  [
+   "All my limbs ache.",
+   "Omnia membra mihi dolent."
+  ],
+  [
+   "Neck, shoulder, limbs: everything hurts.",
+   "Collum, umerus, membra: omnia dolent."
+  ],
+  [
+   "Everything hurts. Why? Because of the floor.",
+   "Omnia dolent. Cūr? Propter pavīmentum."
+  ],
+  [
+   "Because of the floor, every limb aches.",
+   "Propter pavīmentum omne membrum mihi dolet."
+  ],
+  [
+   "Every limb aches; I'm completely tired.",
+   "Omne membrum dolet; omnīnō fessus sum."
+  ],
+  [
+   "Alive.",
+   "Vīvus."
+  ],
+  [
+   "Still alive.",
+   "Adhūc vīvus."
+  ],
+  [
+   "Am I still alive?",
+   "Vīvusne adhūc sum?"
+  ],
+  [
+   "Yes, I'm still alive. Just.",
+   "Ita, adhūc vīvus sum. Vix."
+  ],
+  [
+   "My son is clearly alive.",
+   "Fīlius meus plānē vīvus est."
+  ],
+  [
+   "He's alive, and he's awake.",
+   "Vīvus est, et vigilat."
+  ],
+  [
+   "It is necessary.",
+   "Necesse est."
+  ],
+  [
+   "I have to.",
+   "Mihi necesse est."
+  ],
+  [
+   "I have to sleep.",
+   "Mihi necesse est dormīre."
+  ],
+  [
+   "I clearly have to sleep.",
+   "Plānē mihi necesse est dormīre."
+  ],
+  [
+   "But my son doesn't have to sleep.",
+   "Fīliō vērō nōn necesse est dormīre."
+  ],
+  [
+   "In the morning I have to work.",
+   "Māne mihi necesse est labōrāre."
+  ],
+  [
+   "Do I have to work today? Yes indeed.",
+   "Hodiēne mihi necesse est labōrāre? Ita vērō."
+  ],
+  [
+   "First, though, I have to carry my son.",
+   "Prīmum vērō mihi necesse est fīlium portāre."
+  ],
+  [
+   "I decide to carry him on my shoulders.",
+   "Cōnstituō eum in umerīs portāre."
+  ],
+  [
+   "On my shoulders he isn't afraid.",
+   "In umerīs meīs nōn metuit."
+  ],
+  [
+   "Why isn't he afraid?",
+   "Cūr nōn metuit?"
+  ],
+  [
+   "He isn't afraid, because Dad is big.",
+   "Nōn metuit, quia pater magnus est."
+  ],
+  [
+   "Dad is big; but Dad's neck hurts.",
+   "Pater magnus est; collum vērō patrī dolet."
+  ],
+  [
+   "My neck hurts; my son is no longer crying.",
+   "Collum mihi dolet; fīlius iam nōn flet."
+  ],
+  [
+   "No more tears? Not a single tear.",
+   "Nūllae iam lacrimae? Nē ūna quidem lacrima."
+  ],
+  [
+   "No tears: my son lies in bed again.",
+   "Nūllae lacrimae: fīlius iterum in lectō iacet."
+  ],
+  [
+   "And I? I lie on the floor again.",
+   "Et ego? Iterum in pavīmentō iaceō."
+  ],
+  [
+   "Do I want to lie on the floor? Not at all.",
+   "Volōne in pavīmentō iacēre? Omnīnō nōn."
+  ],
+  [
+   "But again I'm on the floor! Is this my habit?",
+   "Iterum vērō in pavīmentō! Estne haec cōnsuētūdō mea?"
+  ],
+  [
+   "Clearly it's my habit.",
+   "Plānē cōnsuētūdō mea est."
+  ],
+  [
+   "My habit: I'm awake on the floor, my limbs ache.",
+   "Cōnsuētūdō mea: in pavīmentō vigilō, membra dolent."
+  ],
+  [
+   "My limbs ache; I decide to sleep.",
+   "Membra dolent; cōnstituō dormīre."
+  ],
+  [
+   "Can I sleep? Not at all.",
+   "Possumne dormīre? Omnīnō nōn."
+  ],
+  [
+   "I can't sleep: at midnight my son is awake again.",
+   "Dormīre nōn possum: mediā nocte fīlius iterum vigilat."
+  ],
+  [
+   "Is he awake? Clearly he's awake.",
+   "Vigilatne? Plānē vigilat."
+  ],
+  [
+   "He's awake: again tears because of fear.",
+   "Vigilat: iterum lacrimae propter metum."
+  ],
+  [
+   "Fear of the wolf? There's no wolf at all.",
+   "Metus lupī? Omnīnō nūllus lupus est."
+  ],
+  [
+   "What are you afraid of? The wolf?",
+   "Quid metuis? Lupumne?"
+  ],
+  [
+   "You're afraid of the wolf; I have to sing again.",
+   "Lupum metuis; mihi necesse est iterum canere."
+  ],
+  [
+   "I sing all the way to dawn. Are we still alive?",
+   "Ūsque ad lūcem canō. Adhūcne vīvī sumus?"
+  ],
+  [
+   "Yes, we're all alive.",
+   "Ita, omnēs vīvī sumus."
+  ],
+  [
+   "Are we all alive? Yes, alive, but tired.",
+   "Omnēsne vīvī sumus? Ita, vīvī, sed fessī."
+  ],
+  [
+   "So we are tired. What happened in the night?",
+   "Fessī ergō sumus. Quid nocte accidit?"
+  ],
+  [
+   "At night my son is awake, in tears.",
+   "Nocte fīlius meus vigilat, cum lacrimīs."
+  ],
+  [
+   "In tears: he fears the wolf.",
+   "Cum lacrimīs lupum metuit."
+  ],
+  [
+   "He trembles with fear; I carry him on my shoulders.",
+   "Metū tremit; eum in umerīs portō."
+  ],
+  [
+   "I carry him, then I lie on the floor.",
+   "Eum portō, deinde in pavīmentō iaceō."
+  ],
+  [
+   "On the floor my neck and limbs ache.",
+   "In pavīmentō collum et membra mihi dolent."
+  ],
+  [
+   "In the morning? Still alive, but I have to work.",
+   "Māne? Adhūc vīvus, sed mihi necesse est labōrāre."
+  ],
+  [
+   "A long night; but truly, we're all alive.",
+   "Nox longa; omnēs vērō vīvī sumus."
+  ],
+  [
+   "Part five: the evening.",
+   "Pars quīnta: vesper."
+  ],
+  [
+   "I'm very cold.",
+   "Valdē frīgeō."
+  ],
+  [
+   "I'm cold; I put on a thick tunic.",
+   "Frīgeō; tunicam crassam induō."
+  ],
+  [
+   "I put on the tunic and come back home.",
+   "Tunicam induō et domum reveniō."
+  ],
+  [
+   "I come back home. A cup of water?",
+   "Domum reveniō. Pōculum aquae?"
+  ],
+  [
+   "A cup of water in the garden. The birds sing.",
+   "Pōculum aquae in hortō. Avēs canunt."
+  ],
+  [
+   "The birds sing; the shadows are long.",
+   "Avēs canunt; umbrae longae sunt."
+  ],
+  [
+   "I lie in the shade.",
+   "In umbrā iaceō."
+  ],
+  [
+   "I'm lying down, but I'm awake.",
+   "Iaceō, sed vigilō."
+  ],
+  [
+   "Why am I awake? It's evening.",
+   "Cūr vigilō? Vesper est."
+  ],
+  [
+   "Evening.",
+   "Vesper."
+  ],
+  [
+   "Towards evening.",
+   "Ad vesperum."
+  ],
+  [
+   "Towards evening I'm cold.",
+   "Ad vesperum frīgeō."
+  ],
+  [
+   "The evening is beautiful.",
+   "Vesper pulcher est."
+  ],
+  [
+   "Is the evening beautiful? Certainly.",
+   "Estne vesper pulcher? Profectō."
+  ],
+  [
+   "Beautiful, but cold towards evening.",
+   "Pulcher, sed ad vesperum frīgidus."
+  ],
+  [
+   "In the evening.",
+   "Vesperī."
+  ],
+  [
+   "In the evening I'm always cold.",
+   "Vesperī semper frīgeō."
+  ],
+  [
+   "In the evening I look at the sky.",
+   "Vesperī caelum spectō."
+  ],
+  [
+   "In the sky: a star.",
+   "In caelō: stēlla."
+  ],
+  [
+   "A star.",
+   "Stēlla."
+  ],
+  [
+   "The stars shine.",
+   "Stēllae lūcent."
+  ],
+  [
+   "In the evening the stars shine.",
+   "Vesperī stēllae lūcent."
+  ],
+  [
+   "Do the stars shine? Certainly they shine.",
+   "Lūcentne stēllae? Profectō lūcent."
+  ],
+  [
+   "I see a star.",
+   "Stēllam videō."
+  ],
+  [
+   "I see a certain star.",
+   "Stēllam quandam videō."
+  ],
+  [
+   "In the evening I always see the same star.",
+   "Vesperī semper eandem stēllam videō."
+  ],
+  [
+   "The same star? Yes, the same.",
+   "Eandem stēllam? Ita, eandem."
+  ],
+  [
+   "I've never seen such a star.",
+   "Tālem stēllam numquam vīdī."
+  ],
+  [
+   "But tonight I see a play.",
+   "Sed hāc nocte fābulam videō."
+  ],
+  [
+   "A play at school, on a stage.",
+   "Fābula in scholā, in scaenā."
+  ],
+  [
+   "Stage.",
+   "Scaena."
+  ],
+  [
+   "On stage.",
+   "In scaenā."
+  ],
+  [
+   "My daughter is on stage.",
+   "Fīlia mea in scaenā est."
+  ],
+  [
+   "Who is on stage? My daughter.",
+   "Quis in scaenā est? Fīlia mea."
+  ],
+  [
+   "The stage is small.",
+   "Scaena parva est."
+  ],
+  [
+   "My son wants to go onto the stage.",
+   "Fīlius meus in scaenam īre vult."
+  ],
+  [
+   "Onto the stage? No!",
+   "In scaenam? Minimē!"
+  ],
+  [
+   "My son runs onto the stage!",
+   "Fīlius meus in scaenam currit!"
+  ],
+  [
+   "A little boy on stage. The play is certainly new!",
+   "Puer parvus in scaenā. Fābula profectō nova est!"
+  ],
+  [
+   "The play has a title.",
+   "Fābula titulum habet."
+  ],
+  [
+   "Title.",
+   "Titulus."
+  ],
+  [
+   "The title of the play.",
+   "Titulus fābulae."
+  ],
+  [
+   "What is the title of the play?",
+   "Quī est titulus fābulae?"
+  ],
+  [
+   "The title is one word.",
+   "Titulus ūnum vocābulum est."
+  ],
+  [
+   "One word? Which word?",
+   "Ūnum vocābulum? Quod vocābulum?"
+  ],
+  [
+   "The title is 'The Star'.",
+   "Titulus est 'Stēlla'."
+  ],
+  [
+   "'The Star'? A beautiful word.",
+   "'Stēlla'? Pulchrum vocābulum."
+  ],
+  [
+   "I read the word again.",
+   "Vocābulum iterum legō."
+  ],
+  [
+   "I read the title again.",
+   "Titulum iterum legō."
+  ],
+  [
+   "Every year the same title, the same play.",
+   "Quotannīs īdem titulus, eadem fābula."
+  ],
+  [
+   "Before the play: a meeting.",
+   "Ante fābulam: conventus."
+  ],
+  [
+   "A meeting of parents.",
+   "Conventus parentum."
+  ],
+  [
+   "Is the meeting long? Certainly long!",
+   "Estne conventus longus? Profectō longus!"
+  ],
+  [
+   "At the meeting a certain woman speaks.",
+   "In conventū quaedam fēmina loquitur."
+  ],
+  [
+   "The woman is a friend.",
+   "Fēmina amīca est."
+  ],
+  [
+   "A friend.",
+   "Amīca."
+  ],
+  [
+   "With a friend.",
+   "Cum amīcā."
+  ],
+  [
+   "My wife sits with her friend.",
+   "Uxor mea cum amīcā suā sedet."
+  ],
+  [
+   "My wife's friend speaks at the meeting.",
+   "Amīca uxōris meae in conventū loquitur."
+  ],
+  [
+   "Why does the friend speak? I don't know.",
+   "Cūr amīca loquitur? Nesciō."
+  ],
+  [
+   "After the meeting I greet the friend.",
+   "Post conventum amīcam salūtō."
+  ],
+  [
+   "The friend is good-looking.",
+   "Amīca fōrmōsa est."
+  ],
+  [
+   "Good-looking.",
+   "Fōrmōsus."
+  ],
+  [
+   "A good-looking friend.",
+   "Amīca fōrmōsa."
+  ],
+  [
+   "Is my wife's friend good-looking? Certainly.",
+   "Estne amīca uxōris meae fōrmōsa? Profectō."
+  ],
+  [
+   "My wife is also good-looking. I say it quickly.",
+   "Uxor mea quoque fōrmōsa est. Celeriter dīcō."
+  ],
+  [
+   "On stage, a certain good-looking young man.",
+   "In scaenā quīdam iuvenis fōrmōsus."
+  ],
+  [
+   "Who is this good-looking young man?",
+   "Quis est hic iuvenis fōrmōsus?"
+  ],
+  [
+   "The good-looking young man is the friend's son.",
+   "Iuvenis fōrmōsus fīlius amīcae est."
+  ],
+  [
+   "My son is also good-looking, but small.",
+   "Fīlius meus quoque fōrmōsus est, sed parvus."
+  ],
+  [
+   "Such small boys always run onto the stage.",
+   "Tālēs puerī parvī semper in scaenam currunt."
+  ],
+  [
+   "The play is long; the small boy is tired.",
+   "Fābula longa est; puer parvus fessus est."
+  ],
+  [
+   "I'm tired too. I leave.",
+   "Ego quoque fessus sum. Discēdō."
+  ],
+  [
+   "I leave.",
+   "Discēdō."
+  ],
+  [
+   "I leave the school.",
+   "Ē scholā discēdō."
+  ],
+  [
+   "We leave the school.",
+   "Ē scholā discēdimus."
+  ],
+  [
+   "Are we leaving now? Yes, we're leaving.",
+   "Discēdimusne nunc? Ita, discēdimus."
+  ],
+  [
+   "The friend leaves with her son.",
+   "Amīca cum fīliō suō discēdit."
+  ],
+  [
+   "We left late.",
+   "Sērō discessimus."
+  ],
+  [
+   "We left. Now I drive the kids.",
+   "Discessimus. Nunc līberōs vehō."
+  ],
+  [
+   "I carry, I drive (someone).",
+   "Vehō."
+  ],
+  [
+   "I drive the kids.",
+   "Līberōs vehō."
+  ],
+  [
+   "I drive the kids home.",
+   "Līberōs domum vehō."
+  ],
+  [
+   "Who drives the kids home? I drive.",
+   "Quis līberōs domum vehit? Ego vehō."
+  ],
+  [
+   "Under the stars I drive the kids home.",
+   "Sub stēllīs līberōs domum vehō."
+  ],
+  [
+   "Yesterday too I drove the kids.",
+   "Herī quoque līberōs vēxī."
+  ],
+  [
+   "Yesterday I drove; today I drive.",
+   "Herī vēxī; hodiē vehō."
+  ],
+  [
+   "Every day the same: I drive.",
+   "Cotīdiē idem: vehō."
+  ],
+  [
+   "I drive; are the kids sleeping?",
+   "Vehō; dormiuntne līberī?"
+  ],
+  [
+   "Neither daughter is sleeping.",
+   "Neutra fīlia dormit."
+  ],
+  [
+   "Neither (of two).",
+   "Neuter."
+  ],
+  [
+   "Neither daughter.",
+   "Neutra fīlia."
+  ],
+  [
+   "Are my daughters sleeping? Neither is sleeping.",
+   "Dormiuntne fīliae meae? Neutra dormit."
+  ],
+  [
+   "The son is sleeping; neither daughter.",
+   "Fīlius dormit; neutra fīlia."
+  ],
+  [
+   "And us? Neither of us is sleeping.",
+   "Et nōs? Neuter nostrum dormit."
+  ],
+  [
+   "Neither of us is sleeping. Good: I'm driving.",
+   "Neuter nostrum dormit. Bene: ego vehō."
+  ],
+  [
+   "I drive the kids home. Where are the keys?",
+   "Līberōs domum vehō. Ubi sunt clāvēs?"
+  ],
+  [
+   "I look for the keys. Do I find them?",
+   "Clāvēs quaerō. Reperiōne eās?"
+  ],
+  [
+   "I find.",
+   "Reperiō."
+  ],
+  [
+   "I find the keys.",
+   "Clāvēs reperiō."
+  ],
+  [
+   "I can't find the keys!",
+   "Clāvēs nōn reperiō!"
+  ],
+  [
+   "Do you find the keys? No.",
+   "Reperīsne clāvēs? Minimē."
+  ],
+  [
+   "Neither of us can find the keys.",
+   "Neuter nostrum clāvēs reperit."
+  ],
+  [
+   "Who has the keys? A certain little boy.",
+   "Quis clāvēs habet? Quīdam puer parvus."
+  ],
+  [
+   "I found the keys!",
+   "Clāvēs repperī!"
+  ],
+  [
+   "Where did I find the keys? In my son's hand.",
+   "Ubi clāvēs repperī? In manū fīliī meī."
+  ],
+  [
+   "I found them in my son's hand.",
+   "Eās in manū fīliī meī repperī."
+  ],
+  [
+   "Such a son! Certainly naughty.",
+   "Tālis fīlius! Profectō improbus."
+  ],
+  [
+   "My son is naughty, but the evening is beautiful.",
+   "Fīlius improbus est, sed vesper pulcher est."
+  ],
+  [
+   "In the evening, under the stars, we left.",
+   "Vesperī sub stēllīs discessimus."
+  ],
+  [
+   "I love such an evening.",
+   "Tālem vesperum amō."
+  ],
+  [
+   "The same evening, the same stars.",
+   "Īdem vesper, eaedem stēllae."
+  ],
+  [
+   "In the evening the stars shine.",
+   "Vesperī stēllae lūcent."
+  ],
+  [
+   "My daughter is a star on stage.",
+   "Fīlia mea in scaenā stēlla est."
+  ],
+  [
+   "The title of the play: one word, 'Star'.",
+   "Titulus fābulae: ūnum vocābulum, 'Stēlla'."
+  ],
+  [
+   "My wife's friend is good-looking; her son too.",
+   "Amīca uxōris meae fōrmōsa est; fīlius quoque."
+  ],
+  [
+   "Late, we leave the school.",
+   "Sērō ē scholā discēdimus."
+  ],
+  [
+   "Under the stars I drive the kids home.",
+   "Sub stēllīs līberōs domum vehō."
+  ],
+  [
+   "Neither daughter is sleeping.",
+   "Neutra fīlia dormit."
+  ],
+  [
+   "And the keys? I found them in my son's hand.",
+   "Et clāvēs? Eās in manū fīliī meī repperī."
+  ],
+  [
+   "Last part: the whole day.",
+   "Pars ultima: tōtus diēs."
+  ],
+  [
+   "I was cold.",
+   "Frīgēbam."
+  ],
+  [
+   "This morning I was cold.",
+   "Hodiē māne frīgēbam."
+  ],
+  [
+   "Why? My tunic was thin. Too thin.",
+   "Cūr? Tunica mea tenuis erat. Nimis tenuis."
+  ],
+  [
+   "So I put on a thick tunic.",
+   "Ideō tunicam crassam induī."
+  ],
+  [
+   "I'd rather be warm than good-looking.",
+   "Mālō calidus esse quam fōrmōsus."
+  ],
+  [
+   "Then I told the kids to put on their clothes.",
+   "Tum līberōs vestīmenta induere iussī."
+  ],
+  [
+   "Did they obey me? Not at all.",
+   "Pāruēruntne mihi? Omnīnō nōn."
+  ],
+  [
+   "What did they demand? Food.",
+   "Quid poposcērunt? Cibum."
+  ],
+  [
+   "Since they were so hungry, I made eggs.",
+   "Quoniam tantā famē labōrābant, ōva parāvī."
+  ],
+  [
+   "Eggs? They didn't want eggs, however.",
+   "Ōva? Ōva tamen nōlēbant."
+  ],
+  [
+   "They wanted bread, at least.",
+   "Pānem saltem cupiēbant."
+  ],
+  [
+   "I took a knife and cut the bread.",
+   "Cultrum sūmpsī et pānem secuī."
+  ],
+  [
+   "Meanwhile a naughty boy hid the bread.",
+   "Intereā puer improbus pānem occultāvit."
+  ],
+  [
+   "After the meal we went off to the river.",
+   "Post cibum ad flūmen abiimus."
+  ],
+  [
+   "My son wanted to fish with a line.",
+   "Fīlius meus līneā piscārī cupiēbat."
+  ],
+  [
+   "We chose a spot in the shade.",
+   "Locum in umbrā ēlēgimus."
+  ],
+  [
+   "And my son caught a fish!",
+   "Et fīlius meus piscem cēpit!"
+  ],
+  [
+   "A big fish? No, a small one.",
+   "Magnum piscem? Immō parvum."
+  ],
+  [
+   "Small indeed, but alive.",
+   "Parvus quidem, sed vīvus."
+  ],
+  [
+   "It was ugly, however. Plainly ugly.",
+   "Foedus autem erat. Plānē foedus."
+  ],
+  [
+   "I had never seen such a fish.",
+   "Numquam tālem piscem vīderam."
+  ],
+  [
+   "It's better to eat bread than such a fish.",
+   "Praestat pānem edere quam tālem piscem."
+  ],
+  [
+   "Then we came back home.",
+   "Tum domum revēnimus."
+  ],
+  [
+   "At home someone knocked on the door.",
+   "Domī quīdam ōstium pulsāvit."
+  ],
+  [
+   "Who was knocking? My wife's friend.",
+   "Quis pulsābat? Amīca uxōris meae."
+  ],
+  [
+   "I gave her a cup of water.",
+   "Eī pōculum aquae dedī."
+  ],
+  [
+   "She demanded a second cup.",
+   "Alterum pōculum poposcit."
+  ],
+  [
+   "Then she went off. She would come back in the evening.",
+   "Tum abiit. Vesperī reventūra erat."
+  ],
+  [
+   "Afterwards we walked to the hill.",
+   "Posteā ad collem ambulāvimus."
+  ],
+  [
+   "Beside the wall, all the way to the hill.",
+   "Iūxtā mūrum ūsque ad collem."
+  ],
+  [
+   "By the gate there were beautiful roses.",
+   "Prope portam rosae pulchrae erant."
+  ],
+  [
+   "Birds were singing in the trees.",
+   "Avēs in arboribus canēbant."
+  ],
+  [
+   "Did the birds attack me? Not at all!",
+   "Petīvēruntne mē avēs? Omnīnō nōn!"
+  ],
+  [
+   "Usually the birds attack me.",
+   "Plērumque avēs mē petunt."
+  ],
+  [
+   "For it's spring here, not autumn.",
+   "Nam hīc vēr est, nōn autumnus."
+  ],
+  [
+   "On the way I saw footprints.",
+   "In viā vestīgia vīdī."
+  ],
+  [
+   "Whose footprints? A dog was over there.",
+   "Cuius vestīgia? Canis illīc erat."
+  ],
+  [
+   "The kids ran over there to the dog.",
+   "Līberī illūc ad canem cucurrērunt."
+  ],
+  [
+   "Meanwhile I lay in the shade, as if dead.",
+   "Intereā in umbrā iacuī, quasi mortuus."
+  ],
+  [
+   "Why? For I was very tired.",
+   "Cūr? Nam valdē fessus eram."
+  ],
+  [
+   "Last night I was awake, because of my daughter.",
+   "Hesternā nocte propter fīliam meam vigilāvī."
+  ],
+  [
+   "She was afraid of a wolf under the bed.",
+   "Lupum sub lectō metuēbat."
+  ],
+  [
+   "She was trembling with fear.",
+   "Metū tremēbat."
+  ],
+  [
+   "She came to me in tears.",
+   "Cum lacrimīs ad mē vēnit."
+  ],
+  [
+   "I sang her a song.",
+   "Eī carmen cecinī."
+  ],
+  [
+   "She slept. But I was awake until dawn.",
+   "Illa dormīvit. Ego vērō ūsque ad lūcem vigilāvī."
+  ],
+  [
+   "That's the custom of fathers.",
+   "Ea est cōnsuētūdō patrum."
+  ],
+  [
+   "So now my neck hurts.",
+   "Ideō nunc collum mihi dolet."
+  ],
+  [
+   "My neck, my shoulders, all my limbs ache.",
+   "Collum, umerī, omnia membra dolent."
+  ],
+  [
+   "The kids came back. 'Carry us, Dad!'",
+   "Līberī revēnērunt. 'Portā nōs, pater!'"
+  ],
+  [
+   "I decided to carry just one.",
+   "Cōnstituī ūnum tantum portāre."
+  ],
+  [
+   "In the evening we went to a play.",
+   "Vesperī ad fābulam īvimus."
+  ],
+  [
+   "My wife's friend came. Good-looking? Very.",
+   "Amīca uxōris meae vēnit. Fōrmōsa? Valdē."
+  ],
+  [
+   "So was I, in my thick tunic.",
+   "Ego quoque, in tunicā crassā."
+  ],
+  [
+   "There was a big gathering at the school.",
+   "In scholā magnus conventus erat."
+  ],
+  [
+   "My daughter stood on the stage.",
+   "Fīlia mea in scaenā stābat."
+  ],
+  [
+   "What was the title of the play?",
+   "Quī erat titulus fābulae?"
+  ],
+  [
+   "The title? 'The Rope.' Just like a fishing line!",
+   "Titulus? 'Rudēns.' Quasi līnea!"
+  ],
+  [
+   "I didn't understand a certain word.",
+   "Vocābulum quoddam nōn intellēxī."
+  ],
+  [
+   "Which word? The title itself!",
+   "Quod vocābulum? Titulum ipsum!"
+  ],
+  [
+   "Neither son stayed awake.",
+   "Neuter fīlius vigilāvit."
+  ],
+  [
+   "Late, we left the school.",
+   "Sērō ē scholā discessimus."
+  ],
+  [
+   "Above us, the stars were shining.",
+   "Super nōs stēllae lūcēbant."
+  ],
+  [
+   "I drove the sleeping kids home.",
+   "Līberōs dormientēs domum vēxī."
+  ],
+  [
+   "Where were the keys?",
+   "Ubi erant clāvēs?"
+  ],
+  [
+   "The naughty boy had hidden them!",
+   "Puer improbus eās occultāverat!"
+  ],
+  [
+   "The same boy, on the same day!",
+   "Īdem puer, eōdem diē!"
+  ],
+  [
+   "At last I found them under his bed.",
+   "Tandem eās sub lectō eius repperī."
+  ],
+  [
+   "Am I still alive? Barely.",
+   "Vīvusne adhūc sum? Vix."
+  ],
+  [
+   "It was certainly a long day.",
+   "Profectō longus diēs fuit."
+  ],
+  [
+   "Now it is necessary to sleep.",
+   "Nunc dormīre necesse est."
+  ],
+  [
+   "For me, at least.",
+   "Mihi saltem."
+  ],
+  [
+   "Once more: the new words.",
+   "Iterum: verba nova."
+  ],
+  [
+   "I put on (clothes)",
+   "induō"
+  ],
+  [
+   "a tunic",
+   "tunica"
+  ],
+  [
+   "thin",
+   "tenuis"
+  ],
+  [
+   "thick",
+   "crassus"
+  ],
+  [
+   "I am cold",
+   "frīgeō"
+  ],
+  [
+   "I order, I tell",
+   "iubeō"
+  ],
+  [
+   "I obey",
+   "pāreō"
+  ],
+  [
+   "naughty",
+   "improbus"
+  ],
+  [
+   "I demand",
+   "poscō"
+  ],
+  [
+   "I hide",
+   "occultō"
+  ],
+  [
+   "I take",
+   "sūmō"
+  ],
+  [
+   "a fish",
+   "piscis"
+  ],
+  [
+   "a knife",
+   "culter"
+  ],
+  [
+   "a cup",
+   "pōculum"
+  ],
+  [
+   "a line",
+   "līnea"
+  ],
+  [
+   "so great",
+   "tantus"
+  ],
+  [
+   "ugly",
+   "foedus"
+  ],
+  [
+   "I knock",
+   "pulsō"
+  ],
+  [
+   "I come back",
+   "reveniō"
+  ],
+  [
+   "I go away",
+   "abeō"
+  ],
+  [
+   "a town wall",
+   "mūrus"
+  ],
+  [
+   "shade",
+   "umbra"
+  ],
+  [
+   "a town gate",
+   "porta"
+  ],
+  [
+   "a hill",
+   "collis"
+  ],
+  [
+   "a rose",
+   "rosa"
+  ],
+  [
+   "a bird",
+   "avis"
+  ],
+  [
+   "I sing",
+   "canō"
+  ],
+  [
+   "autumn",
+   "autumnus"
+  ],
+  [
+   "a footprint",
+   "vestīgium"
+  ],
+  [
+   "over there",
+   "illīc"
+  ],
+  [
+   "the neck",
+   "collum"
+  ],
+  [
+   "the shoulder",
+   "umerus"
+  ],
+  [
+   "a limb",
+   "membrum"
+  ],
+  [
+   "I lie (down)",
+   "iaceō"
+  ],
+  [
+   "I am awake",
+   "vigilō"
+  ],
+  [
+   "a tear",
+   "lacrima"
+  ],
+  [
+   "fear",
+   "metus"
+  ],
+  [
+   "I fear, I am afraid of",
+   "metuō"
+  ],
+  [
+   "alive",
+   "vīvus"
+  ],
+  [
+   "it is necessary",
+   "necesse est"
+  ],
+  [
+   "evening",
+   "vesper"
+  ],
+  [
+   "a star",
+   "stēlla"
+  ],
+  [
+   "a stage",
+   "scaena"
+  ],
+  [
+   "a title",
+   "titulus"
+  ],
+  [
+   "good-looking",
+   "fōrmōsus"
+  ],
+  [
+   "a friend, a girlfriend",
+   "amīca"
+  ],
+  [
+   "I carry, I drive",
+   "vehō"
+  ],
+  [
+   "I leave",
+   "discēdō"
+  ],
+  [
+   "neither of two",
+   "neuter"
+  ],
+  [
+   "I find",
+   "reperiō"
+  ],
+  [
+   "And the hard words.",
+   "Et verba difficilia."
+  ],
+  [
+   "nevertheless, I'm cold",
+   "tamen frīgeō"
+  ],
+  [
+   "since you are tired",
+   "quoniam fessus es"
+  ],
+  [
+   "that's why I'm cold",
+   "ideō frīgeō"
+  ],
+  [
+   "I'd rather wait",
+   "mālō exspectāre"
+  ],
+  [
+   "I want bread",
+   "pānem cupiō"
+  ],
+  [
+   "for me, at least",
+   "mihi saltem"
+  ],
+  [
+   "so much hunger",
+   "tanta famēs"
+  ],
+  [
+   "small indeed",
+   "parvus quidem"
+  ],
+  [
+   "I choose a spot",
+   "locum ēligō"
+  ],
+  [
+   "it is better to wait",
+   "praestat exspectāre"
+  ],
+  [
+   "then we came back",
+   "tum revēnimus"
+  ],
+  [
+   "I, however",
+   "ego autem"
+  ],
+  [
+   "all the way to the hill",
+   "ūsque ad collem"
+  ],
+  [
+   "run over there",
+   "curre illūc"
+  ],
+  [
+   "usually I walk",
+   "plērumque ambulō"
+  ],
+  [
+   "meanwhile I lay down",
+   "intereā iacuī"
+  ],
+  [
+   "as if dead",
+   "quasi mortuus"
+  ],
+  [
+   "for I am tired",
+   "nam fessus sum"
+  ],
+  [
+   "the custom of fathers",
+   "cōnsuētūdō patrum"
+  ],
+  [
+   "not at all",
+   "omnīnō nōn"
+  ],
+  [
+   "plainly ugly",
+   "plānē foedus"
+  ],
+  [
+   "because of my daughter",
+   "propter fīliam meam"
+  ],
+  [
+   "yes indeed",
+   "ita vērō"
+  ],
+  [
+   "I decide to stay",
+   "cōnstituō manēre"
+  ],
+  [
+   "a certain young man",
+   "quīdam iuvenis"
+  ],
+  [
+   "the same boy",
+   "īdem puer"
+  ],
+  [
+   "such a fish",
+   "tālis piscis"
+  ],
+  [
+   "certainly a long day",
+   "profectō longus diēs"
+  ],
+  [
+   "a big gathering",
+   "magnus conventus"
+  ],
+  [
+   "a new word",
+   "vocābulum novum"
+  ],
+  [
+   "That's enough for today.",
+   "Hodiē satis est."
+  ]
+ ]
+}

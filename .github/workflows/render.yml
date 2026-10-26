@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths: ['jobs/**', 'pipeline/**']
   workflow_dispatch:
+  schedule:
+    - cron: '0 19 * * *'   # 6 am Sydney: releases held jobs (not_before)
 permissions:
   contents: write
   pages: write

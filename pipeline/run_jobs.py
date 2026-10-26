@@ -490,6 +490,9 @@ def main():
         if jp.endswith('.done.json') or os.path.exists(jp[:-5] + '.done.json'):
             continue
         job = json.load(open(jp)); el.LOG.clear()
+        nb = job.get('not_before')   # e.g. "2026-10-28": hold the job until that Sydney date (experiment 152)
+        if nb and datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=11))).date().isoformat() < nb:
+            print('held until', nb, ':', jp); continue
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
