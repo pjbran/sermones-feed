@@ -306,27 +306,5 @@
   "bytes": 12786962,
   "duration": "26:21",
   "host": "pages"
- },
- {
-  "file": "bonus-scala-9-admone-me.mp3",
-  "title": "Ladder 9 · Admonē mē, quaesō · ElevenLabs Flash (× 2)",
-  "season": 1,
-  "episode": 36,
-  "date": "2026-10-27T19:47:01+11:00",
-  "summary": "A pyramid in Marcus's ElevenLabs voice on the half-price Flash model: remind me, please; you reminded me; I almost forgot; I will remind you; if you had not reminded me, I would have forgotten.",
-  "bytes": 6393665,
-  "duration": "8:41",
-  "host": "pages"
- },
- {
-  "file": "bonus-scala-9-admone-me-latina.mp3",
-  "title": "Ladder 9 · Admonē mē, quaesō · ElevenLabs Flash · Latin only (× 2)",
-  "season": 1,
-  "episode": 37,
-  "date": "2026-10-27T19:47:11+11:00",
-  "summary": "Latin only. A pyramid in Marcus's ElevenLabs voice on the half-price Flash model: remind me, please; you reminded me; I almost forgot; I will remind you; if you had not reminded me, I would have forgotten.",
-  "bytes": 3330366,
-  "duration": "4:26",
-  "host": "pages"
  }
 ]

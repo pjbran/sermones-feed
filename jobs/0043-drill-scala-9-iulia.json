@@ -1,0 +1,248 @@
+{
+ "type": "drill",
+ "engine": "eleven",
+ "voice": "F",
+ "stability": 0.5,
+ "slug": "scala-9-admone-me-iulia",
+ "title": "Ladder 9 · Admonē mē, quaesō (× 2)",
+ "summary": "Iulia's voice (his pick, 28 Oct). Remind me, please; you reminded me; I almost forgot; I will remind you; if you had not reminded me, I would have forgotten.",
+ "repeat": 2,
+ "music": "v5",
+ "keep_credits": 1000,
+ "pairs": [
+  [
+   "Remind me.",
+   "Admonē mē."
+  ],
+  [
+   "Remind me, please.",
+   "Admonē mē, quaesō."
+  ],
+  [
+   "Remind me tomorrow, please.",
+   "Admonē mē crās, quaesō."
+  ],
+  [
+   "Remind me tomorrow, please, about the meeting.",
+   "Admonē mē crās, quaesō, dē conventū."
+  ],
+  [
+   "Remind me about the meeting.",
+   "Admonē mē dē conventū."
+  ],
+  [
+   "Why? Do you forget?",
+   "Cūr? Oblīvīsceris?"
+  ],
+  [
+   "Yes, I often forget.",
+   "Ita, saepe oblīvīscor."
+  ],
+  [
+   "I often forget the meetings.",
+   "Saepe conventūs oblīvīscor."
+  ],
+  [
+   "Remind me, please.",
+   "Admonē mē, quaesō."
+  ],
+  [
+   "You reminded me.",
+   "Admonuistī mē."
+  ],
+  [
+   "Yesterday you reminded me.",
+   "Herī mē admonuistī."
+  ],
+  [
+   "Yesterday you reminded me about the meeting.",
+   "Herī mē dē conventū admonuistī."
+  ],
+  [
+   "Yesterday you reminded me, and I thank you.",
+   "Herī mē admonuistī, et grātiās tibi agō."
+  ],
+  [
+   "So I thank you.",
+   "Itaque grātiās tibi agō."
+  ],
+  [
+   "Why do you thank me?",
+   "Cūr mihi grātiās agis?"
+  ],
+  [
+   "Because you reminded me.",
+   "Quia mē admonuistī."
+  ],
+  [
+   "I almost forgot.",
+   "Paene oblītus sum."
+  ],
+  [
+   "I almost forgot the meeting.",
+   "Paene conventum oblītus sum."
+  ],
+  [
+   "Yesterday I almost forgot the meeting.",
+   "Herī paene conventum oblītus sum."
+  ],
+  [
+   "But you reminded me.",
+   "Sed tū mē admonuistī."
+  ],
+  [
+   "Did you forget?",
+   "Oblītusne es?"
+  ],
+  [
+   "No, I did not forget.",
+   "Minimē, nōn oblītus sum."
+  ],
+  [
+   "I did not forget, because you reminded me.",
+   "Nōn oblītus sum, quia mē admonuistī."
+  ],
+  [
+   "Tomorrow I will remind you.",
+   "Crās tē admonēbō."
+  ],
+  [
+   "Will you remind me?",
+   "Mēne admonēbis?"
+  ],
+  [
+   "Yes, I will remind you.",
+   "Ita, tē admonēbō."
+  ],
+  [
+   "Tomorrow I will remind you about the meeting.",
+   "Crās tē dē conventū admonēbō."
+  ],
+  [
+   "When will you remind me?",
+   "Quandō mē admonēbis?"
+  ],
+  [
+   "In the morning I will remind you.",
+   "Māne tē admonēbō."
+  ],
+  [
+   "Remind me in the morning, please.",
+   "Admonē mē māne, quaesō."
+  ],
+  [
+   "If you had not reminded me...",
+   "Nisi mē admonuissēs..."
+  ],
+  [
+   "If you had not reminded me, I would have forgotten.",
+   "Nisi mē admonuissēs, oblītus essem."
+  ],
+  [
+   "I would have forgotten.",
+   "Oblītus essem."
+  ],
+  [
+   "I would have forgotten the meeting.",
+   "Conventum oblītus essem."
+  ],
+  [
+   "If you had not reminded me, I would have forgotten the meeting.",
+   "Nisi mē admonuissēs, conventum oblītus essem."
+  ],
+  [
+   "So I thank you.",
+   "Itaque grātiās tibi agō."
+  ],
+  [
+   "My friend says that you reminded me.",
+   "Amīcus meus dīcit tē mē admonuisse."
+  ],
+  [
+   "I say that I almost forgot.",
+   "Dīcō mē paene oblītum esse."
+  ],
+  [
+   "Do you often forget?",
+   "Saepene oblīvīsceris?"
+  ],
+  [
+   "I forget less often than before.",
+   "Minus saepe oblīvīscor quam anteā."
+  ],
+  [
+   "Why? Because you remind me.",
+   "Cūr? Quia tū mē admonēs."
+  ],
+  [
+   "You remind me every day.",
+   "Cotīdiē mē admonēs."
+  ],
+  [
+   "Remind me every day, please.",
+   "Admonē mē cotīdiē, quaesō."
+  ],
+  [
+   "I will remind you every day.",
+   "Tē cotīdiē admonēbō."
+  ],
+  [
+   "Remind me again.",
+   "Iterum mē admonē."
+  ],
+  [
+   "Remind me again, please, about the meeting.",
+   "Iterum mē admonē, quaesō, dē conventū."
+  ],
+  [
+   "Again? I reminded you before!",
+   "Iterum? Anteā tē admonuī!"
+  ],
+  [
+   "You reminded me before, I know.",
+   "Anteā mē admonuistī, sciō."
+  ],
+  [
+   "But I almost forgot again.",
+   "Sed iterum paene oblītus sum."
+  ],
+  [
+   "If you had not reminded me again, I would have forgotten again.",
+   "Nisi mē iterum admonuissēs, iterum oblītus essem."
+  ],
+  [
+   "So I will not forget.",
+   "Itaque nōn oblīvīscar."
+  ],
+  [
+   "Will you forget tomorrow?",
+   "Crāsne oblīvīscēris?"
+  ],
+  [
+   "Tomorrow I will not forget, because you will remind me.",
+   "Crās nōn oblīvīscar, quia tū mē admonēbis."
+  ],
+  [
+   "Remind me, please.",
+   "Admonē mē, quaesō."
+  ],
+  [
+   "Yesterday you reminded me.",
+   "Herī mē admonuistī."
+  ],
+  [
+   "I almost forgot.",
+   "Paene oblītus sum."
+  ],
+  [
+   "Tomorrow I will remind you.",
+   "Crās tē admonēbō."
+  ],
+  [
+   "If you had not reminded me, I would have forgotten.",
+   "Nisi mē admonuissēs, oblītus essem."
+  ]
+ ],
+ "model": "eleven_flash_v2_5",
+ "max_credits": 2500
+}

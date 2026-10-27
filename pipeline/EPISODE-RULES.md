@@ -66,7 +66,7 @@ His strong words get no points. They are the glue and they come back anyway.
 ## 4b. Voices (Patrick, 27 Oct 9:23 pm)
 - **Female voices only, for everything** (chats and ladders). "YES USE MALE ENDINGS DESPITE THIS": the Latin keeps his masculine forms (*oblītus sum*).
 - **No American accent** ("like fingernails on a chalk board": Emanuele on Flash read the English American). English = a gentle British or Irish woman (like the free Jenny).
-- Samples to pick from: tests/female-voices/ (1 free Jenny + Paola, 2 Iulia Flash, 3 Iulia v4, 4 Lily + Iulia Flash, 5 Alice + Iulia Flash, 6 Louisamay (Irish library voice) + Iulia Flash). His pick: pending.
+- Samples to pick from: tests/female-voices/ (1 free Jenny + Paola, 2 Iulia Flash, 3 Iulia v4, 4 Lily + Iulia Flash, 5 Alice + Iulia Flash, 6 Louisamay (Irish library voice) + Iulia Flash). **His pick (28 Oct 5:13 am): #2, "I love it!" = Iulia (Rossana) says English AND Latin, on the half-price Flash model.** Default for ElevenLabs ladders: `engine: eleven, voice: F, model: eleven_flash_v2_5`. A ladder over about 3,000 credits (e.g. a 700-pair vocab pyramid ≈ 17,000) stays free (Piper) unless he says. Chats need a 2nd female voice: not picked yet.
 
 ## 5. Fixed format (back to the Ep 1 recipe, confirmed 19 Oct)
 
