@@ -316,7 +316,7 @@
   "summary": "A pyramid in Marcus's ElevenLabs voice on the half-price Flash model: remind me, please; you reminded me; I almost forgot; I will remind you; if you had not reminded me, I would have forgotten.",
   "bytes": 6393665,
   "duration": "8:41",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-9-admone-me.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-9-admone-me-latina.mp3",
@@ -327,6 +327,6 @@
   "summary": "Latin only. A pyramid in Marcus's ElevenLabs voice on the half-price Flash model: remind me, please; you reminded me; I almost forgot; I will remind you; if you had not reminded me, I would have forgotten.",
   "bytes": 3330366,
   "duration": "4:26",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-9-admone-me-latina.mp3"
+  "host": "pages"
  }
 ]

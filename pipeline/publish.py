@@ -37,7 +37,7 @@ def publish_all(log=print, shrink_free=False):
     n = 0
     for p in files:
         fn = os.path.basename(p)
-        if fn not in by:
+        if fn not in by or by[fn].get('host') == 'pages':   # kept in the website (27 Oct: playback test)
             continue
         if shrink_free and fn.startswith('bonus-'):
             shrink(p)
