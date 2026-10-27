@@ -117,3 +117,14 @@ def add_shared(v):
         return r.json().get('voice_id')
     log('add voice failed:', v.get('name'), r.status_code, r.text[:200])
     return None
+
+
+def subscription():
+    """Credits: {used, limit, left, resets (unix s), tier}."""
+    r = req('GET', '/user/subscription')
+    if r.status_code != 200:
+        raise RuntimeError(f'subscription: {r.status_code} {r.text[:200]}')
+    j = r.json()
+    used, lim = j.get('character_count', 0), j.get('character_limit', 0)
+    return {'used': used, 'limit': lim, 'left': lim - used, 'resets': j.get('next_character_count_reset_unix'),
+            'tier': j.get('tier'), 'status': j.get('status')}

@@ -304,9 +304,26 @@ def dialogue_clips(seq, st, max_chars=1800):
     return out
 
 
-# ---------------- drill (free voices, Piper) ----------------
+# ---------------- credits ----------------
+def run_credits(job):
+    """Log the ElevenLabs credits (logs/credits.json). Costs nothing."""
+    s = el.subscription()
+    s['resets_sydney'] = datetime.datetime.fromtimestamp(s['resets'], datetime.timezone(datetime.timedelta(hours=11))).isoformat(timespec='minutes') if s.get('resets') else None
+    s['at'] = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
+    os.makedirs('logs', exist_ok=True)
+    json.dump(s, open('logs/credits.json', 'w'), indent=1)
+    log('credits:', s)
+    return {'credits': s}
+
+
+# ---------------- drill (free voices, Piper; or ElevenLabs with engine: "eleven") ----------------
 def run_drill(job):
-    """A sentence ladder: each line English then Latin, each sentence shifts a little. Free (Piper), no credits."""
+    """A sentence ladder: each line English then Latin, each sentence shifts a little. Free (Piper), no credits.
+    engine "eleven" (27 Oct): one ElevenLabs voice (job "voice": F or M from voices.json) says each line as its own whole
+    clip (no cutting at all); Latin through smart spelling. Checks the credits first and stops before spending if the
+    new clips would leave fewer than "keep_credits" (default 1000). The Latin-only track reuses the clips (free)."""
+    if job.get('engine') == 'eleven':
+        return run_drill_eleven(job)
     import free_tts
     ven, vla = job.get('voice_en', 'en_GB-jenny_dioco-medium'), job.get('voice_la', 'it_IT-paola-medium')
     os.makedirs('clips/free', exist_ok=True)
@@ -350,6 +367,64 @@ def run_drill(job):
         t2 = re.sub(r'(\s*\(×[^)]*\))?$', lambda m: ' · Latin only' + (m.group(1) or ''), t, count=1)
         files += run_drill({**job, 'latin_only': True, 'slug': job['slug'] + '-latina', 'title': t2,
                             'summary': 'Latin only. ' + job.get('summary', '')})['files']
+    return {'files': files}
+
+
+def run_drill_eleven(job):
+    V = json.load(open('pipeline/voices.json')); V.update(job.get('voices', {}))
+    who = job.get('voice', 'F'); V = resolve_voices({who: V[who]}); vid = V[who]
+    st = job.get('stability', 0.5)
+    def key(t): return f'clips/{hashlib.sha1(f"{vid}|{t}|{st}".encode()).hexdigest()[:16]}.mp3'
+    texts = []
+    for en, la in job['pairs']:
+        texts += ([] if job.get('latin_only') else [en]) + [smart(la)]
+    new = {t for t in texts if not os.path.exists(key(t))}
+    cost = sum(len(t) for t in new)
+    if new:
+        s = el.subscription(); keep = int(job.get('keep_credits', 1000))
+        log(f'eleven drill: {len(new)} new clips, about {cost} credits; left {s["left"]} of {s["limit"]}')
+        if cost > s['left'] - keep:
+            raise RuntimeError(f'Not enough credits: needs about {cost}, {s["left"]} left (keeping {keep}). Nothing spent.')
+    def eclip(t):
+        p = key(t)
+        if not os.path.exists(p):
+            os.makedirs('clips', exist_ok=True); el.tts(vid, t, p, stability=st); log('  rendered:', t[:60])
+        return audio.norm(audio.trim(audio.load(p), thr_db=-55, pad=0.12))   # gentle trim: never touches speech
+    items = []
+    for en, la in job['pairs']:
+        if job.get('latin_only'):
+            items += [(eclip(smart(la)), job.get('pause_latin_only', 0.6))]
+        else:
+            items += [(eclip(en), job.get('pause_after_english', 0.45)), (eclip(smart(la)), job.get('pause_after_latin', 0.8))]
+    n = int(job.get('repeat', 2)); seq = []
+    for k in range(n):
+        seq += items[:-1] + [(items[-1][0], 2.5)]
+    voice, ev = audio.sequence(seq)
+    x = audio.mix_music(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -7), job.get('music_dip_db', 7))
+    eps = json.load(open('episodes.json'))
+    fn = f"bonus-{job['slug']}.mp3"
+    eps = [e for e in eps if e['file'] != fn]
+    nxt = max([e['episode'] for e in eps] + [0]) + 1
+    title = job['title']
+    cover = audio.make_cover('cover.jpg', title, f"episodes/bonus-{job['slug']}-cover.jpg")
+    now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=11)))
+    tags = {'title': title, 'artist': 'Sermones Ambulātōriī', 'album_artist': 'Sermones Ambulātōriī',
+            'album': 'Sermones Ambulātōriī · Season 1', 'track': str(nxt), 'genre': 'Language Learning', 'date': str(now.year)}
+    audio.save_mp3(x, 'episodes/' + fn, tags, cover, bitrate='96k', channels=1)
+    eps.append({'file': fn, 'title': title, 'season': 1, 'episode': nxt, 'date': now.isoformat(timespec='seconds'),
+                'summary': job.get('summary', '')})
+    json.dump(eps, open('episodes.json', 'w'), indent=1, ensure_ascii=False)
+    subprocess.run([sys.executable, 'build_feed.py', BASE], check=True)
+    log('built', fn, f'{len(x) / audio.SR / 60:.1f} min', f'(spent about {cost} credits)')
+    files = [fn]
+    if not job.get('latin_only') and job.get('with_latin_only', True):
+        t2 = re.sub(r'(\s*\(×[^)]*\))?$', lambda m: ' · Latin only' + (m.group(1) or ''), job['title'], count=1)
+        files += run_drill_eleven({**job, 'latin_only': True, 'slug': job['slug'] + '-latina', 'title': t2,
+                                   'summary': 'Latin only. ' + job.get('summary', '')})['files']
+    try:
+        s = el.subscription(); log('credits left:', s['left'], 'of', s['limit'])
+    except Exception:
+        pass
     return {'files': files}
 
 
@@ -496,7 +571,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate}.get(job['type'], run_episode)(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]
