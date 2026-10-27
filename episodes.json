@@ -306,5 +306,27 @@
   "bytes": 12786962,
   "duration": "26:21",
   "host": "pages"
+ },
+ {
+  "file": "bonus-scala-9-admone-me-iulia.mp3",
+  "title": "Ladder 9 · Admonē mē, quaesō (× 2)",
+  "season": 1,
+  "episode": 36,
+  "date": "2026-10-28T05:32:30+11:00",
+  "summary": "Iulia's voice (his pick, 28 Oct). Remind me, please; you reminded me; I almost forgot; I will remind you; if you had not reminded me, I would have forgotten.",
+  "host": "pages",
+  "bytes": 6474831,
+  "duration": "8:48"
+ },
+ {
+  "file": "bonus-scala-9-admone-me-iulia-latina.mp3",
+  "title": "Ladder 9 · Admonē mē, quaesō · Latin only (× 2)",
+  "season": 1,
+  "episode": 37,
+  "date": "2026-10-28T05:32:41+11:00",
+  "summary": "Latin only. Iulia's voice (his pick, 28 Oct). Remind me, please; you reminded me; I almost forgot; I will remind you; if you had not reminded me, I would have forgotten.",
+  "host": "pages",
+  "bytes": 3376010,
+  "duration": "4:30"
  }
 ]
