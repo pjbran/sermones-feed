@@ -8,7 +8,7 @@
   "summary": "My morning walk. Iulia and Marcus: each line in English, then in Latin. Target words: iam, adhūc, tum, abhinc, mātūrē, plērumque, cōnsuētūdō, festīnō.",
   "bytes": 7497251,
   "duration": "5:07",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/s1e01a-mane-ambulo-english-latin.mp3"
+  "host": "pages"
  },
  {
   "file": "s1e01b-mane-ambulo-latin-only.mp3",
@@ -19,7 +19,7 @@
   "summary": "My morning walk. The same conversation, Latin only. Put it on repeat.",
   "bytes": 3748774,
   "duration": "2:30",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/s1e01b-mane-ambulo-latin-only.mp3"
+  "host": "pages"
  },
  {
   "file": "s1e01c-mane-ambulo-latin-only-x8.mp3",
@@ -30,7 +30,7 @@
   "summary": "My morning walk. Latin only, 8 times in a row (about 20 minutes). Hit play and walk.",
   "bytes": 23874746,
   "duration": "19:47",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/s1e01c-mane-ambulo-latin-only-x8.mp3"
+  "host": "pages"
  },
  {
   "file": "s1e01d-mane-ambulo-english-latin-x3.mp3",
@@ -41,7 +41,7 @@
   "summary": "My morning walk. English then Latin, 3 times in a row (about 15 minutes).",
   "bytes": 22142941,
   "duration": "15:17",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/s1e01d-mane-ambulo-english-latin-x3.mp3"
+  "host": "pages"
  },
  {
   "file": "s1e02a-domi-laboro-2.mp3",
@@ -52,7 +52,7 @@
   "summary": "Working from home: getting up late, the kids after school, a client meeting tomorrow. Home or the city: which is better? Quotes: Festīnā lentē (Augustus), Venīte ad mē omnēs quī labōrātis (Matthew 11:28), Carpe diem (Horace, Odes 1.11). Each line in English, then in Latin. The whole dialogue 3 times.",
   "bytes": 22420856,
   "duration": "18:35",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/s1e02a-domi-laboro-2.mp3"
+  "host": "pages"
  },
  {
   "file": "s1e02b-domi-laboro-2.mp3",
@@ -63,7 +63,7 @@
   "summary": "Working from home: getting up late, the kids after school, a client meeting tomorrow. Home or the city: which is better? Quotes: Festīnā lentē (Augustus), Venīte ad mē omnēs quī labōrātis (Matthew 11:28), Carpe diem (Horace, Odes 1.11). Latin only. The whole dialogue 3 times.",
   "bytes": 10933238,
   "duration": "9:00",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/s1e02b-domi-laboro-2.mp3"
+  "host": "pages"
  },
  {
   "file": "s1e03a-fabulae-2.mp3",
@@ -74,7 +74,7 @@
   "summary": "Latin stories about the family: a son who won't sleep, a wet dog, the cheese Marcus always forgets, and two daughters who find out they're in the stories. Easy stories or hard ones: which are better? Then Christmas and the Nativity. Quotes: Sinite parvulōs venīre ad mē (Mark 10:14), Glōria in altissimīs Deō (Luke 2:14). Each line in English, then in Latin. The whole dialogue 3 times.",
   "bytes": 30382927,
   "duration": "25:13",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/s1e03a-fabulae-2.mp3"
+  "host": "pages"
  },
  {
   "file": "s1e03b-fabulae-2.mp3",
@@ -85,7 +85,7 @@
   "summary": "Latin stories about the family: a son who won't sleep, a wet dog, the cheese Marcus always forgets, and two daughters who find out they're in the stories. Easy stories or hard ones: which are better? Then Christmas and the Nativity. Quotes: Sinite parvulōs venīre ad mē (Mark 10:14), Glōria in altissimīs Deō (Luke 2:14). Latin only. The whole dialogue 3 times.",
   "bytes": 14846330,
   "duration": "12:16",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/s1e03b-fabulae-2.mp3"
+  "host": "pages"
  },
  {
   "file": "s1e04a-celeriter-an-clare-2.mp3",
@@ -96,7 +96,7 @@
   "summary": "Too much coffee, a carrot, beautiful birds, and today's chat with ChatGPT: speak fast, or speak clearly? Quotes: Īra furor brevis est (Horace, Letters 1.2), Rem tenē, verba sequentur (Cato the Elder), Sit sermō vester: est, est; nōn, nōn (Matthew 5:37). Each line in English, then in Latin. The whole dialogue 3 times.",
   "bytes": 27267093,
   "duration": "22:37",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/s1e04a-celeriter-an-clare-2.mp3"
+  "host": "pages"
  },
  {
   "file": "s1e04b-celeriter-an-clare-2.mp3",
@@ -107,7 +107,7 @@
   "summary": "Too much coffee, a carrot, beautiful birds, and today's chat with ChatGPT: speak fast, or speak clearly? Quotes: Īra furor brevis est (Horace, Letters 1.2), Rem tenē, verba sequentur (Cato the Elder), Sit sermō vester: est, est; nōn, nōn (Matthew 5:37). Latin only. The whole dialogue 3 times.",
   "bytes": 13375688,
   "duration": "11:02",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/s1e04b-celeriter-an-clare-2.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-fabella-rufus-et-caseus-v.mp3",
@@ -118,7 +118,7 @@
   "summary": "Iulia's Saturday: rain, coffee, her dog Rufus, the market, and a stolen cheese. English then Latin, free voices, Latin read from IPA. Quotes: Canis timidus vehementius lātrat quam mordet (Quintus Curtius), Post nūbila Phoebus (old saying). Played 3 times. Latin v said as v.",
   "bytes": 6434975,
   "duration": "13:07",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-fabella-rufus-et-caseus-v.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-1-v2.mp3",
@@ -129,7 +129,7 @@
   "summary": "Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
   "bytes": 16602809,
   "duration": "34:18",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-1-v2.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-2-v2.mp3",
@@ -140,7 +140,7 @@
   "summary": "Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
   "bytes": 19594109,
   "duration": "40:32",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-2-v2.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-3-v2.mp3",
@@ -151,7 +151,7 @@
   "summary": "Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
   "bytes": 19270298,
   "duration": "39:51",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-3-v2.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-4-v2.mp3",
@@ -162,7 +162,7 @@
   "summary": "Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
   "bytes": 13812229,
   "duration": "28:29",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-4-v2.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-latina-v2.mp3",
@@ -173,7 +173,7 @@
   "summary": "Ladders 1 and 2 (rebuilt 24 Oct) in Latin only. Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
   "bytes": 17798274,
   "duration": "36:48",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-latina-v2.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-1-v2-latina.mp3",
@@ -184,7 +184,7 @@
   "summary": "Latin only. Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
   "bytes": 8218981,
   "duration": "16:51",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-1-v2-latina.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-2-v2-latina.mp3",
@@ -195,7 +195,7 @@
   "summary": "Latin only. Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
   "bytes": 9758760,
   "duration": "20:03",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-2-v2-latina.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-3-v2-latina.mp3",
@@ -206,7 +206,7 @@
   "summary": "Latin only. Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
   "bytes": 9556321,
   "duration": "19:37",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-3-v2-latina.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-4-v2-latina.mp3",
@@ -217,7 +217,7 @@
   "summary": "Latin only. Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
   "bytes": 6904533,
   "duration": "14:06",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-4-v2-latina.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-5-subiunctivus.mp3",
@@ -228,7 +228,7 @@
   "summary": "A pyramid on 5 subjunctive patterns: Rogō ut lentius loquāris · Linguam Latīnam discō, ut tēcum loquar · Caffeam nōn bibō, nē īrātus sim · Cum domum venīrem, fīlius meus clāmābat · Dīc mihi quid hoc significet. Slow steps, plain vs subjunctive contrasts, reviews, and a funny day at the end. English then Latin, free voice (IPA, v as v).",
   "bytes": 11080520,
   "duration": "22:48",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-5-subiunctivus.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-5-subiunctivus-latina.mp3",
@@ -239,7 +239,7 @@
   "summary": "Latin only. A pyramid on 5 subjunctive patterns: Rogō ut lentius loquāris · Linguam Latīnam discō, ut tēcum loquar · Caffeam nōn bibō, nē īrātus sim · Cum domum venīrem, fīlius meus clāmābat · Dīc mihi quid hoc significet. Slow steps, plain vs subjunctive contrasts, reviews, and a funny day at the end. English then Latin, free voice (IPA, v as v).",
   "bytes": 5509018,
   "duration": "11:11",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-5-subiunctivus-latina.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-6-subiunctivus-2.mp3",
@@ -250,7 +250,7 @@
   "summary": "Subjunctive pyramid 2, new sentences: Dīc fīliō meō ut domum veniat · Domum eō, ut cum līberīs cēnem · Timeō nē pīca mē oppugnet · Cum fessus essem, domī mānsī · Scīsne ubi sit cāseus? Slow steps, plain vs subjunctive contrasts, reviews (and pyramid 1's peaks), a funny rainy day at the end. Played twice. Free voice (IPA, v as v).",
   "bytes": 23789685,
   "duration": "49:16",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-6-subiunctivus-2.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-6-subiunctivus-2-latina.mp3",
@@ -261,7 +261,7 @@
   "summary": "Latin only. Subjunctive pyramid 2, new sentences: Dīc fīliō meō ut domum veniat · Domum eō, ut cum līberīs cēnem · Timeō nē pīca mē oppugnet · Cum fessus essem, domī mānsī · Scīsne ubi sit cāseus? Slow steps, plain vs subjunctive contrasts, reviews (and pyramid 1's peaks), a funny rainy day at the end. Played twice. Free voice (IPA, v as v).",
   "bytes": 11656054,
   "duration": "24:00",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-6-subiunctivus-2-latina.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-7-impera-ut.mp3",
@@ -272,7 +272,7 @@
   "summary": "Commands + 'so that…' on how to learn, listen, ask, agree and avoid mistakes: Docē mē, ut discam · Audī mē, ut intellegās · Rogā mē, ut cōgitem · Loquāmur, ut cōnsentiāmus · Prīmum cōgitā, nē errēs. Quotes: Errāre hūmānum est, Docendō discimus. Played twice. Free voice (IPA, v as v).",
   "bytes": 25517733,
   "duration": "52:52",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-7-impera-ut.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-7-impera-ut-latina.mp3",
@@ -283,7 +283,7 @@
   "summary": "Latin only. Commands + 'so that…' on how to learn, listen, ask, agree and avoid mistakes: Docē mē, ut discam · Audī mē, ut intellegās · Rogā mē, ut cōgitem · Loquāmur, ut cōnsentiāmus · Prīmum cōgitā, nē errēs. Quotes: Errāre hūmānum est, Docendō discimus. Played twice. Free voice (IPA, v as v).",
   "bytes": 12188215,
   "duration": "25:06",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-7-impera-ut-latina.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-8-verba-nova-1.mp3",
@@ -294,7 +294,7 @@
   "summary": "Road to 2,000, set 1: the next 50 Road words (induō, tunica, sūmō, piscis, mūrus, umbra, collum, iaceō, stēlla, scaena…) in 5 scenes (morning, kitchen, walk, a long night, evening), each word heard 6+ times, plus your 30 stickiest hell words (quoniam, ideō, quidem, quīdam, tamen, īdem, tālis…) in clear sentences. Closing story of the whole day, then a quick-fire list of all 80 words. Free voice (IPA, v as v).",
   "bytes": 26120133,
   "duration": "54:08",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-8-verba-nova-1.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-8-verba-nova-1-latina.mp3",
@@ -305,7 +305,7 @@
   "summary": "Latin only. Road to 2,000, set 1: the next 50 Road words (induō, tunica, sūmō, piscis, mūrus, umbra, collum, iaceō, stēlla, scaena…) in 5 scenes (morning, kitchen, walk, a long night, evening), each word heard 6+ times, plus your 30 stickiest hell words (quoniam, ideō, quidem, quīdam, tamen, īdem, tālis…) in clear sentences. Closing story of the whole day, then a quick-fire list of all 80 words. Free voice (IPA, v as v).",
   "bytes": 12786962,
   "duration": "26:21",
-  "url": "https://github.com/pjbran/sermones-feed/releases/download/audio/bonus-scala-8-verba-nova-1-latina.mp3"
+  "host": "pages"
  },
  {
   "file": "bonus-scala-9-admone-me.mp3",
