@@ -57,18 +57,22 @@ def pick_model():
     return _MODEL
 
 
-def tts(voice_id, text, out, stability=0.2, similarity=0.75):
-    """Render one clip to an MP3 file. Falls back on stability and model when the API refuses."""
+def tts(voice_id, text, out, stability=0.2, similarity=0.75, model=None):
+    """Render one clip to an MP3 file. Falls back on stability and model when the API refuses.
+    model given (e.g. the half-price eleven_flash_v2_5): that model only, never a silent switch to a full-price one."""
     global _MODEL
-    model = pick_model()
-    tries = [(model, stability), (model, 0.5), ('eleven_v3', 0.5), ('eleven_multilingual_v2', 0.5)]
+    if model:
+        tries = [(model, stability), (model, 0.5)]
+    else:
+        model = pick_model()
+        tries = [(model, stability), (model, 0.5), ('eleven_v3', 0.5), ('eleven_multilingual_v2', 0.5)]
     last = ''
     for m, st in tries:
         body = {'text': text, 'model_id': m, 'voice_settings': {'stability': st, 'similarity_boost': similarity}}
         r = req('POST', f'/text-to-speech/{voice_id}?output_format=mp3_44100_128', json=body)
         if r.status_code == 200 and r.content:
             open(out, 'wb').write(r.content)
-            if m != _MODEL:
+            if not tries[0][0] == m and _MODEL and m != _MODEL:
                 log('switched model to', m); _MODEL = m
             return m
         last = f'{r.status_code} {r.text[:300]}'

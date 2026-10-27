@@ -373,22 +373,30 @@ def run_drill(job):
 def run_drill_eleven(job):
     V = json.load(open('pipeline/voices.json')); V.update(job.get('voices', {}))
     who = job.get('voice', 'F'); V = resolve_voices({who: V[who]}); vid = V[who]
-    st = job.get('stability', 0.5)
-    def key(t): return f'clips/{hashlib.sha1(f"{vid}|{t}|{st}".encode()).hexdigest()[:16]}.mp3'
+    st = job.get('stability', 0.5); mdl = job.get('model')     # e.g. "eleven_flash_v2_5" = half price (27 Oct)
+    def key(t): return f'clips/{hashlib.sha1(f"{vid}|{t}|{st}|{mdl or ""}".encode()).hexdigest()[:16]}.mp3'
     texts = []
     for en, la in job['pairs']:
         texts += ([] if job.get('latin_only') else [en]) + [smart(la)]
     new = {t for t in texts if not os.path.exists(key(t))}
-    cost = sum(len(t) for t in new)
+    rate = 0.5 if mdl and ('flash' in mdl or 'turbo' in mdl) else 1.0
+    cost = int(sum(len(t) for t in new) * rate)
     if new:
-        s = el.subscription(); keep = int(job.get('keep_credits', 1000))
-        log(f'eleven drill: {len(new)} new clips, about {cost} credits; left {s["left"]} of {s["limit"]}')
-        if cost > s['left'] - keep:
-            raise RuntimeError(f'Not enough credits: needs about {cost}, {s["left"]} left (keeping {keep}). Nothing spent.')
+        cap = int(job.get('max_credits', 3000))
+        log(f'eleven drill: {len(new)} new clips, about {cost} credits (model {mdl or "default"})')
+        if cost > cap:
+            raise RuntimeError(f'Too dear: about {cost} credits, cap {cap}. Nothing spent.')
+        try:   # the key may lack the user_read permission (27 Oct): then the cap alone guards
+            s = el.subscription(); keep = int(job.get('keep_credits', 1000)); log('credits left:', s['left'], 'of', s['limit'])
+            if cost > s['left'] - keep:
+                raise RuntimeError(f'Not enough credits: needs about {cost}, {s["left"]} left (keeping {keep}). Nothing spent.')
+        except RuntimeError as e:
+            if 'Not enough' in str(e): raise
+            log('credits unknown (key cannot read them); going by the cap')
     def eclip(t):
         p = key(t)
         if not os.path.exists(p):
-            os.makedirs('clips', exist_ok=True); el.tts(vid, t, p, stability=st); log('  rendered:', t[:60])
+            os.makedirs('clips', exist_ok=True); el.tts(vid, t, p, stability=st, model=mdl); log('  rendered:', t[:60])
         return audio.norm(audio.trim(audio.load(p), thr_db=-55, pad=0.12))   # gentle trim: never touches speech
     items = []
     for en, la in job['pairs']:
@@ -421,10 +429,6 @@ def run_drill_eleven(job):
         t2 = re.sub(r'(\s*\(×[^)]*\))?$', lambda m: ' · Latin only' + (m.group(1) or ''), job['title'], count=1)
         files += run_drill_eleven({**job, 'latin_only': True, 'slug': job['slug'] + '-latina', 'title': t2,
                                    'summary': 'Latin only. ' + job.get('summary', '')})['files']
-    try:
-        s = el.subscription(); log('credits left:', s['left'], 'of', s['limit'])
-    except Exception:
-        pass
     return {'files': files}
 
 
