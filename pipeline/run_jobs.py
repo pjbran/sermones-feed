@@ -480,6 +480,73 @@ def run_drill_eleven(job):
     return {'files': files}
 
 
+# ---------------- bible (free voices): verse by verse, English then Latin, + Latin only (28 Oct) ----------------
+def save_track(x, slug, title, summary, bitrate='64k'):
+    eps = json.load(open('episodes.json'))
+    fn = f"bonus-{slug}.mp3"
+    eps = [e for e in eps if e['file'] != fn]
+    nxt = max([e['episode'] for e in eps] + [0]) + 1
+    cover = audio.make_cover('cover.jpg', title, f"episodes/bonus-{slug}-cover.jpg")
+    now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=11)))
+    tags = {'title': title, 'artist': 'Sermones Ambulātōriī', 'album_artist': 'Sermones Ambulātōriī',
+            'album': 'Sermones Ambulātōriī · Season 1', 'track': str(nxt), 'genre': 'Language Learning', 'date': str(now.year)}
+    audio.save_mp3(x, 'episodes/' + fn, tags, cover, bitrate=bitrate, channels=1)
+    eps.append({'file': fn, 'title': title, 'season': 1, 'episode': nxt, 'date': now.isoformat(timespec='seconds'), 'summary': summary})
+    json.dump(eps, open('episodes.json', 'w'), indent=1, ensure_ascii=False)
+    subprocess.run([sys.executable, 'build_feed.py', BASE], check=True)
+    log('built', fn, f'{len(x) / audio.SR / 60:.1f} min')
+    return fn
+
+
+def run_bible(job):
+    """Patrick, 28 Oct: "the Gospel of Matthew, English and Latin ... alternating verses ... and a Latin-only one ...
+    whatever is equivalent to 15 minutes of Latin". Vulgate (Clementine) + Douay-Rheims (its English translation),
+    free Piper voices (Jenny English, Paola Latin as IPA, v as v). Takes whole chapters; stops at the chapter end whose
+    Latin-only time is closest to target_latin_min."""
+    import free_tts
+    ven, vla = job.get('voice_en', 'en_GB-jenny_dioco-medium'), job.get('voice_la', 'it_IT-paola-medium')
+    os.makedirs('clips/free', exist_ok=True)
+    def fclip(voice, text):
+        h = hashlib.sha1(f'{voice}|{text}'.encode()).hexdigest()[:16]
+        w = f'clips/free/{h}.wav'
+        if not os.path.exists(w):
+            free_tts.say(voice, text, w)
+        return audio.norm(audio.trim(audio.load(w), thr_db=-55, pad=0.12))
+    def la_text(t):
+        t = t.replace('æ', 'ae').replace('Æ', 'Ae').replace('œ', 'oe').replace('Œ', 'Oe').replace('ë', 'e')
+        t = re.sub(r'j', 'i', re.sub(r'J', 'I', t))
+        return free_tts.latin_ipa(t, v_as_v=True)
+    PL, PE, PV, PH = job.get('pause_latin_only', 0.8), 0.5, 0.9, 1.6
+    target = job.get('target_latin_min', 15) * 60
+    chs, la_total, cum = [], 0.0, []
+    for ch in job['chapters']:
+        head_la = fclip(vla, la_text(ch['head_la']))
+        vl = [fclip(vla, la_text(v[1])) for v in ch['verses']]
+        secs = (len(head_la) + sum(len(c) for c in vl)) / audio.SR + PH + PL * len(vl)
+        chs.append((ch, head_la, vl)); la_total += secs; cum.append(la_total)
+        log(f"chapter {ch['n']}: Latin {secs / 60:.1f} min, total {la_total / 60:.1f}")
+        if la_total >= target: break
+    k = min(range(len(cum)), key=lambda i: abs(cum[i] - target)) + 1
+    chs = chs[:k]; last = chs[-1][0]['n']
+    span = f"{job['book_en']} {chs[0][0]['n']}" + (f"–{last}" if last != chs[0][0]['n'] else '')
+    # Latin only
+    seq = []
+    for ch, head_la, vl in chs:
+        seq += [(head_la, PH)] + [(c, PL) for c in vl]
+    voice, ev = audio.sequence(seq)
+    mus = lambda v, e: audio.mix_music(v, e, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -7), job.get('music_dip_db', 7))
+    f1 = save_track(mus(voice, ev), job['slug'] + '-latina', f"Bible · {span} · Latin only", f"Latin only. {job.get('summary', '')}")
+    # English then Latin
+    seq = []
+    for ch, head_la, vl in chs:
+        seq += [(fclip(ven, ch['head_en']), PE), (head_la, PH)]
+        for v, c in zip(ch['verses'], vl):
+            seq += [(fclip(ven, v[0]), PE), (c, PV)]
+    voice, ev = audio.sequence(seq)
+    f2 = save_track(mus(voice, ev), job['slug'], f"Bible · {span} · English → Latin", job.get('summary', ''))
+    return {'files': [f2, f1], 'chapters': k}
+
+
 # ---------------- episode ----------------
 def resolve_voices(V):
     """Turn "name:Australian man" into a voice ID (exact, case-sensitive name in My Voices)."""
@@ -628,7 +695,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples}.get(job['type'], run_episode)(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]
