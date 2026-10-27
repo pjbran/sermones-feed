@@ -14,7 +14,33 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Tue, 27 Oct 2026 18:32:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 20:02:13 +0000</lastBuildDate>
+    <item>
+      <title>Bible · Matthew 1–5 · English → Latin</title>
+      <description>The Gospel of Matthew from the start, verse by verse: Douay-Rheims English, then the Latin Vulgate (Clementine). Free voices. About 15 minutes of Latin.</description>
+      <itunes:summary>The Gospel of Matthew from the start, verse by verse: Douay-Rheims English, then the Latin Vulgate (Clementine). Free voices. About 15 minutes of Latin.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-bible-matthew-1.mp3" length="15626918" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-bonus-bible-matthew-1.mp3</guid>
+      <pubDate>Wed, 28 Oct 2026 07:01:46 +1100</pubDate>
+      <itunes:duration>32:16</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>39</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Bible · Matthew 1–5 · Latin only</title>
+      <description>Latin only. The Gospel of Matthew from the start, verse by verse: Douay-Rheims English, then the Latin Vulgate (Clementine). Free voices. About 15 minutes of Latin.</description>
+      <itunes:summary>Latin only. The Gospel of Matthew from the start, verse by verse: Douay-Rheims English, then the Latin Vulgate (Clementine). Free voices. About 15 minutes of Latin.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-bible-matthew-1-latina.mp3" length="7525882" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-bonus-bible-matthew-1-latina.mp3</guid>
+      <pubDate>Wed, 28 Oct 2026 07:00:34 +1100</pubDate>
+      <itunes:duration>15:23</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>38</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Ladder 9 · Admonē mē, quaesō · Latin only (× 2)</title>
       <description>Latin only. Iulia's voice (his pick, 28 Oct). Remind me, please; you reminded me; I almost forgot; I will remind you; if you had not reminded me, I would have forgotten.</description>

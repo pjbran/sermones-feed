@@ -1,0 +1,20 @@
+{
+ "job": "jobs/0044-bible-matthew-1.json",
+ "ok": true,
+ "files": [
+  "bonus-bible-matthew-1.mp3",
+  "bonus-bible-matthew-1-latina.mp3"
+ ],
+ "chapters": 5,
+ "log": [
+  "== job jobs/0044-bible-matthew-1.json bible",
+  "chapter 1: Latin 2.7 min, total 2.7",
+  "chapter 2: Latin 2.8 min, total 5.5",
+  "chapter 3: Latin 2.0 min, total 7.6",
+  "chapter 4: Latin 2.7 min, total 10.3",
+  "chapter 5: Latin 5.0 min, total 15.3",
+  "built bonus-bible-matthew-1-latina.mp3 15.4 min",
+  "built bonus-bible-matthew-1.mp3 32.3 min"
+ ],
+ "at": "2026-10-27T20:02:12+00:00"
+}

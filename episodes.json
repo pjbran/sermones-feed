@@ -328,5 +328,27 @@
   "host": "pages",
   "bytes": 3376010,
   "duration": "4:30"
+ },
+ {
+  "file": "bonus-bible-matthew-1-latina.mp3",
+  "title": "Bible · Matthew 1–5 · Latin only",
+  "season": 1,
+  "episode": 38,
+  "date": "2026-10-28T07:00:34+11:00",
+  "summary": "Latin only. The Gospel of Matthew from the start, verse by verse: Douay-Rheims English, then the Latin Vulgate (Clementine). Free voices. About 15 minutes of Latin.",
+  "host": "pages",
+  "bytes": 7525882,
+  "duration": "15:23"
+ },
+ {
+  "file": "bonus-bible-matthew-1.mp3",
+  "title": "Bible · Matthew 1–5 · English → Latin",
+  "season": 1,
+  "episode": 39,
+  "date": "2026-10-28T07:01:46+11:00",
+  "summary": "The Gospel of Matthew from the start, verse by verse: Douay-Rheims English, then the Latin Vulgate (Clementine). Free voices. About 15 minutes of Latin.",
+  "host": "pages",
+  "bytes": 15626918,
+  "duration": "32:16"
  }
 ]
