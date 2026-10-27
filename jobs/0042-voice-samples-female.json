@@ -1,0 +1,64 @@
+{
+ "type": "voice_samples",
+ "name": "female-voices",
+ "pairs": [
+  [
+   "Remind me tomorrow, please, about the meeting.",
+   "Admonē mē crās, quaesō, dē conventū."
+  ],
+  [
+   "Yesterday I almost forgot the meeting.",
+   "Herī paene conventum oblītus sum."
+  ],
+  [
+   "Will you remind me? Yes, I will remind you.",
+   "Mēne admonēbis? Ita, tē admonēbō."
+  ],
+  [
+   "If you had not reminded me, I would have forgotten.",
+   "Nisi mē admonuissēs, oblītus essem."
+  ]
+ ],
+ "samples": [
+  {
+   "label": "1 · FREE (the one you love): Jenny English + Paola Latin · 0 credits",
+   "en": "piper:en_GB-jenny_dioco-medium",
+   "la": "piper:it_IT-paola-medium"
+  },
+  {
+   "label": "2 · CHEAP: Iulia (Rossana, Italian) says both · Flash, half price",
+   "en": "name:Rossana",
+   "la": "name:Rossana",
+   "model": "eleven_flash_v2_5"
+  },
+  {
+   "label": "3 · ORIGINAL: Iulia (Rossana) says both · full price (Eleven v4)",
+   "en": "name:Rossana",
+   "la": "name:Rossana"
+  },
+  {
+   "label": "4 · CHEAP: Lily (British) English + Iulia Latin · Flash",
+   "en": "name:Lily",
+   "la": "name:Rossana",
+   "model": "eleven_flash_v2_5"
+  },
+  {
+   "label": "5 · CHEAP: Alice (British) English + Iulia Latin · Flash",
+   "en": "name:Alice",
+   "la": "name:Rossana",
+   "model": "eleven_flash_v2_5"
+  },
+  {
+   "label": "6 · CHEAP: an Irish woman (voice library) English + Iulia Latin · Flash",
+   "en": "shared:irish:female",
+   "la": "name:Rossana",
+   "model": "eleven_flash_v2_5"
+  },
+  {
+   "label": "7 · CHEAP: a British woman (voice library) English + Iulia Latin · Flash",
+   "en": "shared:british:female",
+   "la": "name:Rossana",
+   "model": "eleven_flash_v2_5"
+  }
+ ]
+}

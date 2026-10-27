@@ -206,6 +206,54 @@ def run_test(job):
     return {'tests': len(rows), 'page': f'{BASE}/{out_dir}/'}
 
 
+def run_voice_samples(job):
+    """27 Oct: short samples to pick voices by ear. Each sample = the same pairs, English voice + Latin voice + model.
+    Voice: "piper:<voice>" (free), "name:<my voice / premade name>", "shared:<accent>:female" (library, added once).
+    Publishes tests/<name>/index.html."""
+    import free_tts
+    name = job.get('name', 'voices'); out_dir = f'tests/{name}'; os.makedirs(out_dir, exist_ok=True)
+    mine = el.my_voices(); log('my voices:', ', '.join(f"{m.get('name')} [{m.get('category')}]" for m in mine))
+    rows, cost = [], 0
+    for k, smp in enumerate(job['samples']):
+        try:
+            clips = []
+            for en, la in job['pairs']:
+                for txt, spec, is_la in ((en, smp['en'], False), (la, smp['la'], True)):
+                    if spec.startswith('piper:'):
+                        t = free_tts.latin_ipa(txt, v_as_v=True) if is_la else txt
+                        w = f'clips/free/s-{hashlib.sha1((spec + t).encode()).hexdigest()[:12]}.wav'
+                        os.makedirs('clips/free', exist_ok=True)
+                        if not os.path.exists(w): free_tts.say(spec[6:], t, w)
+                        clips.append(audio.norm(audio.trim(audio.load(w), thr_db=-55, pad=0.12)))
+                    else:
+                        vid = resolve_voices({'x': spec})['x']; t = smart(txt) if is_la else txt
+                        mdl = smp.get('model'); st = smp.get('stability', 0.5)
+                        pth = f'clips/{hashlib.sha1(f"{vid}|{t}|{st}|{mdl or ""}".encode()).hexdigest()[:16]}.mp3'
+                        if not os.path.exists(pth):
+                            os.makedirs('clips', exist_ok=True); el.tts(vid, t, pth, stability=st, model=mdl)
+                            cost += len(t) * (0.5 if mdl and ('flash' in mdl or 'turbo' in mdl) else 1)
+                        clips.append(audio.norm(audio.trim(audio.load(pth), thr_db=-55, pad=0.12)))
+            x = audio.sequence([(c, 0.45 if i % 2 == 0 else 0.8) for i, c in enumerate(clips)], lead=0.3, tail=0.5)[0]
+            f = f'{out_dir}/s{k + 1}.mp3'
+            audio.save_mp3(x, f, {'title': smp['label']}, bitrate='96k', channels=1)
+            rows.append((smp['label'], os.path.basename(f))); log('sample ok:', smp['label'])
+        except Exception as e:
+            log('sample failed:', smp['label'], repr(e)[:300])
+    items = ''.join(f'<li><b>{html.escape(l)}</b><br><audio controls preload="none" src="{f}"></audio></li>' for l, f in rows)
+    script = ''.join(f'<li>{html.escape(en)}<br><i>{html.escape(la)}</i></li>' for en, la in job['pairs'])
+    open(f'{out_dir}/index.html', 'w').write(
+        '<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+        '<meta name="robots" content="noindex"><title>Voice samples</title>'
+        '<style>body{font:16px/1.5 system-ui;max-width:560px;margin:24px auto;padding:0 16px;background:#1f3a38;color:#f4ecdc}'
+        'li{margin:0 0 18px}audio{width:100%}small{opacity:.7}</style>'
+        f'<h1>Voice samples</h1><p>Same lines in each. Pick by number.</p><ol>{items}</ol>'
+        f'<h2>Script</h2><ol><small>{script}</small></ol>')
+    log(f'about {int(cost)} credits spent')
+    if not rows:
+        raise RuntimeError('No sample rendered.')
+    return {'samples': len(rows), 'page': f'{BASE}/{out_dir}/', 'credits': int(cost)}
+
+
 def per_line_cached(V, seq, gaps, st):
     clips = [clip(V[w], '[quickly] ' + t, st) for w, t, la in seq]
     return audio.sequence(list(zip(clips, gaps)), lead=0.2, tail=0.2)[0]
@@ -580,7 +628,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages}.get(job['type'], run_episode)(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]
