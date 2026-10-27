@@ -23,6 +23,11 @@ jobs:
           for i in 1 2 3; do timeout 240 sudo apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 update -qq && break; echo apt update retry $i; done
           for i in 1 2 3; do timeout 300 sudo apt-get -o Acquire::Retries=3 install -y -qq ffmpeg fonts-dejavu-core && break; echo apt install retry $i; done
           pip install -q numpy requests pillow piper-tts
+          if ! command -v ffmpeg >/dev/null; then   # 28 Oct: apt hung, the run had no ffmpeg. Fallback: the PyPI build.
+            pip install -q imageio-ffmpeg
+            sudo ln -sf "$(python -c 'import imageio_ffmpeg as i; print(i.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
+          fi
+          ffmpeg -version | head -1
       - name: Run jobs
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}

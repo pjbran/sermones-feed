@@ -10,8 +10,13 @@ def _gh(*a, check=True):
 
 
 def dur(p):
-    s = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p],
-                             capture_output=True, text=True).stdout.strip())
+    try:
+        s = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p],
+                                 capture_output=True, text=True).stdout.strip())
+    except (FileNotFoundError, ValueError):   # no ffprobe (the PyPI ffmpeg fallback): read "Duration:" from ffmpeg
+        import re
+        e = subprocess.run(['ffmpeg', '-i', p], capture_output=True, text=True).stderr
+        h, m, sec = re.search(r'Duration: (\d+):(\d+):([\d.]+)', e).groups(); s = int(h) * 3600 + int(m) * 60 + float(sec)
     return f"{int(s // 60)}:{int(s % 60):02d}"
 
 
