@@ -63,6 +63,11 @@ His strong words get no points. They are the glue and they come back anyway.
 - In the banter, someone says the quote, the other asks *Quis hoc dīxit?* / *Scīsne unde veniat?*, then: credit it (who, which book) and explain it in simple Latin (*id est…*).
 - Never use the same quote twice in a season. The ChatGPT gag works only when Marcus jokes about the app (Ep 2). It fails when Iulia copies the teacher to correct him (Ep 3). (Ep 2 and 3 were deleted, so all quotes are free to use again.)
 
+## 4b. Voices (Patrick, 27 Oct 9:23 pm)
+- **Female voices only, for everything** (chats and ladders). "YES USE MALE ENDINGS DESPITE THIS": the Latin keeps his masculine forms (*oblītus sum*).
+- **No American accent** ("like fingernails on a chalk board": Emanuele on Flash read the English American). English = a gentle British or Irish woman (like the free Jenny).
+- Samples to pick from: tests/female-voices/ (1 free Jenny + Paola, 2 Iulia Flash, 3 Iulia v4, 4 Lily + Iulia Flash, 5 Alice + Iulia Flash, 6 Louisamay (Irish library voice) + Iulia Flash). His pick: pending.
+
 ## 5. Fixed format (back to the Ep 1 recipe, confirmed 19 Oct)
 
 - Voices: Iulia = "Rossana – Warm Italian Conversational". Marcus = an **Italian male** library voice (Patrick, 22 Oct: no more his own voice). Ep 4 used "Emanuele Matte – Clear and Serious" (qQFoiN2eQXULODjD1SwL). Backup if he dislikes it: "Valentino – English with Italian accent" (conversational).
