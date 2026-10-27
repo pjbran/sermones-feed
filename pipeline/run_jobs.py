@@ -558,6 +558,11 @@ def run_episode(job):
 any_migrate = [False]
 
 
+def run_to_pages(job):
+    import publish
+    return {'brought_back': publish.bring_back(log)}
+
+
 def run_migrate(job):
     any_migrate[0] = True      # publish step shrinks the free tracks and moves every MP3 to the release
     return {'migrate': True}
@@ -575,7 +580,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits}.get(job['type'], run_episode)(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]
