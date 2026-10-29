@@ -372,5 +372,49 @@
   "host": "pages",
   "bytes": 14914483,
   "duration": "30:47"
+ },
+ {
+  "file": "bonus-scala-11-tessera.mp3",
+  "title": "Ladder 11 · Tessera (the password)",
+  "season": 1,
+  "episode": 45,
+  "date": "2026-10-29T20:14:03+11:00",
+  "summary": "Monday at the office: Quintus from IT makes the password rules (must be changed every day, longer than the old one, a number, a sign, not your dog). Gerundive, comparatives, relative clauses, future perfect, perfect passive. Iulia's voice.",
+  "host": "pages",
+  "bytes": 16385651,
+  "duration": "22:34"
+ },
+ {
+  "file": "bonus-scala-11-tessera-latina.mp3",
+  "title": "Ladder 11 · Tessera (the password) · Latin only (× 2)",
+  "season": 1,
+  "episode": 46,
+  "date": "2026-10-29T20:14:36+11:00",
+  "summary": "Latin only, twice as many rounds. Monday at the office: Quintus from IT makes the password rules (must be changed every day, longer than the old one, a number, a sign, not your dog). Gerundive, comparatives, relative clauses, future perfect, perfect passive. Iulia's voice.",
+  "host": "pages",
+  "bytes": 16776598,
+  "duration": "23:06"
+ },
+ {
+  "file": "bonus-scala-12-analysis.mp3",
+  "title": "Ladder 12 · Analysis (the analysis)",
+  "season": 1,
+  "episode": 47,
+  "date": "2026-10-29T20:17:42+11:00",
+  "summary": "Gaius wants a perfect analysis of the new product \"Speed\" before Friday, but every time he consults his new calendar the deadline moves closer, until Marcus discovers the product IS the calendar, and it is too fast.",
+  "host": "pages",
+  "bytes": 18606207,
+  "duration": "25:39"
+ },
+ {
+  "file": "bonus-scala-12-analysis-latina.mp3",
+  "title": "Ladder 12 · Analysis (the analysis) · Latin only (× 2)",
+  "season": 1,
+  "episode": 48,
+  "date": "2026-10-29T20:18:19+11:00",
+  "summary": "Latin only, twice as many rounds. Gaius wants a perfect analysis of the new product \"Speed\" before Friday, but every time he consults his new calendar the deadline moves closer, until Marcus discovers the product IS the calendar, and it is too fast.",
+  "host": "pages",
+  "bytes": 18837952,
+  "duration": "25:58"
  }
 ]
