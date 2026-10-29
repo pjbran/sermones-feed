@@ -350,5 +350,27 @@
   "host": "pages",
   "bytes": 15626918,
   "duration": "32:16"
+ },
+ {
+  "file": "bonus-scala-10-conventus.mp3",
+  "title": "Ladder 10 · Conventus dē conventibus (the meeting about meetings)",
+  "season": 1,
+  "episode": 40,
+  "date": "2026-10-29T16:17:05+11:00",
+  "summary": "A funny pyramid: Gaius calls a meeting to cut meetings. \"I will speak briefly\" (then an hour), ut + subjunctive requests that crack, nisi … loquerētur, iam domī essem, quoniam nēmō audit, ego quidem tacēbō, cum … fīnītus esset. Iulia's voice.",
+  "host": "pages",
+  "bytes": 7964162,
+  "duration": "10:52"
+ },
+ {
+  "file": "bonus-scala-10-conventus-latina.mp3",
+  "title": "Ladder 10 · Conventus dē conventibus (the meeting about meetings) · Latin only",
+  "season": 1,
+  "episode": 41,
+  "date": "2026-10-29T16:17:22+11:00",
+  "summary": "Latin only. A funny pyramid: Gaius calls a meeting to cut meetings. \"I will speak briefly\" (then an hour), ut + subjunctive requests that crack, nisi … loquerētur, iam domī essem, quoniam nēmō audit, ego quidem tacēbō, cum … fīnītus esset. Iulia's voice.",
+  "host": "pages",
+  "bytes": 4122582,
+  "duration": "5:32"
  }
 ]
