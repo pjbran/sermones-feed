@@ -352,6 +352,15 @@ def dialogue_clips(seq, st, max_chars=1800):
     return out
 
 
+def latin_only_variant(job, slug_suffix='-latina'):
+    """Patrick, 29 Oct 19:54: "for the Latin only version, ALWAYS double it so it's close in length to the English one.
+    I like to hear it twice". Latin-only repeat = 2 x the main track's repeat."""
+    rep = int(job.get('repeat', 3)) * 2
+    t = re.sub(r'\s*\(×[^)]*\)\s*$', '', job['title'])
+    return {**job, 'latin_only': True, 'repeat': rep, 'slug': job['slug'] + slug_suffix,
+            'title': f'{t} · Latin only (× {rep})', 'summary': 'Latin only, twice as many rounds. ' + job.get('summary', '')}
+
+
 # ---------------- credits ----------------
 def run_credits(job):
     """Log the ElevenLabs credits (logs/credits.json). Costs nothing."""
@@ -411,10 +420,7 @@ def run_drill(job):
     log('built', fn, f'{len(x) / audio.SR / 60:.1f} min')
     files = [fn]
     if not job.get('latin_only') and job.get('with_latin_only', True):   # every ladder also gets a Latin-only track (24 Oct)
-        t = job['title']
-        t2 = re.sub(r'(\s*\(×[^)]*\))?$', lambda m: ' · Latin only' + (m.group(1) or ''), t, count=1)
-        files += run_drill({**job, 'latin_only': True, 'slug': job['slug'] + '-latina', 'title': t2,
-                            'summary': 'Latin only. ' + job.get('summary', '')})['files']
+        files += run_drill(latin_only_variant(job))['files']
     return {'files': files}
 
 
@@ -474,9 +480,7 @@ def run_drill_eleven(job):
     log('built', fn, f'{len(x) / audio.SR / 60:.1f} min', f'(spent about {cost} credits)')
     files = [fn]
     if not job.get('latin_only') and job.get('with_latin_only', True):
-        t2 = re.sub(r'(\s*\(×[^)]*\))?$', lambda m: ' · Latin only' + (m.group(1) or ''), job['title'], count=1)
-        files += run_drill_eleven({**job, 'latin_only': True, 'slug': job['slug'] + '-latina', 'title': t2,
-                                   'summary': 'Latin only. ' + job.get('summary', '')})['files']
+        files += run_drill_eleven(latin_only_variant(job))['files']
     return {'files': files}
 
 
@@ -529,13 +533,17 @@ def run_bible(job):
     k = min(range(len(cum)), key=lambda i: abs(cum[i] - target)) + 1
     chs = chs[:k]; last = chs[-1][0]['n']
     span = f"{job['book_en']} {chs[0][0]['n']}" + (f"–{last}" if last != chs[0][0]['n'] else '')
-    # Latin only
+    # Latin only, twice through (his rule, 29 Oct)
     seq = []
-    for ch, head_la, vl in chs:
-        seq += [(head_la, PH)] + [(c, PL) for c in vl]
+    for rnd in range(2):
+        for ch, head_la, vl in chs:
+            seq += [(head_la, PH)] + [(c, PL) for c in vl]
+        seq[-1] = (seq[-1][0], 3.0)
     voice, ev = audio.sequence(seq)
     mus = lambda v, e: audio.mix_music(v, e, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -7), job.get('music_dip_db', 7))
-    f1 = save_track(mus(voice, ev), job['slug'] + '-latina', f"Bible · {span} · Latin only", f"Latin only. {job.get('summary', '')}")
+    f1 = save_track(mus(voice, ev), job['slug'] + job.get('latin_suffix', '-latina'), f"Bible · {span} · Latin only (× 2)", f"Latin only, twice through. {job.get('summary', '')}")
+    if job.get('only_latin'):
+        return {'files': [f1], 'chapters': k}
     # English then Latin
     seq = []
     for ch, head_la, vl in chs:
@@ -673,6 +681,26 @@ def run_episode(job):
 any_migrate = [False]
 
 
+def run_redo_latin(job):
+    """Remake the Latin-only tracks of earlier jobs with the doubled repeat (29 Oct). Clips are cached: 0 credits."""
+    files = []
+    for jp in job['jobs']:
+        j = json.load(open(jp))
+        old = 'bonus-' + j['slug'] + '-latina.mp3'
+        eps = [e for e in json.load(open('episodes.json')) if e['file'] != old]
+        json.dump(eps, open('episodes.json', 'w'), indent=1, ensure_ascii=False)
+        for f in ('episodes/' + old, 'episodes/' + old.replace('.mp3', '-cover.jpg')):
+            if os.path.exists(f): os.remove(f)
+        if j['type'] == 'bible':
+            files += run_bible({**j, 'only_latin': True, 'latin_suffix': '-latina-x2'})['files']
+        elif j.get('engine') == 'eleven':
+            files += run_drill_eleven(latin_only_variant(j, '-latina-x2'))['files']
+        else:
+            files += run_drill(latin_only_variant(j, '-latina-x2'))['files']
+    subprocess.run([sys.executable, 'build_feed.py', BASE], check=True)
+    return {'files': files}
+
+
 def run_to_pages(job):
     import publish
     return {'brought_back': publish.bring_back(log)}
@@ -695,7 +723,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible}.get(job['type'], run_episode)(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible, 'redo_latin': run_redo_latin}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]
