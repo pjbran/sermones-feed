@@ -319,28 +319,6 @@
   "duration": "8:48"
  },
  {
-  "file": "bonus-scala-9-admone-me-iulia-latina.mp3",
-  "title": "Ladder 9 · Admonē mē, quaesō · Latin only (× 2)",
-  "season": 1,
-  "episode": 37,
-  "date": "2026-10-28T05:32:41+11:00",
-  "summary": "Latin only. Iulia's voice (his pick, 28 Oct). Remind me, please; you reminded me; I almost forgot; I will remind you; if you had not reminded me, I would have forgotten.",
-  "host": "pages",
-  "bytes": 3376010,
-  "duration": "4:30"
- },
- {
-  "file": "bonus-bible-matthew-1-latina.mp3",
-  "title": "Bible · Matthew 1–5 · Latin only",
-  "season": 1,
-  "episode": 38,
-  "date": "2026-10-28T07:00:34+11:00",
-  "summary": "Latin only. The Gospel of Matthew from the start, verse by verse: Douay-Rheims English, then the Latin Vulgate (Clementine). Free voices. About 15 minutes of Latin.",
-  "host": "pages",
-  "bytes": 7525882,
-  "duration": "15:23"
- },
- {
   "file": "bonus-bible-matthew-1.mp3",
   "title": "Bible · Matthew 1–5 · English → Latin",
   "season": 1,
@@ -363,14 +341,36 @@
   "duration": "10:52"
  },
  {
-  "file": "bonus-scala-10-conventus-latina.mp3",
-  "title": "Ladder 10 · Conventus dē conventibus (the meeting about meetings) · Latin only",
+  "file": "bonus-scala-9-admone-me-iulia-latina-x2.mp3",
+  "title": "Ladder 9 · Admonē mē, quaesō · Latin only (× 4)",
   "season": 1,
-  "episode": 41,
-  "date": "2026-10-29T16:17:22+11:00",
-  "summary": "Latin only. A funny pyramid: Gaius calls a meeting to cut meetings. \"I will speak briefly\" (then an hour), ut + subjunctive requests that crack, nisi … loquerētur, iam domī essem, quoniam nēmō audit, ego quidem tacēbō, cum … fīnītus esset. Iulia's voice.",
+  "episode": 42,
+  "date": "2026-10-29T19:56:04+11:00",
+  "summary": "Latin only, twice as many rounds. Iulia's voice (his pick, 28 Oct). Remind me, please; you reminded me; I almost forgot; I will remind you; if you had not reminded me, I would have forgotten.",
   "host": "pages",
-  "bytes": 4122582,
-  "duration": "5:32"
+  "bytes": 6566502,
+  "duration": "8:55"
+ },
+ {
+  "file": "bonus-scala-10-conventus-latina-x2.mp3",
+  "title": "Ladder 10 · Conventus dē conventibus (the meeting about meetings) · Latin only (× 2)",
+  "season": 1,
+  "episode": 43,
+  "date": "2026-10-29T19:56:21+11:00",
+  "summary": "Latin only, twice as many rounds. A funny pyramid: Gaius calls a meeting to cut meetings. \"I will speak briefly\" (then an hour), ut + subjunctive requests that crack, nisi … loquerētur, iam domī essem, quoniam nēmō audit, ego quidem tacēbō, cum … fīnītus esset. Iulia's voice.",
+  "host": "pages",
+  "bytes": 8057098,
+  "duration": "11:00"
+ },
+ {
+  "file": "bonus-bible-matthew-1-latina-x2.mp3",
+  "title": "Bible · Matthew 1–5 · Latin only (× 2)",
+  "season": 1,
+  "episode": 44,
+  "date": "2026-10-29T19:57:37+11:00",
+  "summary": "Latin only, twice through. The Gospel of Matthew from the start, verse by verse: Douay-Rheims English, then the Latin Vulgate (Clementine). Free voices. About 15 minutes of Latin.",
+  "host": "pages",
+  "bytes": 14914483,
+  "duration": "30:47"
  }
 ]
