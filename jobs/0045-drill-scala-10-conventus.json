@@ -1,0 +1,571 @@
+{
+ "type": "drill",
+ "engine": "eleven",
+ "voice": "F",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "slug": "scala-10-conventus",
+ "title": "Ladder 10 · Conventus dē conventibus (the meeting about meetings)",
+ "summary": "A funny pyramid: Gaius calls a meeting to cut meetings. \"I will speak briefly\" (then an hour), ut + subjunctive requests that crack, nisi … loquerētur, iam domī essem, quoniam nēmō audit, ego quidem tacēbō, cum … fīnītus esset. Iulia's voice.",
+ "repeat": 1,
+ "music": "v5",
+ "max_credits": 6000,
+ "pairs": [
+  [
+   "The meeting.",
+   "Conventus."
+  ],
+  [
+   "Today there is a meeting.",
+   "Hodiē conventus est."
+  ],
+  [
+   "Why is there a meeting today?",
+   "Cūr hodiē conventus est?"
+  ],
+  [
+   "Gaius wants a meeting.",
+   "Gaius conventum vult."
+  ],
+  [
+   "Gaius always wants a meeting.",
+   "Gaius semper conventum vult."
+  ],
+  [
+   "A meeting about meetings.",
+   "Conventus dē conventibus."
+  ],
+  [
+   "Today there is a meeting about meetings.",
+   "Hodiē conventus dē conventibus est."
+  ],
+  [
+   "Gaius says: \"There are too many meetings.\"",
+   "Gaius dīcit: \"Nimis multī conventūs sunt.\""
+  ],
+  [
+   "Therefore he wants a meeting.",
+   "Ideō conventum vult."
+  ],
+  [
+   "Why? Because there are too many meetings.",
+   "Cūr? Quia nimis multī conventūs sunt."
+  ],
+  [
+   "Gaius speaks.",
+   "Gaius loquitur."
+  ],
+  [
+   "\"I will speak briefly,\" says Gaius.",
+   "\"Breviter dīcam,\" inquit Gaius."
+  ],
+  [
+   "Briefly?",
+   "Breviter?"
+  ],
+  [
+   "Will you speak briefly?",
+   "Breviterne dīcēs?"
+  ],
+  [
+   "\"Yes, I will speak briefly.\"",
+   "\"Ita, breviter dīcam.\""
+  ],
+  [
+   "Then he talks for one hour.",
+   "Deinde ūnam hōram loquitur."
+  ],
+  [
+   "\"I will speak briefly,\" says Gaius. Then he talks for one hour.",
+   "\"Breviter dīcam,\" inquit Gaius. Deinde ūnam hōram loquitur."
+  ],
+  [
+   "One hour? Yes, one hour.",
+   "Ūnam hōram? Ita, ūnam hōram."
+  ],
+  [
+   "Tullia writes.",
+   "Tullia scrībit."
+  ],
+  [
+   "Tullia writes everything.",
+   "Tullia omnia scrībit."
+  ],
+  [
+   "Tullia writes: \"Gaius will speak briefly.\"",
+   "Tullia scrībit: \"Gaius breviter dīcet.\""
+  ],
+  [
+   "Already one hour.",
+   "Iam ūna hōra."
+  ],
+  [
+   "Gaius is still speaking.",
+   "Gaius adhūc loquitur."
+  ],
+  [
+   "Is Gaius still speaking?",
+   "Gaiusne adhūc loquitur?"
+  ],
+  [
+   "Yes, he is still speaking.",
+   "Ita, adhūc loquitur."
+  ],
+  [
+   "I ask.",
+   "Rogō."
+  ],
+  [
+   "I ask you.",
+   "Tē rogō."
+  ],
+  [
+   "I ask that you speak.",
+   "Rogō, ut loquāris."
+  ],
+  [
+   "I ask that you speak briefly.",
+   "Rogō, ut breviter loquāris."
+  ],
+  [
+   "I ask that you speak briefly, please.",
+   "Rogō, ut breviter loquāris, quaesō."
+  ],
+  [
+   "You speak briefly.",
+   "Breviter loqueris."
+  ],
+  [
+   "\"Of course,\" says Gaius.",
+   "\"Certē,\" inquit Gaius."
+  ],
+  [
+   "\"I will speak briefly.\"",
+   "\"Breviter dīcam.\""
+  ],
+  [
+   "Then he talks for two hours.",
+   "Deinde duās hōrās loquitur."
+  ],
+  [
+   "Two hours?",
+   "Duās hōrās?"
+  ],
+  [
+   "Yes, already two hours.",
+   "Ita, iam duās hōrās."
+  ],
+  [
+   "Tullia writes: \"Marcus asks that Gaius speak briefly.\"",
+   "Tullia scrībit: \"Mārcus rogat, ut Gaius breviter loquātur.\""
+  ],
+  [
+   "I beg that you speak briefly.",
+   "Ōrō, ut breviter loquāris."
+  ],
+  [
+   "I beseech you: speak briefly!",
+   "Obsecrō tē: breviter loquere!"
+  ],
+  [
+   "Please. Please. Please.",
+   "Quaesō. Quaesō. Quaesō."
+  ],
+  [
+   "Gaius does not hear me.",
+   "Gaius mē nōn audit."
+  ],
+  [
+   "Why does Gaius not hear me?",
+   "Cūr Gaius mē nōn audit?"
+  ],
+  [
+   "Because he himself is speaking.",
+   "Quia ipse loquitur."
+  ],
+  [
+   "Gaius nevertheless speaks.",
+   "Gaius tamen loquitur."
+  ],
+  [
+   "I am at home.",
+   "Domī sum."
+  ],
+  [
+   "I would be at home.",
+   "Domī essem."
+  ],
+  [
+   "I would already be at home.",
+   "Iam domī essem."
+  ],
+  [
+   "If Gaius were not speaking...",
+   "Nisi Gaius loquerētur..."
+  ],
+  [
+   "If Gaius were not speaking so long...",
+   "Nisi Gaius tam diū loquerētur..."
+  ],
+  [
+   "If Gaius were not speaking so long, I would already be at home.",
+   "Nisi Gaius tam diū loquerētur, iam domī essem."
+  ],
+  [
+   "But Gaius is speaking.",
+   "Sed Gaius loquitur."
+  ],
+  [
+   "Therefore I am not at home.",
+   "Ideō domī nōn sum."
+  ],
+  [
+   "Where are you? In the meeting.",
+   "Ubi es? In conventū."
+  ],
+  [
+   "Still in the meeting?",
+   "Adhūc in conventū?"
+  ],
+  [
+   "Still. Three hours.",
+   "Adhūc. Trēs hōrās."
+  ],
+  [
+   "If Gaius were not speaking, I would be walking.",
+   "Nisi Gaius loquerētur, ambulārem."
+  ],
+  [
+   "If Gaius were not speaking, I would be sleeping.",
+   "Nisi Gaius loquerētur, dormīrem."
+  ],
+  [
+   "I am not sleeping.",
+   "Nōn dormiō."
+  ],
+  [
+   "I am almost sleeping.",
+   "Paene dormiō."
+  ],
+  [
+   "Tullia writes: \"Marcus is almost sleeping.\"",
+   "Tullia scrībit: \"Mārcus paene dormit.\""
+  ],
+  [
+   "Does anyone listen?",
+   "Audītne aliquis?"
+  ],
+  [
+   "Nobody listens.",
+   "Nēmō audit."
+  ],
+  [
+   "Nobody listens. Therefore Gaius talks.",
+   "Nēmō audit. Ideō Gaius loquitur."
+  ],
+  [
+   "Since nobody listens...",
+   "Quoniam nēmō audit..."
+  ],
+  [
+   "I will be quiet.",
+   "Tacēbō."
+  ],
+  [
+   "I at least will be quiet.",
+   "Ego quidem tacēbō."
+  ],
+  [
+   "Since nobody listens, I at least will be quiet.",
+   "Quoniam nēmō audit, ego quidem tacēbō."
+  ],
+  [
+   "Tullia writes: \"Marcus will be quiet.\"",
+   "Tullia scrībit: \"Mārcus tacēbit.\""
+  ],
+  [
+   "Marcus is quiet.",
+   "Mārcus tacet."
+  ],
+  [
+   "Then Gaius says: \"Marcus, what do you think?\"",
+   "Tum Gaius dīcit: \"Mārce, quid putās?\""
+  ],
+  [
+   "What do I think?",
+   "Quid putō?"
+  ],
+  [
+   "I think nothing.",
+   "Nihil putō."
+  ],
+  [
+   "I was quiet.",
+   "Tacuī."
+  ],
+  [
+   "I was quiet, because nobody was listening.",
+   "Tacuī, quia nēmō audiēbat."
+  ],
+  [
+   "\"Marcus, you are listening, aren't you?\"",
+   "\"Mārce, nōnne audīs?\""
+  ],
+  [
+   "\"I am listening, of course.\"",
+   "\"Audiō, certē.\""
+  ],
+  [
+   "But I was not listening.",
+   "Sed nōn audiēbam."
+  ],
+  [
+   "Nobody listens, yet Gaius asks me.",
+   "Nēmō audit, tamen Gaius mē rogat."
+  ],
+  [
+   "Why me?",
+   "Cūr mē?"
+  ],
+  [
+   "Because I was quiet.",
+   "Quia tacuī."
+  ],
+  [
+   "Livia says: \"The slide is almost ready.\"",
+   "Līvia dīcit: \"Tabula paene parāta est.\""
+  ],
+  [
+   "Is the slide ready?",
+   "Estne tabula parāta?"
+  ],
+  [
+   "Does anyone have the slide?",
+   "Habetne aliquis tabulam?"
+  ],
+  [
+   "Almost ready. Soon.",
+   "Paene parāta. Mox."
+  ],
+  [
+   "Soon?",
+   "Mox?"
+  ],
+  [
+   "Soon, soon.",
+   "Mox, mox."
+  ],
+  [
+   "Because of the slide, we wait.",
+   "Propter tabulam exspectāmus."
+  ],
+  [
+   "Because of the meeting, I am not at home.",
+   "Propter conventum domī nōn sum."
+  ],
+  [
+   "Because of Gaius, the meeting is long.",
+   "Propter Gaium conventus longus est."
+  ],
+  [
+   "The meeting ends.",
+   "Conventus fīnītur."
+  ],
+  [
+   "Will the meeting end soon?",
+   "Fīniēturne mox conventus?"
+  ],
+  [
+   "The meeting has ended.",
+   "Conventus fīnītus est."
+  ],
+  [
+   "Has the meeting ended?",
+   "Fīnītusne est conventus?"
+  ],
+  [
+   "Not yet.",
+   "Nōndum."
+  ],
+  [
+   "Finally the meeting has ended!",
+   "Dēnique conventus fīnītus est!"
+  ],
+  [
+   "Livia says: \"The slide is ready.\"",
+   "Līvia dīcit: \"Tabula parāta est.\""
+  ],
+  [
+   "When the meeting had finally ended...",
+   "Cum conventus dēnique fīnītus esset..."
+  ],
+  [
+   "Gaius said: \"We will meet.\"",
+   "Gaius dīxit: \"Conveniēmus.\""
+  ],
+  [
+   "\"Tomorrow we will meet again.\"",
+   "\"Crās iterum conveniēmus.\""
+  ],
+  [
+   "When the meeting had finally ended, Gaius said: \"Tomorrow we will meet again.\"",
+   "Cum conventus dēnique fīnītus esset, Gaius dīxit: \"Crās iterum conveniēmus.\""
+  ],
+  [
+   "Again? Tomorrow?",
+   "Iterum? Crās?"
+  ],
+  [
+   "Why again?",
+   "Cūr iterum?"
+  ],
+  [
+   "Because we have decided nothing.",
+   "Quia nihil cōnstituimus."
+  ],
+  [
+   "We have decided nothing yet.",
+   "Nihil adhūc cōnstituimus."
+  ],
+  [
+   "Four hours, and we have decided nothing.",
+   "Quattuor hōrās, et nihil cōnstituimus."
+  ],
+  [
+   "Tullia writes: \"Nothing has been decided.\"",
+   "Tullia scrībit: \"Nihil cōnstitūtum est.\""
+  ],
+  [
+   "What did we decide?",
+   "Quid cōnstituimus?"
+  ],
+  [
+   "We decided this:",
+   "Hoc cōnstituimus:"
+  ],
+  [
+   "There will be fewer meetings.",
+   "Pauciōrēs conventūs erunt."
+  ],
+  [
+   "Excellent! Fewer meetings!",
+   "Optimē! Pauciōrēs conventūs!"
+  ],
+  [
+   "When will there be fewer meetings?",
+   "Quandō pauciōrēs conventūs erunt?"
+  ],
+  [
+   "We will decide tomorrow.",
+   "Crās cōnstituēmus."
+  ],
+  [
+   "In a meeting.",
+   "In conventū."
+  ],
+  [
+   "A meeting about fewer meetings.",
+   "Conventus dē pauciōribus conventibus."
+  ],
+  [
+   "Tullia writes: \"Tomorrow: a meeting about fewer meetings.\"",
+   "Tullia scrībit: \"Crās: conventus dē pauciōribus conventibus.\""
+  ],
+  [
+   "\"It will be brief,\" says Gaius.",
+   "\"Brevis erit,\" inquit Gaius."
+  ],
+  [
+   "Brief?",
+   "Brevis?"
+  ],
+  [
+   "\"I will speak briefly.\"",
+   "\"Breviter dīcam.\""
+  ],
+  [
+   "I beg. I beseech.",
+   "Ōrō. Obsecrō."
+  ],
+  [
+   "Please. Please. Please.",
+   "Quaesō. Quaesō. Quaesō."
+  ],
+  [
+   "Gaius said that he would speak briefly.",
+   "Gaius dīxit sē breviter dictūrum esse."
+  ],
+  [
+   "He said this, then he spoke for four hours.",
+   "Hoc dīxit, deinde quattuor hōrās locūtus est."
+  ],
+  [
+   "I asked that he speak briefly.",
+   "Rogāvī, ut breviter loquerētur."
+  ],
+  [
+   "If he had spoken briefly, I would have been at home.",
+   "Sī breviter locūtus esset, domī fuissem."
+  ],
+  [
+   "If Gaius were not speaking so long, I would already be at home.",
+   "Nisi Gaius tam diū loquerētur, iam domī essem."
+  ],
+  [
+   "Since nobody listens, I at least will be quiet.",
+   "Quoniam nēmō audit, ego quidem tacēbō."
+  ],
+  [
+   "Tomorrow too, I at least will be quiet.",
+   "Crās quoque ego quidem tacēbō."
+  ],
+  [
+   "And if Gaius asks me?",
+   "Et sī Gaius mē rogābit?"
+  ],
+  [
+   "Does anyone listen? Nobody.",
+   "Audītne aliquis? Nēmō."
+  ],
+  [
+   "I will nevertheless be quiet.",
+   "Tamen tacēbō."
+  ],
+  [
+   "Or I will say: \"I beg and beseech you, Gaius!\"",
+   "Aut dīcam: \"Ōrō et obsecrō tē, Gāī!\""
+  ],
+  [
+   "\"I ask that you speak briefly, please.\"",
+   "\"Rogō, ut breviter loquāris, quaesō.\""
+  ],
+  [
+   "\"I will speak briefly,\" says Gaius. Then he talks for one hour.",
+   "\"Breviter dīcam,\" inquit Gaius. Deinde ūnam hōram loquitur."
+  ],
+  [
+   "When the meeting had finally ended, Gaius said: \"Tomorrow we will meet again.\"",
+   "Cum conventus dēnique fīnītus esset, Gaius dīxit: \"Crās iterum conveniēmus.\""
+  ],
+  [
+   "Tullia writes everything.",
+   "Tullia omnia scrībit."
+  ],
+  [
+   "Tullia writes: \"Marcus is laughing.\"",
+   "Tullia scrībit: \"Mārcus rīdet.\""
+  ],
+  [
+   "Why are you laughing?",
+   "Cūr rīdēs?"
+  ],
+  [
+   "I am not laughing. I am almost sleeping.",
+   "Nōn rīdeō. Paene dormiō."
+  ],
+  [
+   "Because tomorrow there is a meeting about fewer meetings.",
+   "Quia crās conventus dē pauciōribus conventibus est."
+  ]
+ ]
+}
