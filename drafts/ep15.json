@@ -1,0 +1,1213 @@
+{
+ "title": "Ladder 15 · Quis fēcit? (Who did it?)",
+ "summary": "Friday finale: the coffee machine burned after Thursday's party; Gaius forbids anyone to go home until someone reveals the blame, everyone suspects everyone, and Quintus reads Tullia's minutes to find the culprit: Gaius's own rule (and Monday's password).",
+ "cores": [
+  "Cuius culpa sit, nēmō indicāre vult.",
+  "Quisque collēgam suspicātur, nēmō sē ipsum.",
+  "Nisi quis culpam indicāverit, nēmō domum ībit.",
+  "Quīntus ācta Tulliae respicit, ut cognōscat quid ēvēnerit.",
+  "Rēgula, quam Gaius ipse dederat, māchinae nocuit."
+ ],
+ "pairs": [
+  [
+   "Friday.",
+   "Diēs Veneris."
+  ],
+  [
+   "Friday, in the morning.",
+   "Diēs Veneris, māne."
+  ],
+  [
+   "I come to the office.",
+   "Ad officium veniō."
+  ],
+  [
+   "I want coffee.",
+   "Caffeam volō."
+  ],
+  [
+   "I go to the coffee machine.",
+   "Ad māchinam caffeae eō."
+  ],
+  [
+   "The machine is still covered with a napkin.",
+   "Māchina adhūc mappā tēcta est."
+  ],
+  [
+   "A smell.",
+   "Odor."
+  ],
+  [
+   "A bad smell.",
+   "Odor malus."
+  ],
+  [
+   "Where is that smell from?",
+   "Unde est ille odor?"
+  ],
+  [
+   "The smell frightens me.",
+   "Odor mē terret."
+  ],
+  [
+   "Smoke.",
+   "Fūmus."
+  ],
+  [
+   "Smoke from the coffee machine.",
+   "Fūmus ē māchinā caffeae."
+  ],
+  [
+   "The machine is black.",
+   "Māchina nigra est."
+  ],
+  [
+   "Is the machine broken? Yes, gravely.",
+   "Estne māchina rupta? Ita, graviter."
+  ],
+  [
+   "A blaze.",
+   "Incendium."
+  ],
+  [
+   "A small blaze.",
+   "Incendium parvum."
+  ],
+  [
+   "Last night there was a small blaze.",
+   "Hesternā nocte incendium parvum fuit."
+  ],
+  [
+   "Who made the blaze?",
+   "Quis incendium fēcit?"
+  ],
+  [
+   "Nobody knows.",
+   "Nēmō scit."
+  ],
+  [
+   "Quintus comes immediately.",
+   "Quīntus continuō venit."
+  ],
+  [
+   "\"Beware!\" says Quintus.",
+   "\"Cavē!\" inquit Quīntus."
+  ],
+  [
+   "\"Beware the electricity!\"",
+   "\"Cavē ēlectricitātem!\""
+  ],
+  [
+   "Electricity is harmful.",
+   "Ēlectricitās nocet."
+  ],
+  [
+   "Does the electricity frighten Quintus? No.",
+   "Terretne ēlectricitās Quīntum? Minimē."
+  ],
+  [
+   "Quintus takes away the electricity.",
+   "Quīntus ēlectricitātem removet."
+  ],
+  [
+   "Quintus keeps us away from the machine.",
+   "Quīntus nōs ā māchinā prohibet."
+  ],
+  [
+   "Why does he keep us away?",
+   "Cūr nōs prohibet?"
+  ],
+  [
+   "Because the machine is still hot.",
+   "Quia māchina adhūc calida est."
+  ],
+  [
+   "The smoke impedes us.",
+   "Fūmus nōs impedit."
+  ],
+  [
+   "No coffee today.",
+   "Hodiē nūlla caffea."
+  ],
+  [
+   "A Friday without coffee.",
+   "Diēs Veneris sine caffeā."
+  ],
+  [
+   "A Friday without coffee is cruel.",
+   "Diēs Veneris sine caffeā crūdēlis est."
+  ],
+  [
+   "Cruel? Very cruel.",
+   "Crūdēlis? Crūdēlissimus."
+  ],
+  [
+   "I cannot tolerate a day without coffee.",
+   "Diem sine caffeā tolerāre nōn possum."
+  ],
+  [
+   "Nobody can tolerate it. Nevertheless, I tolerate it.",
+   "Nēmō tolerāre potest. Tamen tolerō."
+  ],
+  [
+   "What happened to the machine?",
+   "Quid māchinae accidit?"
+  ],
+  [
+   "This has never happened before.",
+   "Hoc numquam anteā contigit."
+  ],
+  [
+   "Gaius comes.",
+   "Gaius venit."
+  ],
+  [
+   "Gaius sees the smoke.",
+   "Gaius fūmum videt."
+  ],
+  [
+   "Then he immediately calls a meeting.",
+   "Deinde continuō conventum vocat."
+  ],
+  [
+   "A meeting! Of course.",
+   "Conventus! Certē."
+  ],
+  [
+   "\"I will speak briefly,\" says Gaius.",
+   "\"Breviter dīcam,\" inquit Gaius."
+  ],
+  [
+   "Gaius speaks gravely.",
+   "Gaius graviter loquitur."
+  ],
+  [
+   "His face is severe.",
+   "Vultus eius sevērus est."
+  ],
+  [
+   "Gaius is strict today.",
+   "Gaius hodiē sevērus est."
+  ],
+  [
+   "\"Last night someone broke the machine.\"",
+   "\"Hesternā nocte aliquis māchinam rūpit.\""
+  ],
+  [
+   "\"Whose fault is it?\"",
+   "\"Cuius culpa est?\""
+  ],
+  [
+   "Whose fault?",
+   "Cuius culpa?"
+  ],
+  [
+   "Nobody speaks.",
+   "Nēmō loquitur."
+  ],
+  [
+   "Whose fault it is...",
+   "Cuius culpa sit..."
+  ],
+  [
+   "Whose fault it is, nobody knows.",
+   "Cuius culpa sit, nēmō scit."
+  ],
+  [
+   "Nobody wants to reveal.",
+   "Nēmō indicāre vult."
+  ],
+  [
+   "Whose fault it is, nobody wants to reveal.",
+   "Cuius culpa sit, nēmō indicāre vult."
+  ],
+  [
+   "Why does nobody want to reveal it?",
+   "Cūr nēmō indicāre vult?"
+  ],
+  [
+   "Because the guilty one is afraid.",
+   "Quia nocēns timet."
+  ],
+  [
+   "The guilty one lies hidden among us.",
+   "Nocēns inter nōs latet."
+  ],
+  [
+   "It is already afternoon. Everyone wants to go home.",
+   "Iam post merīdiem est. Omnēs domum īre volunt."
+  ],
+  [
+   "Livia goes to the door.",
+   "Līvia ad iānuam it."
+  ],
+  [
+   "Gaius calls her back.",
+   "Gaius eam revocat."
+  ],
+  [
+   "Gaius forbids.",
+   "Gaius vetat."
+  ],
+  [
+   "Gaius forbids anyone to go home.",
+   "Gaius vetat quemquam domum īre."
+  ],
+  [
+   "Anyone? Not even me?",
+   "Quemquam? Nē mē quidem?"
+  ],
+  [
+   "Not even you.",
+   "Nē tē quidem."
+  ],
+  [
+   "Unless someone reveals the blame...",
+   "Nisi quis culpam indicāverit..."
+  ],
+  [
+   "...nobody will go home.",
+   "...nēmō domum ībit."
+  ],
+  [
+   "Unless someone reveals the blame, nobody will go home.",
+   "Nisi quis culpam indicāverit, nēmō domum ībit."
+  ],
+  [
+   "Nobody? On Friday?",
+   "Nēmō? Diē Veneris?"
+  ],
+  [
+   "That is unfair!",
+   "Hoc inīquum est!"
+  ],
+  [
+   "Is it unfair? It is very unfair.",
+   "Estne inīquum? Inīquissimum est."
+  ],
+  [
+   "Because of the machine, Gaius keeps us away from home.",
+   "Propter māchinam Gaius nōs domō prohibet."
+  ],
+  [
+   "Gaius is not cruel, but strict.",
+   "Gaius nōn crūdēlis est, sed sevērus."
+  ],
+  [
+   "Gaius says that nobody will go home.",
+   "Gaius dīcit nēminem domum itūrum esse."
+  ],
+  [
+   "Will I go home? Not yet.",
+   "Ībōne domum? Nōndum."
+  ],
+  [
+   "Gaius consults the calendar. The calendar says: Saturday.",
+   "Gaius calendārium cōnsulit. Calendārium dīcit: diēs Sāturnī."
+  ],
+  [
+   "Tullia writes.",
+   "Tullia scrībit."
+  ],
+  [
+   "Tullia writes: \"Nobody will go home.\"",
+   "Tullia scrībit: \"Nēmō domum ībit.\""
+  ],
+  [
+   "Tullia writes: \"Marcus says that this is unfair.\"",
+   "Tullia scrībit: \"Mārcus dīcit hoc inīquum esse.\""
+  ],
+  [
+   "\"Patience,\" says Gaius.",
+   "\"Patientia,\" inquit Gaius."
+  ],
+  [
+   "\"Have patience.\"",
+   "\"Patientiam habēte.\""
+  ],
+  [
+   "My patience is small.",
+   "Patientia mea parva est."
+  ],
+  [
+   "On Friday my patience is very small.",
+   "Diē Veneris patientia mea minima est."
+  ],
+  [
+   "We are wasting time.",
+   "Tempus perdimus."
+  ],
+  [
+   "We are wasting the whole Friday.",
+   "Tōtum diem Veneris perdimus."
+  ],
+  [
+   "Unless someone reveals the blame, nobody will go home.",
+   "Nisi quis culpam indicāverit, nēmō domum ībit."
+  ],
+  [
+   "Who did it?",
+   "Quis fēcit?"
+  ],
+  [
+   "I suspect.",
+   "Suspicor."
+  ],
+  [
+   "I suspect Livia.",
+   "Līviam suspicor."
+  ],
+  [
+   "Why do you suspect Livia?",
+   "Cūr Līviam suspicāris?"
+  ],
+  [
+   "Because her slide is always almost ready.",
+   "Quia tabula eius semper paene parāta est."
+  ],
+  [
+   "Her slide needs more electricity than the coffee machine.",
+   "Tabula eius plūs ēlectricitātis requīrit quam māchina caffeae."
+  ],
+  [
+   "Livia suspects Tullia.",
+   "Līvia Tulliam suspicātur."
+  ],
+  [
+   "Tullia suspects Quintus.",
+   "Tullia Quīntum suspicātur."
+  ],
+  [
+   "Quintus suspects people.",
+   "Quīntus hominēs suspicātur."
+  ],
+  [
+   "Quintus never suspects the computers.",
+   "Quīntus computātra numquam suspicātur."
+  ],
+  [
+   "Publius suspects nobody. He looks at the mirror.",
+   "Pūblius nēminem suspicātur. Speculum spectat."
+  ],
+  [
+   "Each one suspects.",
+   "Quisque suspicātur."
+  ],
+  [
+   "Each one suspects a colleague.",
+   "Quisque collēgam suspicātur."
+  ],
+  [
+   "Each one suspects a colleague, nobody himself.",
+   "Quisque collēgam suspicātur, nēmō sē ipsum."
+  ],
+  [
+   "Do you suspect yourself? Never.",
+   "Suspicārisne tē ipsum? Numquam."
+  ],
+  [
+   "Everyone, therefore, is suspected.",
+   "Omnēs igitur suspectī sunt."
+  ],
+  [
+   "Am I suspected?",
+   "Suspectusne sum?"
+  ],
+  [
+   "You are suspected, Marcus.",
+   "Suspectus es, Mārce."
+  ],
+  [
+   "Why am I suspected?",
+   "Cūr suspectus sum?"
+  ],
+  [
+   "Because you love coffee.",
+   "Quia caffeam amās."
+  ],
+  [
+   "Everyone loves coffee!",
+   "Omnēs caffeam amant!"
+  ],
+  [
+   "I am innocent.",
+   "Innocēns sum."
+  ],
+  [
+   "Everyone says: \"I am innocent.\"",
+   "Omnēs dīcunt: \"Innocēns sum.\""
+  ],
+  [
+   "If everyone is innocent, who did it?",
+   "Sī omnēs innocentēs sunt, quis fēcit?"
+  ],
+  [
+   "My conscience is good.",
+   "Cōnscientia mea bona est."
+  ],
+  [
+   "Is your conscience good, Livia?",
+   "Estne cōnscientia tua bona, Līvia?"
+  ],
+  [
+   "Livia avoids my eyes.",
+   "Līvia oculōs meōs vītat."
+  ],
+  [
+   "Why does she avoid my eyes?",
+   "Cūr oculōs meōs vītat?"
+  ],
+  [
+   "What are you concealing, Livia?",
+   "Quid cēlās, Līvia?"
+  ],
+  [
+   "\"I am concealing nothing.\"",
+   "\"Nihil cēlō.\""
+  ],
+  [
+   "\"The slide is almost ready.\"",
+   "\"Tabula paene parāta est.\""
+  ],
+  [
+   "She is hiding behind the slide.",
+   "Post tabulam latet."
+  ],
+  [
+   "Tullia conceals nothing.",
+   "Tullia nihil cēlat."
+  ],
+  [
+   "Tullia writes everything.",
+   "Tullia omnia scrībit."
+  ],
+  [
+   "Whatever you say, Tullia writes.",
+   "Quaecumque dīcis, Tullia scrībit."
+  ],
+  [
+   "Tullia and Livia: both are suspected.",
+   "Tullia et Līvia: ambae suspectae sunt."
+  ],
+  [
+   "Which of the two did it, Tullia or Livia?",
+   "Utra fēcit, Tullia an Līvia?"
+  ],
+  [
+   "Both say: \"Not I.\"",
+   "Ambae dīcunt: \"Nōn ego.\""
+  ],
+  [
+   "Gaius suspects both.",
+   "Gaius ambās suspicātur."
+  ],
+  [
+   "\"Either Tullia or Livia,\" says Gaius.",
+   "\"Vel Tullia vel Līvia,\" inquit Gaius."
+  ],
+  [
+   "\"Or Marcus. Or Quintus.\"",
+   "\"Vel Mārcus. Vel Quīntus.\""
+  ],
+  [
+   "\"Whoever did it deserves a penalty.\"",
+   "\"Quīcumque fēcit, poenam meret.\""
+  ],
+  [
+   "Whoever did it?",
+   "Quīcumque fēcit?"
+  ],
+  [
+   "What do I deserve? Coffee.",
+   "Quid mereō? Caffeam."
+  ],
+  [
+   "Each one moves the blame away from himself.",
+   "Quisque culpam ā sē removet."
+  ],
+  [
+   "Each one refuses the blame.",
+   "Quisque culpam recūsat."
+  ],
+  [
+   "Livia refuses to speak.",
+   "Līvia loquī recūsat."
+  ],
+  [
+   "Why do you refuse, Livia?",
+   "Cūr recūsās, Līvia?"
+  ],
+  [
+   "\"Because the slide is not yet ready.\"",
+   "\"Quia tabula nōndum parāta est.\""
+  ],
+  [
+   "Did anyone see anything?",
+   "Vīditne quisquam quidquam?"
+  ],
+  [
+   "Nobody saw anything.",
+   "Nēmō quidquam vīdit."
+  ],
+  [
+   "Nobody is carefree.",
+   "Nēmō sēcūrus est."
+  ],
+  [
+   "Only Quintus is carefree.",
+   "Sōlus Quīntus sēcūrus est."
+  ],
+  [
+   "Quintus is carefree, because he is innocent.",
+   "Quīntus sēcūrus est, quia innocēns est."
+  ],
+  [
+   "Each one suspects a colleague, nobody himself.",
+   "Quisque collēgam suspicātur, nēmō sē ipsum."
+  ],
+  [
+   "Whose fault it is, nobody wants to reveal.",
+   "Cuius culpa sit, nēmō indicāre vult."
+  ],
+  [
+   "Quintus says: \"I will investigate.\"",
+   "Quīntus dīcit: \"Ego investīgābō.\""
+  ],
+  [
+   "Quintus investigates, as if he were a judge.",
+   "Quīntus investīgat, quasi iūdex sit."
+  ],
+  [
+   "Quintus, however, never laughs.",
+   "Quīntus tamen numquam rīdet."
+  ],
+  [
+   "Quintus watches, silent.",
+   "Quīntus tacitus spectat."
+  ],
+  [
+   "Quintus calls each one into a secluded room.",
+   "Quīntus quemque in cōnclāve sēcrētum vocat."
+  ],
+  [
+   "A secluded room? Where?",
+   "Cōnclāve sēcrētum? Ubi?"
+  ],
+  [
+   "The secluded room is the kitchen.",
+   "Cōnclāve sēcrētum est culīna."
+  ],
+  [
+   "Near the machine. The smell!",
+   "Prope māchinam. Odor!"
+  ],
+  [
+   "First Livia.",
+   "Prīmum Līvia."
+  ],
+  [
+   "\"Where were you last night?\"",
+   "\"Ubi hesternā nocte erās?\""
+  ],
+  [
+   "\"At the party,\" says Livia.",
+   "\"In convīviō,\" inquit Līvia."
+  ],
+  [
+   "On Thursday there was a party.",
+   "Diē Iovis convīvium fuit."
+  ],
+  [
+   "\"What do you remember?\"",
+   "\"Quid recordāris?\""
+  ],
+  [
+   "\"I remember nothing.\"",
+   "\"Nihil recordor.\""
+  ],
+  [
+   "Then Tullia.",
+   "Deinde Tullia."
+  ],
+  [
+   "Tullia remembers everything.",
+   "Tullia omnia recordātur."
+  ],
+  [
+   "Why does she remember everything? Because she wrote everything.",
+   "Cūr omnia recordātur? Quia omnia scrīpsit."
+  ],
+  [
+   "Then me.",
+   "Deinde ego."
+  ],
+  [
+   "Quintus, silent, looks at me, as if I were guilty.",
+   "Quīntus mē tacitus spectat, quasi nocēns sim."
+  ],
+  [
+   "The silence frightens me.",
+   "Silentium mē terret."
+  ],
+  [
+   "In the secluded room Quintus is stricter than Gaius.",
+   "In cōnclāvī sēcrētō Quīntus sevērior est quam Gaius."
+  ],
+  [
+   "\"Marcus, what do you remember?\"",
+   "\"Mārce, quid recordāris?\""
+  ],
+  [
+   "I remember the party.",
+   "Convīvium recordor."
+  ],
+  [
+   "I remember the speech of Gaius.",
+   "Ōrātiōnem Gaiī recordor."
+  ],
+  [
+   "At the party Gaius said: \"I will speak briefly.\"",
+   "In convīviō Gaius dīxit: \"Breviter dīcam.\""
+  ],
+  [
+   "Then he spoke for two hours.",
+   "Deinde duās hōrās locūtus est."
+  ],
+  [
+   "\"Did something happen to you?\"",
+   "\"Contigitne tibi aliquid?\""
+  ],
+  [
+   "Nothing happened to me. I slept during the speech.",
+   "Nihil mihi contigit. Inter ōrātiōnem dormīvī."
+  ],
+  [
+   "Was it an accident?",
+   "Fuitne cāsus?"
+  ],
+  [
+   "\"Nothing comes about by chance,\" says Quintus.",
+   "\"Nihil cāsū ēvenit,\" inquit Quīntus."
+  ],
+  [
+   "Quintus estimates the damage.",
+   "Quīntus damnum aestimat."
+  ],
+  [
+   "How much damage do you estimate?",
+   "Quantum damnum aestimās?"
+  ],
+  [
+   "\"Very much,\" says Quintus, gravely.",
+   "\"Plūrimum,\" inquit Quīntus graviter."
+  ],
+  [
+   "Quintus values machines more than people.",
+   "Quīntus māchinās plūris aestimat quam hominēs."
+  ],
+  [
+   "The poor machine did not deserve this.",
+   "Māchina misera hoc nōn meruit."
+  ],
+  [
+   "Gaius comes in.",
+   "Gaius intrat."
+  ],
+  [
+   "\"I will speak briefly.\"",
+   "\"Breviter dīcam.\""
+  ],
+  [
+   "Gaius impedes the investigation.",
+   "Gaius investīgātiōnem impedit."
+  ],
+  [
+   "Already he speaks for one hour.",
+   "Iam ūnam hōram loquitur."
+  ],
+  [
+   "\"Gaius, please, do not impede me,\" says Quintus.",
+   "\"Gaī, quaesō, nōlī mē impedīre,\" inquit Quīntus."
+  ],
+  [
+   "Nothing impedes Quintus.",
+   "Nihil Quīntum impedit."
+  ],
+  [
+   "On Wednesday Tullia's minutes saved us.",
+   "Diē Mercuriī ācta Tulliae nōs servāvērunt."
+  ],
+  [
+   "Then Quintus asks for the minutes.",
+   "Tum Quīntus ācta rogat."
+  ],
+  [
+   "Tullia's minutes.",
+   "Ācta Tulliae."
+  ],
+  [
+   "The minutes of the whole week.",
+   "Ācta tōtīus hebdomadis."
+  ],
+  [
+   "Quintus looks back.",
+   "Quīntus respicit."
+  ],
+  [
+   "Quintus looks back at Tullia's minutes.",
+   "Quīntus ācta Tulliae respicit."
+  ],
+  [
+   "Why does he look back?",
+   "Cūr respicit?"
+  ],
+  [
+   "In order to find out.",
+   "Ut cognōscat."
+  ],
+  [
+   "In order to find out what has happened.",
+   "Ut cognōscat quid ēvēnerit."
+  ],
+  [
+   "Quintus looks back at Tullia's minutes, in order to find out what has happened.",
+   "Quīntus ācta Tulliae respicit, ut cognōscat quid ēvēnerit."
+  ],
+  [
+   "The truth lies hidden in the minutes.",
+   "Vēritās in āctīs latet."
+  ],
+  [
+   "Where does the truth lie hidden? In the minutes.",
+   "Ubi latet vēritās? In āctīs."
+  ],
+  [
+   "Monday: the password.",
+   "Diēs Lūnae: tessera."
+  ],
+  [
+   "Tuesday: the analysis, and the fast calendar.",
+   "Diēs Mārtis: analysis, et calendārium celere."
+  ],
+  [
+   "Wednesday: the aeroplane and the soap.",
+   "Diēs Mercuriī: āëroplanum et sāpō."
+  ],
+  [
+   "Thursday: the party.",
+   "Diēs Iovis: convīvium."
+  ],
+  [
+   "Friday: no coffee.",
+   "Diēs Veneris: nūlla caffea."
+  ],
+  [
+   "Quintus reads Monday again.",
+   "Quīntus diem Lūnae iterum legit."
+  ],
+  [
+   "On Monday Gaius said:",
+   "Diē Lūnae Gaius dīxit:"
+  ],
+  [
+   "\"The coffee machine must never be switched off.\"",
+   "\"Māchina caffeae numquam exstinguenda est.\""
+  ],
+  [
+   "Never?",
+   "Numquam?"
+  ],
+  [
+   "\"Never. For the meetings never end.\"",
+   "\"Numquam. Conventūs enim numquam fīniuntur.\""
+  ],
+  [
+   "Tullia wrote this.",
+   "Tullia hoc scrīpsit."
+  ],
+  [
+   "And on Monday Quintus wrote:",
+   "Et diē Lūnae Quīntus scrīpsit:"
+  ],
+  [
+   "\"The machine has a password, so that nobody switches it off.\"",
+   "\"Māchina tesseram habet, nē quis eam exstinguat.\""
+  ],
+  [
+   "A password for the coffee machine!",
+   "Tessera māchinae caffeae!"
+  ],
+  [
+   "Who remembers the password?",
+   "Quis tesseram recordātur?"
+  ],
+  [
+   "Nobody. Not even Quintus.",
+   "Nēmō. Nē Quīntus quidem."
+  ],
+  [
+   "Therefore nobody could switch off the machine.",
+   "Igitur nēmō māchinam exstinguere poterat."
+  ],
+  [
+   "Quintus looks back at Tullia's minutes, in order to find out what has happened.",
+   "Quīntus ācta Tulliae respicit, ut cognōscat quid ēvēnerit."
+  ],
+  [
+   "Quintus thinks.",
+   "Quīntus cōgitat."
+  ],
+  [
+   "Finally he says: \"I know.\"",
+   "Tandem dīcit: \"Sciō.\""
+  ],
+  [
+   "In the night after the party, everyone went home.",
+   "Nocte post convīvium omnēs domum iērunt."
+  ],
+  [
+   "But the machine did not go home.",
+   "Sed māchina domum nōn iit."
+  ],
+  [
+   "The machine worked.",
+   "Māchina labōrābat."
+  ],
+  [
+   "The machine worked without a break.",
+   "Māchina sine intermissiōne labōrābat."
+  ],
+  [
+   "The whole night it made coffee.",
+   "Tōtam noctem caffeam parābat."
+  ],
+  [
+   "Coffee for whom? For nobody.",
+   "Caffeam cui? Nēminī."
+  ],
+  [
+   "The whole night it ate electricity.",
+   "Tōtam noctem ēlectricitātem dēvorābat."
+  ],
+  [
+   "The machine could not stop.",
+   "Māchina cessāre nōn poterat."
+  ],
+  [
+   "Why? Because of the rule.",
+   "Cūr? Propter rēgulam."
+  ],
+  [
+   "Because of the rule, and because of the password.",
+   "Propter rēgulam, et propter tesseram."
+  ],
+  [
+   "The machine could not tolerate it.",
+   "Māchina hoc tolerāre nōn poterat."
+  ],
+  [
+   "Then smoke. Then a blaze.",
+   "Deinde fūmus. Deinde incendium."
+  ],
+  [
+   "The rule did damage to the machine.",
+   "Rēgula māchinae nocuit."
+  ],
+  [
+   "The rule was unfair to the machine.",
+   "Rēgula māchinae inīqua erat."
+  ],
+  [
+   "Which rule?",
+   "Quae rēgula?"
+  ],
+  [
+   "The rule, which Gaius had given...",
+   "Rēgula, quam Gaius dederat..."
+  ],
+  [
+   "The rule, which Gaius himself had given...",
+   "Rēgula, quam Gaius ipse dederat..."
+  ],
+  [
+   "The rule, which Gaius himself had given, did damage to the machine.",
+   "Rēgula, quam Gaius ipse dederat, māchinae nocuit."
+  ],
+  [
+   "Gaius himself?",
+   "Gaius ipse?"
+  ],
+  [
+   "The rule, which Gaius himself had given, did damage to the machine.",
+   "Rēgula, quam Gaius ipse dederat, māchinae nocuit."
+  ],
+  [
+   "Quintus reveals everything.",
+   "Quīntus omnia indicat."
+  ],
+  [
+   "Quintus said that the rule had done damage to the machine.",
+   "Quīntus dīxit rēgulam māchinae nocuisse."
+  ],
+  [
+   "Everyone immediately looks back at Gaius.",
+   "Omnēs continuō Gaium respiciunt."
+  ],
+  [
+   "Gaius is silent.",
+   "Gaius tacitus est."
+  ],
+  [
+   "Gaius conceals his face, as if he were guilty.",
+   "Gaius vultum cēlat, quasi nocēns sit."
+  ],
+  [
+   "Gaius avoids our eyes.",
+   "Gaius oculōs nostrōs vītat."
+  ],
+  [
+   "And who covered the machine with a napkin?",
+   "Et quis māchinam mappā tēxit?"
+  ],
+  [
+   "Gaius. He concealed the machine, as if it were guilty.",
+   "Gaius. Māchinam cēlāvit, quasi nocēns esset."
+  ],
+  [
+   "Is Gaius innocent?",
+   "Estne Gaius innocēns?"
+  ],
+  [
+   "\"It was an accident,\" says Gaius.",
+   "\"Cāsus fuit,\" inquit Gaius."
+  ],
+  [
+   "\"Nothing comes about by chance,\" says Quintus.",
+   "\"Nihil cāsū ēvenit,\" inquit Quīntus."
+  ],
+  [
+   "Gaius refuses the blame.",
+   "Gaius culpam recūsat."
+  ],
+  [
+   "\"My conscience is good,\" says Gaius.",
+   "\"Cōnscientia mea bona est,\" inquit Gaius."
+  ],
+  [
+   "Does a rule have a conscience?",
+   "Habetne rēgula cōnscientiam?"
+  ],
+  [
+   "Gaius and Quintus: which of the two is guilty?",
+   "Gaius et Quīntus: uter nocēns est?"
+  ],
+  [
+   "Both. Or neither.",
+   "Ambō. Vel neuter."
+  ],
+  [
+   "Tullia writes, silent.",
+   "Tullia tacita scrībit."
+  ],
+  [
+   "Tullia writes: \"The fault is Gaius's.\"",
+   "Tullia scrībit: \"Culpa Gaiī est.\""
+  ],
+  [
+   "\"I forbid it!\" says Gaius.",
+   "\"Vetō!\" inquit Gaius."
+  ],
+  [
+   "\"I forbid this to be written!\"",
+   "\"Vetō hoc scrībī!\""
+  ],
+  [
+   "Tullia writes: \"Gaius forbids this to be written.\"",
+   "Tullia scrībit: \"Gaius vetat hoc scrībī.\""
+  ],
+  [
+   "Tullia writes everything.",
+   "Tullia omnia scrībit."
+  ],
+  [
+   "Gaius gravely calls back the rule.",
+   "Gaius graviter rēgulam revocat."
+  ],
+  [
+   "A new rule:",
+   "Nova rēgula:"
+  ],
+  [
+   "\"The coffee machine must be switched off every night.\"",
+   "\"Māchina caffeae omnī nocte exstinguenda est.\""
+  ],
+  [
+   "\"And the password of the machine must be changed every day,\" says Quintus.",
+   "\"Et tessera māchinae cotīdiē mūtanda est,\" inquit Quīntus."
+  ],
+  [
+   "Oh no.",
+   "Ēheu."
+  ],
+  [
+   "Quintus removes the machine.",
+   "Quīntus māchinam removet."
+  ],
+  [
+   "We have lost the coffee machine.",
+   "Māchinam caffeae perdidimus."
+  ],
+  [
+   "Gaius said: unless someone reveals the blame, nobody will go home.",
+   "Gaius dīxit: nisi quis culpam indicāverit, nēmō domum ībit."
+  ],
+  [
+   "Quintus revealed the blame.",
+   "Quīntus culpam indicāvit."
+  ],
+  [
+   "Therefore at last we will go home!",
+   "Igitur tandem domum ībimus!"
+  ],
+  [
+   "Now I am carefree.",
+   "Nunc sēcūrus sum."
+  ],
+  [
+   "But Gaius calls us back.",
+   "Sed Gaius nōs revocat."
+  ],
+  [
+   "\"Wait! A meeting!\"",
+   "\"Manēte! Conventus!\""
+  ],
+  [
+   "\"A meeting about the blame.\"",
+   "\"Conventus dē culpā.\""
+  ],
+  [
+   "A meeting about the blame, without coffee: cruel!",
+   "Conventus dē culpā sine caffeā: crūdēle!"
+  ],
+  [
+   "I am losing patience.",
+   "Patientiam perdō."
+  ],
+  [
+   "Without coffee nobody listens. Not even Gaius.",
+   "Sine caffeā nēmō audit. Nē Gaius quidem."
+  ],
+  [
+   "\"I will speak briefly,\" says Gaius.",
+   "\"Breviter dīcam,\" inquit Gaius."
+  ],
+  [
+   "And for the first time he speaks briefly.",
+   "Et prīmum breviter loquitur."
+  ],
+  [
+   "Five minutes. Only five.",
+   "Quīnque minūta. Tantum quīnque."
+  ],
+  [
+   "This has never happened before.",
+   "Hoc numquam anteā contigit."
+  ],
+  [
+   "Without coffee, at last, a brief meeting.",
+   "Sine caffeā tandem conventus brevis."
+  ],
+  [
+   "Which of the two is better: coffee, or a brief meeting?",
+   "Utrum melius est: caffea, an conventus brevis?"
+  ],
+  [
+   "I do not know. Both are rare.",
+   "Nesciō. Ambō rāra sunt."
+  ],
+  [
+   "The five sentences again.",
+   "Quīnque sententiae iterum."
+  ],
+  [
+   "Whose fault it is, nobody wants to reveal.",
+   "Cuius culpa sit, nēmō indicāre vult."
+  ],
+  [
+   "Each one suspects a colleague, nobody himself.",
+   "Quisque collēgam suspicātur, nēmō sē ipsum."
+  ],
+  [
+   "Unless someone reveals the blame, nobody will go home.",
+   "Nisi quis culpam indicāverit, nēmō domum ībit."
+  ],
+  [
+   "Quintus looks back at Tullia's minutes, in order to find out what has happened.",
+   "Quīntus ācta Tulliae respicit, ut cognōscat quid ēvēnerit."
+  ],
+  [
+   "The rule, which Gaius himself had given, did damage to the machine.",
+   "Rēgula, quam Gaius ipse dederat, māchinae nocuit."
+  ],
+  [
+   "Do you know whose fault it is? Now I know.",
+   "Scīsne cuius culpa sit? Iam sciō."
+  ],
+  [
+   "Tullia writes that each one suspects a colleague.",
+   "Tullia scrībit quemque collēgam suspicārī."
+  ],
+  [
+   "Unless Livia has prepared the slide, nobody will go home.",
+   "Nisi Līvia tabulam parāverit, nēmō domum ībit."
+  ],
+  [
+   "Quintus looked back at the minutes, in order to find out what had happened.",
+   "Quīntus ācta respexit, ut cognōsceret quid ēvēnisset."
+  ],
+  [
+   "If Gaius had not given the rule, the machine would not have burned.",
+   "Nisi Gaius rēgulam dedisset, māchina nōn ārsisset."
+  ],
+  [
+   "Whoever gives a rule, beware!",
+   "Quīcumque rēgulam dat, caveat!"
+  ],
+  [
+   "Beware the rules of Gaius.",
+   "Cavēte rēgulās Gaiī."
+  ],
+  [
+   "Gaius, however, is carefree.",
+   "Gaius tamen sēcūrus est."
+  ],
+  [
+   "On Monday he will give a new rule.",
+   "Diē Lūnae novam rēgulam dabit."
+  ],
+  [
+   "Tullia writes: \"Monday: a new coffee machine.\"",
+   "Tullia scrībit: \"Diēs Lūnae: nova māchina caffeae.\""
+  ],
+  [
+   "I have a new rule:",
+   "Novam rēgulam habeō:"
+  ],
+  [
+   "\"The new machine must be switched off at every meeting.\"",
+   "\"Nova māchina in omnī conventū exstinguenda est.\""
+  ],
+  [
+   "Why at every meeting?",
+   "Cūr in omnī conventū?"
+  ],
+  [
+   "Because without coffee, the meetings are brief.",
+   "Quia sine caffeā conventūs brevēs sunt."
+  ],
+  [
+   "\"A good rule,\" says Gaius. \"I will speak briefly about it.\"",
+   "\"Bona rēgula,\" inquit Gaius. \"Dē eā breviter dīcam.\""
+  ]
+ ]
+}

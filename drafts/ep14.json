@@ -1,0 +1,1205 @@
+{
+ "title": "Ladder 14 · Convīvium amīcitiae (the party for friendship)",
+ "summary": "Gaius throws an office party on Thursday so that friendship may grow: Quintus is ordered to have fun, Marcus finds a ring in the pasta and must sing first, the new young man Publius sings magnificently and envy grows instead; late that night the coffee machine, still humming, has been covered with a napkin and nobody admits it (Friday: it burns). B1 mix: ut + subjunctive, quī-clause with passive iubētur, indirect question, cum + subjunctive with invideō + dative, perfect passive.",
+ "cores": [
+  "Gaius convīvium parat, ut amīcitia crēscat.",
+  "Quīntus, quī numquam rīdet, voluptātem capere iubētur.",
+  "Ānulum cum gemmā in pastā invēnī, sed cuius sit nesciō.",
+  "Cum adulēscēns cantāret, omnēs eī invidēbant.",
+  "Māchina caffeae mappā tēcta est, et nēmō fatētur."
+ ],
+ "pairs": [
+  [
+   "A party.",
+   "Convīvium."
+  ],
+  [
+   "Today there is a party.",
+   "Hodiē convīvium est."
+  ],
+  [
+   "A party in the office?",
+   "Convīvium in officiō?"
+  ],
+  [
+   "Who wants a party?",
+   "Quis convīvium vult?"
+  ],
+  [
+   "Gaius prepares a party.",
+   "Gaius convīvium parat."
+  ],
+  [
+   "Why does Gaius prepare a party?",
+   "Cūr Gaius convīvium parat?"
+  ],
+  [
+   "Friendship.",
+   "Amīcitia."
+  ],
+  [
+   "Because of friendship.",
+   "Propter amīcitiam."
+  ],
+  [
+   "So that friendship may grow.",
+   "Ut amīcitia crēscat."
+  ],
+  [
+   "Gaius prepares a party, so that friendship may grow.",
+   "Gaius convīvium parat, ut amīcitia crēscat."
+  ],
+  [
+   "Does friendship grow at a party?",
+   "Crēscitne amīcitia in convīviō?"
+  ],
+  [
+   "Gaius thinks so.",
+   "Gaius sīc putat."
+  ],
+  [
+   "Gaius sends an email.",
+   "Gaius epistulam ēlectronicam mittit."
+  ],
+  [
+   "\"Dear friends,\" writes Gaius.",
+   "\"Cārī amīcī,\" scrībit Gaius."
+  ],
+  [
+   "\"We are all close friends.\"",
+   "\"Omnēs familiārēs sumus.\""
+  ],
+  [
+   "\"In this office we are all close friends.\"",
+   "\"In hōc officiō omnēs familiārēs sumus.\""
+  ],
+  [
+   "Are we close friends?",
+   "Familiārēsne sumus?"
+  ],
+  [
+   "I do not know where Gaius lives.",
+   "Nesciō, ubi Gaius habitet."
+  ],
+  [
+   "\"The party will be magnificent.\"",
+   "\"Convīvium magnificum erit.\""
+  ],
+  [
+   "Magnificent? In the office?",
+   "Magnificum? In officiō?"
+  ],
+  [
+   "\"There will be pasta.\"",
+   "\"Pasta erit.\""
+  ],
+  [
+   "\"There will be songs.\"",
+   "\"Cantūs erunt.\""
+  ],
+  [
+   "\"There will be a contest of song.\"",
+   "\"Certāmen cantūs erit.\""
+  ],
+  [
+   "\"There will be pleasure.\"",
+   "\"Voluptās erit.\""
+  ],
+  [
+   "Must I come? I must.",
+   "Dēbeōne venīre? Dēbeō."
+  ],
+  [
+   "By Hercules!",
+   "Hercle!"
+  ],
+  [
+   "By Hercules, a party for the sake of friendship!",
+   "Hercle, convīvium amīcitiae causā!"
+  ],
+  [
+   "Tullia writes everything.",
+   "Tullia omnia scrībit."
+  ],
+  [
+   "Tullia writes: \"Gaius prepares a party, so that friendship may grow.\"",
+   "Tullia scrībit: \"Gaius convīvium parat, ut amīcitia crēscat.\""
+  ],
+  [
+   "Marcus complains.",
+   "Mārcus queritur."
+  ],
+  [
+   "Why are you complaining?",
+   "Cūr quereris?"
+  ],
+  [
+   "I complain, because I have work.",
+   "Queror, quia opus habeō."
+  ],
+  [
+   "Gaius says: \"Do not complain!\"",
+   "Gaius dīcit: \"Nōlī querī!\""
+  ],
+  [
+   "\"For friendship is also work.\"",
+   "\"Amīcitia enim quoque opus est.\""
+  ],
+  [
+   "Gaius says that friendship is also work.",
+   "Gaius dīcit amīcitiam quoque opus esse."
+  ],
+  [
+   "Nevertheless I must come.",
+   "Tamen venīre dēbeō."
+  ],
+  [
+   "Gaius gives a speech.",
+   "Gaius sermōnem habet."
+  ],
+  [
+   "A speech about friendship.",
+   "Sermō dē amīcitiā."
+  ],
+  [
+   "\"I will speak briefly,\" says Gaius.",
+   "\"Breviter dīcam,\" inquit Gaius."
+  ],
+  [
+   "Then he talks for one hour.",
+   "Deinde ūnam hōram loquitur."
+  ],
+  [
+   "A long speech about friendship.",
+   "Longus sermō dē amīcitiā."
+  ],
+  [
+   "A speech without salt.",
+   "Sermō sine sale."
+  ],
+  [
+   "If the speech were shorter, friendship would grow.",
+   "Sī sermō brevior esset, amīcitia crēsceret."
+  ],
+  [
+   "Gaius prepares a party, so that friendship may grow.",
+   "Gaius convīvium parat, ut amīcitia crēscat."
+  ],
+  [
+   "Quintus, however, is not happy.",
+   "Quīntus tamen laetus nōn est."
+  ],
+  [
+   "Quintus never laughs.",
+   "Quīntus numquam rīdet."
+  ],
+  [
+   "Quintus, who never laughs...",
+   "Quīntus, quī numquam rīdet..."
+  ],
+  [
+   "Pleasure.",
+   "Voluptās."
+  ],
+  [
+   "To take pleasure.",
+   "Voluptātem capere."
+  ],
+  [
+   "He is ordered to take pleasure.",
+   "Voluptātem capere iubētur."
+  ],
+  [
+   "Quintus is ordered to take pleasure.",
+   "Quīntus voluptātem capere iubētur."
+  ],
+  [
+   "Quintus, who never laughs, is ordered to take pleasure.",
+   "Quīntus, quī numquam rīdet, voluptātem capere iubētur."
+  ],
+  [
+   "Who orders it? Gaius.",
+   "Quis iubet? Gaius."
+  ],
+  [
+   "Gaius says: \"Quintus, you will take pleasure.\"",
+   "Gaius dīcit: \"Quīnte, voluptātem capiēs.\""
+  ],
+  [
+   "\"At the party everyone takes pleasure.\"",
+   "\"In convīviō omnēs voluptātem capiunt.\""
+  ],
+  [
+   "\"For it is a rule.\"",
+   "\"Rēgula enim est.\""
+  ],
+  [
+   "Quintus loves rules.",
+   "Quīntus rēgulās amat."
+  ],
+  [
+   "But pleasure is unpleasant to him.",
+   "Sed voluptās eī ingrāta est."
+  ],
+  [
+   "Why is pleasure unpleasant to Quintus?",
+   "Cūr voluptās Quīntō ingrāta est?"
+  ],
+  [
+   "Because pleasure has no rules.",
+   "Quia voluptās rēgulās nōn habet."
+  ],
+  [
+   "Quintus asks: \"How much pleasure?\"",
+   "Quīntus rogat: \"Quantum voluptātis?\""
+  ],
+  [
+   "\"From which hour? Up to which hour?\"",
+   "\"Ā quā hōrā? Ūsque ad quam hōram?\""
+  ],
+  [
+   "\"Three hours,\" says Gaius.",
+   "\"Trēs hōrās,\" inquit Gaius."
+  ],
+  [
+   "Three hours of pleasure.",
+   "Trēs hōrae voluptātis."
+  ],
+  [
+   "Quintus already despairs.",
+   "Quīntus iam dēspērat."
+  ],
+  [
+   "Quintus despairs, but he does not complain.",
+   "Quīntus dēspērat, sed nōn queritur."
+  ],
+  [
+   "Quintus writes rules of pleasure.",
+   "Quīntus rēgulās voluptātis scrībit."
+  ],
+  [
+   "The first rule: one laugh every hour.",
+   "Rēgula prīma: ūnus rīsus omnī hōrā."
+  ],
+  [
+   "Quintus brings apples.",
+   "Quīntus māla affert."
+  ],
+  [
+   "Apples and pears.",
+   "Māla et pira."
+  ],
+  [
+   "Why apples and pears?",
+   "Cūr māla et pira?"
+  ],
+  [
+   "\"An apple has no salt,\" says Quintus.",
+   "\"Mālum salem nōn habet,\" inquit Quīntus."
+  ],
+  [
+   "\"A pear has no salt.\"",
+   "\"Pirum salem nōn habet.\""
+  ],
+  [
+   "\"Pasta has much salt.\"",
+   "\"Pasta multum salis habet.\""
+  ],
+  [
+   "\"Salt is a vice.\"",
+   "\"Sāl vitium est.\""
+  ],
+  [
+   "Quintus counts the apples and the pears.",
+   "Quīntus māla et pira numerat."
+  ],
+  [
+   "Seven apples, seven pears.",
+   "Septem māla, septem pira."
+  ],
+  [
+   "Equally many.",
+   "Aequē multa."
+  ],
+  [
+   "For Quintus an apple is equal to a pear.",
+   "Quīntō mālum pirō pār est."
+  ],
+  [
+   "Quintus does not mix apples and pears.",
+   "Quīntus māla et pira nōn miscet."
+  ],
+  [
+   "Livia prepares a slide about friendship.",
+   "Līvia tabulam dē amīcitiā parat."
+  ],
+  [
+   "\"Almost ready,\" says Livia.",
+   "\"Paene parāta,\" inquit Līvia."
+  ],
+  [
+   "Quintus, who never laughs, is ordered to take pleasure.",
+   "Quīntus, quī numquam rīdet, voluptātem capere iubētur."
+  ],
+  [
+   "A young man.",
+   "Adulēscēns."
+  ],
+  [
+   "The new colleague is a young man.",
+   "Novus collēga adulēscēns est."
+  ],
+  [
+   "He is called Publius.",
+   "Pūblius vocātur."
+  ],
+  [
+   "Publius is twenty years old.",
+   "Pūblius vīgintī annōs nātus est."
+  ],
+  [
+   "Youth!",
+   "Iuventūs!"
+  ],
+  [
+   "Gaius says: \"Oh, youth!\"",
+   "Gaius dīcit: \"Ō iuventūs!\""
+  ],
+  [
+   "Gaius remembers his youth.",
+   "Gaius iuventūtem suam meminit."
+  ],
+  [
+   "\"Old age is not a flaw,\" says Gaius.",
+   "\"Senectūs vitium nōn est,\" inquit Gaius."
+  ],
+  [
+   "Publius looks at the mirror.",
+   "Pūblius speculum spectat."
+  ],
+  [
+   "Publius always looks at the mirror.",
+   "Pūblius semper speculum spectat."
+  ],
+  [
+   "Why does he look at the mirror?",
+   "Cūr speculum spectat?"
+  ],
+  [
+   "Because he admires himself.",
+   "Quia sē admīrātur."
+  ],
+  [
+   "Publius is proud.",
+   "Pūblius superbus est."
+  ],
+  [
+   "Is Publius proud? A little.",
+   "Estne Pūblius superbus? Paulum."
+  ],
+  [
+   "Publius shows himself off.",
+   "Pūblius sē iactat."
+  ],
+  [
+   "Evening. The party begins.",
+   "Vesper. Convīvium incipit."
+  ],
+  [
+   "\"This is an honourable party,\" says Gaius.",
+   "\"Hoc convīvium honestum est,\" inquit Gaius."
+  ],
+  [
+   "Gaius mixes people: youth and old age.",
+   "Gaius hominēs miscet: iuventūtem et senectūtem."
+  ],
+  [
+   "Gaius makes the pasta himself.",
+   "Gaius ipse pastam facit."
+  ],
+  [
+   "Tullia mixes the pasta.",
+   "Tullia pastam miscet."
+  ],
+  [
+   "Gaius adds salt.",
+   "Gaius salem addit."
+  ],
+  [
+   "Too much salt.",
+   "Nimis multum salis."
+  ],
+  [
+   "Tullia writes: \"Too much salt.\"",
+   "Tullia scrībit: \"Nimis multum salis.\""
+  ],
+  [
+   "Gaius pours out the wine into the cups.",
+   "Gaius vīnum in pōcula effundit."
+  ],
+  [
+   "I eat the pasta.",
+   "Pastam edō."
+  ],
+  [
+   "At least the pasta is hot.",
+   "Saltem pasta calida est."
+  ],
+  [
+   "Something hard in the pasta.",
+   "Aliquid dūrum in pastā."
+  ],
+  [
+   "A ring!",
+   "Ānulus!"
+  ],
+  [
+   "A ring in the pasta!",
+   "Ānulus in pastā!"
+  ],
+  [
+   "A ring with a jewel.",
+   "Ānulus cum gemmā."
+  ],
+  [
+   "I found a ring with a jewel in the pasta.",
+   "Ānulum cum gemmā in pastā invēnī."
+  ],
+  [
+   "Whose is it?",
+   "Cuius est?"
+  ],
+  [
+   "I do not know whose it is.",
+   "Nesciō, cuius sit."
+  ],
+  [
+   "I found a ring with a jewel in the pasta, but I do not know whose it is.",
+   "Ānulum cum gemmā in pastā invēnī, sed cuius sit nesciō."
+  ],
+  [
+   "I am curious.",
+   "Cūriōsus sum."
+  ],
+  [
+   "A beautiful jewel. Green.",
+   "Gemma pulchra. Viridis."
+  ],
+  [
+   "Is the jewel real?",
+   "Estne gemma vēra?"
+  ],
+  [
+   "An honest man returns the ring.",
+   "Probus homō ānulum reddit."
+  ],
+  [
+   "I am honest. I will return the ring.",
+   "Probus sum. Ānulum reddam."
+  ],
+  [
+   "I ask: \"Whose is this ring?\"",
+   "Rogō: \"Cuius est hic ānulus?\""
+  ],
+  [
+   "Livia says: \"Mine!\"",
+   "Līvia dīcit: \"Meus!\""
+  ],
+  [
+   "Publius says: \"Mine!\"",
+   "Pūblius dīcit: \"Meus!\""
+  ],
+  [
+   "Gaius says: \"Mine!\"",
+   "Gaius dīcit: \"Meus!\""
+  ],
+  [
+   "Even Tullia says: \"Mine!\"",
+   "Etiam Tullia dīcit: \"Meus!\""
+  ],
+  [
+   "Everyone says \"Mine!\", as if the ring were gold.",
+   "Omnēs \"Meus!\" dīcunt, quasi ānulus aureus sit."
+  ],
+  [
+   "Four people, one ring.",
+   "Quattuor hominēs, ūnus ānulus."
+  ],
+  [
+   "Are they all honest?",
+   "Suntne omnēs probī?"
+  ],
+  [
+   "Everyone is respectable. Everyone is honest.",
+   "Omnēs honestī sunt. Omnēs probī."
+  ],
+  [
+   "Tullia is curious too.",
+   "Tullia quoque cūriōsa est."
+  ],
+  [
+   "Tullia writes: \"Everyone has lost a ring.\"",
+   "Tullia scrībit: \"Omnēs ānulum āmīsērunt.\""
+  ],
+  [
+   "Only Quintus is not curious.",
+   "Sōlus Quīntus cūriōsus nōn est."
+  ],
+  [
+   "Quintus eats a pear.",
+   "Quīntus pirum edit."
+  ],
+  [
+   "Then Gaius laughs.",
+   "Tum Gaius rīdet."
+  ],
+  [
+   "\"I admit it,\" says Gaius.",
+   "\"Fateor,\" inquit Gaius."
+  ],
+  [
+   "\"I put the ring in the pasta.\"",
+   "\"Ego ānulum in pastā posuī.\""
+  ],
+  [
+   "\"It is a game. A Roman game.\"",
+   "\"Lūdus est. Lūdus Rōmānus.\""
+  ],
+  [
+   "\"He who finds the ring is king of the party.\"",
+   "\"Quī ānulum invenit, rēx convīviī est.\""
+  ],
+  [
+   "King of the party? Me?",
+   "Rēx convīviī? Ego?"
+  ],
+  [
+   "\"For the king sings first.\"",
+   "\"Rēx enim prīmus cantat.\""
+  ],
+  [
+   "By Hercules! Because of the ring I must sing.",
+   "Hercle! Propter ānulum cantāre dēbeō."
+  ],
+  [
+   "The ring is not mine. The song is mine.",
+   "Ānulus meus nōn est. Cantus meus est."
+  ],
+  [
+   "Whose ring is it, then?",
+   "Cuius igitur ānulus est?"
+  ],
+  [
+   "I found a ring with a jewel in the pasta, but I do not know whose it is.",
+   "Ānulum cum gemmā in pastā invēnī, sed cuius sit nesciō."
+  ],
+  [
+   "The contest of song.",
+   "Certāmen cantūs."
+  ],
+  [
+   "I sing badly.",
+   "Male cantō."
+  ],
+  [
+   "My voice sounds like a door.",
+   "Vōx mea sonat quasi iānua."
+  ],
+  [
+   "My song injures the ears.",
+   "Cantus meus aurēs laedit."
+  ],
+  [
+   "I cover my face.",
+   "Faciem meam tegō."
+  ],
+  [
+   "I admit it: I have no talent.",
+   "Fateor: ingenium nōn habeō."
+  ],
+  [
+   "No talent, no skill.",
+   "Nūllum ingenium, nūlla ars."
+  ],
+  [
+   "Then Gaius sings.",
+   "Deinde Gaius cantat."
+  ],
+  [
+   "Gaius sings with a lyre.",
+   "Gaius cum citharā cantat."
+  ],
+  [
+   "The lyre sounds.",
+   "Cithara sonat."
+  ],
+  [
+   "A string snaps.",
+   "Chorda rumpitur."
+  ],
+  [
+   "Gaius sang equally badly.",
+   "Gaius aequē male cantāvit."
+  ],
+  [
+   "Gaius and I sang equally badly.",
+   "Gaius et ego aequē male cantāvimus."
+  ],
+  [
+   "Gaius is equal to me.",
+   "Gaius mihi pār est."
+  ],
+  [
+   "Then the young man sings.",
+   "Deinde adulēscēns cantat."
+  ],
+  [
+   "Publius sings magnificently.",
+   "Pūblius magnificē cantat."
+  ],
+  [
+   "His song is magnificent.",
+   "Cantus eius magnificus est."
+  ],
+  [
+   "Publius has talent.",
+   "Pūblius ingenium habet."
+  ],
+  [
+   "Nobody is equal to Publius.",
+   "Nēmō Pūbliō pār est."
+  ],
+  [
+   "Everyone admires the young man.",
+   "Omnēs adulēscentem admīrantur."
+  ],
+  [
+   "Everyone admires him, and everyone envies him.",
+   "Omnēs eum admīrantur, et omnēs eī invident."
+  ],
+  [
+   "When the young man was singing...",
+   "Cum adulēscēns cantāret..."
+  ],
+  [
+   "...everyone envied him.",
+   "...omnēs eī invidēbant."
+  ],
+  [
+   "When the young man was singing, everyone envied him.",
+   "Cum adulēscēns cantāret, omnēs eī invidēbant."
+  ],
+  [
+   "Envy.",
+   "Invidia."
+  ],
+  [
+   "Envy in the office.",
+   "Invidia in officiō."
+  ],
+  [
+   "Did everyone envy him?",
+   "Invidēbantne omnēs eī?"
+  ],
+  [
+   "Everyone, except Quintus.",
+   "Omnēs, nisi Quīntus."
+  ],
+  [
+   "Quintus envies nobody.",
+   "Quīntus nēminī invidet."
+  ],
+  [
+   "Why? Because he was eating a pear.",
+   "Cūr? Quia pirum edēbat."
+  ],
+  [
+   "Gaius is bursting with envy.",
+   "Gaius invidiā rumpitur."
+  ],
+  [
+   "\"I envy youth,\" says Gaius.",
+   "\"Iuventūtī invideō,\" inquit Gaius."
+  ],
+  [
+   "Gaius looks at the mirror.",
+   "Gaius speculum spectat."
+  ],
+  [
+   "In the mirror he sees old age.",
+   "In speculō senectūtem videt."
+  ],
+  [
+   "\"Old age has skill. Youth has talent.\"",
+   "\"Senectūs artem habet. Iuventūs ingenium.\""
+  ],
+  [
+   "Gaius says that old age has more skill.",
+   "Gaius dīcit senectūtem plūs artis habēre."
+  ],
+  [
+   "Is Gaius equal to Publius? No.",
+   "Estne Gaius Pūbliō pār? Minimē."
+  ],
+  [
+   "Is Publius proud? Yes, now he is proud.",
+   "Estne Pūblius superbus? Ita, nunc superbus est."
+  ],
+  [
+   "A proud young man and a mirror.",
+   "Superbus adulēscēns et speculum."
+  ],
+  [
+   "Tullia writes: \"When the young man was singing, everyone envied him.\"",
+   "Tullia scrībit: \"Cum adulēscēns cantāret, omnēs eī invidēbant.\""
+  ],
+  [
+   "Tullia writes: \"Gaius is bursting with envy.\"",
+   "Tullia scrībit: \"Gaius invidiā rumpitur.\""
+  ],
+  [
+   "\"Tullia! Do not write that!\"",
+   "\"Tullia! Nōlī hoc scrībere!\""
+  ],
+  [
+   "So Quintus must sing.",
+   "Quīntus igitur cantāre dēbet."
+  ],
+  [
+   "Quintus, who never laughs, is ordered to take pleasure.",
+   "Quīntus, quī numquam rīdet, voluptātem capere iubētur."
+  ],
+  [
+   "Quintus does not sing.",
+   "Quīntus nōn cantat."
+  ],
+  [
+   "Quintus takes three apples.",
+   "Quīntus tria māla capit."
+  ],
+  [
+   "He tosses the apples.",
+   "Māla iactat."
+  ],
+  [
+   "He tosses apples and pears.",
+   "Māla et pira iactat."
+  ],
+  [
+   "He tosses them like a machine.",
+   "Ea iactat quasi māchina."
+  ],
+  [
+   "Three apples, two pears, no flaw.",
+   "Tria māla, duo pira, nūllum vitium."
+  ],
+  [
+   "He tosses them, and he does not laugh.",
+   "Ea iactat, et nōn rīdet."
+  ],
+  [
+   "It is a skill.",
+   "Ars est."
+  ],
+  [
+   "Quintus has great skill.",
+   "Quīntus magnam artem habet."
+  ],
+  [
+   "Is it a song? No.",
+   "Estne cantus? Minimē."
+  ],
+  [
+   "Quintus reads the rules.",
+   "Quīntus rēgulās legit."
+  ],
+  [
+   "\"No rule says that a song is necessary.\"",
+   "\"Nūlla rēgula dīcit cantum necessārium esse.\""
+  ],
+  [
+   "Everyone admires Quintus.",
+   "Omnēs Quīntum admīrantur."
+  ],
+  [
+   "Now everyone envies Quintus.",
+   "Nunc omnēs Quīntō invident."
+  ],
+  [
+   "Even Publius envies him.",
+   "Etiam Pūblius eī invidet."
+  ],
+  [
+   "Everyone envies equally.",
+   "Omnēs aequē invident."
+  ],
+  [
+   "Quintus wins.",
+   "Quīntus vincit."
+  ],
+  [
+   "Did Quintus take pleasure?",
+   "Cēpitne Quīntus voluptātem?"
+  ],
+  [
+   "Quintus says that he took no pleasure.",
+   "Quīntus dīcit sē nūllam voluptātem cēpisse."
+  ],
+  [
+   "Then he eats an apple. Almost a smile.",
+   "Deinde mālum edit. Paene rīsus."
+  ],
+  [
+   "Already it is late.",
+   "Iam sērō est."
+  ],
+  [
+   "Livia carries coffee.",
+   "Līvia caffeam portat."
+  ],
+  [
+   "And her slide. Almost ready.",
+   "Et tabulam suam. Paene parātam."
+  ],
+  [
+   "Livia pours out the coffee.",
+   "Līvia caffeam effundit."
+  ],
+  [
+   "Gaius slips on the coffee.",
+   "Gaius in caffeā lābitur."
+  ],
+  [
+   "Gaius slips and falls.",
+   "Gaius lābitur et cadit."
+  ],
+  [
+   "He strikes against the table.",
+   "Mēnsam offendit."
+  ],
+  [
+   "He strikes against the coffee machine.",
+   "Māchinam caffeae offendit."
+  ],
+  [
+   "The coffee machine makes a noise.",
+   "Māchina caffeae sonat."
+  ],
+  [
+   "It sounds strangely.",
+   "Mīrē sonat."
+  ],
+  [
+   "Is Gaius injured?",
+   "Laesusne est Gaius?"
+  ],
+  [
+   "No. Nobody has been injured.",
+   "Minimē. Nēmō laesus est."
+  ],
+  [
+   "Only his dignity has been injured.",
+   "Sōla dignitās eius laesa est."
+  ],
+  [
+   "Gaius is a respectable man.",
+   "Gaius vir honestus est."
+  ],
+  [
+   "At least nobody has been injured.",
+   "Saltem nēmō laesus est."
+  ],
+  [
+   "Publius sings again, near the machine.",
+   "Pūblius iterum cantat, prope māchinam."
+  ],
+  [
+   "Quintus tosses apples near the machine.",
+   "Quīntus māla prope māchinam iactat."
+  ],
+  [
+   "Who touched the machine?",
+   "Quis māchinam tetigit?"
+  ],
+  [
+   "Everyone touched it.",
+   "Omnēs eam tetigērunt."
+  ],
+  [
+   "Later somebody covers the machine with a napkin.",
+   "Posteā aliquis māchinam mappā tegit."
+  ],
+  [
+   "Who? I do not know.",
+   "Quis? Nesciō."
+  ],
+  [
+   "Tullia does not write this, because her book is full.",
+   "Tullia hoc nōn scrībit, quia liber eius plēnus est."
+  ],
+  [
+   "Gaius gives another speech.",
+   "Gaius alterum sermōnem habet."
+  ],
+  [
+   "\"I will speak briefly.\" Two hours.",
+   "\"Breviter dīcam.\" Duās hōrās."
+  ],
+  [
+   "\"Friendship has grown, hasn't it?\"",
+   "\"Nōnne amīcitia crēvit?\""
+  ],
+  [
+   "Gaius envies Publius. Everyone envies Quintus.",
+   "Gaius Pūbliō invidet. Omnēs Quīntō invident."
+  ],
+  [
+   "Friendship did not grow. Envy grew.",
+   "Amīcitia nōn crēvit. Invidia crēvit."
+  ],
+  [
+   "Envy and friendship are mixed.",
+   "Invidia et amīcitia miscentur."
+  ],
+  [
+   "Gaius prepared a party, so that friendship might grow.",
+   "Gaius convīvium parāvit, ut amīcitia crēsceret."
+  ],
+  [
+   "Tullia writes: \"Envy has grown.\"",
+   "Tullia scrībit: \"Invidia crēvit.\""
+  ],
+  [
+   "Gaius, however, does not despair.",
+   "Gaius tamen nōn dēspērat."
+  ],
+  [
+   "\"Next month, another party!\"",
+   "\"Mēnse proximō, aliud convīvium!\""
+  ],
+  [
+   "I despair.",
+   "Dēspērō."
+  ],
+  [
+   "\"Do not despair, Marcus.\"",
+   "\"Nōlī dēspērāre, Mārce.\""
+  ],
+  [
+   "\"You are ungrateful, Marcus,\" says Gaius.",
+   "\"Ingrātus es, Mārce,\" inquit Gaius."
+  ],
+  [
+   "Am I ungrateful? Perhaps. But I am tired.",
+   "Ingrātusne sum? Fortasse. Sed lassus sum."
+  ],
+  [
+   "Late at night.",
+   "Multā nocte."
+  ],
+  [
+   "Everyone is going home.",
+   "Omnēs domum eunt."
+  ],
+  [
+   "I want coffee.",
+   "Caffeam volō."
+  ],
+  [
+   "The coffee machine.",
+   "Māchina caffeae."
+  ],
+  [
+   "The machine is already covered.",
+   "Māchina iam tēcta est."
+  ],
+  [
+   "Covered with a napkin.",
+   "Mappā tēcta."
+  ],
+  [
+   "I lift the napkin.",
+   "Mappam tollō."
+  ],
+  [
+   "The machine sounds strangely. A flaw?",
+   "Māchina mīrē sonat. Vitium?"
+  ],
+  [
+   "By Hercules! Is the machine broken? Not yet.",
+   "Hercle! Ruptane est māchina? Nōndum."
+  ],
+  [
+   "Why has the machine been covered? So that it may sleep?",
+   "Cūr māchina tēcta est? Ut dormiat?"
+  ],
+  [
+   "I cover the machine again.",
+   "Māchinam iterum tegō."
+  ],
+  [
+   "The coffee machine has been covered with a napkin.",
+   "Māchina caffeae mappā tēcta est."
+  ],
+  [
+   "Who covered the machine?",
+   "Quis māchinam tēxit?"
+  ],
+  [
+   "Nobody admits it.",
+   "Nēmō fatētur."
+  ],
+  [
+   "The coffee machine has been covered with a napkin, and nobody admits it.",
+   "Māchina caffeae mappā tēcta est, et nēmō fatētur."
+  ],
+  [
+   "Gaius? He struck against it.",
+   "Gaius? Eam offendit."
+  ],
+  [
+   "Did Gaius slip? He slipped.",
+   "Lāpsusne est Gaius? Lāpsus est."
+  ],
+  [
+   "Livia? She poured out coffee.",
+   "Līvia? Caffeam effūdit."
+  ],
+  [
+   "Publius? He sang near it.",
+   "Pūblius? Prope eam cantāvit."
+  ],
+  [
+   "Quintus? He tossed apples.",
+   "Quīntus? Māla iactāvit."
+  ],
+  [
+   "And I? I covered it again. But I do not count that.",
+   "Et ego? Iterum eam tēxī. Sed hoc nōn numerō."
+  ],
+  [
+   "Tullia writes everything. But not this.",
+   "Tullia omnia scrībit. Sed nōn hoc."
+  ],
+  [
+   "I am curious: who covered the machine?",
+   "Cūriōsus sum: quis māchinam tēxit?"
+  ],
+  [
+   "Is it honourable to lie? No.",
+   "Estne honestum mentīrī? Minimē."
+  ],
+  [
+   "\"Close friends admit it,\" says Gaius.",
+   "\"Familiārēs fatentur,\" inquit Gaius."
+  ],
+  [
+   "Nobody admits it.",
+   "Nēmō fatētur."
+  ],
+  [
+   "The coffee machine has been covered with a napkin, and nobody admits it.",
+   "Māchina caffeae mappā tēcta est, et nēmō fatētur."
+  ],
+  [
+   "Without coffee I despair.",
+   "Sine caffeā dēspērō."
+  ],
+  [
+   "Unless somebody admits it, Gaius will hold a meeting.",
+   "Nisi aliquis fatēbitur, Gaius conventum habēbit."
+  ],
+  [
+   "A meeting about the coffee machine.",
+   "Conventus dē māchinā caffeae."
+  ],
+  [
+   "Tomorrow, on Friday.",
+   "Crās, diē Veneris."
+  ],
+  [
+   "Who, then, covered the machine?",
+   "Quis igitur māchinam tēxit?"
+  ],
+  [
+   "The five sentences again.",
+   "Quīnque sententiae iterum."
+  ],
+  [
+   "Gaius prepares a party, so that friendship may grow.",
+   "Gaius convīvium parat, ut amīcitia crēscat."
+  ],
+  [
+   "Quintus, who never laughs, is ordered to take pleasure.",
+   "Quīntus, quī numquam rīdet, voluptātem capere iubētur."
+  ],
+  [
+   "I found a ring with a jewel in the pasta, but I do not know whose it is.",
+   "Ānulum cum gemmā in pastā invēnī, sed cuius sit nesciō."
+  ],
+  [
+   "When the young man was singing, everyone envied him.",
+   "Cum adulēscēns cantāret, omnēs eī invidēbant."
+  ],
+  [
+   "The coffee machine has been covered with a napkin, and nobody admits it.",
+   "Māchina caffeae mappā tēcta est, et nēmō fatētur."
+  ],
+  [
+   "Gaius said that the party would be magnificent.",
+   "Gaius dīxit convīvium magnificum futūrum esse."
+  ],
+  [
+   "If Publius had not sung, nobody would have envied him.",
+   "Nisi Pūblius cantāvisset, nēmō eī invīdisset."
+  ],
+  [
+   "Gaius struck against the machine. But did he break it?",
+   "Gaius māchinam offendit. Sed rūpitne eam?"
+  ],
+  [
+   "If Livia had not poured out the coffee, Gaius would not have slipped.",
+   "Sī Līvia caffeam nōn effūdisset, Gaius nōn lāpsus esset."
+  ],
+  [
+   "Will Quintus take pleasure next month? Not even Quintus knows.",
+   "Capietne Quīntus voluptātem mēnse proximō? Nē Quīntus quidem scit."
+  ],
+  [
+   "And the ring? I still have it.",
+   "Et ānulus? Adhūc eum habeō."
+  ],
+  [
+   "At least I have a ring.",
+   "Saltem ānulum habeō."
+  ],
+  [
+   "Gaius says: \"The king of the party must prepare the next party.\"",
+   "Gaius dīcit: \"Rēx convīviī proximum convīvium parāre dēbet.\""
+  ],
+  [
+   "Because of the ring, I despair.",
+   "Propter ānulum dēspērō."
+  ],
+  [
+   "I prepare a party, so that friendship may grow.",
+   "Convīvium parō, ut amīcitia crēscat."
+  ],
+  [
+   "Without songs. Without a speech. Without pasta.",
+   "Sine cantibus. Sine sermōne. Sine pastā."
+  ],
+  [
+   "Only apples and pears.",
+   "Tantum māla et pira."
+  ],
+  [
+   "Tullia writes: \"Marcus is laughing.\"",
+   "Tullia scrībit: \"Mārcus rīdet.\""
+  ],
+  [
+   "I am not laughing. I want coffee.",
+   "Nōn rīdeō. Caffeam volō."
+  ]
+ ]
+}

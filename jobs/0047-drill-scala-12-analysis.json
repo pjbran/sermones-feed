@@ -1,0 +1,1215 @@
+{
+ "type": "drill",
+ "engine": "eleven",
+ "voice": "F",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "repeat": 1,
+ "music": "v5",
+ "max_credits": 12000,
+ "slug": "scala-12-analysis",
+ "title": "Ladder 12 · Analysis (the analysis)",
+ "summary": "Gaius wants a perfect analysis of the new product \"Speed\" before Friday, but every time he consults his new calendar the deadline moves closer, until Marcus discovers the product IS the calendar, and it is too fast.",
+ "pairs": [
+  [
+   "Tuesday.",
+   "Diēs Martis."
+  ],
+  [
+   "Tuesday. A new day.",
+   "Diēs Martis. Novus diēs."
+  ],
+  [
+   "A new day, a new task.",
+   "Novus diēs, novum pēnsum."
+  ],
+  [
+   "What task?",
+   "Quod pēnsum?"
+  ],
+  [
+   "Gaius calls everyone.",
+   "Gaius omnēs vocat."
+  ],
+  [
+   "\"I will speak briefly,\" says Gaius.",
+   "\"Breviter dīcam,\" inquit Gaius."
+  ],
+  [
+   "Oh no.",
+   "Ēheu."
+  ],
+  [
+   "Gaius speaks about the product.",
+   "Gaius dē prōductō loquitur."
+  ],
+  [
+   "About the new product.",
+   "Dē prōductō novō."
+  ],
+  [
+   "The new product has a name.",
+   "Prōductum novum nōmen habet."
+  ],
+  [
+   "Its name is \"Speed\".",
+   "Nōmen eius est \"Celeritās\"."
+  ],
+  [
+   "Speed? An amazing name.",
+   "Celeritās? Nōmen mīrābile."
+  ],
+  [
+   "What is Speed?",
+   "Quid est Celeritās?"
+  ],
+  [
+   "Gaius speaks for one hour.",
+   "Gaius ūnam hōram loquitur."
+  ],
+  [
+   "But he does not say what the product is.",
+   "Sed nōn dīcit quid prōductum sit."
+  ],
+  [
+   "And nobody asks.",
+   "Et nēmō rogat."
+  ],
+  [
+   "What do I suppose? A computer.",
+   "Quid exīstimō? Computātrum."
+  ],
+  [
+   "Livia supposes that it is a drink.",
+   "Līvia exīstimat pōtiōnem esse."
+  ],
+  [
+   "Quintus supposes nothing. Quintus knows.",
+   "Quīntus nihil exīstimat. Quīntus scit."
+  ],
+  [
+   "But nobody asks Quintus.",
+   "Sed nēmō Quīntum rogat."
+  ],
+  [
+   "Is the product good?",
+   "Estne prōductum bonum?"
+  ],
+  [
+   "Or is it bad?",
+   "An malum est?"
+  ],
+  [
+   "Good or bad?",
+   "Bonum an malum?"
+  ],
+  [
+   "Gaius wants to know.",
+   "Gaius scīre vult."
+  ],
+  [
+   "Gaius wants to know whether the product is good or bad.",
+   "Gaius scīre vult utrum prōductum bonum sit an malum."
+  ],
+  [
+   "Gaius wants to know whether the new product is good or bad.",
+   "Gaius scīre vult utrum prōductum novum bonum sit an malum."
+  ],
+  [
+   "Doesn't Gaius know?",
+   "Nōnne Gaius scit?"
+  ],
+  [
+   "Gaius supposes that he knows.",
+   "Gaius exīstimat sē scīre."
+  ],
+  [
+   "Therefore he wants an analysis.",
+   "Ideō analysim vult."
+  ],
+  [
+   "An analysis of the new product.",
+   "Analysis prōductī novī."
+  ],
+  [
+   "Who will write the analysis?",
+   "Quis analysim scrībet?"
+  ],
+  [
+   "Everyone looks at me.",
+   "Omnēs mē spectant."
+  ],
+  [
+   "Why me?",
+   "Cūr mē?"
+  ],
+  [
+   "Gaius says: \"Marcus is hard-working.\"",
+   "Gaius dīcit: \"Mārcus dīligēns est.\""
+  ],
+  [
+   "Am I hard-working? Probably.",
+   "Dīligēnsne sum? Probābiliter."
+  ],
+  [
+   "This is my reward.",
+   "Hoc est praemium meum."
+  ],
+  [
+   "The reward of a hard-working man: more work.",
+   "Praemium hominis dīligentis: plūs labōris."
+  ],
+  [
+   "The analysis is my task.",
+   "Analysis est pēnsum meum."
+  ],
+  [
+   "What must the analysis have?",
+   "Quid analysis habēre dēbet?"
+  ],
+  [
+   "Data. Many data.",
+   "Data. Multa data."
+  ],
+  [
+   "Gaius loves numbers.",
+   "Gaius numerōs amat."
+  ],
+  [
+   "\"Numbers do not debate,\" says Gaius.",
+   "\"Numerī nōn disputant,\" inquit Gaius."
+  ],
+  [
+   "A document.",
+   "Documentum."
+  ],
+  [
+   "A perfect document.",
+   "Documentum perfectum."
+  ],
+  [
+   "A whole document, with chapters.",
+   "Documentum integrum, cum capitulīs."
+  ],
+  [
+   "How many chapters?",
+   "Quot capitula?"
+  ],
+  [
+   "Ten chapters.",
+   "Decem capitula."
+  ],
+  [
+   "And notes. Many notes.",
+   "Et notae. Multae notae."
+  ],
+  [
+   "When?",
+   "Quandō?"
+  ],
+  [
+   "Before Friday.",
+   "Ante diem Veneris."
+  ],
+  [
+   "Gaius consults the calendar.",
+   "Gaius calendārium cōnsulit."
+  ],
+  [
+   "The new calendar.",
+   "Calendārium novum."
+  ],
+  [
+   "Gaius loves the new calendar.",
+   "Gaius calendārium novum amat."
+  ],
+  [
+   "\"The calendar says: Friday.\"",
+   "\"Calendārium dīcit: diēs Veneris.\""
+  ],
+  [
+   "Three days. Is it possible?",
+   "Trēs diēs. Estne possibile?"
+  ],
+  [
+   "Probably possible.",
+   "Probābiliter possibile."
+  ],
+  [
+   "Tullia writes: \"Marcus will compose a perfect analysis before Friday.\"",
+   "Tullia scrībit: \"Mārcus analysim perfectam ante diem Veneris compōnet.\""
+  ],
+  [
+   "I prepare.",
+   "Praeparō."
+  ],
+  [
+   "I prepare my desk.",
+   "Mēnsam meam praeparō."
+  ],
+  [
+   "I prepare myself.",
+   "Mē praeparō."
+  ],
+  [
+   "I must consult the data.",
+   "Data cōnsulere dēbeō."
+  ],
+  [
+   "Where are the data?",
+   "Ubi sunt data?"
+  ],
+  [
+   "The data are in the computer.",
+   "Data in computātrō sunt."
+  ],
+  [
+   "In the computer of Quintus.",
+   "In computātrō Quīntī."
+  ],
+  [
+   "I consult the data.",
+   "Data cōnsulō."
+  ],
+  [
+   "I consult the data, so that I may write the analysis.",
+   "Data cōnsulō, ut analysim scrībam."
+  ],
+  [
+   "I consult the data, so that I may compose the analysis.",
+   "Data cōnsulō, ut analysim compōnam."
+  ],
+  [
+   "I consult the data, so that I may compose the analysis correctly.",
+   "Data cōnsulō, ut analysim rēctē compōnam."
+  ],
+  [
+   "Correctly? Why correctly?",
+   "Rēctē? Cūr rēctē?"
+  ],
+  [
+   "Because Gaius wants a perfect analysis.",
+   "Quia Gaius analysim perfectam vult."
+  ],
+  [
+   "I go to Quintus.",
+   "Ad Quīntum eō."
+  ],
+  [
+   "\"Quintus, the data, please.\"",
+   "\"Quīnte, data, quaesō.\""
+  ],
+  [
+   "Quintus does not laugh.",
+   "Quīntus nōn rīdet."
+  ],
+  [
+   "\"Why do you want the data?\"",
+   "\"Cūr data vīs?\""
+  ],
+  [
+   "\"I consult the data, so that I may compose the analysis correctly.\"",
+   "\"Data cōnsulō, ut analysim rēctē compōnam.\""
+  ],
+  [
+   "\"The data are safe,\" says Quintus.",
+   "\"Data tūta sunt,\" inquit Quīntus."
+  ],
+  [
+   "\"If I give the data, the data will not be safe.\"",
+   "\"Sī data dederō, data tūta nōn erunt.\""
+  ],
+  [
+   "Quintus does not give the data.",
+   "Quīntus data nōn dat."
+  ],
+  [
+   "Since Quintus does not give the data...",
+   "Cum Quīntus data nōn det..."
+  ],
+  [
+   "...the analysis is impossible.",
+   "...analysis impossibilis est."
+  ],
+  [
+   "Since Quintus does not give the data, the analysis is impossible.",
+   "Cum Quīntus data nōn det, analysis impossibilis est."
+  ],
+  [
+   "Impossible? Truly impossible?",
+   "Impossibilis? Vērē impossibilis?"
+  ],
+  [
+   "\"Nothing is impossible,\" says Gaius.",
+   "\"Nihil impossibile est,\" inquit Gaius."
+  ],
+  [
+   "Gaius says that nothing is impossible.",
+   "Gaius dīcit nihil impossibile esse."
+  ],
+  [
+   "For Gaius nothing is impossible.",
+   "Gaiō nihil impossibile est."
+  ],
+  [
+   "For he himself does not work.",
+   "Ipse enim nōn labōrat."
+  ],
+  [
+   "Will Quintus give the data? Probably not.",
+   "Dabitne Quīntus data? Probābiliter nōn."
+  ],
+  [
+   "In vain.",
+   "Frūstrā."
+  ],
+  [
+   "I ask in vain.",
+   "Frūstrā rogō."
+  ],
+  [
+   "I ask Quintus three times, in vain.",
+   "Ter Quīntum rogō, frūstrā."
+  ],
+  [
+   "Is Quintus annoying? No.",
+   "Molestusne est Quīntus? Minimē."
+  ],
+  [
+   "Quintus loves rules.",
+   "Quīntus rēgulās amat."
+  ],
+  [
+   "The rules are annoying.",
+   "Rēgulae molestae sunt."
+  ],
+  [
+   "I seek a solution.",
+   "Solūtiōnem quaerō."
+  ],
+  [
+   "Then Quintus says: \"Write a request, please.\"",
+   "Tum Quīntus dīcit: \"Petītiōnem scrībe, quaesō.\""
+  ],
+  [
+   "A request? About the data?",
+   "Petītiōnem? Dē datīs?"
+  ],
+  [
+   "I write a request.",
+   "Petītiōnem scrībō."
+  ],
+  [
+   "I write it diligently.",
+   "Eam dīligenter scrībō."
+  ],
+  [
+   "Diligently and correctly.",
+   "Dīligenter et rēctē."
+  ],
+  [
+   "Quintus reads the request.",
+   "Quīntus petītiōnem legit."
+  ],
+  [
+   "\"Describe the analysis,\" says Quintus.",
+   "\"Dēscrībe analysim,\" inquit Quīntus."
+  ],
+  [
+   "Shall I describe the analysis?",
+   "Analysim dēscrībam?"
+  ],
+  [
+   "But the analysis does not exist yet.",
+   "Sed analysis nōndum exstat."
+  ],
+  [
+   "How shall I describe an analysis which does not exist yet?",
+   "Quōmodo analysim dēscrībam, quae nōndum exstat?"
+  ],
+  [
+   "Since Quintus does not give the data, the analysis is impossible.",
+   "Cum Quīntus data nōn det, analysis impossibilis est."
+  ],
+  [
+   "And since the analysis is impossible, Quintus does not give the data.",
+   "Et cum analysis impossibilis sit, Quīntus data nōn dat."
+  ],
+  [
+   "An annoying circle.",
+   "Circulus molestus."
+  ],
+  [
+   "A perfect circle.",
+   "Circulus perfectus."
+  ],
+  [
+   "Tullia writes: \"A perfect circle.\"",
+   "Tullia scrībit: \"Circulus perfectus.\""
+  ],
+  [
+   "Midday.",
+   "Merīdiēs."
+  ],
+  [
+   "Gaius comes to my desk.",
+   "Gaius ad mēnsam meam venit."
+  ],
+  [
+   "\"Marcus, is the analysis ready?\"",
+   "\"Mārce, estne analysis parāta?\""
+  ],
+  [
+   "\"Not yet. I still do not have the data.\"",
+   "\"Nōndum. Data adhūc nōn habeō.\""
+  ],
+  [
+   "Gaius consults the calendar.",
+   "Gaius calendārium cōnsulit."
+  ],
+  [
+   "\"The calendar says: Thursday.\"",
+   "\"Calendārium dīcit: diēs Iovis.\""
+  ],
+  [
+   "Thursday? But you said: Friday.",
+   "Diēs Iovis? Sed dīxistī: diēs Veneris."
+  ],
+  [
+   "\"Thursday is better,\" says Gaius. \"Faster.\"",
+   "\"Diēs Iovis melior est,\" inquit Gaius. \"Celerior.\""
+  ],
+  [
+   "Gaius prefers speed.",
+   "Gaius celeritātem praefert."
+  ],
+  [
+   "Gaius prefers a fast analysis.",
+   "Gaius analysim celerem praefert."
+  ],
+  [
+   "Gaius prefers a fast analysis to a good one.",
+   "Gaius analysim celerem bonae praefert."
+  ],
+  [
+   "But he nevertheless wants it perfect.",
+   "Sed eam tamen perfectam vult."
+  ],
+  [
+   "Fast and perfect. Is it possible?",
+   "Celerem et perfectam. Estne possibile?"
+  ],
+  [
+   "Fast or good? Rather good.",
+   "Celerem an bonam? Potius bonam."
+  ],
+  [
+   "I work.",
+   "Labōrō."
+  ],
+  [
+   "I work diligently.",
+   "Dīligenter labōrō."
+  ],
+  [
+   "I work more diligently.",
+   "Dīligentius labōrō."
+  ],
+  [
+   "After midday Gaius comes again.",
+   "Post merīdiem Gaius iterum venit."
+  ],
+  [
+   "Gaius consults the calendar.",
+   "Gaius calendārium cōnsulit."
+  ],
+  [
+   "\"The calendar says: Wednesday.\"",
+   "\"Calendārium dīcit: diēs Mercuriī.\""
+  ],
+  [
+   "Wednesday?! That is tomorrow!",
+   "Diēs Mercuriī?! Crās est!"
+  ],
+  [
+   "The more diligently I work...",
+   "Quō dīligentius labōrō..."
+  ],
+  [
+   "...the faster Friday comes.",
+   "...eō celerius diēs Veneris venit."
+  ],
+  [
+   "The more diligently I work, the faster Friday comes.",
+   "Quō dīligentius labōrō, eō celerius diēs Veneris venit."
+  ],
+  [
+   "Friday comes faster than Thursday.",
+   "Diēs Veneris celerius venit quam diēs Iovis."
+  ],
+  [
+   "The calendar is annoying.",
+   "Calendārium molestum est."
+  ],
+  [
+   "I am worried.",
+   "Sollicitus sum."
+  ],
+  [
+   "Why are you worried?",
+   "Cūr sollicitus es?"
+  ],
+  [
+   "Because Friday is coming. Tomorrow.",
+   "Quia diēs Veneris venit. Crās."
+  ],
+  [
+   "Livia comes.",
+   "Līvia venit."
+  ],
+  [
+   "Livia is preparing a slide.",
+   "Līvia tabulam praeparat."
+  ],
+  [
+   "A slide for the analysis.",
+   "Tabulam ad analysim."
+  ],
+  [
+   "\"The slide is almost ready,\" says Livia.",
+   "\"Tabula paene parāta est,\" inquit Līvia."
+  ],
+  [
+   "What is on the slide?",
+   "Quid est in tabulā?"
+  ],
+  [
+   "One word: \"Analysis\".",
+   "Ūnum verbum: \"Analysis\"."
+  ],
+  [
+   "Huge letters.",
+   "Litterae ingentēs."
+  ],
+  [
+   "No variety: one word.",
+   "Nūlla varietās: ūnum verbum."
+  ],
+  [
+   "\"But I am still waiting for the analysis,\" says Livia.",
+   "\"Sed analysim adhūc exspectō,\" inquit Līvia."
+  ],
+  [
+   "Everyone is waiting for me.",
+   "Omnēs mē exspectant."
+  ],
+  [
+   "Livia waits for the analysis, the analysis for the data, the data for Quintus.",
+   "Līvia analysim exspectat, analysis data, data Quīntum."
+  ],
+  [
+   "And Quintus waits for a request.",
+   "Et Quīntus petītiōnem exspectat."
+  ],
+  [
+   "Gaius wants consensus.",
+   "Gaius cōnsēnsum vult."
+  ],
+  [
+   "Consensus about what?",
+   "Cōnsēnsum dē quō?"
+  ],
+  [
+   "Gaius wants to know whether the new product is good or bad.",
+   "Gaius scīre vult utrum prōductum novum bonum sit an malum."
+  ],
+  [
+   "But nobody knows what the product is!",
+   "Sed nēmō scit quid prōductum sit!"
+  ],
+  [
+   "Nevertheless we debate.",
+   "Tamen disputāmus."
+  ],
+  [
+   "We debate for one hour.",
+   "Ūnam hōram disputāmus."
+  ],
+  [
+   "Livia votes that the product is good.",
+   "Līvia cēnset prōductum bonum esse."
+  ],
+  [
+   "Why? Because the name is beautiful.",
+   "Cūr? Quia nōmen pulchrum est."
+  ],
+  [
+   "Quintus votes that the product is bad.",
+   "Quīntus cēnset prōductum malum esse."
+  ],
+  [
+   "Why? Because people use it.",
+   "Cūr? Quia hominēs eō ūtuntur."
+  ],
+  [
+   "Tullia votes nothing. Tullia writes.",
+   "Tullia nihil cēnset. Tullia scrībit."
+  ],
+  [
+   "Gaius asks: \"Marcus, what do you vote?\"",
+   "Gaius rogat: \"Mārce, quid cēnsēs?\""
+  ],
+  [
+   "I vote that we must wait for the analysis.",
+   "Cēnseō nōs analysim exspectāre dēbēre."
+  ],
+  [
+   "We debate again.",
+   "Iterum disputāmus."
+  ],
+  [
+   "At last I give in.",
+   "Tandem concēdō."
+  ],
+  [
+   "I concede: the product is good.",
+   "Concēdō: prōductum bonum est."
+  ],
+  [
+   "Quintus does not give in.",
+   "Quīntus nōn concēdit."
+  ],
+  [
+   "Quintus never gives in.",
+   "Quīntus numquam concēdit."
+  ],
+  [
+   "No consensus.",
+   "Nūllus cōnsēnsus."
+  ],
+  [
+   "Tullia writes: \"Consensus: none.\"",
+   "Tullia scrībit: \"Cōnsēnsus: nūllus.\""
+  ],
+  [
+   "Then Quintus says: \"I want to give the data rather than to debate.\"",
+   "Tum Quīntus dīcit: \"Data dare potius volō quam disputāre.\""
+  ],
+  [
+   "Of course. He prefers computers to people.",
+   "Certē. Computātra hominibus praefert."
+  ],
+  [
+   "Quintus gives the data.",
+   "Quīntus data dat."
+  ],
+  [
+   "At last, the data!",
+   "Tandem data!"
+  ],
+  [
+   "Quintus gives me a catalogue.",
+   "Quīntus mihi catalogum dat."
+  ],
+  [
+   "A catalogue of the data.",
+   "Catalogus datōrum."
+  ],
+  [
+   "A huge catalogue.",
+   "Catalogus ingēns."
+  ],
+  [
+   "How huge? Three thousand pages.",
+   "Quam ingēns? Tria mīlia pāginārum."
+  ],
+  [
+   "The biggest catalogue in the office. Except the minutes of Tullia.",
+   "Catalogus maximus in officiō. Praeter ācta Tulliae."
+  ],
+  [
+   "The variety of the data is incredible.",
+   "Varietās datōrum incrēdibilis est."
+  ],
+  [
+   "Numbers, letters, signs: a great variety.",
+   "Numerī, litterae, signa: magna varietās."
+  ],
+  [
+   "Incredible variety.",
+   "Varietās incrēdibilis."
+  ],
+  [
+   "Are the data whole?",
+   "Suntne data integra?"
+  ],
+  [
+   "\"The data are whole,\" says Quintus. \"Nobody has touched them.\"",
+   "\"Data integra sunt,\" inquit Quīntus. \"Nēmō ea tetigit.\""
+  ],
+  [
+   "\"Not even I.\"",
+   "\"Nē ego quidem.\""
+  ],
+  [
+   "Now, therefore, I consult the data.",
+   "Nunc igitur data cōnsulō."
+  ],
+  [
+   "I consult the data, so that I may compose the analysis correctly.",
+   "Data cōnsulō, ut analysim rēctē compōnam."
+  ],
+  [
+   "Evening.",
+   "Vesper."
+  ],
+  [
+   "Everyone goes home.",
+   "Omnēs domum eunt."
+  ],
+  [
+   "I stay.",
+   "Ego maneō."
+  ],
+  [
+   "I would rather sleep.",
+   "Potius dormīrem."
+  ],
+  [
+   "But I am hard-working.",
+   "Sed dīligēns sum."
+  ],
+  [
+   "I read the catalogue.",
+   "Catalogum legō."
+  ],
+  [
+   "I write notes.",
+   "Notās scrībō."
+  ],
+  [
+   "A hundred notes.",
+   "Centum notās."
+  ],
+  [
+   "I compose the first chapter.",
+   "Prīmum capitulum compōnō."
+  ],
+  [
+   "At night. I am still working.",
+   "Nocte. Adhūc labōrō."
+  ],
+  [
+   "The third chapter. I am already tired.",
+   "Tertium capitulum. Iam lassus sum."
+  ],
+  [
+   "Gaius writes an email.",
+   "Gaius epistulam ēlectronicam scrībit."
+  ],
+  [
+   "\"The calendar says: today.\"",
+   "\"Calendārium dīcit: hodiē.\""
+  ],
+  [
+   "Today?! Is Friday already today?",
+   "Hodiē?! Estne diēs Veneris iam hodiē?"
+  ],
+  [
+   "The more diligently I work, the faster Friday comes.",
+   "Quō dīligentius labōrō, eō celerius diēs Veneris venit."
+  ],
+  [
+   "If I work faster, Friday will come faster.",
+   "Sī celerius labōrābō, diēs Veneris celerius veniet."
+  ],
+  [
+   "If I work slower, will Friday come slower?",
+   "Sī tardius labōrābō, veniētne diēs Veneris tardius?"
+  ],
+  [
+   "No. Gaius does not want a slow analysis.",
+   "Minimē. Gaius analysim tardam nōn vult."
+  ],
+  [
+   "Am I slow? No. The calendar is fast.",
+   "Tardusne sum? Minimē. Calendārium celere est."
+  ],
+  [
+   "The calendar is fast...",
+   "Calendārium celere est..."
+  ],
+  [
+   "Too fast.",
+   "Nimis celere."
+  ],
+  [
+   "Why is the calendar too fast?",
+   "Cūr calendārium nimis celere est?"
+  ],
+  [
+   "I consult the catalogue.",
+   "Catalogum cōnsulō."
+  ],
+  [
+   "Page one. The name of the product: \"Speed\".",
+   "Pāgina prīma. Nōmen prōductī: \"Celeritās\"."
+  ],
+  [
+   "What is Speed?",
+   "Quid est Celeritās?"
+  ],
+  [
+   "Speed is a calendar.",
+   "Celeritās est calendārium."
+  ],
+  [
+   "The calendar of Gaius!",
+   "Calendārium Gaiī!"
+  ],
+  [
+   "Quintus put it in the computer of Gaius on Monday.",
+   "Quīntus id diē Lūnae in computātrō Gaiī posuit."
+  ],
+  [
+   "The new calendar of Gaius is the new product!",
+   "Calendārium novum Gaiī est prōductum novum!"
+  ],
+  [
+   "\"Quintus, did you know this?\"",
+   "\"Quīnte, hocne sciēbās?\""
+  ],
+  [
+   "\"I knew,\" says Quintus. \"Nobody asked.\"",
+   "\"Sciēbam,\" inquit Quīntus. \"Nēmō rogāvit.\""
+  ],
+  [
+   "Now I understand.",
+   "Nunc intellegō."
+  ],
+  [
+   "The product moves the days.",
+   "Prōductum diēs movet."
+  ],
+  [
+   "I describe the product.",
+   "Prōductum dēscrībō."
+  ],
+  [
+   "I describe the product correctly.",
+   "Prōductum rēctē dēscrībō."
+  ],
+  [
+   "The product counts the days.",
+   "Prōductum diēs numerat."
+  ],
+  [
+   "But it counts too fast.",
+   "Sed nimis celeriter numerat."
+  ],
+  [
+   "Its speed is incredible.",
+   "Celeritās eius incrēdibilis est."
+  ],
+  [
+   "The calendar has the greatest speed.",
+   "Calendārium celeritātem maximam habet."
+  ],
+  [
+   "My analysis shows.",
+   "Analysis mea dēmōnstrat."
+  ],
+  [
+   "My analysis shows that the product is fast.",
+   "Analysis mea dēmōnstrat prōductum celere esse."
+  ],
+  [
+   "My analysis shows that the product is too fast.",
+   "Analysis mea dēmōnstrat prōductum nimis celere esse."
+  ],
+  [
+   "My analysis shows that the new product is too fast.",
+   "Analysis mea dēmōnstrat prōductum novum nimis celere esse."
+  ],
+  [
+   "This is the solution!",
+   "Haec est solūtiō!"
+  ],
+  [
+   "Why does Friday come so fast? Because of the product.",
+   "Cūr diēs Veneris tam celeriter venit? Propter prōductum."
+  ],
+  [
+   "Because of the product, Friday came on Tuesday.",
+   "Propter prōductum diēs Veneris diē Martis vēnit."
+  ],
+  [
+   "I compose the document.",
+   "Documentum compōnō."
+  ],
+  [
+   "Ten chapters. A hundred notes. A huge document.",
+   "Decem capitula. Centum notae. Documentum ingēns."
+  ],
+  [
+   "I show everything.",
+   "Omnia dēmōnstrō."
+  ],
+  [
+   "The greatest document of my life.",
+   "Documentum maximum vītae meae."
+  ],
+  [
+   "Whole and perfect.",
+   "Integrum et perfectum."
+  ],
+  [
+   "Morning. The true Wednesday.",
+   "Māne. Vērus diēs Mercuriī."
+  ],
+  [
+   "I bring the document to Gaius.",
+   "Documentum ad Gaium ferō."
+  ],
+  [
+   "\"Look, the analysis.\"",
+   "\"Ecce analysis.\""
+  ],
+  [
+   "Gaius consults the calendar.",
+   "Gaius calendārium cōnsulit."
+  ],
+  [
+   "\"The calendar says: Saturday,\" says Gaius.",
+   "\"Calendārium dīcit: diēs Sāturnī,\" inquit Gaius."
+  ],
+  [
+   "\"You are slow, Marcus. Slow!\"",
+   "\"Tardus es, Mārce. Tardus!\""
+  ],
+  [
+   "\"The analysis had to be ready yesterday.\"",
+   "\"Analysis herī parāta esse dēbuit.\""
+  ],
+  [
+   "Yesterday?",
+   "Herī?"
+  ],
+  [
+   "\"Yes. The calendar says so.\"",
+   "\"Ita. Calendārium ita dīcit.\""
+  ],
+  [
+   "Did I work in vain?",
+   "Frūstrāne labōrāvī?"
+  ],
+  [
+   "Gaius, read the analysis, please.",
+   "Gāī, analysim lege, quaesō."
+  ],
+  [
+   "Gaius does not read ten chapters.",
+   "Gaius decem capitula nōn legit."
+  ],
+  [
+   "\"I will speak briefly,\" says Gaius. \"Good or bad?\"",
+   "\"Breviter dīcam,\" inquit Gaius. \"Bonum an malum?\""
+  ],
+  [
+   "My analysis shows that the new product is too fast.",
+   "Analysis mea dēmōnstrat prōductum novum nimis celere esse."
+  ],
+  [
+   "\"Too fast? Is that bad?\"",
+   "\"Nimis celere? Estne hoc malum?\""
+  ],
+  [
+   "\"Speed is worthy of the greatest praise!\" says Gaius.",
+   "\"Celeritās maximā laude digna est!\" inquit Gaius."
+  ],
+  [
+   "\"A fast calendar is an amazing calendar.\"",
+   "\"Calendārium celere est calendārium mīrābile.\""
+  ],
+  [
+   "But the fast calendar moves the days.",
+   "Sed calendārium celere diēs movet."
+  ],
+  [
+   "Because of the calendar, you think that I am slow.",
+   "Propter calendārium putās mē tardum esse."
+  ],
+  [
+   "Gaius is silent. Gaius is worried.",
+   "Gaius tacet. Gaius sollicitus est."
+  ],
+  [
+   "\"What is the solution?\" asks Gaius.",
+   "\"Quae est solūtiō?\" rogat Gaius."
+  ],
+  [
+   "The solution: the product must be slower.",
+   "Solūtiō: prōductum tardius esse dēbet."
+  ],
+  [
+   "Quintus makes the product slower.",
+   "Quīntus prōductum tardius facit."
+  ],
+  [
+   "Gaius consults the calendar.",
+   "Gaius calendārium cōnsulit."
+  ],
+  [
+   "\"The calendar says: Monday.\"",
+   "\"Calendārium dīcit: diēs Lūnae.\""
+  ],
+  [
+   "\"Monday? Then the analysis is not late.\"",
+   "\"Diēs Lūnae? Igitur analysis nōn sēra est.\""
+  ],
+  [
+   "\"Marcus, you are fast! Incredible!\"",
+   "\"Mārce, celer es! Incrēdibile!\""
+  ],
+  [
+   "\"Amazing! Praise to the hard-working Marcus!\"",
+   "\"Mīrābile! Laus Mārcō dīligentī!\""
+  ],
+  [
+   "Praise, at last. And a reward?",
+   "Laus, tandem. Et praemium?"
+  ],
+  [
+   "And Livia's slide?",
+   "Et tabula Līviae?"
+  ],
+  [
+   "\"The slide is amazing,\" says Gaius. \"One word. Perfectly brief.\"",
+   "\"Tabula mīrābilis est,\" inquit Gaius. \"Ūnum verbum. Perfectē brevis.\""
+  ],
+  [
+   "Livia too receives praise.",
+   "Līvia quoque laudem accipit."
+  ],
+  [
+   "\"And your reward, Marcus: a new task.\"",
+   "\"Et praemium tuum, Mārce: novum pēnsum.\""
+  ],
+  [
+   "\"A new analysis. Of the slow product.\"",
+   "\"Nova analysis. Prōductī tardī.\""
+  ],
+  [
+   "\"Before Friday.\"",
+   "\"Ante diem Veneris.\""
+  ],
+  [
+   "Which Friday? The true one, or the calendar's?",
+   "Quī diēs Veneris? Vērus, an calendāriī?"
+  ],
+  [
+   "Gaius consults the calendar.",
+   "Gaius calendārium cōnsulit."
+  ],
+  [
+   "\"Friday is in the next month.\"",
+   "\"Diēs Veneris mēnse proximō est.\""
+  ],
+  [
+   "I am no longer worried.",
+   "Nōn iam sollicitus sum."
+  ],
+  [
+   "Then I vote that the product is good.",
+   "Igitur cēnseō prōductum bonum esse."
+  ],
+  [
+   "Livia votes good. Gaius votes good.",
+   "Līvia bonum cēnset. Gaius bonum cēnset."
+  ],
+  [
+   "Quintus probably votes bad.",
+   "Quīntus probābiliter malum cēnset."
+  ],
+  [
+   "Why? Because now people are happy.",
+   "Cūr? Quia nunc hominēs laetī sunt."
+  ],
+  [
+   "Tullia writes: \"Consensus: almost.\"",
+   "Tullia scrībit: \"Cōnsēnsus: paene.\""
+  ],
+  [
+   "The five sentences again.",
+   "Quīnque sententiae iterum."
+  ],
+  [
+   "Gaius wants to know whether the new product is good or bad.",
+   "Gaius scīre vult utrum prōductum novum bonum sit an malum."
+  ],
+  [
+   "I consult the data, so that I may compose the analysis correctly.",
+   "Data cōnsulō, ut analysim rēctē compōnam."
+  ],
+  [
+   "Since Quintus does not give the data, the analysis is impossible.",
+   "Cum Quīntus data nōn det, analysis impossibilis est."
+  ],
+  [
+   "The more diligently I work, the faster Friday comes.",
+   "Quō dīligentius labōrō, eō celerius diēs Veneris venit."
+  ],
+  [
+   "My analysis shows that the new product is too fast.",
+   "Analysis mea dēmōnstrat prōductum novum nimis celere esse."
+  ],
+  [
+   "Gaius wanted to know whether the product was good or bad.",
+   "Gaius scīre voluit utrum prōductum bonum esset an malum."
+  ],
+  [
+   "If Quintus had given the data, the analysis would have been possible.",
+   "Sī Quīntus data dedisset, analysis possibilis fuisset."
+  ],
+  [
+   "Gaius said that the analysis had to be perfect.",
+   "Gaius dīxit analysim perfectam esse dēbēre."
+  ],
+  [
+   "I consulted the data, so that I might compose the analysis correctly.",
+   "Data cōnsuluī, ut analysim rēctē compōnerem."
+  ],
+  [
+   "Does the analysis show that the product is too fast? It does.",
+   "Dēmōnstratne analysis prōductum nimis celere esse? Dēmōnstrat."
+  ],
+  [
+   "Tomorrow, nevertheless, I will come to the office.",
+   "Crās tamen ad officium veniam."
+  ],
+  [
+   "I will at least be quick.",
+   "Saltem celer erō."
+  ],
+  [
+   "Or rather slow, so that Friday may come slowly.",
+   "Aut potius tardus, ut diēs Veneris tardē veniat."
+  ],
+  [
+   "Tullia writes everything.",
+   "Tullia omnia scrībit."
+  ],
+  [
+   "Tullia writes: \"Next analysis: before Friday.\"",
+   "Tullia scrībit: \"Analysis proxima: ante diem Veneris.\""
+  ],
+  [
+   "Quintus writes: \"The calendar will be faster tomorrow.\"",
+   "Quīntus scrībit: \"Crās calendārium celerius erit.\""
+  ],
+  [
+   "Oh no.",
+   "Ēheu."
+  ]
+ ]
+}

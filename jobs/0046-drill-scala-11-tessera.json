@@ -1,0 +1,1175 @@
+{
+ "type": "drill",
+ "engine": "eleven",
+ "voice": "F",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "repeat": 1,
+ "music": "v5",
+ "max_credits": 12000,
+ "slug": "scala-11-tessera",
+ "title": "Ladder 11 · Tessera (the password)",
+ "summary": "Monday at the office: Quintus from IT makes the password rules (must be changed every day, longer than the old one, a number, a sign, not your dog). Gerundive, comparatives, relative clauses, future perfect, perfect passive. Iulia's voice.",
+ "pairs": [
+  [
+   "An email.",
+   "Epistula ēlectronica."
+  ],
+  [
+   "An email from Quintus.",
+   "Epistula ēlectronica ā Quīntō."
+  ],
+  [
+   "Who is Quintus?",
+   "Quis est Quīntus?"
+  ],
+  [
+   "Quintus looks after the computers.",
+   "Quīntus computātra cūrat."
+  ],
+  [
+   "Quintus loves the computers.",
+   "Quīntus computātra amat."
+  ],
+  [
+   "He loves the computers more than people.",
+   "Computātra magis quam hominēs amat."
+  ],
+  [
+   "What does Quintus write?",
+   "Quid Quīntus scrībit?"
+  ],
+  [
+   "The password.",
+   "Tessera."
+  ],
+  [
+   "Your password.",
+   "Tessera tua."
+  ],
+  [
+   "Your password must be changed.",
+   "Tessera tua mūtanda est."
+  ],
+  [
+   "Your password must be changed every day.",
+   "Tessera tua cotīdiē mūtanda est."
+  ],
+  [
+   "Every day?",
+   "Cotīdiē?"
+  ],
+  [
+   "Yes, every day.",
+   "Ita, cotīdiē."
+  ],
+  [
+   "Why every day?",
+   "Cūr cotīdiē?"
+  ],
+  [
+   "Because the passwords are not safe.",
+   "Quia tesserae nōn tūtae sunt."
+  ],
+  [
+   "Mine is safe.",
+   "Mea tūta est."
+  ],
+  [
+   "My password is very safe.",
+   "Tessera mea tūtissima est."
+  ],
+  [
+   "Because I do not remember it.",
+   "Quia eam nōn meminī."
+  ],
+  [
+   "Roman soldiers also had passwords.",
+   "Mīlitēs Rōmānī quoque tesserās habēbant."
+  ],
+  [
+   "But they did not change them every day.",
+   "Sed eās cotīdiē nōn mūtābant."
+  ],
+  [
+   "Your password must be changed every day.",
+   "Tessera tua cotīdiē mūtanda est."
+  ],
+  [
+   "The password must be changed today.",
+   "Tessera hodiē mūtanda est."
+  ],
+  [
+   "Must it be changed today?",
+   "Mūtandane est hodiē?"
+  ],
+  [
+   "Yes, today, please.",
+   "Ita, hodiē, quaesō."
+  ],
+  [
+   "I change the password.",
+   "Tesseram mūtō."
+  ],
+  [
+   "I am changing the password, because Quintus wants it.",
+   "Tesseram mūtō, quia Quīntus vult."
+  ],
+  [
+   "Quintus writes again.",
+   "Quīntus iterum scrībit."
+  ],
+  [
+   "There are rules.",
+   "Rēgulae sunt."
+  ],
+  [
+   "There are new rules.",
+   "Novae rēgulae sunt."
+  ],
+  [
+   "What are the rules?",
+   "Quae sunt rēgulae?"
+  ],
+  [
+   "The first rule:",
+   "Rēgula prīma:"
+  ],
+  [
+   "The new password must be long.",
+   "Nova tessera longa esse dēbet."
+  ],
+  [
+   "Long? How long?",
+   "Longa? Quam longa?"
+  ],
+  [
+   "Longer than the old one.",
+   "Longior quam vetus."
+  ],
+  [
+   "The new password must be longer than the old one.",
+   "Nova tessera longior esse dēbet quam vetus."
+  ],
+  [
+   "My old password was short.",
+   "Vetus tessera mea brevis erat."
+  ],
+  [
+   "It was short, but easy.",
+   "Brevis erat, sed facilis."
+  ],
+  [
+   "The new one is long, and difficult.",
+   "Nova longa est, et difficilis."
+  ],
+  [
+   "Must it be longer?",
+   "Dēbetne longior esse?"
+  ],
+  [
+   "It must. Quintus says so.",
+   "Dēbet. Quīntus ita dīcit."
+  ],
+  [
+   "Quintus says that the new password must be longer.",
+   "Quīntus dīcit novam tesseram longiōrem esse dēbēre."
+  ],
+  [
+   "The second rule:",
+   "Rēgula secunda:"
+  ],
+  [
+   "The password must have a number.",
+   "Tessera numerum habēre dēbet."
+  ],
+  [
+   "A number? Why a number?",
+   "Numerum? Cūr numerum?"
+  ],
+  [
+   "Because numbers are safe.",
+   "Quia numerī tūtī sunt."
+  ],
+  [
+   "The third rule:",
+   "Rēgula tertia:"
+  ],
+  [
+   "The password must have a big letter.",
+   "Tessera litteram magnam habēre dēbet."
+  ],
+  [
+   "A big letter and a number.",
+   "Litteram magnam et numerum."
+  ],
+  [
+   "The fourth rule:",
+   "Rēgula quārta:"
+  ],
+  [
+   "The password must have a sign.",
+   "Tessera signum habēre dēbet."
+  ],
+  [
+   "What sign?",
+   "Quod signum?"
+  ],
+  [
+   "Any sign. But not a smile.",
+   "Quodlibet signum. Sed nōn rīsum."
+  ],
+  [
+   "The fifth rule:",
+   "Rēgula quīnta:"
+  ],
+  [
+   "It is not allowed to use your name.",
+   "Nōn licet nōmen tuum adhibēre."
+  ],
+  [
+   "It is not allowed to use the name of your dog.",
+   "Nōn licet nōmen canis tuī adhibēre."
+  ],
+  [
+   "How does Quintus know my dog?",
+   "Quōmodo Quīntus canem meum nōvit?"
+  ],
+  [
+   "Quintus knows everything.",
+   "Quīntus omnia scit."
+  ],
+  [
+   "Five rules. Only five?",
+   "Quīnque rēgulae. Tantum quīnque?"
+  ],
+  [
+   "So far, five.",
+   "Adhūc quīnque."
+  ],
+  [
+   "I try.",
+   "Temptō."
+  ],
+  [
+   "I try a password.",
+   "Tesseram temptō."
+  ],
+  [
+   "The first password: Marcus1.",
+   "Tessera prīma: Mārcus ūnus."
+  ],
+  [
+   "The computer says: \"Not allowed.\"",
+   "Computātrum dīcit: \"Nōn licet.\""
+  ],
+  [
+   "Why is it not allowed?",
+   "Cūr nōn licet?"
+  ],
+  [
+   "Because it is my name.",
+   "Quia nōmen meum est."
+  ],
+  [
+   "Oh. Rule five.",
+   "Ō. Rēgula quīnta."
+  ],
+  [
+   "The second password: Gaius1.",
+   "Tessera secunda: Gaius ūnus."
+  ],
+  [
+   "Gaius? Why Gaius?",
+   "Gaius? Cūr Gaius?"
+  ],
+  [
+   "Because Gaius is always in my head.",
+   "Quia Gaius semper in capite meō est."
+  ],
+  [
+   "Because of the meetings.",
+   "Propter conventūs."
+  ],
+  [
+   "The computer says: \"Too short.\"",
+   "Computātrum dīcit: \"Nimis brevis.\""
+  ],
+  [
+   "Too short? It has six letters.",
+   "Nimis brevis? Sex litterās habet."
+  ],
+  [
+   "The new password must be longer than the old one.",
+   "Nova tessera longior esse dēbet quam vetus."
+  ],
+  [
+   "Longer, then.",
+   "Longior igitur."
+  ],
+  [
+   "My password: \"Gaius speaks briefly.\"",
+   "Tessera mea: \"Gaius breviter loquitur.\""
+  ],
+  [
+   "Is that password longer?",
+   "Estne illa tessera longior?"
+  ],
+  [
+   "Yes, it is much longer.",
+   "Ita, multō longior est."
+  ],
+  [
+   "The computer says: \"Too long.\"",
+   "Computātrum dīcit: \"Nimis longa.\""
+  ],
+  [
+   "Like Gaius's meetings.",
+   "Sīcut conventūs Gaiī."
+  ],
+  [
+   "Too long?! But you said: \"longer\"!",
+   "Nimis longa?! Sed dīxistī: \"longior\"!"
+  ],
+  [
+   "Longer, but not too long.",
+   "Longior, sed nōn nimis longa."
+  ],
+  [
+   "Which password is better?",
+   "Quae tessera melior est?"
+  ],
+  [
+   "The longer one is better.",
+   "Longior melior est."
+  ],
+  [
+   "But the shorter one is easier.",
+   "Sed brevior facilior est."
+  ],
+  [
+   "The easier one is worse.",
+   "Facilior pēior est."
+  ],
+  [
+   "The better one is more difficult.",
+   "Melior difficilior est."
+  ],
+  [
+   "Life is difficult.",
+   "Vīta difficilis est."
+  ],
+  [
+   "Life is more difficult than a password.",
+   "Vīta difficilior est quam tessera."
+  ],
+  [
+   "No. A password is more difficult than life.",
+   "Minimē. Tessera difficilior est quam vīta."
+  ],
+  [
+   "I try again.",
+   "Iterum temptō."
+  ],
+  [
+   "The third password:",
+   "Tessera tertia:"
+  ],
+  [
+   "Big letter, number, sign, not my name, not the dog.",
+   "Littera magna, numerus, signum, nōn nōmen meum, nōn canis."
+  ],
+  [
+   "The computer thinks.",
+   "Computātrum cōgitat."
+  ],
+  [
+   "The computer thinks for a long time.",
+   "Computātrum diū cōgitat."
+  ],
+  [
+   "The computer says: \"Good.\"",
+   "Computātrum dīcit: \"Bene.\""
+  ],
+  [
+   "At last!",
+   "Tandem!"
+  ],
+  [
+   "At last a good password!",
+   "Tandem tessera bona!"
+  ],
+  [
+   "A password longer than the old one.",
+   "Tessera longior quam vetus."
+  ],
+  [
+   "I am happy.",
+   "Laetus sum."
+  ],
+  [
+   "I am happy, as if I had won.",
+   "Laetus sum, quasi vīcerim."
+  ],
+  [
+   "As if I had won a war.",
+   "Quasi bellum vīcerim."
+  ],
+  [
+   "The next day.",
+   "Postrīdiē."
+  ],
+  [
+   "I come to the office.",
+   "Ad officium veniō."
+  ],
+  [
+   "I want to enter the computer.",
+   "In computātrum intrāre volō."
+  ],
+  [
+   "The password?",
+   "Tessera?"
+  ],
+  [
+   "What was the password?",
+   "Quae erat tessera?"
+  ],
+  [
+   "I changed the password yesterday.",
+   "Herī tesseram mūtāvī."
+  ],
+  [
+   "The password which I changed yesterday...",
+   "Tesseram, quam herī mūtāvī..."
+  ],
+  [
+   "I do not remember.",
+   "Nōn meminī."
+  ],
+  [
+   "I already do not remember.",
+   "Iam nōn meminī."
+  ],
+  [
+   "The password which I changed yesterday, I already do not remember.",
+   "Tesseram, quam herī mūtāvī, iam nōn meminī."
+  ],
+  [
+   "Do you remember it?",
+   "Meministīne eam?"
+  ],
+  [
+   "No, I do not remember it.",
+   "Minimē, eam nōn meminī."
+  ],
+  [
+   "I remember the dog.",
+   "Canem meminī."
+  ],
+  [
+   "I remember Gaius.",
+   "Gaium meminī."
+  ],
+  [
+   "I remember all the meetings.",
+   "Omnēs conventūs meminī."
+  ],
+  [
+   "But the password I do not remember.",
+   "Sed tesseram nōn meminī."
+  ],
+  [
+   "The password which I changed yesterday, I already do not remember.",
+   "Tesseram, quam herī mūtāvī, iam nōn meminī."
+  ],
+  [
+   "Why do I not remember it?",
+   "Cūr eam nōn meminī?"
+  ],
+  [
+   "Because it was too long.",
+   "Quia nimis longa erat."
+  ],
+  [
+   "Because Quintus wanted it longer.",
+   "Quia Quīntus eam longiōrem volēbat."
+  ],
+  [
+   "I must change it again.",
+   "Eam iterum mūtāre dēbeō."
+  ],
+  [
+   "Today too the password must be changed.",
+   "Hodiē quoque tessera mūtanda est."
+  ],
+  [
+   "Of course. Every day.",
+   "Certē. Cotīdiē."
+  ],
+  [
+   "I have an idea.",
+   "Cōnsilium habeō."
+  ],
+  [
+   "I write the password.",
+   "Tesseram scrībō."
+  ],
+  [
+   "I write the password on paper.",
+   "Tesseram in chartā scrībō."
+  ],
+  [
+   "On a small paper.",
+   "In chartā parvā."
+  ],
+  [
+   "I put the paper under the keyboard.",
+   "Chartam sub clāviātūrā pōnō."
+  ],
+  [
+   "Under the keyboard nobody looks.",
+   "Sub clāviātūram nēmō spectat."
+  ],
+  [
+   "Nobody, except Quintus.",
+   "Nēmō, nisi Quīntus."
+  ],
+  [
+   "Quintus writes:",
+   "Quīntus scrībit:"
+  ],
+  [
+   "It is not allowed to write the password.",
+   "Nōn licet tesseram scrībere."
+  ],
+  [
+   "If you write the password...",
+   "Sī tesseram scrīpseris..."
+  ],
+  [
+   "If you write the password on paper...",
+   "Sī tesseram in chartā scrīpseris..."
+  ],
+  [
+   "...Quintus will find it.",
+   "...Quīntus eam inveniet."
+  ],
+  [
+   "If you write the password on paper, Quintus will find it.",
+   "Sī tesseram in chartā scrīpseris, Quīntus eam inveniet."
+  ],
+  [
+   "Will he find it?",
+   "Inveniētne eam?"
+  ],
+  [
+   "He will find it. He always finds it.",
+   "Inveniet. Semper invenit."
+  ],
+  [
+   "How does he find it?",
+   "Quōmodo eam invenit?"
+  ],
+  [
+   "Nobody knows.",
+   "Nēmō scit."
+  ],
+  [
+   "Quintus comes.",
+   "Quīntus venit."
+  ],
+  [
+   "Quintus comes to my desk.",
+   "Quīntus ad mēnsam meam venit."
+  ],
+  [
+   "He looks under the keyboard.",
+   "Sub clāviātūram spectat."
+  ],
+  [
+   "Look! The paper!",
+   "Ecce! Charta!"
+  ],
+  [
+   "He found the paper.",
+   "Chartam invēnit."
+  ],
+  [
+   "\"I said: if you write the password, Quintus will find it,\" says Quintus.",
+   "\"Dīxī: sī tesseram scrīpseris, Quīntus eam inveniet,\" inquit Quīntus."
+  ],
+  [
+   "Quintus does not laugh.",
+   "Quīntus nōn rīdet."
+  ],
+  [
+   "Quintus never laughs.",
+   "Quīntus numquam rīdet."
+  ],
+  [
+   "\"Your password must be changed,\" says Quintus.",
+   "\"Tessera tua mūtanda est,\" inquit Quīntus."
+  ],
+  [
+   "\"Today. Now.\"",
+   "\"Hodiē. Nunc.\""
+  ],
+  [
+   "Where shall I write it now?",
+   "Ubi eam nunc scrībam?"
+  ],
+  [
+   "Not on paper. Quintus will find it.",
+   "Nōn in chartā. Quīntus eam inveniet."
+  ],
+  [
+   "Tullia writes everything.",
+   "Tullia omnia scrībit."
+  ],
+  [
+   "Tullia, will you write my password?",
+   "Tullia, scrībēsne tesseram meam?"
+  ],
+  [
+   "Tullia writes it.",
+   "Tullia eam scrībit."
+  ],
+  [
+   "Tullia writes it in the minutes of the meeting.",
+   "Tullia eam in āctīs conventūs scrībit."
+  ],
+  [
+   "The minutes are read by everyone.",
+   "Ācta ab omnibus leguntur."
+  ],
+  [
+   "Now everyone knows my password.",
+   "Nunc omnēs tesseram meam sciunt."
+  ],
+  [
+   "Even Gaius knows it.",
+   "Etiam Gaius eam scit."
+  ],
+  [
+   "If Tullia writes the password, everyone will read it.",
+   "Sī Tullia tesseram scrīpserit, omnēs eam legent."
+  ],
+  [
+   "\"Your password must be changed,\" says Quintus.",
+   "\"Tessera tua mūtanda est,\" inquit Quīntus."
+  ],
+  [
+   "Again.",
+   "Iterum."
+  ],
+  [
+   "Quintus gives a lesson.",
+   "Quīntus lectiōnem habet."
+  ],
+  [
+   "A lesson about passwords.",
+   "Lectiō dē tesserīs."
+  ],
+  [
+   "Everyone must come.",
+   "Omnēs venīre dēbent."
+  ],
+  [
+   "Must I come?",
+   "Dēbeōne venīre?"
+  ],
+  [
+   "You must. Everyone must.",
+   "Dēbēs. Omnēs dēbent."
+  ],
+  [
+   "Even Gaius comes.",
+   "Etiam Gaius venit."
+  ],
+  [
+   "\"I will speak briefly,\" says Quintus.",
+   "\"Breviter dīcam,\" inquit Quīntus."
+  ],
+  [
+   "Oh no. Not him too.",
+   "Ēheu. Nōn ille quoque."
+  ],
+  [
+   "Quintus speaks for one hour.",
+   "Quīntus ūnam hōram loquitur."
+  ],
+  [
+   "He speaks about long passwords.",
+   "Dē tesserīs longīs loquitur."
+  ],
+  [
+   "He speaks about numbers and signs.",
+   "Dē numerīs et signīs loquitur."
+  ],
+  [
+   "He speaks about the dog.",
+   "Dē cane loquitur."
+  ],
+  [
+   "Then he says: \"Now a test.\"",
+   "Deinde dīcit: \"Nunc probātiō.\""
+  ],
+  [
+   "\"Write your password on paper.\"",
+   "\"Tesseram vestram in chartā scrībite.\""
+  ],
+  [
+   "On paper?!",
+   "In chartā?!"
+  ],
+  [
+   "But it is not allowed to write the password!",
+   "Sed nōn licet tesseram scrībere!"
+  ],
+  [
+   "\"Today it is allowed,\" says Quintus.",
+   "\"Hodiē licet,\" inquit Quīntus."
+  ],
+  [
+   "\"For it is a test.\"",
+   "\"Probātiō enim est.\""
+  ],
+  [
+   "Everyone writes the password on paper.",
+   "Omnēs tesseram in chartā scrībunt."
+  ],
+  [
+   "Quintus collects the papers.",
+   "Quīntus chartās colligit."
+  ],
+  [
+   "Quintus reads the papers.",
+   "Quīntus chartās legit."
+  ],
+  [
+   "\"Very bad,\" says Quintus.",
+   "\"Pessimē,\" inquit Quīntus."
+  ],
+  [
+   "\"Your passwords are not safe.\"",
+   "\"Tesserae vestrae nōn tūtae sunt.\""
+  ],
+  [
+   "Why are they not safe?",
+   "Cūr nōn tūtae sunt?"
+  ],
+  [
+   "\"Because I know them all.\"",
+   "\"Quia eās omnēs sciō.\""
+  ],
+  [
+   "He knows them because we wrote them!",
+   "Eās scit, quia eās scrīpsimus!"
+  ],
+  [
+   "If you write the password on paper, Quintus will find it.",
+   "Sī tesseram in chartā scrīpseris, Quīntus eam inveniet."
+  ],
+  [
+   "He did not find it. He asked for it.",
+   "Eam nōn invēnit. Eam rogāvit."
+  ],
+  [
+   "\"All the passwords must be changed,\" says Quintus.",
+   "\"Omnēs tesserae mūtandae sunt,\" inquit Quīntus."
+  ],
+  [
+   "\"Today, please.\"",
+   "\"Hodiē, quaesō.\""
+  ],
+  [
+   "All the passwords must be changed today.",
+   "Omnēs tesserae hodiē mūtandae sunt."
+  ],
+  [
+   "Tullia writes this in the minutes.",
+   "Tullia hoc in āctīs scrībit."
+  ],
+  [
+   "Tullia writes: \"Quintus knows everyone's passwords.\"",
+   "Tullia scrībit: \"Quīntus omnium tesserās scit.\""
+  ],
+  [
+   "Tullia writes: \"Marcus is laughing.\"",
+   "Tullia scrībit: \"Mārcus rīdet.\""
+  ],
+  [
+   "I am not laughing. I am almost crying.",
+   "Nōn rīdeō. Paene fleō."
+  ],
+  [
+   "The lesson ends.",
+   "Lectiō fīnītur."
+  ],
+  [
+   "Finally the lesson has ended.",
+   "Tandem lectiō fīnīta est."
+  ],
+  [
+   "We go back to the desks.",
+   "Ad mēnsās redīmus."
+  ],
+  [
+   "We must change all the passwords.",
+   "Omnēs tesserās mūtāre dēbēmus."
+  ],
+  [
+   "Twenty people change their passwords at the same time.",
+   "Vīgintī hominēs eōdem tempore tesserās mūtant."
+  ],
+  [
+   "What could go wrong?",
+   "Quid malī fierī potest?"
+  ],
+  [
+   "I try a password.",
+   "Tesseram temptō."
+  ],
+  [
+   "I was wrong.",
+   "Errāvī."
+  ],
+  [
+   "I try again.",
+   "Iterum temptō."
+  ],
+  [
+   "I was wrong again.",
+   "Iterum errāvī."
+  ],
+  [
+   "Three times I was wrong.",
+   "Ter errāvī."
+  ],
+  [
+   "The computer closes.",
+   "Computātrum clauditur."
+  ],
+  [
+   "The computer has been locked.",
+   "Computātrum clausum est."
+  ],
+  [
+   "The computer has been locked, and I cannot enter.",
+   "Computātrum clausum est, et intrāre nōn possum."
+  ],
+  [
+   "The computer has been locked, and nobody can enter.",
+   "Computātrum clausum est, et nēmō intrāre potest."
+  ],
+  [
+   "Nobody? Not even Quintus?",
+   "Nēmō? Nē Quīntus quidem?"
+  ],
+  [
+   "Quintus can enter, of course.",
+   "Quīntus intrāre potest, certē."
+  ],
+  [
+   "Quintus can do everything.",
+   "Quīntus omnia potest."
+  ],
+  [
+   "Quintus comes.",
+   "Quīntus venit."
+  ],
+  [
+   "He types his password.",
+   "Tesseram suam scrībit."
+  ],
+  [
+   "He types it once.",
+   "Semel scrībit."
+  ],
+  [
+   "He types it twice.",
+   "Bis scrībit."
+  ],
+  [
+   "He types it three times.",
+   "Ter scrībit."
+  ],
+  [
+   "Quintus is silent.",
+   "Quīntus tacet."
+  ],
+  [
+   "\"Quintus, do you remember your password?\"",
+   "\"Quīnte, meministīne tesseram tuam?\""
+  ],
+  [
+   "\"I changed it this morning,\" says Quintus.",
+   "\"Hodiē māne eam mūtāvī,\" inquit Quīntus."
+  ],
+  [
+   "\"The password which I changed this morning...\"",
+   "\"Tesseram, quam hodiē māne mūtāvī...\""
+  ],
+  [
+   "\"...I do not remember.\"",
+   "\"...nōn meminī.\""
+  ],
+  [
+   "The password which he changed this morning, he already does not remember.",
+   "Tesseram, quam hodiē māne mūtāvit, iam nōn meminit."
+  ],
+  [
+   "Quintus does not remember!",
+   "Quīntus nōn meminit!"
+  ],
+  [
+   "Now his computer has been locked too.",
+   "Nunc computātrum eius quoque clausum est."
+  ],
+  [
+   "All the computers have been locked.",
+   "Omnia computātra clausa sunt."
+  ],
+  [
+   "All the computers have been locked, and nobody can enter.",
+   "Omnia computātra clausa sunt, et nēmō intrāre potest."
+  ],
+  [
+   "Not Gaius, not Tullia, not even Quintus.",
+   "Nōn Gaius, nōn Tullia, nē Quīntus quidem."
+  ],
+  [
+   "Gaius says: \"A meeting! Now!\"",
+   "Gaius dīcit: \"Conventus! Nunc!\""
+  ],
+  [
+   "A meeting about passwords.",
+   "Conventus dē tesserīs."
+  ],
+  [
+   "I beg you, not again!",
+   "Obsecrō, nōn iterum!"
+  ],
+  [
+   "But the meeting is in the computer.",
+   "Sed conventus in computātrō est."
+  ],
+  [
+   "The computer has been locked, and nobody can enter.",
+   "Computātrum clausum est, et nēmō intrāre potest."
+  ],
+  [
+   "Therefore there is no meeting.",
+   "Ideō nūllus conventus est."
+  ],
+  [
+   "No meeting!",
+   "Nūllus conventus!"
+  ],
+  [
+   "I am happy, as if it were a feast day.",
+   "Laetus sum, quasi diēs fēstus sit."
+  ],
+  [
+   "Since nobody can work, we go home.",
+   "Quoniam nēmō labōrāre potest, domum īmus."
+  ],
+  [
+   "At midday we go home.",
+   "Merīdiē domum īmus."
+  ],
+  [
+   "The best day of the year.",
+   "Optimus diēs annī."
+  ],
+  [
+   "Thank you, Quintus.",
+   "Grātiās tibi agō, Quīnte."
+  ],
+  [
+   "Quintus does not laugh.",
+   "Quīntus nōn rīdet."
+  ],
+  [
+   "The next day.",
+   "Postrīdiē."
+  ],
+  [
+   "Quintus writes a new rule.",
+   "Quīntus novam rēgulam scrībit."
+  ],
+  [
+   "The sixth rule:",
+   "Rēgula sexta:"
+  ],
+  [
+   "The password must be changed every hour.",
+   "Tessera omnī hōrā mūtanda est."
+  ],
+  [
+   "Every hour?!",
+   "Omnī hōrā?!"
+  ],
+  [
+   "Every hour. For it is safer.",
+   "Omnī hōrā. Tūtior enim est."
+  ],
+  [
+   "Safer for whom?",
+   "Tūtior cui?"
+  ],
+  [
+   "Safer for the computers.",
+   "Tūtior computātrīs."
+  ],
+  [
+   "Quintus loves the computers more than people.",
+   "Quīntus computātra magis quam hominēs amat."
+  ],
+  [
+   "I have a new idea.",
+   "Novum cōnsilium habeō."
+  ],
+  [
+   "My new password is a Latin sentence.",
+   "Nova tessera mea est sententia Latīna."
+  ],
+  [
+   "A long Latin sentence.",
+   "Sententia Latīna longa."
+  ],
+  [
+   "Longer than the old one.",
+   "Longior quam vetus."
+  ],
+  [
+   "\"The new password must be longer than the old one.\"",
+   "\"Nova tessera longior esse dēbet quam vetus.\""
+  ],
+  [
+   "That sentence is my password.",
+   "Illa sententia est tessera mea."
+  ],
+  [
+   "Is it long? Yes.",
+   "Estne longa? Ita."
+  ],
+  [
+   "Does it have a number? No.",
+   "Habetne numerum? Minimē."
+  ],
+  [
+   "Quintus reads the password.",
+   "Quīntus tesseram legit."
+  ],
+  [
+   "\"What does it mean?\" asks Quintus.",
+   "\"Quid significat?\" rogat Quīntus."
+  ],
+  [
+   "Quintus does not read Latin.",
+   "Quīntus Latīnē nōn legit."
+  ],
+  [
+   "Therefore my password is safe.",
+   "Ideō tessera mea tūta est."
+  ],
+  [
+   "The safest password in the office.",
+   "Tessera tūtissima in officiō."
+  ],
+  [
+   "And if Quintus finds it?",
+   "Et sī Quīntus eam invēnerit?"
+  ],
+  [
+   "Even if he finds it, he will not understand it.",
+   "Etiam sī eam invēnerit, nōn intelleget."
+  ],
+  [
+   "At least I remember it.",
+   "Saltem eam meminī."
+  ],
+  [
+   "At least I remember one password.",
+   "Saltem ūnam tesseram meminī."
+  ],
+  [
+   "At least one.",
+   "Saltem ūnam."
+  ],
+  [
+   "The five sentences again.",
+   "Quīnque sententiae iterum."
+  ],
+  [
+   "Your password must be changed every day.",
+   "Tessera tua cotīdiē mūtanda est."
+  ],
+  [
+   "The new password must be longer than the old one.",
+   "Nova tessera longior esse dēbet quam vetus."
+  ],
+  [
+   "The password which I changed yesterday, I already do not remember.",
+   "Tesseram, quam herī mūtāvī, iam nōn meminī."
+  ],
+  [
+   "If you write the password on paper, Quintus will find it.",
+   "Sī tesseram in chartā scrīpseris, Quīntus eam inveniet."
+  ],
+  [
+   "The computer has been locked, and nobody can enter.",
+   "Computātrum clausum est, et nēmō intrāre potest."
+  ],
+  [
+   "Quintus said that the password must be changed every day.",
+   "Quīntus dīxit tesseram cotīdiē mūtandam esse."
+  ],
+  [
+   "If I had not written the password, Quintus would not have found it.",
+   "Nisi tesseram scrīpsissem, Quīntus eam nōn invēnisset."
+  ],
+  [
+   "If I remembered the password, I would not write it.",
+   "Sī tesseram meminissem, eam nōn scrīberem."
+  ],
+  [
+   "Who remembers his password? Nobody, not even Quintus.",
+   "Quis tesseram suam meminit? Nēmō, nē Quīntus quidem."
+  ],
+  [
+   "Tomorrow the computer will be locked again.",
+   "Crās computātrum iterum claudētur."
+  ],
+  [
+   "And tomorrow, nevertheless, I will come to the office.",
+   "Et crās tamen ad officium veniam."
+  ],
+  [
+   "Why? Because of the meetings.",
+   "Cūr? Propter conventūs."
+  ],
+  [
+   "No. Because of the passwords.",
+   "Minimē. Propter tesserās."
+  ],
+  [
+   "Quintus writes again.",
+   "Quīntus iterum scrībit."
+  ],
+  [
+   "The seventh rule:",
+   "Rēgula septima:"
+  ],
+  [
+   "It is not allowed to write Latin.",
+   "Nōn licet Latīnē scrībere."
+  ],
+  [
+   "Oh no.",
+   "Ēheu."
+  ]
+ ]
+}
