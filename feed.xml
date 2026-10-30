@@ -14,7 +14,20 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Thu, 29 Oct 2026 23:09:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 08:45:36 +0000</lastBuildDate>
+    <item>
+      <title>Ladder 16 · Epistulae dē cāseō (letters about a cheese)</title>
+      <description>Ten letters between two Roman friends: Marcus in noisy Rome begs Lucius for his famous cheese; a procession, a letter carrier who smells of cheese, well-mannered robbers who send a thank-you letter, and a neighbour who guards the cheese by eating it. English → Latin, then the Latin twice. Iulia's voice.</description>
+      <itunes:summary>Ten letters between two Roman friends: Marcus in noisy Rome begs Lucius for his famous cheese; a procession, a letter carrier who smells of cheese, well-mannered robbers who send a thank-you letter, and a neighbour who guards the cheese by eating it. English → Latin, then the Latin twice. Iulia's voice.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-scala-16-epistulae.mp3" length="29351118" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-bonus-scala-16-epistulae.mp3</guid>
+      <pubDate>Fri, 30 Oct 2026 19:45:01 +1100</pubDate>
+      <itunes:duration>40:34</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>49</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Ladder 12 · Analysis (the analysis) · Latin only (× 2)</title>
       <description>Latin only, twice as many rounds. Gaius wants a perfect analysis of the new product "Speed" before Friday, but every time he consults his new calendar the deadline moves closer, until Marcus discovers the product IS the calendar, and it is too fast.</description>
