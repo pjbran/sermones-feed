@@ -68,6 +68,11 @@ His strong words get no points. They are the glue and they come back anyway.
 - **No American accent** ("like fingernails on a chalk board": Emanuele on Flash read the English American). English = a gentle British or Irish woman (like the free Jenny).
 - Samples to pick from: tests/female-voices/ (1 free Jenny + Paola, 2 Iulia Flash, 3 Iulia v4, 4 Lily + Iulia Flash, 5 Alice + Iulia Flash, 6 Louisamay (Irish library voice) + Iulia Flash). **His pick (28 Oct 5:13 am): #2, "I love it!" = Iulia (Rossana) says English AND Latin, on the half-price Flash model.** Default for ElevenLabs ladders: `engine: eleven, voice: F, model: eleven_flash_v2_5`. A ladder over about 3,000 credits (e.g. a 700-pair vocab pyramid ≈ 17,000) stays free (Piper) unless he says. Chats need a 2nd female voice: not picked yet.
 
+## 4c. Patrick, 30 Oct 7:33 pm
+- **NEVER rīdeō / rīsus / rīdet** ("I despise, utterly despise hearing 'ridet'").
+- Fewer office / nova Latina words; aim at A2–B1 (richer classical vocabulary and structures: ablative absolute, characteristic clauses, gerundives, quasi + subjunctive), still the pyramid rules.
+- **ONE file per ladder (`combined: true`):** English → Latin once, then the Latin alone twice, all in one MP3. No separate Latin-only track.
+
 ## 5. Fixed format (back to the Ep 1 recipe, confirmed 19 Oct)
 
 - Voices: Iulia = "Rossana – Warm Italian Conversational". Marcus = an **Italian male** library voice (Patrick, 22 Oct: no more his own voice). Ep 4 used "Emanuele Matte – Clear and Serious" (qQFoiN2eQXULODjD1SwL). Backup if he dislikes it: "Valentino – English with Italian accent" (conversational).

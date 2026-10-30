@@ -1,0 +1,940 @@
+{
+ "type": "drill",
+ "engine": "eleven",
+ "voice": "F",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "repeat": 1,
+ "combined": true,
+ "music": "v5",
+ "max_credits": 9000,
+ "slug": "scala-16-epistulae",
+ "title": "Ladder 16 · Epistulae dē cāseō (letters about a cheese)",
+ "summary": "Ten letters between two Roman friends: Marcus in noisy Rome begs Lucius for his famous cheese; a procession, a letter carrier who smells of cheese, well-mannered robbers who send a thank-you letter, and a neighbour who guards the cheese by eating it. English → Latin, then the Latin twice. Iulia's voice.",
+ "pairs": [
+  [
+   "Letter one.",
+   "Epistula prīma."
+  ],
+  [
+   "Marcus to Lucius, greetings.",
+   "Mārcus Lūciō salūtem dīcit."
+  ],
+  [
+   "If you are well, it is good.",
+   "Sī valēs, bene est."
+  ],
+  [
+   "I am well.",
+   "Ego valeō."
+  ],
+  [
+   "If you are well, it is good; I at least am well.",
+   "Sī valēs, bene est; ego quidem valeō."
+  ],
+  [
+   "But I cannot sleep.",
+   "Sed dormīre nōn possum."
+  ],
+  [
+   "If you are well, it is good; I at least am well, but I cannot sleep.",
+   "Sī valēs, bene est; ego quidem valeō, sed dormīre nōn possum."
+  ],
+  [
+   "Why can you not sleep?",
+   "Cūr dormīre nōn potes?"
+  ],
+  [
+   "Because Rome is never silent.",
+   "Quia Rōma numquam silet."
+  ],
+  [
+   "At night the carts pass through the streets.",
+   "Noctū plaustra per viās trānseunt."
+  ],
+  [
+   "By day the crowd shouts in the forum.",
+   "Interdiū turba in forō clāmat."
+  ],
+  [
+   "When, then, do I sleep? Never.",
+   "Quandō igitur dormiō? Numquam."
+  ],
+  [
+   "There is one remedy.",
+   "Ūnum remedium est."
+  ],
+  [
+   "What remedy?",
+   "Quod remedium?"
+  ],
+  [
+   "Your cheese.",
+   "Cāseus tuus."
+  ],
+  [
+   "Your cheese, which the whole province praises.",
+   "Cāseus tuus, quem tōta prōvincia laudat."
+  ],
+  [
+   "I ask you.",
+   "Tē rogō."
+  ],
+  [
+   "I ask you to send me your cheese.",
+   "Rogō tē, ut mihi cāseum tuum mittās."
+  ],
+  [
+   "As soon as possible.",
+   "Quam prīmum."
+  ],
+  [
+   "I ask you to send me your cheese as soon as possible.",
+   "Rogō tē, ut mihi cāseum tuum quam prīmum mittās."
+  ],
+  [
+   "Why so quickly?",
+   "Cūr tam celeriter?"
+  ],
+  [
+   "Because without cheese, life in the city is hard.",
+   "Quia sine cāseō vīta in urbe dūra est."
+  ],
+  [
+   "Farewell.",
+   "Valē."
+  ],
+  [
+   "Letter two.",
+   "Epistula secunda."
+  ],
+  [
+   "Lucius to Marcus, greetings.",
+   "Lūcius Mārcō salūtem dīcit."
+  ],
+  [
+   "If you are well, it is good; I at least am well.",
+   "Sī valēs, bene est; ego quidem valeō."
+  ],
+  [
+   "I have read your letter.",
+   "Epistulam tuam lēgī."
+  ],
+  [
+   "You ask me to send you my cheese.",
+   "Rogās, ut tibi cāseum meum mittam."
+  ],
+  [
+   "I will send it gladly.",
+   "Libenter eum mittam."
+  ],
+  [
+   "But there is a difficulty.",
+   "Sed difficultās est."
+  ],
+  [
+   "What difficulty?",
+   "Quae difficultās?"
+  ],
+  [
+   "The cheese is famous.",
+   "Cāseus clārus est."
+  ],
+  [
+   "The cheese is so famous that the whole village loves it.",
+   "Cāseus tam clārus est, ut tōtus vīcus eum amet."
+  ],
+  [
+   "The village does not want to lose the cheese.",
+   "Vīcus cāseum āmittere nōn vult."
+  ],
+  [
+   "Therefore the villagers send the cheese away with a great procession.",
+   "Itaque vīcānī cāseum magnā pompā dīmittunt."
+  ],
+  [
+   "With a great procession? For a cheese?",
+   "Magnā pompā? Prō cāseō?"
+  ],
+  [
+   "Yes. The old men weep.",
+   "Ita. Senēs lacrimant."
+  ],
+  [
+   "The children sing songs.",
+   "Puerī carmina canunt."
+  ],
+  [
+   "The cheese departs on a cart.",
+   "Cāseus in plaustrō discēdit."
+  ],
+  [
+   "The cart driver is honest.",
+   "Plaustrārius probus est."
+  ],
+  [
+   "At least, he says so.",
+   "Saltem ita dīcit."
+  ],
+  [
+   "Is the cart driver honest?",
+   "Estne plaustrārius probus?"
+  ],
+  [
+   "He says so. At least he says so.",
+   "Ita dīcit. Saltem ita dīcit."
+  ],
+  [
+   "Within three days the cheese will arrive.",
+   "Intrā trēs diēs cāseus adveniet."
+  ],
+  [
+   "Farewell.",
+   "Valē."
+  ],
+  [
+   "Letter three.",
+   "Epistula tertia."
+  ],
+  [
+   "Marcus to Lucius, greetings.",
+   "Mārcus Lūciō salūtem dīcit."
+  ],
+  [
+   "If you are well, it is good; I at least am well, but I cannot sleep.",
+   "Sī valēs, bene est; ego quidem valeō, sed dormīre nōn possum."
+  ],
+  [
+   "Three days have passed.",
+   "Trēs diēs praeteriērunt."
+  ],
+  [
+   "Five days have passed.",
+   "Quīnque diēs praeteriērunt."
+  ],
+  [
+   "By day and at night I lack cheese.",
+   "Interdiū et noctū cāseō careō."
+  ],
+  [
+   "The cheese which you sent...",
+   "Cāseus, quem mīsistī..."
+  ],
+  [
+   "...has never arrived.",
+   "...numquam advēnit."
+  ],
+  [
+   "The cheese which you sent has never arrived.",
+   "Cāseus, quem mīsistī, numquam advēnit."
+  ],
+  [
+   "Has it arrived? It has not arrived.",
+   "Advēnitne? Nōn advēnit."
+  ],
+  [
+   "But the letter carrier arrived.",
+   "Sed tabellārius advēnit."
+  ],
+  [
+   "The letter carrier brought your letter.",
+   "Tabellārius epistulam tuam attulit."
+  ],
+  [
+   "And the letter carrier smelled of cheese.",
+   "Et tabellārius cāseum olēbat."
+  ],
+  [
+   "Did he smell of cheese?",
+   "Olēbatne cāseum?"
+  ],
+  [
+   "Strongly. As if he had slept in the cheese.",
+   "Vehementer. Quasi in cāseō dormīvisset."
+  ],
+  [
+   "I asked the letter carrier: \"Where is the cheese?\"",
+   "Tabellārium rogāvī: \"Ubi est cāseus?\""
+  ],
+  [
+   "He answered: \"I do not know.\"",
+   "Respondit: \"Nesciō.\""
+  ],
+  [
+   "Then he wiped his mouth.",
+   "Deinde ōs suum tersit."
+  ],
+  [
+   "He wiped his mouth, as if he were ashamed.",
+   "Ōs tersit, quasi eum pudēret."
+  ],
+  [
+   "The cheese which you sent has never arrived.",
+   "Cāseus, quem mīsistī, numquam advēnit."
+  ],
+  [
+   "But I suspect where it is.",
+   "Sed suspicor ubi sit."
+  ],
+  [
+   "What, then, shall I do?",
+   "Quid igitur faciam?"
+  ],
+  [
+   "Do you know where the cheese is?",
+   "Scīsne ubi sit cāseus?"
+  ],
+  [
+   "The letter carrier knows, I suspect.",
+   "Tabellārius scit, ut suspicor."
+  ],
+  [
+   "I ask you to send me your cheese as soon as possible.",
+   "Rogō tē, ut mihi cāseum tuum quam prīmum mittās."
+  ],
+  [
+   "Farewell. And another letter carrier, please.",
+   "Valē. Et alium tabellārium, quaesō."
+  ],
+  [
+   "Letter four.",
+   "Epistula quārta."
+  ],
+  [
+   "Lucius to Marcus, greetings.",
+   "Lūcius Mārcō salūtem dīcit."
+  ],
+  [
+   "If you are well, it is good; I at least am well.",
+   "Sī valēs, bene est; ego quidem valeō."
+  ],
+  [
+   "The cart driver has returned.",
+   "Plaustrārius rediit."
+  ],
+  [
+   "He returned without the cart.",
+   "Sine plaustrō rediit."
+  ],
+  [
+   "He returned without the cheese.",
+   "Sine cāseō rediit."
+  ],
+  [
+   "Does the cart driver smell of cheese? Strongly.",
+   "Oletne plaustrārius cāseum? Vehementer."
+  ],
+  [
+   "What happened?",
+   "Quid accidit?"
+  ],
+  [
+   "Robbers.",
+   "Latrōnēs."
+  ],
+  [
+   "Robbers attacked the cart.",
+   "Latrōnēs plaustrum aggressī sunt."
+  ],
+  [
+   "Robbers attacked the cart near the river.",
+   "Latrōnēs prope flūmen plaustrum aggressī sunt."
+  ],
+  [
+   "If the robbers had not come, the cheese would have arrived.",
+   "Nisi latrōnēs vēnissent, cāseus advēnisset."
+  ],
+  [
+   "The cheese was carried off.",
+   "Cāseus ablātus est."
+  ],
+  [
+   "When the cheese had been carried off...",
+   "Cāseō ablātō..."
+  ],
+  [
+   "...the robbers left a letter.",
+   "...latrōnēs epistulam relīquērunt."
+  ],
+  [
+   "A letter of thanks.",
+   "Epistulam grātiārum."
+  ],
+  [
+   "The robbers, when the cheese had been carried off, left a letter of thanks.",
+   "Latrōnēs, cāseō ablātō, epistulam grātiārum relīquērunt."
+  ],
+  [
+   "A letter? From robbers?",
+   "Epistulam? Ā latrōnibus?"
+  ],
+  [
+   "Robbers who write letters?",
+   "Latrōnēs, quī epistulās scrībunt?"
+  ],
+  [
+   "These are well-mannered robbers.",
+   "Hī sunt latrōnēs urbānī."
+  ],
+  [
+   "More well-mannered than the cart driver.",
+   "Urbāniōrēs plaustrāriō."
+  ],
+  [
+   "So much for the honest cart driver.",
+   "Tantum dē plaustrāriō probō."
+  ],
+  [
+   "I am sending you the letter of the robbers.",
+   "Epistulam latrōnum tibi mittō."
+  ],
+  [
+   "Read it, and judge.",
+   "Lege eam, et iūdicā."
+  ],
+  [
+   "Farewell.",
+   "Valē."
+  ],
+  [
+   "Letter five.",
+   "Epistula quīnta."
+  ],
+  [
+   "The robbers to Lucius, greetings.",
+   "Latrōnēs Lūciō salūtem dīcunt."
+  ],
+  [
+   "If you are well, it is good; we at least are well.",
+   "Sī valēs, bene est; nōs quidem valēmus."
+  ],
+  [
+   "We are well, because we have eaten.",
+   "Valēmus, quia ēdimus."
+  ],
+  [
+   "Your cheese was excellent.",
+   "Cāseus tuus optimus erat."
+  ],
+  [
+   "Never have we eaten a better cheese.",
+   "Numquam cāseum meliōrem ēdimus."
+  ],
+  [
+   "We have wiped our mouths, and we write.",
+   "Ōra tersimus, et scrībimus."
+  ],
+  [
+   "The method of making cheese.",
+   "Ratiō cāseī faciendī."
+  ],
+  [
+   "We ask you to send us the method of making cheese.",
+   "Rogāmus, ut nōbīs ratiōnem cāseī faciendī mittās."
+  ],
+  [
+   "We ask you to send us the method of making cheese as soon as possible.",
+   "Rogāmus, ut nōbīs ratiōnem cāseī faciendī quam prīmum mittās."
+  ],
+  [
+   "The cart we will give back.",
+   "Plaustrum reddēmus."
+  ],
+  [
+   "The cart driver we have already given back.",
+   "Plaustrārium iam reddidimus."
+  ],
+  [
+   "He talked too much.",
+   "Nimis loquēbātur."
+  ],
+  [
+   "Farewell, and write soon.",
+   "Valē, et mox scrībe."
+  ],
+  [
+   "Letter six.",
+   "Epistula sexta."
+  ],
+  [
+   "Marcus to Lucius, greetings.",
+   "Mārcus Lūciō salūtem dīcit."
+  ],
+  [
+   "If you are well, it is good; I at least am well, but I cannot sleep.",
+   "Sī valēs, bene est; ego quidem valeō, sed dormīre nōn possum."
+  ],
+  [
+   "I have read the letter of the robbers.",
+   "Epistulam latrōnum lēgī."
+  ],
+  [
+   "The robbers write better than many poets.",
+   "Latrōnēs melius scrībunt quam multī poētae."
+  ],
+  [
+   "They write as if they were Ciceros.",
+   "Scrībunt, quasi Cicerōnēs sint."
+  ],
+  [
+   "Better, indeed, than I.",
+   "Melius quidem quam ego."
+  ],
+  [
+   "The robbers, when the cheese had been carried off, left a letter of thanks.",
+   "Latrōnēs, cāseō ablātō, epistulam grātiārum relīquērunt."
+  ],
+  [
+   "Who leaves a letter of thanks?",
+   "Quis epistulam grātiārum relinquit?"
+  ],
+  [
+   "Only well-mannered robbers.",
+   "Tantum latrōnēs urbānī."
+  ],
+  [
+   "I have a plan.",
+   "Cōnsilium habeō."
+  ],
+  [
+   "Send another cheese.",
+   "Alium cāseum mitte."
+  ],
+  [
+   "But send a guard with the cheese.",
+   "Sed cum cāseō custōdem mitte."
+  ],
+  [
+   "A strong guard.",
+   "Custōdem validum."
+  ],
+  [
+   "A guard who does not love cheese.",
+   "Custōdem, quī cāseum nōn amet."
+  ],
+  [
+   "Is there such a man?",
+   "Estne tālis vir?"
+  ],
+  [
+   "I doubt it.",
+   "Dubitō."
+  ],
+  [
+   "Do you doubt? Do not doubt.",
+   "Dubitāsne? Nōlī dubitāre."
+  ],
+  [
+   "Farewell, and do not weep.",
+   "Valē, et nōlī lacrimāre."
+  ],
+  [
+   "Letter seven.",
+   "Epistula septima."
+  ],
+  [
+   "Lucius to Marcus, greetings.",
+   "Lūcius Mārcō salūtem dīcit."
+  ],
+  [
+   "If you are well, it is good; I at least am well.",
+   "Sī valēs, bene est; ego quidem valeō."
+  ],
+  [
+   "I am sending a second cheese.",
+   "Alterum cāseum mittō."
+  ],
+  [
+   "Bigger than the first.",
+   "Maiōrem prīmō."
+  ],
+  [
+   "The village sends the second cheese away with an even greater procession.",
+   "Vīcus alterum cāseum etiam maiōre pompā dīmittit."
+  ],
+  [
+   "The villagers weep again.",
+   "Vīcānī iterum lacrimant."
+  ],
+  [
+   "And I am sending a guard: my neighbour.",
+   "Et custōdem mittō: vīcīnum meum."
+  ],
+  [
+   "My neighbour is very strong.",
+   "Vīcīnus meus validissimus est."
+  ],
+  [
+   "He once carried an ox.",
+   "Ōlim bovem portāvit."
+  ],
+  [
+   "Is he strong enough? Very strong.",
+   "Satisne validus est? Validissimus."
+  ],
+  [
+   "Does your neighbour love cheese?",
+   "Amatne vīcīnus tuus cāseum?"
+  ],
+  [
+   "He says that he hates cheese.",
+   "Dīcit sē cāseum ōdisse."
+  ],
+  [
+   "He swears that he hates cheese.",
+   "Iūrat sē cāseum ōdisse."
+  ],
+  [
+   "Within three days the cheese will arrive, and the neighbour with it.",
+   "Intrā trēs diēs cāseus adveniet, et vīcīnus cum eō."
+  ],
+  [
+   "Farewell.",
+   "Valē."
+  ],
+  [
+   "Letter eight.",
+   "Epistula octāva."
+  ],
+  [
+   "Marcus to Lucius, greetings.",
+   "Mārcus Lūciō salūtem dīcit."
+  ],
+  [
+   "If you are well, it is good; I at least am well, but I cannot sleep.",
+   "Sī valēs, bene est; ego quidem valeō, sed dormīre nōn possum."
+  ],
+  [
+   "Rome is still not silent.",
+   "Rōma adhūc nōn silet."
+  ],
+  [
+   "Three days have passed; your neighbour has arrived.",
+   "Trēs diēs praeteriērunt; vīcīnus tuus advēnit."
+  ],
+  [
+   "He arrived happy.",
+   "Laetus advēnit."
+  ],
+  [
+   "He arrived fatter than before.",
+   "Pinguior quam anteā advēnit."
+  ],
+  [
+   "Where, then, is the cheese?",
+   "Ubi igitur est cāseus?"
+  ],
+  [
+   "The cheese which you sent has never arrived.",
+   "Cāseus, quem mīsistī, numquam advēnit."
+  ],
+  [
+   "Again? Again.",
+   "Iterum? Iterum."
+  ],
+  [
+   "I asked the neighbour: \"Where is the cheese?\"",
+   "Vīcīnum rogāvī: \"Ubi est cāseus?\""
+  ],
+  [
+   "The neighbour declares...",
+   "Vīcīnus affirmat..."
+  ],
+  [
+   "...that he ate the cheese.",
+   "...sē cāseum comēdisse."
+  ],
+  [
+   "The neighbour declares that he himself ate the cheese.",
+   "Vīcīnus affirmat sē ipsum cāseum comēdisse."
+  ],
+  [
+   "Why? So that the robbers would not seize it.",
+   "Cūr? Nē latrōnēs eum raperent."
+  ],
+  [
+   "The neighbour declares that he himself ate the cheese, so that the robbers would not seize it.",
+   "Vīcīnus affirmat sē ipsum cāseum comēdisse, nē latrōnēs eum raperent."
+  ],
+  [
+   "A strange way of guarding.",
+   "Mīra ratiō custōdiendī."
+  ],
+  [
+   "Such a guard!",
+   "Tālis custōs!"
+  ],
+  [
+   "The robbers attacked the cart; the neighbour attacked the cheese.",
+   "Latrōnēs plaustrum aggressī sunt; vīcīnus cāseum aggressus est."
+  ],
+  [
+   "But I must admit: the cheese is safe.",
+   "Sed fatērī dēbeō: cāseus tūtus est."
+  ],
+  [
+   "Nobody will seize it now.",
+   "Nēmō eum nunc rapiet."
+  ],
+  [
+   "At least the neighbour is honest.",
+   "Saltem vīcīnus probus est."
+  ],
+  [
+   "The neighbour who carried an ox could not carry a cheese.",
+   "Vīcīnus, quī bovem portāvit, cāseum portāre nōn potuit."
+  ],
+  [
+   "Where is it now? In the neighbour.",
+   "Ubi nunc est? In vīcīnō."
+  ],
+  [
+   "As I suspect.",
+   "Ut suspicor."
+  ],
+  [
+   "Did your neighbour not swear that he hated cheese?",
+   "Nōnne vīcīnus tuus iūrāvit sē cāseum ōdisse?"
+  ],
+  [
+   "He swore. Now he swears that he loves it.",
+   "Iūrāvit. Nunc iūrat sē eum amāre."
+  ],
+  [
+   "He says he is ready to guard a third one.",
+   "Dīcit sē parātum esse tertium custōdīre."
+  ],
+  [
+   "Farewell.",
+   "Valē."
+  ],
+  [
+   "Letter nine.",
+   "Epistula nōna."
+  ],
+  [
+   "Lucius to Marcus, greetings.",
+   "Lūcius Mārcō salūtem dīcit."
+  ],
+  [
+   "I have read your letter, and I am ashamed.",
+   "Epistulam tuam lēgī, et mē pudet."
+  ],
+  [
+   "I am ashamed of my neighbour.",
+   "Pudet mē vīcīnī meī."
+  ],
+  [
+   "The neighbour declares that he himself ate the cheese, so that the robbers would not seize it.",
+   "Vīcīnus affirmat sē ipsum cāseum comēdisse, nē latrōnēs eum raperent."
+  ],
+  [
+   "My neighbour grows fatter every day.",
+   "Vīcīnus meus cotīdiē pinguior fit."
+  ],
+  [
+   "Now I lack cheese.",
+   "Nunc cāseō careō."
+  ],
+  [
+   "I have lost the cheese and the method.",
+   "Cāseum et ratiōnem āmīsī."
+  ],
+  [
+   "The robbers have the method of making cheese.",
+   "Latrōnēs ratiōnem cāseī faciendī habent."
+  ],
+  [
+   "Who sent it to them? I did, I confess.",
+   "Quis eam eīs mīsit? Ego, fateor."
+  ],
+  [
+   "For they asked politely.",
+   "Nam urbānē rogāvērunt."
+  ],
+  [
+   "Yesterday the robbers sent me a cheese.",
+   "Herī latrōnēs mihi cāseum mīsērunt."
+  ],
+  [
+   "Their own cheese, made by my method.",
+   "Cāseum suum, meā ratiōne factum."
+  ],
+  [
+   "And a letter: \"If you are well, it is good.\"",
+   "Et epistulam: \"Sī valēs, bene est.\""
+  ],
+  [
+   "Their cheese is better than mine.",
+   "Cāseus eōrum melior est meō."
+  ],
+  [
+   "Now the cheese of the robbers is famous in the whole province.",
+   "Nunc cāseus latrōnum tōtā prōvinciā clārus est."
+  ],
+  [
+   "Even the villagers are eating their cheese.",
+   "Etiam vīcānī cāseum eōrum edunt."
+  ],
+  [
+   "There is a new difficulty: the villagers no longer love me.",
+   "Nova difficultās est: vīcānī mē nōn iam amant."
+  ],
+  [
+   "I hate those robbers vehemently.",
+   "Illōs latrōnēs vehementer ōdī."
+  ],
+  [
+   "But I am eating their cheese, as if it were mine.",
+   "Sed cāseum eōrum edō, quasi meus sit."
+  ],
+  [
+   "And I am weeping as I write.",
+   "Et lacrimāns scrībō."
+  ],
+  [
+   "Farewell.",
+   "Valē."
+  ],
+  [
+   "Letter ten.",
+   "Epistula decima."
+  ],
+  [
+   "Marcus to Lucius, greetings.",
+   "Mārcus Lūciō salūtem dīcit."
+  ],
+  [
+   "If you are well, it is good; I at least am well, and I can sleep!",
+   "Sī valēs, bene est; ego quidem valeō, et dormīre possum!"
+  ],
+  [
+   "Why can you sleep?",
+   "Cūr dormīre potes?"
+  ],
+  [
+   "Because I am no longer in Rome.",
+   "Quia nōn iam Rōmae sum."
+  ],
+  [
+   "I am in the forest, with the robbers.",
+   "In silvā sum, cum latrōnibus."
+  ],
+  [
+   "At night the forest is silent.",
+   "Noctū silva silet."
+  ],
+  [
+   "By day the robbers sleep; at night they work.",
+   "Interdiū latrōnēs dormiunt; noctū labōrant."
+  ],
+  [
+   "They were looking for a man who would write their letters.",
+   "Virum quaerēbant, quī epistulās eōrum scrīberet."
+  ],
+  [
+   "I write their letters; they give me cheese.",
+   "Ego epistulās eōrum scrībō; illī mihi cāseum dant."
+  ],
+  [
+   "The best cheese in the province.",
+   "Cāseum optimum in prōvinciā."
+  ],
+  [
+   "I no longer lack cheese.",
+   "Nōn iam cāseō careō."
+  ],
+  [
+   "The best remedy is the forest.",
+   "Optimum remedium est silva."
+  ],
+  [
+   "I confess: I am not ashamed.",
+   "Fateor: mē nōn pudet."
+  ],
+  [
+   "The cheese which you sent has never arrived.",
+   "Cāseus, quem mīsistī, numquam advēnit."
+  ],
+  [
+   "But now I have arrived at the cheese.",
+   "Sed nunc ego ad cāseum advēnī."
+  ],
+  [
+   "I ask you to come as soon as possible.",
+   "Rogō tē, ut quam prīmum veniās."
+  ],
+  [
+   "Come within three days.",
+   "Intrā trēs diēs venī."
+  ],
+  [
+   "And bring your neighbour.",
+   "Et vīcīnum tuum addūc."
+  ],
+  [
+   "And the ox too, if you want.",
+   "Et bovem quoque, sī vīs."
+  ],
+  [
+   "Do not lose the neighbour; he will guard the cheese.",
+   "Nōlī vīcīnum āmittere; cāseum custōdiet."
+  ],
+  [
+   "The robbers will not send me away.",
+   "Latrōnēs mē nōn dīmittent."
+  ],
+  [
+   "The robbers are getting fatter; I too.",
+   "Latrōnēs pinguiōrēs fīunt; ego quoque."
+  ],
+  [
+   "The robbers are looking for a guard.",
+   "Latrōnēs custōdem quaerunt."
+  ],
+  [
+   "They are looking for a guard who does not love cheese.",
+   "Custōdem quaerunt, quī cāseum nōn amet."
+  ],
+  [
+   "Is there such a man? I doubt it.",
+   "Estne tālis vir? Dubitō."
+  ],
+  [
+   "Farewell. Please.",
+   "Valē. Quaesō."
+  ],
+  [
+   "The five sentences again.",
+   "Quīnque sententiae iterum."
+  ],
+  [
+   "If you are well, it is good; I at least am well, but I cannot sleep.",
+   "Sī valēs, bene est; ego quidem valeō, sed dormīre nōn possum."
+  ],
+  [
+   "I ask you to send me your cheese as soon as possible.",
+   "Rogō tē, ut mihi cāseum tuum quam prīmum mittās."
+  ],
+  [
+   "The cheese which you sent has never arrived.",
+   "Cāseus, quem mīsistī, numquam advēnit."
+  ],
+  [
+   "The robbers, when the cheese had been carried off, left a letter of thanks.",
+   "Latrōnēs, cāseō ablātō, epistulam grātiārum relīquērunt."
+  ],
+  [
+   "The neighbour declares that he himself ate the cheese, so that the robbers would not seize it.",
+   "Vīcīnus affirmat sē ipsum cāseum comēdisse, nē latrōnēs eum raperent."
+  ],
+  [
+   "If the neighbour had not eaten the cheese, the robbers would have seized it.",
+   "Nisi vīcīnus cāseum comēdisset, latrōnēs eum rapuissent."
+  ],
+  [
+   "If you are well, it is good. Send cheese, please.",
+   "Sī valēs, bene est. Mitte cāseum, quaesō."
+  ]
+ ]
+}

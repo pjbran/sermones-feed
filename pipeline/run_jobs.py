@@ -461,6 +461,11 @@ def run_drill_eleven(job):
     n = int(job.get('repeat', 2)); seq = []
     for k in range(n):
         seq += items[:-1] + [(items[-1][0], 2.5)]
+    if job.get('combined'):   # 30 Oct: ONE file = English -> Latin once, then the Latin alone twice
+        lat = [(eclip(smart(la)), job.get('pause_latin_only', 0.6)) for en, la in job['pairs']]
+        seq[-1] = (seq[-1][0], 4.0)
+        for k in range(2):
+            seq += lat[:-1] + [(lat[-1][0], 3.0)]
     voice, ev = audio.sequence(seq)
     x = audio.mix_music(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -7), job.get('music_dip_db', 7))
     eps = json.load(open('episodes.json'))
@@ -479,7 +484,7 @@ def run_drill_eleven(job):
     subprocess.run([sys.executable, 'build_feed.py', BASE], check=True)
     log('built', fn, f'{len(x) / audio.SR / 60:.1f} min', f'(spent about {cost} credits)')
     files = [fn]
-    if not job.get('latin_only') and job.get('with_latin_only', True):
+    if not job.get('latin_only') and not job.get('combined') and job.get('with_latin_only', True):
         files += run_drill_eleven(latin_only_variant(job))['files']
     return {'files': files}
 
