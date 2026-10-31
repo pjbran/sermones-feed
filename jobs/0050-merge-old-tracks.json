@@ -1,0 +1,107 @@
+{
+ "type": "merge",
+ "items": [
+  {
+   "a": "s1e04a-celeriter-an-clare-2.mp3",
+   "b": "s1e04b-celeriter-an-clare-2.mp3",
+   "slug": "chat-celeriter-an-clare",
+   "bitrate": "96k",
+   "title": "Chat · Celeriter an clārē? · English → Latin, then Latin only"
+  },
+  {
+   "a": "bonus-scala-1-v2.mp3",
+   "b": "bonus-scala-1-v2-latina.mp3",
+   "slug": "scala-1-una",
+   "bitrate": "64k",
+   "title": "Ladder 1 · English → Latin, then Latin only"
+  },
+  {
+   "a": "bonus-scala-2-v2.mp3",
+   "b": "bonus-scala-2-v2-latina.mp3",
+   "slug": "scala-2-una",
+   "bitrate": "64k",
+   "title": "Ladder 2 · English → Latin, then Latin only"
+  },
+  {
+   "a": "bonus-scala-3-v2.mp3",
+   "b": "bonus-scala-3-v2-latina.mp3",
+   "slug": "scala-3-una",
+   "bitrate": "64k",
+   "title": "Ladder 3 · talking with her · English → Latin, then Latin only"
+  },
+  {
+   "a": "bonus-scala-4-v2.mp3",
+   "b": "bonus-scala-4-v2-latina.mp3",
+   "slug": "scala-4-una",
+   "bitrate": "64k",
+   "title": "Ladder 4 · talking to myself · English → Latin, then Latin only"
+  },
+  {
+   "a": "bonus-scala-5-subiunctivus.mp3",
+   "b": "bonus-scala-5-subiunctivus-latina.mp3",
+   "slug": "scala-5-una",
+   "bitrate": "64k",
+   "title": "Ladder 5 · ut, nē, cum: the subjunctive pyramid · English → Latin, then Latin only"
+  },
+  {
+   "a": "bonus-scala-6-subiunctivus-2.mp3",
+   "b": "bonus-scala-6-subiunctivus-2-latina.mp3",
+   "slug": "scala-6-una",
+   "bitrate": "64k",
+   "title": "Ladder 6 · ut, nē, cum: pyramid 2 · English → Latin, then Latin only"
+  },
+  {
+   "a": "bonus-scala-7-impera-ut.mp3",
+   "b": "bonus-scala-7-impera-ut-latina.mp3",
+   "slug": "scala-7-una",
+   "bitrate": "64k",
+   "title": "Ladder 7 · Docē mē, ut discam: pyramid 3 · English → Latin, then Latin only"
+  },
+  {
+   "a": "bonus-scala-8-verba-nova-1.mp3",
+   "b": "bonus-scala-8-verba-nova-1-latina.mp3",
+   "slug": "scala-8-una",
+   "bitrate": "64k",
+   "title": "Ladder 8 · 50 new words + 30 hard ones · English → Latin, then Latin only"
+  },
+  {
+   "a": "bonus-scala-9-admone-me-iulia.mp3",
+   "b": "bonus-scala-9-admone-me-iulia-latina-x2.mp3",
+   "slug": "scala-9-una",
+   "bitrate": "96k",
+   "title": "Ladder 9 · Admonē mē, quaesō · English → Latin, then Latin only"
+  },
+  {
+   "a": "bonus-bible-matthew-1.mp3",
+   "b": "bonus-bible-matthew-1-latina-x2.mp3",
+   "slug": "bible-matthew-1-una",
+   "bitrate": "64k",
+   "title": "Bible · Matthew 1–5 · English → Latin, then Latin only"
+  },
+  {
+   "a": "bonus-scala-10-conventus.mp3",
+   "b": "bonus-scala-10-conventus-latina-x2.mp3",
+   "slug": "scala-10-una",
+   "bitrate": "96k",
+   "title": "Ladder 10 · Conventus dē conventibus (the meeting about meetings) · English → Latin, then Latin only"
+  },
+  {
+   "a": "bonus-scala-11-tessera.mp3",
+   "b": "bonus-scala-11-tessera-latina.mp3",
+   "slug": "scala-11-una",
+   "bitrate": "96k",
+   "title": "Ladder 11 · Tessera (the password) · English → Latin, then Latin only"
+  },
+  {
+   "a": "bonus-scala-12-analysis.mp3",
+   "b": "bonus-scala-12-analysis-latina.mp3",
+   "slug": "scala-12-una",
+   "bitrate": "96k",
+   "title": "Ladder 12 · Analysis (the analysis) · English → Latin, then Latin only"
+  }
+ ],
+ "drop": [
+  "bonus-scala-latina-v2.mp3"
+ ],
+ "why": "31 Oct 14:45: combine each old English → Latin track with its Latin-only track into one file"
+}

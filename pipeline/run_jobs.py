@@ -720,6 +720,44 @@ def run_redo_latin(job):
     return {'files': files}
 
 
+def run_merge(job):
+    """31 Oct (Patrick: "republish and combine all the old episodes so that their English-Latin, and Latin only parts are
+    combined ... clean up my feed"): join each English -> Latin track and its Latin-only track into ONE file (no new
+    audio, 0 credits), keep the original date, remove the old entries and files. Items: {a, b, slug, title, bitrate}.
+    "drop": files to remove from the feed without a replacement."""
+    eps = json.load(open('episodes.json')); by = {e['file']: e for e in eps}; made = []
+    for it in job['items']:
+        a, b = 'episodes/' + it['a'], 'episodes/' + it['b']
+        if it['a'] not in by or it['b'] not in by or not os.path.exists(a) or not os.path.exists(b):
+            log('merge skipped (missing):', it['a'], it['b']); continue
+        fn = f"bonus-{it['slug']}.mp3"; out = 'episodes/' + fn
+        cover = audio.make_cover('cover.jpg', it['title'], f"episodes/bonus-{it['slug']}-cover.jpg")
+        subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', a, '-i', b, '-i', cover,
+                        '-filter_complex', '[0:a]aresample=44100,aformat=channel_layouts=mono[x];[1:a]aresample=44100,aformat=channel_layouts=mono[y];[x][y]concat=n=2:v=0:a=1[o]',
+                        '-map', '[o]', '-map', '2:v', '-c:a', 'libmp3lame', '-b:a', it.get('bitrate', '64k'), '-ac', '1',
+                        '-c:v', 'mjpeg', '-disposition:v', 'attached_pic', '-id3v2_version', '3',
+                        '-metadata', f"title={it['title']}", '-metadata', 'artist=Sermones Ambulātōriī',
+                        '-metadata', 'album=Sermones Ambulātōriī · Season 1', out], check=True)
+        old = by[it['a']]
+        new = {'file': fn, 'title': it['title'], 'season': 1, 'episode': old.get('episode'), 'date': old.get('date'),
+               'summary': it.get('summary') or old.get('summary', ''), 'host': 'pages'}
+        eps = [e for e in eps if e['file'] not in (it['a'], it['b'])] + [new]
+        for f in (it['a'], it['b']):
+            for q in ('episodes/' + f, 'episodes/' + f.replace('.mp3', '-cover.jpg')):
+                if os.path.exists(q): os.remove(q)
+        made.append(fn); log('merged', it['a'], '+', it['b'], '->', fn)
+    for f in job.get('drop', []):
+        eps = [e for e in eps if e['file'] != f]
+        for q in ('episodes/' + f, 'episodes/' + f.replace('.mp3', '-cover.jpg')):
+            if os.path.exists(q): os.remove(q)
+        log('dropped', f)
+    eps.sort(key=lambda e: e.get('date') or '')
+    json.dump(eps, open('episodes.json', 'w'), indent=1, ensure_ascii=False)
+    import publish
+    publish.keep_in_site(log)
+    return {'files': made}
+
+
 def run_to_pages(job):
     import publish
     return {'brought_back': publish.bring_back(log)}
@@ -742,7 +780,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible, 'redo_latin': run_redo_latin}.get(job['type'], run_episode)(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible, 'redo_latin': run_redo_latin, 'merge': run_merge}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]
