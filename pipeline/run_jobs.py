@@ -764,30 +764,30 @@ def run_merge(job):
 
 
 def run_kids(job):
-    """31 Oct: "Leō Parvus", a Daniel-Tiger-style kids show for his 3-year-old, 100% Latin. Items: {who, la, gap} lines,
-    {sfx: key} sound effects (job "sfx": {key: [prompt, seconds]}), {song: true} the song (job "song": {prompt, chant}).
-    Voices: N = narrator (Iulia), L and F = playful library voices (added once, names kept in voices-kids.json)."""
+    """Kids show "Leō Parvus" (31 Oct). Job "voices": {role: "name:<my voice>" | {"design": description, "name": name}}
+    (designed voices are made once and kept in pipeline/voices-kids.json). Items: {who, en?, la, gap?, gus?} lines (en =
+    said first, then the Latin by the same voice; gus = a pause after it for the child to copy), {sfx: key} (job "sfx":
+    {key: [prompt, seconds]}), {song: true} (job "song": {prompt, ms, chant, chant_by}). Job "ambience": [prompt, seconds]."""
     kv_path = 'pipeline/voices-kids.json'
     KV = json.load(open(kv_path)) if os.path.exists(kv_path) else {}
-    mine = el.my_voices()
-    def have(name): return [m['voice_id'] for m in mine if m.get('name') == name]
-    for role in ('L', 'F'):
-        if KV.get(role) and have(KV[role]['name']):
-            continue
-        picks = el.pick_character_voices(2, exclude=[v['name'] for v in KV.values()])
-        for v in picks:
-            vid = el.add_shared(v)
-            if vid:
-                KV[role] = {'name': v['name'][:40], 'id': vid}; log('kids voice', role, '=', v['name'], '|', v.get('accent'), '|', v.get('use_case')); break
-        if not KV.get(role):
-            fallback = {'L': 'Lily', 'F': 'Alice'}[role]
-            KV[role] = {'name': fallback, 'id': resolve_voices({'x': 'name:' + fallback})['x']}; log('kids voice', role, 'fallback', fallback)
-        mine = el.my_voices()
+    mine = el.my_voices(); V = {}
+    sample = job.get('design_sample', 'Hello! I am here in the kitchen. Milk, please! Water, please! Thank you very much. Salvē! Lac, quaesō! Grātiās!')
+    for role, spec in job['voices'].items():
+        if isinstance(spec, str):
+            V[role] = resolve_voices({'x': spec})['x']; continue
+        nm = spec['name']
+        hit = [m['voice_id'] for m in mine if m.get('name') == nm]
+        if hit:
+            V[role] = hit[0]; continue
+        vid = el.design_voice(nm, spec['design'], sample)
+        if not vid:
+            fb = spec.get('fallback', 'name:Rossana'); V[role] = resolve_voices({'x': fb})['x']; log('kids voice', role, 'design failed, fallback', fb)
+        else:
+            V[role] = vid; KV[nm] = vid; log('kids voice', role, 'designed:', nm, vid)
     json.dump(KV, open(kv_path, 'w'), indent=1, ensure_ascii=False)
-    V = {'N': resolve_voices({'x': 'name:Rossana'})['x'], 'L': KV['L']['id'], 'F': KV['F']['id']}
-    st = job.get('stability', 0.4); os.makedirs('clips', exist_ok=True)
-    def line(who, la):
-        t = smart(la); pth = f'clips/k-{hashlib.sha1(f"{V[who]}|{t}|{st}".encode()).hexdigest()[:16]}.mp3'
+    st = job.get('stability', 0.45); os.makedirs('clips', exist_ok=True)
+    def say(who, t):
+        pth = f'clips/k-{hashlib.sha1(f"{V[who]}|{t}|{st}".encode()).hexdigest()[:16]}.mp3'
         if not os.path.exists(pth): el.tts(V[who], t, pth, stability=st)
         return audio.norm(audio.trim(audio.load(pth), thr_db=-55, pad=0.12))
     def sfx(key):
@@ -795,15 +795,14 @@ def run_kids(job):
         pth = f'clips/sfx-{hashlib.sha1(f"{prompt}|{secs}".encode()).hexdigest()[:16]}.mp3'
         if not os.path.exists(pth) and not el.sound_effect(prompt, pth, secs):
             return None
-        x = audio.load(pth); return audio.norm(x) * 0.55
-    song = None
-    sp = f'clips/song-{hashlib.sha1(job["song"]["prompt"].encode()).hexdigest()[:16]}.mp3'
-    if os.path.exists(sp) or el.music(job['song']['prompt'], sp, job['song'].get('ms', 30000)):
+        return audio.norm(audio.load(pth)) * job.get('sfx_gain', 0.5)
+    sg = job['song']; sp = f'clips/song-{hashlib.sha1(sg["prompt"].encode()).hexdigest()[:16]}.mp3'
+    if os.path.exists(sp) or el.music(sg['prompt'], sp, sg.get('ms', 30000)):
         song = audio.norm(audio.load(sp)) * 0.8; log('song: sung by Eleven Music')
     else:
         parts = []
-        for ln in job['song']['chant']:
-            parts += [line('N', ln), audio.sil(0.35)]
+        for ln in sg['chant']:
+            parts += [say(sg.get('chant_by', 'P'), smart(ln)), audio.sil(0.35)]
         song = audio.np.concatenate(parts); log('song: chanted (music refused)')
     seq = []
     for it in job['items']:
@@ -811,21 +810,29 @@ def run_kids(job):
             x = sfx(it['sfx'])
             if x is not None: seq.append((x, it.get('gap', 0.3)))
         elif it.get('song'):
-            seq.append((song, 0.8))
+            seq.append((song, 1.0))
         else:
-            seq.append((line(it['who'], it['la']), it.get('gap', 0.7)))
+            if it.get('en'):
+                seq.append((say(it['who'], it['en']), job.get('pause_after_english', 0.45)))
+            seq.append((say(it['who'], smart(it['la'])), (job.get('gus_pause', 2.8) if it.get('gus') else it.get('gap', 0.9))))
     voice, ev = audio.sequence(seq, lead=0.8, tail=2.0)
-    x = audio.mix_music(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -12), job.get('music_dip_db', 8))
-    if job.get('ambience'):   # the scene sound (garden: birds, breeze), looped very softly under everything
+    x = audio.mix_music(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -14), job.get('music_dip_db', 8))
+    if job.get('ambience'):
         prompt, secs = job['ambience']
         ap = f'clips/amb-{hashlib.sha1(f"{prompt}|{secs}".encode()).hexdigest()[:16]}.mp3'
         if os.path.exists(ap) or el.sound_effect(prompt, ap, secs):
             amb = audio.norm(audio.load(ap)); reps = int(len(x) / len(amb)) + 1
             fade = int(0.5 * audio.SR); w = audio.np.ones(len(amb)); w[:fade] = audio.np.linspace(0, 1, fade); w[-fade:] = audio.np.linspace(1, 0, fade)
-            bed = audio.np.tile(amb * w, reps)[:len(x)]
-            x = x + bed * (10 ** (job.get('ambience_db', -26) / 20)); log('ambience added')
+            x = x + audio.np.tile(amb * w, reps)[:len(x)] * (10 ** (job.get('ambience_db', -26) / 20)); log('ambience added')
     f = save_track(x, job['slug'], job['title'], job.get('summary', ''), bitrate='96k')
-    return {'files': [f], 'voices': KV}
+    eps = json.load(open('episodes.json'))   # drop older episodes he asked to remove
+    for old in job.get('drop', []):
+        eps = [e for e in eps if e['file'] != old]
+        for q in ('episodes/' + old, 'episodes/' + old.replace('.mp3', '-cover.jpg')):
+            if os.path.exists(q): os.remove(q)
+    json.dump(eps, open('episodes.json', 'w'), indent=1, ensure_ascii=False)
+    subprocess.run([sys.executable, 'build_feed.py', BASE], check=True)
+    return {'files': [f], 'voices': {k: v for k, v in V.items()}}
 
 
 def run_to_pages(job):

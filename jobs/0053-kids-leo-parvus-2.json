@@ -1,0 +1,435 @@
+{
+ "type": "kids",
+ "slug": "leo-parvus-2-culina",
+ "title": "Leō Parvus · 2 · In culīnā (in the kitchen, for little ones)",
+ "summary": "For Gus: Leo the little lion asks Daddy for things in the kitchen. English then Latin: Lac, quaesō! Dā mihi aquam, quaesō! Salsīciae! Plūs, quaesō! Grātiās, Pater! Lūde mēcum, quaesō!",
+ "voices": {
+  "P": {
+   "name": "Pater (Leō Parvus)",
+   "design": "A warm, gentle, calm father in his thirties with a soft, kind, slightly deep voice and a light Italian accent, speaking slowly and clearly to a small child, for a preschool show. Not American.",
+   "fallback": "name:Emanuele Matte"
+  },
+  "L": {
+   "name": "Leō (Leō Parvus)",
+   "design": "A small, cheerful, curious cartoon lion cub for a preschool show: bright, bouncy, sweet, young-sounding voice performed by an adult voice actress, with a light Italian accent and clean vowels. Not American, no French accent.",
+   "fallback": "name:Rossana"
+  }
+ },
+ "song": {
+  "prompt": "A short, bright, gentle children's song for toddlers, like a preschool TV show song. A warm male and a cute young cartoon voice sing in Latin, slowly and clearly, easy to copy. Ukulele, glockenspiel, soft hand claps, 100 BPM. Lyrics (sing exactly, in Latin): 'Quaesō, quaesō, dā mihi lac! Quaesō, quaesō, dā mihi aquam! Quaesō, quaesō, salsīciam! Grātiās, grātiās, Pater!'",
+  "ms": 30000,
+  "chant": [
+   "Quaesō, quaesō, dā mihi lac!",
+   "Quaesō, quaesō, dā mihi aquam!",
+   "Quaesō, quaesō, salsīciam!",
+   "Grātiās, grātiās, Pater!"
+  ],
+  "chant_by": "P"
+ },
+ "ambience": [
+  "a quiet home kitchen: soft fridge hum, a clock ticking, faint birds outside the window, peaceful, no voices",
+  20
+ ],
+ "sfx": {
+  "tummy": [
+   "a funny cartoon tummy rumble, cute",
+   1.5
+  ],
+  "steps": [
+   "small cartoon footsteps running on a kitchen floor",
+   1.2
+  ],
+  "pour": [
+   "milk being poured into a cup",
+   2
+  ],
+  "mmm": [
+   "a tiny happy cartoon 'mmm' sound of a small animal enjoying a drink, no words",
+   1
+  ],
+  "tap": [
+   "a kitchen tap running briefly into a cup",
+   1.8
+  ],
+  "sizzle": [
+   "sausages sizzling in a frying pan",
+   2
+  ],
+  "munch": [
+   "a small cartoon animal munching food happily",
+   1.2
+  ],
+  "crunch": [
+   "a bite of crunchy bread",
+   1
+  ],
+  "toys": [
+   "a toy box opening and toys rattling, playful",
+   1.5
+  ]
+ },
+ "drop": [
+  "bonus-leo-parvus-1-pila.mp3"
+ ],
+ "items": [
+  {
+   "who": "P",
+   "en": "Hello, Leo!",
+   "la": "Salvē, Leō!",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Hello, Daddy!",
+   "la": "Salvē, Pater!",
+   "gap": 0.9
+  },
+  {
+   "sfx": "tummy",
+   "gap": 0.3
+  },
+  {
+   "who": "L",
+   "en": "Daddy! Daddy!",
+   "la": "Pater! Pater!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "What is it, Leo?",
+   "la": "Quid est, Leō?",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "I am hungry!",
+   "la": "Ēsuriō!",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "And I am thirsty!",
+   "la": "Et sitiō!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "Come into the kitchen.",
+   "la": "Venī in culīnam.",
+   "gap": 0.9
+  },
+  {
+   "sfx": "steps",
+   "gap": 0.3
+  },
+  {
+   "who": "L",
+   "en": "Milk!",
+   "la": "Lac!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "Milk...?",
+   "la": "Lac...?",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Milk, please!",
+   "la": "Lac, quaesō!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "Good! Say it: milk, please!",
+   "la": "Bene! Dīc: lac, quaesō!",
+   "gap": 0.9,
+   "gus": true
+  },
+  {
+   "who": "L",
+   "en": "Give me milk, please!",
+   "la": "Dā mihi lac, quaesō!",
+   "gap": 0.9
+  },
+  {
+   "sfx": "pour",
+   "gap": 0.3
+  },
+  {
+   "who": "P",
+   "en": "Here is milk.",
+   "la": "Ecce lac.",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Thank you, Daddy!",
+   "la": "Grātiās, Pater!",
+   "gap": 0.9
+  },
+  {
+   "sfx": "mmm",
+   "gap": 0.3
+  },
+  {
+   "who": "P",
+   "en": "Is it good?",
+   "la": "Estne bonum?",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Yes! Very good!",
+   "la": "Ita! Optimum!",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Daddy! Water, please!",
+   "la": "Pater! Aquam, quaesō!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "Water? Say it all.",
+   "la": "Aquam? Dīc tōtum.",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Give me water, please!",
+   "la": "Dā mihi aquam, quaesō!",
+   "gap": 0.9
+  },
+  {
+   "sfx": "tap",
+   "gap": 0.3
+  },
+  {
+   "who": "P",
+   "en": "Here is water.",
+   "la": "Ecce aqua.",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Thank you, Daddy!",
+   "la": "Grātiās, Pater!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "Can you say it? Give me water, please!",
+   "la": "Potesne dīcere? Dā mihi aquam, quaesō!",
+   "gap": 0.9,
+   "gus": true
+  },
+  {
+   "sfx": "sizzle",
+   "gap": 0.3
+  },
+  {
+   "who": "L",
+   "en": "What is that?",
+   "la": "Quid est illud?",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "Sausages!",
+   "la": "Salsīciae!",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Sausages! Sausages!",
+   "la": "Salsīciae! Salsīciae!",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Give me a sausage, please!",
+   "la": "Dā mihi salsīciam, quaesō!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "Here is a sausage.",
+   "la": "Ecce salsīcia.",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Thank you, Daddy!",
+   "la": "Grātiās, Pater!",
+   "gap": 0.9
+  },
+  {
+   "sfx": "munch",
+   "gap": 0.3
+  },
+  {
+   "who": "P",
+   "en": "Say it: give me a sausage, please!",
+   "la": "Dīc: dā mihi salsīciam, quaesō!",
+   "gap": 0.9,
+   "gus": true
+  },
+  {
+   "who": "L",
+   "en": "More, please!",
+   "la": "Plūs, quaesō!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "More sausage?",
+   "la": "Plūs salsīciae?",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "No. Meat, please!",
+   "la": "Minimē. Carnem, quaesō!",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Give me meat, please!",
+   "la": "Dā mihi carnem, quaesō!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "Here is meat.",
+   "la": "Ecce carō.",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Thank you!",
+   "la": "Grātiās!",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "And bread, please!",
+   "la": "Et pānem, quaesō!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "Here is bread.",
+   "la": "Ecce pānis.",
+   "gap": 0.9
+  },
+  {
+   "sfx": "crunch",
+   "gap": 0.3
+  },
+  {
+   "who": "L",
+   "en": "Thank you, Daddy!",
+   "la": "Grātiās, Pater!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "Let's sing!",
+   "la": "Cantēmus!",
+   "gap": 0.9
+  },
+  {
+   "song": true
+  },
+  {
+   "who": "P",
+   "en": "What do you want, Leo?",
+   "la": "Quid vīs, Leō?",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Milk, please!",
+   "la": "Lac, quaesō!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "And what do you want?",
+   "la": "Et quid vīs?",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "A sausage, please!",
+   "la": "Salsīciam, quaesō!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "And you? What do you want?",
+   "la": "Et tū? Quid vīs?",
+   "gap": 0.9,
+   "gus": true
+  },
+  {
+   "who": "L",
+   "en": "Daddy! Daddy!",
+   "la": "Pater! Pater!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "What is it, Leo?",
+   "la": "Quid est, Leō?",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Play with me, please!",
+   "la": "Lūde mēcum, quaesō!",
+   "gap": 0.9
+  },
+  {
+   "sfx": "toys",
+   "gap": 0.3
+  },
+  {
+   "who": "P",
+   "en": "Yes! Let's play!",
+   "la": "Ita! Lūdāmus!",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Thank you, Daddy!",
+   "la": "Grātiās, Pater!",
+   "gap": 0.9
+  },
+  {
+   "who": "P",
+   "en": "Say it: play with me, please!",
+   "la": "Dīc: lūde mēcum, quaesō!",
+   "gap": 0.9,
+   "gus": true
+  },
+  {
+   "who": "P",
+   "en": "Goodbye, Leo.",
+   "la": "Valē, Leō.",
+   "gap": 0.9
+  },
+  {
+   "who": "L",
+   "en": "Goodbye, Daddy!",
+   "la": "Valē, Pater!",
+   "gap": 0.9
+  },
+  {
+   "song": true
+  }
+ ]
+}

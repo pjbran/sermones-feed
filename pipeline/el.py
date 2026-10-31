@@ -168,3 +168,26 @@ def pick_character_voices(n=2, exclude=()):
                 out.append(v)
             if len(out) >= n: return out
     return out
+
+
+def design_voice(name, description, sample):
+    """Voice Design: make a new voice from a description; returns voice_id (or None). Tries the new and the old API."""
+    r = req('POST', '/text-to-voice/design', json={'voice_description': description, 'text': sample})
+    if r.status_code == 200 and r.json().get('previews'):
+        gid = r.json()['previews'][0]['generated_voice_id']
+        c = req('POST', '/text-to-voice', json={'voice_name': name, 'voice_description': description, 'generated_voice_id': gid})
+        if c.status_code == 200:
+            return c.json().get('voice_id')
+        log('design save failed:', c.status_code, c.text[:200])
+    else:
+        log('design (new api):', r.status_code, r.text[:200])
+    r = req('POST', '/text-to-voice/create-previews', json={'voice_description': description, 'text': sample})
+    if r.status_code == 200 and r.json().get('previews'):
+        gid = r.json()['previews'][0]['generated_voice_id']
+        c = req('POST', '/text-to-voice/create-voice-from-preview', json={'voice_name': name, 'voice_description': description, 'generated_voice_id': gid})
+        if c.status_code == 200:
+            return c.json().get('voice_id')
+        log('design save failed (old api):', c.status_code, c.text[:200])
+    else:
+        log('design (old api):', r.status_code, r.text[:200])
+    return None
