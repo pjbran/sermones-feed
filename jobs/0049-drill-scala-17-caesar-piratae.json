@@ -1,0 +1,1008 @@
+{
+ "type": "drill",
+ "engine": "eleven",
+ "voice": "F",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "repeat": 1,
+ "combined": true,
+ "music": "v5",
+ "max_credits": 9000,
+ "slug": "scala-17-caesar-piratae",
+ "title": "Ladder 17 · Caesar et pīrātae (Caesar and the pirates)",
+ "summary": "75 BC, a true story (Plutarch, Suetonius): pirates seize young Caesar off Miletus. Marcus writes from the pirates' island, Lucius from the harbour of Miletus, collecting the ransom Caesar himself raised from 20 to 50 talents. Poems, 'barbarians', a sworn promise. English → Latin, then the Latin twice. Iulia's voice.",
+ "pairs": [
+  [
+   "Letter one.",
+   "Epistula prīma."
+  ],
+  [
+   "Marcus to Lucius, greetings.",
+   "Mārcus Lūciō salūtem dīcit."
+  ],
+  [
+   "Again, my friend, we are in history.",
+   "Iterum, amīce, in historiā sumus."
+  ],
+  [
+   "Why always us? I do not know.",
+   "Cūr semper nōs? Nesciō."
+  ],
+  [
+   "I am writing from a small island.",
+   "Ex īnsulā parvā scrībō."
+  ],
+  [
+   "A small, rocky island, not far from Miletus.",
+   "Īnsula parva et saxōsa, nōn procul ā Mīlētō."
+  ],
+  [
+   "The sun burns the rocks.",
+   "Sōl saxa ūrit."
+  ],
+  [
+   "The sea around the island is blue.",
+   "Mare circum īnsulam caeruleum est."
+  ],
+  [
+   "Goats climb up onto the rocks.",
+   "Caprae in saxa ascendunt."
+  ],
+  [
+   "On the shore lie the long ships of the pirates.",
+   "In lītore iacent longae nāvēs pīrātārum."
+  ],
+  [
+   "Everything smells of fish and pitch.",
+   "Omnia piscem et picem olent."
+  ],
+  [
+   "Why am I here?",
+   "Cūr hīc sum?"
+  ],
+  [
+   "We were sailing to Rhodes with young Caesar.",
+   "Cum Caesare iuvene Rhodum nāvigābāmus."
+  ],
+  [
+   "Pirates captured our ship.",
+   "Pīrātae nāvem nostram cēpērunt."
+  ],
+  [
+   "The pirates were asking for money.",
+   "Pīrātae pecūniam poscēbant."
+  ],
+  [
+   "The pirates ask for twenty talents.",
+   "Pīrātae vīgintī talenta poscunt."
+  ],
+  [
+   "Twenty talents is a great sum.",
+   "Vīgintī talenta magna summa est."
+  ],
+  [
+   "But Caesar was angry.",
+   "Sed Caesar īrātus erat."
+  ],
+  [
+   "Angry? Why angry?",
+   "Īrātus? Cūr īrātus?"
+  ],
+  [
+   "Because twenty talents seemed too little to him.",
+   "Quia vīgintī talenta eī nimis parva vidēbantur."
+  ],
+  [
+   "Caesar says that he is worth fifty.",
+   "Caesar sē quīnquāgintā valēre dīcit."
+  ],
+  [
+   "The pirates ask for twenty talents, but Caesar says that he is worth fifty.",
+   "Pīrātae vīgintī talenta poscunt, sed Caesar sē quīnquāgintā valēre dīcit."
+  ],
+  [
+   "Fifty? Who says such things?",
+   "Quīnquāgintā? Quis tālia dīcit?"
+  ],
+  [
+   "Only Caesar.",
+   "Tantum Caesar."
+  ],
+  [
+   "So Caesar sent you to the cities, to collect the money.",
+   "Itaque Caesar tē ad urbēs mīsit, ut pecūniam colligerēs."
+  ],
+  [
+   "He kept me with him.",
+   "Mē sēcum retinuit."
+  ],
+  [
+   "Me, a doctor, and two slaves.",
+   "Mē, medicum, et duōs servōs."
+  ],
+  [
+   "Collect the money quickly, please.",
+   "Collige pecūniam celeriter, quaesō."
+  ],
+  [
+   "Farewell.",
+   "Valē."
+  ],
+  [
+   "Letter two.",
+   "Epistula secunda."
+  ],
+  [
+   "Lucius to Marcus, greetings.",
+   "Lūcius Mārcō salūtem dīcit."
+  ],
+  [
+   "If you are well, it is good; I at least am well.",
+   "Sī valēs, bene est; ego quidem valeō."
+  ],
+  [
+   "I am writing from Miletus.",
+   "Ex Mīlētō scrībō."
+  ],
+  [
+   "Miletus is a great city by the sea.",
+   "Mīlētus urbs magna ad mare est."
+  ],
+  [
+   "The harbour is full of ships.",
+   "Portus nāvium plēnus est."
+  ],
+  [
+   "Merchants shout on the quay.",
+   "Mercātōrēs in mōle clāmant."
+  ],
+  [
+   "The bankers sit at their tables.",
+   "Argentāriī ad mēnsās suās sedent."
+  ],
+  [
+   "The temples shine with white marble.",
+   "Templa marmore albō splendent."
+  ],
+  [
+   "I go from table to table.",
+   "Ā mēnsā ad mēnsam eō."
+  ],
+  [
+   "I ask everyone for money.",
+   "Ab omnibus pecūniam petō."
+  ],
+  [
+   "The pirates ask for twenty talents, but Caesar says that he is worth fifty.",
+   "Pīrātae vīgintī talenta poscunt, sed Caesar sē quīnquāgintā valēre dīcit."
+  ],
+  [
+   "The bankers ask: \"Fifty? Why not twenty?\"",
+   "Argentāriī rogant: \"Quīnquāgintā? Cūr nōn vīgintī?\""
+  ],
+  [
+   "I answer: \"Because Caesar is Caesar.\"",
+   "Respondeō: \"Quia Caesar est Caesar.\""
+  ],
+  [
+   "They do not understand.",
+   "Nōn intellegunt."
+  ],
+  [
+   "Nor do I.",
+   "Neque ego."
+  ],
+  [
+   "Nevertheless they give.",
+   "Tamen dant."
+  ],
+  [
+   "Ten talents have already been collected.",
+   "Decem talenta iam collēcta sunt."
+  ],
+  [
+   "Ten of fifty. Be patient.",
+   "Decem ex quīnquāgintā. Estō patiēns."
+  ],
+  [
+   "Farewell.",
+   "Valē."
+  ],
+  [
+   "Letter three.",
+   "Epistula tertia."
+  ],
+  [
+   "Marcus to Lucius, greetings.",
+   "Mārcus Lūciō salūtem dīcit."
+  ],
+  [
+   "If you are well, it is good; I at least am well.",
+   "Sī valēs, bene est; ego quidem valeō."
+  ],
+  [
+   "We are still on the island.",
+   "Adhūc in īnsulā sumus."
+  ],
+  [
+   "The same rocks, the same goats, the same blue sea.",
+   "Eadem saxa, eaedem caprae, idem mare caeruleum."
+  ],
+  [
+   "The days are hot; the nights are cold and damp.",
+   "Diēs calidī sunt; noctēs frīgidae et ūmidae."
+  ],
+  [
+   "By day the sun burns the rocks.",
+   "Interdiū sōl saxa ūrit."
+  ],
+  [
+   "At night the wind blows from the sea.",
+   "Noctū ventus ā marī flat."
+  ],
+  [
+   "The pirates sit around the fire.",
+   "Pīrātae circum ignem sedent."
+  ],
+  [
+   "They roast fish over the fire.",
+   "Piscēs super ignem torrent."
+  ],
+  [
+   "The fire smells of fish and pitch.",
+   "Ignis piscem et picem olet."
+  ],
+  [
+   "And Caesar? Caesar writes.",
+   "Et Caesar? Caesar scrībit."
+  ],
+  [
+   "He writes poems.",
+   "Carmina scrībit."
+  ],
+  [
+   "He writes speeches.",
+   "Ōrātiōnēs scrībit."
+  ],
+  [
+   "Long speeches, worthy of the forum.",
+   "Ōrātiōnēs longās, forō dignās."
+  ],
+  [
+   "Then he reads them aloud to the pirates.",
+   "Deinde ea pīrātīs recitat."
+  ],
+  [
+   "Caesar recites his poems.",
+   "Caesar carmina sua recitat."
+  ],
+  [
+   "Do the pirates clap?",
+   "Plauduntne pīrātae?"
+  ],
+  [
+   "No. The pirates do not clap.",
+   "Minimē. Pīrātae nōn plaudunt."
+  ],
+  [
+   "The pirates, who do not clap...",
+   "Pīrātās, quī nōn plaudunt..."
+  ],
+  [
+   "...Caesar calls barbarians.",
+   "...Caesar barbarōs appellat."
+  ],
+  [
+   "Caesar recites his poems, and calls the pirates, who do not clap, barbarians.",
+   "Caesar carmina sua recitat, et pīrātās, quī nōn plaudunt, barbarōs appellat."
+  ],
+  [
+   "Barbarians? To their faces?",
+   "Barbarōs? Cōram?"
+  ],
+  [
+   "To their faces. And unlettered.",
+   "Cōram. Et illitterātōs."
+  ],
+  [
+   "\"You are unlettered,\" he says, \"you do not understand poems.\"",
+   "\"Illitterātī estis,\" inquit, \"carmina nōn intellegitis.\""
+  ],
+  [
+   "The pirates look at each other.",
+   "Pīrātae inter sē spectant."
+  ],
+  [
+   "They think it is a joke.",
+   "Iocum esse putant."
+  ],
+  [
+   "They are pirates; nevertheless they are silent.",
+   "Pīrātae sunt; tamen tacent."
+  ],
+  [
+   "When Caesar wants to sleep, he orders the pirates to be silent.",
+   "Cum Caesar dormīre vult, pīrātīs imperat, ut taceant."
+  ],
+  [
+   "And they are silent.",
+   "Et tacent."
+  ],
+  [
+   "Who is the prisoner here? I do not know for certain.",
+   "Quis hīc captīvus est? Nōn certō sciō."
+  ],
+  [
+   "Farewell. Bring money, and cheese.",
+   "Valē. Pecūniam fer, et cāseum."
+  ],
+  [
+   "Letter four.",
+   "Epistula quārta."
+  ],
+  [
+   "Lucius to Marcus, greetings.",
+   "Lūcius Mārcō salūtem dīcit."
+  ],
+  [
+   "At Miletus it is raining.",
+   "Mīlētī pluit."
+  ],
+  [
+   "The streets are wet; the harbour is grey.",
+   "Viae ūmidae sunt; portus cānus est."
+  ],
+  [
+   "Not even the marble temples shine in the rain.",
+   "Nē templa quidem marmorea in imbre splendent."
+  ],
+  [
+   "Every day I go to the harbour.",
+   "Cotīdiē ad portum eō."
+  ],
+  [
+   "The bankers are still sitting at their tables.",
+   "Argentāriī adhūc ad mēnsās sedent."
+  ],
+  [
+   "The merchants are still shouting on the quay.",
+   "Mercātōrēs adhūc in mōle clāmant."
+  ],
+  [
+   "Thirty talents have already been collected.",
+   "Trīgintā talenta iam collēcta sunt."
+  ],
+  [
+   "The cities give, but slowly.",
+   "Urbēs dant, sed lentē."
+  ],
+  [
+   "I am hurrying, but the cities are not hurrying.",
+   "Festīnō, sed urbēs nōn festīnant."
+  ],
+  [
+   "I sit in a tavern near the harbour.",
+   "In tabernā prope portum sedeō."
+  ],
+  [
+   "I read your letter by a lamp.",
+   "Epistulam tuam ad lucernam legō."
+  ],
+  [
+   "The lamp smokes; the tavern smells of wine.",
+   "Lucerna fūmat; taberna vīnum olet."
+  ],
+  [
+   "Caesar recites his poems, and calls the pirates, who do not clap, barbarians.",
+   "Caesar carmina sua recitat, et pīrātās, quī nōn plaudunt, barbarōs appellat."
+  ],
+  [
+   "Is he mad?",
+   "Īnsānitne?"
+  ],
+  [
+   "Perhaps. But do not tell him.",
+   "Fortasse. Sed nōlī eī dīcere."
+  ],
+  [
+   "Perhaps he is not mad. Perhaps he is Caesar.",
+   "Fortasse nōn īnsānit. Fortasse Caesar est."
+  ],
+  [
+   "Are the poems good?",
+   "Suntne carmina bona?"
+  ],
+  [
+   "Tell the truth.",
+   "Dīc vērum."
+  ],
+  [
+   "Unless Caesar is reading your letters.",
+   "Nisi Caesar epistulās tuās legit."
+  ],
+  [
+   "Farewell.",
+   "Valē."
+  ],
+  [
+   "Letter five.",
+   "Epistula quīnta."
+  ],
+  [
+   "Marcus to Lucius, greetings.",
+   "Mārcus Lūciō salūtem dīcit."
+  ],
+  [
+   "I am writing from the same rock.",
+   "Ex eōdem saxō scrībō."
+  ],
+  [
+   "The sun is still burning the rocks.",
+   "Sōl adhūc saxa ūrit."
+  ],
+  [
+   "You ask if the poems are good.",
+   "Rogās, num carmina bona sint."
+  ],
+  [
+   "I do not answer. Caesar reads my letters.",
+   "Nōn respondeō. Caesar epistulās meās legit."
+  ],
+  [
+   "Thirty days have passed.",
+   "Trīgintā diēs praeteriērunt."
+  ],
+  [
+   "The money is being collected.",
+   "Pecūnia colligitur."
+  ],
+  [
+   "Slowly. Too slowly.",
+   "Lentē. Nimis lentē."
+  ],
+  [
+   "While the money is being collected...",
+   "Dum pecūnia colligitur..."
+  ],
+  [
+   "...Caesar plays with the pirates.",
+   "...Caesar cum pīrātīs lūdit."
+  ],
+  [
+   "He runs with them on the beach.",
+   "Cum eīs in lītore currit."
+  ],
+  [
+   "He throws stones with them into the sea.",
+   "Cum eīs lapidēs in mare iacit."
+  ],
+  [
+   "The stones fly over the blue sea.",
+   "Lapidēs super mare caeruleum volant."
+  ],
+  [
+   "Caesar's stones fly further.",
+   "Lapidēs Caesaris longius volant."
+  ],
+  [
+   "He gives them orders, as if he were their leader.",
+   "Eīs imperat, quasi dux eōrum sit."
+  ],
+  [
+   "While the money is being collected, Caesar plays with the pirates, as if he were their leader.",
+   "Dum pecūnia colligitur, Caesar cum pīrātīs lūdit, quasi dux eōrum sit."
+  ],
+  [
+   "Does he play as a prisoner? No: as a leader.",
+   "Lūditne ut captīvus? Minimē: ut dux."
+  ],
+  [
+   "Then he says something.",
+   "Deinde aliquid dīcit."
+  ],
+  [
+   "He swears.",
+   "Iūrat."
+  ],
+  [
+   "Caesar swears that he will crucify the pirates.",
+   "Caesar iūrat sē pīrātās crucī suffīxūrum esse."
+  ],
+  [
+   "All the pirates.",
+   "Omnēs pīrātās."
+  ],
+  [
+   "Caesar swears that he will crucify all the pirates.",
+   "Caesar iūrat sē omnēs pīrātās crucī suffīxūrum esse."
+  ],
+  [
+   "And the pirates?",
+   "Et pīrātae?"
+  ],
+  [
+   "The pirates think it is a joke.",
+   "Pīrātae iocum esse putant."
+  ],
+  [
+   "They think that the young man is joking.",
+   "Putant iuvenem iocārī."
+  ],
+  [
+   "I do not think so.",
+   "Ego nōn ita putō."
+  ],
+  [
+   "I know Caesar.",
+   "Caesarem nōvī."
+  ],
+  [
+   "Caesar does not joke.",
+   "Caesar nōn iocātur."
+  ],
+  [
+   "Unless he is reciting poems.",
+   "Nisi carmina recitat."
+  ],
+  [
+   "Farewell. Hurry.",
+   "Valē. Festīnā."
+  ],
+  [
+   "Hurry, please. The goats are looking at me.",
+   "Festīnā, quaesō. Caprae mē spectant."
+  ],
+  [
+   "Letter six.",
+   "Epistula sexta."
+  ],
+  [
+   "Lucius to Marcus, greetings.",
+   "Lūcius Mārcō salūtem dīcit."
+  ],
+  [
+   "The harbour of Miletus shines in the sun.",
+   "Portus Mīlētī in sōle splendet."
+  ],
+  [
+   "The sky is clear; the sea is calm.",
+   "Caelum serēnum est; mare tranquillum."
+  ],
+  [
+   "At last! Fifty talents!",
+   "Tandem! Quīnquāgintā talenta!"
+  ],
+  [
+   "All the money has been collected.",
+   "Omnis pecūnia collēcta est."
+  ],
+  [
+   "The bankers are happy that Caesar is leaving.",
+   "Argentāriī laetī sunt, quod Caesar abit."
+  ],
+  [
+   "So tomorrow I sail with the money.",
+   "Itaque crās cum pecūniā nāvigō."
+  ],
+  [
+   "The marble temples shine again.",
+   "Templa marmorea iterum splendent."
+  ],
+  [
+   "On the quay the merchants are looking at my ship.",
+   "In mōle mercātōrēs nāvem meam spectant."
+  ],
+  [
+   "You wrote two things.",
+   "Duo scrīpsistī."
+  ],
+  [
+   "While the money is being collected, Caesar plays with the pirates, as if he were their leader.",
+   "Dum pecūnia colligitur, Caesar cum pīrātīs lūdit, quasi dux eōrum sit."
+  ],
+  [
+   "Caesar swears that he will crucify all the pirates.",
+   "Caesar iūrat sē omnēs pīrātās crucī suffīxūrum esse."
+  ],
+  [
+   "Is the second one true?",
+   "Estne alterum vērum?"
+  ],
+  [
+   "Tell the pirates: the money is coming.",
+   "Dīc pīrātīs: pecūnia venit."
+  ],
+  [
+   "Do not tell them: Caesar is coming.",
+   "Nōlī eīs dīcere: Caesar venit."
+  ],
+  [
+   "Farewell.",
+   "Valē."
+  ],
+  [
+   "Letter seven.",
+   "Epistula septima."
+  ],
+  [
+   "Marcus to Lucius, greetings.",
+   "Mārcus Lūciō salūtem dīcit."
+  ],
+  [
+   "Now I too am writing from Miletus.",
+   "Nunc ego quoque ex Mīlētō scrībō."
+  ],
+  [
+   "From your tavern, by your lamp.",
+   "Ex tabernā tuā, ad lucernam tuam."
+  ],
+  [
+   "The money was paid.",
+   "Pecūnia solūta est."
+  ],
+  [
+   "The pirates let us go.",
+   "Pīrātae nōs dīmīsērunt."
+  ],
+  [
+   "Thirty-eight days on that rock.",
+   "Duodēquadrāgintā diēs in illō saxō."
+  ],
+  [
+   "We came to Miletus at last.",
+   "Tandem Mīlētum vēnimus."
+  ],
+  [
+   "Caesar did not rest even one hour.",
+   "Caesar nē ūnam quidem hōram quiēvit."
+  ],
+  [
+   "When the money had been paid...",
+   "Pecūniā solūtā..."
+  ],
+  [
+   "...Caesar assembled ships.",
+   "...Caesar nāvēs comparāvit."
+  ],
+  [
+   "In one night.",
+   "Ūnā nocte."
+  ],
+  [
+   "Without an army? Without authority? Yes.",
+   "Sine exercitū? Sine imperiō? Ita."
+  ],
+  [
+   "When the money had been paid, Caesar assembled ships.",
+   "Pecūniā solūtā, Caesar nāvēs comparāvit."
+  ],
+  [
+   "We sailed back to the island in the dark.",
+   "In tenebrīs ad īnsulam renāvigāvimus."
+  ],
+  [
+   "The moon shone on the water.",
+   "Lūna in aquā lūcēbat."
+  ],
+  [
+   "The sea was calm; the oars were silent.",
+   "Mare tranquillum erat; rēmī tacēbant."
+  ],
+  [
+   "Then the smell of fish and pitch: the rocky island.",
+   "Deinde odor piscis et picis: īnsula saxōsa."
+  ],
+  [
+   "The fire of the pirates was still burning on the shore.",
+   "Ignis pīrātārum in lītore adhūc ārdēbat."
+  ],
+  [
+   "On the island the pirates were sleeping.",
+   "In īnsulā pīrātae dormiēbant."
+  ],
+  [
+   "They were sleeping on our money.",
+   "In pecūniā nostrā dormiēbant."
+  ],
+  [
+   "Caesar captured the pirates.",
+   "Caesar pīrātās cēpit."
+  ],
+  [
+   "When the money had been paid, Caesar assembled ships and captured the pirates.",
+   "Pecūniā solūtā, Caesar nāvēs comparāvit et pīrātās cēpit."
+  ],
+  [
+   "And the money? He took it back.",
+   "Et pecūnia? Eam recēpit."
+  ],
+  [
+   "The pirates woke up.",
+   "Pīrātae experrēctī sunt."
+  ],
+  [
+   "They saw Caesar.",
+   "Caesarem vīdērunt."
+  ],
+  [
+   "Caesar said: \"Good morning, barbarians.\"",
+   "Caesar dīxit: \"Salvēte, barbarī.\""
+  ],
+  [
+   "Then he recited a poem to them.",
+   "Deinde eīs carmen recitāvit."
+  ],
+  [
+   "And a speech. A long speech.",
+   "Et ōrātiōnem. Ōrātiōnem longam."
+  ],
+  [
+   "At last they clapped.",
+   "Tandem plausērunt."
+  ],
+  [
+   "Farewell.",
+   "Valē."
+  ],
+  [
+   "Letter eight.",
+   "Epistula octāva."
+  ],
+  [
+   "Lucius to Marcus, greetings.",
+   "Lūcius Mārcō salūtem dīcit."
+  ],
+  [
+   "I am writing from Pergamum.",
+   "Ex Pergamō scrībō."
+  ],
+  [
+   "Pergamum stands on a high hill.",
+   "Pergamum in colle altō stat."
+  ],
+  [
+   "Below the hill there is a prison.",
+   "Sub colle carcer est."
+  ],
+  [
+   "The prison is dark and damp.",
+   "Carcer obscūrus et ūmidus est."
+  ],
+  [
+   "The pirates sit in the prison.",
+   "Pīrātae in carcere sedent."
+  ],
+  [
+   "Now the pirates are the prisoners.",
+   "Nunc pīrātae captīvī sunt."
+  ],
+  [
+   "There is no sun here, no sea, no goats.",
+   "Hīc nūllus sōl est, nūllum mare, nūllae caprae."
+  ],
+  [
+   "Caesar went to the governor.",
+   "Caesar ad prōcōnsulem iit."
+  ],
+  [
+   "The governor was slow.",
+   "Prōcōnsul lentus erat."
+  ],
+  [
+   "Why slow?",
+   "Cūr lentus?"
+  ],
+  [
+   "The governor wanted the money for himself.",
+   "Prōcōnsul pecūniam sibi volēbat."
+  ],
+  [
+   "Caesar did not wait.",
+   "Caesar nōn exspectāvit."
+  ],
+  [
+   "He was a young man, a private citizen; nevertheless he did not wait.",
+   "Iuvenis erat, prīvātus; tamen nōn exspectāvit."
+  ],
+  [
+   "Caesar had sworn that he would crucify all the pirates.",
+   "Caesar iūrāverat sē omnēs pīrātās crucī suffīxūrum esse."
+  ],
+  [
+   "He had sworn. Therefore he did it.",
+   "Iūrāverat. Ideō fēcit."
+  ],
+  [
+   "He had promised to their faces. Therefore he kept the promise.",
+   "Cōram prōmīserat. Ideō prōmissum servāvit."
+  ],
+  [
+   "The pirates had thought it was a joke.",
+   "Pīrātae iocum esse putāverant."
+  ],
+  [
+   "It was not a joke.",
+   "Iocus nōn erat."
+  ],
+  [
+   "But Caesar was merciful, in his own way.",
+   "Sed Caesar clēmēns erat, suō modō."
+  ],
+  [
+   "First he ordered their throats to be cut, so that they would not suffer.",
+   "Prius eōs iugulārī iussit, nē cruciārentur."
+  ],
+  [
+   "Then he crucified them.",
+   "Deinde eōs crucī suffīxit."
+  ],
+  [
+   "A strange mercy.",
+   "Mīra clēmentia."
+  ],
+  [
+   "Caesar's mercy.",
+   "Clēmentia Caesaris."
+  ],
+  [
+   "Farewell.",
+   "Valē."
+  ],
+  [
+   "Letter nine.",
+   "Epistula nōna."
+  ],
+  [
+   "Marcus to Lucius, greetings.",
+   "Mārcus Lūciō salūtem dīcit."
+  ],
+  [
+   "If you are well, it is good; I at least am well.",
+   "Sī valēs, bene est; ego quidem valeō."
+  ],
+  [
+   "We are on a ship again, sailing to Rhodes.",
+   "Iterum in nāve sumus, Rhodum nāvigantēs."
+  ],
+  [
+   "The sea is calm; the island is behind us.",
+   "Mare tranquillum est; īnsula post nōs est."
+  ],
+  [
+   "Behind us, small, the rocky island.",
+   "Post nōs, parva, īnsula saxōsa."
+  ],
+  [
+   "Behind us Pergamum, high on its hill.",
+   "Post nōs Pergamum, in colle altō."
+  ],
+  [
+   "Caesar is sitting at the stern.",
+   "Caesar in puppī sedet."
+  ],
+  [
+   "He is writing a new poem.",
+   "Novum carmen scrībit."
+  ],
+  [
+   "A poem about unlettered pirates.",
+   "Carmen dē pīrātīs illitterātīs."
+  ],
+  [
+   "The poem begins like this:",
+   "Carmen sīc incipit:"
+  ],
+  [
+   "When the money had been paid, Caesar assembled ships and captured the pirates.",
+   "Pecūniā solūtā, Caesar nāvēs comparāvit et pīrātās cēpit."
+  ],
+  [
+   "Not a good poem, but a true one.",
+   "Nōn bonum carmen, sed vērum."
+  ],
+  [
+   "He wants to read it to me.",
+   "Mihi id recitāre vult."
+  ],
+  [
+   "Only to me.",
+   "Mihi sōlī."
+  ],
+  [
+   "No one else is listening, except the sea.",
+   "Nēmō alius audit, nisi mare."
+  ],
+  [
+   "So I am listening.",
+   "Itaque audiō."
+  ],
+  [
+   "Caesar asked me: \"Are my poems good?\"",
+   "Caesar mē rogāvit: \"Suntne carmina mea bona?\""
+  ],
+  [
+   "I thought about the pirates.",
+   "Dē pīrātīs cōgitāvī."
+  ],
+  [
+   "I said: \"Very good, Caesar.\"",
+   "Dīxī: \"Optima, Caesar.\""
+  ],
+  [
+   "And I clapped.",
+   "Et plausī."
+  ],
+  [
+   "I clapped for a long time.",
+   "Diū plausī."
+  ],
+  [
+   "I am a friend, but I am not stupid.",
+   "Amīcus sum, sed stultus nōn sum."
+  ],
+  [
+   "Therefore I am still alive.",
+   "Ideō adhūc vīvō."
+  ],
+  [
+   "At Rhodes Caesar will learn to speak even better.",
+   "Rhodī Caesar etiam melius dīcere discet."
+  ],
+  [
+   "Even better? Then even longer speeches.",
+   "Etiam melius? Tum ōrātiōnēs etiam longiōrēs."
+  ],
+  [
+   "Where shall we be next time?",
+   "Ubi posteā erimus?"
+  ],
+  [
+   "Perhaps in Rome. Perhaps in Egypt.",
+   "Fortasse Rōmae. Fortasse in Aegyptō."
+  ],
+  [
+   "I do not know. In history, as always.",
+   "Nesciō. In historiā, ut semper."
+  ],
+  [
+   "And bring cheese, please. The pirates had no cheese.",
+   "Et cāseum fer, quaesō. Pīrātae cāseum nōn habēbant."
+  ],
+  [
+   "Farewell, and bring cheese.",
+   "Valē, et cāseum fer."
+  ],
+  [
+   "The five sentences again.",
+   "Quīnque sententiae iterum."
+  ],
+  [
+   "The pirates ask for twenty talents, but Caesar says that he is worth fifty.",
+   "Pīrātae vīgintī talenta poscunt, sed Caesar sē quīnquāgintā valēre dīcit."
+  ],
+  [
+   "Caesar recites his poems, and calls the pirates, who do not clap, barbarians.",
+   "Caesar carmina sua recitat, et pīrātās, quī nōn plaudunt, barbarōs appellat."
+  ],
+  [
+   "While the money is being collected, Caesar plays with the pirates, as if he were their leader.",
+   "Dum pecūnia colligitur, Caesar cum pīrātīs lūdit, quasi dux eōrum sit."
+  ],
+  [
+   "Caesar swears that he will crucify all the pirates.",
+   "Caesar iūrat sē omnēs pīrātās crucī suffīxūrum esse."
+  ],
+  [
+   "When the money had been paid, Caesar assembled ships and captured the pirates.",
+   "Pecūniā solūtā, Caesar nāvēs comparāvit et pīrātās cēpit."
+  ],
+  [
+   "If the pirates had asked for fifty, Caesar would have asked for a hundred.",
+   "Sī pīrātae quīnquāgintā poposcissent, Caesar centum poposcisset."
+  ],
+  [
+   "Caesar does not joke.",
+   "Caesar nōn iocātur."
+  ]
+ ]
+}
