@@ -73,6 +73,11 @@ His strong words get no points. They are the glue and they come back anyway.
 - Fewer office / nova Latina words; aim at A2–B1 (richer classical vocabulary and structures: ablative absolute, characteristic clauses, gerundives, quasi + subjunctive), still the pyramid rules.
 - **ONE file per track = THE STANDARD (31 Oct 14:04: "I love having all the audio on one file — English-Latin, Latin Latin. Do that as the standard now"):** English → Latin once, then the Latin alone twice, all in one MP3. Default ON in run_jobs.py (`combined()`) for every drill (free or ElevenLabs) and Bible job; `"combined": false` gives the old two files.
 
+## 4d. Stories (Patrick, 31 Oct)
+- **Every story ends on a cliffhanger** that sets up the next one.
+- **Sense of place:** each letter / scene opens with where we are (3–5 concrete details); places recur so a change is felt.
+- Letters series: the same two writers (Marcus, Lucius) in a true funny Roman story each time; about 10 min of Latin (soft).
+
 ## 5. Fixed format (back to the Ep 1 recipe, confirmed 19 Oct)
 
 - Voices: Iulia = "Rossana – Warm Italian Conversational". Marcus = an **Italian male** library voice (Patrick, 22 Oct: no more his own voice). Ep 4 used "Emanuele Matte – Clear and Serious" (qQFoiN2eQXULODjD1SwL). Backup if he dislikes it: "Valentino – English with Italian accent" (conversational).
