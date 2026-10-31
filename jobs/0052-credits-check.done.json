@@ -1,0 +1,23 @@
+{
+ "job": "jobs/0052-credits-check.json",
+ "ok": true,
+ "credits": {
+  "used": 14434,
+  "limit": 131089,
+  "left": 116655,
+  "resets": 1795928650,
+  "tier": "creator",
+  "status": "active",
+  "models_read": 200,
+  "voices_read": 200,
+  "user_read": 200,
+  "tier_note": "checked permissions without spending credits",
+  "resets_sydney": "2026-11-29T16:04+11:00",
+  "at": "2026-10-31T09:00:54+00:00"
+ },
+ "log": [
+  "== job jobs/0052-credits-check.json credits",
+  "credits: {'used': 14434, 'limit': 131089, 'left': 116655, 'resets': 1795928650, 'tier': 'creator', 'status': 'active', 'models_read': 200, 'voices_read': 200, 'user_read': 200, 'tier_note': 'checked permissions without spending credits', 'resets_sydney': '2026-11-29T16:04+11:00', 'at': '2026-10-31T09:00:54+00:00'}"
+ ],
+ "at": "2026-10-31T09:00:54+00:00"
+}

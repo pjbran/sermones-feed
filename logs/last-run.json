@@ -1,67 +1,23 @@
 {
- "job": "jobs/0051-kids-leo-parvus-1.json",
+ "job": "jobs/0052-credits-check.json",
  "ok": true,
- "files": [
-  "bonus-leo-parvus-1-pila.mp3"
- ],
- "voices": {
-  "L": {
-   "name": "Konomi - Soft & Friendly",
-   "id": "MhnQB6oLKSlS0AIJzxtO"
-  },
-  "F": {
-   "name": "Deniz - Warm Turkish Storyteller",
-   "id": "2w5twzryiFg9VNnXphRP"
-  }
+ "credits": {
+  "used": 14434,
+  "limit": 131089,
+  "left": 116655,
+  "resets": 1795928650,
+  "tier": "creator",
+  "status": "active",
+  "models_read": 200,
+  "voices_read": 200,
+  "user_read": 200,
+  "tier_note": "checked permissions without spending credits",
+  "resets_sydney": "2026-11-29T16:04+11:00",
+  "at": "2026-10-31T09:00:54+00:00"
  },
  "log": [
-  "== job jobs/0051-kids-leo-parvus-1.json kids",
-  "kids voice L = Konomi - Soft & Friendly | standard | characters_animation",
-  "kids voice F = Deniz - Warm Turkish Storyteller | istanbul | characters_animation",
-  "voice x = Rossana MuTiG4dbrEGYEy3XP4iP",
-  "music refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission music_generation to execute this operation.\",\"status\":\"missing_permissions\",\"request_id\":\"0833d52f37e504560a30822661826ccf\"}}",
-  "models list: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission models_read to execute this operation.\",\"status\":\"missing_permissions\",\"request",
-  "model: eleven_v4",
-  "song: chanted (music refused)",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "sound effect refused: 401 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"re",
-  "built bonus-leo-parvus-1-pila.mp3 4.4 min"
+  "== job jobs/0052-credits-check.json credits",
+  "credits: {'used': 14434, 'limit': 131089, 'left': 116655, 'resets': 1795928650, 'tier': 'creator', 'status': 'active', 'models_read': 200, 'voices_read': 200, 'user_read': 200, 'tier_note': 'checked permissions without spending credits', 'resets_sydney': '2026-11-29T16:04+11:00', 'at': '2026-10-31T09:00:54+00:00'}"
  ],
- "at": "2026-10-31T05:22:15+00:00"
+ "at": "2026-10-31T09:00:54+00:00"
 }
