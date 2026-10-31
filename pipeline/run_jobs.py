@@ -371,6 +371,11 @@ def latin_only_variant(job, slug_suffix='-latina'):
 def run_credits(job):
     """Log the ElevenLabs credits (logs/credits.json). Costs nothing."""
     s = el.subscription()
+    for path, name in (('/models', 'models_read'), ('/sound-generation', None), ('/voices', 'voices_read')):
+        if name:
+            r = el.req('GET', path); s[name] = r.status_code
+    r = el.req('GET', '/user'); s['user_read'] = r.status_code
+    s['tier_note'] = 'checked permissions without spending credits'
     s['resets_sydney'] = datetime.datetime.fromtimestamp(s['resets'], datetime.timezone(datetime.timedelta(hours=11))).isoformat(timespec='minutes') if s.get('resets') else None
     s['at'] = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
     os.makedirs('logs', exist_ok=True)
