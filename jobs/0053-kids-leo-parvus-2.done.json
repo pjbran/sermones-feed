@@ -1,0 +1,22 @@
+{
+ "job": "jobs/0053-kids-leo-parvus-2.json",
+ "ok": true,
+ "files": [
+  "bonus-leo-parvus-2-culina.mp3"
+ ],
+ "voices": {
+  "P": "0t8vgGXrSTnCYpDnMYoe",
+  "L": "1Ns6TBHqz0ka4gGynKXj"
+ },
+ "log": [
+  "== job jobs/0053-kids-leo-parvus-2.json kids",
+  "kids voice P designed: Pater (Leō Parvus) 0t8vgGXrSTnCYpDnMYoe",
+  "kids voice L designed: Leō (Leō Parvus) 1Ns6TBHqz0ka4gGynKXj",
+  "song: sung by Eleven Music",
+  "models available: eleven_v4, eleven_v4_turbo, eleven_v3, eleven_v3_conversational, eleven_multilingual_v2, eleven_flash_v2_5, eleven_turbo_v2_5, eleven_turbo_v2, eleven_flash_v2, eleven_english_sts_v2, eleven_multilingual_sts_v2",
+  "model: eleven_v4",
+  "ambience added",
+  "built bonus-leo-parvus-2-culina.mp3 5.7 min"
+ ],
+ "at": "2026-10-31T09:14:57+00:00"
+}
