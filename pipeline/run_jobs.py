@@ -758,6 +758,63 @@ def run_merge(job):
     return {'files': made}
 
 
+def run_kids(job):
+    """31 Oct: "Leō Parvus", a Daniel-Tiger-style kids show for his 3-year-old, 100% Latin. Items: {who, la, gap} lines,
+    {sfx: key} sound effects (job "sfx": {key: [prompt, seconds]}), {song: true} the song (job "song": {prompt, chant}).
+    Voices: N = narrator (Iulia), L and F = playful library voices (added once, names kept in voices-kids.json)."""
+    kv_path = 'pipeline/voices-kids.json'
+    KV = json.load(open(kv_path)) if os.path.exists(kv_path) else {}
+    mine = el.my_voices()
+    def have(name): return [m['voice_id'] for m in mine if m.get('name') == name]
+    for role in ('L', 'F'):
+        if KV.get(role) and have(KV[role]['name']):
+            continue
+        picks = el.pick_character_voices(2, exclude=[v['name'] for v in KV.values()])
+        for v in picks:
+            vid = el.add_shared(v)
+            if vid:
+                KV[role] = {'name': v['name'][:40], 'id': vid}; log('kids voice', role, '=', v['name'], '|', v.get('accent'), '|', v.get('use_case')); break
+        if not KV.get(role):
+            fallback = {'L': 'Lily', 'F': 'Alice'}[role]
+            KV[role] = {'name': fallback, 'id': resolve_voices({'x': 'name:' + fallback})['x']}; log('kids voice', role, 'fallback', fallback)
+        mine = el.my_voices()
+    json.dump(KV, open(kv_path, 'w'), indent=1, ensure_ascii=False)
+    V = {'N': resolve_voices({'x': 'name:Rossana'})['x'], 'L': KV['L']['id'], 'F': KV['F']['id']}
+    st = job.get('stability', 0.4); os.makedirs('clips', exist_ok=True)
+    def line(who, la):
+        t = smart(la); pth = f'clips/k-{hashlib.sha1(f"{V[who]}|{t}|{st}".encode()).hexdigest()[:16]}.mp3'
+        if not os.path.exists(pth): el.tts(V[who], t, pth, stability=st)
+        return audio.norm(audio.trim(audio.load(pth), thr_db=-55, pad=0.12))
+    def sfx(key):
+        prompt, secs = job['sfx'][key]
+        pth = f'clips/sfx-{hashlib.sha1(f"{prompt}|{secs}".encode()).hexdigest()[:16]}.mp3'
+        if not os.path.exists(pth) and not el.sound_effect(prompt, pth, secs):
+            return None
+        x = audio.load(pth); return audio.norm(x) * 0.55
+    song = None
+    sp = f'clips/song-{hashlib.sha1(job["song"]["prompt"].encode()).hexdigest()[:16]}.mp3'
+    if os.path.exists(sp) or el.music(job['song']['prompt'], sp, job['song'].get('ms', 30000)):
+        song = audio.norm(audio.load(sp)) * 0.8; log('song: sung by Eleven Music')
+    else:
+        parts = []
+        for ln in job['song']['chant']:
+            parts += [line('N', ln), audio.sil(0.35)]
+        song = audio.np.concatenate(parts); log('song: chanted (music refused)')
+    seq = []
+    for it in job['items']:
+        if 'sfx' in it:
+            x = sfx(it['sfx'])
+            if x is not None: seq.append((x, it.get('gap', 0.3)))
+        elif it.get('song'):
+            seq.append((song, 0.8))
+        else:
+            seq.append((line(it['who'], it['la']), it.get('gap', 0.7)))
+    voice, ev = audio.sequence(seq, lead=0.8, tail=2.0)
+    x = audio.mix_music(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -12), job.get('music_dip_db', 8))
+    f = save_track(x, job['slug'], job['title'], job.get('summary', ''), bitrate='96k')
+    return {'files': [f], 'voices': KV}
+
+
 def run_to_pages(job):
     import publish
     return {'brought_back': publish.bring_back(log)}
@@ -780,7 +837,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible, 'redo_latin': run_redo_latin, 'merge': run_merge}.get(job['type'], run_episode)(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible, 'redo_latin': run_redo_latin, 'merge': run_merge, 'kids': run_kids}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]

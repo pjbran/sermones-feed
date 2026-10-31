@@ -132,3 +132,39 @@ def subscription():
     used, lim = j.get('character_count', 0), j.get('character_limit', 0)
     return {'used': used, 'limit': lim, 'left': lim - used, 'resets': j.get('next_character_count_reset_unix'),
             'tier': j.get('tier'), 'status': j.get('status')}
+
+
+def sound_effect(text, out, seconds=None):
+    """ElevenLabs sound effects (text -> sound). Returns True on success."""
+    body = {'text': text, 'prompt_influence': 0.5}
+    if seconds: body['duration_seconds'] = seconds
+    r = req('POST', '/sound-generation', json=body)
+    if r.status_code == 200 and r.content:
+        open(out, 'wb').write(r.content); return True
+    log('sound effect refused:', r.status_code, r.text[:200]); return False
+
+
+def music(prompt, out, ms=30000):
+    """Eleven Music (text -> song). Returns True on success."""
+    r = req('POST', '/music', json={'prompt': prompt, 'music_length_ms': ms})
+    if r.status_code == 200 and r.content:
+        open(out, 'wb').write(r.content); return True
+    log('music refused:', r.status_code, r.text[:300]); return False
+
+
+def pick_character_voices(n=2, exclude=()):
+    """Playful female character voices from the library (animation use case), most used first."""
+    out = []
+    for params in ({'gender': 'female', 'use_cases': 'characters_animation', 'page_size': 40},
+                   {'gender': 'female', 'search': 'cartoon', 'page_size': 40},
+                   {'gender': 'female', 'search': 'playful', 'page_size': 40}):
+        r = req('GET', '/shared-voices', params=params)
+        if r.status_code != 200:
+            log('shared voices:', r.status_code, r.text[:200]); continue
+        vs = [v for v in r.json().get('voices', []) if 'americ' not in (v.get('accent') or '').lower()]
+        vs.sort(key=lambda v: -(v.get('cloned_by_count') or 0))
+        for v in vs:
+            if v['name'] not in exclude and v['name'] not in [o['name'] for o in out]:
+                out.append(v)
+            if len(out) >= n: return out
+    return out

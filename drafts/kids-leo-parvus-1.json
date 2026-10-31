@@ -1,0 +1,562 @@
+{
+ "type": "kids",
+ "slug": "leo-parvus-1-pila",
+ "title": "Leō Parvus · 1 · Leō et pila (for little ones)",
+ "summary": "A kids' story in Latin for a 3-year-old: Leo the little lion won't share his red ball with Fēlīx the cat, then learns 'Nunc tū, nunc ego — sīc lūdimus!' (Now you, now me — that's how we play!). Commands: iace, cape, salī, curre, exspectā.",
+ "music_level_db": -13,
+ "song": {
+  "prompt": "A short, bright, gentle children's song for toddlers, like a preschool TV show theme. Clear, warm female vocal singing in Latin, slow and easy to copy, ukulele, glockenspiel, light hand claps, 100 BPM. Lyrics (sing exactly): 'Nunc tū, nunc ego, sīc lūdimus! Nunc tū, nunc ego, sīc lūdimus! Iace pilam, cape pilam, sīc lūdimus! Nunc tū, nunc ego, sīc lūdimus!'",
+  "ms": 30000,
+  "chant": [
+   "Nunc tū, nunc ego, sīc lūdimus!",
+   "Nunc tū, nunc ego, sīc lūdimus!",
+   "Iace pilam, cape pilam, sīc lūdimus!",
+   "Nunc tū, nunc ego, sīc lūdimus!"
+  ]
+ },
+ "sfx": {
+  "roar": [
+   "a tiny cute cartoon lion cub roar, playful, not scary",
+   2
+  ],
+  "bounce": [
+   "a single rubber ball bouncing twice on grass, light and cheerful",
+   1.5
+  ],
+  "bounce_high": [
+   "a ball thrown up high with a whoosh, then bouncing",
+   2
+  ],
+  "run": [
+   "small cartoon feet running quickly on grass",
+   1.5
+  ],
+  "meow": [
+   "a cute friendly kitten meow",
+   1.2
+  ],
+  "sad_meow": [
+   "a soft sad little kitten meow",
+   1.5
+  ],
+  "leaves": [
+   "a ball rustling into tree leaves",
+   1.5
+  ],
+  "boing": [
+   "a cartoon boing jump sound, playful",
+   1
+  ],
+  "climb": [
+   "a small cat climbing a tree, claws scratching bark, cartoon style",
+   2
+  ]
+ },
+ "items": [
+  {
+   "song": true
+  },
+  {
+   "who": "N",
+   "la": "Ecce Leō.",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Leō parvus est.",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Salvē! Ego sum Leō!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "roar",
+   "gap": 0.3
+  },
+  {
+   "who": "L",
+   "la": "Ego sum Leō parvus!",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Leō lūdere vult.",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Lūdere volō! Lūdere volō!",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Ecce pila.",
+   "gap": 0.7
+  },
+  {
+   "sfx": "bounce",
+   "gap": 0.3
+  },
+  {
+   "who": "N",
+   "la": "Pila rubra.",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Pila! Pila rubra!",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Leō pilam iacit.",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Iaciō!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "bounce",
+   "gap": 0.3
+  },
+  {
+   "who": "L",
+   "la": "Iaciō pilam!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "bounce",
+   "gap": 0.3
+  },
+  {
+   "who": "L",
+   "la": "Iaciō pilam altē!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "bounce_high",
+   "gap": 0.3
+  },
+  {
+   "who": "N",
+   "la": "Pila cadit.",
+   "gap": 0.7
+  },
+  {
+   "sfx": "bounce",
+   "gap": 0.3
+  },
+  {
+   "who": "L",
+   "la": "Capiō!",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Capiō pilam!",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Leō currit.",
+   "gap": 0.7
+  },
+  {
+   "sfx": "run",
+   "gap": 0.3
+  },
+  {
+   "who": "L",
+   "la": "Curro, curro, curro!",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Capiō pilam!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "meow",
+   "gap": 0.3
+  },
+  {
+   "who": "N",
+   "la": "Quis venit?",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Ecce Fēlīx.",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Fēlīx est fēlēs.",
+   "gap": 0.7
+  },
+  {
+   "who": "F",
+   "la": "Miau! Salvē, Leō!",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Salvē, Fēlīx!",
+   "gap": 0.7
+  },
+  {
+   "who": "F",
+   "la": "Lūdere volō!",
+   "gap": 0.7
+  },
+  {
+   "who": "F",
+   "la": "Dā mihi pilam, quaesō!",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Minimē! Mea pila!",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Mea pila! Mea!",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Fēlīx trīstis est.",
+   "gap": 0.7
+  },
+  {
+   "sfx": "sad_meow",
+   "gap": 0.3
+  },
+  {
+   "who": "F",
+   "la": "Ō... ego quoque lūdere volō.",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Leō pilam tenet.",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Leō sōlus lūdit.",
+   "gap": 0.7
+  },
+  {
+   "sfx": "bounce",
+   "gap": 0.3
+  },
+  {
+   "who": "L",
+   "la": "Iaciō... capiō... iaciō... capiō...",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Sōlus lūdere nōn est bonum.",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Hmm. Sōlus lūdere nōn est bonum.",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Audī, Leō.",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Nunc tū, nunc ego.",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Nunc tū, nunc ego?",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Ita! Sīc lūdimus!",
+   "gap": 0.7
+  },
+  {
+   "song": true
+  },
+  {
+   "who": "L",
+   "la": "Fēlīx! Nunc tū!",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Cape pilam!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "bounce",
+   "gap": 0.3
+  },
+  {
+   "who": "F",
+   "la": "Capiō!",
+   "gap": 0.7
+  },
+  {
+   "who": "F",
+   "la": "Nunc tū, Leō!",
+   "gap": 0.7
+  },
+  {
+   "who": "F",
+   "la": "Cape pilam!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "bounce",
+   "gap": 0.3
+  },
+  {
+   "who": "L",
+   "la": "Capiō!",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Nunc tū, nunc ego!",
+   "gap": 0.7
+  },
+  {
+   "who": "F",
+   "la": "Nunc tū, nunc ego!",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Iace pilam, Fēlīx!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "bounce",
+   "gap": 0.3
+  },
+  {
+   "who": "N",
+   "la": "Cape pilam, Leō!",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Capiō!",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Leō pilam altē iacit.",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Iaciō pilam altē! Altē! Altē!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "bounce_high",
+   "gap": 0.3
+  },
+  {
+   "sfx": "leaves",
+   "gap": 0.3
+  },
+  {
+   "who": "N",
+   "la": "Ō! Ubi est pila?",
+   "gap": 0.7
+  },
+  {
+   "who": "F",
+   "la": "Ubi est pila?",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Ecce! In arbore!",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Pila est in arbore.",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "In arbore! Ō, nōn!",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Salī, Leō!",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Saliō!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "boing",
+   "gap": 0.3
+  },
+  {
+   "who": "L",
+   "la": "Saliō! Saliō!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "boing",
+   "gap": 0.3
+  },
+  {
+   "who": "N",
+   "la": "Leō salit, sed pila manet.",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Pila manet in arbore.",
+   "gap": 0.7
+  },
+  {
+   "who": "F",
+   "la": "Exspectā, Leō! Ego ascendō!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "climb",
+   "gap": 0.3
+  },
+  {
+   "who": "N",
+   "la": "Fēlīx ascendit.",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Fēlīx altē ascendit.",
+   "gap": 0.7
+  },
+  {
+   "who": "F",
+   "la": "Teneō pilam!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "leaves",
+   "gap": 0.3
+  },
+  {
+   "who": "F",
+   "la": "Cape, Leō!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "bounce",
+   "gap": 0.3
+  },
+  {
+   "who": "L",
+   "la": "Capiō! Grātiās, Fēlīx!",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Nunc Leō laetus est.",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Nunc Fēlīx laetus est.",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Nunc tū, nunc ego!",
+   "gap": 0.7
+  },
+  {
+   "who": "F",
+   "la": "Sīc lūdimus!",
+   "gap": 0.7
+  },
+  {
+   "song": true
+  },
+  {
+   "who": "N",
+   "la": "Iace pilam!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "bounce",
+   "gap": 0.3
+  },
+  {
+   "who": "N",
+   "la": "Cape pilam!",
+   "gap": 0.7
+  },
+  {
+   "who": "N",
+   "la": "Salī!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "boing",
+   "gap": 0.3
+  },
+  {
+   "who": "N",
+   "la": "Curre!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "run",
+   "gap": 0.3
+  },
+  {
+   "who": "N",
+   "la": "Nunc tū, nunc ego.",
+   "gap": 0.7
+  },
+  {
+   "who": "L",
+   "la": "Valē, amīce!",
+   "gap": 0.7
+  },
+  {
+   "who": "F",
+   "la": "Valē! Miau!",
+   "gap": 0.7
+  },
+  {
+   "sfx": "meow",
+   "gap": 0.3
+  },
+  {
+   "who": "N",
+   "la": "Valē, amīce. Crās iterum lūdēmus.",
+   "gap": 0.7
+  }
+ ]
+}
