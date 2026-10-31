@@ -1,25 +1,14 @@
 [
  {
-  "file": "s1e04a-celeriter-an-clare-2.mp3",
-  "title": "Chat · Celeriter an clārē? · English → Latin × 3",
+  "file": "bonus-chat-celeriter-an-clare.mp3",
+  "title": "Chat · Celeriter an clārē? · English → Latin, then Latin only",
   "season": 1,
   "episode": 9,
   "date": "2026-10-22T17:05:11+11:00",
   "summary": "Too much coffee, a carrot, beautiful birds, and today's chat with ChatGPT: speak fast, or speak clearly? Quotes: Īra furor brevis est (Horace, Letters 1.2), Rem tenē, verba sequentur (Cato the Elder), Sit sermō vester: est, est; nōn, nōn (Matthew 5:37). Each line in English, then in Latin. The whole dialogue 3 times.",
-  "bytes": 27267093,
-  "duration": "22:37",
-  "host": "pages"
- },
- {
-  "file": "s1e04b-celeriter-an-clare-2.mp3",
-  "title": "Chat · Celeriter an clārē? · Latin only × 3",
-  "season": 1,
-  "episode": 10,
-  "date": "2026-10-22T17:06:11+11:00",
-  "summary": "Too much coffee, a carrot, beautiful birds, and today's chat with ChatGPT: speak fast, or speak clearly? Quotes: Īra furor brevis est (Horace, Letters 1.2), Rem tenē, verba sequentur (Cato the Elder), Sit sermō vester: est, est; nōn, nōn (Matthew 5:37). Latin only. The whole dialogue 3 times.",
-  "bytes": 13375688,
-  "duration": "11:02",
-  "host": "pages"
+  "host": "pages",
+  "bytes": 24294880,
+  "duration": "33:39"
  },
  {
   "file": "bonus-fabella-rufus-et-caseus-v.mp3",
@@ -33,301 +22,147 @@
   "host": "pages"
  },
  {
-  "file": "bonus-scala-1-v2.mp3",
-  "title": "Ladder 1 (× 3)",
+  "file": "bonus-scala-1-una.mp3",
+  "title": "Ladder 1 · English → Latin, then Latin only",
   "season": 1,
   "episode": 19,
   "date": "2026-10-24T12:21:16+11:00",
   "summary": "Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
-  "bytes": 16602809,
-  "duration": "34:18",
-  "host": "pages"
+  "host": "pages",
+  "bytes": 24618075,
+  "duration": "51:09"
  },
  {
-  "file": "bonus-scala-2-v2.mp3",
-  "title": "Ladder 2 (× 3)",
+  "file": "bonus-scala-2-una.mp3",
+  "title": "Ladder 2 · English → Latin, then Latin only",
   "season": 1,
   "episode": 20,
   "date": "2026-10-24T12:22:06+11:00",
   "summary": "Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
-  "bytes": 19594109,
-  "duration": "40:32",
-  "host": "pages"
+  "host": "pages",
+  "bytes": 29147993,
+  "duration": "60:35"
  },
  {
-  "file": "bonus-scala-3-v2.mp3",
-  "title": "Ladder 3 · talking with her (× 3)",
+  "file": "bonus-scala-3-una.mp3",
+  "title": "Ladder 3 · talking with her · English → Latin, then Latin only",
   "season": 1,
   "episode": 21,
   "date": "2026-10-24T12:23:00+11:00",
   "summary": "Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
-  "bytes": 19270298,
-  "duration": "39:51",
-  "host": "pages"
+  "host": "pages",
+  "bytes": 28616683,
+  "duration": "59:29"
  },
  {
-  "file": "bonus-scala-4-v2.mp3",
-  "title": "Ladder 4 · talking to myself",
+  "file": "bonus-scala-4-una.mp3",
+  "title": "Ladder 4 · talking to myself · English → Latin, then Latin only",
   "season": 1,
   "episode": 22,
   "date": "2026-10-24T12:24:26+11:00",
   "summary": "Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
-  "bytes": 13812229,
-  "duration": "28:29",
-  "host": "pages"
+  "host": "pages",
+  "bytes": 20508049,
+  "duration": "42:35"
  },
  {
-  "file": "bonus-scala-latina-v2.mp3",
-  "title": "Ladder 1 + 2 · Latin only (× 3)",
-  "season": 1,
-  "episode": 23,
-  "date": "2026-10-24T12:24:56+11:00",
-  "summary": "Ladders 1 and 2 (rebuilt 24 Oct) in Latin only. Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
-  "bytes": 17798274,
-  "duration": "36:48",
-  "host": "pages"
- },
- {
-  "file": "bonus-scala-1-v2-latina.mp3",
-  "title": "Ladder 1 · Latin only (× 3)",
-  "season": 1,
-  "episode": 24,
-  "date": "2026-10-24T17:57:52+11:00",
-  "summary": "Latin only. Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
-  "bytes": 8218981,
-  "duration": "16:51",
-  "host": "pages"
- },
- {
-  "file": "bonus-scala-2-v2-latina.mp3",
-  "title": "Ladder 2 · Latin only (× 3)",
-  "season": 1,
-  "episode": 25,
-  "date": "2026-10-24T17:58:17+11:00",
-  "summary": "Latin only. Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
-  "bytes": 9758760,
-  "duration": "20:03",
-  "host": "pages"
- },
- {
-  "file": "bonus-scala-3-v2-latina.mp3",
-  "title": "Ladder 3 · talking with her · Latin only (× 3)",
-  "season": 1,
-  "episode": 26,
-  "date": "2026-10-24T17:58:43+11:00",
-  "summary": "Latin only. Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
-  "bytes": 9556321,
-  "duration": "19:37",
-  "host": "pages"
- },
- {
-  "file": "bonus-scala-4-v2-latina.mp3",
-  "title": "Ladder 4 · talking to myself · Latin only",
-  "season": 1,
-  "episode": 27,
-  "date": "2026-10-24T17:59:23+11:00",
-  "summary": "Latin only. Rebuilt 24 Oct: the top of every ladder now comes back at least 3 times (if…, that…, comparisons, questions), every new word is used 3+ times, and it is about 50% longer. Latin read from IPA (v as v), free voices.",
-  "bytes": 6904533,
-  "duration": "14:06",
-  "host": "pages"
- },
- {
-  "file": "bonus-scala-5-subiunctivus.mp3",
-  "title": "Ladder 5 · ut, nē, cum: the subjunctive pyramid",
+  "file": "bonus-scala-5-una.mp3",
+  "title": "Ladder 5 · ut, nē, cum: the subjunctive pyramid · English → Latin, then Latin only",
   "season": 1,
   "episode": 28,
   "date": "2026-10-25T15:12:34+11:00",
   "summary": "A pyramid on 5 subjunctive patterns: Rogō ut lentius loquāris · Linguam Latīnam discō, ut tēcum loquar · Caffeam nōn bibō, nē īrātus sim · Cum domum venīrem, fīlius meus clāmābat · Dīc mihi quid hoc significet. Slow steps, plain vs subjunctive contrasts, reviews, and a funny day at the end. English then Latin, free voice (IPA, v as v).",
-  "bytes": 11080520,
-  "duration": "22:48",
-  "host": "pages"
+  "host": "pages",
+  "bytes": 16381772,
+  "duration": "33:59"
  },
  {
-  "file": "bonus-scala-5-subiunctivus-latina.mp3",
-  "title": "Ladder 5 · ut, nē, cum: the subjunctive pyramid · Latin only",
-  "season": 1,
-  "episode": 29,
-  "date": "2026-10-25T15:13:13+11:00",
-  "summary": "Latin only. A pyramid on 5 subjunctive patterns: Rogō ut lentius loquāris · Linguam Latīnam discō, ut tēcum loquar · Caffeam nōn bibō, nē īrātus sim · Cum domum venīrem, fīlius meus clāmābat · Dīc mihi quid hoc significet. Slow steps, plain vs subjunctive contrasts, reviews, and a funny day at the end. English then Latin, free voice (IPA, v as v).",
-  "bytes": 5509018,
-  "duration": "11:11",
-  "host": "pages"
- },
- {
-  "file": "bonus-scala-6-subiunctivus-2.mp3",
-  "title": "Ladder 6 · ut, nē, cum: pyramid 2 (× 2)",
+  "file": "bonus-scala-6-una.mp3",
+  "title": "Ladder 6 · ut, nē, cum: pyramid 2 · English → Latin, then Latin only",
   "season": 1,
   "episode": 30,
   "date": "2026-10-26T07:04:43+11:00",
   "summary": "Subjunctive pyramid 2, new sentences: Dīc fīliō meō ut domum veniat · Domum eō, ut cum līberīs cēnem · Timeō nē pīca mē oppugnet · Cum fessus essem, domī mānsī · Scīsne ubi sit cāseus? Slow steps, plain vs subjunctive contrasts, reviews (and pyramid 1's peaks), a funny rainy day at the end. Played twice. Free voice (IPA, v as v).",
-  "bytes": 23789685,
-  "duration": "49:16",
-  "host": "pages"
+  "host": "pages",
+  "bytes": 35239989,
+  "duration": "73:17"
  },
  {
-  "file": "bonus-scala-6-subiunctivus-2-latina.mp3",
-  "title": "Ladder 6 · ut, nē, cum: pyramid 2 · Latin only (× 2)",
-  "season": 1,
-  "episode": 31,
-  "date": "2026-10-26T07:05:40+11:00",
-  "summary": "Latin only. Subjunctive pyramid 2, new sentences: Dīc fīliō meō ut domum veniat · Domum eō, ut cum līberīs cēnem · Timeō nē pīca mē oppugnet · Cum fessus essem, domī mānsī · Scīsne ubi sit cāseus? Slow steps, plain vs subjunctive contrasts, reviews (and pyramid 1's peaks), a funny rainy day at the end. Played twice. Free voice (IPA, v as v).",
-  "bytes": 11656054,
-  "duration": "24:00",
-  "host": "pages"
- },
- {
-  "file": "bonus-scala-7-impera-ut.mp3",
-  "title": "Ladder 7 · Docē mē, ut discam: pyramid 3 (× 2)",
+  "file": "bonus-scala-7-una.mp3",
+  "title": "Ladder 7 · Docē mē, ut discam: pyramid 3 · English → Latin, then Latin only",
   "season": 1,
   "episode": 32,
   "date": "2026-10-26T08:10:45+11:00",
   "summary": "Commands + 'so that…' on how to learn, listen, ask, agree and avoid mistakes: Docē mē, ut discam · Audī mē, ut intellegās · Rogā mē, ut cōgitem · Loquāmur, ut cōnsentiāmus · Prīmum cōgitā, nē errēs. Quotes: Errāre hūmānum est, Docendō discimus. Played twice. Free voice (IPA, v as v).",
-  "bytes": 25517733,
-  "duration": "52:52",
-  "host": "pages"
+  "host": "pages",
+  "bytes": 37497230,
+  "duration": "77:59"
  },
  {
-  "file": "bonus-scala-7-impera-ut-latina.mp3",
-  "title": "Ladder 7 · Docē mē, ut discam: pyramid 3 · Latin only (× 2)",
-  "season": 1,
-  "episode": 33,
-  "date": "2026-10-26T08:11:24+11:00",
-  "summary": "Latin only. Commands + 'so that…' on how to learn, listen, ask, agree and avoid mistakes: Docē mē, ut discam · Audī mē, ut intellegās · Rogā mē, ut cōgitem · Loquāmur, ut cōnsentiāmus · Prīmum cōgitā, nē errēs. Quotes: Errāre hūmānum est, Docendō discimus. Played twice. Free voice (IPA, v as v).",
-  "bytes": 12188215,
-  "duration": "25:06",
-  "host": "pages"
- },
- {
-  "file": "bonus-scala-8-verba-nova-1.mp3",
-  "title": "Ladder 8 · 50 new words + 30 hard ones",
+  "file": "bonus-scala-8-una.mp3",
+  "title": "Ladder 8 · 50 new words + 30 hard ones · English → Latin, then Latin only",
   "season": 1,
   "episode": 34,
   "date": "2026-10-26T12:27:03+11:00",
   "summary": "Road to 2,000, set 1: the next 50 Road words (induō, tunica, sūmō, piscis, mūrus, umbra, collum, iaceō, stēlla, scaena…) in 5 scenes (morning, kitchen, walk, a long night, evening), each word heard 6+ times, plus your 30 stickiest hell words (quoniam, ideō, quidem, quīdam, tamen, īdem, tālis…) in clear sentences. Closing story of the whole day, then a quick-fire list of all 80 words. Free voice (IPA, v as v).",
-  "bytes": 26120133,
-  "duration": "54:08",
-  "host": "pages"
+  "host": "pages",
+  "bytes": 38699705,
+  "duration": "80:29"
  },
  {
-  "file": "bonus-scala-8-verba-nova-1-latina.mp3",
-  "title": "Ladder 8 · 50 new words + 30 hard ones · Latin only",
-  "season": 1,
-  "episode": 35,
-  "date": "2026-10-26T12:28:17+11:00",
-  "summary": "Latin only. Road to 2,000, set 1: the next 50 Road words (induō, tunica, sūmō, piscis, mūrus, umbra, collum, iaceō, stēlla, scaena…) in 5 scenes (morning, kitchen, walk, a long night, evening), each word heard 6+ times, plus your 30 stickiest hell words (quoniam, ideō, quidem, quīdam, tamen, īdem, tālis…) in clear sentences. Closing story of the whole day, then a quick-fire list of all 80 words. Free voice (IPA, v as v).",
-  "bytes": 12786962,
-  "duration": "26:21",
-  "host": "pages"
- },
- {
-  "file": "bonus-scala-9-admone-me-iulia.mp3",
-  "title": "Ladder 9 · Admonē mē, quaesō (× 2)",
+  "file": "bonus-scala-9-una.mp3",
+  "title": "Ladder 9 · Admonē mē, quaesō · English → Latin, then Latin only",
   "season": 1,
   "episode": 36,
   "date": "2026-10-28T05:32:30+11:00",
   "summary": "Iulia's voice (his pick, 28 Oct). Remind me, please; you reminded me; I almost forgot; I will remind you; if you had not reminded me, I would have forgotten.",
   "host": "pages",
-  "bytes": 6474831,
-  "duration": "8:48"
+  "bytes": 12832191,
+  "duration": "17:44"
  },
  {
-  "file": "bonus-bible-matthew-1.mp3",
-  "title": "Bible · Matthew 1–5 · English → Latin",
+  "file": "bonus-bible-matthew-1-una.mp3",
+  "title": "Bible · Matthew 1–5 · English → Latin, then Latin only",
   "season": 1,
   "episode": 39,
   "date": "2026-10-28T07:01:46+11:00",
   "summary": "The Gospel of Matthew from the start, verse by verse: Douay-Rheims English, then the Latin Vulgate (Clementine). Free voices. About 15 minutes of Latin.",
   "host": "pages",
-  "bytes": 15626918,
-  "duration": "32:16"
+  "bytes": 30335341,
+  "duration": "63:04"
  },
  {
-  "file": "bonus-scala-10-conventus.mp3",
-  "title": "Ladder 10 · Conventus dē conventibus (the meeting about meetings)",
+  "file": "bonus-scala-10-una.mp3",
+  "title": "Ladder 10 · Conventus dē conventibus (the meeting about meetings) · English → Latin, then Latin only",
   "season": 1,
   "episode": 40,
   "date": "2026-10-29T16:17:05+11:00",
   "summary": "A funny pyramid: Gaius calls a meeting to cut meetings. \"I will speak briefly\" (then an hour), ut + subjunctive requests that crack, nisi … loquerētur, iam domī essem, quoniam nēmō audit, ego quidem tacēbō, cum … fīnītus esset. Iulia's voice.",
   "host": "pages",
-  "bytes": 7964162,
-  "duration": "10:52"
+  "bytes": 15810094,
+  "duration": "21:52"
  },
  {
-  "file": "bonus-scala-9-admone-me-iulia-latina-x2.mp3",
-  "title": "Ladder 9 · Admonē mē, quaesō · Latin only (× 4)",
-  "season": 1,
-  "episode": 42,
-  "date": "2026-10-29T19:56:04+11:00",
-  "summary": "Latin only, twice as many rounds. Iulia's voice (his pick, 28 Oct). Remind me, please; you reminded me; I almost forgot; I will remind you; if you had not reminded me, I would have forgotten.",
-  "host": "pages",
-  "bytes": 6566502,
-  "duration": "8:55"
- },
- {
-  "file": "bonus-scala-10-conventus-latina-x2.mp3",
-  "title": "Ladder 10 · Conventus dē conventibus (the meeting about meetings) · Latin only (× 2)",
-  "season": 1,
-  "episode": 43,
-  "date": "2026-10-29T19:56:21+11:00",
-  "summary": "Latin only, twice as many rounds. A funny pyramid: Gaius calls a meeting to cut meetings. \"I will speak briefly\" (then an hour), ut + subjunctive requests that crack, nisi … loquerētur, iam domī essem, quoniam nēmō audit, ego quidem tacēbō, cum … fīnītus esset. Iulia's voice.",
-  "host": "pages",
-  "bytes": 8057098,
-  "duration": "11:00"
- },
- {
-  "file": "bonus-bible-matthew-1-latina-x2.mp3",
-  "title": "Bible · Matthew 1–5 · Latin only (× 2)",
-  "season": 1,
-  "episode": 44,
-  "date": "2026-10-29T19:57:37+11:00",
-  "summary": "Latin only, twice through. The Gospel of Matthew from the start, verse by verse: Douay-Rheims English, then the Latin Vulgate (Clementine). Free voices. About 15 minutes of Latin.",
-  "host": "pages",
-  "bytes": 14914483,
-  "duration": "30:47"
- },
- {
-  "file": "bonus-scala-11-tessera.mp3",
-  "title": "Ladder 11 · Tessera (the password)",
+  "file": "bonus-scala-11-una.mp3",
+  "title": "Ladder 11 · Tessera (the password) · English → Latin, then Latin only",
   "season": 1,
   "episode": 45,
   "date": "2026-10-29T20:14:03+11:00",
   "summary": "Monday at the office: Quintus from IT makes the password rules (must be changed every day, longer than the old one, a number, a sign, not your dog). Gerundive, comparatives, relative clauses, future perfect, perfect passive. Iulia's voice.",
   "host": "pages",
-  "bytes": 16385651,
-  "duration": "22:34"
+  "bytes": 32951448,
+  "duration": "45:40"
  },
  {
-  "file": "bonus-scala-11-tessera-latina.mp3",
-  "title": "Ladder 11 · Tessera (the password) · Latin only (× 2)",
-  "season": 1,
-  "episode": 46,
-  "date": "2026-10-29T20:14:36+11:00",
-  "summary": "Latin only, twice as many rounds. Monday at the office: Quintus from IT makes the password rules (must be changed every day, longer than the old one, a number, a sign, not your dog). Gerundive, comparatives, relative clauses, future perfect, perfect passive. Iulia's voice.",
-  "host": "pages",
-  "bytes": 16776598,
-  "duration": "23:06"
- },
- {
-  "file": "bonus-scala-12-analysis.mp3",
-  "title": "Ladder 12 · Analysis (the analysis)",
+  "file": "bonus-scala-12-una.mp3",
+  "title": "Ladder 12 · Analysis (the analysis) · English → Latin, then Latin only",
   "season": 1,
   "episode": 47,
   "date": "2026-10-29T20:17:42+11:00",
   "summary": "Gaius wants a perfect analysis of the new product \"Speed\" before Friday, but every time he consults his new calendar the deadline moves closer, until Marcus discovers the product IS the calendar, and it is too fast.",
   "host": "pages",
-  "bytes": 18606207,
-  "duration": "25:39"
- },
- {
-  "file": "bonus-scala-12-analysis-latina.mp3",
-  "title": "Ladder 12 · Analysis (the analysis) · Latin only (× 2)",
-  "season": 1,
-  "episode": 48,
-  "date": "2026-10-29T20:18:19+11:00",
-  "summary": "Latin only, twice as many rounds. Gaius wants a perfect analysis of the new product \"Speed\" before Friday, but every time he consults his new calendar the deadline moves closer, until Marcus discovers the product IS the calendar, and it is too fast.",
-  "host": "pages",
-  "bytes": 18837952,
-  "duration": "25:58"
+  "bytes": 37233086,
+  "duration": "51:37"
  },
  {
   "file": "bonus-scala-16-epistulae.mp3",

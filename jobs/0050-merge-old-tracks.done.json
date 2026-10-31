@@ -1,0 +1,40 @@
+{
+ "job": "jobs/0050-merge-old-tracks.json",
+ "ok": true,
+ "files": [
+  "bonus-chat-celeriter-an-clare.mp3",
+  "bonus-scala-1-una.mp3",
+  "bonus-scala-2-una.mp3",
+  "bonus-scala-3-una.mp3",
+  "bonus-scala-4-una.mp3",
+  "bonus-scala-5-una.mp3",
+  "bonus-scala-6-una.mp3",
+  "bonus-scala-7-una.mp3",
+  "bonus-scala-8-una.mp3",
+  "bonus-scala-9-una.mp3",
+  "bonus-bible-matthew-1-una.mp3",
+  "bonus-scala-10-una.mp3",
+  "bonus-scala-11-una.mp3",
+  "bonus-scala-12-una.mp3"
+ ],
+ "log": [
+  "== job jobs/0050-merge-old-tracks.json merge",
+  "merged s1e04a-celeriter-an-clare-2.mp3 + s1e04b-celeriter-an-clare-2.mp3 -> bonus-chat-celeriter-an-clare.mp3",
+  "merged bonus-scala-1-v2.mp3 + bonus-scala-1-v2-latina.mp3 -> bonus-scala-1-una.mp3",
+  "merged bonus-scala-2-v2.mp3 + bonus-scala-2-v2-latina.mp3 -> bonus-scala-2-una.mp3",
+  "merged bonus-scala-3-v2.mp3 + bonus-scala-3-v2-latina.mp3 -> bonus-scala-3-una.mp3",
+  "merged bonus-scala-4-v2.mp3 + bonus-scala-4-v2-latina.mp3 -> bonus-scala-4-una.mp3",
+  "merged bonus-scala-5-subiunctivus.mp3 + bonus-scala-5-subiunctivus-latina.mp3 -> bonus-scala-5-una.mp3",
+  "merged bonus-scala-6-subiunctivus-2.mp3 + bonus-scala-6-subiunctivus-2-latina.mp3 -> bonus-scala-6-una.mp3",
+  "merged bonus-scala-7-impera-ut.mp3 + bonus-scala-7-impera-ut-latina.mp3 -> bonus-scala-7-una.mp3",
+  "merged bonus-scala-8-verba-nova-1.mp3 + bonus-scala-8-verba-nova-1-latina.mp3 -> bonus-scala-8-una.mp3",
+  "merged bonus-scala-9-admone-me-iulia.mp3 + bonus-scala-9-admone-me-iulia-latina-x2.mp3 -> bonus-scala-9-una.mp3",
+  "merged bonus-bible-matthew-1.mp3 + bonus-bible-matthew-1-latina-x2.mp3 -> bonus-bible-matthew-1-una.mp3",
+  "merged bonus-scala-10-conventus.mp3 + bonus-scala-10-conventus-latina-x2.mp3 -> bonus-scala-10-una.mp3",
+  "merged bonus-scala-11-tessera.mp3 + bonus-scala-11-tessera-latina.mp3 -> bonus-scala-11-una.mp3",
+  "merged bonus-scala-12-analysis.mp3 + bonus-scala-12-analysis-latina.mp3 -> bonus-scala-12-una.mp3",
+  "dropped bonus-scala-latina-v2.mp3",
+  "kept in the website: 14 files updated"
+ ],
+ "at": "2026-10-31T03:49:39+00:00"
+}
