@@ -14,7 +14,20 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Sat, 31 Oct 2026 05:18:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 05:22:15 +0000</lastBuildDate>
+    <item>
+      <title>Leō Parvus · 1 · Leō et pila (for little ones)</title>
+      <description>A kids' story in Latin for a 3-year-old: Leo the little lion won't share his red ball with Fēlīx the cat, then learns 'Nunc tū, nunc ego — sīc lūdimus!' (Now you, now me — that's how we play!). Commands: iace, cape, salī, curre, exspectā.</description>
+      <itunes:summary>A kids' story in Latin for a 3-year-old: Leo the little lion won't share his red ball with Fēlīx the cat, then learns 'Nunc tū, nunc ego — sīc lūdimus!' (Now you, now me — that's how we play!). Commands: iace, cape, salī, curre, exspectā.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-leo-parvus-1-pila.mp3" length="3267458" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-bonus-leo-parvus-1-pila.mp3</guid>
+      <pubDate>Sat, 31 Oct 2026 16:22:12 +1100</pubDate>
+      <itunes:duration>4:21</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>51</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Ladder 17 · Caesar et pīrātae (Caesar and the pirates)</title>
       <description>75 BC, a true story (Plutarch, Suetonius): pirates seize young Caesar off Miletus. Marcus writes from the pirates' island, Lucius from the harbour of Miletus, collecting the ransom Caesar himself raised from 20 to 50 talents. Poems, 'barbarians', a sworn promise. English → Latin, then the Latin twice. Iulia's voice.</description>
