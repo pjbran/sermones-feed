@@ -50,6 +50,14 @@
   "climb": [
    "a small cat climbing a tree, claws scratching bark, cartoon style",
    2
+  ],
+  "whoosh": [
+   "a soft cartoon whoosh of a small ball thrown through the air",
+   1
+  ],
+  "catch": [
+   "a soft thump of a small rubber ball caught in two paws, cartoon",
+   0.8
   ]
  },
  "items": [
@@ -120,7 +128,7 @@
    "gap": 0.7
   },
   {
-   "sfx": "bounce",
+   "sfx": "whoosh",
    "gap": 0.3
   },
   {
@@ -129,7 +137,7 @@
    "gap": 0.7
   },
   {
-   "sfx": "bounce",
+   "sfx": "whoosh",
    "gap": 0.3
   },
   {
@@ -138,7 +146,7 @@
    "gap": 0.7
   },
   {
-   "sfx": "bounce_high",
+   "sfx": "whoosh",
    "gap": 0.3
   },
   {
@@ -156,9 +164,17 @@
    "gap": 0.7
   },
   {
+   "sfx": "catch",
+   "gap": 0.3
+  },
+  {
    "who": "L",
    "la": "Capiō pilam!",
    "gap": 0.7
+  },
+  {
+   "sfx": "catch",
+   "gap": 0.3
   },
   {
    "who": "N",
@@ -178,6 +194,10 @@
    "who": "L",
    "la": "Capiō pilam!",
    "gap": 0.7
+  },
+  {
+   "sfx": "catch",
+   "gap": 0.3
   },
   {
    "sfx": "meow",
@@ -262,6 +282,10 @@
    "gap": 0.7
   },
   {
+   "sfx": "whoosh",
+   "gap": 0.3
+  },
+  {
    "who": "N",
    "la": "Sōlus lūdere nōn est bonum.",
    "gap": 0.7
@@ -305,6 +329,10 @@
    "gap": 0.7
   },
   {
+   "sfx": "catch",
+   "gap": 0.3
+  },
+  {
    "sfx": "bounce",
    "gap": 0.3
   },
@@ -312,6 +340,10 @@
    "who": "F",
    "la": "Capiō!",
    "gap": 0.7
+  },
+  {
+   "sfx": "catch",
+   "gap": 0.3
   },
   {
    "who": "F",
@@ -324,6 +356,10 @@
    "gap": 0.7
   },
   {
+   "sfx": "catch",
+   "gap": 0.3
+  },
+  {
    "sfx": "bounce",
    "gap": 0.3
   },
@@ -331,6 +367,10 @@
    "who": "L",
    "la": "Capiō!",
    "gap": 0.7
+  },
+  {
+   "sfx": "catch",
+   "gap": 0.3
   },
   {
    "who": "L",
@@ -348,7 +388,7 @@
    "gap": 0.7
   },
   {
-   "sfx": "bounce",
+   "sfx": "whoosh",
    "gap": 0.3
   },
   {
@@ -357,9 +397,17 @@
    "gap": 0.7
   },
   {
+   "sfx": "catch",
+   "gap": 0.3
+  },
+  {
    "who": "L",
    "la": "Capiō!",
    "gap": 0.7
+  },
+  {
+   "sfx": "catch",
+   "gap": 0.3
   },
   {
    "who": "N",
@@ -372,7 +420,7 @@
    "gap": 0.7
   },
   {
-   "sfx": "bounce_high",
+   "sfx": "whoosh",
    "gap": 0.3
   },
   {
@@ -471,6 +519,10 @@
    "gap": 0.7
   },
   {
+   "sfx": "catch",
+   "gap": 0.3
+  },
+  {
    "sfx": "bounce",
    "gap": 0.3
   },
@@ -478,6 +530,10 @@
    "who": "L",
    "la": "Capiō! Grātiās, Fēlīx!",
    "gap": 0.7
+  },
+  {
+   "sfx": "catch",
+   "gap": 0.3
   },
   {
    "who": "N",
@@ -508,13 +564,17 @@
    "gap": 0.7
   },
   {
-   "sfx": "bounce",
+   "sfx": "whoosh",
    "gap": 0.3
   },
   {
    "who": "N",
    "la": "Cape pilam!",
    "gap": 0.7
+  },
+  {
+   "sfx": "catch",
+   "gap": 0.3
   },
   {
    "who": "N",
@@ -558,5 +618,9 @@
    "la": "Valē, amīce. Crās iterum lūdēmus.",
    "gap": 0.7
   }
+ ],
+ "ambience": [
+  "a calm sunny garden: soft birdsong, light gentle breeze in leaves, peaceful, no voices, seamless loop",
+  20
  ]
 }

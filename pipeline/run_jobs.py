@@ -811,6 +811,14 @@ def run_kids(job):
             seq.append((line(it['who'], it['la']), it.get('gap', 0.7)))
     voice, ev = audio.sequence(seq, lead=0.8, tail=2.0)
     x = audio.mix_music(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -12), job.get('music_dip_db', 8))
+    if job.get('ambience'):   # the scene sound (garden: birds, breeze), looped very softly under everything
+        prompt, secs = job['ambience']
+        ap = f'clips/amb-{hashlib.sha1(f"{prompt}|{secs}".encode()).hexdigest()[:16]}.mp3'
+        if os.path.exists(ap) or el.sound_effect(prompt, ap, secs):
+            amb = audio.norm(audio.load(ap)); reps = int(len(x) / len(amb)) + 1
+            fade = int(0.5 * audio.SR); w = audio.np.ones(len(amb)); w[:fade] = audio.np.linspace(0, 1, fade); w[-fade:] = audio.np.linspace(1, 0, fade)
+            bed = audio.np.tile(amb * w, reps)[:len(x)]
+            x = x + bed * (10 ** (job.get('ambience_db', -26) / 20)); log('ambience added')
     f = save_track(x, job['slug'], job['title'], job.get('summary', ''), bitrate='96k')
     return {'files': [f], 'voices': KV}
 
