@@ -352,6 +352,12 @@ def dialogue_clips(seq, st, max_chars=1800):
     return out
 
 
+def combined(job):
+    """Patrick, 31 Oct 14:04: "I love having all the audio on one file — English-Latin, Latin Latin. Do that as the
+    standard now." Default ON for every drill and Bible job (a job can set "combined": false for the old two files)."""
+    return not job.get('latin_only') and job.get('combined', True)
+
+
 def latin_only_variant(job, slug_suffix='-latina'):
     """Patrick, 29 Oct 19:54: "for the Latin only version, ALWAYS double it so it's close in length to the English one.
     I like to hear it twice". Latin-only repeat = 2 x the main track's repeat."""
@@ -401,6 +407,11 @@ def run_drill(job):
     n = int(job.get('repeat', 3)); seq = []
     for k in range(n):
         seq += items[:-1] + [(items[-1][0], 2.5)]
+    if combined(job):   # 31 Oct standard: ONE file = English -> Latin, then the Latin alone twice
+        lat = [(fclip(vla, conv(la)), job.get('pause_latin_only', 0.6)) for en, la in job['pairs']]
+        seq[-1] = (seq[-1][0], 4.0)
+        for k in range(2):
+            seq += lat[:-1] + [(lat[-1][0], 3.0)]
     voice, ev = audio.sequence(seq)
     x = audio.mix_music(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -7), job.get('music_dip_db', 7))
     eps = json.load(open('episodes.json'))
@@ -419,7 +430,7 @@ def run_drill(job):
     subprocess.run([sys.executable, 'build_feed.py', BASE], check=True)
     log('built', fn, f'{len(x) / audio.SR / 60:.1f} min')
     files = [fn]
-    if not job.get('latin_only') and job.get('with_latin_only', True):   # every ladder also gets a Latin-only track (24 Oct)
+    if not job.get('latin_only') and not combined(job) and job.get('with_latin_only', True):   # old way (24 Oct): a separate Latin-only track
         files += run_drill(latin_only_variant(job))['files']
     return {'files': files}
 
@@ -461,7 +472,7 @@ def run_drill_eleven(job):
     n = int(job.get('repeat', 2)); seq = []
     for k in range(n):
         seq += items[:-1] + [(items[-1][0], 2.5)]
-    if job.get('combined'):   # 30 Oct: ONE file = English -> Latin once, then the Latin alone twice
+    if combined(job):   # 30 Oct, standard from 31 Oct: ONE file = English -> Latin, then the Latin alone twice
         lat = [(eclip(smart(la)), job.get('pause_latin_only', 0.6)) for en, la in job['pairs']]
         seq[-1] = (seq[-1][0], 4.0)
         for k in range(2):
@@ -484,7 +495,7 @@ def run_drill_eleven(job):
     subprocess.run([sys.executable, 'build_feed.py', BASE], check=True)
     log('built', fn, f'{len(x) / audio.SR / 60:.1f} min', f'(spent about {cost} credits)')
     files = [fn]
-    if not job.get('latin_only') and not job.get('combined') and job.get('with_latin_only', True):
+    if not job.get('latin_only') and not combined(job) and job.get('with_latin_only', True):
         files += run_drill_eleven(latin_only_variant(job))['files']
     return {'files': files}
 
@@ -538,24 +549,27 @@ def run_bible(job):
     k = min(range(len(cum)), key=lambda i: abs(cum[i] - target)) + 1
     chs = chs[:k]; last = chs[-1][0]['n']
     span = f"{job['book_en']} {chs[0][0]['n']}" + (f"–{last}" if last != chs[0][0]['n'] else '')
-    # Latin only, twice through (his rule, 29 Oct)
-    seq = []
+    mus = lambda v, e: audio.mix_music(v, e, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -7), job.get('music_dip_db', 7))
+    lat = []   # the Latin, twice through (his rule, 29 Oct)
     for rnd in range(2):
         for ch, head_la, vl in chs:
-            seq += [(head_la, PH)] + [(c, PL) for c in vl]
-        seq[-1] = (seq[-1][0], 3.0)
-    voice, ev = audio.sequence(seq)
-    mus = lambda v, e: audio.mix_music(v, e, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -7), job.get('music_dip_db', 7))
+            lat += [(head_la, PH)] + [(c, PL) for c in vl]
+        lat[-1] = (lat[-1][0], 3.0)
+    el = []    # English then Latin, verse by verse
+    for ch, head_la, vl in chs:
+        el += [(fclip(ven, ch['head_en']), PE), (head_la, PH)]
+        for v, c in zip(ch['verses'], vl):
+            el += [(fclip(ven, v[0]), PE), (c, PV)]
+    if combined(job) and not job.get('only_latin'):   # 31 Oct standard: one file
+        el[-1] = (el[-1][0], 4.0)
+        voice, ev = audio.sequence(el + lat)
+        f = save_track(mus(voice, ev), job['slug'], f"Bible · {span} · English → Latin, then Latin × 2", job.get('summary', ''))
+        return {'files': [f], 'chapters': k}
+    voice, ev = audio.sequence(lat)
     f1 = save_track(mus(voice, ev), job['slug'] + job.get('latin_suffix', '-latina'), f"Bible · {span} · Latin only (× 2)", f"Latin only, twice through. {job.get('summary', '')}")
     if job.get('only_latin'):
         return {'files': [f1], 'chapters': k}
-    # English then Latin
-    seq = []
-    for ch, head_la, vl in chs:
-        seq += [(fclip(ven, ch['head_en']), PE), (head_la, PH)]
-        for v, c in zip(ch['verses'], vl):
-            seq += [(fclip(ven, v[0]), PE), (c, PV)]
-    voice, ev = audio.sequence(seq)
+    voice, ev = audio.sequence(el)
     f2 = save_track(mus(voice, ev), job['slug'], f"Bible · {span} · English → Latin", job.get('summary', ''))
     return {'files': [f2, f1], 'chapters': k}
 

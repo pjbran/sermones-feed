@@ -71,7 +71,7 @@ His strong words get no points. They are the glue and they come back anyway.
 ## 4c. Patrick, 30 Oct 7:33 pm
 - **NEVER rīdeō / rīsus / rīdet** ("I despise, utterly despise hearing 'ridet'").
 - Fewer office / nova Latina words; aim at A2–B1 (richer classical vocabulary and structures: ablative absolute, characteristic clauses, gerundives, quasi + subjunctive), still the pyramid rules.
-- **ONE file per ladder (`combined: true`):** English → Latin once, then the Latin alone twice, all in one MP3. No separate Latin-only track.
+- **ONE file per track = THE STANDARD (31 Oct 14:04: "I love having all the audio on one file — English-Latin, Latin Latin. Do that as the standard now"):** English → Latin once, then the Latin alone twice, all in one MP3. Default ON in run_jobs.py (`combined()`) for every drill (free or ElevenLabs) and Bible job; `"combined": false` gives the old two files.
 
 ## 5. Fixed format (back to the Ep 1 recipe, confirmed 19 Oct)
 
