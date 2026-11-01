@@ -14,7 +14,20 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Sun, 01 Nov 2026 03:01:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 03:34:05 +0000</lastBuildDate>
+    <item>
+      <title>Grammar 2 · Sentences inside sentences (quī, quem, dīcit Mārcum venīre)</title>
+      <description>The Grammar series, episode two: who and which (quī, quae, quod), the quī / quem trap, quod as which or because, and says that (dīcō, putō, sciō, spērō, negō + Mārcum venīre). Examples first, a short rule, pyramids, both tools together, an ear quiz, and the Latin alone twice. Starring Sextus, who drinks my coffee. Iulia's voice.</description>
+      <itunes:summary>The Grammar series, episode two: who and which (quī, quae, quod), the quī / quem trap, quod as which or because, and says that (dīcō, putō, sciō, spērō, negō + Mārcum venīre). Examples first, a short rule, pyramids, both tools together, an ear quiz, and the Latin alone twice. Starring Sextus, who drinks my coffee. Iulia's voice.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-grammatica-2-sentences-inside.mp3" length="22703993" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-bonus-grammatica-2-sentences-inside.mp3</guid>
+      <pubDate>Sun, 01 Nov 2026 14:33:34 +1100</pubDate>
+      <itunes:duration>31:20</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>52</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Grammar 1 · Link words (cum, quod, sī, quamquam)</title>
       <description>The Grammar series, episode one: four little words that glue sentences together. When (cum, ubi, postquam), because (quod, quia), if / unless (sī, nisi), although (quamquam … tamen). Examples first, a short rule, a pyramid for each, then swap the link, an ear quiz, and the Latin alone twice. Iulia's voice.</description>
