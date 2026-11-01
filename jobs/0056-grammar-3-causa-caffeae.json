@@ -1,0 +1,1056 @@
+{
+ "type": "grammar",
+ "engine": "eleven",
+ "voice": "F",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "music": "v5",
+ "max_credits": 15000,
+ "keep_credits": 2000,
+ "slug": "grammatica-3-causa-caffeae",
+ "title": "Grammar 3 · All the traps: the case of the coffee",
+ "summary": "The Grammar series, episode three: all six patterns mixed, and five traps (cum = when or with; quam = which or than; quī or quem; sī, nisi or quamquam; says that, not tells to). Then the case of the coffee: Gaius the boss is the judge, and every line uses a tool you know. A grand swap, a big ear quiz, and the Latin alone twice. Iulia's voice.",
+ "lines": [
+  [
+   "t",
+   "{Salvē!} Welcome back to the Grammar series. Episode three: all the tools, and all the traps."
+  ],
+  [
+   "t",
+   "Warm-up first. The link words."
+  ],
+  [
+   "p",
+   "When I am tired, I drink coffee.",
+   "Cum fessus sum, caffeam bibō."
+  ],
+  [
+   "p",
+   "I am angry because my colleague drinks my coffee.",
+   "Īrātus sum quod collēga caffeam meam bibit."
+  ],
+  [
+   "p",
+   "Unless I hurry, my colleague drinks my coffee.",
+   "Nisi festīnō, collēga caffeam meam bibit."
+  ],
+  [
+   "p",
+   "Although the coffee is mine, my colleague still drinks it.",
+   "Quamquam caffea mea est, collēga tamen eam bibit."
+  ],
+  [
+   "t",
+   "And sentences inside sentences."
+  ],
+  [
+   "p",
+   "The colleague who drinks my coffee is Sextus.",
+   "Collēga quī caffeam meam bibit Sextus est."
+  ],
+  [
+   "p",
+   "Sextus drinks the coffee which I bought.",
+   "Sextus caffeam quam ego ēmī bibit."
+  ],
+  [
+   "p",
+   "I know that Sextus drinks my coffee.",
+   "Sciō Sextum caffeam meam bibere."
+  ],
+  [
+   "p",
+   "Sextus says that the coffee is his.",
+   "Sextus dīcit caffeam suam esse."
+  ],
+  [
+   "t",
+   "Today: five traps, then the case of the coffee. Who is telling the truth?"
+  ],
+  [
+   "t",
+   "Trap one. {Cum}: when, or with?"
+  ],
+  [
+   "t",
+   "You know {cum} as with. Today it is also when. Here is the test."
+  ],
+  [
+   "t",
+   "{Cum} plus one noun, often ending in {ō}, {ā}, {e} or {īs}: with. {Cum} plus a whole mini-sentence with its own verb: when. Listen for the verb. That is the surest test."
+  ],
+  [
+   "p",
+   "I walk with a friend.",
+   "Cum amīcō ambulō."
+  ],
+  [
+   "p",
+   "When my friend comes, I am happy.",
+   "Cum amīcus venit, laetus sum."
+  ],
+  [
+   "p",
+   "I drink tea with milk.",
+   "Theam cum lacte bibō."
+  ],
+  [
+   "p",
+   "When I drink tea, I am happy.",
+   "Cum theam bibō, laetus sum."
+  ],
+  [
+   "p",
+   "Julia walks in the garden with the dog.",
+   "Iūlia cum cane in hortō ambulat."
+  ],
+  [
+   "p",
+   "When the dog sits near the door, I take it into the garden.",
+   "Cum canis prope iānuam sedet, eum in hortum dūcō."
+  ],
+  [
+   "t",
+   "Now with our office."
+  ],
+  [
+   "p",
+   "I drink coffee with Claudia.",
+   "Caffeam cum Claudiā bibō."
+  ],
+  [
+   "p",
+   "When Claudia makes coffee, Sextus comes.",
+   "Cum Claudia caffeam parat, Sextus venit."
+  ],
+  [
+   "p",
+   "When Claudia makes coffee, Sextus comes at once.",
+   "Cum Claudia caffeam parat, Sextus statim venit."
+  ],
+  [
+   "p",
+   "Sextus never comes with coffee.",
+   "Sextus numquam cum caffeā venit."
+  ],
+  [
+   "t",
+   "Spot it: after {cum}, do you hear a verb before the comma? Then it is when."
+  ],
+  [
+   "t",
+   "Build it. Watch the {cum} change its job."
+  ],
+  [
+   "p",
+   "With Claudia...",
+   "Cum Claudiā..."
+  ],
+  [
+   "p",
+   "I drink coffee with Claudia.",
+   "Caffeam cum Claudiā bibō."
+  ],
+  [
+   "p",
+   "When Claudia comes...",
+   "Cum Claudia venit..."
+  ],
+  [
+   "p",
+   "When Claudia comes, I drink coffee with her.",
+   "Cum Claudia venit, caffeam cum eā bibō."
+  ],
+  [
+   "p",
+   "When Sextus comes, I drink my coffee quickly.",
+   "Cum Sextus venit, caffeam meam celeriter bibō."
+  ],
+  [
+   "t",
+   "Quick check. When, or with?"
+  ],
+  [
+   "q",
+   "Cum amīcīs cēnō.",
+   "I have dinner with friends."
+  ],
+  [
+   "q",
+   "Cum amīcī veniunt, cēnam bonam coquō.",
+   "When my friends come, I cook a good dinner."
+  ],
+  [
+   "q",
+   "Cum caput dolet, medicīnam capiō.",
+   "When my head hurts, I take medicine."
+  ],
+  [
+   "t",
+   "Trap two. {Quam}: whom or which, or than?"
+  ],
+  [
+   "t",
+   "After a woman or a feminine noun, {quam} means whom or which. After better, bigger, more, it means than."
+  ],
+  [
+   "p",
+   "The coffee which Claudia makes...",
+   "Caffea quam Claudia parat..."
+  ],
+  [
+   "p",
+   "The coffee which Claudia makes is better.",
+   "Caffea quam Claudia parat melior est."
+  ],
+  [
+   "p",
+   "This coffee is better than mine.",
+   "Haec caffea melior est quam mea."
+  ],
+  [
+   "p",
+   "The coffee which Claudia makes is better than mine.",
+   "Caffea quam Claudia parat melior est quam mea."
+  ],
+  [
+   "t",
+   "{Quam} twice in one sentence. The first one: which. The second one, after {melior}: than."
+  ],
+  [
+   "p",
+   "I think that this hot coffee is better than that cold one.",
+   "Putō hanc caffeam calidam meliōrem esse quam illam frīgidam."
+  ],
+  [
+   "p",
+   "Sextus drinks more coffee than I.",
+   "Sextus plūs caffeae bibit quam ego."
+  ],
+  [
+   "p",
+   "The girl whom Marcus helps is Julia.",
+   "Puella quam Mārcus adiuvat Iūlia est."
+  ],
+  [
+   "p",
+   "Julia is wiser than Marcus.",
+   "Iūlia sapientior est quam Mārcus."
+  ],
+  [
+   "t",
+   "Quick check. Which, or than?"
+  ],
+  [
+   "q",
+   "Caffeam dulcem quam Iūlia parāvit valdē amō.",
+   "I really love the sweet coffee that Julia made."
+  ],
+  [
+   "q",
+   "Haec caffea melior est quam mea.",
+   "This coffee is better than mine."
+  ],
+  [
+   "q",
+   "Epistulam longam quam Gāius mīsit Flāvia nōndum lēgit.",
+   "Flavia has not yet read the long email that Gaius sent."
+  ],
+  [
+   "t",
+   "Trap three. {Quī} or {quem}. Who does it, and who gets it. Quick pairs."
+  ],
+  [
+   "p",
+   "The friend who helps the colleague...",
+   "Amīcus quī collēgam adiuvat..."
+  ],
+  [
+   "p",
+   "The friend whom the colleague helps...",
+   "Amīcus quem collēga adiuvat..."
+  ],
+  [
+   "p",
+   "The teacher who praises the students...",
+   "Magister quī discipulōs laudat..."
+  ],
+  [
+   "p",
+   "The students whom the teacher praises are glad.",
+   "Discipulī quōs magister laudat gaudent."
+  ],
+  [
+   "p",
+   "The colleague who drinks my coffee...",
+   "Collēga quī caffeam meam bibit..."
+  ],
+  [
+   "p",
+   "The colleague whom I blame...",
+   "Collēga quem culpō..."
+  ],
+  [
+   "p",
+   "The colleague whom I blame is Sextus.",
+   "Collēga quem culpō Sextus est."
+  ],
+  [
+   "t",
+   "With {quem}, look for the one who does it: a new name, or a verb ending like {ō}, I."
+  ],
+  [
+   "t",
+   "Quick check. Who does it?"
+  ],
+  [
+   "q",
+   "Medicus quī senem cūrat sapiēns est.",
+   "The doctor who looks after the old man is wise."
+  ],
+  [
+   "q",
+   "Advocātus quem iūdex culpat anxius est.",
+   "The lawyer whom the judge blames is worried."
+  ],
+  [
+   "q",
+   "Puella amīcum quī novum computātrum habet saepe adiuvat.",
+   "The girl often helps the friend who has a new computer."
+  ],
+  [
+   "q",
+   "Discipulus quem magister quaerit in culīnā est.",
+   "The student whom the teacher is looking for is in the kitchen."
+  ],
+  [
+   "t",
+   "Trap four. If, unless, although. One letter changes the story."
+  ],
+  [
+   "p",
+   "If I hurry, I catch the train.",
+   "Sī festīnō, trāmen capiō."
+  ],
+  [
+   "p",
+   "Unless I hurry, I miss the train.",
+   "Nisi festīnō, trāmen āmittō."
+  ],
+  [
+   "p",
+   "Although I hurry, I miss the train.",
+   "Quamquam festīnō, trāmen āmittō."
+  ],
+  [
+   "t",
+   "{Sī}: if. {Nisi}: unless, if not. {Quamquam}: although. It is true, but still."
+  ],
+  [
+   "p",
+   "If Sextus is in the office, I drink my coffee quickly.",
+   "Sī Sextus in officiō est, caffeam meam celeriter bibō."
+  ],
+  [
+   "p",
+   "Unless Sextus is ill, he comes to the office every day.",
+   "Nisi aeger est, Sextus cotīdiē in officium venit."
+  ],
+  [
+   "p",
+   "Although Sextus is ill, he still drinks my coffee.",
+   "Quamquam Sextus aeger est, tamen caffeam meam bibit."
+  ],
+  [
+   "t",
+   "And with the weather."
+  ],
+  [
+   "p",
+   "If it does not rain, we eat outside.",
+   "Sī pluvia nōn cadit, forīs cēnāmus."
+  ],
+  [
+   "p",
+   "Although it is raining, we eat outside.",
+   "Quamquam pluvia cadit, forīs cēnāmus."
+  ],
+  [
+   "p",
+   "Unless the weather is good, we eat at home.",
+   "Nisi tempestās bona est, domī cēnāmus."
+  ],
+  [
+   "t",
+   "Quick check. If, unless, or although?"
+  ],
+  [
+   "q",
+   "Nisi pecūniam habeō, nihil emō.",
+   "Unless I have money, I buy nothing."
+  ],
+  [
+   "q",
+   "Quamquam Gāius pecūniam habet, rārō vīnum emit.",
+   "Although Gaius has money, he rarely buys wine."
+  ],
+  [
+   "q",
+   "Sī satis pecūniae habēmus, crās novum computātrum emimus.",
+   "If we have enough money, we buy a new computer tomorrow."
+  ],
+  [
+   "t",
+   "Trap five. Says that. Not: tells to."
+  ],
+  [
+   "t",
+   "{Iūlia dīcit Titum carnem coquere}. Who is cooking? Titus is. Julia only reports it. She does not give an order."
+  ],
+  [
+   "p",
+   "Julia says that Titus is cooking meat in the kitchen.",
+   "Iūlia dīcit Titum in culīnā carnem coquere."
+  ],
+  [
+   "p",
+   "Our teacher says that we are learning many new words today.",
+   "Magister noster dīcit nōs hodiē multa nova verba discere."
+  ],
+  [
+   "p",
+   "Claudia says that Sextus is drinking my coffee.",
+   "Claudia dīcit Sextum caffeam meam bibere."
+  ],
+  [
+   "t",
+   "Not: Claudia tells Sextus to drink it. She would never do that."
+  ],
+  [
+   "t",
+   "And {negō} carries the not inside it."
+  ],
+  [
+   "p",
+   "Sextus says that he is not drinking my coffee.",
+   "Sextus negat sē caffeam meam bibere."
+  ],
+  [
+   "p",
+   "Flavia says that the new program on my computer is not useful.",
+   "Flāvia negat novum programma in computātrō meō ūtile esse."
+  ],
+  [
+   "t",
+   "And watch who is who. The first name says it. The name in the object form does it."
+  ],
+  [
+   "p",
+   "Marcus says that Julia is coming.",
+   "Mārcus dīcit Iūliam venīre."
+  ],
+  [
+   "p",
+   "Julia says that Marcus is coming.",
+   "Iūlia dīcit Mārcum venīre."
+  ],
+  [
+   "p",
+   "Sextus thinks that Claudia makes the coffee.",
+   "Sextus putat Claudiam caffeam parāre."
+  ],
+  [
+   "p",
+   "Claudia thinks that Sextus drinks the coffee.",
+   "Claudia putat Sextum caffeam bibere."
+  ],
+  [
+   "t",
+   "Quick check. Who does what?"
+  ],
+  [
+   "q",
+   "Gāius scit tē hāc hebdomade occupātum esse.",
+   "Gaius knows that you are busy this week."
+  ],
+  [
+   "q",
+   "Claudia scit mē nunc epistulam longam scrībere.",
+   "Claudia knows that I am writing a long email now."
+  ],
+  [
+   "q",
+   "Aemilia dīcit discipulōs suōs rēgulās celeriter discere.",
+   "Aemilia says that her students learn the rules quickly."
+  ],
+  [
+   "t",
+   "And now: the case of the coffee. Today, Gaius, our boss, is the judge. Every line uses a tool you know."
+  ],
+  [
+   "p",
+   "Today in the office Gaius is the judge.",
+   "Hodiē in officiō Gāius iūdex est."
+  ],
+  [
+   "p",
+   "First I speak.",
+   "Prīmum ego loquor."
+  ],
+  [
+   "p",
+   "I say that Sextus drinks my coffee.",
+   "Dīcō Sextum caffeam meam bibere."
+  ],
+  [
+   "p",
+   "I say that Sextus drinks my coffee every day.",
+   "Dīcō Sextum caffeam meam cotīdiē bibere."
+  ],
+  [
+   "p",
+   "When I come into the office, my coffee is not there.",
+   "Cum in officium veniō, caffea mea nōn adest."
+  ],
+  [
+   "p",
+   "Unless I hurry, Sextus drinks it.",
+   "Nisi festīnō, Sextus eam bibit."
+  ],
+  [
+   "p",
+   "The coffee which I buy, Sextus drinks.",
+   "Caffeam quam ego emō Sextus bibit."
+  ],
+  [
+   "p",
+   "Then Sextus speaks.",
+   "Tum Sextus loquitur."
+  ],
+  [
+   "p",
+   "Sextus says that the coffee is his.",
+   "Sextus dīcit caffeam suam esse."
+  ],
+  [
+   "p",
+   "Sextus says: the coffee is mine, because I bought it.",
+   "Sextus dīcit: Caffea mea est, quod eam ēmī."
+  ],
+  [
+   "p",
+   "He says that I am wrong.",
+   "Dīcit mē errāre."
+  ],
+  [
+   "p",
+   "He says that I am wrong, and that I am tired.",
+   "Dīcit mē errāre et fessum esse."
+  ],
+  [
+   "p",
+   "Then Claudia speaks.",
+   "Tum Claudia loquitur."
+  ],
+  [
+   "p",
+   "Claudia is the colleague who makes the coffee.",
+   "Claudia est collēga quae caffeam parat."
+  ],
+  [
+   "p",
+   "Claudia says that Sextus never buys coffee.",
+   "Claudia dīcit Sextum numquam caffeam emere."
+  ],
+  [
+   "p",
+   "Claudia says that she makes the coffee which Sextus drinks.",
+   "Claudia dīcit sē caffeam quam Sextus bibit parāre."
+  ],
+  [
+   "p",
+   "Claudia says: although Sextus says that he buys coffee, he still never buys it.",
+   "Claudia dīcit: Quamquam Sextus dīcit sē caffeam emere, tamen numquam eam emit."
+  ],
+  [
+   "p",
+   "Sextus speaks again.",
+   "Sextus iterum loquitur."
+  ],
+  [
+   "p",
+   "Sextus says that Claudia is wrong.",
+   "Sextus dīcit Claudiam errāre."
+  ],
+  [
+   "p",
+   "Sextus says that he buys coffee every day.",
+   "Sextus dīcit sē cotīdiē caffeam emere."
+  ],
+  [
+   "p",
+   "Claudia says that this is not true.",
+   "Claudia negat hoc vērum esse."
+  ],
+  [
+   "p",
+   "I too say that this is not true.",
+   "Ego quoque negō hoc vērum esse."
+  ],
+  [
+   "p",
+   "So who is telling the truth?",
+   "Quis igitur vērum dīcit?"
+  ],
+  [
+   "p",
+   "Gaius thinks.",
+   "Gāius cōgitat."
+  ],
+  [
+   "p",
+   "Gaius thinks for a long time.",
+   "Gāius diū cōgitat."
+  ],
+  [
+   "p",
+   "When Gaius thinks, he drinks coffee.",
+   "Cum Gāius cōgitat, caffeam bibit."
+  ],
+  [
+   "p",
+   "Which coffee?",
+   "Quam caffeam?"
+  ],
+  [
+   "t",
+   "Here {quam} asks a question: which?"
+  ],
+  [
+   "p",
+   "The coffee which is on the table.",
+   "Caffeam quae in mēnsā est."
+  ],
+  [
+   "p",
+   "My coffee.",
+   "Caffeam meam."
+  ],
+  [
+   "p",
+   "After Gaius has drunk my coffee, he says:",
+   "Postquam Gāius caffeam meam bibit, dīcit:"
+  ],
+  [
+   "p",
+   "The coffee is excellent.",
+   "Caffea optima est."
+  ],
+  [
+   "p",
+   "The judge says that the coffee is excellent.",
+   "Iūdex dīcit caffeam optimam esse."
+  ],
+  [
+   "p",
+   "And now there is no coffee.",
+   "Et nunc nūlla caffea est."
+  ],
+  [
+   "p",
+   "The judge says that there is no coffee now.",
+   "Iūdex dīcit nūllam caffeam nunc esse."
+  ],
+  [
+   "p",
+   "So the judge blames nobody.",
+   "Itaque iūdex nēminem culpat."
+  ],
+  [
+   "p",
+   "Because there is no coffee, everyone is sad.",
+   "Quod nūlla caffea est, omnēs trīstēs sunt."
+  ],
+  [
+   "p",
+   "But Gaius is happy.",
+   "Sed Gāius laetus est."
+  ],
+  [
+   "p",
+   "Gaius is happy because he drank my coffee.",
+   "Gāius laetus est quod caffeam meam bibit."
+  ],
+  [
+   "t",
+   "The verdict."
+  ],
+  [
+   "p",
+   "The colleague who drank my coffee today is not Sextus.",
+   "Collēga quī caffeam meam hodiē bibit nōn Sextus est."
+  ],
+  [
+   "p",
+   "The colleague who drank my coffee today is the judge.",
+   "Collēga quī caffeam meam hodiē bibit iūdex est."
+  ],
+  [
+   "p",
+   "Although Gaius is the judge, he drank my coffee.",
+   "Quamquam Gāius iūdex est, caffeam meam bibit."
+  ],
+  [
+   "p",
+   "Now I know that the judge drinks my coffee too.",
+   "Nunc sciō iūdicem quoque caffeam meam bibere."
+  ],
+  [
+   "t",
+   "Grand swap. One plain fact, through all six tools."
+  ],
+  [
+   "p",
+   "Sextus drinks my coffee.",
+   "Sextus caffeam meam bibit."
+  ],
+  [
+   "p",
+   "When Sextus drinks my coffee, I am angry.",
+   "Cum Sextus caffeam meam bibit, īrātus sum."
+  ],
+  [
+   "p",
+   "Because Sextus drinks my coffee, I buy more.",
+   "Quod Sextus caffeam meam bibit, plūs emō."
+  ],
+  [
+   "p",
+   "If Sextus drinks my coffee, I give him nothing.",
+   "Sī Sextus caffeam meam bibit, eī nihil dō."
+  ],
+  [
+   "p",
+   "Although Sextus drinks my coffee, he is still my friend.",
+   "Quamquam Sextus caffeam meam bibit, tamen amīcus meus est."
+  ],
+  [
+   "p",
+   "The colleague who drinks my coffee is Sextus.",
+   "Collēga quī caffeam meam bibit Sextus est."
+  ],
+  [
+   "p",
+   "The coffee which Sextus drinks is mine.",
+   "Caffea quam Sextus bibit mea est."
+  ],
+  [
+   "p",
+   "Claudia says that Sextus drinks my coffee.",
+   "Claudia dīcit Sextum caffeam meam bibere."
+  ],
+  [
+   "t",
+   "Same fact. Seven frames, six tools. Who and which are one tool. That is the whole series in one breath."
+  ],
+  [
+   "t",
+   "Once more, with Claudia."
+  ],
+  [
+   "p",
+   "Claudia makes the coffee.",
+   "Claudia caffeam parat."
+  ],
+  [
+   "p",
+   "When Claudia makes the coffee, everyone is happy.",
+   "Cum Claudia caffeam parat, omnēs laetī sunt."
+  ],
+  [
+   "p",
+   "Because Claudia makes the coffee, it is excellent.",
+   "Quod Claudia caffeam parat, optima est."
+  ],
+  [
+   "p",
+   "If Claudia makes the coffee, Sextus comes at once.",
+   "Sī Claudia caffeam parat, Sextus statim venit."
+  ],
+  [
+   "p",
+   "Unless Claudia makes the coffee, nobody drinks it.",
+   "Nisi Claudia caffeam parat, nēmō eam bibit."
+  ],
+  [
+   "p",
+   "Although Claudia makes the coffee, Sextus says that he makes it.",
+   "Quamquam Claudia caffeam parat, Sextus dīcit sē eam parāre."
+  ],
+  [
+   "p",
+   "The colleague who makes the coffee is Claudia.",
+   "Collēga quae caffeam parat Claudia est."
+  ],
+  [
+   "p",
+   "The coffee which Claudia makes is better than mine.",
+   "Caffea quam Claudia parat melior est quam mea."
+  ],
+  [
+   "p",
+   "Everyone knows that Claudia makes the coffee.",
+   "Omnēs sciunt Claudiam caffeam parāre."
+  ],
+  [
+   "t",
+   "The big ear quiz. All six patterns, mixed, with traps. Latin, a pause, then the answer."
+  ],
+  [
+   "q",
+   "Cum aestās est, saepe in marī natō.",
+   "When it is summer, I often swim in the sea."
+  ],
+  [
+   "q",
+   "Ubi magister intrāvit, discipulī tacuērunt.",
+   "When the teacher came in, the students went quiet."
+  ],
+  [
+   "q",
+   "Postquam Mārcus in oppidum advēnit, ad mercātum festīnāvit.",
+   "After Marcus arrived in town, he hurried to the market."
+  ],
+  [
+   "q",
+   "Theam cum lacte bibō.",
+   "I drink tea with milk."
+  ],
+  [
+   "q",
+   "Tē laudō quod bene cantās.",
+   "I praise you because you sing well."
+  ],
+  [
+   "q",
+   "Iānuam claudō quia frīgus intrat.",
+   "I close the door because the cold is coming in."
+  ],
+  [
+   "q",
+   "Vīnum rubrum quod Mārcus ēmit vesperī bibimus.",
+   "In the evening we drink the red wine that Marcus bought."
+  ],
+  [
+   "q",
+   "Gāius īrātus est quia clāvem iterum āmīsit.",
+   "Gaius is angry because he lost the key again."
+  ],
+  [
+   "q",
+   "Sī linguam discis, multa intellegis.",
+   "If you learn the language, you understand a lot."
+  ],
+  [
+   "q",
+   "Sī magister abest, discipulī in scholā lūdunt.",
+   "If the teacher is away, the students play at school."
+  ],
+  [
+   "q",
+   "Nisi aeger est, Titus cotīdiē in gymnasium it.",
+   "Unless he is ill, Titus goes to the gym every day."
+  ],
+  [
+   "q",
+   "Quamquam vīcīnus clāmat, canis quiētus dormit.",
+   "Although the neighbour is shouting, the dog sleeps calmly."
+  ],
+  [
+   "q",
+   "Quamquam media nox est, Quīntus adhūc studet.",
+   "Although it is midnight, Quintus is still studying."
+  ],
+  [
+   "q",
+   "Quamquam Titus in scholā saepe rogat, magister numquam respondet.",
+   "Although Titus often asks in class, the teacher never answers."
+  ],
+  [
+   "q",
+   "Canis albus quem puer sequitur parvus est.",
+   "The white dog that the boy follows is small."
+  ],
+  [
+   "q",
+   "Canis niger quem puella amat cotīdiē in hortō lūdit.",
+   "The black dog that the girl loves plays in the garden every day."
+  ],
+  [
+   "q",
+   "Fēmina medicum quī in oppidō nostrō habitat nōn agnōscit.",
+   "The woman does not recognise the doctor who lives in our town."
+  ],
+  [
+   "q",
+   "Aemilia imāginem pulchram quam artifex pīnxit in mūsēō spectat.",
+   "In the museum Aemilia is looking at the beautiful picture that the artist painted."
+  ],
+  [
+   "q",
+   "Videō canem tuum in marī libenter natāre.",
+   "I see that your dog swims happily in the sea."
+  ],
+  [
+   "q",
+   "Lūcius putat nōs post prandium birotā in mercātum īre.",
+   "Lucius thinks that we are going to the market by bike after lunch."
+  ],
+  [
+   "q",
+   "Titus crēdit omnēs amīcōs suōs ad fēstum venīre.",
+   "Titus believes that all his friends are coming to the feast."
+  ],
+  [
+   "q",
+   "Mārcus dīcit Iūliam cotīdiē cum cane in hortō ambulāre.",
+   "Marcus says that Julia walks in the garden with the dog every day."
+  ],
+  [
+   "q",
+   "Sī Lūcius sitim habet, eī theam dō.",
+   "If Lucius is thirsty, I give him tea."
+  ],
+  [
+   "q",
+   "Quamquam thea calida est, Claudia statim bibit.",
+   "Although the tea is hot, Claudia drinks it at once."
+  ],
+  [
+   "q",
+   "Cum Claudia caffeam parat, Sextus statim venit.",
+   "When Claudia makes coffee, Sextus comes at once."
+  ],
+  [
+   "q",
+   "Caffea quam Claudia parat melior est quam mea.",
+   "The coffee which Claudia makes is better than mine."
+  ],
+  [
+   "q",
+   "Quia trāmen hodiē nōn venit, birotā ad ūniversitātem vehor.",
+   "Because the train is not coming today, I am riding my bike to the university."
+  ],
+  [
+   "q",
+   "Quod herī diū labōrāvī, hodiē in lectō quiēscō.",
+   "Because I worked for a long time yesterday, I am resting in bed today."
+  ],
+  [
+   "q",
+   "Sī hanc lēctiōnem nōn intellēxistī, magister eam iterum explicat.",
+   "If you did not understand this lesson, the teacher explains it again."
+  ],
+  [
+   "q",
+   "Quamquam omnēs rēgulās nōndum sciō, librōs Latīnōs tamen legō.",
+   "Although I do not yet know all the rules, I still read Latin books."
+  ],
+  [
+   "q",
+   "Ubi computātrum māne aperuī, multās epistulās invēnī.",
+   "When I opened the computer in the morning, I found many emails."
+  ],
+  [
+   "q",
+   "Collēgae hominem quī tēlephōnum invēnit laudant.",
+   "The colleagues praise the person who found the phone."
+  ],
+  [
+   "q",
+   "Audīvī Flāviam novum mūnus in argentāriā habēre.",
+   "I heard that Flavia has a new job at the bank."
+  ],
+  [
+   "q",
+   "Sextus negat sē caffeam meam bibere.",
+   "Sextus says that he is not drinking my coffee."
+  ],
+  [
+   "t",
+   "Recap. First, the five traps."
+  ],
+  [
+   "p",
+   "I drink coffee with Claudia.",
+   "Caffeam cum Claudiā bibō."
+  ],
+  [
+   "p",
+   "The coffee which Claudia makes is better than mine.",
+   "Caffea quam Claudia parat melior est quam mea."
+  ],
+  [
+   "p",
+   "The colleague whom I blame is Sextus.",
+   "Collēga quem culpō Sextus est."
+  ],
+  [
+   "p",
+   "Although I hurry, I miss the train.",
+   "Quamquam festīnō, trāmen āmittō."
+  ],
+  [
+   "p",
+   "Claudia says that Sextus is drinking my coffee.",
+   "Claudia dīcit Sextum caffeam meam bibere."
+  ],
+  [
+   "t",
+   "And six tools, one line each."
+  ],
+  [
+   "p",
+   "When Claudia makes coffee, Sextus comes at once.",
+   "Cum Claudia caffeam parat, Sextus statim venit."
+  ],
+  [
+   "p",
+   "Gaius is happy because he drank my coffee.",
+   "Gāius laetus est quod caffeam meam bibit."
+  ],
+  [
+   "p",
+   "Unless I hurry, Sextus drinks it.",
+   "Nisi festīnō, Sextus eam bibit."
+  ],
+  [
+   "p",
+   "Although Gaius is the judge, he drank my coffee.",
+   "Quamquam Gāius iūdex est, caffeam meam bibit."
+  ],
+  [
+   "p",
+   "The colleague who drank my coffee today is the judge.",
+   "Collēga quī caffeam meam hodiē bibit iūdex est."
+  ],
+  [
+   "p",
+   "Claudia says that Sextus never buys coffee.",
+   "Claudia dīcit Sextum numquam caffeam emere."
+  ],
+  [
+   "t",
+   "The case is closed. But tomorrow, Gaius has a meeting."
+  ],
+  [
+   "p",
+   "Tomorrow Gaius has a meeting about the coffee.",
+   "Crās Gāius conventum dē caffeā habet."
+  ],
+  [
+   "t",
+   "A meeting about the coffee. With Gaius, that can only end one way. {Valē!} Now the Latin alone, twice."
+  ]
+ ]
+}
