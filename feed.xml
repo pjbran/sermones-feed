@@ -14,7 +14,20 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Sun, 01 Nov 2026 03:34:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 04:34:22 +0000</lastBuildDate>
+    <item>
+      <title>Grammar 3 · All the traps: the case of the coffee</title>
+      <description>The Grammar series, episode three: all six patterns mixed, and five traps (cum = when or with; quam = which or than; quī or quem; sī, nisi or quamquam; says that, not tells to). Then the case of the coffee: Gaius the boss is the judge, and every line uses a tool you know. A grand swap, a big ear quiz, and the Latin alone twice. Iulia's voice.</description>
+      <itunes:summary>The Grammar series, episode three: all six patterns mixed, and five traps (cum = when or with; quam = which or than; quī or quem; sī, nisi or quamquam; says that, not tells to). Then the case of the coffee: Gaius the boss is the judge, and every line uses a tool you know. A grand swap, a big ear quiz, and the Latin alone twice. Iulia's voice.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-grammatica-3-causa-caffeae.mp3" length="30895212" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-bonus-grammatica-3-causa-caffeae.mp3</guid>
+      <pubDate>Sun, 01 Nov 2026 15:34:00 +1100</pubDate>
+      <itunes:duration>42:43</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>53</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Grammar 2 · Sentences inside sentences (quī, quem, dīcit Mārcum venīre)</title>
       <description>The Grammar series, episode two: who and which (quī, quae, quod), the quī / quem trap, quod as which or because, and says that (dīcō, putō, sciō, spērō, negō + Mārcum venīre). Examples first, a short rule, pyramids, both tools together, an ear quiz, and the Latin alone twice. Starring Sextus, who drinks my coffee. Iulia's voice.</description>
