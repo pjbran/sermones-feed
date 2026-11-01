@@ -14,7 +14,20 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Sun, 01 Nov 2026 02:40:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 03:01:58 +0000</lastBuildDate>
+    <item>
+      <title>Grammar 1 · Link words (cum, quod, sī, quamquam)</title>
+      <description>The Grammar series, episode one: four little words that glue sentences together. When (cum, ubi, postquam), because (quod, quia), if / unless (sī, nisi), although (quamquam … tamen). Examples first, a short rule, a pyramid for each, then swap the link, an ear quiz, and the Latin alone twice. Iulia's voice.</description>
+      <itunes:summary>The Grammar series, episode one: four little words that glue sentences together. When (cum, ubi, postquam), because (quod, quia), if / unless (sī, nisi), although (quamquam … tamen). Examples first, a short rule, a pyramid for each, then swap the link, an ear quiz, and the Latin alone twice. Iulia's voice.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-grammatica-1-link-words.mp3" length="15568961" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-bonus-grammatica-1-link-words.mp3</guid>
+      <pubDate>Sun, 01 Nov 2026 14:01:47 +1100</pubDate>
+      <itunes:duration>21:26</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>51</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Ladder 17 · Caesar et pīrātae (Caesar and the pirates)</title>
       <description>75 BC, a true story (Plutarch, Suetonius): pirates seize young Caesar off Miletus. Marcus writes from the pirates' island, Lucius from the harbour of Miletus, collecting the ransom Caesar himself raised from 20 to 50 talents. Poems, 'barbarians', a sworn promise. English → Latin, then the Latin twice. Iulia's voice.</description>
