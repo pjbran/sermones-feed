@@ -114,3 +114,11 @@ His strong words get no points. They are the glue and they come back anyway.
 - MP3s are NOT kept in the website any more (GitHub Pages limit about 1 GB). After each run, `pipeline/publish.py` uploads every new MP3 to the GitHub release `audio` and the feed points to `https://github.com/pjbran/sermones-feed/releases/download/audio/<file>`. Free, no real size limit.
 - Free tracks (ladders, pyramids, stories) are saved at 64 kbps mono (speech-friendly, about 60% smaller).
 - The "(old)" versions were removed on 26 Oct (Patrick: "do 123").
+
+## 4e. Grammar series (1 Nov 2026)
+- Separate from the stories: a teaching show, "Grammar 1, 2, 3 …". Job type `grammar` (lines: `t` talk with {Latin}, `p` English→Latin, `q` ear quiz Latin→pause→English).
+- Per pattern: hook → show-then-tell pairs (plain → pattern) → the app tip in 2–3 sentences → pyramid → ear quiz → recap.
+- About 30% English talk. Plain words, few grammar terms. Only his known words (reuse Forms > Patterns sentences). Present/perfect indicative only.
+- Funny examples (Office x Python), no plot; end on a teaser for the next episode. No rīdeō. Reviewer agent checks every script.
+- One file: the lesson, then every Latin line alone, twice. Iulia's voice (Flash).
+- Plan: 1 = link words (when, because, if, although) · 2 = quī/quae/quod + says-that · 3 = mixed review + traps.

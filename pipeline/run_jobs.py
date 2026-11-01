@@ -505,6 +505,71 @@ def run_drill_eleven(job):
     return {'files': files}
 
 
+# ---------------- grammar series (1 Nov 2026): English teaching + Latin pyramid, then the Latin alone twice ----------------
+def run_grammar(job):
+    """Patrick, 1 Nov: "a grammar intensive podcast ... English voice explanation of the grammar ... still utilises the
+    pyramid ideas". lines: ["t", talk with {Latin} in braces] | ["p", English, Latin] | ["q", Latin, English] (ear quiz:
+    Latin, pause, answer). One file: the lesson, then every p/q Latin line alone, twice (his one-file standard)."""
+    V = json.load(open('pipeline/voices.json')); V.update(job.get('voices', {}))
+    who = job.get('voice', 'F'); V = resolve_voices({who: V[who]}); vid = V[who]
+    st = job.get('stability', 0.5); mdl = job.get('model')
+    def key(t): return f'clips/{hashlib.sha1(f"{vid}|{t}|{st}|{mdl or ""}".encode()).hexdigest()[:16]}.mp3'
+    def talk_parts(s):   # "Spot it: {cum}, then ..." -> [("en","Spot it:"),("la","cum"),("en",", then ...")]
+        out = []
+        for i, seg in enumerate(re.split(r'\{([^}]*)\}', s)):
+            seg = seg.strip(' ')
+            if seg.strip(' ,.;:'):
+                out.append(('la' if i % 2 else 'en', seg))
+        return out
+    texts = []
+    for ln in job['lines']:
+        if ln[0] == 't': texts += [smart(x) if k == 'la' else x for k, x in talk_parts(ln[1])]
+        elif ln[0] == 'p': texts += [ln[1], smart(ln[2])]
+        elif ln[0] == 'q': texts += [smart(ln[1]), ln[2]]
+    new = {t for t in texts if not os.path.exists(key(t))}
+    rate = 0.5 if mdl and ('flash' in mdl or 'turbo' in mdl) else 1.0
+    cost = int(sum(len(t) for t in new) * rate)
+    if new:
+        cap = int(job.get('max_credits', 3000))
+        log(f'grammar: {len(new)} new clips, about {cost} credits (model {mdl or "default"})')
+        if cost > cap:
+            raise RuntimeError(f'Too dear: about {cost} credits, cap {cap}. Nothing spent.')
+        try:
+            s = el.subscription(); keep = int(job.get('keep_credits', 1000)); log('credits left:', s['left'], 'of', s['limit'])
+            if cost > s['left'] - keep:
+                raise RuntimeError(f'Not enough credits: needs about {cost}, {s["left"]} left (keeping {keep}). Nothing spent.')
+        except RuntimeError as e:
+            if 'Not enough' in str(e): raise
+            log('credits unknown; going by the cap')
+    def eclip(t):
+        p = key(t)
+        if not os.path.exists(p):
+            os.makedirs('clips', exist_ok=True); el.tts(vid, t, p, stability=st, model=mdl); log('  rendered:', t[:60])
+        return audio.norm(audio.trim(audio.load(p), thr_db=-55, pad=0.12))
+    PE, PL, PT, PQ = job.get('pause_after_english', 0.45), job.get('pause_after_latin', 0.9), job.get('pause_after_talk', 0.7), job.get('quiz_think', 3.0)
+    seq, lat = [], []
+    for ln in job['lines']:
+        if ln[0] == 't':
+            parts = talk_parts(ln[1])
+            for i, (k, x) in enumerate(parts):
+                last = i == len(parts) - 1
+                seq.append((eclip(smart(x) if k == 'la' else x), PT if last else 0.22))
+        elif ln[0] == 'p':
+            seq += [(eclip(ln[1]), PE), (eclip(smart(ln[2])), PL)]
+            lat.append(eclip(smart(ln[2])))
+        elif ln[0] == 'q':
+            seq += [(eclip(smart(ln[1])), PQ), (eclip(ln[2]), 1.2)]
+            lat.append(eclip(smart(ln[1])))
+    seq[-1] = (seq[-1][0], 4.0)
+    for k in range(2):
+        seq += [(c, job.get('pause_latin_only', 0.7)) for c in lat[:-1]] + [(lat[-1], 3.0)]
+    voice, ev = audio.sequence(seq)
+    x = audio.mix_music(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -7), job.get('music_dip_db', 7))
+    fn = save_track(x, job['slug'], job['title'], job.get('summary', ''), bitrate='96k')
+    log(f'(spent about {cost} credits)')
+    return {'files': [fn]}
+
+
 # ---------------- bible (free voices): verse by verse, English then Latin, + Latin only (28 Oct) ----------------
 def save_track(x, slug, title, summary, bitrate='64k'):
     eps = json.load(open('episodes.json'))
@@ -857,7 +922,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible, 'redo_latin': run_redo_latin, 'merge': run_merge, 'kids': run_kids}.get(job['type'], run_episode)(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible, 'redo_latin': run_redo_latin, 'merge': run_merge, 'kids': run_kids, 'grammar': run_grammar}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]
