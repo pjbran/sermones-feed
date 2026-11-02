@@ -1,0 +1,857 @@
+{
+ "type": "grammar",
+ "engine": "eleven",
+ "voice": "F",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "music": "v5",
+ "max_credits": 15000,
+ "keep_credits": 2000,
+ "slug": "grammatica-mappa",
+ "title": "Grammar Map · All 15 patterns in one listen (Domum īre volō!)",
+ "summary": "A one-off: the gist of all fifteen Latin patterns from the app's Forms > Patterns ladder, one focus pyramid each. Who (quī), when (cum, ubi, postquam), because, if / unless, although, says that, so that (ut / nē), asking and ordering, the participle, the ablative absolute, cum + subjunctive, the hidden question, result, the gerund, and -ndum est. The world: a small boy who wants to go home, and his dad. Then the whole map in one story, and the Latin alone twice. Iulia's voice.",
+ "lines": [
+  [
+   "t",
+   "{Salvē!} This is a special episode. The Grammar Map. All fifteen patterns in one listen. Just the gist of each, with one focus idea."
+  ],
+  [
+   "t",
+   "Our world today: a small boy who wants things, and his dad. I am the dad. The boy is my son, {fīlius meus}."
+  ],
+  [
+   "t",
+   "First, the whinge kit. Short lines a small child says all day long."
+  ],
+  [
+   "p",
+   "I don't want to!",
+   "Nōlō!"
+  ],
+  [
+   "p",
+   "I want to!",
+   "Volō!"
+  ],
+  [
+   "p",
+   "Why?",
+   "Cūr?"
+  ],
+  [
+   "p",
+   "Why am I not allowed?",
+   "Cūr mihi nōn licet?"
+  ],
+  [
+   "p",
+   "It's not fair!",
+   "Nōn aequum est!"
+  ],
+  [
+   "p",
+   "Again!",
+   "Iterum!"
+  ],
+  [
+   "p",
+   "Give it to me!",
+   "Dā mihi!"
+  ],
+  [
+   "p",
+   "Me too!",
+   "Mihi quoque!"
+  ],
+  [
+   "p",
+   "Not yet!",
+   "Nōndum!"
+  ],
+  [
+   "p",
+   "A little more!",
+   "Paulō plūs!"
+  ],
+  [
+   "p",
+   "Don't touch me!",
+   "Nōlī mē tangere!"
+  ],
+  [
+   "p",
+   "Let me go!",
+   "Mitte mē!"
+  ],
+  [
+   "t",
+   "And the king of all whinges."
+  ],
+  [
+   "p",
+   "I want to go home!",
+   "Domum īre volō!"
+  ],
+  [
+   "t",
+   "Remember that one. It will come back again and again. Now the fifteen patterns."
+  ],
+  [
+   "t",
+   "Pattern one. Who and which. {Quī} adds a mini-sentence about a noun."
+  ],
+  [
+   "p",
+   "The boy is crying.",
+   "Puer plōrat."
+  ],
+  [
+   "p",
+   "The boy who is crying is my son.",
+   "Puer quī plōrat fīlius meus est."
+  ],
+  [
+   "p",
+   "The boy...",
+   "Puer..."
+  ],
+  [
+   "p",
+   "The boy who...",
+   "Puer quī..."
+  ],
+  [
+   "p",
+   "The boy who wants...",
+   "Puer quī vult..."
+  ],
+  [
+   "p",
+   "The boy who wants to go home...",
+   "Puer quī domum īre vult..."
+  ],
+  [
+   "p",
+   "The boy who wants to go home is my son.",
+   "Puer quī domum īre vult fīlius meus est."
+  ],
+  [
+   "p",
+   "Of course he is.",
+   "Certē."
+  ],
+  [
+   "t",
+   "Spot it: a noun, then {quī}, {quae} or {quod}. Read: who, or which. Careful: {quod} can also mean because."
+  ],
+  [
+   "q",
+   "Puer quī plōrat fīlius meus est.",
+   "The boy who is crying is my son."
+  ],
+  [
+   "t",
+   "Pattern two. When. {Cum}, {ubi} and {postquam} tell you when something happens."
+  ],
+  [
+   "p",
+   "We stop playing. My son cries.",
+   "Lūdere dēsinimus. Fīlius meus plōrat."
+  ],
+  [
+   "p",
+   "When we stop playing, my son cries.",
+   "Cum lūdere dēsinimus, fīlius meus plōrat."
+  ],
+  [
+   "p",
+   "When we come to the park...",
+   "Ubi in hortum venīmus..."
+  ],
+  [
+   "p",
+   "When we come to the park, he wants to go home.",
+   "Ubi in hortum venīmus, domum īre vult."
+  ],
+  [
+   "p",
+   "After we came home...",
+   "Postquam domum vēnimus..."
+  ],
+  [
+   "p",
+   "After we came home, he wanted to go to the park again.",
+   "Postquam domum vēnimus, iterum in hortum īre voluit."
+  ],
+  [
+   "p",
+   "Every day.",
+   "Cotīdiē."
+  ],
+  [
+   "t",
+   "Spot it: {cum}, {ubi} or {postquam}, a mini-sentence, then a comma."
+  ],
+  [
+   "q",
+   "Ubi in hortum venīmus, domum īre vult.",
+   "When we come to the park, he wants to go home."
+  ],
+  [
+   "t",
+   "Pattern three. Because. {Quod} or {quia} gives the reason."
+  ],
+  [
+   "p",
+   "I am crying!",
+   "Plōrō!"
+  ],
+  [
+   "p",
+   "I am crying because...",
+   "Plōrō quod..."
+  ],
+  [
+   "p",
+   "I am crying because I want to go home!",
+   "Plōrō quod domum īre volō!"
+  ],
+  [
+   "p",
+   "I am crying because I don't have a biscuit!",
+   "Plōrō quia crustulum nōn habeō!"
+  ],
+  [
+   "p",
+   "My son is crying because he does not have a biscuit.",
+   "Fīlius meus plōrat quia crustulum nōn habet."
+  ],
+  [
+   "t",
+   "Spot it: {quod} or {quia} plus a normal verb. Read: because."
+  ],
+  [
+   "q",
+   "Plōrō quod domum īre volō!",
+   "I am crying because I want to go home!"
+  ],
+  [
+   "t",
+   "Pattern four. If and unless. {Sī} means if. {Nisi} means unless."
+  ],
+  [
+   "p",
+   "You give me a biscuit. I don't cry.",
+   "Mihi crustulum dās. Nōn plōrō."
+  ],
+  [
+   "p",
+   "If you give me a biscuit, I don't cry.",
+   "Sī mihi crustulum dās, nōn plōrō."
+  ],
+  [
+   "p",
+   "Unless you give me a biscuit...",
+   "Nisi mihi crustulum dās..."
+  ],
+  [
+   "p",
+   "Unless you give me a biscuit, I cry!",
+   "Nisi mihi crustulum dās, plōrō!"
+  ],
+  [
+   "p",
+   "Unless we go home, I cry!",
+   "Nisi domum īmus, plōrō!"
+  ],
+  [
+   "p",
+   "A little trader.",
+   "Parvus mercātor."
+  ],
+  [
+   "t",
+   "Spot it: {sī} or {nisi} at the start, a comma after the mini-sentence."
+  ],
+  [
+   "q",
+   "Nisi mihi crustulum dās, plōrō!",
+   "Unless you give me a biscuit, I cry!"
+  ],
+  [
+   "t",
+   "Pattern five. Although. {Quamquam}, and often {tamen}: still."
+  ],
+  [
+   "p",
+   "We are playing in the park.",
+   "In hortō lūdimus."
+  ],
+  [
+   "p",
+   "Although we are playing in the park...",
+   "Quamquam in hortō lūdimus..."
+  ],
+  [
+   "p",
+   "Although we are playing in the park, he wants to go home.",
+   "Quamquam in hortō lūdimus, domum īre vult."
+  ],
+  [
+   "p",
+   "Although we are playing in the park, he still wants to go home.",
+   "Quamquam in hortō lūdimus, tamen domum īre vult."
+  ],
+  [
+   "p",
+   "Although he is tired, he still does not want to sleep.",
+   "Quamquam fessus est, tamen dormīre nōn vult."
+  ],
+  [
+   "t",
+   "Spot it: {quamquam} at the start, often {tamen} after."
+  ],
+  [
+   "q",
+   "Quamquam in hortō lūdimus, tamen domum īre vult.",
+   "Although we are playing in the park, he still wants to go home."
+  ],
+  [
+   "t",
+   "Pattern six. Says that. No word for that. The person goes into the object form, the verb into the infinitive."
+  ],
+  [
+   "p",
+   "He wants to go home.",
+   "Domum īre vult."
+  ],
+  [
+   "p",
+   "My son says that he wants to go home.",
+   "Fīlius meus dīcit sē domum īre velle."
+  ],
+  [
+   "p",
+   "My son says...",
+   "Fīlius meus dīcit..."
+  ],
+  [
+   "p",
+   "My son says that I have...",
+   "Fīlius meus dīcit mē habēre..."
+  ],
+  [
+   "p",
+   "My son says that I have more biscuits.",
+   "Fīlius meus dīcit mē plūs crustulōrum habēre."
+  ],
+  [
+   "p",
+   "Not fair!",
+   "Nōn aequum est!"
+  ],
+  [
+   "p",
+   "I say that this is not true.",
+   "Negō hoc vērum esse."
+  ],
+  [
+   "p",
+   "Well... it is true.",
+   "Vērum est."
+  ],
+  [
+   "t",
+   "{Vult} became {velle}. {Habeō} became {habēre}. Spot it: a say verb, the object form, an infinitive. Read: that."
+  ],
+  [
+   "q",
+   "Fīlius meus dīcit mē plūs crustulōrum habēre.",
+   "My son says that I have more biscuits."
+  ],
+  [
+   "t",
+   "Pattern seven. So that. {Ut}, and for so that not, {nē}. The verb takes the swapped form: {audit} becomes {audiat}."
+  ],
+  [
+   "p",
+   "He shouts. I hear.",
+   "Clāmat. Audiō."
+  ],
+  [
+   "p",
+   "He shouts so that I hear.",
+   "Clāmat ut audiam."
+  ],
+  [
+   "p",
+   "He shouts so that...",
+   "Clāmat ut..."
+  ],
+  [
+   "p",
+   "He shouts so that everyone...",
+   "Clāmat ut omnēs..."
+  ],
+  [
+   "p",
+   "He shouts so that everyone hears.",
+   "Clāmat ut omnēs audiant."
+  ],
+  [
+   "p",
+   "I whisper so that he does not hear me.",
+   "Susurrō nē mē audiat."
+  ],
+  [
+   "p",
+   "He hears me anyway.",
+   "Tamen mē audit."
+  ],
+  [
+   "t",
+   "Spot it: {ut} or {nē}, then the swapped verb. Read: so that, or so that not."
+  ],
+  [
+   "q",
+   "Clāmat ut omnēs audiant.",
+   "He shouts so that everyone hears."
+  ],
+  [
+   "t",
+   "Pattern eight. Asking and ordering. After ask, beg or order: {ut} means to, {nē} means not to."
+  ],
+  [
+   "p",
+   "Let's go home!",
+   "Domum eāmus!"
+  ],
+  [
+   "p",
+   "My son begs me for us to go home.",
+   "Fīlius meus mē ōrat ut domum eāmus."
+  ],
+  [
+   "p",
+   "I order...",
+   "Imperō..."
+  ],
+  [
+   "p",
+   "I order my son...",
+   "Fīliō meō imperō..."
+  ],
+  [
+   "p",
+   "I order my son to sleep.",
+   "Fīliō meō imperō ut dormiat."
+  ],
+  [
+   "p",
+   "I ask my son not to shout.",
+   "Fīlium meum rogō nē clāmet."
+  ],
+  [
+   "p",
+   "He shouts.",
+   "Clāmat."
+  ],
+  [
+   "t",
+   "Spot it: an order or ask verb, a person, then {ut} or {nē}. Read: to, or not to."
+  ],
+  [
+   "q",
+   "Fīliō meō imperō ut dormiat.",
+   "I order my son to sleep."
+  ],
+  [
+   "t",
+   "Pattern nine. The participle. A verb used like a describing word. Like {plōrāns}: crying, at the same time as the main verb. You'll meet this properly later."
+  ],
+  [
+   "p",
+   "My son cries. He calls me.",
+   "Fīlius meus plōrat. Mē vocat."
+  ],
+  [
+   "p",
+   "My son, crying, calls me.",
+   "Fīlius meus plōrāns mē vocat."
+  ],
+  [
+   "p",
+   "Crying...",
+   "Plōrāns..."
+  ],
+  [
+   "p",
+   "My son, crying...",
+   "Fīlius meus plōrāns..."
+  ],
+  [
+   "p",
+   "My son, crying, shouts.",
+   "Fīlius meus plōrāns clāmat."
+  ],
+  [
+   "p",
+   "My son, crying, shouts: I want to go home!",
+   "Fīlius meus plōrāns clāmat: Domum īre volō!"
+  ],
+  [
+   "p",
+   "Shouting, he runs to the gate.",
+   "Clāmāns ad portam currit."
+  ],
+  [
+   "t",
+   "Spot it: a verb like {plōrāns} or {clāmāns} next to a person. Read: while doing it."
+  ],
+  [
+   "q",
+   "Fīlius meus plōrāns mē vocat.",
+   "My son, crying, calls me."
+  ],
+  [
+   "t",
+   "Pattern ten. The ablative absolute. A little side scene, set apart: with this happening, that happens. Both words go into the with-form. The verb word often ends like {cadente}. You'll meet this properly later."
+  ],
+  [
+   "p",
+   "I am sleeping. My son plays.",
+   "Dormiō. Fīlius meus lūdit."
+  ],
+  [
+   "p",
+   "While I am sleeping, my son plays.",
+   "Mē dormiente, fīlius meus lūdit."
+  ],
+  [
+   "p",
+   "With the sun setting...",
+   "Sōle cadente..."
+  ],
+  [
+   "p",
+   "With the sun setting, we go home.",
+   "Sōle cadente, domum īmus."
+  ],
+  [
+   "p",
+   "With the sun setting, we finally go home.",
+   "Sōle cadente, tandem domum īmus."
+  ],
+  [
+   "p",
+   "At last.",
+   "Tandem."
+  ],
+  [
+   "t",
+   "Spot it: two words at the start, set off by a comma, like {sōle cadente}. Read: while, or with."
+  ],
+  [
+   "q",
+   "Sōle cadente, tandem domum īmus.",
+   "With the sun setting, we finally go home."
+  ],
+  [
+   "t",
+   "Pattern eleven. {Cum} in a past story, with a new verb form: when, or since. It looks like the whole infinitive plus an ending. {Esse} becomes {esset}. {Nōlle} becomes {nōllet}. You'll meet this properly later."
+  ],
+  [
+   "p",
+   "We were in the park. He wanted to go home.",
+   "In hortō erāmus. Domum īre volēbat."
+  ],
+  [
+   "p",
+   "When we were in the park, he wanted to go home.",
+   "Cum in hortō essēmus, domum īre volēbat."
+  ],
+  [
+   "p",
+   "Since he did not want to sleep...",
+   "Cum dormīre nōllet..."
+  ],
+  [
+   "p",
+   "Since he did not want to sleep, he was crying.",
+   "Cum dormīre nōllet, plōrābat."
+  ],
+  [
+   "p",
+   "Since he did not want to sleep, he was crying all night.",
+   "Cum dormīre nōllet, tōtam noctem plōrābat."
+  ],
+  [
+   "p",
+   "All night.",
+   "Tōtam noctem."
+  ],
+  [
+   "t",
+   "Spot it: {cum} plus a verb built on the infinitive, like {esset}. Read: when, or since, in a story."
+  ],
+  [
+   "q",
+   "Cum dormīre nōllet, plōrābat.",
+   "Since he did not want to sleep, he was crying."
+  ],
+  [
+   "t",
+   "Pattern twelve. The hidden question. A question inside a sentence. Its verb takes the swapped form."
+  ],
+  [
+   "p",
+   "Why does he want to go home?",
+   "Cūr domum īre vult?"
+  ],
+  [
+   "p",
+   "I don't know why he wants to go home.",
+   "Nesciō cūr domum īre velit."
+  ],
+  [
+   "p",
+   "I ask...",
+   "Rogō..."
+  ],
+  [
+   "p",
+   "I ask why...",
+   "Rogō cūr..."
+  ],
+  [
+   "p",
+   "I ask why he is crying.",
+   "Rogō cūr plōret."
+  ],
+  [
+   "p",
+   "He does not know why he is crying.",
+   "Nescit cūr plōret."
+  ],
+  [
+   "t",
+   "{Vult} became {velit}. {Plōrat} became {plōret}. Spot it: know or ask, then a question word, then a swapped verb."
+  ],
+  [
+   "q",
+   "Nesciō cūr domum īre velit.",
+   "I don't know why he wants to go home."
+  ],
+  [
+   "t",
+   "Pattern thirteen. Result. So much that. Look for {tam} or {ita} first, then {ut}."
+  ],
+  [
+   "p",
+   "He cries so hard...",
+   "Tam vehementer plōrat..."
+  ],
+  [
+   "p",
+   "He cries so hard that we go home.",
+   "Tam vehementer plōrat ut domum eāmus."
+  ],
+  [
+   "p",
+   "He shouts so hard that everyone looks at us.",
+   "Tam vehementer clāmat ut omnēs nōs spectent."
+  ],
+  [
+   "p",
+   "He is so tired that he sleeps in the car.",
+   "Tam fessus est ut in raedā dormiat."
+  ],
+  [
+   "p",
+   "Silence. At last.",
+   "Silentium. Tandem."
+  ],
+  [
+   "t",
+   "Spot it: {tam} or {ita} early, then {ut}. Read: so much that. No {tam} or {ita}? Then {ut} usually means so that, or to."
+  ],
+  [
+   "q",
+   "Tam vehementer plōrat ut domum eāmus.",
+   "He cries so hard that we go home."
+  ],
+  [
+   "t",
+   "Pattern fourteen. The gerund. A verb used like a noun: playing, sleeping. {Lūdendī}: of playing. You'll meet this properly later."
+  ],
+  [
+   "p",
+   "He loves to play.",
+   "Lūdere amat."
+  ],
+  [
+   "p",
+   "He is keen on playing.",
+   "Cupidus lūdendī est."
+  ],
+  [
+   "p",
+   "My son is keen on playing.",
+   "Fīlius meus cupidus lūdendī est."
+  ],
+  [
+   "p",
+   "It is time for sleeping.",
+   "Tempus dormiendī est."
+  ],
+  [
+   "p",
+   "My son is not keen on sleeping.",
+   "Fīlius meus nōn cupidus dormiendī est."
+  ],
+  [
+   "t",
+   "Spot it: a word like {lūdendī} or {dormiendī} after time or keen. Read: of doing it."
+  ],
+  [
+   "q",
+   "Fīlius meus cupidus lūdendī est.",
+   "My son is keen on playing."
+  ],
+  [
+   "t",
+   "Pattern fifteen. Must. {Dormiendum est}: sleeping must be done. Short, strong, and very useful."
+  ],
+  [
+   "p",
+   "You must sleep.",
+   "Dormīre dēbēs."
+  ],
+  [
+   "p",
+   "Now we must sleep.",
+   "Nunc dormiendum est."
+  ],
+  [
+   "p",
+   "We must go.",
+   "Eundum est."
+  ],
+  [
+   "p",
+   "We must go home.",
+   "Domum eundum est."
+  ],
+  [
+   "p",
+   "Now we must go home.",
+   "Nunc domum eundum est."
+  ],
+  [
+   "t",
+   "Two ways to say must. {Dēbēs}, an ordinary verb. And {eundum est}: it has to be done. Who does it? The story tells you."
+  ],
+  [
+   "q",
+   "Nunc domum eundum est.",
+   "Now we must go home."
+  ],
+  [
+   "t",
+   "The whole map, in one short story. Fifteen patterns."
+  ],
+  [
+   "p",
+   "The boy who is crying is my son.",
+   "Puer quī plōrat fīlius meus est."
+  ],
+  [
+   "p",
+   "When we come to the park, he wants to go home.",
+   "Ubi in hortum venīmus, domum īre vult."
+  ],
+  [
+   "p",
+   "He cries because he wants to go home.",
+   "Plōrat quod domum īre vult."
+  ],
+  [
+   "p",
+   "Unless we go home, he cries.",
+   "Nisi domum īmus, plōrat."
+  ],
+  [
+   "p",
+   "Although we are playing, he still wants to go home.",
+   "Quamquam lūdimus, tamen domum īre vult."
+  ],
+  [
+   "p",
+   "He says that I have more biscuits.",
+   "Dīcit mē plūs crustulōrum habēre."
+  ],
+  [
+   "p",
+   "He shouts so that everyone hears.",
+   "Clāmat ut omnēs audiant."
+  ],
+  [
+   "p",
+   "He begs me for us to go home.",
+   "Mē ōrat ut domum eāmus."
+  ],
+  [
+   "p",
+   "Crying, he calls me.",
+   "Plōrāns mē vocat."
+  ],
+  [
+   "p",
+   "I don't know why he wants to go home.",
+   "Nesciō cūr domum īre velit."
+  ],
+  [
+   "p",
+   "He shouts so hard that everyone looks at us.",
+   "Tam vehementer clāmat ut omnēs nōs spectent."
+  ],
+  [
+   "p",
+   "With the sun setting, we finally go home.",
+   "Sōle cadente, tandem domum īmus."
+  ],
+  [
+   "p",
+   "At home he is keen on playing.",
+   "Domī cupidus lūdendī est."
+  ],
+  [
+   "p",
+   "And at home, what does he say?",
+   "Et domī quid dīcit?"
+  ],
+  [
+   "p",
+   "I want to go to the park!",
+   "In hortum īre volō!"
+  ],
+  [
+   "p",
+   "Last night, since he did not want to sleep, he was crying.",
+   "Herī, cum dormīre nōllet, plōrābat."
+  ],
+  [
+   "t",
+   "So tonight, Dad says the last line."
+  ],
+  [
+   "p",
+   "Now we must sleep.",
+   "Nunc dormiendum est."
+  ],
+  [
+   "t",
+   "That is the map. Fifteen patterns. You don't need them all yet. Now you know the shape of each one. {Valē!} Now the Latin alone, twice."
+  ]
+ ]
+}
