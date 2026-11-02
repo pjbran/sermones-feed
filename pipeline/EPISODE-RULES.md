@@ -122,3 +122,7 @@ His strong words get no points. They are the glue and they come back anyway.
 - Funny examples (Office x Python), no plot; end on a teaser for the next episode. No rīdeō. Reviewer agent checks every script.
 - One file: the lesson, then every Latin line alone, twice. Iulia's voice (Flash).
 - Plan: 1 = link words (when, because, if, although) · 2 = quī/quae/quod + says-that · 3 = mixed review + traps.
+
+## 4f. NO "SUFFERING DAD" (Patrick, 2 Nov 16:17: "I fucking hate 'suffering dad' schtick. American reddit LLM-overtraining shit")
+- In ALL content (podcast, app, stories): no long-suffering parent, no eye-rolls at children, no "at last, silence", no kids as tyrants or manipulators, no bargaining-by-crying jokes.
+- His kids = Piaget-style curiosity: how a child learns to ask, wonder, explain the world; the dad is fond and fascinated. Small frustrations get the bright side ("Although he wanted to go home, he had a good time").
