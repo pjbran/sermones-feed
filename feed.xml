@@ -14,7 +14,20 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Sun, 01 Nov 2026 22:38:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 04:21:09 +0000</lastBuildDate>
+    <item>
+      <title>Grammar Map · All 15 patterns in one listen (Domum īre volō!)</title>
+      <description>A one-off: the gist of all fifteen Latin patterns from the app's Forms &gt; Patterns ladder, one focus pyramid each. Who (quī), when (cum, ubi, postquam), because, if / unless, although, says that, so that (ut / nē), asking and ordering, the participle, the ablative absolute, cum + subjunctive, the hidden question, result, the gerund, and -ndum est. The world: a small boy who wants to go home, and his dad. Then the whole map in one story, and the Latin alone twice. Iulia's voice.</description>
+      <itunes:summary>A one-off: the gist of all fifteen Latin patterns from the app's Forms &gt; Patterns ladder, one focus pyramid each. Who (quī), when (cum, ubi, postquam), because, if / unless, although, says that, so that (ut / nē), asking and ordering, the participle, the ablative absolute, cum + subjunctive, the hidden question, result, the gerund, and -ndum est. The world: a small boy who wants to go home, and his dad. Then the whole map in one story, and the Latin alone twice. Iulia's voice.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-grammatica-mappa.mp3" length="20076009" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-bonus-grammatica-mappa.mp3</guid>
+      <pubDate>Mon, 02 Nov 2026 15:20:41 +1100</pubDate>
+      <itunes:duration>27:41</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>55</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Grammar 4 · So that, so that not (ut, nē): the heist</title>
       <description>The Grammar series, episode four: ut and nē. So that (Nocte venīmus ut nēmō nōs videat), so that not (Tacēmus nē custōs nōs audiat), and orders (Pompōnia Bassō imperat ut fūnem portet), with the new swapped verb (videt → videat, portat → portet). A small Roman gang robs a vain senator's villa for his statue of himself, made of gold. Then traps, a grand swap, an ear quiz, and the Latin alone twice. Iulia's voice.</description>
