@@ -14,13 +14,13 @@
     <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Mon, 02 Nov 2026 05:22:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 05:23:47 +0000</lastBuildDate>
     <item>
       <title>Grammar Map · All 15 patterns in one listen (the boy and the moon)</title>
       <description>A one-off: the gist of all fifteen Latin patterns from the app's Forms &gt; Patterns ladder, one focus pyramid each, through a small boy learning to ask about everything, and his dad. Who (quī), when, because, if, although (Quamquam domum īre voluit, tamen laetus lūsit), says that (Dīcit lūnam nōs sequī), so that, asking, the participle, the ablative absolute, cum + subjunctive, the hidden question (Scīre vult cūr lūna nōs sequātur), result, the gerund, and -ndum est. Then the whole map in one evening, and the Latin alone twice. Iulia's voice.</description>
       <itunes:summary>A one-off: the gist of all fifteen Latin patterns from the app's Forms &gt; Patterns ladder, one focus pyramid each, through a small boy learning to ask about everything, and his dad. Who (quī), when, because, if, although (Quamquam domum īre voluit, tamen laetus lūsit), says that (Dīcit lūnam nōs sequī), so that, asking, the participle, the ablative absolute, cum + subjunctive, the hidden question (Scīre vult cūr lūna nōs sequātur), result, the gerund, and -ndum est. Then the whole map in one evening, and the Latin alone twice. Iulia's voice.</itunes:summary>
-      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-grammatica-mappa.mp3" length="19558116" type="audio/mpeg"/>
-      <guid isPermaLink="false">sermones-bonus-grammatica-mappa.mp3</guid>
+      <enclosure url="https://pjbran.github.io/sermones-feed/episodes/bonus-grammatica-mappa-lunae.mp3" length="19558116" type="audio/mpeg"/>
+      <guid isPermaLink="false">sermones-bonus-grammatica-mappa-lunae.mp3</guid>
       <pubDate>Mon, 02 Nov 2026 16:22:36 +1100</pubDate>
       <itunes:duration>26:58</itunes:duration>
       <itunes:season>1</itunes:season>
