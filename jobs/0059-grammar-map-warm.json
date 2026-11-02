@@ -1,0 +1,779 @@
+{
+ "type": "grammar",
+ "engine": "eleven",
+ "voice": "F",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "music": "v5",
+ "max_credits": 15000,
+ "keep_credits": 2000,
+ "slug": "grammatica-mappa",
+ "title": "Grammar Map · All 15 patterns in one listen (the boy and the moon)",
+ "summary": "A one-off: the gist of all fifteen Latin patterns from the app's Forms > Patterns ladder, one focus pyramid each, through a small boy learning to ask about everything, and his dad. Who (quī), when, because, if, although (Quamquam domum īre voluit, tamen laetus lūsit), says that (Dīcit lūnam nōs sequī), so that, asking, the participle, the ablative absolute, cum + subjunctive, the hidden question (Scīre vult cūr lūna nōs sequātur), result, the gerund, and -ndum est. Then the whole map in one evening, and the Latin alone twice. Iulia's voice.",
+ "lines": [
+  [
+   "t",
+   "{Salvē!} This is a special episode. The Grammar Map. All fifteen patterns in one listen. Just the gist of each, with one focus idea."
+  ],
+  [
+   "t",
+   "Our world today: a small boy who is learning to ask for things and to ask about everything. I am his dad. He is my son, {fīlius meus}."
+  ],
+  [
+   "t",
+   "First, the asking kit. Short lines a small child uses all day long."
+  ],
+  [
+   "p",
+   "Please!",
+   "Quaesō!"
+  ],
+  [
+   "p",
+   "Can I play?",
+   "Possumne lūdere?"
+  ],
+  [
+   "p",
+   "Why?",
+   "Cūr?"
+  ],
+  [
+   "p",
+   "What is this?",
+   "Quid est hoc?"
+  ],
+  [
+   "p",
+   "Look!",
+   "Ecce!"
+  ],
+  [
+   "p",
+   "Again!",
+   "Iterum!"
+  ],
+  [
+   "p",
+   "More, please!",
+   "Plūs, quaesō!"
+  ],
+  [
+   "p",
+   "Me too!",
+   "Mihi quoque!"
+  ],
+  [
+   "p",
+   "Let's go!",
+   "Eāmus!"
+  ],
+  [
+   "p",
+   "Where is the moon?",
+   "Ubi est lūna?"
+  ],
+  [
+   "p",
+   "I want to go home!",
+   "Domum īre volō!"
+  ],
+  [
+   "t",
+   "Small words, big ideas. Now the fifteen patterns."
+  ],
+  [
+   "t",
+   "Pattern one. Who and which. {Quī} adds a mini-sentence about a noun."
+  ],
+  [
+   "p",
+   "The boy asks about everything.",
+   "Puer omnia rogat."
+  ],
+  [
+   "p",
+   "The boy who asks about everything is my son.",
+   "Puer quī omnia rogat fīlius meus est."
+  ],
+  [
+   "p",
+   "The boy...",
+   "Puer..."
+  ],
+  [
+   "p",
+   "The boy who...",
+   "Puer quī..."
+  ],
+  [
+   "p",
+   "The boy who always says why...",
+   "Puer quī semper Cūr dīcit..."
+  ],
+  [
+   "p",
+   "The boy who always says why is my son.",
+   "Puer quī semper Cūr dīcit fīlius meus est."
+  ],
+  [
+   "p",
+   "Why? Because he wants to know.",
+   "Cūr? Quia scīre vult."
+  ],
+  [
+   "t",
+   "Spot it: a noun, then {quī}, {quae} or {quod}. Read: who, or which. Careful: {quod} can also mean because."
+  ],
+  [
+   "q",
+   "Puer quī omnia rogat fīlius meus est.",
+   "The boy who asks about everything is my son."
+  ],
+  [
+   "t",
+   "Pattern two. When. {Cum}, {ubi} and {postquam} tell you when something happens."
+  ],
+  [
+   "p",
+   "He sees the moon. He says hello to it.",
+   "Lūnam videt. Eam salūtat."
+  ],
+  [
+   "p",
+   "When he sees the moon, he says hello to it.",
+   "Cum lūnam videt, eam salūtat."
+  ],
+  [
+   "p",
+   "When he sees the moon, he says: hello, moon!",
+   "Cum lūnam videt, dīcit: Salvē, lūna!"
+  ],
+  [
+   "p",
+   "When we come to the park, he runs to the big tree.",
+   "Ubi in hortum venīmus, ad arborem magnam currit."
+  ],
+  [
+   "p",
+   "After we came home, he looked for the moon again.",
+   "Postquam domum vēnimus, lūnam iterum quaesīvit."
+  ],
+  [
+   "p",
+   "At the window.",
+   "Ad fenestram."
+  ],
+  [
+   "t",
+   "Spot it: {cum}, {ubi} or {postquam}, a mini-sentence, then a comma."
+  ],
+  [
+   "q",
+   "Cum lūnam videt, eam salūtat.",
+   "When he sees the moon, he says hello to it."
+  ],
+  [
+   "t",
+   "Pattern three. Because. {Quod} or {quia} gives the reason."
+  ],
+  [
+   "p",
+   "He wants to go home.",
+   "Domum īre vult."
+  ],
+  [
+   "p",
+   "He wants to go home because...",
+   "Domum īre vult quod..."
+  ],
+  [
+   "p",
+   "He wants to go home because he wants to see Mum.",
+   "Domum īre vult quod Mātrem vidēre vult."
+  ],
+  [
+   "p",
+   "He is glad because the moon is here.",
+   "Gaudet quia lūna adest."
+  ],
+  [
+   "p",
+   "He is glad because the moon is here again.",
+   "Gaudet quia lūna iterum adest."
+  ],
+  [
+   "t",
+   "Spot it: {quod} or {quia} plus a normal verb. Read: because."
+  ],
+  [
+   "q",
+   "Domum īre vult quod Mātrem vidēre vult.",
+   "He wants to go home because he wants to see Mum."
+  ],
+  [
+   "t",
+   "Pattern four. If and unless. {Sī} means if. {Nisi} means unless."
+  ],
+  [
+   "p",
+   "We have time. We play again.",
+   "Tempus habēmus. Iterum lūdimus."
+  ],
+  [
+   "p",
+   "If we have time, we play again.",
+   "Sī tempus habēmus, iterum lūdimus."
+  ],
+  [
+   "p",
+   "If it does not rain...",
+   "Sī pluvia nōn cadit..."
+  ],
+  [
+   "p",
+   "If it does not rain, we go to the park.",
+   "Sī pluvia nōn cadit, in hortum īmus."
+  ],
+  [
+   "p",
+   "If the moon is there, he says hello to it.",
+   "Sī lūna adest, eam salūtat."
+  ],
+  [
+   "p",
+   "Unless it rains, we play outside.",
+   "Nisi pluvia cadit, forīs lūdimus."
+  ],
+  [
+   "t",
+   "Spot it: {sī} or {nisi} at the start, a comma after the mini-sentence."
+  ],
+  [
+   "q",
+   "Sī tempus habēmus, iterum lūdimus.",
+   "If we have time, we play again."
+  ],
+  [
+   "t",
+   "Pattern five. Although. {Quamquam}, and often {tamen}: still."
+  ],
+  [
+   "p",
+   "He wanted to go home.",
+   "Domum īre voluit."
+  ],
+  [
+   "p",
+   "Although he wanted to go home...",
+   "Quamquam domum īre voluit..."
+  ],
+  [
+   "p",
+   "Although he wanted to go home, he played happily.",
+   "Quamquam domum īre voluit, laetus lūsit."
+  ],
+  [
+   "p",
+   "Although he wanted to go home, he still played happily.",
+   "Quamquam domum īre voluit, tamen laetus lūsit."
+  ],
+  [
+   "p",
+   "Although he is small, he understands many things.",
+   "Quamquam parvus est, multa intellegit."
+  ],
+  [
+   "t",
+   "Spot it: {quamquam} at the start, often {tamen} after."
+  ],
+  [
+   "q",
+   "Quamquam domum īre voluit, tamen laetus lūsit.",
+   "Although he wanted to go home, he still played happily."
+  ],
+  [
+   "t",
+   "Pattern six. Says that. No word for that. The person or thing goes into the object form, the verb into the infinitive."
+  ],
+  [
+   "p",
+   "The moon follows us.",
+   "Lūna nōs sequitur."
+  ],
+  [
+   "p",
+   "My son says that the moon follows us.",
+   "Fīlius meus dīcit lūnam nōs sequī."
+  ],
+  [
+   "p",
+   "My son thinks...",
+   "Fīlius meus putat..."
+  ],
+  [
+   "p",
+   "My son thinks that the moon...",
+   "Fīlius meus putat lūnam..."
+  ],
+  [
+   "p",
+   "My son thinks that the moon is his friend.",
+   "Fīlius meus putat lūnam amīcam suam esse."
+  ],
+  [
+   "p",
+   "He says that the trees are sleeping.",
+   "Dīcit arborēs dormīre."
+  ],
+  [
+   "p",
+   "At night, maybe they are.",
+   "Nocte, fortasse dormiunt."
+  ],
+  [
+   "t",
+   "{Sequitur} became {sequī}. {Est} became {esse}. Spot it: a say or think verb, the object form, an infinitive. Read: that."
+  ],
+  [
+   "q",
+   "Fīlius meus dīcit lūnam nōs sequī.",
+   "My son says that the moon follows us."
+  ],
+  [
+   "t",
+   "Pattern seven. So that. {Ut}, and for so that not, {nē}. The verb takes the swapped form: {videt} becomes {videat}."
+  ],
+  [
+   "p",
+   "He climbs onto the chair. He sees everything.",
+   "In sellam ascendit. Omnia videt."
+  ],
+  [
+   "p",
+   "He climbs onto the chair so that he sees everything.",
+   "In sellam ascendit ut omnia videat."
+  ],
+  [
+   "p",
+   "He opens the window...",
+   "Fenestram aperit..."
+  ],
+  [
+   "p",
+   "He opens the window so that he sees the moon.",
+   "Fenestram aperit ut lūnam videat."
+  ],
+  [
+   "p",
+   "He calls me so that I see the moon too.",
+   "Mē vocat ut ego quoque lūnam videam."
+  ],
+  [
+   "p",
+   "We walk slowly so that we do not fall.",
+   "Lentē ambulāmus nē cadāmus."
+  ],
+  [
+   "t",
+   "Spot it: {ut} or {nē}, then the swapped verb. Read: so that, or so that not."
+  ],
+  [
+   "q",
+   "In sellam ascendit ut omnia videat.",
+   "He climbs onto the chair so that he sees everything."
+  ],
+  [
+   "t",
+   "Pattern eight. Asking and ordering. After ask, beg or order: {ut} means to, {nē} means not to."
+  ],
+  [
+   "p",
+   "Let's play again!",
+   "Iterum lūdāmus!"
+  ],
+  [
+   "p",
+   "He asks me to play again.",
+   "Mē rogat ut iterum lūdāmus."
+  ],
+  [
+   "p",
+   "He begs me...",
+   "Mē ōrat..."
+  ],
+  [
+   "p",
+   "He begs me to tell a story.",
+   "Mē ōrat ut fābulam nārrem."
+  ],
+  [
+   "p",
+   "I ask him to help me.",
+   "Eum rogō ut mē adiuvet."
+  ],
+  [
+   "p",
+   "He helps me. Very seriously.",
+   "Mē adiuvat. Valdē sēriō."
+  ],
+  [
+   "t",
+   "Spot it: an ask or order verb, a person, then {ut} or {nē}. Read: to, or not to."
+  ],
+  [
+   "q",
+   "Mē rogat ut iterum lūdāmus.",
+   "He asks me to play again."
+  ],
+  [
+   "t",
+   "Pattern nine. The participle. A verb used like a describing word. Like {currēns}: running, at the same time as the main verb. You'll meet this properly later."
+  ],
+  [
+   "p",
+   "My son runs. He comes to me.",
+   "Fīlius meus currit. Ad mē venit."
+  ],
+  [
+   "p",
+   "My son comes running to me.",
+   "Fīlius meus currēns ad mē venit."
+  ],
+  [
+   "p",
+   "Running...",
+   "Currēns..."
+  ],
+  [
+   "p",
+   "Running, he says: look!",
+   "Currēns dīcit: Ecce!"
+  ],
+  [
+   "p",
+   "My son, watching the moon, is silent.",
+   "Fīlius meus, lūnam spectāns, tacet."
+  ],
+  [
+   "t",
+   "Spot it: a verb like {currēns} or {spectāns} next to a person. Read: while doing it."
+  ],
+  [
+   "q",
+   "Fīlius meus currēns ad mē venit.",
+   "My son comes running to me."
+  ],
+  [
+   "t",
+   "Pattern ten. The ablative absolute. A little side scene, set apart: with this happening, that happens. Both words go into the with-form. The verb word often ends like {cadente}. You'll meet this properly later."
+  ],
+  [
+   "p",
+   "The moon shines. My son plays.",
+   "Lūna lūcet. Fīlius meus lūdit."
+  ],
+  [
+   "p",
+   "While the moon shines, my son plays.",
+   "Lūnā lūcente, fīlius meus lūdit."
+  ],
+  [
+   "p",
+   "With the sun setting...",
+   "Sōle cadente..."
+  ],
+  [
+   "p",
+   "With the sun setting, we look for the moon.",
+   "Sōle cadente, lūnam quaerimus."
+  ],
+  [
+   "p",
+   "With the sun setting, we look for the moon together.",
+   "Sōle cadente, lūnam simul quaerimus."
+  ],
+  [
+   "t",
+   "Spot it: two words at the start, set off by a comma, like {sōle cadente}. Read: while, or with."
+  ],
+  [
+   "q",
+   "Sōle cadente, lūnam simul quaerimus.",
+   "With the sun setting, we look for the moon together."
+  ],
+  [
+   "t",
+   "Pattern eleven. {Cum} in a past story, with a new verb form: when, or since. It looks like the whole infinitive plus an ending. {Esse} becomes {esset}. {Vidēre} becomes {vidēret}. You'll meet this properly later."
+  ],
+  [
+   "p",
+   "We were in the park. He saw the moon.",
+   "In hortō erāmus. Lūnam vīdit."
+  ],
+  [
+   "p",
+   "When we were in the park, he saw the moon.",
+   "Cum in hortō essēmus, lūnam vīdit."
+  ],
+  [
+   "p",
+   "When he saw the moon...",
+   "Cum lūnam vidēret..."
+  ],
+  [
+   "p",
+   "When he saw the moon, he said: look!",
+   "Cum lūnam vidēret, dīxit: Ecce!"
+  ],
+  [
+   "p",
+   "When he saw the moon, he said: look, Dad, the moon is following us!",
+   "Cum lūnam vidēret, dīxit: Ecce, Pater, lūna nōs sequitur!"
+  ],
+  [
+   "t",
+   "Spot it: {cum} plus a verb built on the infinitive, like {vidēret}. Read: when, or since, in a story."
+  ],
+  [
+   "q",
+   "Cum lūnam vidēret, dīxit: Ecce!",
+   "When he saw the moon, he said: look!"
+  ],
+  [
+   "t",
+   "Pattern twelve. The hidden question. A question inside a sentence. Its verb takes the swapped form."
+  ],
+  [
+   "p",
+   "Why does the moon follow us?",
+   "Cūr lūna nōs sequitur?"
+  ],
+  [
+   "p",
+   "He wants to know why the moon follows us.",
+   "Scīre vult cūr lūna nōs sequātur."
+  ],
+  [
+   "p",
+   "He asks...",
+   "Rogat..."
+  ],
+  [
+   "p",
+   "He asks where the moon sleeps.",
+   "Rogat ubi lūna dormiat."
+  ],
+  [
+   "p",
+   "I don't know where the moon sleeps.",
+   "Nesciō ubi lūna dormiat."
+  ],
+  [
+   "p",
+   "Good question.",
+   "Bona quaestiō."
+  ],
+  [
+   "t",
+   "{Sequitur} became {sequātur}. {Dormit} became {dormiat}. Spot it: know or ask, then a question word, then a swapped verb."
+  ],
+  [
+   "q",
+   "Scīre vult cūr lūna nōs sequātur.",
+   "He wants to know why the moon follows us."
+  ],
+  [
+   "t",
+   "Pattern thirteen. Result. So much that. Look for {tam} or {ita} first, then {ut}."
+  ],
+  [
+   "p",
+   "He is so eager...",
+   "Tam cupidus est..."
+  ],
+  [
+   "p",
+   "He is so eager that he gets up at once.",
+   "Tam cupidus est ut statim surgat."
+  ],
+  [
+   "p",
+   "He asks so many things...",
+   "Tam multa rogat..."
+  ],
+  [
+   "p",
+   "He asks so many things that I learn too.",
+   "Tam multa rogat ut ego quoque discam."
+  ],
+  [
+   "p",
+   "It's true. I learn a lot.",
+   "Vērum est. Multa discō."
+  ],
+  [
+   "t",
+   "Spot it: {tam} or {ita} early, then {ut}. Read: so much that. No {tam} or {ita}? Then {ut} usually means so that, or to."
+  ],
+  [
+   "q",
+   "Tam multa rogat ut ego quoque discam.",
+   "He asks so many things that I learn too."
+  ],
+  [
+   "t",
+   "Pattern fourteen. The gerund. A verb used like a noun: playing, asking. {Lūdendī}: of playing. You'll meet this properly later."
+  ],
+  [
+   "p",
+   "He loves to play.",
+   "Lūdere amat."
+  ],
+  [
+   "p",
+   "He is keen on playing.",
+   "Cupidus lūdendī est."
+  ],
+  [
+   "p",
+   "My son is keen on playing.",
+   "Fīlius meus cupidus lūdendī est."
+  ],
+  [
+   "p",
+   "He is a master of asking.",
+   "Magister rogandī est."
+  ],
+  [
+   "p",
+   "It is time for sleeping.",
+   "Tempus dormiendī est."
+  ],
+  [
+   "t",
+   "Spot it: a word like {lūdendī} or {rogandī} after time, keen or master. Read: of doing it."
+  ],
+  [
+   "q",
+   "Fīlius meus cupidus lūdendī est.",
+   "My son is keen on playing."
+  ],
+  [
+   "t",
+   "Pattern fifteen. Must. {Dormiendum est}: sleeping must be done. Short, strong, and very useful."
+  ],
+  [
+   "p",
+   "You must sleep.",
+   "Dormīre dēbēs."
+  ],
+  [
+   "p",
+   "Now we must sleep.",
+   "Nunc dormiendum est."
+  ],
+  [
+   "p",
+   "Now we must sleep. But first I tell a story.",
+   "Nunc dormiendum est. Sed prīmum fābulam nārrō."
+  ],
+  [
+   "p",
+   "We must go home.",
+   "Domum eundum est."
+  ],
+  [
+   "t",
+   "Two ways to say must. {Dēbēs}, an ordinary verb. And {dormiendum est}: it has to be done. Who does it? The story tells you."
+  ],
+  [
+   "q",
+   "Nunc dormiendum est. Sed prīmum fābulam nārrō.",
+   "Now we must sleep. But first I tell a story."
+  ],
+  [
+   "t",
+   "The whole map, in one short evening. Fifteen patterns."
+  ],
+  [
+   "p",
+   "The boy who asks about everything is my son.",
+   "Puer quī omnia rogat fīlius meus est."
+  ],
+  [
+   "p",
+   "When we come to the park, he runs to the big tree.",
+   "Ubi in hortum venīmus, ad arborem magnam currit."
+  ],
+  [
+   "p",
+   "If we have time, we play again.",
+   "Sī tempus habēmus, iterum lūdimus."
+  ],
+  [
+   "p",
+   "With the sun setting, we look for the moon together.",
+   "Sōle cadente, lūnam simul quaerimus."
+  ],
+  [
+   "p",
+   "My son, watching the moon, is silent.",
+   "Fīlius meus, lūnam spectāns, tacet."
+  ],
+  [
+   "p",
+   "He says that the moon follows us.",
+   "Dīcit lūnam nōs sequī."
+  ],
+  [
+   "p",
+   "He wants to know why the moon follows us.",
+   "Scīre vult cūr lūna nōs sequātur."
+  ],
+  [
+   "p",
+   "Then he wants to go home, because he wants to see Mum.",
+   "Tum domum īre vult, quod Mātrem vidēre vult."
+  ],
+  [
+   "p",
+   "Although he wanted to go home, he still played happily.",
+   "Quamquam domum īre voluit, tamen laetus lūsit."
+  ],
+  [
+   "p",
+   "At home he climbs onto the chair so that he sees the moon.",
+   "Domī in sellam ascendit ut lūnam videat."
+  ],
+  [
+   "p",
+   "When he saw the moon, he said: look, it followed us!",
+   "Cum lūnam vidēret, dīxit: Ecce, nōs secūta est!"
+  ],
+  [
+   "p",
+   "He asks me to tell a story.",
+   "Mē rogat ut fābulam nārrem."
+  ],
+  [
+   "p",
+   "He asks so many things that I learn too.",
+   "Tam multa rogat ut ego quoque discam."
+  ],
+  [
+   "p",
+   "He is keen on playing, and keen on asking.",
+   "Cupidus lūdendī est, et cupidus rogandī."
+  ],
+  [
+   "p",
+   "Now we must sleep. But first I tell a story.",
+   "Nunc dormiendum est. Sed prīmum fābulam nārrō."
+  ],
+  [
+   "t",
+   "That is the map. Fifteen patterns. You don't need them all yet. Now you know the shape of each one. {Valē!} Now the Latin alone, twice."
+  ]
+ ]
+}
