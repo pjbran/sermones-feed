@@ -11,6 +11,16 @@ def load(path):
     return np.frombuffer(raw, '<i2').astype(np.float32) / 32768
 
 
+def tempo(x, factor):
+    """Speed speech up (factor > 1) without changing the pitch (ffmpeg atempo). Patrick, 3 Nov: English +30%."""
+    if abs(factor - 1.0) < 1e-3:
+        return x
+    raw = (np.clip(x, -1, 1) * 32767).astype('<i2').tobytes()
+    out = subprocess.run(['ffmpeg', '-v', 'error', '-f', 's16le', '-ar', str(SR), '-ac', '1', '-i', '-',
+                          '-af', f'atempo={factor}', '-f', 's16le', '-'], input=raw, capture_output=True, check=True).stdout
+    return np.frombuffer(out, '<i2').astype(np.float32) / 32768
+
+
 def trim(x, thr_db=-45, pad=0.04):
     """Cut the silence the TTS adds at both ends."""
     n = int(0.01 * SR)

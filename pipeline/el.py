@@ -57,7 +57,7 @@ def pick_model():
     return _MODEL
 
 
-def tts(voice_id, text, out, stability=0.2, similarity=0.75, model=None):
+def tts(voice_id, text, out, stability=0.2, similarity=0.75, model=None, speed=None):
     """Render one clip to an MP3 file. Falls back on stability and model when the API refuses.
     model given (e.g. the half-price eleven_flash_v2_5): that model only, never a silent switch to a full-price one."""
     global _MODEL
@@ -69,6 +69,8 @@ def tts(voice_id, text, out, stability=0.2, similarity=0.75, model=None):
     last = ''
     for m, st in tries:
         body = {'text': text, 'model_id': m, 'voice_settings': {'stability': st, 'similarity_boost': similarity}}
+        if speed:   # ElevenLabs native speed: 0.7 to 1.2 (3 Nov: English faster)
+            body['voice_settings']['speed'] = speed
         r = req('POST', f'/text-to-speech/{voice_id}?output_format=mp3_44100_128', json=body)
         if r.status_code == 200 and r.content:
             open(out, 'wb').write(r.content)

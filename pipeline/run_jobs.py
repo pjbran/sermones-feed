@@ -367,6 +367,62 @@ def latin_only_variant(job, slug_suffix='-latina'):
             'title': f'{t} · Latin only (× {rep})', 'summary': 'Latin only, twice as many rounds. ' + job.get('summary', '')}
 
 
+# ---------------- speed samples (Patrick, 3 Nov 13:04: "speed up the English voice by 30% ... samples for both") ----------------
+def run_speed_samples(job):
+    """The same short ladder (English -> Latin, music bed, like a real track) with the ENGLISH at several speeds, in the free
+    voices and in ElevenLabs (Iulia Flash). The Latin always stays at normal speed. Page: tests/<name>/index.html.
+    Free: Piper's own speed (length_scale). ElevenLabs: its own speed (max 1.2), and +30% by stretching the normal clip."""
+    import free_tts, html
+    name = job.get('name', 'speed'); out_dir = f'tests/{name}'; os.makedirs(out_dir, exist_ok=True); os.makedirs('clips/free', exist_ok=True)
+    pairs = job['pairs']; rows = []
+    ven, vla = 'en_GB-jenny_dioco-medium', 'it_IT-paola-medium'
+    def fclip(voice, text, ls=1.0):
+        h = hashlib.sha1(f'{voice}|{text}' .encode() if ls == 1.0 else f'{voice}|{text}|ls{ls:.3f}'.encode()).hexdigest()[:16]
+        w = f'clips/free/{h}.wav'
+        if not os.path.exists(w):
+            free_tts.say(voice, text, w, length_scale=ls)
+        return audio.norm(audio.trim(audio.load(w), thr_db=-55, pad=0.12))
+    V = json.load(open('pipeline/voices.json')); V = resolve_voices({'F': V['F']}); vid = V['F']; mdl = 'eleven_flash_v2_5'
+    def eclip(text, speed=None):
+        k = f'{vid}|{text}|0.5|{mdl}' + (f'|sp{speed}' if speed else '')
+        p = f'clips/{hashlib.sha1(k.encode()).hexdigest()[:16]}.mp3'
+        if not os.path.exists(p):
+            el.tts(vid, text, p, stability=0.5, model=mdl, speed=speed); log('  rendered:', text[:50])
+        return audio.norm(audio.trim(audio.load(p), thr_db=-55, pad=0.12))
+    def track(en_clip, la_clip, key, label):
+        seq = []
+        for en, la in pairs:
+            seq += [(en_clip(en), 0.45), (la_clip(la), 0.8)]
+        voice, ev = audio.sequence(seq)
+        x = audio.mix_music(voice, ev, MUSIC['v5'], -7, 7)
+        f = f'{out_dir}/{key}.mp3'
+        audio.save_mp3(x, f, {'title': label}, bitrate='96k', channels=1)
+        rows.append((label, os.path.basename(f), f'{len(x) / audio.SR:.0f} s')); log('speed sample ok:', label)
+    conv = lambda la: free_tts.latin_ipa(la, v_as_v=True)
+    for v in job.get('variants', []):
+        try:
+            if v == 'free_100': track(lambda e: fclip(ven, e), lambda l: fclip(vla, conv(l)), 'free-100', 'FREE (Jenny + Paola) · English normal speed (now)')
+            elif v == 'free_120': track(lambda e: fclip(ven, e, 1 / 1.2), lambda l: fclip(vla, conv(l)), 'free-120', 'FREE · English +20%')
+            elif v == 'free_130': track(lambda e: fclip(ven, e, 1 / 1.3), lambda l: fclip(vla, conv(l)), 'free-130', 'FREE · English +30%')
+            elif v == 'el_100': track(lambda e: eclip(e), lambda l: eclip(smart(l)), 'el-100', 'ELEVENLABS (Iulia) · English normal speed (now)')
+            elif v == 'el_120': track(lambda e: eclip(e, 1.2), lambda l: eclip(smart(l)), 'el-120', 'ELEVENLABS · English +20% (its own top speed)')
+            elif v == 'el_130': track(lambda e: audio.tempo(eclip(e), 1.3), lambda l: eclip(smart(l)), 'el-130', 'ELEVENLABS · English +30% (sped up after)')
+        except Exception as e:
+            log('variant failed:', v, e)
+    items = ''.join(f'<li><b>{html.escape(l)}</b> <small>{d}</small><br><audio controls preload="none" src="{f}"></audio></li>' for l, f, d in rows)
+    script = ''.join(f'<li>{html.escape(en)}<br><i>{html.escape(la)}</i></li>' for en, la in pairs)
+    open(f'{out_dir}/index.html', 'w').write(
+        '<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+        '<meta name="robots" content="noindex"><title>English speed</title>'
+        '<style>body{font:16px/1.5 system-ui;max-width:560px;margin:24px auto;padding:0 16px;background:#1f3a38;color:#f4ecdc}'
+        'li{margin:0 0 18px}audio{width:100%}small{opacity:.7}</style>'
+        '<h1>English speed</h1><p>The opening of Ladder 18b, like a real track (music bed, normal pauses). Only the ENGLISH speed changes; the Latin is always normal speed.</p>'
+        f'<ol>{items}</ol><h2>Script</h2><ol><small>{script}</small></ol>')
+    if not rows:
+        raise RuntimeError('No speed sample rendered.')
+    return {'tests': len(rows), 'page': f'{BASE}/{out_dir}/'}
+
+
 # ---------------- credits ----------------
 def run_credits(job):
     """Log the ElevenLabs credits (logs/credits.json). Costs nothing."""
@@ -922,7 +978,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible, 'redo_latin': run_redo_latin, 'merge': run_merge, 'kids': run_kids, 'grammar': run_grammar}.get(job['type'], run_episode)(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible, 'redo_latin': run_redo_latin, 'merge': run_merge, 'kids': run_kids, 'grammar': run_grammar, 'speed_samples': run_speed_samples}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]
