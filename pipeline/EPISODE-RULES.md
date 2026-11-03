@@ -115,7 +115,14 @@ His strong words get no points. They are the glue and they come back anyway.
 - Free tracks (ladders, pyramids, stories) are saved at 64 kbps mono (speech-friendly, about 60% smaller).
 - The "(old)" versions were removed on 26 Oct (Patrick: "do 123").
 
-## 4e. Grammar series (1 Nov 2026)
+## 4e-NEW. Grammar = pyramid ladders ONLY (Patrick, 3 Nov 2026) — overrides 4e below
+- "Ladder 5 has been my absolute favourite. I use those sentences still." / "drilling the shit out of a limited set" / "The explicit grammar teaching needs to go ... Only do pyramids/ladders." The Grammar Map "tries to do too much".
+- Each grammar topic = a `drill` ladder in the Ladder 5 mould: 5 cores, first person (I / you), his real reusable words, plain → new pairs, questions, spaced reviews, one closing day, the five again at the end. No English teaching talk, no characters, no props.
+- Hard check before the reviewer: each core 12+ times; no Latin word used only once; about 150 different words max; one English gloss per Latin line.
+- If grammar is ever explained again: real terms (clause, dependent clause, participle, ablative absolute). He was an English teacher.
+- First one: Ladder 18 · Ambulāns cōgitō (job 0060, drafts/scala-18.py). Full notes: project doc claude/GRAMMAR-SERIES.md.
+
+## 4e. Grammar series (1 Nov 2026) — RETIRED 3 Nov
 - Separate from the stories: a teaching show, "Grammar 1, 2, 3 …". Job type `grammar` (lines: `t` talk with {Latin}, `p` English→Latin, `q` ear quiz Latin→pause→English).
 - Per pattern: hook → show-then-tell pairs (plain → pattern) → the app tip in 2–3 sentences → pyramid → ear quiz → recap.
 - About 30% English talk. Plain words, few grammar terms. Only his known words (reuse Forms > Patterns sentences). Present/perfect indicative only.
