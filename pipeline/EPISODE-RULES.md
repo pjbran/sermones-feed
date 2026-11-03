@@ -129,6 +129,10 @@ His strong words get no points. They are the glue and they come back anyway.
 - Check: the draft script prints any main-course step that shares no word or changes more than one bit; read those by hand. Then read the main course in order: it must sound like a slow staircase. Don't overfit the check (his words).
 - Ladders use the FREE voices (Jenny + Paola, IPA, v as v), 3 Nov.
 
+## English speed (Patrick, 3 Nov 2026; samples tests/english-speed/)
+- ElevenLabs ladders: English +30% by default, sped up after (ffmpeg atempo 1.3, pitch kept; job key `english_speed`, default 1.3 in run_drill_eleven). His pick 16:11: "6 is good for eleven labs". Latin never sped up.
+- Free ladders (Jenny + Paola): his pick pending. He felt the voice's own +30% (Piper length_scale) "doesn't sound much faster" (it is ~30% on the English, but it keeps a relaxed rhythm and the whole track only shrinks ~6%). Samples added: +30% sped up after (like #6) and the voice's own +50%.
+
 ## 4e-NEW. Grammar = pyramid ladders ONLY (Patrick, 3 Nov 2026) — overrides 4e below
 - "Ladder 5 has been my absolute favourite. I use those sentences still." / "drilling the shit out of a limited set" / "The explicit grammar teaching needs to go ... Only do pyramids/ladders." The Grammar Map "tries to do too much".
 - Each grammar topic = a `drill` ladder in the Ladder 5 mould: 5 cores, first person (I / you), his real reusable words, plain → new pairs, questions, spaced reviews, one closing day, the five again at the end. No English teaching talk, no characters, no props.

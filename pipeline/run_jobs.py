@@ -531,7 +531,8 @@ def run_drill_eleven(job):
         if job.get('latin_only'):
             items += [(eclip(smart(la)), job.get('pause_latin_only', 0.6))]
         else:
-            items += [(eclip(en), job.get('pause_after_english', 0.45)), (eclip(smart(la)), job.get('pause_after_latin', 0.8))]
+            # English +30% by default, sped up after (Patrick, 3 Nov 16:11: speed sample #6 "is good for eleven labs"); Latin unchanged
+            items += [(audio.tempo(eclip(en), job.get('english_speed', 1.3)), job.get('pause_after_english', 0.45)), (eclip(smart(la)), job.get('pause_after_latin', 0.8))]
     n = int(job.get('repeat', 2)); seq = []
     for k in range(n):
         seq += items[:-1] + [(items[-1][0], 2.5)]
