@@ -404,6 +404,8 @@ def run_speed_samples(job):
             if v == 'free_100': track(lambda e: fclip(ven, e), lambda l: fclip(vla, conv(l)), 'free-100', 'FREE (Jenny + Paola) · English normal speed (now)')
             elif v == 'free_120': track(lambda e: fclip(ven, e, 1 / 1.2), lambda l: fclip(vla, conv(l)), 'free-120', 'FREE · English +20%')
             elif v == 'free_130': track(lambda e: fclip(ven, e, 1 / 1.3), lambda l: fclip(vla, conv(l)), 'free-130', 'FREE · English +30%')
+            elif v == 'free_130s': track(lambda e: audio.tempo(fclip(ven, e), 1.3), lambda l: fclip(vla, conv(l)), 'free-130s', 'FREE · English +30% (sped up after, like #6)')
+            elif v == 'free_150': track(lambda e: fclip(ven, e, 1 / 1.5), lambda l: fclip(vla, conv(l)), 'free-150', 'FREE · English +50% (the voice itself)')
             elif v == 'el_100': track(lambda e: eclip(e), lambda l: eclip(smart(l)), 'el-100', 'ELEVENLABS (Iulia) · English normal speed (now)')
             elif v == 'el_120': track(lambda e: eclip(e, 1.2), lambda l: eclip(smart(l)), 'el-120', 'ELEVENLABS · English +20% (its own top speed)')
             elif v == 'el_130': track(lambda e: audio.tempo(eclip(e), 1.3), lambda l: eclip(smart(l)), 'el-130', 'ELEVENLABS · English +30% (sped up after)')

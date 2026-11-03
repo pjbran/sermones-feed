@@ -1,0 +1,88 @@
+{
+ "type": "speed_samples",
+ "name": "english-speed",
+ "pairs": [
+  [
+   "I think.",
+   "Cōgitō."
+  ],
+  [
+   "I think about Latin.",
+   "Dē linguā Latīnā cōgitō."
+  ],
+  [
+   "I walk and I think about Latin.",
+   "Ambulō et dē linguā Latīnā cōgitō."
+  ],
+  [
+   "I walk and I think.",
+   "Ambulō et cōgitō."
+  ],
+  [
+   "Walking, I think.",
+   "Ambulāns cōgitō."
+  ],
+  [
+   "I walk and I think.",
+   "Ambulō et cōgitō."
+  ],
+  [
+   "Walking, I think.",
+   "Ambulāns cōgitō."
+  ],
+  [
+   "I walk and I think about Latin.",
+   "Ambulō et dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Walking, I think about Latin.",
+   "Ambulāns dē linguā Latīnā cōgitō."
+  ],
+  [
+   "I walk slowly and I think about Latin.",
+   "Lentē ambulō et dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Walking slowly, I think about Latin.",
+   "Lentē ambulāns dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Walking slowly with my son, I think about Latin.",
+   "Cum fīliō meō lentē ambulāns, dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Every day, walking slowly with my son, I think about Latin.",
+   "Cotīdiē, cum fīliō meō lentē ambulāns, dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Walking slowly with my son, I think about Latin.",
+   "Cum fīliō meō lentē ambulāns, dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Walking with my son, I think about Latin.",
+   "Cum fīliō meō ambulāns, dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Walking with my son, I think.",
+   "Cum fīliō meō ambulāns, cōgitō."
+  ],
+  [
+   "Walking, I think.",
+   "Ambulāns cōgitō."
+  ],
+  [
+   "Walking, I speak.",
+   "Ambulāns loquor."
+  ]
+ ],
+ "variants": [
+  "free_100",
+  "free_120",
+  "free_130",
+  "free_130s",
+  "free_150",
+  "el_100",
+  "el_120",
+  "el_130"
+ ]
+}
