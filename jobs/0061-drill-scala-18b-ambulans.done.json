@@ -1,0 +1,12 @@
+{
+ "job": "jobs/0061-drill-scala-18b-ambulans.json",
+ "ok": true,
+ "files": [
+  "bonus-scala-18b-ambulans.mp3"
+ ],
+ "log": [
+  "== job jobs/0061-drill-scala-18b-ambulans.json drill",
+  "built bonus-scala-18b-ambulans.mp3 56.5 min"
+ ],
+ "at": "2026-11-03T01:52:13+00:00"
+}
