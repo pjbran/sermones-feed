@@ -121,6 +121,14 @@ His strong words get no points. They are the glue and they come back anyway.
 - Free tracks (ladders, pyramids, stories) are saved at 64 kbps mono (speech-friendly, about 60% smaller).
 - The "(old)" versions were removed on 26 Oct (Patrick: "do 123").
 
+## 🔺 HOW TO WRITE A PYRAMID (Patrick, 3 Nov 2026 12:32–12:41) — read before ANY ladder
+- His 3 rules: **SCAFFOLD, OVERLAP, UNDULATE.** "build up, one word/chunk at a time, peak at a long sentence, then work SLOWLY down ... Think of physical pyramids or triangles going up and down." "The main course of the pyramids is brutally consistent and slow going, which is awesome for passive-ish listening." Reviews may jump; the main course may not.
+- **Every line = the line before, changed by ONE bit** (a word or chunk added, dropped or swapped, or a form swapped). One thread up to a long peak (7–10 words), then down the same way. Nothing sideways.
+- The new form comes in at its SMALLEST (*Rogō ut loquāris*), then toggles plain ↔ new, each pair one bit bigger (*Lentē loqueris → Rogō ut lentē loquāris → Lentius loqueris → Rogō ut lentius loquāris*). Big chunks are built as separate halves, then joined at the peak (*Linguam Latīnam discō* + *Ut tēcum loquar*).
+- Model: Ladder 5's main course (jobs/0034, pairs 3–80) and Ladder 18b (drafts/scala-18b.py). Anti-model: Ladder 18 v1 (job 0060) = hub-and-spoke (each line a variant of the core, not of the line before; short peaks). Its one good stretch (his 32:13) was the chained build-up of core 3.
+- Check: the draft script prints any main-course step that shares no word or changes more than one bit; read those by hand. Then read the main course in order: it must sound like a slow staircase. Don't overfit the check (his words).
+- Ladders use the FREE voices (Jenny + Paola, IPA, v as v), 3 Nov.
+
 ## 4e-NEW. Grammar = pyramid ladders ONLY (Patrick, 3 Nov 2026) — overrides 4e below
 - "Ladder 5 has been my absolute favourite. I use those sentences still." / "drilling the shit out of a limited set" / "The explicit grammar teaching needs to go ... Only do pyramids/ladders." The Grammar Map "tries to do too much".
 - Each grammar topic = a `drill` ladder in the Ladder 5 mould: 5 cores, first person (I / you), his real reusable words, plain → new pairs, questions, spaced reviews, one closing day, the five again at the end. No English teaching talk, no characters, no props.

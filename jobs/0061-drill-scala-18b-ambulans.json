@@ -1,0 +1,1277 @@
+{
+ "type": "drill",
+ "repeat": 1,
+ "combined": true,
+ "music": "v5",
+ "latin_ipa": true,
+ "v_as_v": true,
+ "slug": "scala-18b-ambulans",
+ "title": "Ladder 18b · Ambulāns cōgitō (true pyramids, free voices)",
+ "summary": "The participle pyramid rewritten the Ladder 5 way: every line built from the line before, one bit at a time, up to a long peak and slowly down. Five sentences: Ambulāns cōgitō · Tē lentē loquentem intellegō · Verbum ā tē dictum nōn intellegō · Tē loquente, taceō · Lēctiōne fīnītā, ambulō. Then a review, one day, and the five again. English → Latin, then the Latin twice. Free voices (Jenny + Paola).",
+ "pairs": [
+  [
+   "Today: five sentences.",
+   "Hodiē: quīnque sententiae."
+  ],
+  [
+   "Five sentences, slowly.",
+   "Quīnque sententiae, lentē."
+  ],
+  [
+   "Sentence one.",
+   "Sententia prīma."
+  ],
+  [
+   "I think.",
+   "Cōgitō."
+  ],
+  [
+   "I think about Latin.",
+   "Dē linguā Latīnā cōgitō."
+  ],
+  [
+   "I walk and I think about Latin.",
+   "Ambulō et dē linguā Latīnā cōgitō."
+  ],
+  [
+   "I walk and I think.",
+   "Ambulō et cōgitō."
+  ],
+  [
+   "Walking, I think.",
+   "Ambulāns cōgitō."
+  ],
+  [
+   "I walk and I think.",
+   "Ambulō et cōgitō."
+  ],
+  [
+   "Walking, I think.",
+   "Ambulāns cōgitō."
+  ],
+  [
+   "I walk and I think about Latin.",
+   "Ambulō et dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Walking, I think about Latin.",
+   "Ambulāns dē linguā Latīnā cōgitō."
+  ],
+  [
+   "I walk slowly and I think about Latin.",
+   "Lentē ambulō et dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Walking slowly, I think about Latin.",
+   "Lentē ambulāns dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Walking slowly with my son, I think about Latin.",
+   "Cum fīliō meō lentē ambulāns, dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Every day, walking slowly with my son, I think about Latin.",
+   "Cotīdiē, cum fīliō meō lentē ambulāns, dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Walking slowly with my son, I think about Latin.",
+   "Cum fīliō meō lentē ambulāns, dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Walking with my son, I think about Latin.",
+   "Cum fīliō meō ambulāns, dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Walking with my son, I think.",
+   "Cum fīliō meō ambulāns, cōgitō."
+  ],
+  [
+   "Walking, I think.",
+   "Ambulāns cōgitō."
+  ],
+  [
+   "Walking, I speak.",
+   "Ambulāns loquor."
+  ],
+  [
+   "Walking, I speak Latin.",
+   "Ambulāns Latīnē loquor."
+  ],
+  [
+   "Walking, I speak Latin with my son.",
+   "Ambulāns cum fīliō meō Latīnē loquor."
+  ],
+  [
+   "Walking, I speak Latin.",
+   "Ambulāns Latīnē loquor."
+  ],
+  [
+   "Walking, my son speaks Latin.",
+   "Fīlius meus ambulāns Latīnē loquitur."
+  ],
+  [
+   "Walking, my son speaks.",
+   "Fīlius meus ambulāns loquitur."
+  ],
+  [
+   "Walking, my son asks questions.",
+   "Fīlius meus ambulāns rogat."
+  ],
+  [
+   "Walking, my son asks: why?",
+   "Fīlius meus ambulāns rogat: cūr?"
+  ],
+  [
+   "Walking with me, my son asks: why?",
+   "Fīlius meus mēcum ambulāns rogat: cūr?"
+  ],
+  [
+   "Every day, walking with me, my son asks: why?",
+   "Cotīdiē fīlius meus mēcum ambulāns rogat: cūr?"
+  ],
+  [
+   "Walking with me, my son asks: why?",
+   "Fīlius meus mēcum ambulāns rogat: cūr?"
+  ],
+  [
+   "Walking, my son asks: why?",
+   "Fīlius meus ambulāns rogat: cūr?"
+  ],
+  [
+   "Walking, my son asks questions.",
+   "Fīlius meus ambulāns rogat."
+  ],
+  [
+   "Walking, my son thinks.",
+   "Fīlius meus ambulāns cōgitat."
+  ],
+  [
+   "Walking, he thinks.",
+   "Ambulāns cōgitat."
+  ],
+  [
+   "Walking, I think.",
+   "Ambulāns cōgitō."
+  ],
+  [
+   "Walking, we think.",
+   "Ambulantēs cōgitāmus."
+  ],
+  [
+   "Walking, my son and I think.",
+   "Ego et fīlius meus ambulantēs cōgitāmus."
+  ],
+  [
+   "Walking, my son and I speak.",
+   "Ego et fīlius meus ambulantēs loquimur."
+  ],
+  [
+   "Walking, my son and I speak Latin.",
+   "Ego et fīlius meus ambulantēs Latīnē loquimur."
+  ],
+  [
+   "Every day, walking, my son and I speak Latin.",
+   "Ego et fīlius meus cotīdiē ambulantēs Latīnē loquimur."
+  ],
+  [
+   "Walking, my son and I speak Latin.",
+   "Ego et fīlius meus ambulantēs Latīnē loquimur."
+  ],
+  [
+   "Walking, we speak Latin.",
+   "Ambulantēs Latīnē loquimur."
+  ],
+  [
+   "Walking, we speak.",
+   "Ambulantēs loquimur."
+  ],
+  [
+   "Walking, I speak.",
+   "Ambulāns loquor."
+  ],
+  [
+   "Walking, I think.",
+   "Ambulāns cōgitō."
+  ],
+  [
+   "Walking, I learn.",
+   "Ambulāns discō."
+  ],
+  [
+   "Walking, I learn Latin.",
+   "Ambulāns linguam Latīnam discō."
+  ],
+  [
+   "Every day, walking, I learn Latin.",
+   "Cotīdiē ambulāns linguam Latīnam discō."
+  ],
+  [
+   "Every morning, walking, I learn Latin.",
+   "Cotīdiē māne ambulāns linguam Latīnam discō."
+  ],
+  [
+   "Every morning, walking with my son, I learn Latin.",
+   "Cotīdiē māne cum fīliō meō ambulāns linguam Latīnam discō."
+  ],
+  [
+   "Every morning, walking slowly with my son, I learn Latin.",
+   "Cotīdiē māne cum fīliō meō lentē ambulāns linguam Latīnam discō."
+  ],
+  [
+   "Every morning, walking with my son, I learn Latin.",
+   "Cotīdiē māne cum fīliō meō ambulāns linguam Latīnam discō."
+  ],
+  [
+   "Every morning, walking, I learn Latin.",
+   "Cotīdiē māne ambulāns linguam Latīnam discō."
+  ],
+  [
+   "Every day, walking, I learn Latin.",
+   "Cotīdiē ambulāns linguam Latīnam discō."
+  ],
+  [
+   "Walking, I learn Latin.",
+   "Ambulāns linguam Latīnam discō."
+  ],
+  [
+   "Walking, I learn.",
+   "Ambulāns discō."
+  ],
+  [
+   "Walking, I think.",
+   "Ambulāns cōgitō."
+  ],
+  [
+   "Sentence two.",
+   "Sententia secunda."
+  ],
+  [
+   "You speak.",
+   "Loqueris."
+  ],
+  [
+   "You speak slowly.",
+   "Lentē loqueris."
+  ],
+  [
+   "You speak slowly and simply.",
+   "Lentē et simpliciter loqueris."
+  ],
+  [
+   "You speak slowly.",
+   "Lentē loqueris."
+  ],
+  [
+   "You speak slowly. I understand you.",
+   "Lentē loqueris. Tē intellegō."
+  ],
+  [
+   "I understand you.",
+   "Tē intellegō."
+  ],
+  [
+   "I understand you when you speak.",
+   "Tē loquentem intellegō."
+  ],
+  [
+   "You speak. I understand you.",
+   "Loqueris. Tē intellegō."
+  ],
+  [
+   "I understand you when you speak.",
+   "Tē loquentem intellegō."
+  ],
+  [
+   "You speak slowly. I understand you.",
+   "Lentē loqueris. Tē intellegō."
+  ],
+  [
+   "I understand you when you speak slowly.",
+   "Tē lentē loquentem intellegō."
+  ],
+  [
+   "You speak slowly and simply. I understand you.",
+   "Lentē et simpliciter loqueris. Tē intellegō."
+  ],
+  [
+   "I understand you when you speak slowly and simply.",
+   "Tē lentē et simpliciter loquentem intellegō."
+  ],
+  [
+   "I understand you well when you speak slowly and simply.",
+   "Tē lentē et simpliciter loquentem bene intellegō."
+  ],
+  [
+   "I understand my teacher well when she speaks slowly and simply.",
+   "Magistram meam lentē et simpliciter loquentem bene intellegō."
+  ],
+  [
+   "I understand my teacher well when she speaks slowly.",
+   "Magistram meam lentē loquentem bene intellegō."
+  ],
+  [
+   "I understand my teacher when she speaks slowly.",
+   "Magistram meam lentē loquentem intellegō."
+  ],
+  [
+   "I understand you when you speak slowly.",
+   "Tē lentē loquentem intellegō."
+  ],
+  [
+   "I don't understand you when you speak fast.",
+   "Tē celeriter loquentem nōn intellegō."
+  ],
+  [
+   "I don't understand you when you speak too fast.",
+   "Tē nimis celeriter loquentem nōn intellegō."
+  ],
+  [
+   "I don't understand my teacher when she speaks too fast.",
+   "Magistram meam nimis celeriter loquentem nōn intellegō."
+  ],
+  [
+   "In the morning, I don't understand my teacher when she speaks too fast.",
+   "Māne magistram meam nimis celeriter loquentem nōn intellegō."
+  ],
+  [
+   "I don't understand my teacher when she speaks too fast.",
+   "Magistram meam nimis celeriter loquentem nōn intellegō."
+  ],
+  [
+   "My teacher speaks too fast. I don't understand.",
+   "Magistra mea nimis celeriter loquitur. Nōn intellegō."
+  ],
+  [
+   "My teacher speaks too fast.",
+   "Magistra mea nimis celeriter loquitur."
+  ],
+  [
+   "My teacher speaks more slowly.",
+   "Magistra mea lentius loquitur."
+  ],
+  [
+   "I understand my teacher when she speaks more slowly.",
+   "Magistram meam lentius loquentem intellegō."
+  ],
+  [
+   "I understand you when you speak more slowly.",
+   "Tē lentius loquentem intellegō."
+  ],
+  [
+   "I understand you when you speak slowly.",
+   "Tē lentē loquentem intellegō."
+  ],
+  [
+   "I understand you when you speak.",
+   "Tē loquentem intellegō."
+  ],
+  [
+   "I hear you speaking.",
+   "Tē loquentem audiō."
+  ],
+  [
+   "I hear my son speaking.",
+   "Fīlium meum loquentem audiō."
+  ],
+  [
+   "I hear my son speaking Latin.",
+   "Fīlium meum Latīnē loquentem audiō."
+  ],
+  [
+   "At home I hear my son speaking Latin.",
+   "Domī fīlium meum Latīnē loquentem audiō."
+  ],
+  [
+   "Every day at home I hear my son speaking Latin.",
+   "Cotīdiē domī fīlium meum Latīnē loquentem audiō."
+  ],
+  [
+   "At home I hear my son speaking Latin.",
+   "Domī fīlium meum Latīnē loquentem audiō."
+  ],
+  [
+   "I hear my son speaking Latin.",
+   "Fīlium meum Latīnē loquentem audiō."
+  ],
+  [
+   "I hear my son speaking.",
+   "Fīlium meum loquentem audiō."
+  ],
+  [
+   "I understand my son when he speaks.",
+   "Fīlium meum loquentem intellegō."
+  ],
+  [
+   "I understand you when you speak.",
+   "Tē loquentem intellegō."
+  ],
+  [
+   "I hear you speaking.",
+   "Tē loquentem audiō."
+  ],
+  [
+   "Walking, I hear you speaking.",
+   "Ambulāns tē loquentem audiō."
+  ],
+  [
+   "Walking, I hear my teacher speaking.",
+   "Ambulāns magistram meam loquentem audiō."
+  ],
+  [
+   "Walking, I hear my teacher speaking Latin.",
+   "Ambulāns magistram meam Latīnē loquentem audiō."
+  ],
+  [
+   "In the morning, walking, I hear my teacher speaking Latin.",
+   "Māne ambulāns magistram meam Latīnē loquentem audiō."
+  ],
+  [
+   "Every morning, walking, I hear my teacher speaking Latin.",
+   "Cotīdiē māne ambulāns magistram meam Latīnē loquentem audiō."
+  ],
+  [
+   "In the morning, walking, I hear my teacher speaking Latin.",
+   "Māne ambulāns magistram meam Latīnē loquentem audiō."
+  ],
+  [
+   "Walking, I hear my teacher speaking Latin.",
+   "Ambulāns magistram meam Latīnē loquentem audiō."
+  ],
+  [
+   "Walking, I hear my teacher speaking.",
+   "Ambulāns magistram meam loquentem audiō."
+  ],
+  [
+   "Walking, I hear you speaking.",
+   "Ambulāns tē loquentem audiō."
+  ],
+  [
+   "I hear you speaking.",
+   "Tē loquentem audiō."
+  ],
+  [
+   "I understand you when you speak.",
+   "Tē loquentem intellegō."
+  ],
+  [
+   "I understand you when you speak slowly.",
+   "Tē lentē loquentem intellegō."
+  ],
+  [
+   "Sentence three.",
+   "Sententia tertia."
+  ],
+  [
+   "A word.",
+   "Verbum."
+  ],
+  [
+   "You say a word.",
+   "Verbum dīcis."
+  ],
+  [
+   "You say a Latin word.",
+   "Verbum Latīnum dīcis."
+  ],
+  [
+   "You say a word.",
+   "Verbum dīcis."
+  ],
+  [
+   "You say a word. I don't understand.",
+   "Verbum dīcis. Nōn intellegō."
+  ],
+  [
+   "I don't understand the word.",
+   "Verbum nōn intellegō."
+  ],
+  [
+   "I don't understand the word that was said.",
+   "Verbum dictum nōn intellegō."
+  ],
+  [
+   "I don't understand the word you said.",
+   "Verbum ā tē dictum nōn intellegō."
+  ],
+  [
+   "You say a word. I don't understand.",
+   "Verbum dīcis. Nōn intellegō."
+  ],
+  [
+   "I don't understand the word you said.",
+   "Verbum ā tē dictum nōn intellegō."
+  ],
+  [
+   "You say a word fast. I don't understand.",
+   "Verbum celeriter dīcis. Nōn intellegō."
+  ],
+  [
+   "I don't understand the word you said fast.",
+   "Verbum ā tē celeriter dictum nōn intellegō."
+  ],
+  [
+   "I don't understand the word you said too fast.",
+   "Verbum ā tē nimis celeriter dictum nōn intellegō."
+  ],
+  [
+   "I don't understand the word my teacher said too fast.",
+   "Verbum ā magistrā meā nimis celeriter dictum nōn intellegō."
+  ],
+  [
+   "I don't understand the word my teacher said fast.",
+   "Verbum ā magistrā meā celeriter dictum nōn intellegō."
+  ],
+  [
+   "I don't understand the word my teacher said.",
+   "Verbum ā magistrā meā dictum nōn intellegō."
+  ],
+  [
+   "I don't understand the word you said.",
+   "Verbum ā tē dictum nōn intellegō."
+  ],
+  [
+   "I understand the word you said.",
+   "Verbum ā tē dictum intellegō."
+  ],
+  [
+   "I understand the word you said slowly.",
+   "Verbum ā tē lentē dictum intellegō."
+  ],
+  [
+   "I understand the word you said again.",
+   "Verbum ā tē iterum dictum intellegō."
+  ],
+  [
+   "I understand the word you said again, slowly.",
+   "Verbum ā tē iterum lentē dictum intellegō."
+  ],
+  [
+   "I understand the word my teacher said again, slowly.",
+   "Verbum ā magistrā meā iterum lentē dictum intellegō."
+  ],
+  [
+   "I understand the word my teacher said again.",
+   "Verbum ā magistrā meā iterum dictum intellegō."
+  ],
+  [
+   "I understand the word when it is said again.",
+   "Verbum iterum dictum intellegō."
+  ],
+  [
+   "I understand the word.",
+   "Verbum intellegō."
+  ],
+  [
+   "I understand the sentence.",
+   "Sententiam intellegō."
+  ],
+  [
+   "I understand the sentence you said.",
+   "Sententiam ā tē dictam intellegō."
+  ],
+  [
+   "I don't understand the sentence you said.",
+   "Sententiam ā tē dictam nōn intellegō."
+  ],
+  [
+   "I don't understand the sentence you said fast.",
+   "Sententiam ā tē celeriter dictam nōn intellegō."
+  ],
+  [
+   "I don't understand the sentence you said too fast.",
+   "Sententiam ā tē nimis celeriter dictam nōn intellegō."
+  ],
+  [
+   "I don't understand the sentence you said fast.",
+   "Sententiam ā tē celeriter dictam nōn intellegō."
+  ],
+  [
+   "I don't understand the sentence you said.",
+   "Sententiam ā tē dictam nōn intellegō."
+  ],
+  [
+   "I understand the sentence you said.",
+   "Sententiam ā tē dictam intellegō."
+  ],
+  [
+   "I understand the sentence you said slowly.",
+   "Sententiam ā tē lentē dictam intellegō."
+  ],
+  [
+   "I understand the words you said slowly.",
+   "Verba ā tē lentē dicta intellegō."
+  ],
+  [
+   "I understand the words you said.",
+   "Verba ā tē dicta intellegō."
+  ],
+  [
+   "I understand the word you said.",
+   "Verbum ā tē dictum intellegō."
+  ],
+  [
+   "I don't understand the word you said.",
+   "Verbum ā tē dictum nōn intellegō."
+  ],
+  [
+   "I hear the word you said.",
+   "Verbum ā tē dictum audiō."
+  ],
+  [
+   "My son hears the word you said.",
+   "Fīlius meus verbum ā tē dictum audit."
+  ],
+  [
+   "My son hears a word.",
+   "Fīlius meus verbum audit."
+  ],
+  [
+   "My son says a word.",
+   "Fīlius meus verbum dīcit."
+  ],
+  [
+   "My son says the word he heard.",
+   "Fīlius meus verbum audītum dīcit."
+  ],
+  [
+   "Again, my son says the word he heard.",
+   "Fīlius meus verbum audītum iterum dīcit."
+  ],
+  [
+   "Again, my son says the Latin word he heard.",
+   "Fīlius meus verbum Latīnum audītum iterum dīcit."
+  ],
+  [
+   "At home, again, my son says the Latin word he heard.",
+   "Domī fīlius meus verbum Latīnum audītum iterum dīcit."
+  ],
+  [
+   "Again, my son says the Latin word he heard.",
+   "Fīlius meus verbum Latīnum audītum iterum dīcit."
+  ],
+  [
+   "Again, my son says the word he heard.",
+   "Fīlius meus verbum audītum iterum dīcit."
+  ],
+  [
+   "My son says the word he heard.",
+   "Fīlius meus verbum audītum dīcit."
+  ],
+  [
+   "He says the word he heard.",
+   "Verbum audītum dīcit."
+  ],
+  [
+   "He says a word.",
+   "Verbum dīcit."
+  ],
+  [
+   "Sentence four.",
+   "Sententia quārta."
+  ],
+  [
+   "I am quiet.",
+   "Taceō."
+  ],
+  [
+   "You speak. I am quiet.",
+   "Tū loqueris. Ego taceō."
+  ],
+  [
+   "When you speak, I am quiet.",
+   "Cum loqueris, taceō."
+  ],
+  [
+   "While you speak, I am quiet.",
+   "Tē loquente, taceō."
+  ],
+  [
+   "When you speak, I am quiet.",
+   "Cum loqueris, taceō."
+  ],
+  [
+   "While you speak, I am quiet.",
+   "Tē loquente, taceō."
+  ],
+  [
+   "When you speak slowly, I am quiet.",
+   "Cum lentē loqueris, taceō."
+  ],
+  [
+   "While you speak slowly, I am quiet.",
+   "Tē lentē loquente, taceō."
+  ],
+  [
+   "While you speak slowly, I am quiet and I listen.",
+   "Tē lentē loquente, taceō et audiō."
+  ],
+  [
+   "While you speak slowly, I am quiet and I understand everything.",
+   "Tē lentē loquente, taceō et omnia intellegō."
+  ],
+  [
+   "While my teacher speaks slowly, I am quiet and I understand everything.",
+   "Magistrā meā lentē loquente, taceō et omnia intellegō."
+  ],
+  [
+   "While my teacher speaks, I am quiet and I understand everything.",
+   "Magistrā meā loquente, taceō et omnia intellegō."
+  ],
+  [
+   "While my teacher speaks, I am quiet and I understand.",
+   "Magistrā meā loquente, taceō et intellegō."
+  ],
+  [
+   "While my teacher speaks, I am quiet.",
+   "Magistrā meā loquente, taceō."
+  ],
+  [
+   "While you speak, I am quiet.",
+   "Tē loquente, taceō."
+  ],
+  [
+   "While I speak, you are quiet.",
+   "Mē loquente, tacēs."
+  ],
+  [
+   "I speak. You are quiet.",
+   "Ego loquor. Tū tacēs."
+  ],
+  [
+   "While I speak, you are quiet.",
+   "Mē loquente, tacēs."
+  ],
+  [
+   "While I speak, you are quiet and you listen.",
+   "Mē loquente, tacēs et audīs."
+  ],
+  [
+   "While I speak Latin, you are quiet and you listen.",
+   "Mē Latīnē loquente, tacēs et audīs."
+  ],
+  [
+   "While I speak Latin, you are quiet and you understand everything.",
+   "Mē Latīnē loquente, tacēs et omnia intellegis."
+  ],
+  [
+   "While I speak Latin slowly, you are quiet and you understand everything.",
+   "Mē lentē Latīnē loquente, tacēs et omnia intellegis."
+  ],
+  [
+   "While I speak Latin, you are quiet and you understand everything.",
+   "Mē Latīnē loquente, tacēs et omnia intellegis."
+  ],
+  [
+   "While I speak Latin, you are quiet and you listen.",
+   "Mē Latīnē loquente, tacēs et audīs."
+  ],
+  [
+   "While I speak, you are quiet and you listen.",
+   "Mē loquente, tacēs et audīs."
+  ],
+  [
+   "While I speak, you are quiet.",
+   "Mē loquente, tacēs."
+  ],
+  [
+   "While you speak, I am quiet.",
+   "Tē loquente, taceō."
+  ],
+  [
+   "While my son speaks, I am quiet.",
+   "Fīliō meō loquente, taceō."
+  ],
+  [
+   "While my son speaks, I am quiet and I listen.",
+   "Fīliō meō loquente, taceō et audiō."
+  ],
+  [
+   "While my son speaks Latin, I am quiet and I listen.",
+   "Fīliō meō Latīnē loquente, taceō et audiō."
+  ],
+  [
+   "At home, while my son speaks Latin, I am quiet and I listen.",
+   "Domī, fīliō meō Latīnē loquente, taceō et audiō."
+  ],
+  [
+   "While my son speaks Latin, I am quiet and I listen.",
+   "Fīliō meō Latīnē loquente, taceō et audiō."
+  ],
+  [
+   "While my son speaks, I am quiet and I listen.",
+   "Fīliō meō loquente, taceō et audiō."
+  ],
+  [
+   "While my son speaks, I listen.",
+   "Fīliō meō loquente, audiō."
+  ],
+  [
+   "While my son asks questions, I listen.",
+   "Fīliō meō rogante, audiō."
+  ],
+  [
+   "While my son asks questions, I answer.",
+   "Fīliō meō rogante, respondeō."
+  ],
+  [
+   "While my son asks questions, I answer slowly.",
+   "Fīliō meō rogante, lentē respondeō."
+  ],
+  [
+   "While my son asks questions, I answer slowly and simply.",
+   "Fīliō meō rogante, lentē et simpliciter respondeō."
+  ],
+  [
+   "While my son asks questions again, I answer slowly and simply.",
+   "Fīliō meō iterum rogante, lentē et simpliciter respondeō."
+  ],
+  [
+   "While my son asks questions, I answer slowly and simply.",
+   "Fīliō meō rogante, lentē et simpliciter respondeō."
+  ],
+  [
+   "While my son asks questions, I answer slowly.",
+   "Fīliō meō rogante, lentē respondeō."
+  ],
+  [
+   "While my son asks questions, I answer.",
+   "Fīliō meō rogante, respondeō."
+  ],
+  [
+   "My son asks questions. I answer.",
+   "Fīlius meus rogat. Respondeō."
+  ],
+  [
+   "My son asks questions.",
+   "Fīlius meus rogat."
+  ],
+  [
+   "My son sleeps.",
+   "Fīlius meus dormit."
+  ],
+  [
+   "My son sleeps. I am quiet.",
+   "Fīlius meus dormit. Taceō."
+  ],
+  [
+   "While my son sleeps, I am quiet.",
+   "Fīliō meō dormiente, taceō."
+  ],
+  [
+   "My son sleeps. I am quiet.",
+   "Fīlius meus dormit. Taceō."
+  ],
+  [
+   "While my son sleeps, I am quiet.",
+   "Fīliō meō dormiente, taceō."
+  ],
+  [
+   "While my son sleeps, I learn Latin.",
+   "Fīliō meō dormiente, linguam Latīnam discō."
+  ],
+  [
+   "In the morning, while my son sleeps, I learn Latin.",
+   "Māne, fīliō meō dormiente, linguam Latīnam discō."
+  ],
+  [
+   "Every morning, while my son sleeps, I learn Latin.",
+   "Cotīdiē māne, fīliō meō dormiente, linguam Latīnam discō."
+  ],
+  [
+   "In the morning, while my son sleeps, I learn Latin.",
+   "Māne, fīliō meō dormiente, linguam Latīnam discō."
+  ],
+  [
+   "While my son sleeps, I learn Latin.",
+   "Fīliō meō dormiente, linguam Latīnam discō."
+  ],
+  [
+   "While my son sleeps, I am quiet.",
+   "Fīliō meō dormiente, taceō."
+  ],
+  [
+   "While my son speaks, I am quiet.",
+   "Fīliō meō loquente, taceō."
+  ],
+  [
+   "While you speak, I am quiet.",
+   "Tē loquente, taceō."
+  ],
+  [
+   "Sentence five.",
+   "Sententia quīnta."
+  ],
+  [
+   "The lesson.",
+   "Lēctiō."
+  ],
+  [
+   "The Latin lesson.",
+   "Lēctiō Latīna."
+  ],
+  [
+   "The Latin lesson is finished.",
+   "Lēctiō Latīna fīnīta est."
+  ],
+  [
+   "The lesson is finished.",
+   "Lēctiō fīnīta est."
+  ],
+  [
+   "The lesson is finished. I go for a walk.",
+   "Lēctiō fīnīta est. Ambulō."
+  ],
+  [
+   "Lesson finished, I go for a walk.",
+   "Lēctiōne fīnītā, ambulō."
+  ],
+  [
+   "The lesson is finished. I go for a walk.",
+   "Lēctiō fīnīta est. Ambulō."
+  ],
+  [
+   "Lesson finished, I go for a walk.",
+   "Lēctiōne fīnītā, ambulō."
+  ],
+  [
+   "Lesson finished, I walk slowly.",
+   "Lēctiōne fīnītā, lentē ambulō."
+  ],
+  [
+   "Lesson finished, I walk slowly and I think.",
+   "Lēctiōne fīnītā, lentē ambulō et cōgitō."
+  ],
+  [
+   "Lesson finished, walking slowly, I think.",
+   "Lēctiōne fīnītā, lentē ambulāns cōgitō."
+  ],
+  [
+   "Lesson finished, walking slowly with my son, I think.",
+   "Lēctiōne fīnītā, cum fīliō meō lentē ambulāns cōgitō."
+  ],
+  [
+   "Latin lesson finished, walking slowly with my son, I think.",
+   "Lēctiōne Latīnā fīnītā, cum fīliō meō lentē ambulāns cōgitō."
+  ],
+  [
+   "Lesson finished, walking slowly with my son, I think.",
+   "Lēctiōne fīnītā, cum fīliō meō lentē ambulāns cōgitō."
+  ],
+  [
+   "Lesson finished, walking with my son, I think.",
+   "Lēctiōne fīnītā, cum fīliō meō ambulāns cōgitō."
+  ],
+  [
+   "Lesson finished, walking, I think.",
+   "Lēctiōne fīnītā, ambulāns cōgitō."
+  ],
+  [
+   "Lesson finished, I walk and I think.",
+   "Lēctiōne fīnītā, ambulō et cōgitō."
+  ],
+  [
+   "Lesson finished, I go for a walk.",
+   "Lēctiōne fīnītā, ambulō."
+  ],
+  [
+   "Lesson finished, I come home.",
+   "Lēctiōne fīnītā, domum veniō."
+  ],
+  [
+   "Lesson finished, I come home and I hear my son.",
+   "Lēctiōne fīnītā, domum veniō et fīlium meum audiō."
+  ],
+  [
+   "Lesson finished, I come home and I hear my son speaking.",
+   "Lēctiōne fīnītā, domum veniō et fīlium meum loquentem audiō."
+  ],
+  [
+   "Lesson finished, I come home and I hear my son speaking Latin.",
+   "Lēctiōne fīnītā, domum veniō et fīlium meum Latīnē loquentem audiō."
+  ],
+  [
+   "Latin lesson finished, I come home and I hear my son speaking Latin.",
+   "Lēctiōne Latīnā fīnītā, domum veniō et fīlium meum Latīnē loquentem audiō."
+  ],
+  [
+   "Lesson finished, I come home and I hear my son speaking Latin.",
+   "Lēctiōne fīnītā, domum veniō et fīlium meum Latīnē loquentem audiō."
+  ],
+  [
+   "Lesson finished, I come home and I hear my son speaking.",
+   "Lēctiōne fīnītā, domum veniō et fīlium meum loquentem audiō."
+  ],
+  [
+   "Lesson finished, I come home and I hear my son.",
+   "Lēctiōne fīnītā, domum veniō et fīlium meum audiō."
+  ],
+  [
+   "Lesson finished, I come home.",
+   "Lēctiōne fīnītā, domum veniō."
+  ],
+  [
+   "Lesson finished, I go for a walk.",
+   "Lēctiōne fīnītā, ambulō."
+  ],
+  [
+   "Lesson finished, I am quiet.",
+   "Lēctiōne fīnītā, taceō."
+  ],
+  [
+   "Once these words are said, I am quiet.",
+   "Hīs verbīs dictīs, taceō."
+  ],
+  [
+   "Once these words are said by the teacher, I am quiet.",
+   "Hīs verbīs ā magistrā dictīs, taceō."
+  ],
+  [
+   "Once these words are said by my teacher, I am quiet.",
+   "Hīs verbīs ā magistrā meā dictīs, taceō."
+  ],
+  [
+   "Once these words are said by my teacher, I am quiet and I think.",
+   "Hīs verbīs ā magistrā meā dictīs, taceō et cōgitō."
+  ],
+  [
+   "Once these words are said by my teacher, I am quiet.",
+   "Hīs verbīs ā magistrā meā dictīs, taceō."
+  ],
+  [
+   "Once these words are said, I am quiet.",
+   "Hīs verbīs dictīs, taceō."
+  ],
+  [
+   "Once these words are said, I understand.",
+   "Hīs verbīs dictīs, intellegō."
+  ],
+  [
+   "Once the word's said, I understand.",
+   "Verbō dictō, intellegō."
+  ],
+  [
+   "Once the word's said again, I understand.",
+   "Verbō iterum dictō, intellegō."
+  ],
+  [
+   "Once the word's said again slowly, I understand.",
+   "Verbō iterum lentē dictō, intellegō."
+  ],
+  [
+   "Once the word's said again slowly, I understand everything.",
+   "Verbō iterum lentē dictō, omnia intellegō."
+  ],
+  [
+   "Once the word's said again slowly, I now understand everything.",
+   "Verbō iterum lentē dictō, nunc omnia intellegō."
+  ],
+  [
+   "Once the word's said again slowly, I understand everything.",
+   "Verbō iterum lentē dictō, omnia intellegō."
+  ],
+  [
+   "Once the word's said again, I understand everything.",
+   "Verbō iterum dictō, omnia intellegō."
+  ],
+  [
+   "Once the word's said again, I understand.",
+   "Verbō iterum dictō, intellegō."
+  ],
+  [
+   "Lesson finished, I understand.",
+   "Lēctiōne fīnītā, intellegō."
+  ],
+  [
+   "Lesson finished, I go for a walk.",
+   "Lēctiōne fīnītā, ambulō."
+  ],
+  [
+   "Five sentences.",
+   "Quīnque sententiae."
+  ],
+  [
+   "Walking, I think.",
+   "Ambulāns cōgitō."
+  ],
+  [
+   "Every day, walking slowly with my son, I think about Latin.",
+   "Cotīdiē, cum fīliō meō lentē ambulāns, dē linguā Latīnā cōgitō."
+  ],
+  [
+   "I understand you when you speak slowly.",
+   "Tē lentē loquentem intellegō."
+  ],
+  [
+   "I understand my teacher well when she speaks slowly and simply.",
+   "Magistram meam lentē et simpliciter loquentem bene intellegō."
+  ],
+  [
+   "I don't understand the word you said.",
+   "Verbum ā tē dictum nōn intellegō."
+  ],
+  [
+   "I don't understand the word my teacher said too fast.",
+   "Verbum ā magistrā meā nimis celeriter dictum nōn intellegō."
+  ],
+  [
+   "While you speak, I am quiet.",
+   "Tē loquente, taceō."
+  ],
+  [
+   "While my teacher speaks slowly, I am quiet and I understand everything.",
+   "Magistrā meā lentē loquente, taceō et omnia intellegō."
+  ],
+  [
+   "Lesson finished, I go for a walk.",
+   "Lēctiōne fīnītā, ambulō."
+  ],
+  [
+   "Latin lesson finished, walking slowly with my son, I think.",
+   "Lēctiōne Latīnā fīnītā, cum fīliō meō lentē ambulāns cōgitō."
+  ],
+  [
+   "Today. In the morning.",
+   "Hodiē. Māne."
+  ],
+  [
+   "In the morning, while my son sleeps, I learn Latin.",
+   "Māne, fīliō meō dormiente, linguam Latīnam discō."
+  ],
+  [
+   "My teacher speaks.",
+   "Magistra mea loquitur."
+  ],
+  [
+   "While my teacher speaks, I am quiet.",
+   "Magistrā meā loquente, taceō."
+  ],
+  [
+   "But my teacher speaks too fast.",
+   "Sed magistra mea nimis celeriter loquitur."
+  ],
+  [
+   "I don't understand my teacher when she speaks too fast.",
+   "Magistram meam nimis celeriter loquentem nōn intellegō."
+  ],
+  [
+   "I ask you to speak more slowly.",
+   "Rogō ut lentius loquāris."
+  ],
+  [
+   "Again, I ask you to speak more slowly.",
+   "Iterum rogō ut lentius loquāris."
+  ],
+  [
+   "My teacher speaks more slowly.",
+   "Magistra mea lentius loquitur."
+  ],
+  [
+   "I understand my teacher when she speaks more slowly.",
+   "Magistram meam lentius loquentem intellegō."
+  ],
+  [
+   "Then she says a word.",
+   "Tum verbum dīcit."
+  ],
+  [
+   "But I don't understand the word you said.",
+   "Sed verbum ā tē dictum nōn intellegō."
+  ],
+  [
+   "Say it again, please.",
+   "Iterum dīc, amābō tē."
+  ],
+  [
+   "Say it again slowly, please.",
+   "Iterum lentē dīc, amābō tē."
+  ],
+  [
+   "Once the word's said again, I understand.",
+   "Verbō iterum dictō, intellegō."
+  ],
+  [
+   "Now I understand everything.",
+   "Nunc omnia intellegō."
+  ],
+  [
+   "The lesson is finished.",
+   "Lēctiō fīnīta est."
+  ],
+  [
+   "Lesson finished, I go for a walk.",
+   "Lēctiōne fīnītā, ambulō."
+  ],
+  [
+   "Walking with me, my son asks: why?",
+   "Fīlius meus mēcum ambulāns rogat: cūr?"
+  ],
+  [
+   "While my son asks questions, I answer slowly and simply.",
+   "Fīliō meō rogante, lentē et simpliciter respondeō."
+  ],
+  [
+   "Walking, my son and I speak Latin.",
+   "Ego et fīlius meus ambulantēs Latīnē loquimur."
+  ],
+  [
+   "Again, my son says the word he heard.",
+   "Fīlius meus verbum audītum iterum dīcit."
+  ],
+  [
+   "At home I hear my son speaking Latin.",
+   "Domī fīlium meum Latīnē loquentem audiō."
+  ],
+  [
+   "While my son speaks Latin, I am quiet and I listen.",
+   "Fīliō meō Latīnē loquente, taceō et audiō."
+  ],
+  [
+   "Then my son sleeps.",
+   "Tum fīlius meus dormit."
+  ],
+  [
+   "While my son sleeps, I am quiet.",
+   "Fīliō meō dormiente, taceō."
+  ],
+  [
+   "Walking, I think.",
+   "Ambulāns cōgitō."
+  ],
+  [
+   "Lesson finished, walking, I think.",
+   "Lēctiōne fīnītā, ambulāns cōgitō."
+  ],
+  [
+   "Five sentences. Good.",
+   "Quīnque sententiae. Bene."
+  ],
+  [
+   "Sentence one: walking, I think.",
+   "Sententia prīma: ambulāns cōgitō."
+  ],
+  [
+   "Sentence two: I understand you when you speak slowly.",
+   "Sententia secunda: tē lentē loquentem intellegō."
+  ],
+  [
+   "Sentence three: I don't understand the word you said.",
+   "Sententia tertia: verbum ā tē dictum nōn intellegō."
+  ],
+  [
+   "Sentence four: while you speak, I am quiet.",
+   "Sententia quārta: tē loquente, taceō."
+  ],
+  [
+   "Sentence five: lesson finished, I go for a walk.",
+   "Sententia quīnta: lēctiōne fīnītā, ambulō."
+  ],
+  [
+   "Every day, walking slowly with my son, I think about Latin.",
+   "Cotīdiē, cum fīliō meō lentē ambulāns, dē linguā Latīnā cōgitō."
+  ],
+  [
+   "Latin lesson finished, walking slowly with my son, I think.",
+   "Lēctiōne Latīnā fīnītā, cum fīliō meō lentē ambulāns cōgitō."
+  ]
+ ]
+}
