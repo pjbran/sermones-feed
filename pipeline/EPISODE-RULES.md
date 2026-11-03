@@ -110,6 +110,12 @@ His strong words get no points. They are the glue and they come back anyway.
 - Chat: "Chat · <name> · English → Latin × 3" / "Chat · <name> · Latin only × 3" (the renderer adds "Chat ·" itself). Stories: "Chat · <name> (story, × 3)".
 - Ladder: "Ladder N · <topic> (× 3)", "Ladder 1 + 2 · Latin only (× 3)". Older versions end in "(old)". No "Ep N", no "Bonus".
 
+## 7b. Seasons = weeks (Patrick, 3 Nov 2026: "each week should be split into a season")
+- One season per week, Monday to Sunday, Sydney time. Season 1 = week of Mon 19 Oct 2026; S2 = 26 Oct; S3 = 2 Nov …
+- Episode numbers restart each season (S3 E1, S3 E2 …), in date order.
+- Automatic: `build_feed.py` works both out from each track's date (it ignores the season / episode in episodes.json). Nothing to set in a job.
+- Apple shows only season numbers, not names; titles stay "Ladder N · …".
+
 ## 8. Storage (26 Oct)
 - MP3s are NOT kept in the website any more (GitHub Pages limit about 1 GB). After each run, `pipeline/publish.py` uploads every new MP3 to the GitHub release `audio` and the feed points to `https://github.com/pjbran/sermones-feed/releases/download/audio/<file>`. Free, no real size limit.
 - Free tracks (ladders, pyramids, stories) are saved at 64 kbps mono (speech-friendly, about 60% smaller).
