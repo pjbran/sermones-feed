@@ -1,0 +1,19 @@
+{
+ "job": "jobs/0063-speed-samples-2.json",
+ "ok": true,
+ "tests": 8,
+ "page": "https://pjbran.github.io/sermones-feed/tests/english-speed/",
+ "log": [
+  "== job jobs/0063-speed-samples-2.json speed_samples",
+  "voice F = Rossana MuTiG4dbrEGYEy3XP4iP",
+  "speed sample ok: FREE (Jenny + Paola) · English normal speed (now)",
+  "speed sample ok: FREE · English +20%",
+  "speed sample ok: FREE · English +30%",
+  "speed sample ok: FREE · English +30% (sped up after, like #6)",
+  "speed sample ok: FREE · English +50% (the voice itself)",
+  "speed sample ok: ELEVENLABS (Iulia) · English normal speed (now)",
+  "speed sample ok: ELEVENLABS · English +20% (its own top speed)",
+  "speed sample ok: ELEVENLABS · English +30% (sped up after)"
+ ],
+ "at": "2026-11-03T05:13:26+00:00"
+}
