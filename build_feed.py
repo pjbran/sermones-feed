@@ -7,6 +7,21 @@ def dur(p):
     s = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p],
                              capture_output=True, text=True).stdout.strip())
     return f"{int(s // 60)}:{int(s % 60):02d}"
+# Seasons = weeks (Patrick, 3 Nov 2026: "each week should be split into a season"). Monday to Sunday, Sydney time.
+# Season 1 = the week of Mon 19 Oct 2026. Episode numbers restart each season (S3 E1, S3 E2 ...), in date order.
+# Worked out here from each track's date, so episodes.json needs no manual season.
+try:
+    from zoneinfo import ZoneInfo; SYD = ZoneInfo('Australia/Sydney')
+except Exception:
+    SYD = datetime.timezone(datetime.timedelta(hours=11))
+WEEK1 = datetime.date(2026, 10, 19)
+def season_of(e):
+    day = datetime.datetime.fromisoformat(e['date']).astimezone(SYD).date()
+    return (day - WEEK1).days // 7 + 1
+_count = {}
+for e in sorted(eps, key=lambda e: e['date']):
+    s = season_of(e); _count[s] = _count.get(s, 0) + 1
+    e['season'], e['episode'] = s, _count[s]
 items = []
 for e in sorted(eps, key=lambda e: e['date'], reverse=True):
     p = 'episodes/' + e['file']
