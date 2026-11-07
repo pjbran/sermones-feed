@@ -1,8 +1,21 @@
-"""Rebuild feed.xml from episodes.json. Usage: python3 build_feed.py https://<user>.github.io/<repo>"""
+"""Rebuild feed.xml from episodes.json. Usage: python3 build_feed.py https://<user>.github.io/<repo> [show]
+show = '' (the main Latin feed: feed.xml, episodes.json, episodes/) or 'news' (Ācta Diurna, the daily Latin news,
+7 Nov 2026: news/feed.xml, news/episodes.json, news/episodes/, news/cover.jpg)."""
 import json, sys, subprocess, os, email.utils, datetime
 from xml.sax.saxutils import escape as x
 BASE = sys.argv[1].rstrip('/')
-eps = json.load(open('episodes.json'))
+SHOW = sys.argv[2] if len(sys.argv) > 2 else ''
+D = SHOW + '/' if SHOW else ''
+SHOWS = {
+ '': dict(title='Sermones Ambulātōriī', lang='la', guid='sermones',
+          desc='Latin walk talks: everyday conversations, English then Latin, and Latin only. A personal study feed.',
+          cat='<itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>', type='serial'),
+ 'news': dict(title='Ācta Diurna', lang='la', guid='acta',
+          desc='The day in Latin: Canberra and Australian weather, the top Australian and world news, and one good story. A personal study feed.',
+          cat='<itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>', type='episodic'),
+}
+C = SHOWS[SHOW]
+eps = json.load(open(D + 'episodes.json'))
 def dur(p):
     s = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p],
                              capture_output=True, text=True).stdout.strip())
@@ -24,7 +37,7 @@ for e in sorted(eps, key=lambda e: e['date']):
     e['season'], e['episode'] = s, _count[s]
 items = []
 for e in sorted(eps, key=lambda e: e['date'], reverse=True):
-    p = 'episodes/' + e['file']
+    p = D + 'episodes/' + e['file']
     d = datetime.datetime.fromisoformat(e['date'])
     url = e.get('url') or f"{BASE}/{p}"                      # MP3s live in a GitHub release (26 Oct)
     length = e.get('bytes') or os.path.getsize(p)
@@ -34,7 +47,7 @@ for e in sorted(eps, key=lambda e: e['date'], reverse=True):
       <description>{x(e['summary'])}</description>
       <itunes:summary>{x(e['summary'])}</itunes:summary>
       <enclosure url="{url}" length="{length}" type="audio/mpeg"/>
-      <guid isPermaLink="false">sermones-{e['file']}</guid>
+      <guid isPermaLink="false">{C['guid']}-{e['file']}</guid>
       <pubDate>{email.utils.format_datetime(d)}</pubDate>
       <itunes:duration>{duration}</itunes:duration>
       <itunes:season>{e['season']}</itunes:season>
@@ -45,23 +58,23 @@ for e in sorted(eps, key=lambda e: e['date'], reverse=True):
 feed = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sermones Ambulātōriī</title>
-    <link>{BASE}/</link>
-    <atom:link href="{BASE}/feed.xml" rel="self" type="application/rss+xml"/>
-    <language>la</language>
-    <description>Latin walk talks: everyday conversations, English then Latin, and Latin only. A personal study feed.</description>
+    <title>{C['title']}</title>
+    <link>{BASE}/{D}</link>
+    <atom:link href="{BASE}/{D}feed.xml" rel="self" type="application/rss+xml"/>
+    <language>{C['lang']}</language>
+    <description>{C['desc']}</description>
     <itunes:author>Sermones Ambulātōriī</itunes:author>
     <itunes:owner><itunes:name>Sermones Ambulātōriī</itunes:name></itunes:owner>
-    <itunes:summary>Latin walk talks: everyday conversations, English then Latin, and Latin only. A personal study feed.</itunes:summary>
-    <itunes:image href="{BASE}/cover.jpg"/>
-    <image><url>{BASE}/cover.jpg</url><title>Sermones Ambulātōriī</title><link>{BASE}/</link></image>
-    <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
+    <itunes:summary>{C['desc']}</itunes:summary>
+    <itunes:image href="{BASE}/{D}cover.jpg"/>
+    <image><url>{BASE}/{D}cover.jpg</url><title>{C['title']}</title><link>{BASE}/{D}</link></image>
+    {C['cat']}
     <itunes:explicit>false</itunes:explicit>
-    <itunes:type>serial</itunes:type>
+    <itunes:type>{C['type']}</itunes:type>
     <lastBuildDate>{email.utils.format_datetime(datetime.datetime.now(datetime.timezone.utc))}</lastBuildDate>
 {chr(10).join(items)}
   </channel>
 </rss>
 """
-open('feed.xml', 'w').write(feed)
-print('feed.xml:', len(eps), 'episodes')
+open(D + 'feed.xml', 'w').write(feed)
+print(D + 'feed.xml:', len(eps), 'episodes')

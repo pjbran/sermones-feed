@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ācta Diurna</title>
+    <link>https://pjbran.github.io/sermones-feed/news/</link>
+    <atom:link href="https://pjbran.github.io/sermones-feed/news/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>la</language>
+    <description>The day in Latin: Canberra and Australian weather, the top Australian and world news, and one good story. A personal study feed.</description>
+    <itunes:author>Sermones Ambulātōriī</itunes:author>
+    <itunes:owner><itunes:name>Sermones Ambulātōriī</itunes:name></itunes:owner>
+    <itunes:summary>The day in Latin: Canberra and Australian weather, the top Australian and world news, and one good story. A personal study feed.</itunes:summary>
+    <itunes:image href="https://pjbran.github.io/sermones-feed/news/cover.jpg"/>
+    <image><url>https://pjbran.github.io/sermones-feed/news/cover.jpg</url><title>Ācta Diurna</title><link>https://pjbran.github.io/sermones-feed/news/</link></image>
+    <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <lastBuildDate>Sat, 07 Nov 2026 11:12:48 +0000</lastBuildDate>
+
+  </channel>
+</rss>
