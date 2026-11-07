@@ -425,6 +425,56 @@ def run_speed_samples(job):
     return {'tests': len(rows), 'page': f'{BASE}/{out_dir}/'}
 
 
+# ---------------- Ācta Diurna: the daily Latin news (Patrick, 7 Nov 2026) ----------------
+def run_news(job):
+    """The daily Latin news show, FREE voices only (his order 7 Nov 21:28: "no eleven labs — only the free voices I love",
+    20-30 min). lines = [kind, text]: 'en' = English headline (Jenny) · 'la' = Latin (Paola, IPA) · 'sec' = Latin section
+    title (longer pause before) · 'p1' = Latin said only in pass 1 (e.g. "now again, Latin only").
+    Pass 1 = everything; pass 2 = the Latin again (sec + la). Music v5 bed. Writes news/episodes/acta-<date>.mp3,
+    news/episodes.json, then build_feed.py <BASE> news."""
+    import free_tts
+    ven, vla = job.get('voice_en', 'en_GB-jenny_dioco-medium'), job.get('voice_la', 'it_IT-paola-medium')
+    os.makedirs('clips/free', exist_ok=True); os.makedirs('news/episodes', exist_ok=True)
+    def fclip(voice, text):
+        h = hashlib.sha1(f'{voice}|{text}'.encode()).hexdigest()[:16]
+        w = f'clips/free/{h}.wav'
+        if not os.path.exists(w):
+            free_tts.say(voice, text, w)
+        return audio.norm(audio.trim(audio.load(w), thr_db=-55, pad=0.12))
+    conv = lambda la: free_tts.latin_ipa(la, v_as_v=True)
+    sp = float(job.get('english_speed', 1.0))
+    def build(lines, pass2):
+        seq = []
+        for kind, t in lines:
+            if pass2 and kind in ('en', 'p1'):
+                continue
+            if kind == 'sec' and seq:
+                seq[-1] = (seq[-1][0], max(seq[-1][1], 1.6))
+            if kind == 'en':
+                seq.append((audio.tempo(fclip(ven, t), sp), 0.6))
+            else:
+                seq.append((fclip(vla, conv(t)), 1.0 if kind == 'sec' else job.get('pause_latin', 0.7)))
+        return seq
+    seq = build(job['lines'], False)
+    seq[-1] = (seq[-1][0], 3.0)
+    if job.get('second_pass', True):
+        seq += build(job['lines'], True)
+    voice, ev = audio.sequence(seq)
+    x = audio.mix_music(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -9), job.get('music_dip_db', 7))
+    fn = f"acta-{job['date']}.mp3"
+    eps = [e for e in json.load(open('news/episodes.json')) if e['file'] != fn]
+    title = job['title']
+    tags = {'title': title, 'artist': 'Ācta Diurna', 'album_artist': 'Ācta Diurna', 'album': 'Ācta Diurna',
+            'genre': 'News', 'date': job['date'][:4]}
+    audio.save_mp3(x, 'news/episodes/' + fn, tags, 'news/cover.jpg', bitrate='64k', channels=1)
+    now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=11)))
+    eps.append({'file': fn, 'title': title, 'date': now.isoformat(timespec='seconds'), 'summary': job.get('summary', '')})
+    json.dump(eps, open('news/episodes.json', 'w'), indent=1, ensure_ascii=False)
+    subprocess.run([sys.executable, 'build_feed.py', BASE, 'news'], check=True)
+    log('built news', fn, f'{len(x) / audio.SR / 60:.1f} min')
+    return {'files': [fn], 'minutes': round(len(x) / audio.SR / 60, 1)}
+
+
 # ---------------- credits ----------------
 def run_credits(job):
     """Log the ElevenLabs credits (logs/credits.json). Costs nothing."""
@@ -981,7 +1031,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible, 'redo_latin': run_redo_latin, 'merge': run_merge, 'kids': run_kids, 'grammar': run_grammar, 'speed_samples': run_speed_samples}.get(job['type'], run_episode)(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible, 'redo_latin': run_redo_latin, 'merge': run_merge, 'kids': run_kids, 'grammar': run_grammar, 'speed_samples': run_speed_samples, 'news': run_news}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]
