@@ -1,0 +1,793 @@
+{
+ "type": "news",
+ "date": "2026-11-09",
+ "music": "v5",
+ "title": "Ācta Diurna · Diēs Lūnae, V Īd. Nov. (Mon 9 Nov 2026)",
+ "summary": "Canberra 2–21° and mostly sunny, 25° tomorrow; Australia's economy slows: 4.85% cash rate, 3.6% core inflation, Angus Taylor: 'you don't punish growth', Chalmers seeks productivity ideas; Iran: US Task Force Iron Gate targets land routes, 147 ships turned back; US: Senate counts in Mississippi and Alaska, Massie moves to impeach Hegseth; Ukraine: Russia hits the power grid, talks set for Abu Dhabi; Corvo island turns off its lights for seabirds; Opīniō: Rowan Dean on progressive antisemitism and the Segal report; the Lateran Basilica dedicated, AD 324. English headlines, Latin, then the Latin again. Sources: Bureau of Meteorology via WillyWeather; The Spectator Australia (Tony Nikolic, Rowan Dean); ABC News (6 Nov); Fox News and CBS News (7–8 Nov); Yahoo News (7 Nov); Kyiv Independent (8 Nov); Good Good Good (7 Nov).",
+ "lines": [
+  [
+   "sec",
+   "Salvēte, audītōrēs. Haec sunt Ācta Diurna."
+  ],
+  [
+   "la",
+   "Hodiē est diēs Lūnae, ante diem quīntum Īdūs Novembrēs."
+  ],
+  [
+   "la",
+   "Annō bis mīllēsimō vīcēsimō sextō."
+  ],
+  [
+   "la",
+   "Prīmum tempestās. Deinde rēs Austrāliae."
+  ],
+  [
+   "la",
+   "Deinde orbis terrārum: Īrānia, America, Ūcraīna."
+  ],
+  [
+   "la",
+   "Tum rēs laeta, opīniō, et hodiē in historiā."
+  ],
+  [
+   "la",
+   "In fīne, verba diēī."
+  ],
+  [
+   "en",
+   "The weather. Canberra first: a cold start, then a mostly sunny Monday."
+  ],
+  [
+   "sec",
+   "Tempestās."
+  ],
+  [
+   "la",
+   "Prīmum Canberra."
+  ],
+  [
+   "la",
+   "Hodiē Canberrae caelum plērumque serēnum est."
+  ],
+  [
+   "la",
+   "Māne valdē frīgidum est: duo gradūs tantum."
+  ],
+  [
+   "la",
+   "Post merīdiem calidum est: ūnus et vīgintī gradūs."
+  ],
+  [
+   "la",
+   "Pluvia nūlla exspectātur."
+  ],
+  [
+   "la",
+   "Ventus ab austrō flat, quīndecim ad vīgintī chiliometra in hōrā."
+  ],
+  [
+   "la",
+   "Vesperī ventus mūtātur et lēnis fit."
+  ],
+  [
+   "la",
+   "Crās, diē Mārtis, māne fortasse nebula erit."
+  ],
+  [
+   "la",
+   "Deinde caelum plērumque serēnum erit."
+  ],
+  [
+   "la",
+   "Crās māne trēs gradūs, post merīdiem quīnque et vīgintī."
+  ],
+  [
+   "la",
+   "Crās ventus ab occidente et septentriōnibus flābit."
+  ],
+  [
+   "la",
+   "Ergō: hodiē ūnus et vīgintī gradūs, crās quīnque et vīgintī."
+  ],
+  [
+   "la",
+   "Canberrae hodiē māne frīgidum, post merīdiem calidum, et sine pluviā."
+  ],
+  [
+   "en",
+   "Now the other capital cities."
+  ],
+  [
+   "sec",
+   "Nunc cēterae urbēs."
+  ],
+  [
+   "la",
+   "Sydnēiae caelum partim nūbilum est. Fortasse prīmā lūce imber. Ūnus et vīgintī gradūs."
+  ],
+  [
+   "la",
+   "Melburnī sōl lūcet. Duo et vīgintī gradūs."
+  ],
+  [
+   "la",
+   "Brisbanae caelum plērumque serēnum est. Sex et vīgintī gradūs."
+  ],
+  [
+   "la",
+   "Perthī nūbēs abeunt. Quattuor et vīgintī gradūs."
+  ],
+  [
+   "la",
+   "Adēlāidae fortasse imber ā merīdiē. Septem et vīgintī gradūs."
+  ],
+  [
+   "la",
+   "Adēlāidae hodiē calidissimum est."
+  ],
+  [
+   "la",
+   "Hobartī caelum nūbilum est. Ūndēvīgintī gradūs."
+  ],
+  [
+   "la",
+   "Hobartī frīgidissimum est."
+  ],
+  [
+   "la",
+   "In plūrimīs urbibus sōl lūcet."
+  ],
+  [
+   "la",
+   "Sōlum Sydnēiae et Adēlāidae fortasse imber erit."
+  ],
+  [
+   "la",
+   "Haec est tempestās."
+  ],
+  [
+   "en",
+   "Australia. The economy is slowing, rates are at an eighteen-year high, and the Opposition says Labor is punishing growth."
+  ],
+  [
+   "sec",
+   "Rēs Austrāliae."
+  ],
+  [
+   "la",
+   "Oeconomia Austrāliae tardior fit."
+  ],
+  [
+   "la",
+   "Argentāria centrālis faenus iam quīnquiēns hōc annō auxit."
+  ],
+  [
+   "la",
+   "Faenus nunc est quattuor per centum et octōgintā quīnque centēsimae."
+  ],
+  [
+   "la",
+   "Faenus altissimum est post duodēvīgintī annōs."
+  ],
+  [
+   "la",
+   "Diē Pōculī Melburnēnsis faenus auctum est."
+  ],
+  [
+   "la",
+   "Sex sodālēs argentāriae prō incrēmentō suffrāgium tulērunt, trēs contrā."
+  ],
+  [
+   "la",
+   "Ipsa argentāria dīcit: oeconomia tardior fit, pretia domuum cecidērunt, plūrēs sine opere sunt."
+  ],
+  [
+   "la",
+   "Quid hoc significat familiīs?"
+  ],
+  [
+   "la",
+   "Quī sescenta mīlia dollarōrum mūtua habet, nunc circiter quadringentōs nōnāgintā dollarōs plūs quōque mēnse solvit."
+  ],
+  [
+   "la",
+   "Plūs quam mēnse Iānuāriō. Quōque mēnse."
+  ],
+  [
+   "la",
+   "Īnflātiō interior in Austrāliā est tria et sex decimae per centum."
+  ],
+  [
+   "la",
+   "In Britanniā est duo et octō decimae. In America duo et sex decimae."
+  ],
+  [
+   "la",
+   "Ergō inflātiō in Austrāliā altior est quam in aliīs terrīs."
+  ],
+  [
+   "la",
+   "Mēnse Septembrī quattuor et septem decimae per centum sine opere erant."
+  ],
+  [
+   "la",
+   "Et rēs pūblica magna dēbita habet."
+  ],
+  [
+   "la",
+   "Dēbita sunt nōngenta septuāgintā ūnum mīlliarda dollarōrum."
+  ],
+  [
+   "en",
+   "Opposition Leader Angus Taylor: you don't punish growth. But that is exactly what this government has done."
+  ],
+  [
+   "la",
+   "Angus Taylor dux oppositiōnis est."
+  ],
+  [
+   "la",
+   "Taylor dīcit: incrēmentum nōn pūnīre dēbēs."
+  ],
+  [
+   "la",
+   "Sed haec rēs pūblica incrēmentum pūnit, ut Taylor dīcit."
+  ],
+  [
+   "la",
+   "Taylor dīcit: novae lēgēs dē vectīgālibus labōrem et industriam minuunt."
+  ],
+  [
+   "la",
+   "Lēgēs dē lucrō capitālī, dē domibus locandīs, dē fideicommissīs."
+  ],
+  [
+   "la",
+   "Matthaeus Canavan, senātor, addit: nōs cōnsilium quod net zero vocātur abolēbimus."
+  ],
+  [
+   "la",
+   "Sīc pretia energiae dēscendent, ut Canavan dīcit."
+  ],
+  [
+   "en",
+   "The Treasurer, Jim Chalmers, has asked Treasury for productivity ideas for December's budget update."
+  ],
+  [
+   "la",
+   "Iacōbus Chalmers aerārium regit."
+  ],
+  [
+   "la",
+   "Chalmers aerārium rogāvit: date mihi cōnsilia dē industriā augendā."
+  ],
+  [
+   "la",
+   "Haec cōnsilia mēnse Decembrī in novīs ratiōnibus erunt."
+  ],
+  [
+   "la",
+   "Sed in quaestiōne Commissiōnis Prōductīvitātis Chalmers vectīgālia et lēgēs dē opere nōn tangit."
+  ],
+  [
+   "la",
+   "Faenus altum, inflātiō alta, dēbita magna."
+  ],
+  [
+   "la",
+   "Haec est rēs Austrāliae hodiē."
+  ],
+  [
+   "en",
+   "The world. America tightens the blockade on Iran: a new task force, Iron Gate, now targets Iran's land routes too."
+  ],
+  [
+   "sec",
+   "Orbis terrārum."
+  ],
+  [
+   "la",
+   "Prīmum Īrānia."
+  ],
+  [
+   "la",
+   "Americānī portūs Īrāniae iam diū claudunt."
+  ],
+  [
+   "la",
+   "Nunc novam manum creāvērunt. Nōmen eī est Porta Ferrea."
+  ],
+  [
+   "la",
+   "Porta Ferrea viās terrestrēs Īrāniae spectābit."
+  ],
+  [
+   "la",
+   "Et mare Caspium quoque spectābit."
+  ],
+  [
+   "la",
+   "Arma, māchinās, et pecūniam vetitam prohibēre vult."
+  ],
+  [
+   "la",
+   "Circiter vīgintī hominēs in hāc manū sunt, Tampae, in Floridā."
+  ],
+  [
+   "la",
+   "Praefectus classis Brad Cooper dīcit: Porta Ferrea obsidiōnem nostram in marī cōnfirmat."
+  ],
+  [
+   "la",
+   "Ā mēnse Iūliō Americānī centum quadrāgintā septem nāvēs āvertērunt."
+  ],
+  [
+   "la",
+   "Quīnque nāvēs, quae nōn pārēbant, inūtilēs factae sunt."
+  ],
+  [
+   "la",
+   "Et decem nāvēs oleāriae Īrāniae dēlētae sunt."
+  ],
+  [
+   "la",
+   "Trump dīcit: parvōs ictūs in īnsulam Qeshm fēcimus."
+  ],
+  [
+   "la",
+   "Sed Trump dīcit: hoc nōn est novum bellum magnum."
+  ],
+  [
+   "la",
+   "Īrānia prōpositum novum dē rē ātomicā per Qatariam mīsit."
+  ],
+  [
+   "la",
+   "Sed Īrānia adhūc septem condiciōnēs postulat."
+  ],
+  [
+   "la",
+   "Inter eās: fīnem obsidiōnis et fīnem poenārum."
+  ],
+  [
+   "la",
+   "Interim in Iemeniā Houthī dīcunt Saudiānōs trīgintā trēs hominēs occīdisse."
+  ],
+  [
+   "la",
+   "Obsidiō manet. Īrānia premitur."
+  ],
+  [
+   "en",
+   "America. After the midterms, two Senate seats are still being counted, and a Republican wants to impeach Defence Secretary Hegseth."
+  ],
+  [
+   "la",
+   "Nunc Cīvitātēs Foederātae Americae."
+  ],
+  [
+   "la",
+   "Post comitia Dēmocratae Congressum obtinent."
+  ],
+  [
+   "la",
+   "In Domō Repraesentantium Dēmocratae ducentās quīnquāgintā quattuor sēdēs habent."
+  ],
+  [
+   "la",
+   "Rēpūblicānī centum sexāgintā duās."
+  ],
+  [
+   "la",
+   "Ūndēvīgintī sēdēs adhūc incertae sunt."
+  ],
+  [
+   "la",
+   "In senātū Dēmocratae quīnquāgintā quattuor, Rēpūblicānī quadrāgintā quattuor."
+  ],
+  [
+   "la",
+   "In Texiā Iacōbus Talarico Kennethum Paxton vīcit."
+  ],
+  [
+   "la",
+   "Prīmus Dēmocrata ex Texiā in senātum ēlēctus est post annum mīllēsimum nōngentēsimum octōgēsimum octāvum."
+  ],
+  [
+   "la",
+   "Duae sēdēs adhūc incertae sunt."
+  ],
+  [
+   "la",
+   "In Mississippiā Scott Colom paulum superat: duōbus mīlibus quīngentīs septuāgintā quattuor suffrāgiīs."
+  ],
+  [
+   "la",
+   "Cindy Hyde-Smith, senātrīx Rēpūblicāna, nōn cēdit."
+  ],
+  [
+   "la",
+   "Hyde-Smith dīcit: hoc ad fīnem ipsum perferēmus."
+  ],
+  [
+   "la",
+   "Epistulae cum suffrāgiīs usque ad diem decimum Novembris accipiuntur."
+  ],
+  [
+   "la",
+   "In Alaskā Maria Peltola sescentīs trīgintā septem suffrāgiīs Dan Sullivan, senātōrem, superat."
+  ],
+  [
+   "la",
+   "Sī nēmō plūs quam dīmidium suffrāgiōrum habet, numerātiō nova incipit diē duodēvīcēsimō Novembris."
+  ],
+  [
+   "la",
+   "Et Thomas Massie, Rēpūblicānus, Hegseth, ministrum bellī, accūsāre vult, nisi Hegseth discēdit."
+  ],
+  [
+   "la",
+   "Fortasse iam proximā hebdomade."
+  ],
+  [
+   "la",
+   "Hegseth dīcit: hoc nōn valuit contrā Trump, nec valēbit contrā mē."
+  ],
+  [
+   "en",
+   "Ukraine. Russia is hitting Ukraine's power grid before winter, as new peace talks are set for Abu Dhabi."
+  ],
+  [
+   "la",
+   "Nunc Ūcraīna."
+  ],
+  [
+   "la",
+   "Russī stātiōnēs ēlectricās Ūcraīnae oppugnant."
+  ],
+  [
+   "la",
+   "Zelensky dīcit stātiōnēs in sex regiōnibus laesās esse."
+  ],
+  [
+   "la",
+   "Inter eās Kiovia, Charcovia, et Dnipro."
+  ],
+  [
+   "la",
+   "Ūnō diē duo hominēs occīsī sunt, trīgintā septem vulnerātī."
+  ],
+  [
+   "la",
+   "Missilia Russica etiam Kioviam ipsam percussērunt."
+  ],
+  [
+   "la",
+   "Pōns Septentriōnālis Kioviae laesus est. Sex saltem vulnerātī sunt."
+  ],
+  [
+   "la",
+   "Hiems venit, et Russī lūcem et calōrem auferre volunt."
+  ],
+  [
+   "la",
+   "Sed Ūcraīnī quoque pugnant."
+  ],
+  [
+   "la",
+   "Missilia Ūcraīna, quae Neptūnus vocantur, officīnam Russicam in urbe Oryol percussērunt."
+  ],
+  [
+   "la",
+   "Interim novī sermōnēs dē pāce parantur, in urbe Abu Dhabi."
+  ],
+  [
+   "la",
+   "Russia Sergium Ryabkov, vicārium ministrī rērum exterārum, mittet."
+  ],
+  [
+   "la",
+   "Rustem Umerov lēgātiōnem Ūcraīnam dūcet."
+  ],
+  [
+   "la",
+   "Zelensky dīcit: Putin pugnam sistere nōn vult."
+  ],
+  [
+   "la",
+   "Bellum hieme dūrius fit."
+  ],
+  [
+   "en",
+   "Something good. On a tiny island in the Azores, everyone turns off the lights, to help young seabirds find the sea."
+  ],
+  [
+   "sec",
+   "Rēs laeta."
+  ],
+  [
+   "la",
+   "Corvo parva īnsula est, in Azōribus, in Ōceanō Atlanticō."
+  ],
+  [
+   "la",
+   "In īnsulā circiter quadringentī quīnquāgintā hominēs habitant."
+  ],
+  [
+   "la",
+   "Quōque autumnō incolae lūcēs exstinguunt."
+  ],
+  [
+   "la",
+   "Quīnque noctēs tōta īnsula obscūra est."
+  ],
+  [
+   "la",
+   "Cūr? Propter avēs marīnās."
+  ],
+  [
+   "la",
+   "Puffīnī iuvenēs noctū ad mare volant."
+  ],
+  [
+   "la",
+   "Lūcēs urbis eōs dēcipiunt. Avēs in terram cadunt."
+  ],
+  [
+   "la",
+   "Sed in tenebrīs avēs viam ad mare inveniunt."
+  ],
+  [
+   "la",
+   "Hoc incolae Corvō faciunt ab annō bis mīllēsimō ūndēvīcēsimō."
+  ],
+  [
+   "la",
+   "Parva īnsula, magnum opus."
+  ],
+  [
+   "la",
+   "Et in Chīliā, in Patagoniā, aliae avēs servantur."
+  ],
+  [
+   "la",
+   "Fēminae custōdēs tredecim avēs magnās alunt."
+  ],
+  [
+   "la",
+   "Hae avēs rheae Darwinī vocantur. Volāre nōn possunt, sed celeriter currunt."
+  ],
+  [
+   "la",
+   "Mox in lībertātem mittentur."
+  ],
+  [
+   "la",
+   "Tredecim avēs, et multae manūs bonae."
+  ],
+  [
+   "en",
+   "Opinion. This is the view of Rowan Dean, editor of The Spectator Australia: today's antisemitism comes mostly from the progressive side."
+  ],
+  [
+   "sec",
+   "Opīniō."
+  ],
+  [
+   "la",
+   "Haec est sententia Rowan Dean, in Spectātōre Austrāliānō."
+  ],
+  [
+   "la",
+   "Iūliāna Segal lēgāta est contrā odium Iūdaeōrum."
+  ],
+  [
+   "la",
+   "Segal relātiōnem renovātam scrīpsit."
+  ],
+  [
+   "la",
+   "Segal dīcit: odium Iūdaeōrum novum et prōgressīvum nunc maximē in Austrāliā patet."
+  ],
+  [
+   "la",
+   "Dean laudat: tandem aliquis in potestāte vēritātem dīxit."
+  ],
+  [
+   "la",
+   "Dean dīcit: hoc odium apud Labōrānōs, apud Viridēs, et in radiophōniā et tēlevīsiōne pūblicā latet."
+  ],
+  [
+   "la",
+   "Segal multa prōpōnit."
+  ],
+  [
+   "la",
+   "Prīmum: novus custōs externus prō ABC et SBS."
+  ],
+  [
+   "la",
+   "Deinde: vīsa dīligentius probanda sunt."
+  ],
+  [
+   "la",
+   "Et: nūlla pecūnia pūblica artificibus quī odium Iūdaeōrum fovent."
+  ],
+  [
+   "la",
+   "Dean haec cōnsilia laudat."
+  ],
+  [
+   "la",
+   "Haec est opīniō Rowan Dean."
+  ],
+  [
+   "en",
+   "On this day, in the year three hundred and twenty-four, the Lateran Basilica in Rome was dedicated."
+  ],
+  [
+   "sec",
+   "Hodiē in historiā."
+  ],
+  [
+   "la",
+   "Hodiē, annō trecentēsimō vīcēsimō quārtō, basilica Laterānēnsis dēdicāta est."
+  ],
+  [
+   "la",
+   "Pāpa Silvester eam dēdicāvit, Rōmae."
+  ],
+  [
+   "la",
+   "Cōnstantīnus imperātor locum dederat."
+  ],
+  [
+   "la",
+   "Haec basilica ecclēsia cathedrālis Pāpae est, ut Episcopī Rōmānī."
+  ],
+  [
+   "la",
+   "Nōn Sānctus Petrus, sed Laterānus."
+  ],
+  [
+   "la",
+   "In mūrō scrīptum est: omnium Urbis et Orbis ecclēsiārum māter et caput."
+  ],
+  [
+   "la",
+   "Hodiē quoque Ecclēsia hunc diem festum celebrat."
+  ],
+  [
+   "la",
+   "Mārcus et Lūcius, ut semper, aderant. Sed id alia fābula est."
+  ],
+  [
+   "en",
+   "The day in brief."
+  ],
+  [
+   "sec",
+   "Summa rērum."
+  ],
+  [
+   "la",
+   "Canberrae hodiē caelum serēnum est. Ūnus et vīgintī gradūs."
+  ],
+  [
+   "la",
+   "Crās calidius erit: quīnque et vīgintī gradūs."
+  ],
+  [
+   "la",
+   "Oeconomia Austrāliae tardior fit, et faenus altum est."
+  ],
+  [
+   "la",
+   "Īnflātiō in Austrāliā altior est quam in Britanniā et in America."
+  ],
+  [
+   "la",
+   "Taylor dīcit: haec rēs pūblica incrēmentum pūnit."
+  ],
+  [
+   "la",
+   "Chalmers cōnsilia dē industriā ab aerāriō petit."
+  ],
+  [
+   "la",
+   "Americānī novam manum creāvērunt: Portam Ferream."
+  ],
+  [
+   "la",
+   "Porta Ferrea viās terrestrēs Īrāniae spectābit."
+  ],
+  [
+   "la",
+   "In America duae sēdēs senātūs adhūc incertae sunt."
+  ],
+  [
+   "la",
+   "Massie Hegseth accūsāre vult."
+  ],
+  [
+   "la",
+   "Russī stātiōnēs ēlectricās Ūcraīnae oppugnant."
+  ],
+  [
+   "la",
+   "Novī sermōnēs dē pāce in urbe Abu Dhabi parantur."
+  ],
+  [
+   "la",
+   "In īnsulā Corvō incolae lūcēs prō avibus exstinguunt."
+  ],
+  [
+   "la",
+   "Dean dīcit: tandem aliquis vēritātem dīxit."
+  ],
+  [
+   "la",
+   "Et hodiē basilica Laterānēnsis dēdicāta est."
+  ],
+  [
+   "en",
+   "The words of the day. Five sentences, slowly."
+  ],
+  [
+   "sec",
+   "Verba diēī."
+  ],
+  [
+   "la",
+   "Oeconomia Austrāliae tardior fit."
+  ],
+  [
+   "la",
+   "Taylor dīcit: incrēmentum nōn pūnīre dēbēs."
+  ],
+  [
+   "la",
+   "Porta Ferrea viās terrestrēs Īrāniae spectābit."
+  ],
+  [
+   "la",
+   "Hiems venit, et Russī lūcem et calōrem auferre volunt."
+  ],
+  [
+   "la",
+   "Parva īnsula, magnum opus."
+  ],
+  [
+   "la",
+   "Iterum."
+  ],
+  [
+   "la",
+   "Oeconomia Austrāliae tardior fit."
+  ],
+  [
+   "la",
+   "Taylor dīcit: incrēmentum nōn pūnīre dēbēs."
+  ],
+  [
+   "la",
+   "Porta Ferrea viās terrestrēs Īrāniae spectābit."
+  ],
+  [
+   "la",
+   "Hiems venit, et Russī lūcem et calōrem auferre volunt."
+  ],
+  [
+   "la",
+   "Parva īnsula, magnum opus."
+  ],
+  [
+   "la",
+   "Haec sunt Ācta Diurna. Valēte, audītōrēs. Crās iterum."
+  ],
+  [
+   "p1",
+   "Nunc omnia iterum, Latīnē tantum."
+  ]
+ ]
+}
