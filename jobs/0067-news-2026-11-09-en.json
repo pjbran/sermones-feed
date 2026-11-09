@@ -1,0 +1,977 @@
+{
+ "type": "news",
+ "date": "2026-11-09",
+ "suffix": "-en",
+ "music": "v5",
+ "title": "Ācta Diurna · Diēs Lūnae, V Īd. Nov. (Mon 9 Nov 2026)",
+ "summary": "Canberra 2–21° and mostly sunny, 25° tomorrow; Australia's economy slows: 4.85% cash rate, 3.6% core inflation, Angus Taylor: 'you don't punish growth', Chalmers seeks productivity ideas; Iran: US Task Force Iron Gate targets land routes, 147 ships turned back; US: Senate counts in Mississippi and Alaska, Massie moves to impeach Hegseth; Ukraine: Russia hits the power grid, talks set for Abu Dhabi; Corvo island turns off its lights for seabirds; Opīniō: Rowan Dean on progressive antisemitism and the Segal report; the Lateran Basilica dedicated, AD 324. Every line in English, then Latin; then all the Latin again. Sources: Bureau of Meteorology via WillyWeather; The Spectator Australia (Tony Nikolic, Rowan Dean); ABC News (6 Nov); Fox News and CBS News (7–8 Nov); Yahoo News (7 Nov); Kyiv Independent (8 Nov); Good Good Good (7 Nov).",
+ "lines": [
+  [
+   "spl",
+   "Hello, listeners. This is the Acta Diurna.",
+   "Salvēte, audītōrēs. Haec sunt Ācta Diurna."
+  ],
+  [
+   "pl",
+   "Today is Monday, the fifth day before the Ides of November.",
+   "Hodiē est diēs Lūnae, ante diem quīntum Īdūs Novembrēs."
+  ],
+  [
+   "pl",
+   "In the year 2026.",
+   "Annō bis mīllēsimō vīcēsimō sextō."
+  ],
+  [
+   "pl",
+   "First, the weather. Then Australian affairs.",
+   "Prīmum tempestās. Deinde rēs Austrāliae."
+  ],
+  [
+   "pl",
+   "Then the world: Iran, America, Ukraine.",
+   "Deinde orbis terrārum: Īrānia, America, Ūcraīna."
+  ],
+  [
+   "pl",
+   "Then a happy story, opinion, and today in history.",
+   "Tum rēs laeta, opīniō, et hodiē in historiā."
+  ],
+  [
+   "pl",
+   "At the end, the words of the day.",
+   "In fīne, verba diēī."
+  ],
+  [
+   "en",
+   "The weather. Canberra first: a cold start, then a mostly sunny Monday."
+  ],
+  [
+   "spl",
+   "The weather.",
+   "Tempestās."
+  ],
+  [
+   "pl",
+   "First, Canberra.",
+   "Prīmum Canberra."
+  ],
+  [
+   "pl",
+   "Today in Canberra the sky is mostly clear.",
+   "Hodiē Canberrae caelum plērumque serēnum est."
+  ],
+  [
+   "pl",
+   "In the morning it is very cold: only 2 degrees.",
+   "Māne valdē frīgidum est: duo gradūs tantum."
+  ],
+  [
+   "pl",
+   "In the afternoon it is warm: 21 degrees.",
+   "Post merīdiem calidum est: ūnus et vīgintī gradūs."
+  ],
+  [
+   "pl",
+   "No rain is expected.",
+   "Pluvia nūlla exspectātur."
+  ],
+  [
+   "pl",
+   "The wind blows from the south, 15 to 20 kilometres an hour.",
+   "Ventus ab austrō flat, quīndecim ad vīgintī chiliometra in hōrā."
+  ],
+  [
+   "pl",
+   "In the evening the wind changes and becomes light.",
+   "Vesperī ventus mūtātur et lēnis fit."
+  ],
+  [
+   "pl",
+   "Tomorrow, Tuesday, in the morning there may be fog.",
+   "Crās, diē Mārtis, māne fortasse nebula erit."
+  ],
+  [
+   "pl",
+   "Then the sky will be mostly clear.",
+   "Deinde caelum plērumque serēnum erit."
+  ],
+  [
+   "pl",
+   "Tomorrow morning 3 degrees, in the afternoon 25.",
+   "Crās māne trēs gradūs, post merīdiem quīnque et vīgintī."
+  ],
+  [
+   "pl",
+   "Tomorrow the wind will blow from the west and the north.",
+   "Crās ventus ab occidente et septentriōnibus flābit."
+  ],
+  [
+   "pl",
+   "So: today 21 degrees, tomorrow 25.",
+   "Ergō: hodiē ūnus et vīgintī gradūs, crās quīnque et vīgintī."
+  ],
+  [
+   "pl",
+   "In Canberra today: cold in the morning, warm in the afternoon, and no rain.",
+   "Canberrae hodiē māne frīgidum, post merīdiem calidum, et sine pluviā."
+  ],
+  [
+   "en",
+   "Now the other capital cities."
+  ],
+  [
+   "spl",
+   "Now the other cities.",
+   "Nunc cēterae urbēs."
+  ],
+  [
+   "pl",
+   "In Sydney the sky is partly cloudy. Perhaps a shower at first light. 21 degrees.",
+   "Sydnēiae caelum partim nūbilum est. Fortasse prīmā lūce imber. Ūnus et vīgintī gradūs."
+  ],
+  [
+   "pl",
+   "In Melbourne the sun is shining. 22 degrees.",
+   "Melburnī sōl lūcet. Duo et vīgintī gradūs."
+  ],
+  [
+   "pl",
+   "In Brisbane the sky is mostly clear. 26 degrees.",
+   "Brisbanae caelum plērumque serēnum est. Sex et vīgintī gradūs."
+  ],
+  [
+   "pl",
+   "In Perth the clouds are moving away. 24 degrees.",
+   "Perthī nūbēs abeunt. Quattuor et vīgintī gradūs."
+  ],
+  [
+   "pl",
+   "In Adelaide perhaps a shower from midday. 27 degrees.",
+   "Adēlāidae fortasse imber ā merīdiē. Septem et vīgintī gradūs."
+  ],
+  [
+   "pl",
+   "In Adelaide today it is hottest.",
+   "Adēlāidae hodiē calidissimum est."
+  ],
+  [
+   "pl",
+   "In Hobart the sky is cloudy. 19 degrees.",
+   "Hobartī caelum nūbilum est. Ūndēvīgintī gradūs."
+  ],
+  [
+   "pl",
+   "In Hobart it is coldest.",
+   "Hobartī frīgidissimum est."
+  ],
+  [
+   "pl",
+   "In most cities the sun is shining.",
+   "In plūrimīs urbibus sōl lūcet."
+  ],
+  [
+   "pl",
+   "Only in Sydney and Adelaide will there perhaps be a shower.",
+   "Sōlum Sydnēiae et Adēlāidae fortasse imber erit."
+  ],
+  [
+   "pl",
+   "That is the weather.",
+   "Haec est tempestās."
+  ],
+  [
+   "en",
+   "Australia. The economy is slowing, rates are at an eighteen-year high, and the Opposition says Labor is punishing growth."
+  ],
+  [
+   "spl",
+   "Australian affairs.",
+   "Rēs Austrāliae."
+  ],
+  [
+   "pl",
+   "Australia's economy is getting slower.",
+   "Oeconomia Austrāliae tardior fit."
+  ],
+  [
+   "pl",
+   "The central bank has already raised the interest rate five times this year.",
+   "Argentāria centrālis faenus iam quīnquiēns hōc annō auxit."
+  ],
+  [
+   "pl",
+   "The rate is now 4.85 per cent.",
+   "Faenus nunc est quattuor per centum et octōgintā quīnque centēsimae."
+  ],
+  [
+   "pl",
+   "The rate is the highest for 18 years.",
+   "Faenus altissimum est post duodēvīgintī annōs."
+  ],
+  [
+   "pl",
+   "On Melbourne Cup Day the rate was raised.",
+   "Diē Pōculī Melburnēnsis faenus auctum est."
+  ],
+  [
+   "pl",
+   "Six members of the bank voted for the rise, three against.",
+   "Sex sodālēs argentāriae prō incrēmentō suffrāgium tulērunt, trēs contrā."
+  ],
+  [
+   "pl",
+   "The bank itself says: the economy is getting slower, house prices have fallen, more people are out of work.",
+   "Ipsa argentāria dīcit: oeconomia tardior fit, pretia domuum cecidērunt, plūrēs sine opere sunt."
+  ],
+  [
+   "pl",
+   "What does this mean for families?",
+   "Quid hoc significat familiīs?"
+  ],
+  [
+   "pl",
+   "Someone who has a loan of 600,000 dollars now pays about 490 dollars more every month.",
+   "Quī sescenta mīlia dollarōrum mūtua habet, nunc circiter quadringentōs nōnāgintā dollarōs plūs quōque mēnse solvit."
+  ],
+  [
+   "pl",
+   "More than in January. Every month.",
+   "Plūs quam mēnse Iānuāriō. Quōque mēnse."
+  ],
+  [
+   "pl",
+   "Core inflation in Australia is 3.6 per cent.",
+   "Īnflātiō interior in Austrāliā est tria et sex decimae per centum."
+  ],
+  [
+   "pl",
+   "In Britain it is 2.8. In America 2.6.",
+   "In Britanniā est duo et octō decimae. In America duo et sex decimae."
+  ],
+  [
+   "pl",
+   "So inflation in Australia is higher than in other countries.",
+   "Ergō inflātiō in Austrāliā altior est quam in aliīs terrīs."
+  ],
+  [
+   "pl",
+   "In September 4.7 per cent were out of work.",
+   "Mēnse Septembrī quattuor et septem decimae per centum sine opere erant."
+  ],
+  [
+   "pl",
+   "And the government has large debts.",
+   "Et rēs pūblica magna dēbita habet."
+  ],
+  [
+   "pl",
+   "The debts are 971 billion dollars.",
+   "Dēbita sunt nōngenta septuāgintā ūnum mīlliarda dollarōrum."
+  ],
+  [
+   "en",
+   "Opposition Leader Angus Taylor: you don't punish growth. But that is exactly what this government has done."
+  ],
+  [
+   "pl",
+   "Angus Taylor is the leader of the Opposition.",
+   "Angus Taylor dux oppositiōnis est."
+  ],
+  [
+   "pl",
+   "Taylor says: you must not punish growth.",
+   "Taylor dīcit: incrēmentum nōn pūnīre dēbēs."
+  ],
+  [
+   "pl",
+   "But this government punishes growth, as Taylor says.",
+   "Sed haec rēs pūblica incrēmentum pūnit, ut Taylor dīcit."
+  ],
+  [
+   "pl",
+   "Taylor says: the new laws on taxes reduce work and enterprise.",
+   "Taylor dīcit: novae lēgēs dē vectīgālibus labōrem et industriam minuunt."
+  ],
+  [
+   "pl",
+   "Laws on capital gains, on renting out homes, on trusts.",
+   "Lēgēs dē lucrō capitālī, dē domibus locandīs, dē fideicommissīs."
+  ],
+  [
+   "pl",
+   "Matthew Canavan, a senator, adds: we will abolish the policy called net zero.",
+   "Matthaeus Canavan, senātor, addit: nōs cōnsilium quod net zero vocātur abolēbimus."
+  ],
+  [
+   "pl",
+   "That way energy prices will come down, as Canavan says.",
+   "Sīc pretia energiae dēscendent, ut Canavan dīcit."
+  ],
+  [
+   "en",
+   "The Treasurer, Jim Chalmers, has asked Treasury for productivity ideas for December's budget update."
+  ],
+  [
+   "pl",
+   "Jim Chalmers runs the Treasury.",
+   "Iacōbus Chalmers aerārium regit."
+  ],
+  [
+   "pl",
+   "Chalmers asked the Treasury: give me ideas for boosting productivity.",
+   "Chalmers aerārium rogāvit: date mihi cōnsilia dē industriā augendā."
+  ],
+  [
+   "pl",
+   "These ideas will be in the new accounts in December.",
+   "Haec cōnsilia mēnse Decembrī in novīs ratiōnibus erunt."
+  ],
+  [
+   "pl",
+   "But in the Productivity Commission's inquiry, Chalmers does not touch taxes and work laws.",
+   "Sed in quaestiōne Commissiōnis Prōductīvitātis Chalmers vectīgālia et lēgēs dē opere nōn tangit."
+  ],
+  [
+   "pl",
+   "High interest rates, high inflation, large debts.",
+   "Faenus altum, inflātiō alta, dēbita magna."
+  ],
+  [
+   "pl",
+   "That is the state of Australia today.",
+   "Haec est rēs Austrāliae hodiē."
+  ],
+  [
+   "en",
+   "The world. America tightens the blockade on Iran: a new task force, Iron Gate, now targets Iran's land routes too."
+  ],
+  [
+   "spl",
+   "The world.",
+   "Orbis terrārum."
+  ],
+  [
+   "pl",
+   "First, Iran.",
+   "Prīmum Īrānia."
+  ],
+  [
+   "pl",
+   "The Americans have long been closing Iran's ports.",
+   "Americānī portūs Īrāniae iam diū claudunt."
+  ],
+  [
+   "pl",
+   "Now they have created a new force. Its name is Iron Gate.",
+   "Nunc novam manum creāvērunt. Nōmen eī est Porta Ferrea."
+  ],
+  [
+   "pl",
+   "Iron Gate will watch Iran's land routes.",
+   "Porta Ferrea viās terrestrēs Īrāniae spectābit."
+  ],
+  [
+   "pl",
+   "And it will watch the Caspian Sea too.",
+   "Et mare Caspium quoque spectābit."
+  ],
+  [
+   "pl",
+   "It wants to stop weapons, machines, and forbidden money.",
+   "Arma, māchinās, et pecūniam vetitam prohibēre vult."
+  ],
+  [
+   "pl",
+   "About 20 people are in this force, in Tampa, in Florida.",
+   "Circiter vīgintī hominēs in hāc manū sunt, Tampae, in Floridā."
+  ],
+  [
+   "pl",
+   "Admiral Brad Cooper says: Iron Gate strengthens our blockade at sea.",
+   "Praefectus classis Brad Cooper dīcit: Porta Ferrea obsidiōnem nostram in marī cōnfirmat."
+  ],
+  [
+   "pl",
+   "Since July the Americans have turned back 147 ships.",
+   "Ā mēnse Iūliō Americānī centum quadrāgintā septem nāvēs āvertērunt."
+  ],
+  [
+   "pl",
+   "Five ships, which did not obey, were disabled.",
+   "Quīnque nāvēs, quae nōn pārēbant, inūtilēs factae sunt."
+  ],
+  [
+   "pl",
+   "And 10 Iranian oil tankers were destroyed.",
+   "Et decem nāvēs oleāriae Īrāniae dēlētae sunt."
+  ],
+  [
+   "pl",
+   "Trump says: we made small strikes on the island of Qeshm.",
+   "Trump dīcit: parvōs ictūs in īnsulam Qeshm fēcimus."
+  ],
+  [
+   "pl",
+   "But Trump says: this is not a big new war.",
+   "Sed Trump dīcit: hoc nōn est novum bellum magnum."
+  ],
+  [
+   "pl",
+   "Iran has sent a new proposal on the nuclear issue through Qatar.",
+   "Īrānia prōpositum novum dē rē ātomicā per Qatariam mīsit."
+  ],
+  [
+   "pl",
+   "But Iran still demands 7 conditions.",
+   "Sed Īrānia adhūc septem condiciōnēs postulat."
+  ],
+  [
+   "pl",
+   "Among them: an end to the blockade and an end to sanctions.",
+   "Inter eās: fīnem obsidiōnis et fīnem poenārum."
+  ],
+  [
+   "pl",
+   "Meanwhile in Yemen the Houthis say the Saudis have killed 33 people.",
+   "Interim in Iemeniā Houthī dīcunt Saudiānōs trīgintā trēs hominēs occīdisse."
+  ],
+  [
+   "pl",
+   "The blockade remains. Iran is under pressure.",
+   "Obsidiō manet. Īrānia premitur."
+  ],
+  [
+   "en",
+   "America. After the midterms, two Senate seats are still being counted, and a Republican wants to impeach Defence Secretary Hegseth."
+  ],
+  [
+   "pl",
+   "Now the United States of America.",
+   "Nunc Cīvitātēs Foederātae Americae."
+  ],
+  [
+   "pl",
+   "After the elections the Democrats hold Congress.",
+   "Post comitia Dēmocratae Congressum obtinent."
+  ],
+  [
+   "pl",
+   "In the House of Representatives the Democrats have 254 seats.",
+   "In Domō Repraesentantium Dēmocratae ducentās quīnquāgintā quattuor sēdēs habent."
+  ],
+  [
+   "pl",
+   "The Republicans 162.",
+   "Rēpūblicānī centum sexāgintā duās."
+  ],
+  [
+   "pl",
+   "19 seats are still undecided.",
+   "Ūndēvīgintī sēdēs adhūc incertae sunt."
+  ],
+  [
+   "pl",
+   "In the Senate the Democrats 54, the Republicans 44.",
+   "In senātū Dēmocratae quīnquāgintā quattuor, Rēpūblicānī quadrāgintā quattuor."
+  ],
+  [
+   "pl",
+   "In Texas James Talarico defeated Ken Paxton.",
+   "In Texiā Iacōbus Talarico Kennethum Paxton vīcit."
+  ],
+  [
+   "pl",
+   "He is the first Democrat from Texas elected to the Senate since 1988.",
+   "Prīmus Dēmocrata ex Texiā in senātum ēlēctus est post annum mīllēsimum nōngentēsimum octōgēsimum octāvum."
+  ],
+  [
+   "pl",
+   "Two seats are still undecided.",
+   "Duae sēdēs adhūc incertae sunt."
+  ],
+  [
+   "pl",
+   "In Mississippi Scott Colom is narrowly ahead: by 2,574 votes.",
+   "In Mississippiā Scott Colom paulum superat: duōbus mīlibus quīngentīs septuāgintā quattuor suffrāgiīs."
+  ],
+  [
+   "pl",
+   "Cindy Hyde-Smith, the Republican senator, is not conceding.",
+   "Cindy Hyde-Smith, senātrīx Rēpūblicāna, nōn cēdit."
+  ],
+  [
+   "pl",
+   "Hyde-Smith says: we will carry this through to the very end.",
+   "Hyde-Smith dīcit: hoc ad fīnem ipsum perferēmus."
+  ],
+  [
+   "pl",
+   "Postal votes are accepted until the 10th of November.",
+   "Epistulae cum suffrāgiīs usque ad diem decimum Novembris accipiuntur."
+  ],
+  [
+   "pl",
+   "In Alaska Mary Peltola, by 637 votes, is ahead of Dan Sullivan, the senator.",
+   "In Alaskā Maria Peltola sescentīs trīgintā septem suffrāgiīs Dan Sullivan, senātōrem, superat."
+  ],
+  [
+   "pl",
+   "If no one has more than half the votes, a new count begins on the 18th of November.",
+   "Sī nēmō plūs quam dīmidium suffrāgiōrum habet, numerātiō nova incipit diē duodēvīcēsimō Novembris."
+  ],
+  [
+   "pl",
+   "And Thomas Massie, a Republican, wants to impeach Hegseth, the Secretary of War, unless Hegseth leaves.",
+   "Et Thomas Massie, Rēpūblicānus, Hegseth, ministrum bellī, accūsāre vult, nisi Hegseth discēdit."
+  ],
+  [
+   "pl",
+   "Perhaps as soon as next week.",
+   "Fortasse iam proximā hebdomade."
+  ],
+  [
+   "pl",
+   "Hegseth says: this did not work against Trump, and it will not work against me.",
+   "Hegseth dīcit: hoc nōn valuit contrā Trump, nec valēbit contrā mē."
+  ],
+  [
+   "en",
+   "Ukraine. Russia is hitting Ukraine's power grid before winter, as new peace talks are set for Abu Dhabi."
+  ],
+  [
+   "pl",
+   "Now Ukraine.",
+   "Nunc Ūcraīna."
+  ],
+  [
+   "pl",
+   "The Russians are attacking Ukraine's power stations.",
+   "Russī stātiōnēs ēlectricās Ūcraīnae oppugnant."
+  ],
+  [
+   "pl",
+   "Zelensky says that stations in 6 regions have been damaged.",
+   "Zelensky dīcit stātiōnēs in sex regiōnibus laesās esse."
+  ],
+  [
+   "pl",
+   "Among them Kyiv, Kharkiv, and Dnipro.",
+   "Inter eās Kiovia, Charcovia, et Dnipro."
+  ],
+  [
+   "pl",
+   "In one day 2 people were killed, 37 wounded.",
+   "Ūnō diē duo hominēs occīsī sunt, trīgintā septem vulnerātī."
+  ],
+  [
+   "pl",
+   "Russian missiles also hit Kyiv itself.",
+   "Missilia Russica etiam Kioviam ipsam percussērunt."
+  ],
+  [
+   "pl",
+   "Kyiv's North Bridge was damaged. At least 6 were wounded.",
+   "Pōns Septentriōnālis Kioviae laesus est. Sex saltem vulnerātī sunt."
+  ],
+  [
+   "pl",
+   "Winter is coming, and the Russians want to take away light and heat.",
+   "Hiems venit, et Russī lūcem et calōrem auferre volunt."
+  ],
+  [
+   "pl",
+   "But the Ukrainians are fighting too.",
+   "Sed Ūcraīnī quoque pugnant."
+  ],
+  [
+   "pl",
+   "Ukrainian missiles, which are called Neptune, hit a Russian factory in the city of Oryol.",
+   "Missilia Ūcraīna, quae Neptūnus vocantur, officīnam Russicam in urbe Oryol percussērunt."
+  ],
+  [
+   "pl",
+   "Meanwhile new talks on peace are being prepared, in the city of Abu Dhabi.",
+   "Interim novī sermōnēs dē pāce parantur, in urbe Abu Dhabi."
+  ],
+  [
+   "pl",
+   "Russia will send Sergei Ryabkov, the deputy foreign minister.",
+   "Russia Sergium Ryabkov, vicārium ministrī rērum exterārum, mittet."
+  ],
+  [
+   "pl",
+   "Rustem Umerov will lead the Ukrainian delegation.",
+   "Rustem Umerov lēgātiōnem Ūcraīnam dūcet."
+  ],
+  [
+   "pl",
+   "Zelensky says: Putin does not want to stop the fighting.",
+   "Zelensky dīcit: Putin pugnam sistere nōn vult."
+  ],
+  [
+   "pl",
+   "The war gets harsher in winter.",
+   "Bellum hieme dūrius fit."
+  ],
+  [
+   "en",
+   "Something good. On a tiny island in the Azores, everyone turns off the lights, to help young seabirds find the sea."
+  ],
+  [
+   "spl",
+   "Good news.",
+   "Rēs laeta."
+  ],
+  [
+   "pl",
+   "Corvo is a small island, in the Azores, in the Atlantic Ocean.",
+   "Corvo parva īnsula est, in Azōribus, in Ōceanō Atlanticō."
+  ],
+  [
+   "pl",
+   "About 450 people live on the island.",
+   "In īnsulā circiter quadringentī quīnquāgintā hominēs habitant."
+  ],
+  [
+   "pl",
+   "Every autumn the islanders put out the lights.",
+   "Quōque autumnō incolae lūcēs exstinguunt."
+  ],
+  [
+   "pl",
+   "For 5 nights the whole island is dark.",
+   "Quīnque noctēs tōta īnsula obscūra est."
+  ],
+  [
+   "pl",
+   "Why? Because of the seabirds.",
+   "Cūr? Propter avēs marīnās."
+  ],
+  [
+   "pl",
+   "Young shearwaters fly to the sea at night.",
+   "Puffīnī iuvenēs noctū ad mare volant."
+  ],
+  [
+   "pl",
+   "The town's lights deceive them. The birds fall to the ground.",
+   "Lūcēs urbis eōs dēcipiunt. Avēs in terram cadunt."
+  ],
+  [
+   "pl",
+   "But in the darkness the birds find the way to the sea.",
+   "Sed in tenebrīs avēs viam ad mare inveniunt."
+  ],
+  [
+   "pl",
+   "The islanders on Corvo have been doing this since 2019.",
+   "Hoc incolae Corvō faciunt ab annō bis mīllēsimō ūndēvīcēsimō."
+  ],
+  [
+   "pl",
+   "A small island, a great work.",
+   "Parva īnsula, magnum opus."
+  ],
+  [
+   "pl",
+   "And in Chile, in Patagonia, other birds are being saved.",
+   "Et in Chīliā, in Patagoniā, aliae avēs servantur."
+  ],
+  [
+   "pl",
+   "Women wardens are raising 13 large birds.",
+   "Fēminae custōdēs tredecim avēs magnās alunt."
+  ],
+  [
+   "pl",
+   "These birds are called Darwin's rheas. They cannot fly, but they run fast.",
+   "Hae avēs rheae Darwinī vocantur. Volāre nōn possunt, sed celeriter currunt."
+  ],
+  [
+   "pl",
+   "Soon they will be released into freedom.",
+   "Mox in lībertātem mittentur."
+  ],
+  [
+   "pl",
+   "13 birds, and many good hands.",
+   "Tredecim avēs, et multae manūs bonae."
+  ],
+  [
+   "en",
+   "Opinion. This is the view of Rowan Dean, editor of The Spectator Australia: today's antisemitism comes mostly from the progressive side."
+  ],
+  [
+   "spl",
+   "Opinion.",
+   "Opīniō."
+  ],
+  [
+   "pl",
+   "This is the view of Rowan Dean, in The Spectator Australia.",
+   "Haec est sententia Rowan Dean, in Spectātōre Austrāliānō."
+  ],
+  [
+   "pl",
+   "Jillian Segal is the envoy against hatred of Jews.",
+   "Iūliāna Segal lēgāta est contrā odium Iūdaeōrum."
+  ],
+  [
+   "pl",
+   "Segal has written an updated report.",
+   "Segal relātiōnem renovātam scrīpsit."
+  ],
+  [
+   "pl",
+   "Segal says: a new, progressive hatred of Jews is now most visible in Australia.",
+   "Segal dīcit: odium Iūdaeōrum novum et prōgressīvum nunc maximē in Austrāliā patet."
+  ],
+  [
+   "pl",
+   "Dean praises it: at last someone in power has told the truth.",
+   "Dean laudat: tandem aliquis in potestāte vēritātem dīxit."
+  ],
+  [
+   "pl",
+   "Dean says: this hatred lurks in Labor, in the Greens, and in public radio and television.",
+   "Dean dīcit: hoc odium apud Labōrānōs, apud Viridēs, et in radiophōniā et tēlevīsiōne pūblicā latet."
+  ],
+  [
+   "pl",
+   "Segal proposes many things.",
+   "Segal multa prōpōnit."
+  ],
+  [
+   "pl",
+   "First: a new external watchdog for the ABC and SBS.",
+   "Prīmum: novus custōs externus prō ABC et SBS."
+  ],
+  [
+   "pl",
+   "Next: visas must be checked more carefully.",
+   "Deinde: vīsa dīligentius probanda sunt."
+  ],
+  [
+   "pl",
+   "And: no public money for artists who encourage hatred of Jews.",
+   "Et: nūlla pecūnia pūblica artificibus quī odium Iūdaeōrum fovent."
+  ],
+  [
+   "pl",
+   "Dean praises these proposals.",
+   "Dean haec cōnsilia laudat."
+  ],
+  [
+   "pl",
+   "That is the opinion of Rowan Dean.",
+   "Haec est opīniō Rowan Dean."
+  ],
+  [
+   "en",
+   "On this day, in the year three hundred and twenty-four, the Lateran Basilica in Rome was dedicated."
+  ],
+  [
+   "spl",
+   "Today in history.",
+   "Hodiē in historiā."
+  ],
+  [
+   "pl",
+   "Today, in the year 324, the Lateran Basilica was dedicated.",
+   "Hodiē, annō trecentēsimō vīcēsimō quārtō, basilica Laterānēnsis dēdicāta est."
+  ],
+  [
+   "pl",
+   "Pope Sylvester dedicated it, in Rome.",
+   "Pāpa Silvester eam dēdicāvit, Rōmae."
+  ],
+  [
+   "pl",
+   "The Emperor Constantine had given the site.",
+   "Cōnstantīnus imperātor locum dederat."
+  ],
+  [
+   "pl",
+   "This basilica is the Pope's cathedral church, as Bishop of Rome.",
+   "Haec basilica ecclēsia cathedrālis Pāpae est, ut Episcopī Rōmānī."
+  ],
+  [
+   "pl",
+   "Not St Peter's, but the Lateran.",
+   "Nōn Sānctus Petrus, sed Laterānus."
+  ],
+  [
+   "pl",
+   "On the wall it is written: mother and head of all the churches of the City and of the World.",
+   "In mūrō scrīptum est: omnium Urbis et Orbis ecclēsiārum māter et caput."
+  ],
+  [
+   "pl",
+   "Today the Church still celebrates this feast day.",
+   "Hodiē quoque Ecclēsia hunc diem festum celebrat."
+  ],
+  [
+   "pl",
+   "Marcus and Lucius, as always, were there. But that is another story.",
+   "Mārcus et Lūcius, ut semper, aderant. Sed id alia fābula est."
+  ],
+  [
+   "en",
+   "The day in brief."
+  ],
+  [
+   "spl",
+   "Summary of the news.",
+   "Summa rērum."
+  ],
+  [
+   "pl",
+   "In Canberra today the sky is clear. 21 degrees.",
+   "Canberrae hodiē caelum serēnum est. Ūnus et vīgintī gradūs."
+  ],
+  [
+   "pl",
+   "Tomorrow it will be warmer: 25 degrees.",
+   "Crās calidius erit: quīnque et vīgintī gradūs."
+  ],
+  [
+   "pl",
+   "Australia's economy is getting slower, and the interest rate is high.",
+   "Oeconomia Austrāliae tardior fit, et faenus altum est."
+  ],
+  [
+   "pl",
+   "Inflation in Australia is higher than in Britain and in America.",
+   "Īnflātiō in Austrāliā altior est quam in Britanniā et in America."
+  ],
+  [
+   "pl",
+   "Taylor says: this government punishes growth.",
+   "Taylor dīcit: haec rēs pūblica incrēmentum pūnit."
+  ],
+  [
+   "pl",
+   "Chalmers is asking the Treasury for ideas on productivity.",
+   "Chalmers cōnsilia dē industriā ab aerāriō petit."
+  ],
+  [
+   "pl",
+   "The Americans have created a new force: Iron Gate.",
+   "Americānī novam manum creāvērunt: Portam Ferream."
+  ],
+  [
+   "pl",
+   "Iron Gate will watch Iran's land routes.",
+   "Porta Ferrea viās terrestrēs Īrāniae spectābit."
+  ],
+  [
+   "pl",
+   "In America two Senate seats are still undecided.",
+   "In America duae sēdēs senātūs adhūc incertae sunt."
+  ],
+  [
+   "pl",
+   "Massie wants to impeach Hegseth.",
+   "Massie Hegseth accūsāre vult."
+  ],
+  [
+   "pl",
+   "The Russians are attacking Ukraine's power stations.",
+   "Russī stātiōnēs ēlectricās Ūcraīnae oppugnant."
+  ],
+  [
+   "pl",
+   "New talks on peace are being prepared in the city of Abu Dhabi.",
+   "Novī sermōnēs dē pāce in urbe Abu Dhabi parantur."
+  ],
+  [
+   "pl",
+   "On the island of Corvo the islanders put out the lights for the birds.",
+   "In īnsulā Corvō incolae lūcēs prō avibus exstinguunt."
+  ],
+  [
+   "pl",
+   "Dean says: at last someone has told the truth.",
+   "Dean dīcit: tandem aliquis vēritātem dīxit."
+  ],
+  [
+   "pl",
+   "And today the Lateran Basilica was dedicated.",
+   "Et hodiē basilica Laterānēnsis dēdicāta est."
+  ],
+  [
+   "en",
+   "The words of the day. Five sentences, slowly."
+  ],
+  [
+   "spl",
+   "The words of the day.",
+   "Verba diēī."
+  ],
+  [
+   "pl",
+   "Australia's economy is getting slower.",
+   "Oeconomia Austrāliae tardior fit."
+  ],
+  [
+   "pl",
+   "Taylor says: you must not punish growth.",
+   "Taylor dīcit: incrēmentum nōn pūnīre dēbēs."
+  ],
+  [
+   "pl",
+   "Iron Gate will watch Iran's land routes.",
+   "Porta Ferrea viās terrestrēs Īrāniae spectābit."
+  ],
+  [
+   "pl",
+   "Winter is coming, and the Russians want to take away light and heat.",
+   "Hiems venit, et Russī lūcem et calōrem auferre volunt."
+  ],
+  [
+   "pl",
+   "A small island, a great work.",
+   "Parva īnsula, magnum opus."
+  ],
+  [
+   "pl",
+   "Again.",
+   "Iterum."
+  ],
+  [
+   "pl",
+   "Australia's economy is getting slower.",
+   "Oeconomia Austrāliae tardior fit."
+  ],
+  [
+   "pl",
+   "Taylor says: you must not punish growth.",
+   "Taylor dīcit: incrēmentum nōn pūnīre dēbēs."
+  ],
+  [
+   "pl",
+   "Iron Gate will watch Iran's land routes.",
+   "Porta Ferrea viās terrestrēs Īrāniae spectābit."
+  ],
+  [
+   "pl",
+   "Winter is coming, and the Russians want to take away light and heat.",
+   "Hiems venit, et Russī lūcem et calōrem auferre volunt."
+  ],
+  [
+   "pl",
+   "A small island, a great work.",
+   "Parva īnsula, magnum opus."
+  ],
+  [
+   "pl",
+   "This is the Acta Diurna. Goodbye, listeners. Again tomorrow.",
+   "Haec sunt Ācta Diurna. Valēte, audītōrēs. Crās iterum."
+  ],
+  [
+   "p1pl",
+   "Now everything again, in Latin only.",
+   "Nunc omnia iterum, Latīnē tantum."
+  ]
+ ]
+}
