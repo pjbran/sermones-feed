@@ -443,16 +443,25 @@ def run_news(job):
         return audio.norm(audio.trim(audio.load(w), thr_db=-55, pad=0.12))
     conv = lambda la: free_tts.latin_ipa(la, v_as_v=True)
     sp = float(job.get('english_speed', 1.0))
+    # 9 Nov 2026 (his rule: "full English-Latin, then again but all Latin after"): 'pl' / 'spl' / 'p1pl' = [kind, English, Latin]:
+    # pass 1 says the English then the Latin; pass 2 says the Latin only ('p1pl' only in pass 1). 'spl' = a section title.
     def build(lines, pass2):
         seq = []
-        for kind, t in lines:
-            if pass2 and kind in ('en', 'p1'):
+        for ln in lines:
+            kind = ln[0]
+            if pass2 and kind in ('en', 'p1', 'p1pl'):
                 continue
-            if kind == 'sec' and seq:
+            if kind in ('sec', 'spl') and seq:
                 seq[-1] = (seq[-1][0], max(seq[-1][1], 1.6))
             if kind == 'en':
-                seq.append((audio.tempo(fclip(ven, t), sp), 0.6))
+                seq.append((audio.tempo(fclip(ven, ln[1]), sp), 0.6))
+            elif kind in ('pl', 'spl', 'p1pl'):
+                e, t = ln[1], ln[2]
+                if not pass2:
+                    seq.append((audio.tempo(fclip(ven, e), sp), job.get('pause_after_english', 0.45)))
+                seq.append((fclip(vla, conv(t)), 1.0 if kind == 'spl' else job.get('pause_latin', 0.7)))
             else:
+                t = ln[1]
                 seq.append((fclip(vla, conv(t)), 1.0 if kind == 'sec' else job.get('pause_latin', 0.7)))
         return seq
     seq = build(job['lines'], False)
@@ -461,14 +470,20 @@ def run_news(job):
         seq += build(job['lines'], True)
     voice, ev = audio.sequence(seq)
     x = audio.mix_music(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -9), job.get('music_dip_db', 7))
-    fn = f"acta-{job['date']}.mp3"
-    eps = [e for e in json.load(open('news/episodes.json')) if e['file'] != fn]
+    fn = f"acta-{job['date']}{job.get('suffix', '')}.mp3"
+    # a redo replaces every earlier file of the same day (new name so podcast apps fetch it again)
+    old = [e for e in json.load(open('news/episodes.json')) if e['file'].startswith(f"acta-{job['date']}")]
+    for e in old:
+        if e['file'] != fn and os.path.exists('news/episodes/' + e['file']):
+            os.remove('news/episodes/' + e['file'])
+    eps = [e for e in json.load(open('news/episodes.json')) if e not in old]
     title = job['title']
     tags = {'title': title, 'artist': 'Ācta Diurna', 'album_artist': 'Ācta Diurna', 'album': 'Ācta Diurna',
             'genre': 'News', 'date': job['date'][:4]}
     audio.save_mp3(x, 'news/episodes/' + fn, tags, 'news/cover.jpg', bitrate='64k', channels=1)
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=11)))
-    eps.append({'file': fn, 'title': title, 'date': now.isoformat(timespec='seconds'), 'summary': job.get('summary', '')})
+    when = old[0]['date'] if old else now.isoformat(timespec='seconds')   # a redo keeps its day's place in the feed
+    eps.append({'file': fn, 'title': title, 'date': when, 'summary': job.get('summary', '')})
     json.dump(eps, open('news/episodes.json', 'w'), indent=1, ensure_ascii=False)
     subprocess.run([sys.executable, 'build_feed.py', BASE, 'news'], check=True)
     log('built news', fn, f'{len(x) / audio.SR / 60:.1f} min')
