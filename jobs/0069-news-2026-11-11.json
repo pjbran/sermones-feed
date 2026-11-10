@@ -1,0 +1,829 @@
+{
+ "type": "news",
+ "date": "2026-11-11",
+ "music": "v5",
+ "title": "Ācta Diurna · Diēs Mercuriī, III Īd. Nov. (Wed 11 Nov 2026)",
+ "summary": "Canberra: 9–28°, partly cloudy, afternoon storm chance; 11–27° and morning fog tomorrow; Brisbane storms, 31°. Australia: Albanese flies to COP31 in Turkey on a two-week trip; Taylor: 'this government has wrecked the economy'; Charlton backs Chalmers; Newspoll: One Nation 28%, Labor 27%. Iran: Trump: Iran 'militarily, is effectively over' but America is 'locked and loaded', another carrier heads east; Rezaei: 'surrender to Iran's seven conditions'. US: House votes on Massie's Hegseth impeachment resolution; Hegseth: 'a political spectacle'. Ukraine: Abu Dhabi talks open, first in nine months; Russia fired 162 drones overnight. Brisbane: rescuer frees a koala joey from a python. Opīniō: Rowan Dean, Trump fought Iran because it was right. St Martin of Tours; Armistice 1918. Every line in English, then Latin; then all the Latin again. Sources: Bureau of Meteorology; AAP (Canberra Times, Armidale Express, 10 Nov); The Nightly (10 Nov); Israel Hayom, The Week (10 Nov); Fox News (9–10 Nov); ANI (10 Nov); ABC News US (10 Nov); Kyiv Independent (10 Nov); Epoch Times (10 Nov); ABC News (6 Nov); The Spectator Australia (Rowan Dean, 9 Nov).",
+ "lines": [
+  [
+   "spl",
+   "Hello, listeners. This is the Acta Diurna.",
+   "Salvēte, audītōrēs. Haec sunt Ācta Diurna."
+  ],
+  [
+   "pl",
+   "Today is Wednesday, the third day before the Ides of November.",
+   "Hodiē est diēs Mercuriī, ante diem tertium Īdūs Novembrēs."
+  ],
+  [
+   "pl",
+   "In the year 2026.",
+   "Annō bis mīllēsimō vīcēsimō sextō."
+  ],
+  [
+   "pl",
+   "First, the weather. Then Australian affairs.",
+   "Prīmum tempestās. Deinde rēs Austrāliae."
+  ],
+  [
+   "pl",
+   "Then the world: Iran, America, Ukraine.",
+   "Deinde orbis terrārum: Īrānia, America, Ūcraīna."
+  ],
+  [
+   "pl",
+   "Then a happy story, opinion, and today in history.",
+   "Tum rēs laeta, opīniō, et hodiē in historiā."
+  ],
+  [
+   "pl",
+   "At the end, the words of the day.",
+   "In fīne, verba diēī."
+  ],
+  [
+   "en",
+   "The weather. Canberra: partly cloudy and hot, 28 degrees, with perhaps a storm in the afternoon."
+  ],
+  [
+   "spl",
+   "The weather.",
+   "Tempestās."
+  ],
+  [
+   "pl",
+   "First, Canberra.",
+   "Prīmum Canberra."
+  ],
+  [
+   "pl",
+   "Yesterday we said: tomorrow 28 degrees, and in the afternoon perhaps thunder.",
+   "Herī dīximus: crās duodētrīgintā gradūs, et post merīdiem fortasse tonitrus."
+  ],
+  [
+   "pl",
+   "And so it is. Today in Canberra the sky is partly cloudy.",
+   "Et ita est. Hodiē Canberrae caelum partim nūbilum est."
+  ],
+  [
+   "pl",
+   "In the morning it is cool: 9 degrees.",
+   "Māne frīgidum est: novem gradūs."
+  ],
+  [
+   "pl",
+   "In the afternoon it is hot: 28 degrees.",
+   "Post merīdiem calidum est: duodētrīgintā gradūs."
+  ],
+  [
+   "pl",
+   "Perhaps a shower. In the afternoon perhaps thunder.",
+   "Fortasse imber. Post merīdiem fortasse tonitrus."
+  ],
+  [
+   "pl",
+   "At first the wind is light. In the evening it blows from the south-east, 15 to 20 kilometres an hour.",
+   "Prīmō ventus lēnis est. Vesperī ab austrō et oriente flat, quīndecim ad vīgintī chiliometra in hōrā."
+  ],
+  [
+   "pl",
+   "Tomorrow, Thursday, in the morning there may be fog.",
+   "Crās, diē Iovis, māne fortasse nebula erit."
+  ],
+  [
+   "pl",
+   "Then the sky will be partly cloudy.",
+   "Deinde caelum partim nūbilum erit."
+  ],
+  [
+   "pl",
+   "Tomorrow morning 11 degrees, in the afternoon 27.",
+   "Crās māne ūndecim gradūs, post merīdiem septem et vīgintī."
+  ],
+  [
+   "pl",
+   "Tomorrow too, in the afternoon, perhaps thunder.",
+   "Crās quoque, post merīdiem, fortasse tonitrus."
+  ],
+  [
+   "pl",
+   "So: today 28 degrees, tomorrow 27.",
+   "Ergō: hodiē duodētrīgintā gradūs, crās septem et vīgintī."
+  ],
+  [
+   "pl",
+   "Now the other cities.",
+   "Nunc cēterae urbēs."
+  ],
+  [
+   "pl",
+   "In Sydney perhaps thunder in the afternoon. 27 degrees.",
+   "Sydnēiae fortasse tonitrus post merīdiem. Septem et vīgintī gradūs."
+  ],
+  [
+   "pl",
+   "In Melbourne the sky is partly cloudy. 19 degrees.",
+   "Melburnī caelum partim nūbilum est. Ūndēvīgintī gradūs."
+  ],
+  [
+   "pl",
+   "In Brisbane storms are likely, perhaps fierce ones. 31 degrees.",
+   "Brisbanae tempestātēs probābilēs sunt, fortasse saevae. Ūnus et trīgintā gradūs."
+  ],
+  [
+   "pl",
+   "In Brisbane today it is hottest.",
+   "Brisbanae hodiē calidissimum est."
+  ],
+  [
+   "pl",
+   "In Perth the sun is shining. 28 degrees.",
+   "Perthī sōl lūcet. Duodētrīgintā gradūs."
+  ],
+  [
+   "pl",
+   "In Adelaide the sky is cloudy. 22 degrees.",
+   "Adēlāidae caelum nūbilum est. Duo et vīgintī gradūs."
+  ],
+  [
+   "pl",
+   "In Hobart the sky is partly cloudy. 21 degrees.",
+   "Hobartī caelum partim nūbilum est. Ūnus et vīgintī gradūs."
+  ],
+  [
+   "pl",
+   "That is the weather.",
+   "Haec est tempestās."
+  ],
+  [
+   "en",
+   "Australia. Albanese flies to the climate conference in Turkey, a new poll puts One Nation ahead of Labor, and Taylor says the government has wrecked the economy."
+  ],
+  [
+   "spl",
+   "Australian affairs.",
+   "Rēs Austrāliae."
+  ],
+  [
+   "pl",
+   "Yesterday we said: colleagues are leaking secrets against Chalmers.",
+   "Herī dīximus: collēgae sēcrēta contrā Chalmers prōdunt."
+  ],
+  [
+   "pl",
+   "And only one in five Australians trusts Albanese.",
+   "Et ūnus tantum ē quīnque Austrāliānīs Albanēsiō fidem habet."
+  ],
+  [
+   "pl",
+   "Yesterday Albanese flew to Turkey.",
+   "Herī Albanese in Turciam volāvit."
+  ],
+  [
+   "pl",
+   "In Turkey there is a great conference on the climate.",
+   "In Turciā est magnus conventus dē clīmate."
+  ],
+  [
+   "pl",
+   "Chris Bowen, the Australian minister, leads the talks at the conference.",
+   "Chris Bowen, minister Austrāliānus, sermōnēs in conventū dūcit."
+  ],
+  [
+   "pl",
+   "After Turkey, Albanese will fly to the Philippines and to China.",
+   "Post Turciam Albanese in Philippīnās et in Sīnās volābit."
+  ],
+  [
+   "pl",
+   "Albanese says: we must show leadership among the Pacific nations.",
+   "Albanese dīcit: prīncipātum apud gentēs Ōceanī Pācificī ostendere dēbēmus."
+  ],
+  [
+   "pl",
+   "But Angus Taylor, the leader of the Opposition, says:",
+   "Sed Angus Taylor, dux oppositiōnis, dīcit:"
+  ],
+  [
+   "pl",
+   "The Prime Minister and this government have wrecked the economy.",
+   "Prīmus minister et haec rēs pūblica oeconomiam perdidērunt."
+  ],
+  [
+   "pl",
+   "The Prime Minister flies to Turkey; at home the economy is wrecked, as Taylor says.",
+   "Prīmus minister in Turciam volat; domī oeconomia perdita est, ut Taylor dīcit."
+  ],
+  [
+   "pl",
+   "But Bowen, in his speech, said nothing about energy prices.",
+   "Sed Bowen, in ōrātiōne suā, dē pretiīs energiae nihil dīxit."
+  ],
+  [
+   "pl",
+   "Now Chalmers.",
+   "Nunc Chalmers."
+  ],
+  [
+   "pl",
+   "Andrew Charlton, a minister, says: colleagues favour Chalmers.",
+   "Andreās Charlton, minister, dīcit: collēgae Chalmers favent."
+  ],
+  [
+   "pl",
+   "Because he is doing a good job, in difficult times.",
+   "Quia rem bene gerit, temporibus difficilibus."
+  ],
+  [
+   "pl",
+   "And Albanese says: my government is united.",
+   "Et Albanese dīcit: rēs pūblica mea concors est."
+  ],
+  [
+   "pl",
+   "And now a new poll, called Newspoll.",
+   "Et nunc nova percontātiō, quae Newspoll vocātur."
+  ],
+  [
+   "pl",
+   "27 per cent favour Labor.",
+   "Septem et vīgintī per centum Labōrānīs favent."
+  ],
+  [
+   "pl",
+   "But 28 per cent favour One Nation, the party of Pauline Hanson.",
+   "Sed duodētrīgintā per centum Ūnī Nātiōnī, factiōnī Paulīnae Hanson, favent."
+  ],
+  [
+   "pl",
+   "More Australians favour One Nation than Labor.",
+   "Plūrēs Austrāliānī Ūnī Nātiōnī favent quam Labōrānīs."
+  ],
+  [
+   "pl",
+   "The Prime Minister in Turkey, colleagues leaking secrets, fewer favouring Labor.",
+   "Prīmus minister in Turciā, collēgae sēcrēta prōdentēs, minus multī Labōrānīs faventēs."
+  ],
+  [
+   "pl",
+   "That is the state of Australia today.",
+   "Haec est rēs Austrāliae hodiē."
+  ],
+  [
+   "en",
+   "The world. Iran: Trump says the war is effectively over, but America is locked and loaded. Iran says: surrender to our seven conditions."
+  ],
+  [
+   "spl",
+   "The world.",
+   "Orbis terrārum."
+  ],
+  [
+   "pl",
+   "First, Iran.",
+   "Prīmum Īrānia."
+  ],
+  [
+   "pl",
+   "Yesterday we said: Trump says: Iron Gate is now in full force.",
+   "Herī dīximus: Trump dīcit: Porta Ferrea nunc plēnā vī agit."
+  ],
+  [
+   "pl",
+   "Today Trump says: Iron Gate is on land. So by land and by sea.",
+   "Hodiē Trump dīcit: Porta Ferrea in terrā est. Ergō terrā et marī."
+  ],
+  [
+   "pl",
+   "And Trump says: the war with Iran is effectively over.",
+   "Et Trump dīcit: bellum cum Īrāniā paene cōnfectum est."
+  ],
+  [
+   "pl",
+   "We are only keeping things as they are.",
+   "Rēs tantum servāmus ut sunt."
+  ],
+  [
+   "pl",
+   "But if we must go back, we are ready.",
+   "Sed sī redīre dēbēmus, parātī sumus."
+  ],
+  [
+   "pl",
+   "And another great ship, which carries aeroplanes, is coming to the East.",
+   "Et alia nāvis magna, quae āeroplana portat, ad Orientem venit."
+  ],
+  [
+   "pl",
+   "The blockade remains, by land and by sea.",
+   "Obsidiō manet, terrā et marī."
+  ],
+  [
+   "pl",
+   "Yesterday we said: Iran still demands seven conditions.",
+   "Herī dīximus: Īrānia adhūc septem condiciōnēs postulat."
+  ],
+  [
+   "pl",
+   "Today Mohsen Rezaei, a leader in Iran, says: it is time to give in to Iran's seven conditions.",
+   "Hodiē Mohsen Rezaei, prīnceps Īrāniae, dīcit: tempus est septem condiciōnibus Īrāniae cēdere."
+  ],
+  [
+   "pl",
+   "Among them: an end to the blockade and an end to sanctions.",
+   "Inter eās: fīnem obsidiōnis et fīnem poenārum."
+  ],
+  [
+   "pl",
+   "But Trump says: the Iranians are talking to us, and they are talking very well.",
+   "Sed Trump dīcit: Īrāniī nōbīscum loquuntur, et valdē bene loquuntur."
+  ],
+  [
+   "pl",
+   "And the price of oil fell, by almost 7 per cent.",
+   "Et pretium oleī cecidit, paene septem per centum."
+  ],
+  [
+   "pl",
+   "The war is effectively over, but America is ready.",
+   "Bellum paene cōnfectum est, sed America parāta est."
+  ],
+  [
+   "en",
+   "America. Today, American time, the House votes on Massie's plan to impeach Hegseth. Hegseth calls it a political spectacle."
+  ],
+  [
+   "pl",
+   "Now the United States of America.",
+   "Nunc Cīvitātēs Foederātae Americae."
+  ],
+  [
+   "pl",
+   "Yesterday we said: perhaps this very week the House of Representatives will vote on Hegseth.",
+   "Herī dīximus: fortasse hāc ipsā hebdomade Domus Repraesentantium dē Hegseth suffrāgium feret."
+  ],
+  [
+   "pl",
+   "Today Thomas Massie says: today the House will vote.",
+   "Hodiē Thomas Massie dīcit: hodiē Domus suffrāgium feret."
+  ],
+  [
+   "pl",
+   "Massie has written eight charges against Hegseth, the Secretary of War.",
+   "Massie octō crīmina contrā Hegseth, ministrum bellī, scrīpsit."
+  ],
+  [
+   "pl",
+   "The first charge: war in Iran without the consent of Congress.",
+   "Prīmum crīmen: bellum in Īrāniā sine cōnsēnsū Congressūs."
+  ],
+  [
+   "pl",
+   "But first the House will vote: should the plan be killed?",
+   "Sed prīmum Domus suffrāgium feret: dēbetne cōnsilium exstinguī?"
+  ],
+  [
+   "pl",
+   "Hegseth says: this is a political spectacle.",
+   "Hegseth dīcit: hoc est spectāculum polīticum."
+  ],
+  [
+   "pl",
+   "A spectacle born of pride and resentment.",
+   "Spectāculum ex superbiā et invidiā nātum."
+  ],
+  [
+   "pl",
+   "And Trump defends Hegseth. Trump says: Hegseth has won the war in Iran.",
+   "Et Trump Hegseth dēfendit. Trump dīcit: Hegseth bellum in Īrāniā vīcit."
+  ],
+  [
+   "pl",
+   "In Mississippi postal votes are no longer accepted. The count goes on.",
+   "In Mississippiā epistulae cum suffrāgiīs iam nōn accipiuntur. Numerātiō pergit."
+  ],
+  [
+   "pl",
+   "The Senate seat in Mississippi is still undecided.",
+   "Sēdēs senātūs in Mississippiā adhūc incerta est."
+  ],
+  [
+   "en",
+   "Ukraine. The talks in Abu Dhabi have begun, the first in nine months. Russia sent 162 drones the night before."
+  ],
+  [
+   "pl",
+   "Now Ukraine.",
+   "Nunc Ūcraīna."
+  ],
+  [
+   "pl",
+   "Yesterday we said: today the talks on peace begin in the city of Abu Dhabi.",
+   "Herī dīximus: hodiē sermōnēs dē pāce in urbe Abu Dhabi incipiunt."
+  ],
+  [
+   "pl",
+   "And so it is. The talks have begun.",
+   "Et ita est. Sermōnēs coepērunt."
+  ],
+  [
+   "pl",
+   "They are the first talks in nine months.",
+   "Prīmī sermōnēs sunt post novem mēnsēs."
+  ],
+  [
+   "pl",
+   "The Americans lead the talks: Steve Witkoff and Jared Kushner.",
+   "Americānī sermōnēs dūcunt: Stephanus Witkoff et Iared Kushner."
+  ],
+  [
+   "pl",
+   "Rustem Umerov leads the Ukrainians. Vladimir Medinsky leads the Russians.",
+   "Rustem Umerov Ūcraīnōs dūcit. Vladimīrus Medinsky Russōs dūcit."
+  ],
+  [
+   "pl",
+   "The Ukrainians want a ceasefire first.",
+   "Ūcraīnī prīmum indūtiās volunt."
+  ],
+  [
+   "pl",
+   "A ceasefire at sea, and a ceasefire for the power stations.",
+   "Indūtiās in marī, et indūtiās prō stātiōnibus ēlectricīs."
+  ],
+  [
+   "pl",
+   "But the Russians demand that the Ukrainians leave the Donbas.",
+   "Sed Russī postulant ut Ūcraīnī ex Donbassō discēdant."
+  ],
+  [
+   "pl",
+   "And before the talks the Russians attacked again.",
+   "Et ante sermōnēs Russī iterum oppugnāvērunt."
+  ],
+  [
+   "pl",
+   "In one night the Russians sent 162 drones and one missile.",
+   "Ūnā nocte Russī centum sexāgintā duōs fūcōs et ūnum missile mīsērunt."
+  ],
+  [
+   "pl",
+   "The Ukrainians brought down 135 drones.",
+   "Ūcraīnī centum trīgintā quīnque fūcōs dēiēcērunt."
+  ],
+  [
+   "pl",
+   "Trump says: the war is going to end, and it is going to end soon.",
+   "Trump dīcit: bellum fīniētur, et mox fīniētur."
+  ],
+  [
+   "pl",
+   "Talks in the city of Abu Dhabi, drones in the night, and the war goes on.",
+   "Sermōnēs in urbe Abu Dhabi, fūcī noctū, et bellum pergit."
+  ],
+  [
+   "en",
+   "Something good. In Brisbane a woman freed a baby koala from a python and gave it back to its mother."
+  ],
+  [
+   "spl",
+   "Good news.",
+   "Rēs laeta."
+  ],
+  [
+   "pl",
+   "In Brisbane there is a woman named Nell. She rescues animals.",
+   "Brisbanae est fēmina, nōmine Nell. Animālia servat."
+  ],
+  [
+   "pl",
+   "Nell was walking with her dog, Pluto, in a park.",
+   "Nell cum cane suō, Plūtōne, in hortō pūblicō ambulābat."
+  ],
+  [
+   "pl",
+   "Suddenly she saw a snake. The snake was a python, about one and a half metres long.",
+   "Subitō serpentem vīdit. Serpēns pȳthōn erat, circiter ūnum metrum et dīmidium longus."
+  ],
+  [
+   "pl",
+   "The snake was holding a baby koala tight.",
+   "Serpēns īnfantem koālam artē tenēbat."
+  ],
+  [
+   "pl",
+   "The mother koala was trying to pull the snake away.",
+   "Māter koāla serpentem dētrahere cōnābātur."
+  ],
+  [
+   "pl",
+   "Nell freed the baby koala. It had no wound.",
+   "Nell īnfantem koālam līberāvit. Nūllum vulnus habēbat."
+  ],
+  [
+   "pl",
+   "She gave the baby back to its mother.",
+   "Īnfantem mātrī reddidit."
+  ],
+  [
+   "pl",
+   "Nell says: an hour or two later, I saw the mother and her baby hugging.",
+   "Nell dīcit: ūnā aut duābus hōrīs post, mātrem et īnfantem sē amplectentēs vīdī."
+  ],
+  [
+   "pl",
+   "And they looked so happy.",
+   "Et tam laetae vidēbantur."
+  ],
+  [
+   "pl",
+   "A small koala, a great work.",
+   "Parva koāla, magnum opus."
+  ],
+  [
+   "en",
+   "Opinion. This is the view of Rowan Dean, in The Spectator Australia: Trump went to war with Iran because it was right, not to be popular."
+  ],
+  [
+   "spl",
+   "Opinion.",
+   "Opīniō."
+  ],
+  [
+   "pl",
+   "This is the view of Rowan Dean, in The Spectator Australia.",
+   "Haec est sententia Rowan Dean, in Spectātōre Austrāliānō."
+  ],
+  [
+   "pl",
+   "Yesterday we said: Vance says: the reason we lost is the war.",
+   "Herī dīximus: Vance dīcit: causa clādis nostrae est bellum."
+  ],
+  [
+   "pl",
+   "Dean agrees: the war with Iran cost the Republicans the elections.",
+   "Dean cōnsentit: bellum cum Īrāniā Rēpūblicānīs comitia abstulit."
+  ],
+  [
+   "pl",
+   "But Dean says: Trump began the war with Iran because it was right.",
+   "Sed Dean dīcit: Trump bellum cum Īrāniā coepit quia rēctum erat."
+  ],
+  [
+   "pl",
+   "Not to be popular.",
+   "Nōn ut populō placēret."
+  ],
+  [
+   "pl",
+   "Dean says: Vance wanted a ceasefire and talks with Iran.",
+   "Dean dīcit: Vance indūtiās et sermōnēs cum Īrāniā voluit."
+  ],
+  [
+   "pl",
+   "But the ceasefire in April made Iran's regime stronger, as Dean says.",
+   "Sed indūtiae mēnse Aprīlī imperium Īrāniae cōnfirmāvērunt, ut Dean dīcit."
+  ],
+  [
+   "pl",
+   "Now there are only two ways: either Iran's regime falls, or Iran defeats Israel and the West.",
+   "Nunc duae tantum viae sunt: aut imperium Īrāniae cadit, aut Īrānia Isrāēlem et Occidentem vincit."
+  ],
+  [
+   "pl",
+   "Dean also criticises Tucker Carlson, Megyn Kelly and Candace Owens, who turned against Trump.",
+   "Dean etiam Tucker Carlson, Megyn Kelly, et Candace Owens reprehendit, quī contrā Trump versī sunt."
+  ],
+  [
+   "pl",
+   "Some of their words, as Dean says, crossed into hatred of Jews.",
+   "Quaedam verba eōrum, ut Dean dīcit, in odium Iūdaeōrum trānsiērunt."
+  ],
+  [
+   "pl",
+   "That is the opinion of Rowan Dean.",
+   "Haec est opīniō Rowan Dean."
+  ],
+  [
+   "en",
+   "On this day the Church keeps the feast of Saint Martin of Tours, the Roman soldier who cut his cloak in half for a beggar. And today is Remembrance Day."
+  ],
+  [
+   "spl",
+   "Today in history.",
+   "Hodiē in historiā."
+  ],
+  [
+   "pl",
+   "Today the Church celebrates the feast of Saint Martin.",
+   "Hodiē Ecclēsia fēstum sānctī Mārtīnī celebrat."
+  ],
+  [
+   "pl",
+   "Martin was born in Pannonia, about the year 316.",
+   "Mārtīnus in Pannoniā nātus est, circiter annō trecentēsimō sextō decimō."
+  ],
+  [
+   "pl",
+   "He was a Roman soldier, a horseman.",
+   "Mīles Rōmānus erat, eques."
+  ],
+  [
+   "pl",
+   "In the city of Amiens he saw a beggar.",
+   "In urbe Ambiānōrum mendīcum vīdit."
+  ],
+  [
+   "pl",
+   "Martin cut his cloak in two with his sword, and gave half to the beggar.",
+   "Mārtīnus pallium suum gladiō in duās partēs dīvīsit, et dīmidium mendīcō dedit."
+  ],
+  [
+   "pl",
+   "At night he saw Christ in a dream, wearing the half cloak.",
+   "Noctū Chrīstum in somnō vīdit, dīmidium pallium gerentem."
+  ],
+  [
+   "pl",
+   "Later Martin became bishop of Tours.",
+   "Posteā Mārtīnus episcopus Turonum factus est."
+  ],
+  [
+   "pl",
+   "He died in the year 397, and on this day, the 11th of November, he was buried in Tours.",
+   "Annō trecentēsimō nōnāgēsimō septimō mortuus est, et hodiē, diē ūndecimō Novembris, Turonibus sepultus est."
+  ],
+  [
+   "pl",
+   "And today, in the year 1918, at the eleventh hour, an armistice was made, and the Great War ended.",
+   "Et hodiē, annō mīllēsimō nōngentēsimō duodēvīcēsimō, hōrā ūndecimā, indūtiae factae sunt, et Bellum Magnum fīnītum est."
+  ],
+  [
+   "pl",
+   "Today in Australia, at the eleventh hour, we remember the fallen soldiers.",
+   "Hodiē in Austrāliā, hōrā ūndecimā, mīlitum mortuōrum meminimus."
+  ],
+  [
+   "pl",
+   "Marcus and Lucius, as always, were there. But that is another story.",
+   "Mārcus et Lūcius, ut semper, aderant. Sed id alia fābula est."
+  ],
+  [
+   "en",
+   "The day in brief."
+  ],
+  [
+   "spl",
+   "Summary of the news.",
+   "Summa rērum."
+  ],
+  [
+   "pl",
+   "In Canberra today 28 degrees, and perhaps thunder in the afternoon.",
+   "Canberrae hodiē duodētrīgintā gradūs, et post merīdiem fortasse tonitrus."
+  ],
+  [
+   "pl",
+   "Tomorrow fog in the morning, then 27 degrees.",
+   "Crās māne nebula, deinde septem et vīgintī gradūs."
+  ],
+  [
+   "pl",
+   "Albanese is flying to the conference on the climate, in Turkey.",
+   "Albanese ad conventum dē clīmate, in Turciam, volat."
+  ],
+  [
+   "pl",
+   "Taylor says: the government has wrecked the economy.",
+   "Taylor dīcit: rēs pūblica oeconomiam perdidit."
+  ],
+  [
+   "pl",
+   "More Australians favour One Nation than Labor.",
+   "Plūrēs Austrāliānī Ūnī Nātiōnī favent quam Labōrānīs."
+  ],
+  [
+   "pl",
+   "Trump says: the war with Iran is effectively over.",
+   "Trump dīcit: bellum cum Īrāniā paene cōnfectum est."
+  ],
+  [
+   "pl",
+   "But if we must go back, we are ready.",
+   "Sed sī redīre dēbēmus, parātī sumus."
+  ],
+  [
+   "pl",
+   "Today the House of Representatives votes on Hegseth.",
+   "Hodiē Domus Repraesentantium dē Hegseth suffrāgium fert."
+  ],
+  [
+   "pl",
+   "Hegseth says: it is a political spectacle.",
+   "Hegseth dīcit: spectāculum polīticum est."
+  ],
+  [
+   "pl",
+   "In the city of Abu Dhabi the talks have begun. The Ukrainians want a ceasefire.",
+   "In urbe Abu Dhabi sermōnēs coepērunt. Ūcraīnī indūtiās volunt."
+  ],
+  [
+   "pl",
+   "In one night the Russians sent 162 drones.",
+   "Ūnā nocte Russī centum sexāgintā duōs fūcōs mīsērunt."
+  ],
+  [
+   "pl",
+   "In Brisbane Nell freed a baby koala from a snake.",
+   "Brisbanae Nell īnfantem koālam ā serpente līberāvit."
+  ],
+  [
+   "pl",
+   "Dean says: Trump began the war because it was right.",
+   "Dean dīcit: Trump bellum coepit quia rēctum erat."
+  ],
+  [
+   "pl",
+   "Today is the feast of Saint Martin, bishop of Tours.",
+   "Hodiē est fēstum sānctī Mārtīnī, episcopī Turonum."
+  ],
+  [
+   "pl",
+   "Martin gave half his cloak to a beggar.",
+   "Mārtīnus dīmidium pallium mendīcō dedit."
+  ],
+  [
+   "en",
+   "The words of the day. Five sentences, slowly."
+  ],
+  [
+   "spl",
+   "The words of the day.",
+   "Verba diēī."
+  ],
+  [
+   "pl",
+   "Albanese is flying to the conference in Turkey.",
+   "Albanese ad conventum in Turciam volat."
+  ],
+  [
+   "pl",
+   "More Australians favour One Nation than Labor.",
+   "Plūrēs Austrāliānī Ūnī Nātiōnī favent quam Labōrānīs."
+  ],
+  [
+   "pl",
+   "The war is effectively over, but we are ready.",
+   "Bellum paene cōnfectum est, sed parātī sumus."
+  ],
+  [
+   "pl",
+   "The Ukrainians want a ceasefire; the Russians send drones.",
+   "Ūcraīnī indūtiās volunt; Russī fūcōs mittunt."
+  ],
+  [
+   "pl",
+   "Martin, the bishop, gave half his cloak to a beggar.",
+   "Mārtīnus episcopus dīmidium pallium mendīcō dedit."
+  ],
+  [
+   "pl",
+   "Again.",
+   "Iterum."
+  ],
+  [
+   "pl",
+   "Albanese is flying to the conference in Turkey.",
+   "Albanese ad conventum in Turciam volat."
+  ],
+  [
+   "pl",
+   "More Australians favour One Nation than Labor.",
+   "Plūrēs Austrāliānī Ūnī Nātiōnī favent quam Labōrānīs."
+  ],
+  [
+   "pl",
+   "The war is effectively over, but we are ready.",
+   "Bellum paene cōnfectum est, sed parātī sumus."
+  ],
+  [
+   "pl",
+   "The Ukrainians want a ceasefire; the Russians send drones.",
+   "Ūcraīnī indūtiās volunt; Russī fūcōs mittunt."
+  ],
+  [
+   "pl",
+   "Martin, the bishop, gave half his cloak to a beggar.",
+   "Mārtīnus episcopus dīmidium pallium mendīcō dedit."
+  ],
+  [
+   "pl",
+   "This is the Acta Diurna. Goodbye, listeners. Again tomorrow.",
+   "Haec sunt Ācta Diurna. Valēte, audītōrēs. Crās iterum."
+  ],
+  [
+   "p1pl",
+   "Now everything again, in Latin only.",
+   "Nunc omnia iterum, Latīnē tantum."
+  ]
+ ]
+}
