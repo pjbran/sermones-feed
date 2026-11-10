@@ -10,8 +10,8 @@ SHOWS = {
  '': dict(title='Sermones Ambulātōriī', lang='la', guid='sermones',
           desc='Latin walk talks: everyday conversations, English then Latin, and Latin only. A personal study feed.',
           cat='<itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>', type='serial'),
- 'news': dict(title='Ācta Diurna', lang='la', guid='acta',
-          desc='The day in Latin: Canberra and Australian weather, the top Australian and world news, and one good story. A personal study feed.',
+ 'news': dict(title='Ex Ōre Equī', lang='la', guid='acta',
+          desc='Straight from the horse\'s mouth: the day in Latin. Canberra and Australian weather, the top Australian and world news, and one good story. A personal study feed.',
           cat='<itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>', type='episodic'),
 }
 C = SHOWS[SHOW]

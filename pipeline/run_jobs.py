@@ -478,7 +478,7 @@ def run_news(job):
             os.remove('news/episodes/' + e['file'])
     eps = [e for e in json.load(open('news/episodes.json')) if e not in old]
     title = job['title']
-    tags = {'title': title, 'artist': 'Ācta Diurna', 'album_artist': 'Ācta Diurna', 'album': 'Ācta Diurna',
+    tags = {'title': title, 'artist': 'Ex Ōre Equī', 'album_artist': 'Ex Ōre Equī', 'album': 'Ex Ōre Equī',
             'genre': 'News', 'date': job['date'][:4]}
     audio.save_mp3(x, 'news/episodes/' + fn, tags, 'news/cover.jpg', bitrate='64k', channels=1)
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=11)))
