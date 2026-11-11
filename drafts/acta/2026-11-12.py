@@ -61,13 +61,13 @@ pl("Never before have loans for houses fallen so much.", "Numquam anteā mūtua 
 pl("Investors are those who buy houses to rent them out.", "Collocātōrēs sunt eī quī domōs emunt ut eās locent.")
 pl("Loans to investors fell by more than 32 per cent.", "Mūtua collocātōribus cecidērunt plūs quam trīgintā duo per centum.")
 pl("Why? A bank economist, Tom Ryan, says: because of the new taxes in the budget.", "Cūr? Tom Ryan, perītus argentāriae, dīcit: propter nova tribūta in ratiōne pūblicā.")
-pl("New taxes on houses for investors. So investors do not buy.", "Nova tribūta in domōs collocātōrum. Itaque collocātōrēs nōn emunt.")
+pl("New taxes on houses for investors. So investors buy less.", "Nova tribūta in domōs collocātōrum. Itaque collocātōrēs minus emunt.")
 pl("The interest rate is high, and the hay is dear.", "Faenus altum est, et faenum cārum est.")
 pl("Faenus and faenum: one letter different, both too expensive.", "Faenus et faenum: ūna littera differt, utrumque nimis cārum.")
 pl("And the great store David Jones will close 19 stores, about half.", "Et magna taberna David Jones ūndēvīgintī tabernās claudet, circiter dīmidium.")
 pl("Nineteen stores will close. About stables, nothing was said.", "Ūndēvīgintī tabernae claudentur. Dē stabulīs nihil dictum est.")
 pl("The biggest bank, CBA, made a profit of almost 3 billion dollars in three months.", "Maxima argentāria, CBA, tribus mēnsibus lucrum fēcit paene tria mīlliarda dollarōrum.")
-pl("But its chief, Matt Comyn, says: higher inflation and interest rates continue to put uneven pressure on households and businesses.", "Sed prīnceps eius, Matt Comyn, dīcit: īnflātiō altior et faenora maiōra familiās et negōtia inaequāliter premunt.")
+pl("But its chief, Matt Comyn, says: higher inflation and interest rates continue to put uneven pressure on households and businesses.", "Sed prīnceps eius, Matt Comyn, dīcit: īnflātiō altior et faenora altiōra familiās et negōtia adhūc inaequāliter premunt.")
 pl("Fewer loans, new taxes, stores closing.", "Pauciōra mūtua, nova tribūta, tabernae clausae.")
 pl("That is the state of Australia today.", "Haec est rēs Austrāliae hodiē.")
 
@@ -84,9 +84,9 @@ pl("And Trump says: new strikes are quite unlikely.", "Et Trump dīcit: novī ic
 pl("The blockade remains, by land and by sea.", "Obsidiō manet, terrā et marī.")
 pl("Yesterday we said: Iran still demands seven conditions.", "Herī dīximus: Īrānia adhūc septem condiciōnēs postulat.")
 pl("Rubio says: Iran's demands are totally unrealistic.", "Rubio dīcit: postulāta Īrāniae omnīnō vāna sunt.")
-pl("Today Mohsen Rezaei says: not even one particle of enriched uranium will leave Iran.", "Hodiē Mohsen Rezaei dīcit: nē ūna quidem particula ūraniī Īrāniam relinquet.")
+pl("Today Mohsen Rezaei says: not even one particle of uranium will leave Iran.", "Hodiē Mohsen Rezaei dīcit: nē ūna quidem particula ūraniī Īrāniam relinquet.")
 pl("Not even one particle. We counted the particles. It took all night.", "Nē ūna quidem particula. Particulās numerāvimus. Tōtam noctem.")
-pl("And Rezaei says: if America attacks, we will strike American bases far away.", "Et Rezaei dīcit: sī America oppugnat, castra Americāna procul feriēmus.")
+pl("And Rezaei says: if America attacks, we will strike American bases far away.", "Et Rezaei dīcit: sī America oppugnāverit, castra Americāna longinqua feriēmus.")
 pl("No great battles, but the blockade remains.", "Nūlla magna proelia, sed obsidiō manet.")
 
 # ---------------- world 2: US ----------------
@@ -101,12 +101,12 @@ pl("Massie says: this was a way to kill the plan.", "Massie dīcit: hic erat mod
 pl("Massie was the only Republican who voted against.", "Massie sōlus ē Rēpūblicānīs contrā suffrāgium tulit.")
 pl("But eleven Democrats were absent.", "Sed ūndecim Dēmocratae aberant.")
 pl("If they had been there, the charges would not have been sent back.", "Sī adfuissent, crīmina nōn remissa essent.")
-pl("Four Democrats say: we were held up in the traffic.", "Quattuor Dēmocratae dīcunt sē in viīs tardōs fuisse.")
+pl("Four Democrats say that they were held up in the traffic.", "Quattuor Dēmocratae dīcunt sē in viīs tardōs fuisse.")
 pl("Eleven absent. Four in the traffic. The great war of impeachment, lost in the traffic.", "Ūndecim absentēs. Quattuor in viīs. Magnum bellum accūsātiōnis in viīs āmissum.")
-pl("A lesson: in the city, a good horse is never late.", "Disciplīna: in urbe, bonus equus numquam tardus est.")
+pl("A lesson: in the city, a good horse is never late.", "Documentum: in urbe, bonus equus numquam tardus est.")
 pl("Trump says: the Democrats' attempt has miserably failed!", "Trump dīcit: cōnātus Dēmocratārum miserē dēfēcit!")
 pl("But on the 3rd of January the Democrats will rule the House.", "Sed diē tertiō mēnsis Iānuāriī Dēmocratae Domum regent.")
-pl("Then perhaps they will send the charges again.", "Tum fortasse crīmina iterum mittent.")
+pl("Then perhaps the charges will come back.", "Tum fortasse crīmina redībunt.")
 
 # ---------------- world 3: Ukraine ----------------
 en("Ukraine. The Abu Dhabi talks ended after two days, with no breakthrough. A prisoner exchange of a thousand for a thousand is being discussed.")
@@ -121,7 +121,7 @@ pl("Zelensky refuses to give up the land.", "Zelensky terram trādere recūsat."
 pl("They discussed prisoners: perhaps a thousand for a thousand.", "Dē captīvīs disseruērunt: fortasse mīlle prō mīlle.")
 pl("A thousand prisoners for a thousand prisoners. A fair exchange, like a horseshoe for a horseshoe.", "Mīlle captīvī prō mīlle captīvīs. Aequa permūtātiō, ut solea prō soleā.")
 pl("And the war goes on. The Russians say: in one night we brought down 627 Ukrainian drones.", "Et bellum pergit. Russī dīcunt: ūnā nocte sescentōs vīgintī septem fūcōs Ūcraīnōs dēiēcimus.")
-pl("Talks ended, prisoners discussed, drones in the night.", "Sermōnēs fīnītī, captīvī disputātī, fūcī noctū.")
+pl("Talks ended, prisoners discussed, drones in the night.", "Sermōnēs fīnītī, dē captīvīs disputātum, fūcī noctū.")
 
 # ---------------- good news ----------------
 en("Something good. In Kentucky, a six-year-old boy with autism, missing for three days, was found alive by a man of a horse-riding group.")
@@ -129,13 +129,13 @@ spl("Good news.", "Rēs laeta.")
 pl("In America, in Kentucky, near West Virginia, there is a boy named Roman.", "In Americā, in Kentuckiā, prope Virginiam Occidentālem, est puer nōmine Rōmānus.")
 pl("He is six years old. He has autism.", "Sex annōs nātus est. Autismum habet.")
 pl("On Sunday, the first of November, he went missing in the woods.", "Diē Sōlis, Kalendīs Novembribus, in silvīs āmissus est.")
-pl("Hundreds of people searched for him: on foot, with drones, and on horseback.", "Centum et centum hominēs eum quaesīvērunt: pedibus, fūcīs, et equīs.")
+pl("Very many people searched for him: on foot, with drones, and on horseback.", "Permultī hominēs eum quaesīvērunt: pedibus, fūcīs, et equīs.")
 pl("He spent two cold nights in the woods.", "Duās noctēs frīgidās in silvīs ēgit.")
 pl("Jacob Mullins, from a horse-riding group, found him.", "Iacōbus Mullins, ex societāte equitum, eum invēnit.")
 pl("Mullins says: he just walked right out of the bushes onto a horse trail.", "Mullins dīcit: ex dūmīs in sēmitam equōrum simpliciter exiit.")
 pl("Roman was scratched, but alive. A small dog was following him.", "Rōmānus vulnerātus leviter, sed vīvus erat. Parvus canis eum sequēbātur.")
 pl("And he was singing a song about a farm.", "Et carmen dē fundō canēbat.")
-pl("Found on a horse trail, by a horseman. We add nothing. We are simply very proud.", "Inventus in sēmitā equōrum, ab equite. Nihil addimus. Superbī tantum sumus.")
+pl("Found on a horse trail, by a horseman. We add nothing. We are simply proud.", "Inventus in sēmitā equōrum, ab equite. Nihil addimus. Superbī tantum sumus.")
 
 # ---------------- opinion ----------------
 en("Opinion. This is the view of Michael de Percy, in The Spectator Australia: Albanese is sleepwalking Australia into poverty, like France.")
@@ -143,8 +143,8 @@ spl("Opinion.", "Opīniō.")
 pl("This is the view of Michael de Percy, in The Spectator Australia.", "Haec est sententia Michael de Percy, in Spectātōre Austrāliānō.")
 pl("De Percy says: Anthony Albanese is sleepwalking Australia into poverty.", "De Percy dīcit: Antōnius Albanese Austrāliam dormiēns in paupertātem dūcit.")
 pl("Look at France, he says. Since 1974 France has never had a balanced budget.", "Spectāte Galliam, inquit. Ab annō mīllēsimō nōngentēsimō septuāgēsimō quārtō Gallia ratiōnem pūblicam numquam aequāvit.")
-pl("And work is producing less: productivity is falling.", "Et opus minus efficit: fructus labōris cadit.")
-pl("Inflation is high, and the government spends too much, as de Percy says.", "Īnflātiō alta est, et rēs pūblica nimis multum impendit, ut De Percy dīcit.")
+pl("And work is producing less: productivity is falling.", "Et opus minus efficit: frūctus labōris cadit.")
+pl("Inflation is high, as de Percy says.", "Īnflātiō alta est, ut de Percy dīcit.")
 pl("De Percy also blames the Coalition, which in the past did not dare to save.", "De Percy etiam Coalitiōnem culpat, quae ōlim parcere nōn ausa est.")
 pl("A horse sleeps standing up. But at least he does not walk.", "Equus stāns dormit. Sed saltem nōn ambulat.")
 pl("That is the opinion of Michael de Percy.", "Haec est opīniō Michael de Percy.")
@@ -158,7 +158,7 @@ pl("He became archbishop of Polotsk.", "Archiepiscopus Polociae factus est.")
 pl("He worked for the union of the Ruthenian Church with Rome.", "Prō ūniōne Ecclēsiae Ruthēnae cum Rōmā labōrāvit.")
 pl("Today, in the year 1623, in the city of Vitebsk, an angry crowd attacked his house.", "Hodiē, annō mīllēsimō sescentēsimō vīcēsimō tertiō, in urbe Vitebsk, turba īrāta domum eius oppugnāvit.")
 pl("They killed him with an axe, and threw his body into the river Dvina.", "Eum secūrī occīdērunt, et corpus eius in flūmen Dūnam iēcērunt.")
-pl("In 1867 the Pope made him a saint. Today his body lies in Saint Peter's, in Rome.", "Annō mīllēsimō octingentēsimō sexāgēsimō septimō Papa eum sānctum fēcit. Hodiē corpus eius in basilicā sānctī Petrī, Rōmae, iacet.")
+pl("In 1867 the Pope made him a saint. Today his body lies in Saint Peter's, in Rome.", "Annō mīllēsimō octingentēsimō sexāgēsimō septimō Pāpa eum sānctum fēcit. Hodiē corpus eius in basilicā sānctī Petrī, Rōmae, iacet.")
 pl("On this day, by the way, no horse was made consul. We checked twice.", "Hodiē, obiter, nūllus equus cōnsul factus est. Bis quaesīvimus.")
 pl("Marcus and Lucius, as always, were there. But that is another story.", "Mārcus et Lūcius, ut semper, aderant. Sed id alia fābula est.")
 
@@ -179,13 +179,13 @@ pl("In Kentucky, a horseman found the boy Roman, alive.", "In Kentuckiā eques p
 # ---------------- words of the day ----------------
 en("The words of the day. Five sentences, slowly.")
 spl("The words of the day.", "Verba diēī.")
-pl("New loans for houses fell; the investors do not buy.", "Nova mūtua prō domibus cecidērunt; collocātōrēs nōn emunt.")
+pl("New loans for houses fell; the investors buy less.", "Nova mūtua prō domibus cecidērunt; collocātōrēs minus emunt.")
 pl("The interest rate is high, and the hay is dear.", "Faenus altum est, et faenum cārum est.")
 pl("No cavalry charge is needed. The oats are simply taken away.", "Nūllō equitātū opus est. Avēna tantum aufertur.")
 pl("The House sent the charges back to a committee.", "Domus crīmina ad commissiōnem remīsit.")
 pl("A thousand prisoners for a thousand prisoners.", "Mīlle captīvī prō mīlle captīvīs.")
 pl("Again.", "Iterum.")
-pl("New loans for houses fell; the investors do not buy.", "Nova mūtua prō domibus cecidērunt; collocātōrēs nōn emunt.")
+pl("New loans for houses fell; the investors buy less.", "Nova mūtua prō domibus cecidērunt; collocātōrēs minus emunt.")
 pl("The interest rate is high, and the hay is dear.", "Faenus altum est, et faenum cārum est.")
 pl("No cavalry charge is needed. The oats are simply taken away.", "Nūllō equitātū opus est. Avēna tantum aufertur.")
 pl("The House sent the charges back to a committee.", "Domus crīmina ad commissiōnem remīsit.")
@@ -194,7 +194,7 @@ pl("That was the news, straight from the horse's mouth. Goodbye, listeners. Agai
 p1pl("Now everything again, in Latin only.", "Nunc omnia iterum, Latīnē tantum.")
 
 job = {
- "type": "news", "date": "2026-11-12", "music": "v5",
+ "type": "news", "date": "2026-11-12", "suffix": "-r", "music": "v5",
  "title": "Ex Ōre Equī · Diēs Iovis, prīd. Īd. Nov. (Thu 12 Nov 2026)",
  "summary": ("Canberra: 10–27°, early fog then mostly sunny; 11–30° and a storm chance tomorrow; Brisbane storms, 31°. "
              "Australia: new home loans fall 15.5% in the September quarter, the biggest fall on record; investor lending down 32.3% "
@@ -211,7 +211,7 @@ job = {
  "lines": L,
 }
 if __name__ == "__main__":
-    json.dump(job, open("jobs/0070-news-2026-11-12.json", "w"), ensure_ascii=False, indent=1)
+    json.dump(job, open("jobs/0071-news-2026-11-12-r.json", "w"), ensure_ascii=False, indent=1)
     lat = [r[-1] for k, *r in L if k != 'en']
     w = sum(len(t.split()) for t in lat)
     import re
