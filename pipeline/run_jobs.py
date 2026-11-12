@@ -352,6 +352,10 @@ def dialogue_clips(seq, st, max_chars=1800):
     return out
 
 
+ENGLISH_SPEED = 1.3   # Patrick, 12 Nov 2026: "for future podcast episodes, make English voice 30% faster". Every show but the kids show.
+# Sped up after the render (audio.tempo, pitch kept), the way he picked on 3 Nov (sample #6). The Latin is never sped up. Job key: english_speed.
+
+
 def combined(job):
     """Patrick, 31 Oct 14:04: "I love having all the audio on one file — English-Latin, Latin Latin. Do that as the
     standard now." Default ON for every drill and Bible job (a job can set "combined": false for the old two files)."""
@@ -442,7 +446,7 @@ def run_news(job):
             free_tts.say(voice, text, w)
         return audio.norm(audio.trim(audio.load(w), thr_db=-55, pad=0.12))
     conv = lambda la: free_tts.latin_ipa(la, v_as_v=True)
-    sp = float(job.get('english_speed', 1.0))
+    sp = float(job.get('english_speed', ENGLISH_SPEED))
     # 9 Nov 2026 (his rule: "full English-Latin, then again but all Latin after"): 'pl' / 'spl' / 'p1pl' = [kind, English, Latin]:
     # pass 1 says the English then the Latin; pass 2 says the Latin only ('p1pl' only in pass 1). 'spl' = a section title.
     def build(lines, pass2):
@@ -531,7 +535,7 @@ def run_drill(job):
         if job.get('latin_only'):
             items += [(fclip(vla, conv(la)), job.get('pause_latin_only', 0.6))]
         else:
-            items += [(fclip(ven, en), job.get('pause_after_english', 0.45)), (fclip(vla, conv(la)), job.get('pause_after_latin', 0.8))]
+            items += [(audio.tempo(fclip(ven, en), float(job.get('english_speed', ENGLISH_SPEED))), job.get('pause_after_english', 0.45)), (fclip(vla, conv(la)), job.get('pause_after_latin', 0.8))]
     n = int(job.get('repeat', 3)); seq = []
     for k in range(n):
         seq += items[:-1] + [(items[-1][0], 2.5)]
@@ -597,7 +601,7 @@ def run_drill_eleven(job):
             items += [(eclip(smart(la)), job.get('pause_latin_only', 0.6))]
         else:
             # English +30% by default, sped up after (Patrick, 3 Nov 16:11: speed sample #6 "is good for eleven labs"); Latin unchanged
-            items += [(audio.tempo(eclip(en), job.get('english_speed', 1.3)), job.get('pause_after_english', 0.45)), (eclip(smart(la)), job.get('pause_after_latin', 0.8))]
+            items += [(audio.tempo(eclip(en), float(job.get('english_speed', ENGLISH_SPEED))), job.get('pause_after_english', 0.45)), (eclip(smart(la)), job.get('pause_after_latin', 0.8))]
     n = int(job.get('repeat', 2)); seq = []
     for k in range(n):
         seq += items[:-1] + [(items[-1][0], 2.5)]
@@ -672,17 +676,18 @@ def run_grammar(job):
         return audio.norm(audio.trim(audio.load(p), thr_db=-55, pad=0.12))
     PE, PL, PT, PQ = job.get('pause_after_english', 0.45), job.get('pause_after_latin', 0.9), job.get('pause_after_talk', 0.7), job.get('quiz_think', 3.0)
     seq, lat = [], []
+    fast = lambda c: audio.tempo(c, float(job.get('english_speed', ENGLISH_SPEED)))
     for ln in job['lines']:
         if ln[0] == 't':
             parts = talk_parts(ln[1])
             for i, (k, x) in enumerate(parts):
                 last = i == len(parts) - 1
-                seq.append((eclip(smart(x) if k == 'la' else x), PT if last else 0.22))
+                seq.append((eclip(smart(x)) if k == 'la' else fast(eclip(x)), PT if last else 0.22))
         elif ln[0] == 'p':
-            seq += [(eclip(ln[1]), PE), (eclip(smart(ln[2])), PL)]
+            seq += [(fast(eclip(ln[1])), PE), (eclip(smart(ln[2])), PL)]
             lat.append(eclip(smart(ln[2])))
         elif ln[0] == 'q':
-            seq += [(eclip(smart(ln[1])), PQ), (eclip(ln[2]), 1.2)]
+            seq += [(eclip(smart(ln[1])), PQ), (fast(eclip(ln[2])), 1.2)]
             lat.append(eclip(smart(ln[1])))
     seq[-1] = (seq[-1][0], 4.0)
     for k in range(2):
@@ -749,11 +754,12 @@ def run_bible(job):
         for ch, head_la, vl in chs:
             lat += [(head_la, PH)] + [(c, PL) for c in vl]
         lat[-1] = (lat[-1][0], 3.0)
+    efast = lambda c: audio.tempo(c, float(job.get('english_speed', ENGLISH_SPEED)))
     el = []    # English then Latin, verse by verse
     for ch, head_la, vl in chs:
-        el += [(fclip(ven, ch['head_en']), PE), (head_la, PH)]
+        el += [(efast(fclip(ven, ch['head_en'])), PE), (head_la, PH)]
         for v, c in zip(ch['verses'], vl):
-            el += [(fclip(ven, v[0]), PE), (c, PV)]
+            el += [(efast(fclip(ven, v[0])), PE), (c, PV)]
     if combined(job) and not job.get('only_latin'):   # 31 Oct standard: one file
         el[-1] = (el[-1][0], 4.0)
         voice, ev = audio.sequence(el + lat)
