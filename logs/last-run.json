@@ -1,13 +1,13 @@
 {
- "job": "jobs/0072-news-2026-11-13.json",
+ "job": "jobs/0073-news-2026-11-14.json",
  "ok": true,
  "files": [
-  "acta-2026-11-13.mp3"
+  "acta-2026-11-14.mp3"
  ],
- "minutes": 27.4,
+ "minutes": 28.9,
  "log": [
-  "== job jobs/0072-news-2026-11-13.json news",
-  "built news acta-2026-11-13.mp3 27.4 min"
+  "== job jobs/0073-news-2026-11-14.json news",
+  "built news acta-2026-11-14.mp3 28.9 min"
  ],
- "at": "2026-11-12T18:36:43+00:00"
+ "at": "2026-11-13T18:34:44+00:00"
 }
