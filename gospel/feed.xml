@@ -5,16 +5,42 @@
     <link>https://pjbran.github.io/sermones-feed/gospel/</link>
     <atom:link href="https://pjbran.github.io/sermones-feed/gospel/feed.xml" rel="self" type="application/rss+xml"/>
     <language>la</language>
-    <description>In principio erat Verbum. Gospel chapters to learn by heart: each verse in English, then in the Latin Vulgate; then the Latin alone. A personal study feed.</description>
+    <description>In principio erat Verbum. Gospel and Bible chapters to learn by heart: each verse in English, then in the Latin Vulgate; then the Latin alone. A personal study feed.</description>
     <itunes:author>Sermones Ambulātōriī</itunes:author>
     <itunes:owner><itunes:name>Sermones Ambulātōriī</itunes:name></itunes:owner>
-    <itunes:summary>In principio erat Verbum. Gospel chapters to learn by heart: each verse in English, then in the Latin Vulgate; then the Latin alone. A personal study feed.</itunes:summary>
+    <itunes:summary>In principio erat Verbum. Gospel and Bible chapters to learn by heart: each verse in English, then in the Latin Vulgate; then the Latin alone. A personal study feed.</itunes:summary>
     <itunes:image href="https://pjbran.github.io/sermones-feed/gospel/cover.jpg"/>
     <image><url>https://pjbran.github.io/sermones-feed/gospel/cover.jpg</url><title>Verbum</title><link>https://pjbran.github.io/sermones-feed/gospel/</link></image>
     <itunes:category text="Religion &amp; Spirituality"><itunes:category text="Christianity"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Sat, 14 Nov 2026 06:39:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 21:02:01 +0000</lastBuildDate>
+    <item>
+      <title>Genesis 1 · English → Latin, then Latin × 2</title>
+      <description>Genesis, chapter 1: the creation. Each verse in English (Douay-Rheims), then in Latin (Clementine Vulgate); then the chapter again in Latin only, twice. Voice: Iulia (ElevenLabs Flash).</description>
+      <itunes:summary>Genesis, chapter 1: the creation. Each verse in English (Douay-Rheims), then in Latin (Clementine Vulgate); then the chapter again in Latin only, twice. Voice: Iulia (ElevenLabs Flash).</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/gospel/episodes/genesis-01.mp3" length="12785266" type="audio/mpeg"/>
+      <guid isPermaLink="false">verbum-genesis-01.mp3</guid>
+      <pubDate>Sun, 15 Nov 2026 08:01:43 +1100</pubDate>
+      <itunes:duration>17:34</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Luke 15 · English → Latin, then Latin × 2</title>
+      <description>The Gospel of Luke, chapter 15: the lost sheep, the lost coin, the prodigal son. Each verse in English (Douay-Rheims), then in Latin (Clementine Vulgate); then the chapter again in Latin only, twice. Voice: Iulia (ElevenLabs Flash).</description>
+      <itunes:summary>The Gospel of Luke, chapter 15: the lost sheep, the lost coin, the prodigal son. Each verse in English (Douay-Rheims), then in Latin (Clementine Vulgate); then the chapter again in Latin only, twice. Voice: Iulia (ElevenLabs Flash).</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/gospel/episodes/luke-15.mp3" length="11975571" type="audio/mpeg"/>
+      <guid isPermaLink="false">verbum-luke-15.mp3</guid>
+      <pubDate>Sun, 15 Nov 2026 08:00:58 +1100</pubDate>
+      <itunes:duration>16:26</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>John 2 · English → Latin, then Latin × 2</title>
       <description>The Gospel of John, chapter 2. Each verse in English (Douay-Rheims), then in Latin (Clementine Vulgate); then the chapter again in Latin only, twice. Voice: Iulia (ElevenLabs Flash).</description>
