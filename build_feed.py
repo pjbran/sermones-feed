@@ -17,7 +17,7 @@ SHOWS = {
  # 14 Nov 2026 (Patrick: "a new podcast feed which is just for the gospel ... for me memorising gospel chapters"):
  # gospel/feed.xml. Seasons = 1 (not weeks): the chapters run in order like a book.
  'gospel': dict(title='Verbum', lang='la', guid='verbum', weekly=False,
-          desc='In principio erat Verbum. Gospel chapters to learn by heart: each verse in English, then in the Latin Vulgate; then the Latin alone. A personal study feed.',
+          desc='In principio erat Verbum. Gospel and Bible chapters to learn by heart: each verse in English, then in the Latin Vulgate; then the Latin alone. A personal study feed.',
           cat='<itunes:category text="Religion &amp; Spirituality"><itunes:category text="Christianity"/></itunes:category>', type='serial'),
 }
 C = SHOWS[SHOW]

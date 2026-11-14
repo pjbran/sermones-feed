@@ -1,0 +1,150 @@
+{
+ "type": "bible",
+ "show": "gospel",
+ "slug": "luke-15",
+ "book_en": "Luke",
+ "engine": "eleven",
+ "voice": "F",
+ "model": "eleven_flash_v2_5",
+ "max_credits": 6000,
+ "music": "v5",
+ "summary": "The Gospel of Luke, chapter 15: the lost sheep, the lost coin, the prodigal son. Each verse in English (Douay-Rheims), then in Latin (Clementine Vulgate); then the chapter again in Latin only, twice. Voice: Iulia (ElevenLabs Flash).",
+ "source": "Clementine Vulgate + Douay-Rheims (Challoner), public domain, via github.com/scrollmapper/bible_databases",
+ "chapters": [
+  {
+   "n": 15,
+   "head_en": "The Gospel according to Saint Luke. Chapter fifteen.",
+   "head_la": "Ēvangelium secundum Lūcam. Caput quīntum decimum.",
+   "verses": [
+    [
+     "Now the publicans and sinners drew near unto him to hear him.",
+     "Erant autem appropinquantes ei publicani, et peccatores ut audirent illum."
+    ],
+    [
+     "And the Pharisees and the scribes murmured, saying: This man receiveth sinners and eateth with them.",
+     "Et murmurabant pharisæi, et scribæ, dicentes: Quia hic peccatores recipit, et manducat cum illis."
+    ],
+    [
+     "And he spoke to them this parable, saying:",
+     "Et ait ad illos parabolam istam dicens:"
+    ],
+    [
+     "What man of you that hath an hundred sheep, and if he shall lose one of them, doth he not leave the ninety-nine in the desert and go after that which was lost, until he find it?",
+     "Quis ex vobis homo, qui habet centum oves, et si perdiderit unam ex illis, nonne dimittit nonaginta novem in deserto, et vadit ad illam quæ perierat, donec inveniat eam?"
+    ],
+    [
+     "And when he hath found it, lay it upon his shoulders, rejoicing?",
+     "Et cum invenerit eam, imponit in humeros suos gaudens:"
+    ],
+    [
+     "And coming home, call together his friends and neighbours, saying to them: Rejoice with me, because I have found my sheep that was lost?",
+     "et veniens domum convocat amicos et vicinos, dicens illis: Congratulamini mihi, quia inveni ovem meam, quæ perierat."
+    ],
+    [
+     "I say to you that even so there shall be joy in heaven upon one sinner that doth penance, more than upon ninety-nine just who need not penance.",
+     "Dico vobis quod ita gaudium erit in cælo super uno peccatore pœnitentiam agente, quam super nonaginta novem justis, qui non indigent pœnitentia."
+    ],
+    [
+     "Or what woman having ten groats, if she lose one groat, doth not light a candle and sweep the house and seek diligently until she find it?",
+     "Aut quæ mulier habens drachmas decem, si perdiderit drachmam unam, nonne accendit lucernam, et everrit domum, et quærit diligenter, donec inveniat?"
+    ],
+    [
+     "And when she hath found it, call together her friends and neighbours, saying: Rejoice with me, because I have found the groat which I had lost.",
+     "Et cum invenerit convocat amicas et vicinas, dicens: Congratulamini mihi, quia inveni drachmam quam perdideram."
+    ],
+    [
+     "So I say to you, there shall be joy before the angels of God upon one sinner doing penance.",
+     "Ita, dico vobis, gaudium erit coram angelis Dei super uno peccatore pœnitentiam agente."
+    ],
+    [
+     "And he said: A certain man had two sons.",
+     "Ait autem: Homo quidam habuit duos filios:"
+    ],
+    [
+     "And the younger of them said to his father: Father, give me the portion of substance that falleth to me. And he divided unto them his substance.",
+     "et dixit adolescentior ex illis patri: Pater, da mihi portionem substantiæ, quæ me contingit. Et divisit illis substantiam."
+    ],
+    [
+     "And not many days after, the younger son, gathering all together, went abroad into a far country: and there wasted his substance, living riotously.",
+     "Et non post multos dies, congregatis omnibus, adolescentior filius peregre profectus est in regionem longinquam, et ibi dissipavit substantiam suam vivendo luxuriose."
+    ],
+    [
+     "And after he had spent all, there came a mighty famine in that country: and he began to be in want.",
+     "Et postquam omnia consummasset, facta est fames valida in regione illa, et ipse cœpit egere."
+    ],
+    [
+     "And he went and cleaved to one of the citizens of that country. And he sent him into his farm to feed swine.",
+     "Et abiit, et adhæsit uni civium regionis illius: et misit illum in villam suam ut pasceret porcos."
+    ],
+    [
+     "And he would fain have filled his belly with the husks the swine did eat: and no man gave unto him.",
+     "Et cupiebat implere ventrem suum de siliquis, quas porci manducabant: et nemo illi dabat."
+    ],
+    [
+     "And returning to himself, he said: How many hired servants in my father's house abound with bread, and I here perish with hunger!",
+     "In se autem reversus, dixit: Quanti mercenarii in domo patris mei abundant panibus, ego autem hic fame pereo!"
+    ],
+    [
+     "I will arise and will go to my father and say to him: Father, I have sinned against heaven and before thee.",
+     "surgam, et ibo ad patrem meum, et dicam ei: Pater, peccavi in cælum, et coram te:"
+    ],
+    [
+     "I am not worthy to be called thy son: make me as one of thy hired servants.",
+     "jam non sum dignus vocari filius tuus: fac me sicut unum de mercenariis tuis."
+    ],
+    [
+     "And rising up, he came to his father. And when he was yet a great way off, his father saw him and was moved with compassion and running to him fell upon his neck and kissed him.",
+     "Et surgens venit ad patrem suum. Cum autem adhuc longe esset, vidit illum pater ipsius, et misericordia motus est, et accurrens cecidit super collum ejus, et osculatus est eum."
+    ],
+    [
+     "And the son said to him: Father: I have sinned against heaven and before thee I am not now worthy to be called thy son.",
+     "Dixitque ei filius: Pater, peccavi in cælum, et coram te: jam non sum dignus vocari filius tuus."
+    ],
+    [
+     "And the father said to his servants: Bring forth quickly the first robe and put it on him: and put a ring on his hand and shoes on his feet.",
+     "Dixit autem pater ad servos suos: Cito proferte stolam primam, et induite illum, et date annulum in manum ejus, et calceamenta in pedes ejus:"
+    ],
+    [
+     "And bring hither the fatted calf, and kill it: and let us eat and make merry:",
+     "et adducite vitulum saginatum, et occidite, et manducemus, et epulemur:"
+    ],
+    [
+     "Because this my son was dead and is come to life again, was lost and is found. And they began to be merry.",
+     "quia hic filius meus mortuus erat, et revixit: perierat, et inventus est. Et cœperunt epulari."
+    ],
+    [
+     "Now his elder son was in the field and when he came and drew nigh to the house, he heard music and dancing.",
+     "Erat autem filius ejus senior in agro: et cum veniret, et appropinquaret domui, audivit symphoniam et chorum:"
+    ],
+    [
+     "And he called one of the servants, and asked what these things meant.",
+     "et vocavit unum de servis, et interrogavit quid hæc essent."
+    ],
+    [
+     "And he said to him: Thy brother is come and thy father hath killed the fatted calf, because he hath received him safe.",
+     "Isque dixit illi: Frater tuus venit, et occidit pater tuus vitulum saginatum, quia salvum illum recepit."
+    ],
+    [
+     "And he was angry and would not go in. His father therefore coming out began to entreat him.",
+     "Indignatus est autem, et nolebat introire. Pater ergo illius egressus, cœpit rogare illum."
+    ],
+    [
+     "And he answering, said to his father: Behold, for so many years do I serve thee and I have never transgressed thy commandment: and yet thou hast never given me a kid to make merry with my friends.",
+     "At ille respondens, dixit patri suo: Ecce tot annis servio tibi, et numquam mandatum tuum præterivi: et numquam dedisti mihi hædum ut cum amicis meis epularer."
+    ],
+    [
+     "But as soon as this thy son is come, who hath devoured his substance with harlots, thou hast killed for him the fatted calf.",
+     "Sed postquam filius tuus hic, qui devoravit substantiam suam cum meretricibus, venit, occidisti illi vitulum saginatum."
+    ],
+    [
+     "But he said to him: Son, thou art always with me; and all I have is thine.",
+     "At ipse dixit illi: Fili, tu semper mecum es, et omnia mea tua sunt:"
+    ],
+    [
+     "But it was fit that we should make merry and be glad: for this thy brother was dead and is come to life again; he was lost, and is found.",
+     "epulari autem, et gaudere oportebat, quia frater tuus hic mortuus erat, et revixit; perierat, et inventus est."
+    ]
+   ]
+  }
+ ]
+}
