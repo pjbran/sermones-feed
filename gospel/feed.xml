@@ -14,19 +14,7 @@
     <itunes:category text="Religion &amp; Spirituality"><itunes:category text="Christianity"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
-    <lastBuildDate>Sat, 14 Nov 2026 06:36:23 +0000</lastBuildDate>
-    <item>
-      <title>John 1–2 · English → Latin, then Latin × 2</title>
-      <description>The Gospel of John, chapters 1 and 2. Each verse in English (Douay-Rheims), then in Latin (Clementine Vulgate); then both chapters again in Latin only, twice. Voice: Iulia (ElevenLabs Flash).</description>
-      <itunes:summary>The Gospel of John, chapters 1 and 2. Each verse in English (Douay-Rheims), then in Latin (Clementine Vulgate); then both chapters again in Latin only, twice. Voice: Iulia (ElevenLabs Flash).</itunes:summary>
-      <enclosure url="https://pjbran.github.io/sermones-feed/gospel/episodes/john-01-02.mp3" length="25068562" type="audio/mpeg"/>
-      <guid isPermaLink="false">verbum-john-01-02.mp3</guid>
-      <pubDate>Sat, 14 Nov 2026 17:36:01 +1100</pubDate>
-      <itunes:duration>34:37</itunes:duration>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>1</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
+    <lastBuildDate>Sat, 14 Nov 2026 06:37:18 +0000</lastBuildDate>
+
   </channel>
 </rss>
