@@ -1,0 +1,333 @@
+{
+ "type": "bible",
+ "show": "gospel",
+ "slug": "john-01-02",
+ "book_en": "John",
+ "engine": "eleven",
+ "voice": "F",
+ "model": "eleven_flash_v2_5",
+ "max_credits": 9000,
+ "music": "v5",
+ "summary": "The Gospel of John, chapters 1 and 2. Each verse in English (Douay-Rheims), then in Latin (Clementine Vulgate); then both chapters again in Latin only, twice. Voice: Iulia (ElevenLabs Flash).",
+ "source": "Clementine Vulgate + Douay-Rheims (Challoner), public domain, via github.com/scrollmapper/bible_databases",
+ "chapters": [
+  {
+   "n": 1,
+   "head_en": "The Gospel according to Saint John. Chapter one.",
+   "head_la": "Ēvangelium secundum Iōannem. Caput prīmum.",
+   "verses": [
+    [
+     "In the beginning was the Word: and the Word was with God: and the Word was God.",
+     "In principio erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum."
+    ],
+    [
+     "The same was in the beginning with God.",
+     "Hoc erat in principio apud Deum."
+    ],
+    [
+     "All things were made by him: and without him was made nothing that was made.",
+     "Omnia per ipsum facta sunt: et sine ipso factum est nihil, quod factum est."
+    ],
+    [
+     "In him was life: and the life was the light of men.",
+     "In ipso vita erat, et vita erat lux hominum:"
+    ],
+    [
+     "And the light shineth in darkness: and the darkness did not comprehend it.",
+     "et lux in tenebris lucet, et tenebræ eam non comprehenderunt."
+    ],
+    [
+     "There was a man sent from God, whose name was John.",
+     "Fuit homo missus a Deo, cui nomen erat Joannes."
+    ],
+    [
+     "This man came for a witness, to give testimony of the light, that all men might believe through him.",
+     "Hic venit in testimonium ut testimonium perhiberet de lumine, ut omnes crederent per illum."
+    ],
+    [
+     "He was not the light, but was to give testimony of the light.",
+     "Non erat ille lux, sed ut testimonium perhiberet de lumine."
+    ],
+    [
+     "That was the true light, which enlighteneth every man that cometh into this world.",
+     "Erat lux vera, quæ illuminat omnem hominem venientem in hunc mundum."
+    ],
+    [
+     "He was in the world: and the world was made by him: and the world knew him not.",
+     "In mundo erat, et mundus per ipsum factus est, et mundus eum non cognovit."
+    ],
+    [
+     "He came unto his own: and his own received him not.",
+     "In propria venit, et sui eum non receperunt."
+    ],
+    [
+     "But as many as received him, he gave them power to be made the sons of God, to them that believe in his name.",
+     "Quotquot autem receperunt eum, dedit eis potestatem filios Dei fieri, his qui credunt in nomine ejus:"
+    ],
+    [
+     "Who are born, not of blood, nor of the will of the flesh, nor of the will of man, but of God.",
+     "qui non ex sanguinibus, neque ex voluntate carnis, neque ex voluntate viri, sed ex Deo nati sunt."
+    ],
+    [
+     "And the Word was made flesh and dwelt among us (and we saw his glory, the glory as it were of the only begotten of the Father), full of grace and truth.",
+     "Et Verbum caro factum est, et habitavit in nobis: et vidimus gloriam ejus, gloriam quasi unigeniti a Patre plenum gratiæ et veritatis."
+    ],
+    [
+     "John beareth witness of him and crieth out, saying: This was he of whom I spoke: He that shall come after me is preferred before me: because he was before me.",
+     "Joannes testimonium perhibet de ipso, et clamat dicens: Hic erat quem dixi: Qui post me venturus est, ante me factus est: quia prior me erat."
+    ],
+    [
+     "And of his fulness we all have received: and grace for grace.",
+     "Et de plenitudine ejus nos omnes accepimus, et gratiam pro gratia:"
+    ],
+    [
+     "For the law was given by Moses: grace and truth came by Jesus Christ.",
+     "quia lex per Moysen data est, gratia et veritas per Jesum Christum facta est."
+    ],
+    [
+     "No man hath seen God at any time: the only begotten Son who is in the Bosom of the Father, he hath declared him.",
+     "Deum nemo vidit umquam: unigenitus Filius, qui est in sinu Patris, ipse enarravit."
+    ],
+    [
+     "And this is the testimony of John, when the Jews sent from Jerusalem priests and Levites to him, to ask him: Who art thou?",
+     "Et hoc est testimonium Joannis, quando miserunt Judæi ab Jerosolymis sacerdotes et Levitas ad eum ut interrogarent eum: Tu quis es?"
+    ],
+    [
+     "And he confessed and did not deny: and he confessed: I am not the Christ.",
+     "Et confessus est, et non negavit, et confessus est: Quia non sum ego Christus."
+    ],
+    [
+     "And they asked him: What then? Art thou Elias? And he said: I am not. Art thou the prophet? And he answered: No.",
+     "Et interrogaverunt eum: Quid ergo? Elias es tu? Et dixit: Non sum. Propheta es tu? Et respondit: Non."
+    ],
+    [
+     "They said therefore unto him: Who art thou, that we may give an answer to them that sent us? What sayest thou of thyself?",
+     "Dixerunt ergo ei: Quis es ut responsum demus his qui miserunt nos? quid dicis de teipso?"
+    ],
+    [
+     "He said: I am the voice of one crying in the wilderness, make straight the way of the Lord, as said the prophet Isaias.",
+     "Ait: Ego vox clamantis in deserto: Dirigite viam Domini, sicut dixit Isaias propheta."
+    ],
+    [
+     "And they that were sent were of the Pharisees.",
+     "Et qui missi fuerant, erant ex pharisæis."
+    ],
+    [
+     "And they asked him and said to him: Why then dost thou baptize, if thou be not Christ, nor Elias, nor the prophet?",
+     "Et interrogaverunt eum, et dixerunt ei: Quid ergo baptizas, si tu non es Christus, neque Elias, neque propheta?"
+    ],
+    [
+     "John answered them, saying: I baptize with water: but there hath stood one in the midst of you, whom you know not.",
+     "Respondit eis Joannes, dicens: Ego baptizo in aqua: medius autem vestrum stetit, quem vos nescitis."
+    ],
+    [
+     "The same is he that shall come after me, who is preferred before me: the latchet of whose shoe I am not worthy to loose.",
+     "Ipse est qui post me venturus est, qui ante me factus est: cujus ego non sum dignus ut solvam ejus corrigiam calceamenti."
+    ],
+    [
+     "These things were done in Bethania, beyond the Jordan, where John was baptizing.",
+     "Hæc in Bethania facta sunt trans Jordanem, ubi erat Joannes baptizans."
+    ],
+    [
+     "The next day, John saw Jesus coming to him; and he saith: Behold the Lamb of God. Behold him who taketh away the sin of the world.",
+     "Altera die vidit Joannes Jesum venientem ad se, et ait: Ecce agnus Dei, ecce qui tollit peccatum mundi."
+    ],
+    [
+     "This is he of whom I said: After me there cometh a man, who is preferred before me: because he was before me.",
+     "Hic est de quo dixi: Post me venit vir qui ante me factus est: quia prior me erat:"
+    ],
+    [
+     "And I knew him not: but that he may be made manifest in Israel, therefore am I come baptizing with water.",
+     "et ego nesciebam eum, sed ut manifestetur in Israël, propterea veni ego in aqua baptizans."
+    ],
+    [
+     "And John gave testimony, saying: I saw the Spirit coming down, as a dove from heaven; and he remained upon him.",
+     "Et testimonium perhibuit Joannes, dicens: Quia vidi Spiritum descendentem quasi columbam de cælo, et mansit super eum."
+    ],
+    [
+     "And I knew him not: but he who sent me to baptize with water said to me: He upon whom thou shalt see the Spirit descending and remaining upon him, he it is that baptizeth with the Holy Ghost.",
+     "Et ego nesciebam eum: sed qui misit me baptizare in aqua, ille mihi dixit: Super quem videris Spiritum descendentem, et manentem super eum, hic est qui baptizat in Spiritu Sancto."
+    ],
+    [
+     "And I saw: and I gave testimony that this is the Son of God.",
+     "Et ego vidi: et testimonium perhibui quia hic est Filius Dei."
+    ],
+    [
+     "The next day again John stood and two of his disciples.",
+     "Altera die iterum stabat Joannes, et ex discipulis ejus duo."
+    ],
+    [
+     "And beholding Jesus walking, he saith: Behold the Lamb of God.",
+     "Et respiciens Jesum ambulantem, dicit: Ecce agnus Dei."
+    ],
+    [
+     "And the two disciples heard him speak: and they followed Jesus.",
+     "Et audierunt eum duo discipuli loquentem, et secuti sunt Jesum."
+    ],
+    [
+     "And Jesus turning and seeing them following him, saith to them: What seek you? Who said to him: Rabbi (which is to say, being interpreted, Master), where dwellest thou?",
+     "Conversus autem Jesus, et videns eos sequentes se, dicit eis: Quid quæritis? Qui dixerunt ei: Rabbi (quod dicitur interpretatum Magister), ubi habitas?"
+    ],
+    [
+     "He saith to them: Come and see. They came and saw where he abode: and they stayed with him that day. Now it was about the tenth hour.",
+     "Dicit eis: Venite et videte. Venerunt, et viderunt ubi maneret, et apud eum manserunt die illo: hora autem erat quasi decima."
+    ],
+    [
+     "And Andrew, the brother of Simon Peter, was one of the two who had heard of John and followed him.",
+     "Erat autem Andreas, frater Simonis Petri, unus ex duobus qui audierant a Joanne, et secuti fuerant eum."
+    ],
+    [
+     "He findeth first his brother Simon and saith to him: We have found the Messias, which is, being interpreted, the Christ.",
+     "Invenit hic primum fratrem suum Simonem, et dicit ei: Invenimus Messiam (quod est interpretatum Christus)."
+    ],
+    [
+     "And he brought him to Jesus. And Jesus looking upon him, said: Thou art Simon the son of Jona. Thou shalt be called Cephas, which is interpreted Peter.",
+     "Et adduxit eum ad Jesum. Intuitus autem eum Jesus, dixit: Tu es Simon, filius Jona; tu vocaberis Cephas, quod interpretatur Petrus."
+    ],
+    [
+     "On the following day, he would go forth into Galilee: and he findeth Philip, And Jesus saith to him: follow me.",
+     "In crastinum voluit exire in Galilæam, et invenit Philippum. Et dicit ei Jesus: Sequere me."
+    ],
+    [
+     "Now Philip was of Bethsaida, the city of Andrew and Peter.",
+     "Erat autem Philippus a Bethsaida, civitate Andreæ et Petri."
+    ],
+    [
+     "Philip findeth Nathanael and saith to him: We have found him of whom Moses, in the law and the prophets did write, Jesus the son of Joseph of Nazareth.",
+     "Invenit Philippus Nathanaël, et dicit ei: Quem scripsit Moyses in lege, et prophetæ, invenimus Jesum filium Joseph a Nazareth."
+    ],
+    [
+     "And Nathanael said to him: Can any thing of good come from Nazareth? Philip saith to him: Come and see.",
+     "Et dixit ei Nathanaël: A Nazareth potest aliquid boni esse? Dicit ei Philippus: Veni et vide."
+    ],
+    [
+     "Jesus saw Nathanael coming to him and he saith of him: Behold an Israelite indeed, in whom there is no guile.",
+     "Vidit Jesus Nathanaël venientem ad se, et dicit de eo: Ecce vere Israëlita, in quo dolus non est."
+    ],
+    [
+     "Nathanael saith to him: Whence knowest thou me? Jesus answered and said to him: Before that Philip called thee, when thou wast under the fig tree, I saw thee.",
+     "Dicit ei Nathanaël: Unde me nosti? Respondit Jesus, et dixit ei: Priusquam te Philippus vocavit, cum esses sub ficu, vidi te."
+    ],
+    [
+     "Nathanael answered him and said: Rabbi: Thou art the Son of God. Thou art the King of Israel.",
+     "Respondit ei Nathanaël, et ait: Rabbi, tu es Filius Dei, tu es rex Israël."
+    ],
+    [
+     "Jesus answered and said to him: Because I said unto thee, I saw thee under the fig tree, thou believest: greater things than these shalt thou see.",
+     "Respondit Jesus, et dixit ei: Quia dixi tibi: Vidi te sub ficu, credis; majus his videbis."
+    ],
+    [
+     "And he saith to him: Amen, amen, I say to you, you shall see the heaven opened and the angels of God ascending and descending upon the Son of man.",
+     "Et dicit ei: Amen, amen dico vobis, videbitis cælum apertum, et angelos Dei ascendentes, et descendentes supra Filium hominis."
+    ]
+   ]
+  },
+  {
+   "n": 2,
+   "head_en": "The Gospel according to Saint John. Chapter two.",
+   "head_la": "Ēvangelium secundum Iōannem. Caput secundum.",
+   "verses": [
+    [
+     "And the third day, there was a marriage in Cana of Galilee: and the mother of Jesus was there.",
+     "Et die tertia nuptiæ factæ sunt in Cana Galilææ, et erat mater Jesu ibi."
+    ],
+    [
+     "And Jesus also was invited, and his disciples, to the marriage.",
+     "Vocatus est autem et Jesus, et discipuli ejus, ad nuptias."
+    ],
+    [
+     "And the wine failing, the mother of Jesus saith to him: They have no wine.",
+     "Et deficiente vino, dicit mater Jesu ad eum: Vinum non habent."
+    ],
+    [
+     "And Jesus saith to her: Woman, what is that to me and to thee? My hour is not yet come.",
+     "Et dicit ei Jesus: Quid mihi et tibi est, mulier? nondum venit hora mea."
+    ],
+    [
+     "His mother saith to the waiters: Whatsoever he shall say to you, do ye.",
+     "Dicit mater ejus ministris: Quodcumque dixerit vobis, facite."
+    ],
+    [
+     "Now there were set there six waterpots of stone, according to the manner of the purifying of the Jews, containing two or three measures apiece.",
+     "Erant autem ibi lapideæ hydriæ sex positæ secundum purificationem Judæorum, capientes singulæ metretas binas vel ternas."
+    ],
+    [
+     "Jesus saith to them: Fill the waterpots with water. And they filled them up to the brim.",
+     "Dicit eis Jesus: Implete hydrias aqua. Et impleverunt eas usque ad summum."
+    ],
+    [
+     "And Jesus saith to them: Draw out now and carry to the chief steward of the feast. And they carried it.",
+     "Et dicit eis Jesus: Haurite nunc, et ferte architriclino. Et tulerunt."
+    ],
+    [
+     "And when the chief steward had tasted the water made wine and knew not whence it was, but the waiters knew who had drawn the water: the chief steward calleth the bridegroom,",
+     "Ut autem gustavit architriclinus aquam vinum factam, et non sciebat unde esset, ministri autem sciebant, qui hauserant aquam: vocat sponsum architriclinus,"
+    ],
+    [
+     "And saith to him: Every man at first setteth forth good wine, and when men have well drunk, then that which is worse. But thou hast kept the good wine until now.",
+     "et dicit ei: Omnis homo primum bonum vinum ponit et cum inebriati fuerint, tunc id, quod deterius est. Tu autem servasti bonum vinum usque adhuc."
+    ],
+    [
+     "This beginning of miracles did Jesus in Cana of Galilee and manifested his glory. And his disciples believed in him.",
+     "Hoc fecit initium signorum Jesus in Cana Galilææ; et manifestavit gloriam suam, et crediderunt in eum discipuli ejus."
+    ],
+    [
+     "After this, he went down to Capharnaum, he and his mother and his brethren and his disciples: and they remained there not many days.",
+     "Post hoc descendit Capharnaum ipse, et mater ejus, et fratres ejus, et discipuli ejus: et ibi manserunt non multis diebus."
+    ],
+    [
+     "And the pasch of the Jews was at hand: and Jesus went up to Jerusalem.",
+     "Et prope erat Pascha Judæorum, et ascendit Jesus Jerosolymam:"
+    ],
+    [
+     "And he found in the temple them that sold oxen and sheep and doves, and the changers of money sitting.",
+     "et invenit in templo vendentes boves, et oves, et columbas, et numularios sedentes."
+    ],
+    [
+     "And when he had made, as it were, a scourge of little cords, he drove them all out of the temple, the sheep also and the oxen: and the money of the changers he poured out, and the tables he overthrew.",
+     "Et cum fecisset quasi flagellum de funiculis, omnes ejecit de templo, oves quoque, et boves, et numulariorum effudit æs, et mensas subvertit."
+    ],
+    [
+     "And to them that sold doves he said: Take these things hence, and make not the house of my Father a house of traffic.",
+     "Et his qui columbas vendebant, dixit: Auferte ista hinc, et nolite facere domum patris mei, domum negotiationis."
+    ],
+    [
+     "And his disciples remembered, that it was written: The zeal of thy house hath eaten me up.",
+     "Recordati sunt vero discipuli ejus quia scriptum est: Zelus domus tuæ comedit me."
+    ],
+    [
+     "The Jews, therefore, answered, and said to him: What sign dost thou shew unto us, seeing thou dost these things?",
+     "Responderunt ergo Judæi, et dixerunt ei: Quod signum ostendis nobis, quia hæc facis?"
+    ],
+    [
+     "Jesus answered and said to them: Destroy this temple; and in three days I will raise it up.",
+     "Respondit Jesus, et dixit eis: Solvite templum hoc, et in tribus diebus excitabo illud."
+    ],
+    [
+     "The Jews then said: Six and forty years was this temple in building; and wilt thou raise it up in three days?",
+     "Dixerunt ergo Judæi: Quadraginta et sex annis ædificatum est templum hoc, et tu in tribus diebus excitabis illud?"
+    ],
+    [
+     "But he spoke of the temple of his body.",
+     "Ille autem dicebat de templo corporis sui."
+    ],
+    [
+     "When therefore he was risen again from the dead, his disciples remembered that he had said this: and they believed the scripture and the word that Jesus had said.",
+     "Cum ergo resurrexisset a mortuis, recordati sunt discipuli ejus, quia hoc dicebat, et crediderunt scripturæ et sermoni quem dixit Jesus."
+    ],
+    [
+     "Now when he was at Jerusalem, at the pasch, upon the festival day, many believed in his name, seeing his signs which he did.",
+     "Cum autem esset Jerosolymis in Pascha in die festo, multi crediderunt in nomine ejus, videntes signa ejus, quæ faciebat."
+    ],
+    [
+     "But Jesus did not trust himself unto them: for that he knew all men,",
+     "Ipse autem Jesus non credebat semetipsum eis, eo quod ipse nosset omnes,"
+    ],
+    [
+     "And because he needed not that any should give testimony of man: for he knew what was in man.",
+     "et quia opus ei non erat ut quis testimonium perhiberet de homine: ipse enim sciebat quid esset in homine."
+    ]
+   ]
+  }
+ ]
+}

@@ -717,6 +717,23 @@ def save_track(x, slug, title, summary, bitrate='64k'):
     return fn
 
 
+def save_show_track(x, show, slug, title, summary, bitrate, artist):
+    """A track for a separate show (its own folder + feed): <show>/episodes/<slug>.mp3, <show>/episodes.json, then
+    build_feed.py <BASE> <show>. A re-render of the same slug replaces the old entry (and keeps its date)."""
+    os.makedirs(f'{show}/episodes', exist_ok=True)
+    eps = json.load(open(f'{show}/episodes.json')); fn = f'{slug}.mp3'
+    old = [e for e in eps if e['file'] == fn]; eps = [e for e in eps if e['file'] != fn]
+    now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=11)))
+    tags = {'title': title, 'artist': artist, 'album_artist': artist, 'album': artist, 'track': str(len(eps) + 1),
+            'genre': 'Religion', 'date': str(now.year)}
+    audio.save_mp3(x, f'{show}/episodes/' + fn, tags, f'{show}/cover.jpg', bitrate=bitrate, channels=1)
+    eps.append({'file': fn, 'title': title, 'date': old[0]['date'] if old else now.isoformat(timespec='seconds'), 'summary': summary})
+    json.dump(eps, open(f'{show}/episodes.json', 'w'), indent=1, ensure_ascii=False)
+    subprocess.run([sys.executable, 'build_feed.py', BASE, show], check=True)
+    log('built', show, fn, f'{len(x) / audio.SR / 60:.1f} min')
+    return fn
+
+
 def run_bible(job):
     """Patrick, 28 Oct: "the Gospel of Matthew, English and Latin ... alternating verses ... and a Latin-only one ...
     whatever is equivalent to 15 minutes of Latin". Vulgate (Clementine) + Douay-Rheims (its English translation),
@@ -725,18 +742,49 @@ def run_bible(job):
     import free_tts
     ven, vla = job.get('voice_en', 'en_GB-jenny_dioco-medium'), job.get('voice_la', 'it_IT-paola-medium')
     os.makedirs('clips/free', exist_ok=True)
-    def fclip(voice, text):
-        h = hashlib.sha1(f'{voice}|{text}'.encode()).hexdigest()[:16]
-        w = f'clips/free/{h}.wav'
-        if not os.path.exists(w):
-            free_tts.say(voice, text, w)
-        return audio.norm(audio.trim(audio.load(w), thr_db=-55, pad=0.12))
-    def la_text(t):
-        t = t.replace('æ', 'ae').replace('Æ', 'Ae').replace('œ', 'oe').replace('Œ', 'Oe').replace('ë', 'e')
-        t = re.sub(r'j', 'i', re.sub(r'J', 'I', t))
-        return free_tts.latin_ipa(t, v_as_v=True)
+    eleven = job.get('engine') == 'eleven'   # 14 Nov 2026 (John 1-2, "Use ElevenLabs pls"): Iulia (Rossana) on Flash says both
+    def norm_la(t):
+        return t.replace('æ', 'ae').replace('Æ', 'Ae').replace('œ', 'oe').replace('Œ', 'Oe').replace('ë', 'e')
+    if eleven:
+        V = json.load(open('pipeline/voices.json')); V.update(job.get('voices', {}))
+        who = job.get('voice', 'F'); vid = resolve_voices({who: V[who]})[who]
+        st = job.get('stability', 0.5); mdl = job.get('model', 'eleven_flash_v2_5')
+        def key(t): return f'clips/{hashlib.sha1(f"{vid}|{t}|{st}|{mdl or ""}".encode()).hexdigest()[:16]}.mp3'
+        texts = [smart(norm_la(c['head_la'])) for c in job['chapters']] + [c['head_en'] for c in job['chapters']]
+        for c in job['chapters']:
+            texts += [v[0] for v in c['verses']] + [smart(norm_la(v[1])) for v in c['verses']]
+        new = {t for t in texts if not os.path.exists(key(t))}
+        cost = int(sum(len(t) for t in new) * (0.5 if mdl and ('flash' in mdl or 'turbo' in mdl) else 1.0))
+        cap = int(job.get('max_credits', 3000))
+        log(f'eleven bible: {len(new)} new clips, about {cost} credits (model {mdl})')
+        if cost > cap:
+            raise RuntimeError(f'Too dear: about {cost} credits, cap {cap}. Nothing spent.')
+        try:
+            sub = el.subscription(); keep = int(job.get('keep_credits', 1000)); log('credits left:', sub['left'], 'of', sub['limit'])
+            if cost > sub['left'] - keep:
+                raise RuntimeError(f'Not enough credits: needs about {cost}, {sub["left"]} left (keeping {keep}). Nothing spent.')
+        except RuntimeError as e:
+            if 'Not enough' in str(e): raise
+            log('credits unknown; going by the cap')
+        def fclip(voice, text):   # voice is ignored: one ElevenLabs voice for both languages
+            p = key(text)
+            if not os.path.exists(p):
+                os.makedirs('clips', exist_ok=True); el.tts(vid, text, p, stability=st, model=mdl); log('  rendered:', text[:60])
+            return audio.norm(audio.trim(audio.load(p), thr_db=-55, pad=0.12))   # gentle trim: never touches speech
+        def la_text(t):
+            return smart(norm_la(t))
+    else:
+        def fclip(voice, text):
+            h = hashlib.sha1(f'{voice}|{text}'.encode()).hexdigest()[:16]
+            w = f'clips/free/{h}.wav'
+            if not os.path.exists(w):
+                free_tts.say(voice, text, w)
+            return audio.norm(audio.trim(audio.load(w), thr_db=-55, pad=0.12))
+        def la_text(t):
+            t = re.sub(r'j', 'i', re.sub(r'J', 'I', norm_la(t)))
+            return free_tts.latin_ipa(t, v_as_v=True)
     PL, PE, PV, PH = job.get('pause_latin_only', 0.8), 0.5, 0.9, 1.6
-    target = job.get('target_latin_min', 15) * 60
+    target = job.get('target_latin_min', 15 if job.get('show') != 'gospel' else 100000) * 60   # gospel: every chapter given
     chs, la_total, cum = [], 0.0, []
     for ch in job['chapters']:
         head_la = fclip(vla, la_text(ch['head_la']))
@@ -749,28 +797,34 @@ def run_bible(job):
     chs = chs[:k]; last = chs[-1][0]['n']
     span = f"{job['book_en']} {chs[0][0]['n']}" + (f"–{last}" if last != chs[0][0]['n'] else '')
     mus = lambda v, e: audio.mix_music(v, e, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -7), job.get('music_dip_db', 7))
+    save = save_track
+    if job.get('show') == 'gospel':   # 14 Nov 2026: the separate feed "Verbum" (gospel/feed.xml)
+        save = lambda x, slug, title, summary: save_show_track(x, 'gospel', slug, re.sub(r'^Bible · ', '', title), summary,
+                                                                 '96k' if eleven else '64k', 'Verbum')
+    elif eleven:
+        save = lambda x, slug, title, summary: save_track(x, slug, title, summary, bitrate='96k')
     lat = []   # the Latin, twice through (his rule, 29 Oct)
     for rnd in range(2):
         for ch, head_la, vl in chs:
             lat += [(head_la, PH)] + [(c, PL) for c in vl]
         lat[-1] = (lat[-1][0], 3.0)
     efast = lambda c: audio.tempo(c, float(job.get('english_speed', ENGLISH_SPEED)))
-    el = []    # English then Latin, verse by verse
+    enla = []    # English then Latin, verse by verse
     for ch, head_la, vl in chs:
-        el += [(efast(fclip(ven, ch['head_en'])), PE), (head_la, PH)]
+        enla += [(efast(fclip(ven, ch['head_en'])), PE), (head_la, PH)]
         for v, c in zip(ch['verses'], vl):
-            el += [(efast(fclip(ven, v[0])), PE), (c, PV)]
+            enla += [(efast(fclip(ven, v[0])), PE), (c, PV)]
     if combined(job) and not job.get('only_latin'):   # 31 Oct standard: one file
-        el[-1] = (el[-1][0], 4.0)
-        voice, ev = audio.sequence(el + lat)
-        f = save_track(mus(voice, ev), job['slug'], f"Bible · {span} · English → Latin, then Latin × 2", job.get('summary', ''))
+        enla[-1] = (enla[-1][0], 4.0)
+        voice, ev = audio.sequence(enla + lat)
+        f = save(mus(voice, ev), job['slug'], f"Bible · {span} · English → Latin, then Latin × 2", job.get('summary', ''))
         return {'files': [f], 'chapters': k}
     voice, ev = audio.sequence(lat)
-    f1 = save_track(mus(voice, ev), job['slug'] + job.get('latin_suffix', '-latina'), f"Bible · {span} · Latin only (× 2)", f"Latin only, twice through. {job.get('summary', '')}")
+    f1 = save(mus(voice, ev), job['slug'] + job.get('latin_suffix', '-latina'), f"Bible · {span} · Latin only (× 2)", f"Latin only, twice through. {job.get('summary', '')}")
     if job.get('only_latin'):
         return {'files': [f1], 'chapters': k}
-    voice, ev = audio.sequence(el)
-    f2 = save_track(mus(voice, ev), job['slug'], f"Bible · {span} · English → Latin", job.get('summary', ''))
+    voice, ev = audio.sequence(enla)
+    f2 = save(mus(voice, ev), job['slug'], f"Bible · {span} · English → Latin", job.get('summary', ''))
     return {'files': [f2, f1], 'chapters': k}
 
 

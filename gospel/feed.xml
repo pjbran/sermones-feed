@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Verbum</title>
+    <link>https://pjbran.github.io/sermones-feed/gospel/</link>
+    <atom:link href="https://pjbran.github.io/sermones-feed/gospel/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>la</language>
+    <description>In principio erat Verbum. Gospel chapters to learn by heart: each verse in English, then in the Latin Vulgate; then the Latin alone. A personal study feed.</description>
+    <itunes:author>Sermones Ambulātōriī</itunes:author>
+    <itunes:owner><itunes:name>Sermones Ambulātōriī</itunes:name></itunes:owner>
+    <itunes:summary>In principio erat Verbum. Gospel chapters to learn by heart: each verse in English, then in the Latin Vulgate; then the Latin alone. A personal study feed.</itunes:summary>
+    <itunes:image href="https://pjbran.github.io/sermones-feed/gospel/cover.jpg"/>
+    <image><url>https://pjbran.github.io/sermones-feed/gospel/cover.jpg</url><title>Verbum</title><link>https://pjbran.github.io/sermones-feed/gospel/</link></image>
+    <itunes:category text="Religion &amp; Spirituality"><itunes:category text="Christianity"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <lastBuildDate>Sat, 14 Nov 2026 06:30:52 +0000</lastBuildDate>
+
+  </channel>
+</rss>

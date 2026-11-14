@@ -1,6 +1,7 @@
 """Rebuild feed.xml from episodes.json. Usage: python3 build_feed.py https://<user>.github.io/<repo> [show]
 show = '' (the main Latin feed: feed.xml, episodes.json, episodes/) or 'news' (Ācta Diurna, the daily Latin news,
-7 Nov 2026: news/feed.xml, news/episodes.json, news/episodes/, news/cover.jpg)."""
+7 Nov 2026: news/feed.xml, news/episodes.json, news/episodes/, news/cover.jpg) or 'gospel' (Verbum, Gospel chapters
+by heart, 14 Nov 2026: gospel/...)."""
 import json, sys, subprocess, os, email.utils, datetime
 from xml.sax.saxutils import escape as x
 BASE = sys.argv[1].rstrip('/')
@@ -13,6 +14,11 @@ SHOWS = {
  'news': dict(title='Ex Ōre Equī', lang='la', guid='acta',
           desc='Straight from the horse\'s mouth: the day in Latin. Canberra and Australian weather, the top Australian and world news, and one good story. A personal study feed.',
           cat='<itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>', type='episodic'),
+ # 14 Nov 2026 (Patrick: "a new podcast feed which is just for the gospel ... for me memorising gospel chapters"):
+ # gospel/feed.xml. Seasons = 1 (not weeks): the chapters run in order like a book.
+ 'gospel': dict(title='Verbum', lang='la', guid='verbum', weekly=False,
+          desc='In principio erat Verbum. Gospel chapters to learn by heart: each verse in English, then in the Latin Vulgate; then the Latin alone. A personal study feed.',
+          cat='<itunes:category text="Religion &amp; Spirituality"><itunes:category text="Christianity"/></itunes:category>', type='serial'),
 }
 C = SHOWS[SHOW]
 eps = json.load(open(D + 'episodes.json'))
@@ -33,7 +39,7 @@ def season_of(e):
     return (day - WEEK1).days // 7 + 1
 _count = {}
 for e in sorted(eps, key=lambda e: e['date']):
-    s = season_of(e); _count[s] = _count.get(s, 0) + 1
+    s = season_of(e) if C.get('weekly', True) else 1; _count[s] = _count.get(s, 0) + 1
     e['season'], e['episode'] = s, _count[s]
 items = []
 for e in sorted(eps, key=lambda e: e['date'], reverse=True):
