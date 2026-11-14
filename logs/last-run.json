@@ -1,17 +1,13 @@
 {
- "job": "jobs/0076-gospel-john-02.json",
+ "job": "jobs/0077-news-2026-11-15.json",
  "ok": true,
  "files": [
-  "john-02.mp3"
+  "acta-2026-11-15.mp3"
  ],
- "chapters": 1,
+ "minutes": 27.7,
  "log": [
-  "== job jobs/0076-gospel-john-02.json bible",
-  "voice F = Rossana MuTiG4dbrEGYEy3XP4iP",
-  "eleven bible: 0 new clips, about 0 credits (model eleven_flash_v2_5)",
-  "credits left: 94903 of 131089",
-  "chapter 2: Latin 3.1 min, total 3.1",
-  "built gospel john-02.mp3 11.8 min"
+  "== job jobs/0077-news-2026-11-15.json news",
+  "built news acta-2026-11-15.mp3 27.7 min"
  ],
- "at": "2026-11-14T06:39:02+00:00"
+ "at": "2026-11-14T18:31:30+00:00"
 }
