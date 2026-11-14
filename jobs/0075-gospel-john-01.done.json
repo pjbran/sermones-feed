@@ -1,0 +1,17 @@
+{
+ "job": "jobs/0075-gospel-john-01.json",
+ "ok": true,
+ "files": [
+  "john-01.mp3"
+ ],
+ "chapters": 1,
+ "log": [
+  "== job jobs/0075-gospel-john-01.json bible",
+  "voice F = Rossana MuTiG4dbrEGYEy3XP4iP",
+  "eleven bible: 0 new clips, about 0 credits (model eleven_flash_v2_5)",
+  "credits left: 94903 of 131089",
+  "chapter 1: Latin 6.1 min, total 6.1",
+  "built gospel john-01.mp3 23.0 min"
+ ],
+ "at": "2026-11-14T06:38:47+00:00"
+}

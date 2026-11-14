@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "file": "john-01.mp3",
+  "title": "John 1 · English → Latin, then Latin × 2",
+  "date": "2026-11-14T17:38:28+11:00",
+  "summary": "The Gospel of John, chapter 1. Each verse in English (Douay-Rheims), then in Latin (Clementine Vulgate); then the chapter again in Latin only, twice. Voice: Iulia (ElevenLabs Flash)."
+ },
+ {
+  "file": "john-02.mp3",
+  "title": "John 2 · English → Latin, then Latin × 2",
+  "date": "2026-11-14T17:38:52+11:00",
+  "summary": "The Gospel of John, chapter 2. Each verse in English (Douay-Rheims), then in Latin (Clementine Vulgate); then the chapter again in Latin only, twice. Voice: Iulia (ElevenLabs Flash)."
+ }
+]
