@@ -1,0 +1,13 @@
+{
+ "job": "jobs/0080-news-2026-11-16.json",
+ "ok": true,
+ "files": [
+  "acta-2026-11-16.mp3"
+ ],
+ "minutes": 29.2,
+ "log": [
+  "== job jobs/0080-news-2026-11-16.json news",
+  "built news acta-2026-11-16.mp3 29.2 min"
+ ],
+ "at": "2026-11-15T18:38:01+00:00"
+}
