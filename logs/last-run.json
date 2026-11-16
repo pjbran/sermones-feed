@@ -1,11 +1,11 @@
 {
- "job": "jobs/0087-vir-romanus-07.json",
+ "job": "jobs/0089-vir-romanus-pars-1-latine.json",
  "ok": true,
  "files": [
-  "capitulum-07.mp3"
+  "pars-1-latine.mp3"
  ],
- "minutes": 49.2,
- "credits": 582,
+ "minutes": 101.7,
+ "credits": 0,
  "voices": {
   "N": "MuTiG4dbrEGYEy3XP4iP",
   "BUCCA": "eR496IVvTpMgXHgnIRkx",
@@ -24,13 +24,12 @@
   "MAN2": "0t8vgGXrSTnCYpDnMYoe"
  },
  "log": [
-  "== job jobs/0087-vir-romanus-07.json book",
+  "== job jobs/0089-vir-romanus-pars-1-latine.json book",
   "voice x = Rossana MuTiG4dbrEGYEy3XP4iP",
   "voice x = Pater (Leō Parvus) 0t8vgGXrSTnCYpDnMYoe",
-  "book: 351 clips, 36 new, about 582 credits (model eleven_flash_v2_5)",
-  "credits left: 59079 of 131089",
-  "  rendered 1/36",
-  "built vir capitulum-07.mp3 49.2 min"
+  "book: 2642 clips, 0 new, about 0 credits (model eleven_flash_v2_5)",
+  "credits left: 54829 of 131089",
+  "built vir pars-1-latine.mp3 101.7 min"
  ],
- "at": "2026-11-16T07:23:14+00:00"
+ "at": "2026-11-16T09:20:02+00:00"
 }
