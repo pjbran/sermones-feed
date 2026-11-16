@@ -1164,7 +1164,9 @@ def run_book(job):
             x = c(it['who'], smart(it['la'])); enla.append((x, pl))
             if k != 'word': lat.append((x, (1.4 if nxt == 'head' else 0.0) + (0.9 if k == 'head' else job.get('pause_latin_only', 0.6))))
     enla[-1] = (enla[-1][0], 4.0); lat[-1] = (lat[-1][0], 3.0)
-    voice, ev = audio.sequence(enla + lat + lat); del enla, lat
+    # "latin_only": true (Patrick 16 Nov 20:11: "one mega episode that is JUST LATIN 1x all tracks all together") = the Latin pass once.
+    seq = lat if job.get('latin_only') else enla + lat + lat
+    voice, ev = audio.sequence(seq); del enla, lat, seq
     x = audio.mix_music_lean(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -7), job.get('music_dip_db', 7))
     f = save_show_track(x, job.get('show', 'vir'), job['slug'], job['title'], job.get('summary', ''), job.get('bitrate', '64k'),
                         'Vir Rōmānus', genre='Language Learning', date=job.get('date'))
