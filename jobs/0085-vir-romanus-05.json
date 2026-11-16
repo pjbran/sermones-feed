@@ -21,13 +21,13 @@
   },
   "PORC": {
    "name": "Porcellus (Vir Rōmānus)",
-   "design": "A cheeky, greedy, loud eleven-year-old boy: bright, a bit nasal, always excited, often with his mouth full. Speaks English with a light Italian accent (never American).",
+   "design": "A cheeky, greedy, loud young man with a high, boyish, slightly nasal voice: bright, always excited, often with his mouth full. Speaks English with a light Italian accent (never American).",
    "sample": "I am the emperor! Marcus, am I bigger than you? I think about sausages. I always think. Give me the sausage, please! Oink!",
    "fallback": "name:Leō (Leō Parvus)"
   },
   "MARCUS": {
    "name": "Marcus (Vir Rōmānus)",
-   "design": "A serious, calm, very polite twelve-year-old boy: clear, precise, gentle and thoughtful, a little old for his age. Speaks English with a light Italian accent (never American).",
+   "design": "A serious, calm, very polite young man with a light, clear, boyish voice: precise, gentle and thoughtful, old for his years. Speaks English with a light Italian accent (never American).",
    "sample": "I am reading. The book is about philosophy. A philosopher is a man who thinks, a man who looks for the truth. I will not ride without a reason.",
    "fallback": "name:Leō (Leō Parvus)"
   },
