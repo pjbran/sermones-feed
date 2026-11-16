@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vir Rōmānus</title>
+    <link>https://pjbran.github.io/sermones-feed/vir/</link>
+    <atom:link href="https://pjbran.github.io/sermones-feed/vir/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>la</language>
+    <description>Vir Rōmānus: a funny Latin novel about Marcus Aurelius and his useless double Porcellus, read by a full cast. Each line in English, then in Latin; then the chapter again in Latin only, twice. A personal study feed.</description>
+    <itunes:author>Sermones Ambulātōriī</itunes:author>
+    <itunes:owner><itunes:name>Sermones Ambulātōriī</itunes:name></itunes:owner>
+    <itunes:summary>Vir Rōmānus: a funny Latin novel about Marcus Aurelius and his useless double Porcellus, read by a full cast. Each line in English, then in Latin; then the chapter again in Latin only, twice. A personal study feed.</itunes:summary>
+    <itunes:image href="https://pjbran.github.io/sermones-feed/vir/cover.jpg"/>
+    <image><url>https://pjbran.github.io/sermones-feed/vir/cover.jpg</url><title>Vir Rōmānus</title><link>https://pjbran.github.io/sermones-feed/vir/</link></image>
+    <itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <lastBuildDate>Mon, 16 Nov 2026 07:04:37 +0000</lastBuildDate>
+    <item>
+      <title>Capitulum 7 · Lūdus Plāgōsī (Flogger's school) · English → Latin, then Latin × 2</title>
+      <description>Vir Rōmānus, Part I, chapter 7 (132 AD, Porcellus is 11; level A2). It is the year 132. Porcellus is eleven, but he cannot read. Bucca sends him to school, to the teacher Plāgōsus, who has a long cane. At the same time Marcus becomes a philosopher and sleeps on the ground. Porcellus also sleeps on the ground. Always has. Grammar: Dēclīnātiō tertia: rēx, rēgis · adiectīva: bonus, bona, bonum · fortis, forte. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</description>
+      <itunes:summary>Vir Rōmānus, Part I, chapter 7 (132 AD, Porcellus is 11; level A2). It is the year 132. Porcellus is eleven, but he cannot read. Bucca sends him to school, to the teacher Plāgōsus, who has a long cane. At the same time Marcus becomes a philosopher and sleeps on the ground. Porcellus also sleeps on the ground. Always has. Grammar: Dēclīnātiō tertia: rēx, rēgis · adiectīva: bonus, bona, bonum · fortis, forte. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/vir/episodes/capitulum-07.mp3" length="23949713" type="audio/mpeg"/>
+      <guid isPermaLink="false">vir-romanus-capitulum-07.mp3</guid>
+      <pubDate>Mon, 16 Nov 2026 18:07:00 +1100</pubDate>
+      <itunes:duration>49:33</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Capitulum 6 · Iter Brundisium (The road to Brundisium) · English → Latin, then Latin × 2</title>
+      <description>Vir Rōmānus, Part I, chapter 6 (131 AD, Porcellus is 10; level A2). It is the year 131. Bucca's cousin dies in Brundisium and leaves Bucca an inheritance. Bucca, Porcellus, Bibulus, Sabidius and Hannibal make a long trip along the Via Appia: bad water, boatmen, frogs, mosquitoes. What is the inheritance? Not money. Grammar: Ego, tū, nōs, vōs: persōna prīma et secunda · Rōmam, Rōmā, Brundisium. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</description>
+      <itunes:summary>Vir Rōmānus, Part I, chapter 6 (131 AD, Porcellus is 10; level A2). It is the year 131. Bucca's cousin dies in Brundisium and leaves Bucca an inheritance. Bucca, Porcellus, Bibulus, Sabidius and Hannibal make a long trip along the Via Appia: bad water, boatmen, frogs, mosquitoes. What is the inheritance? Not money. Grammar: Ego, tū, nōs, vōs: persōna prīma et secunda · Rōmam, Rōmā, Brundisium. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/vir/episodes/capitulum-06.mp3" length="23530725" type="audio/mpeg"/>
+      <guid isPermaLink="false">vir-romanus-capitulum-06.mp3</guid>
+      <pubDate>Mon, 16 Nov 2026 18:06:00 +1100</pubDate>
+      <itunes:duration>48:41</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Capitulum 5 · Vīlla et caper (The villa and the goat) · English → Latin, then Latin × 2</title>
+      <description>Vir Rōmānus, Part I, chapter 5 (130 AD, Porcellus is 9; level A2). It is the year 130. Porcellus eats too much, and Bucca is poor. So Porcellus goes to the senator Pinguis's villa, near the sea. There he will look after a goat. The goat is called Hannibal. Marcus is at the villa too, as a guest. Pliny's letter, a goat, a roof, a fish pond: everything will end badly. Grammar: Ubi? Unde? Quōcum? Ablātīvus cum praepositiōnibus · Rōmae, domī, rūrī. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</description>
+      <itunes:summary>Vir Rōmānus, Part I, chapter 5 (130 AD, Porcellus is 9; level A2). It is the year 130. Porcellus eats too much, and Bucca is poor. So Porcellus goes to the senator Pinguis's villa, near the sea. There he will look after a goat. The goat is called Hannibal. Marcus is at the villa too, as a guest. Pliny's letter, a goat, a roof, a fish pond: everything will end badly. Grammar: Ubi? Unde? Quōcum? Ablātīvus cum praepositiōnibus · Rōmae, domī, rūrī. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/vir/episodes/capitulum-05.mp3" length="22717792" type="audio/mpeg"/>
+      <guid isPermaLink="false">vir-romanus-capitulum-05.mp3</guid>
+      <pubDate>Mon, 16 Nov 2026 18:05:00 +1100</pubDate>
+      <itunes:duration>46:59</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Capitulum 4 · Servus inūtilis (The useless slave) · English → Latin, then Latin × 2</title>
+      <description>Vir Rōmānus, Part I, chapter 4 (128 AD, Porcellus is 7; level A2). It is the year 128. Bucca works too hard and wants to buy a slave. In the forum a trader sells her a Greek slave, a philosopher, called Sabidius. Sabidius talks a lot and does nothing. Then Bibulus is ill, and a strange doctor comes. Grammar: Cui? Datīvus · is, ea, id · numerī ad mīlle · pecūnia. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</description>
+      <itunes:summary>Vir Rōmānus, Part I, chapter 4 (128 AD, Porcellus is 7; level A2). It is the year 128. Bucca works too hard and wants to buy a slave. In the forum a trader sells her a Greek slave, a philosopher, called Sabidius. Sabidius talks a lot and does nothing. Then Bibulus is ill, and a strange doctor comes. Grammar: Cui? Datīvus · is, ea, id · numerī ad mīlle · pecūnia. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/vir/episodes/capitulum-04.mp3" length="22137866" type="audio/mpeg"/>
+      <guid isPermaLink="false">vir-romanus-capitulum-04.mp3</guid>
+      <pubDate>Mon, 16 Nov 2026 18:04:00 +1100</pubDate>
+      <itunes:duration>45:47</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Capitulum 3 · Vērissimus et Falsissimus (Truest and Falsest) · English → Latin, then Latin × 2</title>
+      <description>Vir Rōmānus, Part I, chapter 3 (127 AD, Porcellus is 6; level A1–A2). It is the year 127. Porcellus is six and he is a naughty boy. Today the emperor Hadrian comes to the Caelian hill and gives Marcus a horse. Porcellus wants a horse too. But Porcellus does not have a horse. Porcellus has a pig. Grammar: Quem? Quid? Accūsātīvus · verba: -at, -et, -it · imperātīvus · vocātīvus. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</description>
+      <itunes:summary>Vir Rōmānus, Part I, chapter 3 (127 AD, Porcellus is 6; level A1–A2). It is the year 127. Porcellus is six and he is a naughty boy. Today the emperor Hadrian comes to the Caelian hill and gives Marcus a horse. Porcellus wants a horse too. But Porcellus does not have a horse. Porcellus has a pig. Grammar: Quem? Quid? Accūsātīvus · verba: -at, -et, -it · imperātīvus · vocātīvus. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/vir/episodes/capitulum-03.mp3" length="27254753" type="audio/mpeg"/>
+      <guid isPermaLink="false">vir-romanus-capitulum-03.mp3</guid>
+      <pubDate>Mon, 16 Nov 2026 18:03:00 +1100</pubDate>
+      <itunes:duration>56:26</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Capitulum 2 · Garum Pompēiānum (The Pompeii fish sauce) · English → Latin, then Latin × 2</title>
+      <description>Vir Rōmānus, Part I, chapter 2 (125 AD, Porcellus is 4; level A1–A2). It is the year 125. Porcellus is four. Bucca has bad fish sauce and wants the best: Scaurus's fish sauce, from the town of Pompeii. But Bibulus knows something about Pompeii. Bucca, Porcellus and Bibulus make the trip. There they will find a clever man, and walls full of filthy words. Grammar: Cuius? Genitīvus · numerī I–X · quot?. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</description>
+      <itunes:summary>Vir Rōmānus, Part I, chapter 2 (125 AD, Porcellus is 4; level A1–A2). It is the year 125. Porcellus is four. Bucca has bad fish sauce and wants the best: Scaurus's fish sauce, from the town of Pompeii. But Bibulus knows something about Pompeii. Bucca, Porcellus and Bibulus make the trip. There they will find a clever man, and walls full of filthy words. Grammar: Cuius? Genitīvus · numerī I–X · quot?. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/vir/episodes/capitulum-02.mp3" length="21265388" type="audio/mpeg"/>
+      <guid isPermaLink="false">vir-romanus-capitulum-02.mp3</guid>
+      <pubDate>Mon, 16 Nov 2026 18:02:00 +1100</pubDate>
+      <itunes:duration>43:58</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Capitulum 1 · Stēlla stulta (The stupid star) · English → Latin, then Latin × 2</title>
+      <description>Vir Rōmānus, Part I, chapter 1 (121 AD, Porcellus is 0; level A1–A2). In this chapter it is night in Rome. Three astrologers see a new star. The star leads them to the Caelian hill, where there are two houses: a big house and a dirty cookshop. The astrologers are looking for a king. Whom will they find? A pig? A baby? Both? Grammar: Quis? Nōminātīvus: ūnus et multī · est / sunt · -ne, num, quis, quid. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</description>
+      <itunes:summary>Vir Rōmānus, Part I, chapter 1 (121 AD, Porcellus is 0; level A1–A2). In this chapter it is night in Rome. Three astrologers see a new star. The star leads them to the Caelian hill, where there are two houses: a big house and a dirty cookshop. The astrologers are looking for a king. Whom will they find? A pig? A baby? Both? Grammar: Quis? Nōminātīvus: ūnus et multī · est / sunt · -ne, num, quis, quid. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.</itunes:summary>
+      <enclosure url="https://pjbran.github.io/sermones-feed/vir/episodes/capitulum-01.mp3" length="26996216" type="audio/mpeg"/>
+      <guid isPermaLink="false">vir-romanus-capitulum-01.mp3</guid>
+      <pubDate>Mon, 16 Nov 2026 18:01:00 +1100</pubDate>
+      <itunes:duration>55:54</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
