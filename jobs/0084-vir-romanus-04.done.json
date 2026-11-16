@@ -1,0 +1,36 @@
+{
+ "job": "jobs/0084-vir-romanus-04.json",
+ "ok": true,
+ "files": [
+  "capitulum-04.mp3"
+ ],
+ "minutes": 45.7,
+ "credits": 129,
+ "voices": {
+  "N": "MuTiG4dbrEGYEy3XP4iP",
+  "BUCCA": "eR496IVvTpMgXHgnIRkx",
+  "PORC": "WiN1bm5r2tRII5VnL47W",
+  "MARCUS": "KQIV48Xwd7rVkM7ezteh",
+  "BIBULUS": "zjusrw1GnHGXc29QPQtt",
+  "PRIMUS": "48MSLH3D3iTLG4qJow6I",
+  "SECUNDUS": "ZrNN4lk6qhar7IijMdxq",
+  "TERTIUS": "vTVT2ZlX1s4ZRVOSsUxl",
+  "MONK": "gu9iG436TBDHFV1tNqHt",
+  "SABIDIUS": "UOeaPydpDTTQlvseSmtd",
+  "HADRIAN": "jhxUWcfdKmukRpRCVqvi",
+  "PLAGOSUS": "vc7sGSgTmYzf5x37nUfE",
+  "PARROT": "RW9kBpwAIyMBcMy9PwfD",
+  "MAN1": "vLtQaQ7mW7dCiiWfNW7I",
+  "MAN2": "0t8vgGXrSTnCYpDnMYoe"
+ },
+ "log": [
+  "== job jobs/0084-vir-romanus-04.json book",
+  "voice x = Rossana MuTiG4dbrEGYEy3XP4iP",
+  "voice x = Pater (Leō Parvus) 0t8vgGXrSTnCYpDnMYoe",
+  "book: 322 clips, 12 new, about 129 credits (model eleven_flash_v2_5)",
+  "credits left: 59412 of 131089",
+  "  rendered 1/12",
+  "built vir capitulum-04.mp3 45.7 min"
+ ],
+ "at": "2026-11-16T07:19:47+00:00"
+}
