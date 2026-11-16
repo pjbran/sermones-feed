@@ -1,0 +1,1369 @@
+{
+ "type": "book",
+ "show": "vir",
+ "slug": "capitulum-03",
+ "date": "2026-11-16T18:03:00+11:00",
+ "title": "Capitulum 3 · Vērissimus et Falsissimus (Truest and Falsest) · English → Latin, then Latin × 2",
+ "summary": "Vir Rōmānus, Part I, chapter 3 (127 AD, Porcellus is 6; level A1–A2). It is the year 127. Porcellus is six and he is a naughty boy. Today the emperor Hadrian comes to the Caelian hill and gives Marcus a horse. Porcellus wants a horse too. But Porcellus does not have a horse. Porcellus has a pig. Grammar: Quem? Quid? Accūsātīvus · verba: -at, -et, -it · imperātīvus · vocātīvus. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "max_credits": 12401,
+ "keep_credits": 1000,
+ "music": "v5",
+ "bitrate": "64k",
+ "voices": {
+  "N": "name:Rossana",
+  "BUCCA": {
+   "name": "Bucca (Vir Rōmānus)",
+   "design": "A huge, loud woman in her forties who runs a street cookshop in ancient Rome: booming, warm, raspy chest voice, bossy, quick and funny. Speaks English with a light Italian accent (never American).",
+   "sample": "Sausages! Hot sausages! One coin! What do you want? Do you want food? The cabbages are good. Be quiet, Bibulus, I am talking!",
+   "fallback": "name:Rossana"
+  },
+  "PORC": {
+   "name": "Porcellus (Vir Rōmānus)",
+   "design": "A cheeky, greedy, loud eleven-year-old boy: bright, a bit nasal, always excited, often with his mouth full. Speaks English with a light Italian accent (never American).",
+   "sample": "I am the emperor! Marcus, am I bigger than you? I think about sausages. I always think. Give me the sausage, please! Oink!",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "MARCUS": {
+   "name": "Marcus (Vir Rōmānus)",
+   "design": "A serious, calm, very polite twelve-year-old boy: clear, precise, gentle and thoughtful, a little old for his age. Speaks English with a light Italian accent (never American).",
+   "sample": "I am reading. The book is about philosophy. A philosopher is a man who thinks, a man who looks for the truth. I will not ride without a reason.",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "BIBULUS": {
+   "name": "Bibulus (Vir Rōmānus)",
+   "design": "A lazy old drunk man in his sixties: hoarse, slow, slurred and sleepy, gravelly, deadpan. Speaks English with a light Italian accent (never American).",
+   "sample": "Mmmph. What is this? Water? I would rather die. I am the emperor of wine. Bucca, I want to tell you something... Nothing. I know nothing.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PRIMUS": {
+   "name": "Primus (Vir Rōmānus)",
+   "design": "A pompous, theatrical middle-aged man who thinks he is a great prophet: rich booming baritone, grand and dramatic. Speaks English with a light Italian accent (never American).",
+   "sample": "Look! A new star! Today on this hill a king is born! O king! O future emperor! Look, gold! All kings smell, woman. All of them.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SECUNDUS": {
+   "name": "Secundus (Vir Rōmānus)",
+   "design": "A fat, practical, slightly whiny middle-aged man: nasal tenor voice, sceptical and dry. Speaks English with a light Italian accent (never American).",
+   "sample": "Where? The sky is big, Primus. Where in the sky? Which of the two houses? It is the smell of cabbages. And of pigs. Surely not.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "TERTIUS": {
+   "name": "Tertius (Vir Rōmānus)",
+   "design": "A tiny, very old man who is nearly deaf and nearly blind: thin, high, quavering, confused and sweet. Speaks English with a light Italian accent (never American).",
+   "sample": "What is it? Is it the moon? Oh! Who is hitting me? The wall is rude. Is the dog the king? Oh. Kind people. Where is the world?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MONK": {
+   "name": "Frater Ignotus (Vir Rōmānus)",
+   "design": "A grumpy elderly English monk in a cold medieval monastery: dry, low, weary and deadpan, a sarcastic murmur. British English accent (never American).",
+   "sample": "I am Brother Unknown. The year is eleven fifty. The monastery is cold. The ink is cold. My fingers are cold. The abbot says: write this book. I write.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SABIDIUS": {
+   "name": "Sabidius (Vir Rōmānus)",
+   "design": "A lazy, smug, elderly Greek philosopher who is a useless slave: soft, slow, silky, superior and unbothered. Speaks English with a Greek accent (never American).",
+   "sample": "You buy my body. You do not buy my mind. My mind is free. My mind does not cut cabbages. Work is patient. Work waits. I am a philosopher.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "HADRIAN": {
+   "name": "Hadrian (Vir Rōmānus)",
+   "design": "A commanding Roman emperor in his fifties: deep, warm, authoritative, amused, a rich and slow voice. Speaks English with a light Italian accent (never American).",
+   "sample": "Hello, Marcus! This horse is yours. Ha! Listen to him! You are not Verus, Marcus. You are Verissimus! And who are you, little one?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PLAGOSUS": {
+   "name": "Plagosus (Vir Rōmānus)",
+   "design": "A small, bald, furious schoolmaster: sharp, barking, nasal, shouting and strict. Speaks English with a light Italian accent (never American).",
+   "sample": "A new pupil! What is your name? Do you know your letters? Not even A? In my school nobody laughs. In my school everybody learns. Or hurts.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PARROT": {
+   "name": "Psittacus (Vir Rōmānus)",
+   "design": "A shrill, squawky cartoon parrot: high, scratchy, screeching, fast, repeating words, very comic. Not American.",
+   "sample": "Hello! Hello! Stupid Bucca! Stupid Bucca! Emperor! Emperor! Sausage! Sausage! When do we get to Rome? When do we get to Rome?",
+   "fallback": "name:Rossana"
+  },
+  "MAN1": {
+   "name": "Romanus (Vir Rōmānus)",
+   "design": "A gruff working-class man in his forties from ancient Rome: rough, tired, impatient, deep. Speaks English with a light Italian accent (never American).",
+   "sample": "What do you want? Here nobody is born. Go away, or the dog comes! The best slaves! Buy, citizens! Dinner is three coins. Here you pay.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MAN2": "name:Pater (Leō Parvus)"
+ },
+ "cast": {
+  "N": "N",
+  "Frāter": "MONK",
+  "Bucca": "BUCCA",
+  "Porcellus": "PORC",
+  "Īnfāns": "PORC",
+  "Porcellus (Staphyla)": "PORC",
+  "Marcus": "MARCUS",
+  "Bibulus": "BIBULUS",
+  "Prīmus": "PRIMUS",
+  "Secundus": "SECUNDUS",
+  "Tertius": "TERTIUS",
+  "Sabidius": "SABIDIUS",
+  "Hadriānus": "HADRIAN",
+  "Plāgōsus": "PLAGOSUS",
+  "Psittacus": "PARROT",
+  "Servus": "MAN1",
+  "Mīles": "MAN1",
+  "Mercātor": "MAN1",
+  "Caupō": "MAN1",
+  "Dominus gregis": "MAN1",
+  "Vir": "MAN2",
+  "Alius mīles": "MAN2",
+  "Fūrius": "MAN2",
+  "Poēta": "MAN2",
+  "Histriō": "MAN2",
+  "Diaulus": "PRIMUS",
+  "Pinguis": "PRIMUS",
+  "Eucliō novus": "TERTIUS"
+ },
+ "sfx": {
+  "goat": [
+   "A single billy goat bleating loudly, close up, \"meh-eh-eh\"",
+   2
+  ]
+ },
+ "items": [
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Vir Rōmānus. Chapter three: Truest and Falsest.",
+   "la": "Capitulum tertium: Vērissimus et Falsissimus."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Prologue: what will happen?",
+   "la": "Prōlogus. Quid fīet?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "It is the year 127. Porcellus is six and he is a naughty boy. Today the emperor Hadrian comes to the Caelian hill and gives Marcus a horse. Porcellus wants a horse too. But Porcellus does not have a horse. Porcellus has a pig.",
+   "la": "Annus est centēsimus vīcēsimus septimus. Porcellus sex annōs habet et est puer improbus. Hodiē Hadriānus imperātor in montem Caelium venit et Marcō equum dat. Porcellus quoque equum vult. Sed Porcellus equum nōn habet. Porcellus porcum habet."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Grammar: the accusative (whom? what?), verbs (-at, -et, -it; -ant, -ent, -unt), the imperative (Come!) and the vocative (Porcellus!).",
+   "la": "Grammatica: accūsātīvus (quem? quid?), verba (-at, -et, -it; -ant, -ent, -unt), imperātīvus (Venī!) et vocātīvus (Porcelle!)."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Grammar.",
+   "la": "Grammatica."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus eats a cabbage. What does Porcellus eat? A cabbage. \"Caulem\" is the accusative: the thing that someone sees, takes, eats, hits. Bucca hits Porcellus. Whom does Bucca hit? Porcellus. Porcellus is the accusative. Porcellus is often the accusative.",
+   "la": "Porcellus caulem edit. Quid edit Porcellus? Caulem. \"Caulem\" est accūsātīvus: rēs quam aliquis videt, capit, edit, pulsat. Bucca Porcellum pulsat. Quem pulsat Bucca? Porcellum. Porcellus est accūsātīvus. Porcellus est saepe accūsātīvus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "quis? (nōminātīvus) — quem? quid? (accūsātīvus)"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "porcus, porcī — porcum, porcōs"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "puella, puellae — puellam, puellās"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "caulis, caulēs — caulem, caulēs"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "ōvum, ōva — ōvum, ōva"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "\"Ōvum\" does not change. The neuter is lazy: nominative and accusative are the same. Like Bibulus: sitting or lying, he is the same.",
+   "la": "Ōvum nōn mūtātur. Neutrum est pigrum: nōminātīvus et accūsātīvus sunt idem. Sīcut Bibulus: sedēns et iacēns, idem est."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Verbs. One person does it: loves, sees, reads, hears. Many do it: they love, see, read, hear. Porcellus runs; the pigs run; Bibulus does not run.",
+   "la": "Verba. Ūnus agit: amat, videt, legit, audit. Multī agunt: amant, vident, legunt, audiunt. Porcellus currit; porcī currunt; Bibulus nōn currit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The imperative = giving an order. To one: Walk! Be quiet! Read! Listen! To many: Walk! Be quiet! Read! Listen! Every day Bucca says: \"Come! Be quiet! Put that cabbage down!\"",
+   "la": "Imperātīvus = iubēre. Ūnī: Ambulā! Tacē! Lege! Audī! Multīs: Ambulāte! Tacēte! Legite! Audīte! Bucca cotīdiē dīcit: \"Venī! Tacē! Dēpōne illum caulem!\""
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The vocative = calling someone. \"Porcellus\" → \"Porcellus!\" Bucca shouts: \"Porcellus!\" Porcellus does not come. This is a useless vocative.",
+   "la": "Vocātīvus = vocāre. \"Porcellus\" → \"Porcelle!\" \"Marcus\" → \"Marce!\" \"Tertius\" → \"Tertī!\" Bucca clāmat: \"Porcelle!\" Porcellus nōn venit. Hic est vocātīvus inūtilis."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "New words.",
+   "la": "Verba nova."
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "the accusative (case)",
+   "la": "accūsātīvus, accūsātīvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "lazy",
+   "la": "piger"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "the vocative (calling someone)",
+   "la": "vocātīvus, vocātīvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "useless",
+   "la": "inūtilis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "(the ending -ant)",
+   "la": "ant"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "(the ending -ent)",
+   "la": "ent"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "(the ending -unt)",
+   "la": "unt"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "the imperative (an order)",
+   "la": "imperātīvus, imperātīvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "sausage",
+   "la": "botulus, botulī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I seize, I snatch",
+   "la": "rapiō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "soldier, serviceman",
+   "la": "mīles"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "frog",
+   "la": "rāna, rānae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "burst (rumpō)",
+   "la": "ruptus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "forum, town square",
+   "la": "forum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "ox, cow",
+   "la": "bōs"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "visit",
+   "la": "vīsitō, vīsitāre, vīsitāvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I clean",
+   "la": "pūrgō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "fat, fatty",
+   "la": "pinguis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "as (copper coin)",
+   "la": "as"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "surname, third name",
+   "la": "cognōmen"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "chickpea",
+   "la": "cicer, ciceris"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "bean, pulse (food)",
+   "la": "legūmen, legūminis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "wart",
+   "la": "verrūca, verrūcae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "sow (a female pig)",
+   "la": "porca, porcae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "trumpet",
+   "la": "tuba"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "horseman, cavalry soldier",
+   "la": "eques"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "ride (a horse)",
+   "la": "equitō, equitāre, equitāvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "clap",
+   "la": "plaudō, plaudere, plausī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "crown, wreath",
+   "la": "corōna"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "laurel (a crown of laurel leaves)",
+   "la": "laurea, laureae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "bearded",
+   "la": "barbātus, barbāta, barbātum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I dance",
+   "la": "saltō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "meadow",
+   "la": "prātum, prātī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "pelt, hide, skin",
+   "la": "pellis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "blow up, puff up",
+   "la": "īnflō, īnflāre, īnflāvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I burst, I break (snap)",
+   "la": "rumpō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "rounder (rotundus)",
+   "la": "rotundior"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "round",
+   "la": "rotundus, rotunda, rotundum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "thunder",
+   "la": "tonitrus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I tremble",
+   "la": "tremō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "novice (a new monk)",
+   "la": "novīcius, novīciī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "proud, arrogant",
+   "la": "superbus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "writer, scribe",
+   "la": "scrīptor, scrīptōris"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "completed, full",
+   "la": "complētus, complēta, complētum"
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading one: A big day.",
+   "la": "Lectiō prīma: Diēs magnus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A big day. Porcellus grabs sausages; Marcus reads.",
+   "la": "Diēs magnus. Porcellus botulōs rapit; Marcus legit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The year is 127. Porcellus is six years old. Porcellus is not a good boy.",
+   "la": "Annus est centēsimus vīcēsimus septimus. Porcellus sex annōs habet. Porcellus nōn est puer bonus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus is a naughty boy.",
+   "la": "Porcellus est puer improbus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Today is a big day on the Caelian hill. The emperor Hadrian is coming back to Rome.",
+   "la": "Hodiē est diēs magnus in monte Caeliō. Imperātor Hadriānus Rōmam redit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hadrian visits Marcus. The emperor loves the boy Marcus. Everybody knows this.",
+   "la": "Hadriānus Marcum vīsitat. Imperātor puerum Marcum amat. Omnēs hoc sciunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Today the emperor gives Marcus a gift: a horse.",
+   "la": "Hodiē imperātor Marcō dōnum dat: equum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Slaves clean the street. The slaves take away the pigs' dung. The pigs make new dung.",
+   "la": "Servī viam pūrgant. Servī stercus porcōrum tollunt. Porcī novum stercus faciunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The slaves are angry. The pigs are happy. That is life.",
+   "la": "Servī īrātī sunt. Porcī laetī sunt. Haec est vīta."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca stands in front of the cookshop. Bucca is selling sausages. The sausages are hot and fat and strange.",
+   "la": "Bucca ante popīnam stat. Bucca botulōs vēndit. Botulī sunt calidī et pinguēs et mīrī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "What is in the sausages? Nobody knows. Bucca knows. Bucca does not say.",
+   "la": "Quid est in botulīs? Nēmō scit. Bucca scit. Bucca nōn dīcit."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Sausages! Hot sausages! One as! Buy sausages!",
+   "la": "Botulī! Botulī calidī! Ūnus as! Emite botulōs!"
+  },
+  {
+   "who": "Vir",
+   "kind": "line",
+   "en": "What is in the sausages?",
+   "la": "Quid est in botulīs?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Meat.",
+   "la": "Carō."
+  },
+  {
+   "who": "Vir",
+   "kind": "line",
+   "en": "Whose meat?",
+   "la": "Cuius carō?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Meat... of an animal.",
+   "la": "Carō… animālis."
+  },
+  {
+   "who": "Vir",
+   "kind": "line",
+   "en": "Of what animal?",
+   "la": "Cuius animālis?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Of a dead animal. Are you buying or not?",
+   "la": "Animālis mortuī. Emis an nōn emis?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus grabs a sausage. Porcellus runs. Bucca shouts.",
+   "la": "Porcellus botulum capit. Porcellus currit. Bucca clāmat."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Porcellus! Come here! Put the sausage down!",
+   "la": "Porcelle! Venī! Dēpōne botulum!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus does not come. Porcellus eats the sausage. Then Porcellus grabs a cabbage and hits a slave.",
+   "la": "Porcellus nōn venit. Porcellus botulum edit. Deinde Porcellus caulem capit et servum pulsat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The slave falls into the dung. A dog barks. Porcellus hits the dog. The dog bites Porcellus.",
+   "la": "Servus cadit in stercus. Canis lātrat. Porcellus canem pulsat. Canis Porcellum mordet."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus cries.",
+   "la": "Porcellus plōrat."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Bucca! The dog is biting me!",
+   "la": "Bucca! Canis mē mordet!"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "The dog does well.",
+   "la": "Bene facit canis."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "On the steps of the big house sits Marcus. Marcus too is six years old. Marcus is reading a book.",
+   "la": "In gradibus domūs magnae sedet Marcus. Marcus quoque sex annōs habet. Marcus librum legit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "An old woman is carrying a heavy sack. Marcus gets up and helps the woman. Then Marcus sits down again and reads.",
+   "la": "Fēmina vetus saccum gravem portat. Marcus surgit et fēminam adiuvat. Deinde Marcus iterum sedet et legit."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Why are you always good?",
+   "la": "Cūr tū semper bonus es?"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "Because I want to be a philosopher.",
+   "la": "Quia philosophus esse volō."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "What is a philosopher?",
+   "la": "Quid est philosophus?"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "A man who thinks. A man who looks for the truth.",
+   "la": "Vir quī cōgitat. Vir quī vēritātem quaerit."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I think too. I always think.",
+   "la": "Ego quoque cōgitō. Semper cōgitō."
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "What do you think about?",
+   "la": "Dē quā rē cōgitās?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "About sausages.",
+   "la": "Dē botulīs."
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "Hmm. It is a beginning.",
+   "la": "Hmm. Est initium."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Excursus: Roman names. True!",
+   "la": "Excursus: Nōmina Rōmāna. Vērum!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Why do Romans have three names? And why is one name \"Porcius\"?",
+   "la": "Cūr Rōmānī tria nōmina habent? Et cūr ūnum nōmen est \"Porcius\"?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is true. A Roman man often has three names. The first is the praenomen, the first name: Marcus, Gaius, Lucius, Quintus.",
+   "la": "Hoc est vērum. Vir Rōmānus saepe tria nōmina habet. Prīmum est praenōmen: Marcus, Gāius, Lūcius, Quīntus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The second is the nomen: the family name, like Julius, Cornelius, Annius. The third is the cognomen: often about the body or about an animal.",
+   "la": "Secundum est nōmen: nōmen familiae, ut Iūlius, Cornēlius, Annius. Tertium est cognōmen: saepe dē corpore aut dē animālī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Cicero = cicer, that is a small bean: Cicero's grandfather perhaps has a wart on his nose, like a chickpea.",
+   "la": "Cicerō = cicer, id est legūmen parvum: avus Cicerōnis fortasse in nāsō verrūcam habet, similem ciceris."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Naso = a man with a big nose: the poet Ovid is \"Publius Ovidius Naso\". Scrofa = a sow.",
+   "la": "Nāsō = vir cum nāsō magnō: poēta Ovidius est \"Pūblius Ovidius Nāsō\". Scrōfa = porca."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "And that strict Cato? Marcus Porcius Cato. The name \"Porcius\" comes from a pig.",
+   "la": "Et Catō ille sevērus? Marcus Porcius Catō. Nōmen \"Porcius\" venit ā porcō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "So Porcellus is in good company.",
+   "la": "Porcellus igitur est in bonā societāte."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Our Marcus has many names. The Historia Augusta says: first Marcus is called Catilius Severus; then Annius Verus; later Aurelius.",
+   "la": "Marcus noster multa nōmina habet. Historia Augusta dīcit: prīmum Marcus vocātur Catilius Sevērus; deinde Annius Vērus; posteā Aurēlius."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Marcus changes names, the way other men change tunics.",
+   "la": "Marcus nōmina mūtat, sīcut aliī virī tunicās."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading two: The horse and the pig.",
+   "la": "Lectiō secunda: Equus et porcus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hadrian comes. Marcus gets a horse. Porcellus jumps on a pig.",
+   "la": "Hadriānus venit. Marcus equum accipit. Porcellus in porcum salit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Trumpets sound. Soldiers come. After the soldiers comes a tall man with a beard: Hadrian.",
+   "la": "Tubae canunt. Mīlitēs veniunt. Post mīlitēs venit vir altus cum barbā: Hadriānus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Everyone kneels. Bibulus kneels too, because Bibulus is already lying down.",
+   "la": "Omnēs genua flectunt. Bibulus quoque genua flectit, quia Bibulus iam iacet."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A slave leads a small horse. The horse is white and beautiful. Marcus walks to the emperor.",
+   "la": "Servus equum parvum dūcit. Equus est albus et pulcher. Marcus ad imperātōrem ambulat."
+  },
+  {
+   "who": "Hadriānus",
+   "kind": "line",
+   "en": "Hello, Marcus! This horse is yours. You are now a Roman knight.",
+   "la": "Salvē, Marce! Hic equus est tuus. Tū nunc es eques Rōmānus."
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "I thank you, emperor. I will look after the horse. I will not ride without a reason.",
+   "la": "Grātiās tibi agō, imperātor. Equum cūrābō. Nōn equitābō sine causā."
+  },
+  {
+   "who": "Hadriānus",
+   "kind": "line",
+   "en": "Ha! Listen! A boy of six! \"I will not ride without a reason!\" You are not Verus, Marcus, not just True. You are Verissimus, Truest of all!",
+   "la": "Ha! Audīte! Puer sex annōrum! \"Nōn equitābō sine causā!\" Tū nōn es Vērus, Marce. Tū es Vērissimus!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Everyone laughs. Everyone claps. Porcellus does not clap. Porcellus looks at the horse.",
+   "la": "Omnēs cachinnant. Omnēs plaudunt. Porcellus nōn plaudit. Porcellus spectat equum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus looks at Marcus. Porcellus looks at a big pig, which is lying near the cookshop.",
+   "la": "Porcellus spectat Marcum. Porcellus spectat porcum magnum, quī prope popīnam iacet."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The pig is called Caesar.",
+   "la": "Porcus vocātur Caesar."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Caesar! Come here!",
+   "la": "Caesar! Venī!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Caesar does not come. Porcellus jumps onto Caesar. Caesar gets up. Caesar runs.",
+   "la": "Caesar nōn venit. Porcellus in Caesarem salit. Caesar surgit. Caesar currit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Caesar does not run to the pig pen. Caesar runs to the emperor.",
+   "la": "Caesar nōn ad haram currit. Caesar ad imperātōrem currit."
+  },
+  {
+   "who": "Mīles",
+   "kind": "line",
+   "en": "What is this?",
+   "la": "Quid est hoc?"
+  },
+  {
+   "who": "Alius mīles",
+   "kind": "line",
+   "en": "A pig.",
+   "la": "Porcus."
+  },
+  {
+   "who": "Mīles",
+   "kind": "line",
+   "en": "And what is on the pig?",
+   "la": "Et quid est in porcō?"
+  },
+  {
+   "who": "Alius mīles",
+   "kind": "line",
+   "en": "Another pig.",
+   "la": "Alius porcus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Caesar runs among the soldiers. The soldiers fall. Caesar snatches a laurel crown from a slave's head and eats it.",
+   "la": "Caesar inter mīlitēs currit. Mīlitēs cadunt. Caesar corōnam lauream dē capite servī rapit et edit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "At last Caesar stops in front of Hadrian. Porcellus sits on Caesar, dirty and happy.",
+   "la": "Tandem Caesar ante Hadriānum cōnsistit. Porcellus in Caesare sedet, sordidus et laetus."
+  },
+  {
+   "who": "Hadriānus",
+   "kind": "line",
+   "en": "Who are you?",
+   "la": "Quis es tū?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I am the emperor!",
+   "la": "Ego sum imperātor!"
+  },
+  {
+   "who": "Hadriānus",
+   "kind": "line",
+   "en": "Really? And I, what am I?",
+   "la": "Ita? Et ego, quid sum?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "You are... bearded.",
+   "la": "Tū es… barbātus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Silence. The soldiers hold their swords. Bucca closes her eyes. Bibulus sees nothing, because he is asleep.",
+   "la": "Silentium. Mīlitēs gladiōs tenent. Bucca oculōs claudit. Bibulus nihil videt, quia dormit."
+  },
+  {
+   "who": "Hadriānus",
+   "kind": "line",
+   "en": "Who is this boy?",
+   "la": "Quis est hic puer?"
+  },
+  {
+   "who": "Servus",
+   "kind": "line",
+   "en": "This is Porcellus, my lord. The astrologers say: this is the future emperor.",
+   "la": "Hic est Porcellus, domine. Astrologī dīcunt: hic est imperātor futūrus."
+  },
+  {
+   "who": "Hadriānus",
+   "kind": "line",
+   "en": "Astrologers! Ha! I love astrologers. Astrologers are always wrong. Marcus, come here! Look, Romans!",
+   "la": "Astrologī! Ha! Ego astrologōs amō. Astrologī semper errant. Marce, venī! Spectāte, Rōmānī!"
+  },
+  {
+   "who": "Hadriānus",
+   "kind": "line",
+   "en": "This one, Marcus, is Verissimus, the Truest. That one, Porcellus, is... Falsissimus, the Falsest!",
+   "la": "Hic, Marcus, est Vērissimus. Ille, Porcellus, est… Falsissimus!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Everyone laughs. Even the soldiers laugh. Caesar the pig farts. Everyone laughs more.",
+   "la": "Omnēs cachinnant. Etiam mīlitēs cachinnant. Caesar porcus pēdit. Omnēs cachinnant magis."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Falsissimus! Do you hear, Bibulus? The emperor names my son! Falsissimus! A great name!",
+   "la": "Falsissimus! Audīsne, Bibule? Imperātor fīlium meum nōminat! Falsissimus! Nōmen magnum!"
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Bucca... \"false\"...",
+   "la": "Bucca… \"falsus\"…"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Be quiet, Bibulus! It is a great name!",
+   "la": "Tacē, Bibule! Nōmen magnum est!"
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "A real Latin text: Historia Augusta, Vīta Marcī 4.1–3.",
+   "la": "Textus vērus: Historia Augusta, Vīta Marcī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A real book: what does Hadrian really give Marcus?",
+   "la": "Liber vērus: quid Hadriānus Marcō vērē dat?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The Historia Augusta tells about Marcus. Hadrian loves the boy Marcus and calls him \"Verissimus\".",
+   "la": "Historia Augusta dē Marcō nārrat. Hadriānus puerum Marcum amat et eum \"Vērissimum\" vocat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Marcus is six years old: Hadrian gives him the honour of a horse. Marcus is seven years old: Marcus becomes a priest of the Salii.",
+   "la": "Marcus sex annōs habet: Hadriānus eī honōrem equī dat. Marcus septem annōs habet: Marcus fit sacerdōs Saliōrum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The Salii are priests who dance. All the priests throw crowns. The crowns fall, some in one place, some in another.",
+   "la": "Saliī sunt sacerdōtēs quī saltant. Omnēs sacerdōtēs corōnās iaciunt. Corōnae aliae aliīs locīs cadunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Marcus's crown falls onto the head of the god Mars, as if placed there by hand. This is a sign: Marcus will be emperor.",
+   "la": "Corōna Marcī in capite deī Martis cadit, quasi manū positā. Hoc est signum: Marcus erit imperātor."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "The real text.",
+   "la": "Textus ipse."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "He was brought up in Hadrian's lap, who used to call him Verissimus,",
+   "la": "Educatus est in Hadriani gremio, qui illum Verissimum nominabat"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "and who gave him the honour of a public horse at six years old,",
+   "la": "et qui ei honorem equi publici sexenni detulit,"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "and in the eighth year of his age enrolled him in the college of the Salii.",
+   "la": "octavo aetatis anno in saliorum collegium rettulit."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "In the priesthood of the Salii he received an omen of empire: when all were throwing crowns onto the sacred couch, as is the custom,",
+   "la": "In saliatu omen accepit imperii: coronas omnibus in pulvinar ex more iacientibus"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "the others stuck in different places, but his was fitted onto the head of Mars, as if by hand.",
+   "la": "aliae aliis locis haeserunt, huius velut manu capiti Martis aptata est."
+  },
+  {
+   "who": "N",
+   "kind": "en_only",
+   "en": "Real text, Historia Augusta, Life of Marcus 4.1–3. Hadrian really called the boy \"Verissimus\" (the truest, a pun on his family name Verus), and gave him the honour of the \"public horse\" (the badge of a Roman knight) at six. In his eighth year (aged seven) Marcus joined the Salii, the leaping priests of Mars, who danced through Rome in armour. When all the priests threw their crowns onto the god's couch, Marcus's crown landed on the head of Mars, \"as if put there by hand\": an omen of empire. Grammar to spot: accusative \"illum\", \"honorem\", \"coronas\"; \"sexenni\" = to the six-year-old; \"omnibus ... iacientibus\" = while all were throwing (an ablative absolute, Part II)."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading three: The frog and the ox.",
+   "la": "Lectiō tertia: Rāna et bōs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus is sad. Marcus tells a story.",
+   "la": "Porcellus trīstis est. Marcus fābulam nārrat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the evening Porcellus and Marcus sit on the steps. Caesar the pig sleeps near them.",
+   "la": "Vesperī Porcellus et Marcus in gradibus sedent. Caesar porcus prope eōs dormit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus is sad.",
+   "la": "Porcellus trīstis est."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "You are Verissimus. I am Falsissimus. Everyone laughs.",
+   "la": "Tū es Vērissimus. Ego sum Falsissimus. Omnēs cachinnant."
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "Everyone laughs because you sit on a pig.",
+   "la": "Omnēs cachinnant, quia tū in porcō sedēs."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I want to be big. Big like you. Big like the emperor.",
+   "la": "Ego volō esse magnus. Magnus sīcut tū. Magnus sīcut imperātor."
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "Listen to a story. Phaedrus tells it.",
+   "la": "Audī fābulam. Phaedrus eam nārrat."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "A real Latin text: Phaedrus, Fābulae 1.24.",
+   "la": "Textus vērus: Phaedrus, Fābulae."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A fable by Phaedrus: a small frog, a big ox.",
+   "la": "Fābula Phaedrī: rāna parva, bōs magnus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Marcus tells the story. In a meadow a frog sees an ox. The ox is big. The frog is small.",
+   "la": "Marcus fābulam nārrat. In prātō rāna bovem videt. Bōs est magnus. Rāna est parva."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The frog is jealous. The frog puffs up her skin and asks her children: \"Am I wider than the ox?\" The children say: \"No.\" The frog puffs herself up again.",
+   "la": "Rāna invidet. Rāna pellem īnflat et fīliōs rogat: \"Sumne lātior quam bōs?\" Fīliī dīcunt: \"Minimē.\" Rāna iterum sē īnflat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "\"Who is bigger now?\" The children say: \"The ox.\" At last the frog puffs herself up too much.",
+   "la": "\"Quis nunc est maior?\" Fīliī dīcunt: \"Bōs.\" Tandem rāna sē nimis īnflat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The frog bursts. She lies dead.",
+   "la": "Rāna rumpitur. Mortua iacet."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "The real text.",
+   "la": "Textus ipse."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "The poor man, while he wants to copy the powerful, dies.",
+   "la": "Inops, potentem dum vult imitari, perit."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Once in a meadow a frog caught sight of an ox,",
+   "la": "In prato quondam rana conspexit bovem,"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "and, touched by envy of such great size,",
+   "la": "et tacta invidia tantae magnitudinis"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "she puffed up her wrinkled skin. Then she asked her children",
+   "la": "rugosam inflavit pellem. Tum natos suos"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "whether she was wider than the ox.",
+   "la": "interrogavit an bove esset latior."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "They said no. Again she stretched her skin",
+   "la": "Illi negarunt. Rursus intendit cutem"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "with greater effort, and asked in the same way",
+   "la": "maiore nisu, et simili quaesivit modo,"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "who was bigger. They said: \"The ox.\"",
+   "la": "quis maior esset. Illi dixerunt \"bovem\"."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "At last, angry, while she wants to puff herself up",
+   "la": "Novissime indignata, dum vult validius"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "more strongly, she lay with her body burst.",
+   "la": "inflare sese, rupto iacuit corpore."
+  },
+  {
+   "who": "N",
+   "kind": "en_only",
+   "en": "Phaedrus, Fables 1.24, \"The frog that burst and the ox\", in verse (iambic senarii), about 40 AD. Phaedrus was a freed slave of the emperor Augustus who put Aesop's Greek fables into Latin. The first line is the moral: \"The poor man dies while he tries to copy the powerful.\" Watch the accusatives: \"bovem\", \"pellem\", \"cutem\". \"Rupto ... corpore\" = with her body burst (ablative). Porcellus will take the wrong lesson from this."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading four: Porcellus puffed up.",
+   "la": "Lectiō quārta: Porcellus īnflātus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus understands the story. Badly.",
+   "la": "Porcellus fābulam intellegit. Male."
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "Do you understand, Porcellus?",
+   "la": "Intellegisne, Porcelle?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I understand! The frog is small because she does not eat enough!",
+   "la": "Intellegō! Rāna est parva, quia nōn satis edit!"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "No! That is not...",
+   "la": "Minimē! Hoc nōn est…"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "But Porcellus is already running. Porcellus runs into the cookshop. Porcellus grabs sausages: one, two, three... ten... twenty.",
+   "la": "Sed Porcellus iam currit. Porcellus in popīnam currit. Porcellus botulōs capit: ūnum, duōs, trēs… decem… vīgintī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus eats the sausages. Porcellus puffs out his cheeks. Porcellus puffs out his belly.",
+   "la": "Porcellus botulōs edit. Porcellus genās īnflat. Porcellus ventrem īnflat."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Marcus! Am I bigger than you?",
+   "la": "Marce! Sumne maior quam tū?"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "You are not bigger. You are rounder.",
+   "la": "Nōn es maior. Es rotundior."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus eats another sausage. And another. Porcellus's belly is huge.",
+   "la": "Porcellus alterum botulum edit. Et alterum. Venter Porcellī est ingēns."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus's belly is like the sky: round and full of thunder.",
+   "la": "Venter Porcellī est sīcut caelum: rotundus et plēnus tonitrūs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "And then... Porcellus does not burst. Porcellus farts. The sound is huge. Dogs bark on the whole Caelian hill.",
+   "la": "Et tum… Porcellus nōn rumpitur. Porcellus pēdit. Sonus est ingēns. Canēs in tōtō monte Caeliō lātrant."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The lamps in the big house shake. Caesar the pig wakes up and runs away. Bibulus wakes up and says: \"Has summer come?\"",
+   "la": "Lucernae in domō magnā tremunt. Caesar porcus ēvigilat et fugit. Bibulus ēvigilat et dīcit: \"Vēnit aestās?\""
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "PORCELLUS!",
+   "la": "PORCELLE!"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "Phaedrus writes nothing about this.",
+   "la": "Phaedrus dē hōc nihil scrībit."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I am now writing a new story. \"Porcellus and the sausages.\" A good ending.",
+   "la": "Ego nunc scrībō fābulam novam. \"Porcellus et botulī.\" Fīnis bonus."
+  },
+  {
+   "who": "Frāter",
+   "kind": "head",
+   "en": "In the margin: Brother Unknown.",
+   "la": "Margō: Frāter Ignōtus."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Brother Unknown on frogs and on the abbot.",
+   "la": "Frāter Ignōtus dē rānīs et dē abbāte."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I, Brother Unknown, love Phaedrus. Aesop, Phaedrus, animal stories: these are good for novices.",
+   "la": "Ego, Frāter Ignōtus, Phaedrum amō. Aesōpus, Phaedrus, fābulae animālium: haec sunt bona prō novīciīs."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "The proud frog bursts. Our abbot too is proud. Our abbot too often puffs himself up.",
+   "la": "Rāna superba rumpitur. Abbās noster quoque superbus est. Abbās noster quoque saepe īnflātur."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I say no more.",
+   "la": "Plūra nōn dīcō."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "But this Porcellus is disgusting. Why do I write this? Because the abbot orders it. And because, I admit it, I laugh.",
+   "la": "Sed hic Porcellus est foedus. Cūr hoc scrībō? Quia abbās iubet. Et quia, fateor, cachinnō."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "May God forgive me.",
+   "la": "Deus mihi ignōscat."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "An old saying of scribes: \"When the book is finished, the scribe dances with a happy foot.\" When the book is finished, the scribe dances on a happy foot.",
+   "la": "Vetus verbum scrīptōrum: \"Librō complētō saltat scrīptor pede laetō.\" Ubi liber est complētus, scrīptor laetō pede saltat."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "The book is not finished. My feet do not dance.",
+   "la": "Liber nōn est complētus. Pedēs meī nōn saltant."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Epilogue: what happened?",
+   "la": "Epilogus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hadrian came back to Rome and gave Marcus a horse. Porcellus grabbed Bucca's sausages and hit a slave with a cabbage. Then he jumped onto Caesar the pig and ran among the soldiers. Hadrian laughed. He called Marcus \"Truest\" and Porcellus \"Falsest\".",
+   "la": "Hadriānus Rōmam rediit et Marcō equum dedit. Porcellus botulōs Buccae rapuit et servum caule pulsāvit. Deinde in porcum Caesarem saluit et inter mīlitēs cucurrit. Hadriānus rīsit. Marcum \"Vērissimum\", Porcellum \"Falsissimum\" vocāvit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca loved the name, but she did not understand it. In the evening Marcus told the fable of the frog. Porcellus ate twenty sausages. He did not burst. He farted.",
+   "la": "Bucca nōmen amāvit, sed nōn intellēxit. Vesperī Marcus fābulam dē rānā nārrāvit. Porcellus vīgintī botulōs ēdit. Nōn ruptus est. Pepēdit."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "What next?",
+   "la": "Quid deinde?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Falsest now has a name, but he has no money. Bucca wants to buy a slave, because Porcellus does no work. In the forum there is a fat trader and a Greek slave who speaks five languages. Really?",
+   "la": "Falsissimus nunc nōmen habet, sed pecūniam nōn habet. Bucca servum emere vult, quia Porcellus nihil labōrat. In forō est mercātor crassus et servus Graecus quī quīnque linguās loquitur. Vērumne?"
+  }
+ ]
+}

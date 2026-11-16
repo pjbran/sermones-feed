@@ -717,7 +717,7 @@ def save_track(x, slug, title, summary, bitrate='64k'):
     return fn
 
 
-def save_show_track(x, show, slug, title, summary, bitrate, artist):
+def save_show_track(x, show, slug, title, summary, bitrate, artist, genre='Religion', date=None):
     """A track for a separate show (its own folder + feed): <show>/episodes/<slug>.mp3, <show>/episodes.json, then
     build_feed.py <BASE> <show>. A re-render of the same slug replaces the old entry (and keeps its date)."""
     os.makedirs(f'{show}/episodes', exist_ok=True)
@@ -725,9 +725,9 @@ def save_show_track(x, show, slug, title, summary, bitrate, artist):
     old = [e for e in eps if e['file'] == fn]; eps = [e for e in eps if e['file'] != fn]
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=11)))
     tags = {'title': title, 'artist': artist, 'album_artist': artist, 'album': artist, 'track': str(len(eps) + 1),
-            'genre': 'Religion', 'date': str(now.year)}
+            'genre': genre, 'date': str(now.year)}
     audio.save_mp3(x, f'{show}/episodes/' + fn, tags, f'{show}/cover.jpg', bitrate=bitrate, channels=1)
-    eps.append({'file': fn, 'title': title, 'date': old[0]['date'] if old else now.isoformat(timespec='seconds'), 'summary': summary})
+    eps.append({'file': fn, 'title': title, 'date': date or (old[0]['date'] if old else now.isoformat(timespec='seconds')), 'summary': summary})
     json.dump(eps, open(f'{show}/episodes.json', 'w'), indent=1, ensure_ascii=False)
     subprocess.run([sys.executable, 'build_feed.py', BASE, show], check=True)
     log('built', show, fn, f'{len(x) / audio.SR / 60:.1f} min')
@@ -1084,6 +1084,93 @@ def run_kids(job):
     return {'files': [f], 'voices': {k: v for k, v in V.items()}}
 
 
+# ---------------- book (16 Nov 2026): the graded reader "Vir Rōmānus" as a full-cast audiobook ----------------
+def run_book(job):
+    """Patrick, 16 Nov 2026: "The new Vir Romanus — could you create an audio podcast for that ... Use eleven labs. You
+    decide voices ... Latin English interleaved; Latin Latin." One chapter per job, own feed (show "vir").
+    job: voices {role: "name:<my voice>" | {"design": text, "name": name, "sample": text, "fallback": "name:..."}},
+    cast {speaker: role}, items [{who, en?, la?, kind: head|line|word|en_only|sfx, sfx?}], sfx {key: [prompt, secs]}.
+    One file: every item English then Latin (same voice), then the Latin alone twice (heads, lines, sfx; no word list).
+    Clips: clips/book/ (re-encoded 48k mono to keep the site small), all rendered first, 4 at a time."""
+    import concurrent.futures as cf
+    vb_path = 'pipeline/voices-book.json'
+    VB = json.load(open(vb_path)) if os.path.exists(vb_path) else {}
+    mine = el.my_voices(); V = {}
+    for role, spec in job['voices'].items():
+        if isinstance(spec, str):
+            V[role] = resolve_voices({'x': spec})['x']; continue
+        nm = spec['name']
+        hit = [m['voice_id'] for m in mine if m.get('name') == nm] or ([VB[nm]] if VB.get(nm) else [])
+        if hit:
+            V[role] = hit[0]; continue
+        vid = el.design_voice(nm, spec['design'], spec['sample'])
+        if vid:
+            V[role] = vid; VB[nm] = vid; log('book voice', role, 'designed:', nm, vid)
+            mine.append({'name': nm, 'voice_id': vid})
+        else:
+            fb = spec.get('fallback', 'name:Rossana'); V[role] = resolve_voices({'x': fb})['x']; log('book voice', role, 'design failed, fallback', fb)
+    json.dump(VB, open(vb_path, 'w'), indent=1, ensure_ascii=False)
+    cast = job['cast']; st = job.get('stability', 0.5); mdl = job.get('model', 'eleven_flash_v2_5')
+    def vid_of(who): return V[cast.get(who, who if who in V else 'N')]
+    def key(v, t): return f'clips/book/{hashlib.sha1(f"{v}|{t}|{st}|{mdl}".encode()).hexdigest()[:16]}.mp3'
+    jobs = []
+    for it in job['items']:
+        if it['kind'] == 'sfx': continue
+        v = vid_of(it['who'])
+        if it.get('en'): jobs.append((v, it['en']))
+        if it.get('la'): jobs.append((v, smart(it['la'])))
+    jobs = list(dict.fromkeys(jobs)); new = [(v, t) for v, t in jobs if not os.path.exists(key(v, t))]
+    cost = int(sum(len(t) for v, t in new) * (0.5 if ('flash' in mdl or 'turbo' in mdl) else 1.0))
+    cap = int(job.get('max_credits', 12000))
+    log(f'book: {len(jobs)} clips, {len(new)} new, about {cost} credits (model {mdl})')
+    if cost > cap:
+        raise RuntimeError(f'Too dear: about {cost} credits, cap {cap}. Nothing spent.')
+    try:
+        sub = el.subscription(); keep = int(job.get('keep_credits', 1000)); log('credits left:', sub['left'], 'of', sub['limit'])
+        if cost > sub['left'] - keep:
+            raise RuntimeError(f'Not enough credits: needs about {cost}, {sub["left"]} left (keeping {keep}). Nothing spent.')
+    except RuntimeError as e:
+        if 'Not enough' in str(e): raise
+        log('credits unknown; going by the cap')
+    os.makedirs('clips/book', exist_ok=True)
+    def render(vt):
+        v, t = vt; p = key(v, t); tmp = p + '.raw.mp3'
+        el.tts(v, t, tmp, stability=st, model=mdl)
+        subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', tmp, '-ac', '1', '-b:a', '48k', p], check=True); os.remove(tmp)
+    with cf.ThreadPoolExecutor(max_workers=int(job.get('threads', 4))) as ex:
+        for k, _ in enumerate(ex.map(render, new)):
+            if k % 50 == 0: log(f'  rendered {k + 1}/{len(new)}')
+    def c(who, t): return audio.norm(audio.trim(audio.load(key(vid_of(who), t)), thr_db=-55, pad=0.12))   # gentle trim: never touches speech
+    sfx = {}
+    for k, (prompt, secs) in job.get('sfx', {}).items():
+        pth = f'clips/book/sfx-{hashlib.sha1(f"{prompt}|{secs}".encode()).hexdigest()[:16]}.mp3'
+        if os.path.exists(pth) or el.sound_effect(prompt, pth, secs):
+            sfx[k] = audio.norm(audio.load(pth)) * job.get('sfx_gain', 0.6)
+    efast = lambda x: audio.tempo(x, float(job.get('english_speed', ENGLISH_SPEED)))
+    G = {'head': (0.5, 1.1), 'line': (0.45, 0.8), 'word': (0.35, 0.7)}
+    enla, lat = [], []
+    for i, it in enumerate(job['items']):
+        k = it['kind']
+        if k == 'sfx':
+            if it['sfx'] in sfx: enla.append((sfx[it['sfx']], 0.6)); lat.append((sfx[it['sfx']], 0.5))
+            continue
+        if k == 'en_only':
+            enla.append((efast(c(it['who'], it['en'])), 1.0)); continue
+        nxt = job['items'][i + 1]['kind'] if i + 1 < len(job['items']) else ''
+        pe, pl = G.get(k, G['line'])
+        if nxt == 'head': pl += 0.8
+        if it.get('en'): enla.append((efast(c(it['who'], it['en'])), pe))
+        if it.get('la'):
+            x = c(it['who'], smart(it['la'])); enla.append((x, pl))
+            if k != 'word': lat.append((x, (1.4 if nxt == 'head' else 0.0) + (0.9 if k == 'head' else job.get('pause_latin_only', 0.6))))
+    enla[-1] = (enla[-1][0], 4.0); lat[-1] = (lat[-1][0], 3.0)
+    voice, ev = audio.sequence(enla + lat + lat); del enla, lat
+    x = audio.mix_music_lean(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -7), job.get('music_dip_db', 7))
+    f = save_show_track(x, job.get('show', 'vir'), job['slug'], job['title'], job.get('summary', ''), job.get('bitrate', '64k'),
+                        'Vir Rōmānus', genre='Language Learning', date=job.get('date'))
+    return {'files': [f], 'minutes': round(len(x) / audio.SR / 60, 1), 'credits': cost, 'voices': V}
+
+
 def run_to_pages(job):
     import publish
     return {'brought_back': publish.bring_back(log)}
@@ -1106,7 +1193,7 @@ def main():
         log('== job', jp, job.get('type'))
         res = {'job': jp, 'ok': False}
         try:
-            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible, 'redo_latin': run_redo_latin, 'merge': run_merge, 'kids': run_kids, 'grammar': run_grammar, 'speed_samples': run_speed_samples, 'news': run_news}.get(job['type'], run_episode)(job)); res['ok'] = True
+            res.update({'audition': run_audition, 'test': run_test, 'drill': run_drill, 'migrate': run_migrate, 'credits': run_credits, 'to_pages': run_to_pages, 'voice_samples': run_voice_samples, 'bible': run_bible, 'redo_latin': run_redo_latin, 'merge': run_merge, 'kids': run_kids, 'grammar': run_grammar, 'speed_samples': run_speed_samples, 'news': run_news, 'book': run_book}.get(job['type'], run_episode)(job)); res['ok'] = True
         except Exception as e:
             res['error'] = repr(e); log(traceback.format_exc())
         res['log'] = el.LOG[-200:]

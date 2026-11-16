@@ -1,0 +1,1207 @@
+{
+ "type": "book",
+ "show": "vir",
+ "slug": "capitulum-07",
+ "date": "2026-11-16T18:07:00+11:00",
+ "title": "Capitulum 7 · Lūdus Plāgōsī (Flogger's school) · English → Latin, then Latin × 2",
+ "summary": "Vir Rōmānus, Part I, chapter 7 (132 AD, Porcellus is 11; level A2). It is the year 132. Porcellus is eleven, but he cannot read. Bucca sends him to school, to the teacher Plāgōsus, who has a long cane. At the same time Marcus becomes a philosopher and sleeps on the ground. Porcellus also sleeps on the ground. Always has. Grammar: Dēclīnātiō tertia: rēx, rēgis · adiectīva: bonus, bona, bonum · fortis, forte. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "max_credits": 11479,
+ "keep_credits": 1000,
+ "music": "v5",
+ "bitrate": "64k",
+ "voices": {
+  "N": "name:Rossana",
+  "BUCCA": {
+   "name": "Bucca (Vir Rōmānus)",
+   "design": "A huge, loud woman in her forties who runs a street cookshop in ancient Rome: booming, warm, raspy chest voice, bossy, quick and funny. Speaks English with a light Italian accent (never American).",
+   "sample": "Sausages! Hot sausages! One coin! What do you want? Do you want food? The cabbages are good. Be quiet, Bibulus, I am talking!",
+   "fallback": "name:Rossana"
+  },
+  "PORC": {
+   "name": "Porcellus (Vir Rōmānus)",
+   "design": "A cheeky, greedy, loud eleven-year-old boy: bright, a bit nasal, always excited, often with his mouth full. Speaks English with a light Italian accent (never American).",
+   "sample": "I am the emperor! Marcus, am I bigger than you? I think about sausages. I always think. Give me the sausage, please! Oink!",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "MARCUS": {
+   "name": "Marcus (Vir Rōmānus)",
+   "design": "A serious, calm, very polite twelve-year-old boy: clear, precise, gentle and thoughtful, a little old for his age. Speaks English with a light Italian accent (never American).",
+   "sample": "I am reading. The book is about philosophy. A philosopher is a man who thinks, a man who looks for the truth. I will not ride without a reason.",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "BIBULUS": {
+   "name": "Bibulus (Vir Rōmānus)",
+   "design": "A lazy old drunk man in his sixties: hoarse, slow, slurred and sleepy, gravelly, deadpan. Speaks English with a light Italian accent (never American).",
+   "sample": "Mmmph. What is this? Water? I would rather die. I am the emperor of wine. Bucca, I want to tell you something... Nothing. I know nothing.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PRIMUS": {
+   "name": "Primus (Vir Rōmānus)",
+   "design": "A pompous, theatrical middle-aged man who thinks he is a great prophet: rich booming baritone, grand and dramatic. Speaks English with a light Italian accent (never American).",
+   "sample": "Look! A new star! Today on this hill a king is born! O king! O future emperor! Look, gold! All kings smell, woman. All of them.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SECUNDUS": {
+   "name": "Secundus (Vir Rōmānus)",
+   "design": "A fat, practical, slightly whiny middle-aged man: nasal tenor voice, sceptical and dry. Speaks English with a light Italian accent (never American).",
+   "sample": "Where? The sky is big, Primus. Where in the sky? Which of the two houses? It is the smell of cabbages. And of pigs. Surely not.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "TERTIUS": {
+   "name": "Tertius (Vir Rōmānus)",
+   "design": "A tiny, very old man who is nearly deaf and nearly blind: thin, high, quavering, confused and sweet. Speaks English with a light Italian accent (never American).",
+   "sample": "What is it? Is it the moon? Oh! Who is hitting me? The wall is rude. Is the dog the king? Oh. Kind people. Where is the world?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MONK": {
+   "name": "Frater Ignotus (Vir Rōmānus)",
+   "design": "A grumpy elderly English monk in a cold medieval monastery: dry, low, weary and deadpan, a sarcastic murmur. British English accent (never American).",
+   "sample": "I am Brother Unknown. The year is eleven fifty. The monastery is cold. The ink is cold. My fingers are cold. The abbot says: write this book. I write.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SABIDIUS": {
+   "name": "Sabidius (Vir Rōmānus)",
+   "design": "A lazy, smug, elderly Greek philosopher who is a useless slave: soft, slow, silky, superior and unbothered. Speaks English with a Greek accent (never American).",
+   "sample": "You buy my body. You do not buy my mind. My mind is free. My mind does not cut cabbages. Work is patient. Work waits. I am a philosopher.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "HADRIAN": {
+   "name": "Hadrian (Vir Rōmānus)",
+   "design": "A commanding Roman emperor in his fifties: deep, warm, authoritative, amused, a rich and slow voice. Speaks English with a light Italian accent (never American).",
+   "sample": "Hello, Marcus! This horse is yours. Ha! Listen to him! You are not Verus, Marcus. You are Verissimus! And who are you, little one?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PLAGOSUS": {
+   "name": "Plagosus (Vir Rōmānus)",
+   "design": "A small, bald, furious schoolmaster: sharp, barking, nasal, shouting and strict. Speaks English with a light Italian accent (never American).",
+   "sample": "A new pupil! What is your name? Do you know your letters? Not even A? In my school nobody laughs. In my school everybody learns. Or hurts.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PARROT": {
+   "name": "Psittacus (Vir Rōmānus)",
+   "design": "A shrill, squawky cartoon parrot: high, scratchy, screeching, fast, repeating words, very comic. Not American.",
+   "sample": "Hello! Hello! Stupid Bucca! Stupid Bucca! Emperor! Emperor! Sausage! Sausage! When do we get to Rome? When do we get to Rome?",
+   "fallback": "name:Rossana"
+  },
+  "MAN1": {
+   "name": "Romanus (Vir Rōmānus)",
+   "design": "A gruff working-class man in his forties from ancient Rome: rough, tired, impatient, deep. Speaks English with a light Italian accent (never American).",
+   "sample": "What do you want? Here nobody is born. Go away, or the dog comes! The best slaves! Buy, citizens! Dinner is three coins. Here you pay.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MAN2": "name:Pater (Leō Parvus)"
+ },
+ "cast": {
+  "N": "N",
+  "Frāter": "MONK",
+  "Bucca": "BUCCA",
+  "Porcellus": "PORC",
+  "Īnfāns": "PORC",
+  "Porcellus (Staphyla)": "PORC",
+  "Marcus": "MARCUS",
+  "Bibulus": "BIBULUS",
+  "Prīmus": "PRIMUS",
+  "Secundus": "SECUNDUS",
+  "Tertius": "TERTIUS",
+  "Sabidius": "SABIDIUS",
+  "Hadriānus": "HADRIAN",
+  "Plāgōsus": "PLAGOSUS",
+  "Psittacus": "PARROT",
+  "Servus": "MAN1",
+  "Mīles": "MAN1",
+  "Mercātor": "MAN1",
+  "Caupō": "MAN1",
+  "Dominus gregis": "MAN1",
+  "Vir": "MAN2",
+  "Alius mīles": "MAN2",
+  "Fūrius": "MAN2",
+  "Poēta": "MAN2",
+  "Histriō": "MAN2",
+  "Diaulus": "PRIMUS",
+  "Pinguis": "PRIMUS",
+  "Eucliō novus": "TERTIUS"
+ },
+ "sfx": {
+  "goat": [
+   "A single billy goat bleating loudly, close up, \"meh-eh-eh\"",
+   2
+  ]
+ },
+ "items": [
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Vir Rōmānus. Chapter seven: Flogger's school.",
+   "la": "Capitulum septimum: Lūdus Plāgōsī."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Prologue: what will happen?",
+   "la": "Prōlogus. Quid fīet?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "It is the year 132. Porcellus is eleven, but he cannot read. Bucca sends him to school, to the teacher Plāgōsus, who has a long cane. At the same time Marcus becomes a philosopher and sleeps on the ground. Porcellus also sleeps on the ground. Always has.",
+   "la": "Annus est centēsimus trīcēsimus secundus. Porcellus ūndecim annōs habet, sed legere nōn potest. Bucca eum in lūdum mittit, ad magistrum Plāgōsum, quī ferulam longam habet. Eōdem tempore Marcus philosophus fit et in humō dormit. Porcellus quoque in humō dormit. Semper."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Grammar: the third declension (rēx, rēgis) and adjectives (a strict teacher, a strong body).",
+   "la": "Grammatica: dēclīnātiō tertia (rēx, rēgis) et adiectīva (magister sevērus, corpus forte)."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Grammar.",
+   "la": "Grammatica."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Some nouns are easy: porcus, porcī. Some are hard: rēx, rēgis. The nominative is one word; the other cases are another word. This is the third declension. It is like Bucca: you think you know her, and then she changes.",
+   "la": "Quaedam nōmina sunt facilia: porcus, porcī. Quaedam sunt difficilia: rēx, rēgis. Nōminātīvus est ūnum verbum; cēterī cāsūs sunt aliud verbum. Haec est dēclīnātiō tertia. Ea est sīcut Bucca: tū putās tē eam nōsse, et tum mūtātur."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "nōminātīvus — genitīvus — accūsātīvus — ablātīvus"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "rēx — rēgis — rēgem — rēge"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "homō — hominis — hominem — homine"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "vōx — vōcis — vōcem — vōce"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "corpus — corporis — corpus — corpore"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The secret is in the genitive: \"rēgis\" tells you the real word, \"rēg-\". Always learn the genitive. Plural: kings, of kings, to kings. People, of people, to people. Bodies (neuter, always -a).",
+   "la": "Sēcrētum est in genitīvō: \"rēgis\" tibi dīcit verbum vērum, \"rēg-\". Semper genitīvum disce. Plūrālis: rēgēs, rēgum, rēgibus. Hominēs, hominum, hominibus. Corpora (neutrum, semper -a)."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Adjectives follow the noun: a strict teacher, a long cane, a bad word. But: a good king (\"rēx bonus\", not \"rēx bonis\"!). The adjective follows the gender, not the shape. And there are third-declension adjectives: a strong boy, a strong girl, a strong body. Porcellus is not strong. Porcellus is huge.",
+   "la": "Adiectīva sequuntur nōmen: magister sevērus, ferula longa, verbum malum. Sed: rēx bonus (nōn \"rēx bonis\"!). Adiectīvum sequitur genus, nōn fōrmam. Et sunt adiectīva tertiae dēclīnātiōnis: puer fortis, puella fortis, corpus forte. Porcellus nōn est fortis. Porcellus est ingēns."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "New words.",
+   "la": "Verba nova."
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "declension (a noun pattern)",
+   "la": "dēclīnātiō, dēclīnātiōnis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "to know (a person) (nōscō)",
+   "la": "nōsse"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "(the stem rēg-)",
+   "la": "rēg"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "adjective",
+   "la": "adiectīvum, adiectīvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "eleven",
+   "la": "ūndecim"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "earth, ground (soil)",
+   "la": "humus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "bald",
+   "la": "calvus, calva, calvum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "cloak",
+   "la": "pallium"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "infancy, babyhood",
+   "la": "īnfantia, īnfantiae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I strike, I hit hard",
+   "la": "percutiō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "stylus (pen for a wax tablet)",
+   "la": "stilus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "blow, stroke (of a cane)",
+   "la": "plāga, plāgae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "colonnade, portico",
+   "la": "porticus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "edifice, building",
+   "la": "aedificium"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I veil, I wrap",
+   "la": "vēlō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "waxed",
+   "la": "cērātus, cērāta, cērātum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "rod, stick",
+   "la": "virga"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "ABC teacher",
+   "la": "litterātor, litterātōris"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "freedman",
+   "la": "lībertus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "acute, sharp, pointed",
+   "la": "acūtus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "abacus, counting board",
+   "la": "abacus, abacī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "pebble (for counting)",
+   "la": "calculus, calculī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "full of beatings",
+   "la": "plāgōsus, plāgōsa, plāgōsum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "text",
+   "la": "textus, textūs"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "geometry",
+   "la": "geōmetria, geōmetriae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "actor",
+   "la": "histriō, histriōnis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "practise speeches, declaim",
+   "la": "dēclāmō, dēclāmāre, dēclāmāvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "twelfth",
+   "la": "duodecimus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I go in, I enter",
+   "la": "ingredior"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "wax",
+   "la": "cēra"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "wicked, criminal",
+   "la": "scelerātus, scelerāta, scelerātum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "thunder",
+   "la": "tonō, tonāre, tonuī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "bull",
+   "la": "taurus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "amphitheatre (arena)",
+   "la": "amphitheātrum, amphitheātrī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "imitator, copycat",
+   "la": "imitātor, imitātōris"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "grumbling, murmuring",
+   "la": "murmur"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "fierce, savage",
+   "la": "saevus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "chatty; chatterbox",
+   "la": "garrulus, garrula, garrulum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I spare, I go easy on",
+   "la": "parcō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "figure of speech, proverb",
+   "la": "prōverbium"
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading one: The cane.",
+   "la": "Lectiō prīma: Ferula."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus goes to school for the first time. The cane is waiting for him.",
+   "la": "Porcellus prīmum in lūdum it. Ferula eum exspectat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The year is 132. Porcellus is eleven years old. Porcellus cannot read.",
+   "la": "Annus est centēsimus trīcēsimus secundus. Porcellus ūndecim annōs habet. Porcellus legere nōn potest."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus cannot write. Porcellus can count, but only sausages.",
+   "la": "Porcellus scrībere nōn potest. Porcellus numerāre potest, sed tantum botulōs."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Porcellus, you are learning your letters. Today.",
+   "la": "Porcelle, tū litterās discis. Hodiē."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Why?",
+   "la": "Cūr?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Furius cheats me, because I cannot read. \"Scaurus's fish sauce!\" You read; you save me.",
+   "la": "Fūrius mē dēcipit, quia ego legere nōn possum. \"Garum Scaurī!\" Tū legis; tū mē servās."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Sabidius reads.",
+   "la": "Sabidius legit."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Sabidius reads, but Sabidius is not my son. Sabidius is my slave. A slave lies.",
+   "la": "Sabidius legit, sed Sabidius nōn est meus fīlius. Sabidius est meus servus. Servus mentītur."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "A son... a son lies too. But my son lies for me.",
+   "la": "Fīlius… fīlius quoque mentītur. Sed fīlius meus mentītur prō mē."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the street, under a colonnade, there is a school. The school is not a building; the school is a colonnade with a curtain.",
+   "la": "In viā, sub porticū, est lūdus. Lūdus nōn est aedificium; lūdus est porticus cum vēlō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Ten boys and two girls sit there. The boys hold wax tablets. In front of them stands the teacher.",
+   "la": "Ibi sedent decem puerī et duae puellae. Puerī tabulās cērātās tenent. Ante eōs stat magister."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The teacher is a small man, bald, strict. In his hand is a cane. The cane is a long stick.",
+   "la": "Magister est homō parvus, calvus, sevērus. In manū eius est ferula. Ferula est virga longa."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The teacher's name is Plagosus, Mister Whacker.",
+   "la": "Nōmen magistrī est Plāgōsus."
+  },
+  {
+   "who": "Plāgōsus",
+   "kind": "line",
+   "en": "A new pupil! What is your name?",
+   "la": "Novus discipulus! Quod nōmen est tibi?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Porcellus.",
+   "la": "Porcellus."
+  },
+  {
+   "who": "Plāgōsus",
+   "kind": "line",
+   "en": "Porcellus! A good name for a pig. Do you know your letters?",
+   "la": "Porcellus! Bonum nōmen prō porcō. Scīsne litterās?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "No.",
+   "la": "Minimē."
+  },
+  {
+   "who": "Plāgōsus",
+   "kind": "line",
+   "en": "No letters at all? Not even \"A\"?",
+   "la": "Nūllās litterās? Nē \"A\" quidem?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I know \"A\"! \"A\" is... the first one.",
+   "la": "\"A\" sciō! \"A\" est… prīma."
+  },
+  {
+   "who": "Plāgōsus",
+   "kind": "line",
+   "en": "Good! And \"B\"?",
+   "la": "Bene! Et \"B\"?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "\"B\" is... the second one?",
+   "la": "\"B\" est… secunda?"
+  },
+  {
+   "who": "Plāgōsus",
+   "kind": "line",
+   "en": "Excellent! And what is \"C\"?",
+   "la": "Optimē! Et quid est \"C\"?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Sausage?",
+   "la": "Botulus?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The cane comes down. Porcellus shouts. The pupils laugh. The cane comes down again.",
+   "la": "Ferula cadit. Porcellus clāmat. Discipulī cachinnant. Ferula iterum cadit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The pupils do not laugh any more.",
+   "la": "Discipulī nōn iam cachinnant."
+  },
+  {
+   "who": "Plāgōsus",
+   "kind": "line",
+   "en": "In my school nobody laughs. In my school everybody learns. Or hurts. Often both.",
+   "la": "In meō lūdō nēmō cachinnat. In meō lūdō omnēs discunt. Aut dolent. Saepe utrumque."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Near the school a parrot sits in a cage. Bucca puts him here. The parrot looks at Porcellus.",
+   "la": "Prope lūdum psittacus in caveā sedet. Bucca eum hīc pōnit. Psittacus Porcellum spectat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The parrot hears everything.",
+   "la": "Psittacus omnia audit."
+  },
+  {
+   "who": "Psittacus",
+   "kind": "line",
+   "en": "Sausage! Sausage! A, B, Sausage!",
+   "la": "Botulus! Botulus! A, B, Botulus!"
+  },
+  {
+   "who": "Plāgōsus",
+   "kind": "line",
+   "en": "Who is speaking?",
+   "la": "Quis loquitur?"
+  },
+  {
+   "who": "Psittacus",
+   "kind": "line",
+   "en": "Plagosus is bald! Plagosus is bald!",
+   "la": "Plāgōsus calvus! Plāgōsus calvus!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Plagosus throws the cane at the cage. The parrot laughs. The parrot always laughs.",
+   "la": "Plāgōsus ferulam in caveam iacit. Psittacus cachinnat. Psittacus semper cachinnat."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Excursus: The Roman school. True!",
+   "la": "Excursus: Lūdus Rōmānus. Vērum!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "How do Roman children learn? With tablets, with a stylus, with beatings.",
+   "la": "Quōmodo puerī Rōmānī discunt? Tabulīs, stilō, plāgīs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is true. Roman boys (and some girls) go to school at seven years old.",
+   "la": "Hoc est vērum. Puerī Rōmānī (et nōnnūllae puellae) septem annōs nātī in lūdum eunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The schoolmaster, who teaches letters, is called the litterator. He is often poor and often a slave or a freedman.",
+   "la": "Magister lūdī, quī litterās docet, vocātur litterātor. Saepe est pauper et saepe est servus aut lībertus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The school is often in the street, under a colonnade, in a shop. The noise of the street and the noise of the school get mixed.",
+   "la": "Lūdus est saepe in viā, sub porticū, in tabernā. Clāmor viae et clāmor lūdī miscentur."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The pupils write on wax tablets, with a stylus: the stylus is sharp at one end, flat at the other.",
+   "la": "Discipulī in tabulīs cērātīs scrībunt, cum stilō: stilus est acūtus in ūnā parte, lātus in alterā."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "With the sharp end you write; with the flat end you rub out. So the Romans say \"turn the stylus\": to change what you write.",
+   "la": "Parte acūtā scrībis; parte lātā dēlēs. Itaque Rōmānī dīcunt \"stilum vertere\": mūtāre quod scrībis."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "They learn numbers with an abacus and pebbles.",
+   "la": "Numerōs discunt cum abacō et calculīs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Roman teachers beat boys. The poet Horace writes about his teacher: Orbilius the \"plagosus\", that is \"the one who gives many blows\".",
+   "la": "Magistrī Rōmānī puerōs pulsant. Poēta Horātius dē magistrō suō scrībit: Orbilius plāgōsus, id est \"quī multās plāgās dat\"."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "School starts before daylight. The neighbours do not sleep. Martial, a neighbour of a school, is angry.",
+   "la": "Lūdus incipit ante lūcem. Vīcīnī nōn dormiunt. Mārtiālis, vīcīnus lūdī, īrātus est."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "See the text.",
+   "la": "Vidē textum."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading two: The philosopher on the floor.",
+   "la": "Lectiō secunda: Philosophus in solō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Marcus puts on the cloak. Porcellus realises: he is a philosopher too!",
+   "la": "Marcus pallium sūmit. Porcellus intellegit: ipse quoque philosophus est!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "At the same time Marcus is learning too. But Marcus does not learn in the street.",
+   "la": "Eōdem tempore Marcus quoque discit. Sed Marcus nōn in viā discit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Marcus has many teachers: a teacher of letters, a teacher of music, a teacher of geometry, a teacher of Greek, and an actor who teaches him to speak in public.",
+   "la": "Marcus multōs magistrōs habet: magistrum litterārum, magistrum mūsicae, magistrum geōmetriae, magistrum linguae Graecae, et histriōnem quī eum dēclāmāre docet."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Marcus loves all his teachers. All the teachers love Marcus. Nobody beats Marcus.",
+   "la": "Marcus omnēs magistrōs amat. Omnēs magistrī Marcum amant. Nēmō Marcum pulsat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The cane never sees Marcus.",
+   "la": "Ferula Marcum numquam videt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "At eleven years old Marcus does a new thing. Marcus puts on a pallium: the pallium is the simple, rough cloak of Greek philosophers.",
+   "la": "Ūndecim annōs nātus Marcus novam rem facit. Marcus pallium induit: pallium est vestis simplex et dūra philosophōrum Graecōrum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Marcus does not sleep in a bed. Marcus sleeps on the floor, on the ground. Marcus wants a hard life.",
+   "la": "Marcus in lectō nōn dormit. Marcus in solō dormit, in humō. Marcus vītam dūram vult."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus sees this. Porcellus sees Marcus dressed in the cloak, in the street, with a book.",
+   "la": "Porcellus hoc videt. Porcellus Marcum palliō vestītum videt, in viā, cum librō."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Marcus! What is this outfit? Is it a woman's tunic?",
+   "la": "Marce! Quid est haec vestis? Estne tunica fēminae?"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "It is a pallium. I am a philosopher. A philosopher does not long for soft things. A philosopher sleeps on the ground.",
+   "la": "Est pallium. Ego sum philosophus. Philosophus nōn dēsīderat rēs mollēs. Philosophus in humō dormit."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "On the ground? On the earth?",
+   "la": "In humō? In terrā?"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "On the earth. Without a bed. Body hard, mind free.",
+   "la": "In terrā. Sine lectō. Corpus dūrum, animus līber."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I always sleep on the earth. In the pig pen. With the pigs. Since I was a baby.",
+   "la": "Ego semper in terrā dormiō. In harā. Cum porcīs. Ab īnfantiā."
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "...That is true.",
+   "la": "…Vērum est."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "So I am a philosopher? Since I was a baby?",
+   "la": "Ergō ego sum philosophus? Ab īnfantiā?"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "Perhaps. But a philosopher also thinks.",
+   "la": "Fortasse. Sed philosophus etiam cōgitat."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I think! About sausages!",
+   "la": "Ego cōgitō! Dē botulīs!"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "You have been saying this. For five years.",
+   "la": "Hoc iam dīcis. Quīnque annōs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus runs home.",
+   "la": "Porcellus domum currit."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Bucca! I am a philosopher! Marcus says so!",
+   "la": "Bucca! Ego sum philosophus! Marcus dīcit!"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "A philosopher! My son! A philosopher! How much money does a philosopher get?",
+   "la": "Philosophus! Fīlius meus! Philosophus! Quantum pecūniae accipit philosophus?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Nothing.",
+   "la": "Nihil."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Oh. Then Porcellus is my son. Not a philosopher.",
+   "la": "Ō. Tum Porcellus est fīlius meus. Nōn philosophus."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "A real Latin text: Historia Augusta, Vīta Marcī 2.2, 2.6.",
+   "la": "Textus vērus: Historia Augusta, Vīta Marcī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A real book: Marcus's teachers, and the hard ground.",
+   "la": "Liber vērus: magistrī Marcī, et humus dūra."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The Historia Augusta tells about Marcus's teachers. For his first letters Marcus has the teacher Euphorion, and Geminus, an actor, and Andron, a teacher of music and geometry.",
+   "la": "Historia Augusta dē magistrīs Marcī nārrat. Ad prīmās litterās Marcus magistrum Euphoriōnem habet, et Geminum, histriōnem, et Andrōnem, magistrum mūsicae et geōmetriae."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Marcus loves philosophy very much, even as a boy. Entering his twelfth year, that is, at eleven years old, Marcus takes on the dress of a philosopher.",
+   "la": "Marcus philosophiam valdē amat, etiam puer. Duodecimum annum ingrediēns (id est ūndecim annōs nātus) Marcus habitum philosophī sūmit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "He studies in the cloak and sleeps on the ground.",
+   "la": "In palliō studet et in humō cubat."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "The real text.",
+   "la": "Textus ipse."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "For his first lessons he had the teachers Euphorion for letters and Geminus the comic actor,",
+   "la": "Usus est magistris ad prima elementa Euforione litteratore et Gemino comoedo,"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "and Andron for music, who was also a geometry teacher.",
+   "la": "musico Androne eodemque geometra."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "He gave himself to philosophy with passion, and that while still a boy.",
+   "la": "Philosophiae operam vehementer dedit et quidem adhuc puer."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "For when he entered his twelfth year he took on the dress of a philosopher, and then its toughness,",
+   "la": "Nam duodecimum annum ingressus habitum philosophi sumpsit et deinceps tolerantiam,"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "since he studied in the cloak and slept on the ground.",
+   "la": "cum studeret in pallio et humi cubaret."
+  },
+  {
+   "who": "N",
+   "kind": "en_only",
+   "en": "Historia Augusta, Life of Marcus 2.2 and 2.6. Real names of real teachers: Euphorion (the ABC), Geminus (a comic actor, for speaking well), Andron (music and geometry). At eleven (\"entering his twelfth year\") Marcus put on the philosopher's cloak (pallium) and slept on the ground (\"humi\", a locative!). Third declension: \"Euforione\", \"Androne\", \"litteratore\". Porcellus has slept on the ground for eleven years. Nobody writes a book about him. Except this one."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading three: Not yet light.",
+   "la": "Lectiō tertia: Lūx nōndum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "School starts before dawn. A certain neighbour is angry.",
+   "la": "Lūdus ante lūcem incipit. Vīcīnus quīdam īrātus est."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Now Porcellus goes to school every day. School starts before daylight. The cocks are not crowing yet.",
+   "la": "Nunc Porcellus cotīdiē in lūdum it. Lūdus incipit ante lūcem. Gallī nōndum cantant."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "But Plagosus is already shouting, and the cane is already coming down. The pupils shout the letters: \"A! B! C! D!\" The parrot shouts: \"A! B! Sausage!\" Hannibal the goat eats the wax tablets.",
+   "la": "Sed Plāgōsus iam clāmat, et ferula iam cadit. Discipulī clāmant litterās: \"A! B! C! D!\" Psittacus clāmat: \"A! B! Botulus!\" Hannibal caper tabulās cērātās edit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The wax is sweet. Hannibal loves wax.",
+   "la": "Cēra est dulcis. Hannibal cēram amat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In a block of flats near the school lives a poor man, a poet. Nobody knows his name.",
+   "la": "In īnsulā prope lūdum habitat vir pauper, poēta. Nōmen eius nēmō scit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The poet writes through the night and wants to sleep in the morning. The poet shouts through the window.",
+   "la": "Poēta per noctem scrībit et māne dormīre vult. Poēta per fenestram clāmat."
+  },
+  {
+   "who": "Poēta",
+   "kind": "line",
+   "en": "You wicked teacher! What have you got against us? The cocks are not crowing yet, and you are already thundering! The bulls in the amphitheatre shout less!",
+   "la": "Magister scelerāte! Quid tibi nōbīscum est? Gallī nōndum cantant, et tū iam tonās! Taurī in amphitheātrō minus clāmant!"
+  },
+  {
+   "who": "Plāgōsus",
+   "kind": "line",
+   "en": "Be quiet, poet! You sell nothing! You are poor!",
+   "la": "Tacē, poēta! Tū nihil vēndis! Tū es pauper!"
+  },
+  {
+   "who": "Poēta",
+   "kind": "line",
+   "en": "And you are bald!",
+   "la": "Et tū es calvus!"
+  },
+  {
+   "who": "Psittacus",
+   "kind": "line",
+   "en": "Bald! Bald!",
+   "la": "Calvus! Calvus!"
+  },
+  {
+   "who": "Plāgōsus",
+   "kind": "line",
+   "en": "I get money for shouting!",
+   "la": "Ego pecūniam accipiō prō clāmōre!"
+  },
+  {
+   "who": "Poēta",
+   "kind": "line",
+   "en": "And I will give you more for silence!",
+   "la": "Et ego tibi plūs dō prō silentiō!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The poet throws a coin through the window. The coin hits Plagosus on his bald head.",
+   "la": "Poēta nummum per fenestram iacit. Nummus Plāgōsum in capite calvō percutit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Plagosus falls. The pupils are silent. Then the pupils clap.",
+   "la": "Plāgōsus cadit. Discipulī tacent. Deinde discipulī plaudunt."
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "This poet is perhaps Martial.",
+   "la": "Hic poēta est fortasse Mārtiālis."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Martial is dead. For many years.",
+   "la": "Mārtiālis est mortuus. Multōs annōs."
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "So this is an imitator of Martial. In Rome there are many.",
+   "la": "Ergō hic est imitātor Mārtiālis. Rōmae multī sunt."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "A real Latin text: Mārtiālis, Epigrammata 9.68.1–4, 9–12.",
+   "la": "Textus vērus: Mārtiālis, Epigrammata."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Martial does not like the schoolmaster.",
+   "la": "Mārtiālis magistrum lūdī nōn amat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Sabidius recites a poem of Martial.",
+   "la": "Sabidius carmen Mārtiālis dīcit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The poet calls the schoolmaster: \"What have you got against us, wicked teacher, whom boys and girls hate? The cocks are not crowing yet, and you are already thundering with savage growls and blows... We neighbours ask for sleep: not the whole night, but part. Send your pupils home! Do you want, you chatterbox, to get as much for silence as you get for shouting?\"",
+   "la": "Poēta magistrum lūdī vocat: \"Quid tibi nōbīscum est, magister scelerāte, quem puerī et puellae ōdērunt? Gallī nōndum cantant, et tū iam murmure saevō et plāgīs tonās… Nōs, vīcīnī, somnum petimus: nōn tōtam noctem, sed partem. Dīmitte discipulōs tuōs! Vīsne, garrule, tantum prō silentiō accipere, quantum prō clāmōre accipis?\""
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "The real text.",
+   "la": "Textus ipse."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "What have you got against us, wicked schoolmaster,",
+   "la": "Quid tibi nobiscum est, ludi scelerate magister,"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "a head hated by boys and girls?",
+   "la": "invisum pueris virginibusque caput?"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "The crested cocks have not yet broken the silence:",
+   "la": "nondum cristati rupere silentia galli:"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "already you thunder with savage growls and blows.",
+   "la": "murmure iam saevo verberibusque tonas."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "We neighbours ask for sleep, not for the whole night:",
+   "la": "vicini somnum (non tota nocte) rogamus:"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "for to be awake is light, to be awake all night is hard.",
+   "la": "nam vigilare leve est, pervigilare grave est."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Send your pupils home. Do you want, chatterbox, to get as much",
+   "la": "discipulos dimitte tuos. Vis, garrule, quantum"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "for keeping quiet as you get for shouting?",
+   "la": "accipis ut clames, accipere ut taceas?"
+  },
+  {
+   "who": "N",
+   "kind": "en_only",
+   "en": "Martial, Epigrams 9.68 (about 94 AD): a neighbour against the school next door. \"What have you got against us, you criminal schoolmaster, a head hated by boys and girls? The crested cocks have not yet broken the silence: already you thunder with savage growling and beatings. ... We neighbours ask for sleep (not all night): to be awake is light, to be awake all night is heavy. Send your pupils home. Do you want, chatterbox, to be paid as much to shut up as you are paid to shout?\" Third declension and adjectives: \"murmure saevo\" (with savage growling), \"cristati galli\" (crested cocks), \"invisum caput\" (a hated head). Romans complained about noise like we do."
+  },
+  {
+   "who": "Frāter",
+   "kind": "head",
+   "en": "In the margin: Brother Unknown.",
+   "la": "Margō: Frāter Ignōtus."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Brother Unknown remembers Brother Ralph's cane.",
+   "la": "Frāter Ignōtus ferulam Frātris Rādulfī meminit."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I, Brother Unknown, was a boy in the monastery school. Our teacher, Brother Ralph, has a cane.",
+   "la": "Ego, Frāter Ignōtus, puer in scholā mōnastēriī eram. Magister noster, Frāter Rādulfus, ferulam habet."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Ralph's cane is longer than Plagosus's cane. I learn \"rex, regis\" with tears.",
+   "la": "Ferula Rādulfī est longior quam ferula Plāgōsī. Ego \"rēx, rēgis\" discō cum lacrimīs."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Now I know \"rex, regis\". Now there are no tears. Now I have the cane.",
+   "la": "Nunc \"rēx, rēgis\" sciō. Nunc lacrimae nōn sunt. Nunc ego ferulam habeō."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "The novices learn \"rex, regis\". This is the order of the world.",
+   "la": "Novīciī \"rēx, rēgis\" discunt. Hic est ōrdō mundī."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "An old saying of schools: \"He who spares his rod hates his son.\"",
+   "la": "Vetus verbum scholārum: \"Quī parcit virgae suae, ōdit fīlium suum.\"."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "The novices do not love this saying.",
+   "la": "Novīciī hoc verbum nōn amant."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Epilogue: what happened?",
+   "la": "Epilogus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca sent Porcellus to school. Plāgōsus questioned him, and Porcellus called \"C\" a sausage. The cane came down. The parrot called Plāgōsus bald. Marcus put on the philosopher's cloak and slept on the ground.",
+   "la": "Bucca Porcellum in lūdum mīsit. Plāgōsus eum interrogāvit, et Porcellus \"C\" botulum vocāvit. Ferula cecidit. Psittacus Plāgōsum calvum vocāvit. Marcus pallium philosophī sūmpsit et in humō dormīvit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus said: \"I have been a philosopher since I was a baby!\" Bucca asked: \"How much money?\" In the morning a poor poet shouted from a window and threw a coin.",
+   "la": "Porcellus dīxit: \"Ego sum philosophus ab īnfantiā!\" Bucca rogāvit: \"Quantum pecūniae?\" Māne poēta pauper ē fenestrā clāmāvit et nummum iēcit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The coin hit Plāgōsus.",
+   "la": "Nummus Plāgōsum percussit."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "What next?",
+   "la": "Quid deinde?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Now Porcellus can read: sausages, fish sauce, wine. Is it enough? Bucca thinks it is enough. Soon there will be games in Rome, and a play by Plautus in the great theatre. Hadrian himself will watch. And Porcellus... Porcellus will be on stage.",
+   "la": "Nunc Porcellus legere potest: botulōs, garum, vīnum. Satisne est? Bucca putat: satis est. Mox Rōmae erunt lūdī, et fābula Plautī in theātrō magnō. Hadriānus ipse spectābit. Et Porcellus… Porcellus erit in scaenā."
+  }
+ ]
+}

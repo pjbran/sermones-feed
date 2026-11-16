@@ -1,0 +1,1125 @@
+{
+ "type": "book",
+ "show": "vir",
+ "slug": "capitulum-02",
+ "date": "2026-11-16T18:02:00+11:00",
+ "title": "Capitulum 2 · Garum Pompēiānum (The Pompeii fish sauce) · English → Latin, then Latin × 2",
+ "summary": "Vir Rōmānus, Part I, chapter 2 (125 AD, Porcellus is 4; level A1–A2). It is the year 125. Porcellus is four. Bucca has bad fish sauce and wants the best: Scaurus's fish sauce, from the town of Pompeii. But Bibulus knows something about Pompeii. Bucca, Porcellus and Bibulus make the trip. There they will find a clever man, and walls full of filthy words. Grammar: Cuius? Genitīvus · numerī I–X · quot?. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "max_credits": 10088,
+ "keep_credits": 1000,
+ "music": "v5",
+ "bitrate": "64k",
+ "voices": {
+  "N": "name:Rossana",
+  "BUCCA": {
+   "name": "Bucca (Vir Rōmānus)",
+   "design": "A huge, loud woman in her forties who runs a street cookshop in ancient Rome: booming, warm, raspy chest voice, bossy, quick and funny. Speaks English with a light Italian accent (never American).",
+   "sample": "Sausages! Hot sausages! One coin! What do you want? Do you want food? The cabbages are good. Be quiet, Bibulus, I am talking!",
+   "fallback": "name:Rossana"
+  },
+  "PORC": {
+   "name": "Porcellus (Vir Rōmānus)",
+   "design": "A cheeky, greedy, loud eleven-year-old boy: bright, a bit nasal, always excited, often with his mouth full. Speaks English with a light Italian accent (never American).",
+   "sample": "I am the emperor! Marcus, am I bigger than you? I think about sausages. I always think. Give me the sausage, please! Oink!",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "MARCUS": {
+   "name": "Marcus (Vir Rōmānus)",
+   "design": "A serious, calm, very polite twelve-year-old boy: clear, precise, gentle and thoughtful, a little old for his age. Speaks English with a light Italian accent (never American).",
+   "sample": "I am reading. The book is about philosophy. A philosopher is a man who thinks, a man who looks for the truth. I will not ride without a reason.",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "BIBULUS": {
+   "name": "Bibulus (Vir Rōmānus)",
+   "design": "A lazy old drunk man in his sixties: hoarse, slow, slurred and sleepy, gravelly, deadpan. Speaks English with a light Italian accent (never American).",
+   "sample": "Mmmph. What is this? Water? I would rather die. I am the emperor of wine. Bucca, I want to tell you something... Nothing. I know nothing.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PRIMUS": {
+   "name": "Primus (Vir Rōmānus)",
+   "design": "A pompous, theatrical middle-aged man who thinks he is a great prophet: rich booming baritone, grand and dramatic. Speaks English with a light Italian accent (never American).",
+   "sample": "Look! A new star! Today on this hill a king is born! O king! O future emperor! Look, gold! All kings smell, woman. All of them.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SECUNDUS": {
+   "name": "Secundus (Vir Rōmānus)",
+   "design": "A fat, practical, slightly whiny middle-aged man: nasal tenor voice, sceptical and dry. Speaks English with a light Italian accent (never American).",
+   "sample": "Where? The sky is big, Primus. Where in the sky? Which of the two houses? It is the smell of cabbages. And of pigs. Surely not.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "TERTIUS": {
+   "name": "Tertius (Vir Rōmānus)",
+   "design": "A tiny, very old man who is nearly deaf and nearly blind: thin, high, quavering, confused and sweet. Speaks English with a light Italian accent (never American).",
+   "sample": "What is it? Is it the moon? Oh! Who is hitting me? The wall is rude. Is the dog the king? Oh. Kind people. Where is the world?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MONK": {
+   "name": "Frater Ignotus (Vir Rōmānus)",
+   "design": "A grumpy elderly English monk in a cold medieval monastery: dry, low, weary and deadpan, a sarcastic murmur. British English accent (never American).",
+   "sample": "I am Brother Unknown. The year is eleven fifty. The monastery is cold. The ink is cold. My fingers are cold. The abbot says: write this book. I write.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SABIDIUS": {
+   "name": "Sabidius (Vir Rōmānus)",
+   "design": "A lazy, smug, elderly Greek philosopher who is a useless slave: soft, slow, silky, superior and unbothered. Speaks English with a Greek accent (never American).",
+   "sample": "You buy my body. You do not buy my mind. My mind is free. My mind does not cut cabbages. Work is patient. Work waits. I am a philosopher.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "HADRIAN": {
+   "name": "Hadrian (Vir Rōmānus)",
+   "design": "A commanding Roman emperor in his fifties: deep, warm, authoritative, amused, a rich and slow voice. Speaks English with a light Italian accent (never American).",
+   "sample": "Hello, Marcus! This horse is yours. Ha! Listen to him! You are not Verus, Marcus. You are Verissimus! And who are you, little one?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PLAGOSUS": {
+   "name": "Plagosus (Vir Rōmānus)",
+   "design": "A small, bald, furious schoolmaster: sharp, barking, nasal, shouting and strict. Speaks English with a light Italian accent (never American).",
+   "sample": "A new pupil! What is your name? Do you know your letters? Not even A? In my school nobody laughs. In my school everybody learns. Or hurts.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PARROT": {
+   "name": "Psittacus (Vir Rōmānus)",
+   "design": "A shrill, squawky cartoon parrot: high, scratchy, screeching, fast, repeating words, very comic. Not American.",
+   "sample": "Hello! Hello! Stupid Bucca! Stupid Bucca! Emperor! Emperor! Sausage! Sausage! When do we get to Rome? When do we get to Rome?",
+   "fallback": "name:Rossana"
+  },
+  "MAN1": {
+   "name": "Romanus (Vir Rōmānus)",
+   "design": "A gruff working-class man in his forties from ancient Rome: rough, tired, impatient, deep. Speaks English with a light Italian accent (never American).",
+   "sample": "What do you want? Here nobody is born. Go away, or the dog comes! The best slaves! Buy, citizens! Dinner is three coins. Here you pay.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MAN2": "name:Pater (Leō Parvus)"
+ },
+ "cast": {
+  "N": "N",
+  "Frāter": "MONK",
+  "Bucca": "BUCCA",
+  "Porcellus": "PORC",
+  "Īnfāns": "PORC",
+  "Porcellus (Staphyla)": "PORC",
+  "Marcus": "MARCUS",
+  "Bibulus": "BIBULUS",
+  "Prīmus": "PRIMUS",
+  "Secundus": "SECUNDUS",
+  "Tertius": "TERTIUS",
+  "Sabidius": "SABIDIUS",
+  "Hadriānus": "HADRIAN",
+  "Plāgōsus": "PLAGOSUS",
+  "Psittacus": "PARROT",
+  "Servus": "MAN1",
+  "Mīles": "MAN1",
+  "Mercātor": "MAN1",
+  "Caupō": "MAN1",
+  "Dominus gregis": "MAN1",
+  "Vir": "MAN2",
+  "Alius mīles": "MAN2",
+  "Fūrius": "MAN2",
+  "Poēta": "MAN2",
+  "Histriō": "MAN2",
+  "Diaulus": "PRIMUS",
+  "Pinguis": "PRIMUS",
+  "Eucliō novus": "TERTIUS"
+ },
+ "sfx": {
+  "goat": [
+   "A single billy goat bleating loudly, close up, \"meh-eh-eh\"",
+   2
+  ]
+ },
+ "items": [
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Vir Rōmānus. Chapter two: The Pompeii fish sauce.",
+   "la": "Capitulum secundum: Garum Pompēiānum."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Prologue: what will happen?",
+   "la": "Prōlogus. Quid fīet?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "It is the year 125. Porcellus is four. Bucca has bad fish sauce and wants the best: Scaurus's fish sauce, from the town of Pompeii. But Bibulus knows something about Pompeii. Bucca, Porcellus and Bibulus make the trip. There they will find a clever man, and walls full of filthy words.",
+   "la": "Annus est centēsimus vīcēsimus quīntus. Porcellus quattuor annōs habet. Bucca garum malum habet et garum optimum vult: garum Scaurī, ex oppidō Pompēiīs. Sed Bibulus aliquid dē Pompēiīs scit. Bucca, Porcellus et Bibulus iter faciunt. Ibi virum callidum invenient, et mūrōs plēnōs verbōrum foedōrum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Grammar: the genitive (whose?), the numbers one to ten, and quot? (how many?).",
+   "la": "Grammatica: genitīvus (cuius?), numerī ab ūnō ad decem, et quot?"
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Grammar.",
+   "la": "Grammatica."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Whose is this pig? The pig is Bucca's. Whose is this wine? The wine is Bibulus's. It is no longer Bibulus's wine: Bibulus drinks it. \"Buccae\" and \"Bibulī\" are the genitive: whose a thing is.",
+   "la": "Cuius est hic porcus? Porcus est Buccae. Cuius est hoc vīnum? Vīnum est Bibulī. Iam nōn est vīnum Bibulī: Bibulus id bibit. \"Buccae\" et \"Bibulī\" sunt genitīvus: cuius rēs est."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "ūnus, ūna (genitīvus) — multī, multae (genitīvus)"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "Bucca → Buccae — coquae → coquārum"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "Bibulus → Bibulī — porcī → porcōrum"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "ōvum → ōvī — ōva → ōvōrum"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The genitive often stands after the thing: \"Scaurus's house\", \"Bucca's nose\", \"the smell of the pigs\". The smell of the pigs is strong. The smell of Bibulus is stronger.",
+   "la": "Genitīvus saepe post rem stat: \"domus Scaurī\", \"nāsus Buccae\", \"odor porcōrum\". Odor porcōrum est fortis. Odor Bibulī est fortior."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Numbers: one, two, three, four, five, six, seven, eight, nine, ten. Quot? = how many?",
+   "la": "Numerī: ūnus, duo, trēs, quattuor, quīnque, sex, septem, octō, novem, decem. Quot? = quam multī?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "\"How many pigs are in the pig pen?\" — \"Seven.\" \"How many pigs are in the cookshop?\" — \"Eight, if you count Bibulus.\"",
+   "la": "\"Quot porcī sunt in harā?\" — \"Septem.\" \"Quot porcī sunt in popīnā?\" — \"Octō, sī Bibulum numerās.\""
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "New words.",
+   "la": "Verba nova."
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "the genitive (case)",
+   "la": "genitīvus, genitīvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "cunning, clever",
+   "la": "callidus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "ash, ashes",
+   "la": "cinis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "ditch, trench",
+   "la": "fossa"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "jar, jug",
+   "la": "urceus, urceī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I taste",
+   "la": "gustō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "rock, boulder",
+   "la": "saxum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "nearer, closer",
+   "la": "propius"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "forty",
+   "la": "quadrāgintā"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "some, several",
+   "la": "nōnnūllī, nōnnūllae, nōnnūlla"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "dig",
+   "la": "fodiō, fodere, fōdī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "costly, valuable",
+   "la": "pretiōsus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "grey",
+   "la": "griseus, grisea, griseum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "she-goat",
+   "la": "capra, caprae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "thin, skinny",
+   "la": "macer, macra, macrum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "hello (to more than one)",
+   "la": "salvēte"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "wet",
+   "la": "madidus, madida, madidum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "moisture, fluid",
+   "la": "ūmor"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "wet, damp",
+   "la": "ūmidus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "drunk",
+   "la": "ēbrius"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "piss",
+   "la": "mingō, mingere, mīnxī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "chamber pot",
+   "la": "matella, matellae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "jar, vessel",
+   "la": "vās"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "shit",
+   "la": "cacō, cacāre, cacāvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "charcoal, a lump of coal",
+   "la": "carbō, carbōnis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "tail",
+   "la": "cauda"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "green",
+   "la": "viridis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "of the sea",
+   "la": "marīnus, marīna, marīnum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I jump",
+   "la": "saliō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I kiss",
+   "la": "ōsculor"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "monk",
+   "la": "mōnachus, mōnachī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "drink",
+   "la": "pōtus"
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading one: The best fish sauce.",
+   "la": "Lectiō prīma: Garum optimum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca tastes the fish sauce and makes a plan.",
+   "la": "Bucca garum gustat et cōnsilium capit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The year is 125. Porcellus is now four years old. Porcellus is a small, fat boy.",
+   "la": "Annus est centēsimus vīcēsimus quīntus. Porcellus nunc quattuor annōs habet. Porcellus est puer parvus et crassus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus's nose is red. Porcellus's voice is loud, like Bucca's voice.",
+   "la": "Nāsus Porcellī est rubicundus. Vōx Porcellī est magna, sīcut vōx Buccae."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus's feet are always dirty.",
+   "la": "Pedēs Porcellī semper sunt sordidī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the cookshop Bucca tastes the fish sauce. She makes a sad face.",
+   "la": "In popīnā Bucca garum gustat. Faciem trīstem facit."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "This fish sauce is bad.",
+   "la": "Hoc garum est malum."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "All fish sauce is bad. Fish sauce is a dead fish in a pot.",
+   "la": "Omne garum est malum. Garum est piscis mortuus in ollā."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "No! There is good fish sauce. In the world there is the best fish sauce: the fish sauce of Scaurus.",
+   "la": "Minimē! Est garum bonum. In mundō est garum optimum: garum Scaurī."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Whose?",
+   "la": "Cuius?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Scaurus's! Umbricius Scaurus's! The fish sauce of Scaurus is the fish sauce of kings. The fish sauce of the gods!",
+   "la": "Scaurī! Umbriciī Scaurī! Garum Scaurī est garum rēgum. Garum deōrum!"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "The fish sauce of the gods! Where is it?",
+   "la": "Garum deōrum! Ubi est?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "In the town of Pompeii. In Campania. Near the sea.",
+   "la": "In oppidō Pompēiīs. In Campāniā. Prope mare."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "In Pompeii? Bucca... Pompeii...",
+   "la": "Pompēiīs? Bucca… Pompēiī…"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "What, Bibulus?",
+   "la": "Quid, Bibule?"
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Nothing. Nothing. Why do you ask me? I am Bibulus. I know nothing.",
+   "la": "Nihil. Nihil. Cūr mē rogās? Ego sum Bibulus. Ego nihil sciō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca counts her money: one coin, two coins, three coins... ten coins.",
+   "la": "Bucca pecūniam numerat: ūnus nummus, duo nummī, trēs nummī… decem nummī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Ten coins are Bucca's money. All of Bucca's money.",
+   "la": "Decem nummī sunt pecūnia Buccae. Tōta pecūnia Buccae."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Tomorrow we go. Me, Porcellus and Bibulus. Bibulus carries the sack.",
+   "la": "Crās īmus. Ego, Porcellus et Bibulus. Bibulus saccum portat."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Why me?",
+   "la": "Cūr ego?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Because you always sit. The sack always sits too. You are friends.",
+   "la": "Quia tū semper sedēs. Saccus quoque semper sedet. Amīcī estis."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Excursus: Mount Vesuvius. True!",
+   "la": "Excursus: Mōns Vesuvius. Vērum!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "What happened at Pompeii in the year 79?",
+   "la": "Quid Pompēiīs accidit annō septuāgēsimō nōnō?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is true. Near Pompeii there is a mountain: Vesuvius. In the year 79 Mount Vesuvius burns.",
+   "la": "Hoc est vērum. Prope Pompēiōs est mōns: Vesuvius. Annō septuāgēsimō nōnō mōns Vesuvius ārdet."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Fire and ash and stones fall from the sky. The towns of Pompeii and Herculaneum lie under the ash.",
+   "la": "Ignis et cinis et saxa dē caelō cadunt. Oppida Pompēiī et Herculāneum sub cinere iacent."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Many people die. Among them is a learned man, Pliny the Elder, who wants to see the burning mountain closer.",
+   "la": "Multī hominēs moriuntur. Inter eōs est vir doctus, Plīnius Maior, quī montem ārdentem propius vidēre vult."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is a bad plan.",
+   "la": "Hoc est cōnsilium malum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the year 125 Pompeii has already lain under the ash for forty-six years. People know the place.",
+   "la": "Annō centēsimō vīcēsimō quīntō Pompēiī iam quadrāgintā sex annōs sub cinere iacent. Hominēs locum sciunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Some dig and look for precious things: gold, silver, statues. Afterwards people forget the place.",
+   "la": "Nōnnūllī fodiunt et rēs pretiōsās quaerunt: aurum, argentum, statuās. Posteā hominēs locum oblīvīscuntur."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the year 1748 people start to dig again. Today you can visit Pompeii: houses, streets, shops and walls full of writing.",
+   "la": "Annō mīllēsimō septingentēsimō quadrāgēsimō octāvō hominēs iterum fodere incipiunt. Hodiē Pompēiōs vīsere potes: domūs, viās, tabernās et mūrōs plēnōs litterārum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "And the fish sauce? This too is true: Aulus Umbricius Scaurus makes and sells fish sauce in Pompeii.",
+   "la": "Et garum? Etiam hoc est vērum: Aulus Umbricius Scaurus garum Pompēiīs facit et vēndit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In Scaurus's house there are pictures of jars, and on the jars it is written: \"The best fish sauce of Scaurus\".",
+   "la": "In domō Scaurī sunt imāginēs urceōrum, et in urceīs scrīptum est: \"Garum optimum Scaurī\"."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Scaurus is the king of fish sauce. The king of rotten fish.",
+   "la": "Scaurus est rēx garī. Rēx piscium putridōrum."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading two: Pompeii.",
+   "la": "Lectiō secunda: Pompēiī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The trip to Pompeii. Where is the town? And who is the man in the ditch?",
+   "la": "Iter ad Pompēiōs. Ubi est oppidum? Et quis est vir in fossā?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "After three days Bucca, Porcellus and Bibulus stand near Pompeii. In front of them there is no town.",
+   "la": "Post trēs diēs Bucca, Porcellus et Bibulus prope Pompēiōs stant. Ante eōs nōn est oppidum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In front of them is a hill of ash. The hill is big, grey, silent. There are grass and two goats there.",
+   "la": "Ante eōs est collis cineris. Collis est magnus, griseus, tacitus. Ibi sunt herbae et caprae duae."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Where is the town?",
+   "la": "Ubi est oppidum?"
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Look, the town.",
+   "la": "Ecce oppidum."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "This is not a town. This is ash.",
+   "la": "Hoc nōn est oppidum. Hoc est cinis."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "In the year 79 there was a town. Now it is ash. I want to tell you this, Bucca. But you talk, talk, talk.",
+   "la": "Annō septuāgēsimō nōnō erat oppidum. Nunc est cinis. Hoc tibi dīcere volō, Bucca. Sed tū loqueris, loqueris, loqueris."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Where is the fish sauce of the gods?",
+   "la": "Ubi est garum deōrum?"
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Under the ash, little one. With Scaurus.",
+   "la": "Sub cinere, parve. Cum Scaurō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Suddenly a man comes out of a ditch. The man is small and thin. The man's tunic is dirty.",
+   "la": "Subitō ex fossā venit vir. Vir est parvus et macer. Tunica virī est sordida."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The man's eyes are quick. The man's name is Furius.",
+   "la": "Oculī virī sunt celerēs. Nōmen virī est Fūrius."
+  },
+  {
+   "who": "Fūrius",
+   "kind": "line",
+   "en": "Hello, friends! Are you looking for fish sauce? Scaurus's fish sauce?",
+   "la": "Salvēte, amīcī! Garum quaeritis? Garum Scaurī?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Yes! How do you know?",
+   "la": "Ita! Quōmodo scīs?"
+  },
+  {
+   "who": "Fūrius",
+   "kind": "line",
+   "en": "Everybody is looking for Scaurus's fish sauce. I have Scaurus's fish sauce. Real fish sauce! Forty-six years under the ash.",
+   "la": "Omnēs garum Scaurī quaerunt. Ego garum Scaurī habeō. Vērum garum! Quadrāgintā sex annōs sub cinere."
+  },
+  {
+   "who": "Fūrius",
+   "kind": "line",
+   "en": "Old fish sauce is good fish sauce!",
+   "la": "Garum vetus est garum bonum!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Furius shows a jar. On the jar it is written: \"GARUM OF SCAURUS\". The letters are new.",
+   "la": "Fūrius urceum ostendit. In urceō est scrīptum: \"GARVM SCAVRI\". Litterae sunt novae."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The ink is wet.",
+   "la": "Ātrāmentum est madidum."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "The ink is wet.",
+   "la": "Ātrāmentum est madidum."
+  },
+  {
+   "who": "Fūrius",
+   "kind": "line",
+   "en": "It is... it is the dampness of the ash. The ash is damp.",
+   "la": "Est… est ūmor cineris. Cinis est ūmidus."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "How much does it cost?",
+   "la": "Quantī cōnstat?"
+  },
+  {
+   "who": "Fūrius",
+   "kind": "line",
+   "en": "Ten coins.",
+   "la": "Decem nummī."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Ten! I have ten coins!",
+   "la": "Decem! Habeō decem nummōs!"
+  },
+  {
+   "who": "Fūrius",
+   "kind": "line",
+   "en": "What a wonder! That is the price. The gods want it.",
+   "la": "Quid mīrum! Hoc est pretium. Deī volunt."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "The gods want it, or Furius wants it?",
+   "la": "Deī volunt, aut Fūrius vult?"
+  },
+  {
+   "who": "Fūrius",
+   "kind": "line",
+   "en": "The gods and Furius are friends.",
+   "la": "Deī et Fūrius sunt amīcī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Furius leads them into the ditch. Under the earth is an old street. There are walls, shops, doors.",
+   "la": "Fūrius eōs in fossam dūcit. Sub terrā est via antīqua. Sunt mūrī, tabernae, iānuae."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "On the walls there are many letters: names, words, pictures.",
+   "la": "In mūrīs sunt multae litterae: nōmina, verba, imāginēs."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "What is this? And this? And this?",
+   "la": "Quid est hoc? Et hoc? Et hoc?"
+  },
+  {
+   "who": "Fūrius",
+   "kind": "line",
+   "en": "These are verses. The people of Pompeii write on the walls. Everyone writes. Boys, women, neighbours, drunks.",
+   "la": "Hī sunt versūs. Pompēiānī in mūrīs scrībunt. Omnēs scrībunt. Puerī, fēminae, vīcīnī, ēbriī."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "What do the walls say?",
+   "la": "Quid dīcunt mūrī?"
+  },
+  {
+   "who": "Fūrius",
+   "kind": "line",
+   "en": "Listen.",
+   "la": "Audīte."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "A real Latin text: Pompēiī, CIL IV 4957, 3146, 1904.",
+   "la": "Textus vērus: Pompēiī, CIL."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The walls of Pompeii speak. And they do not speak nicely.",
+   "la": "Mūrī Pompēiānī loquuntur. Et nōn bene loquuntur."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Furius reads the verses on the walls and explains them. The first verse is on the wall of an inn: guests wet the bed, because there is no chamber pot in the bedroom.",
+   "la": "Fūrius versūs in mūrīs legit et explicat. Prīmus versus est in mūrō dēversōriī: hospitēs in lectō mingunt, quia in cubiculō nūlla matella est."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A chamber pot is a small pot: at night you pee in it. The guests admit the blame, but they give a reason.",
+   "la": "Matella est vās parvum: in eō nocte mingis. Hospitēs culpam fatentur, sed causam dant."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The second verse is short: \"Secundus shits here.\" The third verse is about the wall itself: the wall is tired, because everybody writes on it.",
+   "la": "Secundus versus est brevis: \"Secundus hīc cacat.\" Tertius versus est dē mūrō ipsō: mūrus est fessus, quia omnēs in eō scrībunt."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "The real text.",
+   "la": "Textus ipse."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "We wet the bed. I admit it, we did wrong, host.",
+   "la": "Miximus in lecto. Fateor, peccavimus, hospes."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "If you say: why? There was no chamber pot.",
+   "la": "Si dices: quare? Nulla matella fuit."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Secundus shits here.",
+   "la": "Secundus hic cacat."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I wonder, o wall, that you have not fallen down in ruins,",
+   "la": "Admiror, o paries, te non cecidisse ruinis,"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "you who hold up the boring stuff of so many writers.",
+   "la": "qui tot scriptorum taedia sustineas."
+  },
+  {
+   "who": "N",
+   "kind": "en_only",
+   "en": "Three real Pompeii wall writings, Corpus Inscriptionum Latinarum (CIL) volume IV. (1) CIL IV 4957, in an inn: \"We pissed in the bed. I admit it, host, we did wrong. If you ask why: there was no chamber pot.\" It is a neat elegiac couplet. Poetry, about piss. (2) CIL IV 3146: \"Secundus shits here.\" Rome's oldest status update. (3) CIL IV 1904 and copies: \"I am amazed, O wall, that you have not fallen down in ruins, you who carry the boring scribbles of so many writers.\" Grammar to spot: genitive plural \"scriptorum\" (of writers), \"tot\" = so many, \"te non cecidisse\" = that you have not fallen (accusative + infinitive, coming later in this book)."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading three: Furius's fish sauce.",
+   "la": "Lectiō tertia: Garum Fūriī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca buys the fish sauce. What is in the jar?",
+   "la": "Bucca garum emit. Quid est in urceō?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "\"Secundus shits here\"? Who is Secundus?",
+   "la": "\"Secundus hīc cacat\"? Quis est Secundus?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "The astrologer! Secundus the astrologer!",
+   "la": "Astrologus! Secundus astrologus!"
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Perhaps. Astrologers shit everywhere.",
+   "la": "Fortasse. Astrologī ubīque cacant."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus finds a piece of charcoal on the ground. Porcellus wants to write on the wall. But Porcellus does not know his letters.",
+   "la": "Porcellus carbōnem in terrā invenit. Porcellus in mūrō scrībere vult. Sed Porcellus litterās nōn scit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus draws a pig. Porcellus's pig has four feet and a tail and a big nose.",
+   "la": "Porcellus porcum pingit. Porcus Porcellī quattuor pedēs habet et caudam et nāsum magnum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Under the pig Porcellus draws... something. Nobody knows what. Even today nobody knows.",
+   "la": "Sub porcō Porcellus pingit… aliquid. Nēmō scit quid. Etiam hodiē nēmō scit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca gives the ten coins to Furius. Furius gives the jar to Bucca. Furius laughs. Furius runs.",
+   "la": "Bucca decem nummōs Fūriō dat. Fūrius urceum Buccae dat. Fūrius cachinnat. Fūrius currit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Furius is gone.",
+   "la": "Fūrius abest."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "A kind man.",
+   "la": "Vir benignus."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "A quick man.",
+   "la": "Vir celer."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the street Bucca opens the jar. Bucca tastes the fish sauce. Bucca's face changes.",
+   "la": "In viā Bucca urceum aperit. Bucca garum gustat. Faciēs Buccae mūtātur."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "First it is red. Then it is white. Then it is green.",
+   "la": "Prīmum est rubra. Deinde est alba. Deinde est viridis."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Is it the fish sauce of the gods?",
+   "la": "Estne garum deōrum?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "It is... sea water. And salt. And... one fish. One small fish. And the fish is alive!",
+   "la": "Est… aqua marīna. Et sāl. Et… piscis ūnus. Ūnus parvus piscis. Et piscis vīvit!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The fish jumps out of the jar. Porcellus catches the fish. Porcellus kisses the fish.",
+   "la": "Piscis ex urceō salit. Porcellus piscem capit. Porcellus piscem ōsculātur."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "My friend!",
+   "la": "Amīcus meus!"
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Bucca, I want to tell you: Pompeii...",
+   "la": "Bucca, tibi dīcere volō: Pompēiī…"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "BE QUIET, BIBULUS!",
+   "la": "TACĒ, BIBULE!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "They go back home. Bucca has no coins. Bibulus carries the sack: in the sack is Furius's jar.",
+   "la": "Domum redeunt. Bucca nūllōs nummōs habet. Bibulus saccum portat: in saccō est urceus Fūriī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus carries the fish. The fish is happy. The fish is the only one who is happy.",
+   "la": "Porcellus piscem portat. Piscis est laetus. Piscis est sōlus laetus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In front of the door of the big house sits little Marcus. Marcus too is four years old.",
+   "la": "Ante iānuam domūs magnae sedet Marcus parvus. Marcus quoque quattuor annōs habet."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Marcus is reading a book. Marcus already reads, at four years old.",
+   "la": "Marcus librum legit. Marcus iam legit, quattuor annōs nātus."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "What are you doing?",
+   "la": "Quid facis?"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "I am reading. The book is about philosophy.",
+   "la": "Legō. Liber est dē philosophiā."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I have a fish.",
+   "la": "Ego piscem habeō."
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "Whose is the fish?",
+   "la": "Cuius est piscis?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Mine! The fish of Porcellus!",
+   "la": "Meus! Piscis Porcellī!"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "The fish is not yours. The fish belongs to the sea. The fish is its own master.",
+   "la": "Piscis nōn est tuus. Piscis est maris. Piscis est suī iūris."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus thinks for a long time. Porcellus takes Marcus's book and eats it.",
+   "la": "Porcellus diū cōgitat. Porcellus librum Marcī capit et edit."
+  },
+  {
+   "who": "Frāter",
+   "kind": "head",
+   "en": "In the margin: Brother Unknown.",
+   "la": "Margō: Frāter Ignōtus."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Brother Unknown on walls and on margins.",
+   "la": "Frāter Ignōtus dē mūrīs et dē marginibus."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I, Brother Unknown, have read this chapter. The walls of Pompeii are disgusting. But we monks also write in books, in the margins.",
+   "la": "Ego, Frāter Ignōtus, hoc capitulum lēgī. Mūrī Pompēiānī sunt foedī. Sed et nōs, mōnachī, in librīs scrībimus, in marginibus."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Brother Walter writes: \"Oh, my hand.\" Brother Hugh writes: \"This ink is bad.\" I write nothing.",
+   "la": "Frāter Gualterus scrībit: \"Ō, manus mea.\" Frāter Hugō scrībit: \"Hoc ātrāmentum est malum.\" Ego nihil scrībō."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I am a good monk.",
+   "la": "Ego sum bonus mōnachus."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "An old saying of scribes, at the end of a book: \"Here ends the whole thing; for Christ's sake, give me a drink.\" That is: the book is finished; for Christ's sake, give me something to drink.",
+   "la": "Vetus verbum scrīptōrum, in fīne librī: \"Explicit hoc tōtum; prō Chrīstō dā mihi pōtum.\" Id est: liber est fīnītus; prō Chrīstō, dā mihi aliquid ad bibendum."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I love this saying. Bibulus loves this saying too.",
+   "la": "Hoc verbum amō. Bibulus quoque hoc verbum amat."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Epilogue: what happened?",
+   "la": "Epilogus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca wanted Scaurus's fish sauce. So she went to Pompeii with Porcellus and Bibulus. But they did not find the town: only ash. Fūrius came out of a ditch and sold a jar. Under the ground they read filthy verses on the walls.",
+   "la": "Bucca garum Scaurī voluit. Itaque cum Porcellō et Bibulō Pompēiōs iit. Sed oppidum nōn invēnērunt: tantum cinerem. Fūrius ex fossā vēnit et urceum vēndidit. Sub terrā versūs foedōs in mūrīs lēgērunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus painted a pig on the wall. Bucca paid ten coins, and in the jar there were water, salt and a live fish. In Rome, in front of the big house, Porcellus ate Marcus's book.",
+   "la": "Porcellus porcum in mūrō pīnxit. Bucca decem nummōs dedit, et in urceō erant aqua, sāl et piscis vīvus. Rōmae, ante domum magnam, Porcellus librum Marcī ēdit."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "What next?",
+   "la": "Quid deinde?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus now has a fish for a friend and a book in his belly. Soon Porcellus will see a beautiful horse, and the emperor himself. And the emperor will give him a new name. Not a good name.",
+   "la": "Porcellus nunc piscem amīcum habet et librum in ventre. Mox Porcellus equum pulchrum vidēbit, et imperātōrem ipsum. Et imperātor eī nōmen novum dabit. Nōmen nōn bonum."
+  }
+ ]
+}

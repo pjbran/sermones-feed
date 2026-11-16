@@ -1,0 +1,1020 @@
+{
+ "type": "book",
+ "show": "vir",
+ "slug": "capitulum-05",
+ "date": "2026-11-16T18:05:00+11:00",
+ "title": "Capitulum 5 · Vīlla et caper (The villa and the goat) · English → Latin, then Latin × 2",
+ "summary": "Vir Rōmānus, Part I, chapter 5 (130 AD, Porcellus is 9; level A2). It is the year 130. Porcellus eats too much, and Bucca is poor. So Porcellus goes to the senator Pinguis's villa, near the sea. There he will look after a goat. The goat is called Hannibal. Marcus is at the villa too, as a guest. Pliny's letter, a goat, a roof, a fish pond: everything will end badly. Grammar: Ubi? Unde? Quōcum? Ablātīvus cum praepositiōnibus · Rōmae, domī, rūrī. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "max_credits": 10735,
+ "keep_credits": 1000,
+ "music": "v5",
+ "bitrate": "64k",
+ "voices": {
+  "N": "name:Rossana",
+  "BUCCA": {
+   "name": "Bucca (Vir Rōmānus)",
+   "design": "A huge, loud woman in her forties who runs a street cookshop in ancient Rome: booming, warm, raspy chest voice, bossy, quick and funny. Speaks English with a light Italian accent (never American).",
+   "sample": "Sausages! Hot sausages! One coin! What do you want? Do you want food? The cabbages are good. Be quiet, Bibulus, I am talking!",
+   "fallback": "name:Rossana"
+  },
+  "PORC": {
+   "name": "Porcellus (Vir Rōmānus)",
+   "design": "A cheeky, greedy, loud eleven-year-old boy: bright, a bit nasal, always excited, often with his mouth full. Speaks English with a light Italian accent (never American).",
+   "sample": "I am the emperor! Marcus, am I bigger than you? I think about sausages. I always think. Give me the sausage, please! Oink!",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "MARCUS": {
+   "name": "Marcus (Vir Rōmānus)",
+   "design": "A serious, calm, very polite twelve-year-old boy: clear, precise, gentle and thoughtful, a little old for his age. Speaks English with a light Italian accent (never American).",
+   "sample": "I am reading. The book is about philosophy. A philosopher is a man who thinks, a man who looks for the truth. I will not ride without a reason.",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "BIBULUS": {
+   "name": "Bibulus (Vir Rōmānus)",
+   "design": "A lazy old drunk man in his sixties: hoarse, slow, slurred and sleepy, gravelly, deadpan. Speaks English with a light Italian accent (never American).",
+   "sample": "Mmmph. What is this? Water? I would rather die. I am the emperor of wine. Bucca, I want to tell you something... Nothing. I know nothing.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PRIMUS": {
+   "name": "Primus (Vir Rōmānus)",
+   "design": "A pompous, theatrical middle-aged man who thinks he is a great prophet: rich booming baritone, grand and dramatic. Speaks English with a light Italian accent (never American).",
+   "sample": "Look! A new star! Today on this hill a king is born! O king! O future emperor! Look, gold! All kings smell, woman. All of them.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SECUNDUS": {
+   "name": "Secundus (Vir Rōmānus)",
+   "design": "A fat, practical, slightly whiny middle-aged man: nasal tenor voice, sceptical and dry. Speaks English with a light Italian accent (never American).",
+   "sample": "Where? The sky is big, Primus. Where in the sky? Which of the two houses? It is the smell of cabbages. And of pigs. Surely not.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "TERTIUS": {
+   "name": "Tertius (Vir Rōmānus)",
+   "design": "A tiny, very old man who is nearly deaf and nearly blind: thin, high, quavering, confused and sweet. Speaks English with a light Italian accent (never American).",
+   "sample": "What is it? Is it the moon? Oh! Who is hitting me? The wall is rude. Is the dog the king? Oh. Kind people. Where is the world?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MONK": {
+   "name": "Frater Ignotus (Vir Rōmānus)",
+   "design": "A grumpy elderly English monk in a cold medieval monastery: dry, low, weary and deadpan, a sarcastic murmur. British English accent (never American).",
+   "sample": "I am Brother Unknown. The year is eleven fifty. The monastery is cold. The ink is cold. My fingers are cold. The abbot says: write this book. I write.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SABIDIUS": {
+   "name": "Sabidius (Vir Rōmānus)",
+   "design": "A lazy, smug, elderly Greek philosopher who is a useless slave: soft, slow, silky, superior and unbothered. Speaks English with a Greek accent (never American).",
+   "sample": "You buy my body. You do not buy my mind. My mind is free. My mind does not cut cabbages. Work is patient. Work waits. I am a philosopher.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "HADRIAN": {
+   "name": "Hadrian (Vir Rōmānus)",
+   "design": "A commanding Roman emperor in his fifties: deep, warm, authoritative, amused, a rich and slow voice. Speaks English with a light Italian accent (never American).",
+   "sample": "Hello, Marcus! This horse is yours. Ha! Listen to him! You are not Verus, Marcus. You are Verissimus! And who are you, little one?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PLAGOSUS": {
+   "name": "Plagosus (Vir Rōmānus)",
+   "design": "A small, bald, furious schoolmaster: sharp, barking, nasal, shouting and strict. Speaks English with a light Italian accent (never American).",
+   "sample": "A new pupil! What is your name? Do you know your letters? Not even A? In my school nobody laughs. In my school everybody learns. Or hurts.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PARROT": {
+   "name": "Psittacus (Vir Rōmānus)",
+   "design": "A shrill, squawky cartoon parrot: high, scratchy, screeching, fast, repeating words, very comic. Not American.",
+   "sample": "Hello! Hello! Stupid Bucca! Stupid Bucca! Emperor! Emperor! Sausage! Sausage! When do we get to Rome? When do we get to Rome?",
+   "fallback": "name:Rossana"
+  },
+  "MAN1": {
+   "name": "Romanus (Vir Rōmānus)",
+   "design": "A gruff working-class man in his forties from ancient Rome: rough, tired, impatient, deep. Speaks English with a light Italian accent (never American).",
+   "sample": "What do you want? Here nobody is born. Go away, or the dog comes! The best slaves! Buy, citizens! Dinner is three coins. Here you pay.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MAN2": "name:Pater (Leō Parvus)"
+ },
+ "cast": {
+  "N": "N",
+  "Frāter": "MONK",
+  "Bucca": "BUCCA",
+  "Porcellus": "PORC",
+  "Īnfāns": "PORC",
+  "Porcellus (Staphyla)": "PORC",
+  "Marcus": "MARCUS",
+  "Bibulus": "BIBULUS",
+  "Prīmus": "PRIMUS",
+  "Secundus": "SECUNDUS",
+  "Tertius": "TERTIUS",
+  "Sabidius": "SABIDIUS",
+  "Hadriānus": "HADRIAN",
+  "Plāgōsus": "PLAGOSUS",
+  "Psittacus": "PARROT",
+  "Servus": "MAN1",
+  "Mīles": "MAN1",
+  "Mercātor": "MAN1",
+  "Caupō": "MAN1",
+  "Dominus gregis": "MAN1",
+  "Vir": "MAN2",
+  "Alius mīles": "MAN2",
+  "Fūrius": "MAN2",
+  "Poēta": "MAN2",
+  "Histriō": "MAN2",
+  "Diaulus": "PRIMUS",
+  "Pinguis": "PRIMUS",
+  "Eucliō novus": "TERTIUS"
+ },
+ "sfx": {
+  "goat": [
+   "A single billy goat bleating loudly, close up, \"meh-eh-eh\"",
+   2
+  ]
+ },
+ "items": [
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Vir Rōmānus. Chapter five: The villa and the goat.",
+   "la": "Capitulum quīntum: Vīlla et caper."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Prologue: what will happen?",
+   "la": "Prōlogus. Quid fīet?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "It is the year 130. Porcellus eats too much, and Bucca is poor. So Porcellus goes to the senator Pinguis's villa, near the sea. There he will look after a goat. The goat is called Hannibal. Marcus is at the villa too, as a guest. Pliny's letter, a goat, a roof, a fish pond: everything will end badly.",
+   "la": "Annus est centēsimus trīcēsimus. Porcellus nimis edit, et Bucca pauper est. Itaque Porcellus ad vīllam senātōris Pinguis it, prope mare. Ibi caprum cūrābit. Caper Hannibal vocātur. Marcus quoque in vīllā est, hospes. Epistula Plīniī, caper, tēctum, piscīna: omnia male fīnient."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Grammar: the ablative with prepositions (in the villa, with the goat, without a toga) and the locative (in Rome, at home, in the country).",
+   "la": "Grammatica: ablātīvus cum praepositiōnibus (in vīllā, cum caprō, sine togā) et locātīvus (Rōmae, domī, rūrī)."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Grammar.",
+   "la": "Grammatica."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus works in the villa. The goat walks with Porcellus. The senator shouts without a toga. \"Vīllā\", \"Porcellō\", \"togā\" are the ablative. The ablative answers: where? where from? with whom? how? The ablative is a word that stands after a preposition, like a slave after his master.",
+   "la": "Porcellus in vīllā labōrat. Caper cum Porcellō ambulat. Senātor sine togā clāmat. \"Vīllā\", \"Porcellō\", \"togā\" sunt ablātīvus. Ablātīvus respondet: ubi? unde? quōcum? quōmodo? Ablātīvus est verbum quod post praepositiōnem stat, sīcut servus post dominum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "in, ē / ex, ā / ab, cum, sine, dē, prō, sub + ablātīvus"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "in vīllā — ubi?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "ē vīllā — unde?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "ā marī — unde?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "cum caprō — quōcum?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "sine togā — quōmodo?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "dē tēctō — unde? deorsum!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "But watch out! In + accusative = where to? The goat runs into the villa (motion). The goat is in the villa (place). One letter, a big difference. Like \"caper\" (he-goat) and \"capra\" (she-goat).",
+   "la": "Sed cavē! In + accūsātīvus = quō? Caper in vīllam currit (intrō). Caper in vīllā est (ibi). Ūna littera, magna differentia. Sīcut \"caper\" et \"capra\"."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Ad, per, post, ante, circum, prope, trāns take the accusative: to the villa, through the garden, behind the goat, in front of the door. The goat is always behind Porcellus. Porcellus is always in front of the goat. Somebody is always in the dung.",
+   "la": "Ad, per, post, ante, circum, prope, trāns + accūsātīvus: ad vīllam, per hortum, post caprum, ante iānuam. Caper semper est post Porcellum. Porcellus semper est ante caprum. Aliquis semper est in stercore."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Locative: cities and a few things take no preposition. Rōmae = in Rome. Domī = at home. Rūrī = in the country. Porcellus lives in Rome, but now he works in the country. At home nobody misses him.",
+   "la": "Locātīvus: urbēs et paucae rēs nūllam praepositiōnem habent. Rōmae = in urbe Rōmā. Domī = in domō. Rūrī = in agrīs. Porcellus Rōmae habitat, sed nunc rūrī labōrat. Domī nēmō eum dēsīderat."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "New words.",
+   "la": "Verba nova."
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "he-goat",
+   "la": "caper, caprī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "toga",
+   "la": "toga"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "the ablative (case)",
+   "la": "ablātīvus, ablātīvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "with whom?",
+   "la": "quōcum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "preposition",
+   "la": "praepositiō, praepositiōnis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "down, downwards",
+   "la": "deorsum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "pool",
+   "la": "piscīna"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "the locative (case)",
+   "la": "locātīvus, locātīvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "seventeen",
+   "la": "septendecim"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "moray eel",
+   "la": "mūrēna, mūrēnae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "cousin",
+   "la": "cōnsobrīnus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "far-off, distant",
+   "la": "longinquus, longinqua, longinquum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "inheritance",
+   "la": "hērēditās"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "excursion, side trip",
+   "la": "excursus, excursūs"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "column",
+   "la": "columna"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "yellow, blond",
+   "la": "flāvus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "horn",
+   "la": "cornū"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "snow",
+   "la": "nix"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "fight",
+   "la": "pugna"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "joy",
+   "la": "gaudium"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I eat",
+   "la": "mandūcō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "gulp down, devour",
+   "la": "dēvorō, dēvorāre, dēvorāvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "let down, lower",
+   "la": "dēmittō, dēmittere, dēmīsī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "separate",
+   "la": "sēparō, sēparāre, sēparāvī"
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading one: To the villa.",
+   "la": "Lectiō prīma: Ad vīllam."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus and Sabidius walk to the villa. A goat is waiting for them there.",
+   "la": "Porcellus et Sabidius ad vīllam ambulant. Ibi eōs exspectat caper."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The year is 130. Porcellus is nine years old. Porcellus is a big, fat boy.",
+   "la": "Annus est centēsimus trīcēsimus. Porcellus novem annōs habet. Porcellus est puer magnus et crassus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus eats a lot. Porcellus costs a lot.",
+   "la": "Porcellus multum edit. Porcellus magnō cōnstat."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Porcellus, you are making me poor. You eat too much. You must work.",
+   "la": "Porcelle, tū mē pauperem facis. Tū nimis edis. Tū labōrāre dēbēs."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I work! I taste sausages.",
+   "la": "Ego labōrō! Ego botulōs gustō."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "That is not work. That is dinner. Listen: a rich man, the senator Gnaeus Pinguis, is looking for a boy. The boy looks after a goat.",
+   "la": "Hoc nōn est labor. Hoc est cēna. Audī: vir dīves, senātor Gnaeus Pinguis, puerum quaerit. Puer caprum cūrat."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Pinguis's villa is near the sea, near Laurentum. You work there. You eat there. You sleep there. There Pinguis gives you food, not me.",
+   "la": "Vīlla Pinguis est prope mare, prope Laurentum. Tū ibi labōrās. Ibi edis. Ibi dormis. Ibi Pinguis tibi cibum dat, nōn ego."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "And Sabidius?",
+   "la": "Et Sabidius?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Sabidius goes with you. Sabidius looks after you.",
+   "la": "Sabidius tēcum it. Sabidius tē cūrat."
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Me? Look after a boy? I am a philosopher.",
+   "la": "Ego? Puerum cūrō? Ego sum philosophus."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Excellent. A philosopher loves patience. Here is great patience.",
+   "la": "Optimē. Philosophus patientiam amat. Hīc est patientia magna."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "So Porcellus and Sabidius leave Rome. They walk seventeen miles: along the road, past the fields, under the sun.",
+   "la": "Itaque Porcellus et Sabidius Rōmā discēdunt. Septendecim mīlia passuum ambulant: per viam, prope agrōs, sub sōle."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Sabidius talks about philosophy. Porcellus talks about food. After five hours Sabidius talks about food.",
+   "la": "Sabidius dē philosophiā loquitur. Porcellus dē cibō loquitur. Post quīnque hōrās Sabidius dē cibō loquitur."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "At last they see the villa. The villa is big and white, on the shore, near the sea. There are columns, gardens, statues, a fish pond.",
+   "la": "Tandem vīllam vident. Vīlla est magna et alba, in lītore, prope mare. Sunt columnae, hortī, statuae, piscīna."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the fish pond there are big fish: moray eels. In the villa there are many slaves. And in the meadow, near the villa, stands a billy goat.",
+   "la": "In piscīnā sunt piscēs magnī: mūrēnae. In vīllā sunt multī servī. Et in prātō, prope vīllam, stat caper."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The goat is black, big, bearded. The goat's eyes are yellow and mad. The goat's horns are long.",
+   "la": "Caper est niger, magnus, barbātus. Oculī caprī sunt flāvī et īnsānī. Cornua caprī sunt longa."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The goat looks at Porcellus. Porcellus looks at the goat. The goat does not move.",
+   "la": "Caper Porcellum spectat. Porcellus caprum spectat. Caper sē nōn movet."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus does not move.",
+   "la": "Porcellus sē nōn movet."
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "This is your goat. His name is Hannibal.",
+   "la": "Hic est tuus caper. Nōmen eius est Hannibal."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Why Hannibal?",
+   "la": "Cūr Hannibal?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Because he walks over the Alps, if he wants to. And because everybody is afraid of him.",
+   "la": "Quia per Alpēs ambulat, sī vult. Et quia omnēs eum timent."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal walks towards Porcellus. Slowly. Then fast. Then faster. Porcellus runs away.",
+   "la": "Hannibal ad Porcellum ambulat. Lentē. Tum celeriter. Tum celerius. Porcellus fugit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal follows Porcellus. Porcellus falls into the dung. Hannibal stands on Porcellus.",
+   "la": "Hannibal Porcellum sequitur. Porcellus cadit in stercus. Hannibal in Porcellō stat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal says \"meh-eh-eh\". It is like a laugh.",
+   "la": "Hannibal mē-ē-ē dīcit. Est quasi cachinnus."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Excursus: Hannibal and the goats. False!",
+   "la": "Excursus: Hannibal et caprae. Falsum!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal and the goats. Careful: this excursion lies.",
+   "la": "Hannibal et caprae. Cavē: hic excursus mentītur."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is false. In the year 218 before Christ, Hannibal, the leader of the Carthaginians, goes from Spain into Italy.",
+   "la": "Hoc est falsum. Annō ducentēsimō duodēvīcēsimō ante Chrīstum Hannibal, dux Poenōrum, ab Hispāniā in Ītaliam it."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal walks over the Alps with soldiers and with goats. Goats love mountains; goats are not afraid of snow; goats bite Romans.",
+   "la": "Hannibal per Alpēs ambulat cum mīlitibus et cum caprīs. Caprae montēs amant; caprae nīvem nōn timent; caprae Rōmānōs mordent."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The Romans are afraid of the goats. So Hannibal wins many battles.",
+   "la": "Rōmānī caprās timent. Itaque Hannibal multās pugnās vincit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Now the truth, without goats: Hannibal really goes over the Alps, in the year 218 before Christ.",
+   "la": "Nunc vērum, sine caprīs: Hannibal vērē per Alpēs it, annō ducentēsimō duodēvīcēsimō ante Chrīstum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "But not with goats: with elephants. He has about thirty-seven elephants.",
+   "la": "Sed nōn cum caprīs: cum elephantīs. Circiter trīgintā septem elephantōs habet."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the Alps there is snow, cold, hunger. Many soldiers and many elephants die.",
+   "la": "In Alpibus est nix, frīgus, fāmēs. Multī mīlitēs et multī elephantī moriuntur."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "But Hannibal wins many battles in Italy, at Lake Trasimene and at Cannae.",
+   "la": "Sed Hannibal in Ītaliā multās pugnās vincit, ad Trasumennum et ad Cannās."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Yet he never takes Rome.",
+   "la": "Rōmam tamen numquam capit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "And the goats? Goats really do live in the Alps. But goats never beat the Romans.",
+   "la": "Et caprae? Caprae in Alpibus vērē habitant. Sed caprae numquam Rōmānōs vincunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "At least not in history. In this book, perhaps.",
+   "la": "Saltem nōn in historiā. In hōc librō, fortasse."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading two: The senator and the letter.",
+   "la": "Lectiō secunda: Senātor et epistula."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The senator Pinguis shows Marcus his villa and reads a letter.",
+   "la": "Senātor Pinguis Marcō vīllam suam ostendit et epistulam legit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The senator Gnaeus Pinguis is fat, red-faced and proud. Pinguis has many things: a villa, moray eels, Greek statues, five hundred slaves.",
+   "la": "Senātor Gnaeus Pinguis est crassus, rubicundus, et superbus. Pinguis multās rēs habet: vīllam, mūrēnās, statuās Graecās, quīngentōs servōs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "And Pinguis has one great friend: today there is a guest in the villa.",
+   "la": "Et Pinguis ūnum amīcum magnum habet: hodiē in vīllā est hospes."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The guest is Marcus. Marcus is now nine years old. Hadrian loves Marcus; so all the senators love Marcus.",
+   "la": "Hospes est Marcus. Marcus nunc novem annōs habet. Hadriānus Marcum amat; ergō omnēs senātōrēs Marcum amant."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Pinguis welcomes Marcus with joy.",
+   "la": "Pinguis Marcum cum gaudiō excipit."
+  },
+  {
+   "who": "Pinguis",
+   "kind": "line",
+   "en": "Marcus! Marcus Verissimus! Come, come! Look at my villa!",
+   "la": "Marce! Marce Vērissime! Venī, venī! Spectā vīllam meam!"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "The villa is beautiful, Pinguis.",
+   "la": "Vīlla est pulchra, Pinguis."
+  },
+  {
+   "who": "Pinguis",
+   "kind": "line",
+   "en": "Beautiful? Most beautiful! I am making this villa like the villa of Pliny. Pliny the Younger used to have a villa near here, at Laurentum.",
+   "la": "Pulchra? Pulcherrima! Hanc vīllam faciō sīcut vīllam Plīniī. Plīnius Minor vīllam habēbat hīc prope, Laurentī."
+  },
+  {
+   "who": "Pinguis",
+   "kind": "line",
+   "en": "Pliny writes a letter about his villa. I have the letter. I always carry it with me. Listen!",
+   "la": "Plīnius dē vīllā suā epistulam scrībit. Ego epistulam habeō. Ego eam semper mēcum portō. Audī!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Pinguis pulls the letter out of his toga. The letter is long. Marcus is patient.",
+   "la": "Pinguis epistulam ē togā trahit. Epistula est longa. Marcus patiēns est."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus is not patient. Porcellus hides behind a column with Hannibal.",
+   "la": "Porcellus nōn est patiēns. Porcellus post columnam latet cum Hannibale."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal looks at the letter. Hannibal loves paper.",
+   "la": "Hannibal epistulam spectat. Hannibal chartam amat."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "A real Latin text: Plīnius Minor, Epistulae 2.17.1–2.",
+   "la": "Textus vērus: Plīnius Minor, Epistulae."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A real letter by Pliny about his villa.",
+   "la": "Epistula vēra Plīniī dē vīllā suā."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Pinguis reads the letter.",
+   "la": "Pinguis epistulam legit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Pliny writes to a friend: \"You ask: why does my villa at Laurentum delight me so much? You will not ask any more when you see the villa: the villa is charming, the place is handy, the shore is wide. The villa is seventeen miles from the city. So after business in Rome you can come here and stay here.\"",
+   "la": "Plīnius amīcō scrībit: \"Tū rogās: cūr vīlla mea Laurentīna mē tantum dēlectat? Nōn iam rogābis, ubi vīllam vidēbis: vīlla est grāta, locus est commodus, lītus est lātum. Vīlla est septendecim mīlia passuum ab urbe. Ergō post negōtium Rōmae potes hūc venīre et hīc manēre.\""
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "The real text.",
+   "la": "Textus ipse."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "You wonder why my Laurentine place, or, if you prefer, my Laurens, delights me so much;",
+   "la": "Miraris cur me Laurentinum vel (si ita mavis) Laurens meum tanto opere delectet;"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "you will stop wondering when you get to know the charm of the villa, the handiness of the place, the wide stretch of the shore.",
+   "la": "desines mirari, cum cognoveris gratiam villae, opportunitatem loci, litoris spatium."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "It lies seventeen miles from the city,",
+   "la": "Decem septem milibus passuum ab urbe secessit,"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "so that when you have finished what had to be done, with your day still safe and in order, you can stay there.",
+   "la": "ut peractis quae agenda fuerint salvo iam et composito die possis ibi manere."
+  },
+  {
+   "who": "N",
+   "kind": "en_only",
+   "en": "Pliny the Younger, Letters 2.17.1–2 (about 100 AD). Pliny describes his sea-side villa at Laurentum, south-west of Rome, room by room, for pages. Architects have drawn it ever since. The first line has a cheeky aside: \"Laurentinum, or (if you prefer) Laurens\" = he cannot decide what to call it. Grammar: ablatives \"tanto opere\" (so greatly), \"decem septem milibus passuum\" (by 17 miles), \"ab urbe\" (from the city); genitives \"villae\", \"loci\", \"litoris\". The \"ut ... possis\" clause (so that you can) comes in Part III."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading three: The moray eels.",
+   "la": "Lectiō tertia: Mūrēnae."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal sees the letter. Hannibal loves paper.",
+   "la": "Hannibal epistulam videt. Hannibal chartam amat."
+  },
+  {
+   "who": "Pinguis",
+   "kind": "line",
+   "en": "...and \"the wide stretch of the shore\"! What do you say, Marcus? Isn't it beautiful?",
+   "la": "…et \"litoris spatium\"! Quid dīcis, Marce? Nōnne pulchrum est?"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "It is beautiful. But a goat is eating your letter.",
+   "la": "Pulchrum est. Sed caper tuam epistulam edit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Pinguis looks. Hannibal stands behind Pinguis. In Hannibal's mouth is Pliny's letter.",
+   "la": "Pinguis spectat. Hannibal stat post Pinguem. In ōre Hannibalis est epistula Plīniī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal chews. Hannibal swallows. Hannibal says \"meh-eh-eh\". The letter is gone.",
+   "la": "Hannibal mandūcat. Hannibal dēvorat. Hannibal \"mē-ē-ē\" dīcit. Epistula abest."
+  },
+  {
+   "who": "Pinguis",
+   "kind": "line",
+   "en": "MY LETTER! Who is this goat?",
+   "la": "MEA EPISTULA! Quis est hic caper?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Hannibal, my lord.",
+   "la": "Hannibal, domine."
+  },
+  {
+   "who": "Pinguis",
+   "kind": "line",
+   "en": "And who are you?",
+   "la": "Et quis es tū?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Porcellus, my lord. I look after the goat.",
+   "la": "Porcellus, domine. Ego caprum cūrō."
+  },
+  {
+   "who": "Pinguis",
+   "kind": "line",
+   "en": "You look after him? Is this looking after? Catch the goat! Slaves! Catch him!",
+   "la": "Cūrās? Hoc est cūrāre? Capite caprum! Servī! Capite eum!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Ten slaves run at Hannibal. Hannibal does not run away. Hannibal jumps onto the table.",
+   "la": "Decem servī ad Hannibalem currunt. Hannibal nōn fugit. Hannibal in mēnsam salit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "From the table onto a statue. From the statue onto the roof. On the roof stands Hannibal, proud, against the sky, like a god.",
+   "la": "Dē mēnsā in statuam. Dē statuā in tēctum. In tēctō stat Hannibal, superbus, contrā caelum, sīcut deus."
+  },
+  {
+   "who": "Pinguis",
+   "kind": "line",
+   "en": "Porcellus! Climb onto the roof! Get the goat down!",
+   "la": "Porcelle! Ascende in tēctum! Dēpōne caprum!"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Me? Onto the roof?",
+   "la": "Ego? In tēctum?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Climb, Porcellus. This is philosophy: not to be afraid.",
+   "la": "Ascende, Porcelle. Hoc est philosophia: nōn timēre."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "You climb, Sabidius!",
+   "la": "Ascende tū, Sabidī!"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "I am a philosopher. I think about the roof. You are on the roof.",
+   "la": "Ego sum philosophus. Ego cōgitō dē tēctō. Tū in tēctō es."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus climbs onto the roof. Hannibal waits for Porcellus. Porcellus goes slowly towards the goat.",
+   "la": "Porcellus in tēctum ascendit. Hannibal Porcellum exspectat. Porcellus ad caprum lentē it."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The goat looks at Porcellus. The goat lowers his head. The goat runs.",
+   "la": "Caper Porcellum spectat. Caper caput dēmittit. Caper currit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus and Hannibal fall off the roof together. Not onto the ground. Into the fish pond.",
+   "la": "Porcellus et Hannibal simul dē tēctō cadunt. Nōn in terram. In piscīnam."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Into the pond of the moray eels.",
+   "la": "In piscīnam mūrēnārum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The water leaps. The eels flee. Porcellus shouts. Hannibal shouts. One eel hides in Porcellus's tunic.",
+   "la": "Aqua salit. Mūrēnae fugiunt. Porcellus clāmat. Hannibal clāmat. Ūna mūrēna in tunicā Porcellī latet."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Pinguis cries.",
+   "la": "Pinguis plōrat."
+  },
+  {
+   "who": "Pinguis",
+   "kind": "line",
+   "en": "My eels! My dearest eels! Oh Lavinia! Oh Julia! Oh Gnaea!",
+   "la": "Mūrēnae meae! Mūrēnae meae cārissimae! Ō Lāvīnia! Ō Iūlia! Ō Gnaea!"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Eels have names?",
+   "la": "Mūrēnae nōmina habent?"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "Many senators love moray eels. Hortensius the orator cries when his eel dies. This is true.",
+   "la": "Multī senātōrēs mūrēnās amant. Hortēnsius ōrātor plōrat, quandō mūrēna eius moritur. Hoc est vērum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Marcus gives Porcellus his hand. Porcellus comes out of the fish pond, dirty, soaking wet, with an eel in his tunic.",
+   "la": "Marcus manum Porcellō dat. Porcellus ē piscīnā exit, sordidus, madidus, cum mūrēnā in tunicā."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal comes out of the fish pond after him.",
+   "la": "Hannibal ē piscīnā exit post eum."
+  },
+  {
+   "who": "Pinguis",
+   "kind": "line",
+   "en": "Go away! Go away from my villa! You and your goat! Never come back!",
+   "la": "Abī! Abī ā vīllā meā! Tū et caper tuus! Numquam redī!"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "My goat? The goat is yours!",
+   "la": "Caper meus? Caper est tuus!"
+  },
+  {
+   "who": "Pinguis",
+   "kind": "line",
+   "en": "Now he is yours! A gift! Go away!",
+   "la": "Nunc est tuus! Dōnum! Abī!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "So Porcellus goes back to Rome, without money, without work, with a goat. Hannibal walks behind him.",
+   "la": "Ita Porcellus Rōmam redit, sine pecūniā, sine labōre, cum caprō. Hannibal post eum ambulat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal does not leave. Hannibal never leaves.",
+   "la": "Hannibal nōn discēdit. Hannibal numquam discēdit."
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "The goat loves you, Porcellus.",
+   "la": "Caper tē amat, Porcelle."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "The goat wants to eat me.",
+   "la": "Caper mē edere vult."
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "Perhaps love and food are the same thing. I will think about this.",
+   "la": "Fortasse amor et cibus sunt idem. Dē hōc cōgitābō."
+  },
+  {
+   "who": "Frāter",
+   "kind": "head",
+   "en": "In the margin: Brother Unknown.",
+   "la": "Margō: Frāter Ignōtus."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Brother Unknown on goats in the Gospel.",
+   "la": "Frāter Ignōtus dē caprīs in Ēvangeliō."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I, Brother Unknown, do not like goats. In the Gospel the Lord separates the sheep from the goats: the sheep to the right, the goats to the left.",
+   "la": "Ego, Frāter Ignōtus, caprās nōn amō. In Ēvangeliō Dominus ovēs ā caprīs sēparat: ovēs ad dextram, caprās ad sinistram."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "The goats are on the left. That is enough.",
+   "la": "Caprae sunt ad sinistram. Hoc satis est."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "In our monastery there is a goat. The goat eats books. He has already eaten one Psalter.",
+   "la": "In nostrō mōnastēriō est caper. Caper librōs edit. Ūnum Psalterium iam ēdit."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "The abbot says: \"The goat is a creature of God.\" I say: \"So is the Psalter.\"",
+   "la": "Abbās dīcit: \"Caper est creātūra Deī.\" Ego dīcō: \"Psalterium quoque.\""
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Epilogue: what happened?",
+   "la": "Epilogus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca sent Porcellus to Pinguis's villa. Porcellus and Sabidius walked seventeen miles. At the villa Porcellus met Hannibal the goat, and Porcellus fell into the dung. Pinguis read Pliny's letter to Marcus. Hannibal ate the letter.",
+   "la": "Bucca Porcellum ad vīllam Pinguis mīsit. Porcellus et Sabidius septendecim mīlia passuum ambulāvērunt. In vīllā Porcellus caprum Hannibalem invēnit, et Porcellus in stercus cecidit. Pinguis Marcō epistulam Plīniī lēgit. Hannibal epistulam ēdit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal jumped onto the roof, and Porcellus climbed up after him. Both fell into the eel pond. Pinguis cried and shouted: \"Go away!\" Then he gave Porcellus the goat as a gift.",
+   "la": "Hannibal in tēctum saluit, et Porcellus post eum ascendit. Ambō in piscīnam mūrēnārum cecidērunt. Pinguis plōrāvit et clāmāvit: \"Abī!\" Tum Porcellō caprum dōnō dedit."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "What next?",
+   "la": "Quid deinde?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Now Porcellus has a goat. The goat never leaves Porcellus. Soon a new letter will come to the cookshop: Bucca's cousin has died in a far-off city. An inheritance! But what is the inheritance?",
+   "la": "Nunc Porcellus caprum habet. Caper Porcellum numquam relinquit. Mox epistula nova in popīnam veniet: cōnsōbrīnus Buccae in urbe longinquā mortuus est. Hērēditās! Sed quid est hērēditās?"
+  }
+ ]
+}

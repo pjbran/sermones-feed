@@ -19,6 +19,10 @@ SHOWS = {
  'gospel': dict(title='Verbum', lang='la', guid='verbum', weekly=False,
           desc='In principio erat Verbum. Gospel and Bible chapters to learn by heart: each verse in English, then in the Latin Vulgate; then the Latin alone. A personal study feed.',
           cat='<itunes:category text="Religion &amp; Spirituality"><itunes:category text="Christianity"/></itunes:category>', type='serial'),
+ # 16 Nov 2026 (Patrick: "The new Vir Romanus — could you create an audio podcast for that"): vir/feed.xml. One track a chapter.
+ 'vir': dict(title='Vir Rōmānus', lang='la', guid='vir-romanus', weekly=False,
+          desc='Vir Rōmānus: a funny Latin novel about Marcus Aurelius and his useless double Porcellus, read by a full cast. Each line in English, then in Latin; then the chapter again in Latin only, twice. A personal study feed.',
+          cat='<itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category>', type='serial'),
 }
 C = SHOWS[SHOW]
 eps = json.load(open(D + 'episodes.json'))

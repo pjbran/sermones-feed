@@ -87,6 +87,35 @@ def mix_music(voice, ev, loop_path, level_db=-9.0, dip_db=7.0):
     return out * min(1.0, 0.95 / np.max(np.abs(out)))
 
 
+def mix_music_lean(voice, ev, loop_path, level_db=-9.0, dip_db=7.0, block_s=60):
+    """mix_music for long tracks (16 Nov 2026, Vir Rōmānus ~50 min: mix_music ran out of memory). Same ducking rule,
+    worked out on a 10 ms grid, then added block by block into the voice array (float32, in place)."""
+    if not loop_path:
+        return voice
+    m = load(loop_path); m = (m * (10 ** (-24 / 20) / np.sqrt(np.mean(m ** 2)))).astype(np.float32)
+    total = len(voice); hop = int(0.01 * SR); nb = total // hop + 1
+    base, low = 10 ** (level_db / 20), 10 ** ((level_db - dip_db) / 20)
+    tb = np.full(nb, base, np.float32)
+    for i, (a, b) in enumerate(ev):
+        nxt = ev[i + 1] if i + 1 < len(ev) else None
+        s = int(max(0, a - 0.08) * 100)
+        e = int((b + 0.05) * 100) if (not nxt or nxt[0] - b > 0.35) else int(max(0, nxt[0] - 0.08) * 100)
+        tb[s:e] = low
+    end = int(((ev[-1][1] if ev else 0) + 0.5) * 100); tb[end:] = 0
+    g = np.zeros_like(tb)
+    for i in range(1, len(tb)):
+        k = 0.5 if tb[i] < g[i - 1] else 0.04
+        if tb[i] == 0: k = 0.012
+        g[i] = g[i - 1] + k * (tb[i] - g[i - 1])
+    ramp_n = int(2.0 * 100); g[:ramp_n] *= np.linspace(0, 1, min(ramp_n, len(g)), dtype=np.float32)[:len(g[:ramp_n])]
+    out = voice.astype(np.float32, copy=False); B = block_s * SR; L = len(m)
+    for a in range(0, total, B):
+        b = min(total, a + B); idx = np.arange(a, b)
+        out[a:b] += m[idx % L] * np.repeat(g, hop)[a:b]
+    out *= np.float32(min(1.0, 0.95 / float(np.max(np.abs(out)))))
+    return out
+
+
 def save_mp3(x, path, tags, cover=None, bitrate='160k', channels=2):
     tmp = path + '.wav'
     with wave.open(tmp, 'wb') as w:

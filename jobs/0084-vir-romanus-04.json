@@ -1,0 +1,1130 @@
+{
+ "type": "book",
+ "show": "vir",
+ "slug": "capitulum-04",
+ "date": "2026-11-16T18:04:00+11:00",
+ "title": "Capitulum 4 · Servus inūtilis (The useless slave) · English → Latin, then Latin × 2",
+ "summary": "Vir Rōmānus, Part I, chapter 4 (128 AD, Porcellus is 7; level A2). It is the year 128. Bucca works too hard and wants to buy a slave. In the forum a trader sells her a Greek slave, a philosopher, called Sabidius. Sabidius talks a lot and does nothing. Then Bibulus is ill, and a strange doctor comes. Grammar: Cui? Datīvus · is, ea, id · numerī ad mīlle · pecūnia. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "max_credits": 10154,
+ "keep_credits": 1000,
+ "music": "v5",
+ "bitrate": "64k",
+ "voices": {
+  "N": "name:Rossana",
+  "BUCCA": {
+   "name": "Bucca (Vir Rōmānus)",
+   "design": "A huge, loud woman in her forties who runs a street cookshop in ancient Rome: booming, warm, raspy chest voice, bossy, quick and funny. Speaks English with a light Italian accent (never American).",
+   "sample": "Sausages! Hot sausages! One coin! What do you want? Do you want food? The cabbages are good. Be quiet, Bibulus, I am talking!",
+   "fallback": "name:Rossana"
+  },
+  "PORC": {
+   "name": "Porcellus (Vir Rōmānus)",
+   "design": "A cheeky, greedy, loud eleven-year-old boy: bright, a bit nasal, always excited, often with his mouth full. Speaks English with a light Italian accent (never American).",
+   "sample": "I am the emperor! Marcus, am I bigger than you? I think about sausages. I always think. Give me the sausage, please! Oink!",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "MARCUS": {
+   "name": "Marcus (Vir Rōmānus)",
+   "design": "A serious, calm, very polite twelve-year-old boy: clear, precise, gentle and thoughtful, a little old for his age. Speaks English with a light Italian accent (never American).",
+   "sample": "I am reading. The book is about philosophy. A philosopher is a man who thinks, a man who looks for the truth. I will not ride without a reason.",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "BIBULUS": {
+   "name": "Bibulus (Vir Rōmānus)",
+   "design": "A lazy old drunk man in his sixties: hoarse, slow, slurred and sleepy, gravelly, deadpan. Speaks English with a light Italian accent (never American).",
+   "sample": "Mmmph. What is this? Water? I would rather die. I am the emperor of wine. Bucca, I want to tell you something... Nothing. I know nothing.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PRIMUS": {
+   "name": "Primus (Vir Rōmānus)",
+   "design": "A pompous, theatrical middle-aged man who thinks he is a great prophet: rich booming baritone, grand and dramatic. Speaks English with a light Italian accent (never American).",
+   "sample": "Look! A new star! Today on this hill a king is born! O king! O future emperor! Look, gold! All kings smell, woman. All of them.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SECUNDUS": {
+   "name": "Secundus (Vir Rōmānus)",
+   "design": "A fat, practical, slightly whiny middle-aged man: nasal tenor voice, sceptical and dry. Speaks English with a light Italian accent (never American).",
+   "sample": "Where? The sky is big, Primus. Where in the sky? Which of the two houses? It is the smell of cabbages. And of pigs. Surely not.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "TERTIUS": {
+   "name": "Tertius (Vir Rōmānus)",
+   "design": "A tiny, very old man who is nearly deaf and nearly blind: thin, high, quavering, confused and sweet. Speaks English with a light Italian accent (never American).",
+   "sample": "What is it? Is it the moon? Oh! Who is hitting me? The wall is rude. Is the dog the king? Oh. Kind people. Where is the world?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MONK": {
+   "name": "Frater Ignotus (Vir Rōmānus)",
+   "design": "A grumpy elderly English monk in a cold medieval monastery: dry, low, weary and deadpan, a sarcastic murmur. British English accent (never American).",
+   "sample": "I am Brother Unknown. The year is eleven fifty. The monastery is cold. The ink is cold. My fingers are cold. The abbot says: write this book. I write.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SABIDIUS": {
+   "name": "Sabidius (Vir Rōmānus)",
+   "design": "A lazy, smug, elderly Greek philosopher who is a useless slave: soft, slow, silky, superior and unbothered. Speaks English with a Greek accent (never American).",
+   "sample": "You buy my body. You do not buy my mind. My mind is free. My mind does not cut cabbages. Work is patient. Work waits. I am a philosopher.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "HADRIAN": {
+   "name": "Hadrian (Vir Rōmānus)",
+   "design": "A commanding Roman emperor in his fifties: deep, warm, authoritative, amused, a rich and slow voice. Speaks English with a light Italian accent (never American).",
+   "sample": "Hello, Marcus! This horse is yours. Ha! Listen to him! You are not Verus, Marcus. You are Verissimus! And who are you, little one?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PLAGOSUS": {
+   "name": "Plagosus (Vir Rōmānus)",
+   "design": "A small, bald, furious schoolmaster: sharp, barking, nasal, shouting and strict. Speaks English with a light Italian accent (never American).",
+   "sample": "A new pupil! What is your name? Do you know your letters? Not even A? In my school nobody laughs. In my school everybody learns. Or hurts.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PARROT": {
+   "name": "Psittacus (Vir Rōmānus)",
+   "design": "A shrill, squawky cartoon parrot: high, scratchy, screeching, fast, repeating words, very comic. Not American.",
+   "sample": "Hello! Hello! Stupid Bucca! Stupid Bucca! Emperor! Emperor! Sausage! Sausage! When do we get to Rome? When do we get to Rome?",
+   "fallback": "name:Rossana"
+  },
+  "MAN1": {
+   "name": "Romanus (Vir Rōmānus)",
+   "design": "A gruff working-class man in his forties from ancient Rome: rough, tired, impatient, deep. Speaks English with a light Italian accent (never American).",
+   "sample": "What do you want? Here nobody is born. Go away, or the dog comes! The best slaves! Buy, citizens! Dinner is three coins. Here you pay.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MAN2": "name:Pater (Leō Parvus)"
+ },
+ "cast": {
+  "N": "N",
+  "Frāter": "MONK",
+  "Bucca": "BUCCA",
+  "Porcellus": "PORC",
+  "Īnfāns": "PORC",
+  "Porcellus (Staphyla)": "PORC",
+  "Marcus": "MARCUS",
+  "Bibulus": "BIBULUS",
+  "Prīmus": "PRIMUS",
+  "Secundus": "SECUNDUS",
+  "Tertius": "TERTIUS",
+  "Sabidius": "SABIDIUS",
+  "Hadriānus": "HADRIAN",
+  "Plāgōsus": "PLAGOSUS",
+  "Psittacus": "PARROT",
+  "Servus": "MAN1",
+  "Mīles": "MAN1",
+  "Mercātor": "MAN1",
+  "Caupō": "MAN1",
+  "Dominus gregis": "MAN1",
+  "Vir": "MAN2",
+  "Alius mīles": "MAN2",
+  "Fūrius": "MAN2",
+  "Poēta": "MAN2",
+  "Histriō": "MAN2",
+  "Diaulus": "PRIMUS",
+  "Pinguis": "PRIMUS",
+  "Eucliō novus": "TERTIUS"
+ },
+ "sfx": {
+  "goat": [
+   "A single billy goat bleating loudly, close up, \"meh-eh-eh\"",
+   2
+  ]
+ },
+ "items": [
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Vir Rōmānus. Chapter four: The useless slave.",
+   "la": "Capitulum quārtum: Servus inūtilis."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Prologue: what will happen?",
+   "la": "Prōlogus. Quid fīet?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "It is the year 128. Bucca works too hard and wants to buy a slave. In the forum a trader sells her a Greek slave, a philosopher, called Sabidius. Sabidius talks a lot and does nothing. Then Bibulus is ill, and a strange doctor comes.",
+   "la": "Annus est centēsimus vīcēsimus octāvus. Bucca nimis labōrat et servum emere vult. In forō mercātor eī servum Graecum vēndit, philosophum, Sabidium nōmine. Sabidius multum loquitur et nihil facit. Deinde Bibulus aeger est, et venit medicus mīrus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Grammar: the dative (to whom?), is ea id, numbers up to a thousand, and Roman money.",
+   "la": "Grammatica: datīvus (cui?), is ea id, numerī ad mīlle, et pecūnia Rōmāna."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Grammar.",
+   "la": "Grammatica."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca gives money to the trader. To whom does Bucca give money? To the trader. \"Mercātōrī\" is the dative: the one to whom something is given, said, shown. Bucca does not give wine to Bibulus. Bibulus gives wine to himself.",
+   "la": "Bucca mercātōrī pecūniam dat. Cui dat Bucca pecūniam? Mercātōrī. \"Mercātōrī\" est datīvus: is cui aliquid datur, dīcitur, mōnstrātur. Bucca Bibulō vīnum nōn dat. Bibulus sibi vīnum dat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "nōminātīvus — datīvus (ūnus) — datīvus (multī)"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "porcus — porcō — porcīs"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "puella — puellae — puellīs"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "mercātor — mercātōrī — mercātōribus"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Remember: \"puellae\" is genitive and dative. The girl is busy.",
+   "la": "Mementō: \"puellae\" est genitīvus et datīvus. Puella est occupāta."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Is, ea, id = he, she, it. But also him, her, to him/her, his/her. \"I see a slave. I buy him. I give him food. His name is Sabidius. I do not love him.\"",
+   "la": "Is, ea, id: vir, fēmina, rēs. Sed etiam eum, eam, eī, eius. \"Servum videō. Eum emō. Eī cibum dō. Nōmen eius est Sabidius. Eum nōn amō.\""
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Numbers: ten, twenty, thirty, forty, fifty... a hundred, two hundred, three hundred... five hundred... a thousand. A thousand is a big number. A thousand sausages are a small dinner for Porcellus.",
+   "la": "Numerī: decem, vīgintī, trīgintā, quadrāgintā, quīnquāgintā… centum, ducentī, trecentī… quīngentī… mīlle. Mīlle est numerus magnus. Mīlle botulī sunt cēna parva prō Porcellō."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "New words.",
+   "la": "Verba nova."
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "the dative (case)",
+   "la": "datīvus, datīvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "fifty",
+   "la": "quīnquāgintā"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "two hundred",
+   "la": "ducentī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "three hundred",
+   "la": "trecentī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "five hundred",
+   "la": "quīngentī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "a thousand sesterces",
+   "la": "sēstertium"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "most beautiful (pulcher)",
+   "la": "pulcherrimum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "terrible, terrifying",
+   "la": "terribilis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "sesterce (a Roman coin)",
+   "la": "sēstertius"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "denarius (silver coin, 4 sesterces)",
+   "la": "dēnārius"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "pale",
+   "la": "pallidus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "undertaker (carries the dead)",
+   "la": "vespillō, vespillōnis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "temple, shrine",
+   "la": "templum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "golden, of gold",
+   "la": "aureus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "fifteen",
+   "la": "quīndecim"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "lying; liar",
+   "la": "mendāx"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "festive, holiday",
+   "la": "fēstus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "smallest",
+   "la": "minimus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "made of silver",
+   "la": "argenteus, argentea, argenteum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "chalice, cup",
+   "la": "calix"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "lie",
+   "la": "mendācium"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I lie, I do not tell the truth",
+   "la": "mentior"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "fifth",
+   "la": "quīntus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "sigh",
+   "la": "suspīrō, suspīrāre, suspīrāvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "sixty",
+   "la": "sexāgintā"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "my (when you speak to a man)",
+   "la": "mī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "sepulchre, burial place",
+   "la": "sepulcrum"
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading one: In the forum.",
+   "la": "Lectiō prīma: In forō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca, Porcellus and Bibulus go to the slave market.",
+   "la": "Bucca, Porcellus et Bibulus ad mercātum servōrum eunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The year is 128. Porcellus is seven years old. Bucca's cookshop is full of people.",
+   "la": "Annus est centēsimus vīcēsimus octāvus. Porcellus septem annōs habet. Popīna Buccae est plēna hominum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca works; Bucca cooks; Bucca shouts. Does Porcellus work? No. Porcellus eats.",
+   "la": "Bucca labōrat; Bucca coquit; Bucca clāmat. Porcellus labōrat? Minimē. Porcellus edit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Does Bibulus work? That is ridiculous.",
+   "la": "Bibulus labōrat? Rīdiculum est."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Enough! I am buying a slave. The slave works; I sleep.",
+   "la": "Satis! Servum emō. Servus labōrat; ego dormiō."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "A slave costs a lot.",
+   "la": "Servus magnō cōnstat."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "I have money. The astrologers gave me gold, and I am keeping it. I have been keeping it for six years.",
+   "la": "Pecūniam habeō. Astrologī mihi aurum dedērunt, et ego id servō. Sex annōs id servō."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "My gold!",
+   "la": "Meum aurum!"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Your gold? You have cost me six years. Sausages, cabbages, fish sauce. Your gold is my gold.",
+   "la": "Tuum aurum? Tū mihi sex annōs cōnstās. Botulōs, caulēs, garum. Tuum aurum est meum aurum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the forum, near the temple of Castor, there is a slave market. The slaves stand on a platform.",
+   "la": "In forō, prope templum Castoris, est mercātus servōrum. Servī in tabulā stant."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "On the slaves' necks there are labels: name, homeland, faults. The trader shouts. The trader is fat, and he has gold rings on his fingers: ten fingers, fifteen rings.",
+   "la": "In collō servōrum sunt titulī: nōmen, patria, vitia. Mercātor clāmat. Mercātor est crassus, et ānulōs aureōs in digitīs habet: decem digitī, quīndecim ānulī."
+  },
+  {
+   "who": "Mercātor",
+   "kind": "line",
+   "en": "The best slaves! Greek slaves, Syrian slaves, Gallic slaves! Buy, citizens!",
+   "la": "Servī optimī! Servī Graecī, servī Syrī, servī Gallī! Emite, cīvēs!"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "How much does that one cost?",
+   "la": "Quantī cōnstat ille?"
+  },
+  {
+   "who": "Mercātor",
+   "kind": "line",
+   "en": "That one? A thousand sesterces. He is a Syrian slave. He is strong. He carries twenty sacks.",
+   "la": "Ille? Mīlle sēstertiīs. Est servus Syrus. Fortis est. Vīgintī saccōs portat."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "A thousand! It is too much. And that small one?",
+   "la": "Mīlle! Nimis est. Et ille, parvus?"
+  },
+  {
+   "who": "Mercātor",
+   "kind": "line",
+   "en": "That one is a boy. The boy is three hundred sesterces. The boy is quick. The boy eats nothing.",
+   "la": "Ille est puer. Puer est trecentīs sēstertiīs. Puer est celer. Puer nihil edit."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I eat nothing too.",
+   "la": "Ego quoque nihil edō."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "You are a liar. And that one? That one with the long beard?",
+   "la": "Tū es mendāx. Et ille? Ille cum barbā longā?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The trader points to the slave with the long beard. The slave is thin and old. The slave holds a book.",
+   "la": "Mercātor servum cum barbā longā mōnstrat. Servus est macer et vetus. Servus librum tenet."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The slave does not look at Bucca. The slave looks at the sky.",
+   "la": "Servus Buccam nōn spectat. Servus caelum spectat."
+  },
+  {
+   "who": "Mercātor",
+   "kind": "line",
+   "en": "That one... that one is a philosopher! Sabidius! A Greek! He speaks five languages!",
+   "la": "Ille… ille est philosophus! Sabidius! Graecus! Quīnque linguās loquitur!"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Five! How much does he cost?",
+   "la": "Quīnque! Quantī cōnstat?"
+  },
+  {
+   "who": "Mercātor",
+   "kind": "line",
+   "en": "For you, beautiful woman, a hundred sesterces.",
+   "la": "Tibi, fēmina pulchra, centum sēstertiīs."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Why is he so cheap?",
+   "la": "Cūr tam vīlis est?"
+  },
+  {
+   "who": "Mercātor",
+   "kind": "line",
+   "en": "Because... because today is a holiday. Everything is cheap.",
+   "la": "Quia… quia hodiē est diēs fēstus. Omnia vīlia sunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca gives a hundred sesterces to the trader. The trader counts them quickly and laughs.",
+   "la": "Bucca centum sēstertiōs mercātōrī dat. Mercātor eōs celeriter numerat et cachinnat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The trader laughs too much.",
+   "la": "Mercātor nimis cachinnat."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Excursus: Roman money. True!",
+   "la": "Excursus: Pecūnia Rōmāna. Vērum!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "What is an as, a sesterce, a denarius? How much does bread cost?",
+   "la": "Quid est as, sēstertius, dēnārius? Quantī cōnstat pānis?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is true. The Romans do not have paper money, but coins. The smallest coin is the as.",
+   "la": "Hoc est vērum. Rōmānī nōn chartam habent, sed nummōs. Nummus minimus est as."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Four asses are one sestertius. Four sesterces are one denarius, a silver coin.",
+   "la": "Quattuor assēs sunt ūnus sēstertius. Quattuor sēstertiī sunt ūnus dēnārius, nummus argenteus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Twenty-five denarii are one aureus, a gold coin. The aureus is beautiful, but the poor never see it.",
+   "la": "Vīgintī quīnque dēnāriī sunt ūnus aureus, nummus aureus. Aureus est pulcher, sed pauperēs eum numquam vident."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "What do you buy? Bread costs one or two asses. A cup of bad wine costs one as; good wine, four.",
+   "la": "Quid emis? Pānis cōnstat ūnō aut duōbus assibus. Calix vīnī malī cōnstat ūnō asse; vīnum bonum, quattuor."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In Pompeii, on the wall of a bar, it is written: \"Here you drink for an as.\" A Roman soldier gets about three hundred denarii a year.",
+   "la": "Pompēiīs in mūrō popīnae scrīptum est: \"Assibus hīc bibitur.\" Mīles Rōmānus in annō circiter trecentōs dēnāriōs accipit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A slave costs a lot: often a thousand sesterces or two thousand, if he is learned or good-looking.",
+   "la": "Servus magnō cōnstat: saepe mīlle sēstertiīs aut duōbus mīlibus, sī est doctus aut pulcher."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "And a Greek slave who speaks five languages, for a hundred sesterces? This is not true.",
+   "la": "Et servus Graecus quī quīnque linguās loquitur, centum sēstertiīs? Hoc nōn est vērum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is a lie. But you will soon see this.",
+   "la": "Hoc est mendācium. Sed hoc mox vidēbis."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading two: Sabidius.",
+   "la": "Lectiō secunda: Sabidius."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The new slave does not want to work.",
+   "la": "Servus novus labōrāre nōn vult."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca, Porcellus, Bibulus and Sabidius go back to the cookshop. Sabidius walks slowly.",
+   "la": "Bucca, Porcellus, Bibulus et Sabidius ad popīnam redeunt. Sabidius ambulat lentē."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Sabidius stops. Sabidius looks at a flower.",
+   "la": "Sabidius cōnsistit. Sabidius flōrem spectat."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Come on, Sabidius! Work is waiting for you!",
+   "la": "Venī, Sabidī! Labor tē exspectat!"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Work is waiting for me? Good. Work is patient. Work waits.",
+   "la": "Labor mē exspectat? Bene. Labor patiēns est. Labor exspectat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the cookshop Bucca gives Sabidius a knife.",
+   "la": "In popīnā Bucca Sabidiō cultrum dat."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Here is a knife. Here are cabbages. Cut the cabbages.",
+   "la": "Ecce culter. Ecce caulēs. Secā caulēs."
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Why?",
+   "la": "Cūr?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Why? Because I am buying you!",
+   "la": "Cūr? Quia ego tē emō!"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "You buy my body. You do not buy my mind. My mind is free. My mind does not cut cabbages.",
+   "la": "Tū corpus meum emis. Animum meum nōn emis. Animus meus est līber. Animus meus nōn secat caulēs."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "So your body cuts cabbages!",
+   "la": "Ergō corpus tuum secat caulēs!"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "A body without a mind does nothing. Watch.",
+   "la": "Corpus sine animō nihil facit. Spectā."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Sabidius puts the knife on the table and sits down. Sabidius closes his eyes.",
+   "la": "Sabidius cultrum in mēnsā pōnit et sedet. Sabidius oculōs claudit."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "What is he doing?",
+   "la": "Quid facit?"
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "He is thinking. I understand him. I too often think in this way.",
+   "la": "Cōgitat. Ego eum intellegō. Ego quoque saepe cōgitō hōc modō."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Sabidius! I am giving you a cabbage! Eat it!",
+   "la": "Sabidī! Ego tibi caulem dō! Ede eum!"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "I thank you, boy. The cabbage is good. But not as good as silence.",
+   "la": "Grātiās tibi agō, puer. Caulis est bonus. Sed nōn tam bonus quam silentium."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "What is silence?",
+   "la": "Quid est silentium?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "The thing which you never do.",
+   "la": "Id quod tū numquam facis."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Five languages! The trader says: he speaks five languages. Speak Greek!",
+   "la": "Quīnque linguās! Mercātor dīcit: quīnque linguās loquitur. Loquere Graecē!"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Khaire.",
+   "la": "Khaire."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "What is that?",
+   "la": "Quid est hoc?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "\"Hello.\" In Greek.",
+   "la": "\"Salvē.\" Graecē."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Speak Egyptian!",
+   "la": "Loquere Aegyptiacē!"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Khaire.",
+   "la": "Khaire."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "That is the same!",
+   "la": "Hoc est idem!"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "In Egypt many people speak Greek. I am not lying.",
+   "la": "In Aegyptō multī Graecē loquuntur. Ego nōn mentior."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "And the third language? The fourth? The fifth?",
+   "la": "Et lingua tertia? Quārta? Quīnta?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Latin. And bad Latin. And Bibulus's Latin.",
+   "la": "Latīna. Et Latīna mala. Et Latīna Bibulī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bibulus laughs. Bucca does not laugh. Bucca picks up the knife. Sabidius opens his eyes.",
+   "la": "Bibulus cachinnat. Bucca nōn cachinnat. Bucca cultrum capit. Sabidius oculōs aperit."
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Good. I am cutting cabbages.",
+   "la": "Bene. Caulēs secō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Sabidius cuts cabbages. Sabidius cuts one cabbage in an hour. It is a most beautiful piece of work.",
+   "la": "Sabidius caulēs secat. Sabidius ūnum caulem secat in hōrā. Est opus pulcherrimum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "It is a perfect cabbage. Nobody eats it, because it is so beautiful.",
+   "la": "Est caulis perfectus. Nēmō eum edit, quia est tam pulcher."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "A real Latin text: Mārtiālis, Epigrammata 1.32.",
+   "la": "Textus vērus: Mārtiālis, Epigrammata."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A short, famous poem: \"I don't like you.\"",
+   "la": "Carmen breve et clārum: \"Nōn amō tē.\""
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus does not like Sabidius. Why? He does not know. Sabidius is good to Porcellus: he tells him stories, he gives him cabbages.",
+   "la": "Porcellus Sabidium nōn amat. Cūr? Nescit. Sabidius est bonus Porcellō: eī fābulās nārrat, eī caulēs dat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "But Porcellus does not like him. Bibulus says: \"This is an old poem. The poet Martial writes: 'I do not like you, Sabidius.' The poet does not say the reason. The poet only says: I do not like you.\"",
+   "la": "Sed Porcellus eum nōn amat. Bibulus dīcit: \"Hoc est vetus carmen. Mārtiālis poēta scrībit: 'Nōn amō tē, Sabidī.' Poēta causam nōn dīcit. Poēta tantum dīcit: nōn amō tē.\""
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "The real text.",
+   "la": "Textus ipse."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I do not like you, Sabidius, and I cannot say why:",
+   "la": "Non amo te, Sabidi, nec possum dicere quare:"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I can only say this, I do not like you.",
+   "la": "hoc tantum possum dicere, non amo te."
+  },
+  {
+   "who": "N",
+   "kind": "en_only",
+   "en": "Martial, Epigrams 1.32 (about 85 AD). Martial wrote 1,500 short, sharp poems, many very rude. This is his most famous: \"I don't like you, Sabidius, and I can't say why: this alone I can say: I don't like you.\" It is copied all over Europe; in English it became \"I do not like thee, Doctor Fell\" (1680). Grammar: \"Sabidi\" is the vocative of Sabidius; \"te\" is the accusative. Our slave is named after him. He deserves it."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading three: The doctor.",
+   "la": "Lectiō tertia: Medicus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bibulus is ill. A doctor comes, a pale man.",
+   "la": "Bibulus aeger est. Venit medicus, vir pallidus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "After three days Bibulus is ill. Bibulus lies on a table. Bibulus does not drink.",
+   "la": "Post trēs diēs Bibulus aeger est. Bibulus in mēnsā iacet. Bibulus nōn bibit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is a bad sign.",
+   "la": "Hoc est signum malum."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Bibulus! What is wrong with you?",
+   "la": "Bibule! Quid tibi est?"
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "My belly... my head... all of me...",
+   "la": "Venter meus… caput meum… omnia mea…"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Perhaps a bad sausage?",
+   "la": "Fortasse botulus malus?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "My sausages are never bad!",
+   "la": "Meī botulī numquam sunt malī!"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Call a doctor. I know a good doctor. Diaulus by name.",
+   "la": "Medicum vocāte. Ego medicum bonum nōvī. Diaulus nōmine."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The doctor comes. The doctor is a tall, pale man, with black clothes.",
+   "la": "Venit medicus. Medicus est vir altus et pallidus, cum vestīmentō nigrō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The doctor looks at Bibulus. The doctor touches Bibulus's belly. The doctor sighs.",
+   "la": "Medicus Bibulum spectat. Medicus Bibulī ventrem tangit. Medicus suspīrat."
+  },
+  {
+   "who": "Diaulus",
+   "kind": "line",
+   "en": "Hmm. Yes. Yes. How old is he?",
+   "la": "Hmm. Ita. Ita. Quot annōs habet?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Fifty. Perhaps sixty. Nobody knows.",
+   "la": "Quīnquāgintā. Fortasse sexāgintā. Nēmō scit."
+  },
+  {
+   "who": "Diaulus",
+   "kind": "line",
+   "en": "Good. And how much money does he have?",
+   "la": "Bene. Et quanta est eius pecūnia?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Why do you ask that?",
+   "la": "Cūr id rogās?"
+  },
+  {
+   "who": "Diaulus",
+   "kind": "line",
+   "en": "For the funeral.",
+   "la": "Prō fūnere."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Funeral? I am not dying!",
+   "la": "Fūnere? Ego nōn morior!"
+  },
+  {
+   "who": "Diaulus",
+   "kind": "line",
+   "en": "Not yet. But I am patient.",
+   "la": "Nōndum. Sed ego sum patiēns."
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Diaulus, my friend, not today.",
+   "la": "Diaule, mī amīce, nōlī hodiē."
+  },
+  {
+   "who": "Diaulus",
+   "kind": "line",
+   "en": "All right, all right. Here is the remedy: hot water and salt. Drink it.",
+   "la": "Bene, bene. Ecce remedium: aqua calida et sāl. Bibe id."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Water? I would rather die.",
+   "la": "Aquam? Mālō morī."
+  },
+  {
+   "who": "Diaulus",
+   "kind": "line",
+   "en": "I can do that too. Two services, one price.",
+   "la": "Hoc quoque possum facere. Duo officia, ūnum pretium."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bibulus suddenly gets up, healthy, and runs to the door. Bibulus never runs.",
+   "la": "Bibulus subitō surgit, sānus, et ad iānuam currit. Bibulus numquam currit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The remedy is excellent.",
+   "la": "Remedium est optimum."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Who is that doctor?",
+   "la": "Quis est ille medicus?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Diaulus. Yesterday a doctor, today an undertaker. An undertaker carries the dead to the grave. Martial writes about him.",
+   "la": "Diaulus. Herī medicus, hodiē vespillō. Vespillō mortuōs portat ad sepulcrum. Mārtiālis dē eō scrībit."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "A real Latin text: Mārtiālis, Epigrammata 1.47.",
+   "la": "Textus vērus: Mārtiālis, Epigrammata."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A second poem: the doctor and the undertaker.",
+   "la": "Alterum carmen: medicus et vespillō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Sabidius tells Porcellus a poem of Martial. Diaulus was recently a doctor. Now he is an undertaker: a man who carries the dead.",
+   "la": "Sabidius Porcellō carmen Mārtiālis dīcit. Diaulus nūper erat medicus. Nunc est vespillō: vir quī mortuōs portat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "What does an undertaker do? He carries the dead. What does a doctor do? A doctor too carries the sick to death.",
+   "la": "Quid facit vespillō? Mortuōs portat. Quid facit medicus? Etiam medicus aegrōs ad mortem portat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The same work, two names.",
+   "la": "Idem opus, duo nōmina."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "The real text.",
+   "la": "Textus ipse."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Diaulus was recently a doctor, now he is an undertaker:",
+   "la": "Nuper erat medicus, nunc est vispillo Diaulus:"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "what the undertaker does, the doctor did too.",
+   "la": "quod vispillo facit, fecerat et medicus."
+  },
+  {
+   "who": "N",
+   "kind": "en_only",
+   "en": "Martial, Epigrams 1.47: \"Diaulus was a doctor just now; now he is an undertaker. What he does as an undertaker, he also did as a doctor.\" Romans did not trust doctors, who were often Greek and often bad. Grammar: \"erat\" (was) and \"fecerat\" (had done) are past forms; you will meet them properly in Part II. Note the poet's spelling \"vispillo\"; other books write \"vespillo\"."
+  },
+  {
+   "who": "Frāter",
+   "kind": "head",
+   "en": "In the margin: Brother Unknown.",
+   "la": "Margō: Frāter Ignōtus."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Brother Unknown never reads Martial. Never.",
+   "la": "Frāter Ignōtus Mārtiālem numquam legit. Numquam."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I, Brother Unknown, say nothing about slaves. In the monastery there are no slaves.",
+   "la": "Ego, Frāter Ignōtus, dē servīs nihil dīcō. In mōnastēriō nōn sunt servī."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "There are only novices, who do everything and get nothing. That is a different thing.",
+   "la": "Sunt tantum novīciī, quī omnia faciunt et nihil accipiunt. Hoc est aliud."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Martial is a disgusting poet. The abbot says: \"Do not read Martial.\" So everybody reads him, at night, by lamplight.",
+   "la": "Mārtiālis est poēta foedus. Abbās dīcit: \"Nōlī Mārtiālem legere.\" Ergō omnēs eum legunt, nocte, cum lucernā."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I never do. But I often say \"I do not like you, Sabidius.\" In my heart. To the abbot.",
+   "la": "Ego numquam. Sed \"Nōn amō tē, Sabidī\" saepe dīcō. In corde. Abbātī."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Epilogue: what happened?",
+   "la": "Epilogus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca went to the forum and bought Sabidius, a Greek philosopher, for a hundred sesterces. The trader said: \"He speaks five languages.\" But Sabidius spoke only two: Greek and bad Latin. At first he did not want to work. In the end he cut one very beautiful cabbage in an hour.",
+   "la": "Bucca ad forum iit et Sabidium, philosophum Graecum, centum sēstertiīs ēmit. Mercātor dīxit: \"Quīnque linguās loquitur.\" Sed Sabidius duās tantum linguās loquēbātur: Graecam et Latīnam malam. Prīmō labōrāre nōluit. Tandem ūnum caulem pulcherrimum in hōrā secuit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Three days later Bibulus was ill. The doctor Diaulus came and asked about the funeral. Bibulus did not want to drink water, and he ran away, healthy.",
+   "la": "Post trēs diēs Bibulus aeger fuit. Medicus Diaulus vēnit et dē fūnere rogāvit. Bibulus aquam bibere nōluit et sānus fūgit."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "What next?",
+   "la": "Quid deinde?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca now has a slave, but no money. Porcellus is always eating. What will Bucca do? She will send Porcellus to work, at a rich senator's villa. There a black, bearded, terrible animal is waiting for Porcellus.",
+   "la": "Bucca nunc servum habet, sed pecūniam nōn habet. Porcellus semper edit. Quid faciet Bucca? Porcellum ad labōrem mittet, ad vīllam senātōris dīvitis. Ibi Porcellum exspectat animal nigrum, barbātum, terribile."
+  }
+ ]
+}

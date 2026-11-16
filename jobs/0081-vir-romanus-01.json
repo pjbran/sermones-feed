@@ -1,0 +1,1376 @@
+{
+ "type": "book",
+ "show": "vir",
+ "slug": "capitulum-01",
+ "date": "2026-11-16T18:01:00+11:00",
+ "title": "Capitulum 1 · Stēlla stulta (The stupid star) · English → Latin, then Latin × 2",
+ "summary": "Vir Rōmānus, Part I, chapter 1 (121 AD, Porcellus is 0; level A1–A2). In this chapter it is night in Rome. Three astrologers see a new star. The star leads them to the Caelian hill, where there are two houses: a big house and a dirty cookshop. The astrologers are looking for a king. Whom will they find? A pig? A baby? Both? Grammar: Quis? Nōminātīvus: ūnus et multī · est / sunt · -ne, num, quis, quid. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "max_credits": 12156,
+ "keep_credits": 1000,
+ "music": "v5",
+ "bitrate": "64k",
+ "voices": {
+  "N": "name:Rossana",
+  "BUCCA": {
+   "name": "Bucca (Vir Rōmānus)",
+   "design": "A huge, loud woman in her forties who runs a street cookshop in ancient Rome: booming, warm, raspy chest voice, bossy, quick and funny. Speaks English with a light Italian accent (never American).",
+   "sample": "Sausages! Hot sausages! One coin! What do you want? Do you want food? The cabbages are good. Be quiet, Bibulus, I am talking!",
+   "fallback": "name:Rossana"
+  },
+  "PORC": {
+   "name": "Porcellus (Vir Rōmānus)",
+   "design": "A cheeky, greedy, loud eleven-year-old boy: bright, a bit nasal, always excited, often with his mouth full. Speaks English with a light Italian accent (never American).",
+   "sample": "I am the emperor! Marcus, am I bigger than you? I think about sausages. I always think. Give me the sausage, please! Oink!",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "MARCUS": {
+   "name": "Marcus (Vir Rōmānus)",
+   "design": "A serious, calm, very polite twelve-year-old boy: clear, precise, gentle and thoughtful, a little old for his age. Speaks English with a light Italian accent (never American).",
+   "sample": "I am reading. The book is about philosophy. A philosopher is a man who thinks, a man who looks for the truth. I will not ride without a reason.",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "BIBULUS": {
+   "name": "Bibulus (Vir Rōmānus)",
+   "design": "A lazy old drunk man in his sixties: hoarse, slow, slurred and sleepy, gravelly, deadpan. Speaks English with a light Italian accent (never American).",
+   "sample": "Mmmph. What is this? Water? I would rather die. I am the emperor of wine. Bucca, I want to tell you something... Nothing. I know nothing.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PRIMUS": {
+   "name": "Primus (Vir Rōmānus)",
+   "design": "A pompous, theatrical middle-aged man who thinks he is a great prophet: rich booming baritone, grand and dramatic. Speaks English with a light Italian accent (never American).",
+   "sample": "Look! A new star! Today on this hill a king is born! O king! O future emperor! Look, gold! All kings smell, woman. All of them.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SECUNDUS": {
+   "name": "Secundus (Vir Rōmānus)",
+   "design": "A fat, practical, slightly whiny middle-aged man: nasal tenor voice, sceptical and dry. Speaks English with a light Italian accent (never American).",
+   "sample": "Where? The sky is big, Primus. Where in the sky? Which of the two houses? It is the smell of cabbages. And of pigs. Surely not.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "TERTIUS": {
+   "name": "Tertius (Vir Rōmānus)",
+   "design": "A tiny, very old man who is nearly deaf and nearly blind: thin, high, quavering, confused and sweet. Speaks English with a light Italian accent (never American).",
+   "sample": "What is it? Is it the moon? Oh! Who is hitting me? The wall is rude. Is the dog the king? Oh. Kind people. Where is the world?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MONK": {
+   "name": "Frater Ignotus (Vir Rōmānus)",
+   "design": "A grumpy elderly English monk in a cold medieval monastery: dry, low, weary and deadpan, a sarcastic murmur. British English accent (never American).",
+   "sample": "I am Brother Unknown. The year is eleven fifty. The monastery is cold. The ink is cold. My fingers are cold. The abbot says: write this book. I write.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SABIDIUS": {
+   "name": "Sabidius (Vir Rōmānus)",
+   "design": "A lazy, smug, elderly Greek philosopher who is a useless slave: soft, slow, silky, superior and unbothered. Speaks English with a Greek accent (never American).",
+   "sample": "You buy my body. You do not buy my mind. My mind is free. My mind does not cut cabbages. Work is patient. Work waits. I am a philosopher.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "HADRIAN": {
+   "name": "Hadrian (Vir Rōmānus)",
+   "design": "A commanding Roman emperor in his fifties: deep, warm, authoritative, amused, a rich and slow voice. Speaks English with a light Italian accent (never American).",
+   "sample": "Hello, Marcus! This horse is yours. Ha! Listen to him! You are not Verus, Marcus. You are Verissimus! And who are you, little one?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PLAGOSUS": {
+   "name": "Plagosus (Vir Rōmānus)",
+   "design": "A small, bald, furious schoolmaster: sharp, barking, nasal, shouting and strict. Speaks English with a light Italian accent (never American).",
+   "sample": "A new pupil! What is your name? Do you know your letters? Not even A? In my school nobody laughs. In my school everybody learns. Or hurts.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PARROT": {
+   "name": "Psittacus (Vir Rōmānus)",
+   "design": "A shrill, squawky cartoon parrot: high, scratchy, screeching, fast, repeating words, very comic. Not American.",
+   "sample": "Hello! Hello! Stupid Bucca! Stupid Bucca! Emperor! Emperor! Sausage! Sausage! When do we get to Rome? When do we get to Rome?",
+   "fallback": "name:Rossana"
+  },
+  "MAN1": {
+   "name": "Romanus (Vir Rōmānus)",
+   "design": "A gruff working-class man in his forties from ancient Rome: rough, tired, impatient, deep. Speaks English with a light Italian accent (never American).",
+   "sample": "What do you want? Here nobody is born. Go away, or the dog comes! The best slaves! Buy, citizens! Dinner is three coins. Here you pay.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MAN2": "name:Pater (Leō Parvus)"
+ },
+ "cast": {
+  "N": "N",
+  "Frāter": "MONK",
+  "Bucca": "BUCCA",
+  "Porcellus": "PORC",
+  "Īnfāns": "PORC",
+  "Porcellus (Staphyla)": "PORC",
+  "Marcus": "MARCUS",
+  "Bibulus": "BIBULUS",
+  "Prīmus": "PRIMUS",
+  "Secundus": "SECUNDUS",
+  "Tertius": "TERTIUS",
+  "Sabidius": "SABIDIUS",
+  "Hadriānus": "HADRIAN",
+  "Plāgōsus": "PLAGOSUS",
+  "Psittacus": "PARROT",
+  "Servus": "MAN1",
+  "Mīles": "MAN1",
+  "Mercātor": "MAN1",
+  "Caupō": "MAN1",
+  "Dominus gregis": "MAN1",
+  "Vir": "MAN2",
+  "Alius mīles": "MAN2",
+  "Fūrius": "MAN2",
+  "Poēta": "MAN2",
+  "Histriō": "MAN2",
+  "Diaulus": "PRIMUS",
+  "Pinguis": "PRIMUS",
+  "Eucliō novus": "TERTIUS"
+ },
+ "sfx": {
+  "goat": [
+   "A single billy goat bleating loudly, close up, \"meh-eh-eh\"",
+   2
+  ]
+ },
+ "items": [
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Vir Rōmānus. Chapter one: The stupid star.",
+   "la": "Capitulum prīmum: Stēlla stulta."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Prologue: what will happen?",
+   "la": "Prōlogus. Quid fīet?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In this chapter it is night in Rome. Three astrologers see a new star. The star leads them to the Caelian hill, where there are two houses: a big house and a dirty cookshop. The astrologers are looking for a king. Whom will they find? A pig? A baby? Both?",
+   "la": "In hōc capitulō Rōma est nocte. Trēs astrologī stēllam novam vident. Stēlla eōs ad montem Caelium dūcit, ubi duae domūs sunt: domus magna et popīna sordida. Astrologī rēgem quaerunt. Quem invenient? Porcum? Īnfantem? Ambōs?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Grammar: the nominative (who?), one and many (porcus, porcī), est and sunt, and questions (-ne, num, quis, quid).",
+   "la": "Grammatica: nōminātīvus (quis?), ūnus et multī (porcus, porcī), est et sunt, et quaestiōnēs (-ne, num, quis, quid)."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Grammar.",
+   "la": "Grammatica."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hello, reader! This is a Latin book. In this chapter one thing is big: who? Who is in the street? A pig is in the street. \"Porcus\" is the nominative: the one who is, the one who acts, the one who smells.",
+   "la": "Salvē, lēctor! Hic est liber Latīnus. In hōc capitulō ūna rēs est magna: quis? Quis est in viā? Porcus est in viā. \"Porcus\" est nōminātīvus: is quī est, is quī agit, is quī olet."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "One pig, many pigs. One star, many stars. One egg, many eggs. A pig alone is sad. Many pigs are happy. And they smell.",
+   "la": "Ūnus porcus, multī porcī. Ūna stēlla, multae stēllae. Ūnum ōvum, multa ōva. Porcus sōlus est trīstis. Porcī multī sunt laetī. Et olent."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "ūnus, ūna, ūnum — multī, multae, multa"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "porcus — porcī"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "stēlla — stēllae"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "ōvum — ōva"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "puer — puerī"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Est = one. Sunt = many. \"The astrologer is stupid.\" \"The astrologers are stupid.\" This is not grammar. This is the truth.",
+   "la": "Est = ūnus. Sunt = multī. \"Astrologus est stultus.\" \"Astrologī sunt stultī.\" Hoc nōn est grammatica. Hoc est vēritās."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Questions. -ne at the end of a word: \"Is the pig a king?\" Num expects \"no\": \"Surely the pig is not a king?\" — \"No!\" Quis? = a person. Quid? = a thing.",
+   "la": "Quaestiōnēs. -ne in fīne verbī: \"Estne porcus rēx?\" Num exspectat \"nōn\": \"Num porcus est rēx?\" — \"Minimē!\" Quis? = persōna. Quid? = rēs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "\"Who is in the kitchen?\" — \"Bucca.\" \"What is in the pot?\" — \"Nobody knows. Not even Bucca.\"",
+   "la": "\"Quis est in culīnā?\" — \"Bucca.\" \"Quid est in ollā?\" — \"Nēmō scit. Nē Bucca quidem.\""
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "New words.",
+   "la": "Verba nova."
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "reader",
+   "la": "lēctor"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "pig",
+   "la": "porcus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "the nominative (case)",
+   "la": "nōminātīvus, nōminātīvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "smell, give off a smell",
+   "la": "oleō, olēre, oluī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "astrologer",
+   "la": "astrologus, astrologī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "grammar",
+   "la": "grammatica, grammaticae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "king",
+   "la": "rēx"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "pot (for cooking)",
+   "la": "olla"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "not even (the word goes in the middle)",
+   "la": "nē … quidem"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "bar, pub",
+   "la": "popīna"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "slave, servant",
+   "la": "servus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "pig pen",
+   "la": "hara, harae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "knee",
+   "la": "genū"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "gold",
+   "la": "aurum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "garum, fish sauce (fermented fish)",
+   "la": "garum, garī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "fart",
+   "la": "pēdō, pēdere, pepēdī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "commander, general; emperor",
+   "la": "imperātor"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "beard",
+   "la": "barba"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "quote, cite",
+   "la": "citō, citāre, citāvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "cook (a woman)",
+   "la": "coqua, coquae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "everywhere",
+   "la": "ubīque"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "cabbage",
+   "la": "caulis, caulis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "Roman",
+   "la": "Rōmānus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "empire; power to command",
+   "la": "imperium"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "more (in number)",
+   "la": "plūrēs"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "basket",
+   "la": "corbis, corbis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "red-faced, ruddy",
+   "la": "rubicundus, rubicunda, rubicundum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "piglet",
+   "la": "porcellus, porcellī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "dung, poo",
+   "la": "stercus, stercoris"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I bite",
+   "la": "mordeō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "rotten",
+   "la": "putridus, putrida, putridum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "margin",
+   "la": "margō, marginis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "twentieth",
+   "la": "vīcēsimus, vīcēsima, vīcēsimum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "grandfather",
+   "la": "avus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "song, poem",
+   "la": "carmen"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "lamp",
+   "la": "lucerna"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "monastery",
+   "la": "mōnastērium, mōnastēriī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "ink",
+   "la": "ātrāmentum, ātrāmentī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "abbot",
+   "la": "abbās, abbātis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "east",
+   "la": "oriēns"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "difference",
+   "la": "differentia, differentiae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "incense (tūs, tūris n.)",
+   "la": "tūs"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "myrrh (a scented resin)",
+   "la": "myrrha"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "back (of the body)",
+   "la": "dorsum, dorsī"
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading one: Night.",
+   "la": "Lectiō prīma: Nox."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "It is night. Three astrologers follow a star, but the star is stupid.",
+   "la": "Nox est. Trēs astrologī stēllam sequuntur, sed stēlla est stulta."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Rome is a big city. In the city there are seven hills. One hill is the Caelian.",
+   "la": "Rōma est urbs magna. In urbe sunt septem montēs. Ūnus mōns est Caelius."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "On the Caelian hill there are two houses. The first house is big and beautiful. It is the house of Annius Verus, a noble and rich man.",
+   "la": "In monte Caeliō sunt duae domūs. Domus prīma est magna et pulchra. Est domus Annī Vērī, virī nōbilis et dīvitis."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the garden there are roses, statues, slaves.",
+   "la": "In hortō sunt rosae, statuae, servī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The second house is not really a house. It is a cookshop: small, dirty, full of smoke.",
+   "la": "Domus secunda nōn est vērē domus. Est popīna: parva, sordida, plēna fūmī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The cookshop is Bucca's. Bucca is a cook. Bucca is a huge woman. Bucca's voice is huge.",
+   "la": "Popīna est Buccae. Bucca est coqua. Bucca est fēmina ingēns. Vōx Buccae est ingēns."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca's nose is huge. In the cookshop nothing is small, except the money.",
+   "la": "Nāsus Buccae est ingēns. In popīnā nihil est parvum, nisi pecūnia."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Behind the cookshop is a pig pen. In the pig pen there are pigs. The pigs are many, fat, happy.",
+   "la": "Post popīnam est hara. In harā sunt porcī. Porcī sunt multī, crassī, laetī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The pigs are not noble. The pigs are not rich. But the pigs are happier than Annius Verus.",
+   "la": "Porcī nōn sunt nōbilēs. Porcī nōn sunt dīvitēs. Sed porcī sunt laetiōrēs quam Annius Vērus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "It is night. The sky is black. In the sky there are many stars. But one star is new.",
+   "la": "Nox est. Caelum est nigrum. In caelō sunt multae stēllae. Sed ūna stēlla est nova."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The new star is bright and big, and it walks across the sky. Stars do not walk.",
+   "la": "Stēlla nova est clāra et magna, et ambulat per caelum. Stēllae nōn ambulant."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This star walks. It is a stupid star.",
+   "la": "Haec stēlla ambulat. Est stēlla stulta."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the street there are three men. The men are astrologers. Primus is tall. Secundus is fat.",
+   "la": "In viā sunt trēs virī. Virī sunt astrologī. Prīmus est longus. Secundus est crassus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Tertius is small and old, and he does not see well, and he does not hear well.",
+   "la": "Tertius est parvus et vetus, et nōn bene videt, et nōn bene audit."
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "Look! A new star!",
+   "la": "Ecce! Stēlla nova!"
+  },
+  {
+   "who": "Secundus",
+   "kind": "line",
+   "en": "Where?",
+   "la": "Ubi?"
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "There! In the sky!",
+   "la": "Ibi! In caelō!"
+  },
+  {
+   "who": "Secundus",
+   "kind": "line",
+   "en": "The sky is big, Primus. Where in the sky?",
+   "la": "Caelum est magnum, Prīme. Ubi in caelō?"
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "There! Above the Caelian hill!",
+   "la": "Ibi! Suprā montem Caelium!"
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "What is it? Is it the moon?",
+   "la": "Quid est? Estne lūna?"
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "No, Tertius. It is not the moon. It is a star. A new star is a sign. Today on this hill a king is born.",
+   "la": "Minimē, Tertī. Nōn est lūna. Est stēlla. Stēlla nova est signum. Hodiē in hōc monte nāscitur rēx."
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "The ruler of the world is born!",
+   "la": "Nāscitur imperātor mundī!"
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "Where is the world?",
+   "la": "Ubi est mundus?"
+  },
+  {
+   "who": "Secundus",
+   "kind": "line",
+   "en": "Everywhere, Tertius. The world is everywhere.",
+   "la": "Ubīque, Tertī. Mundus est ubīque."
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "Oh. It is big.",
+   "la": "Ō. Magnus est."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The astrologers follow the star. The star walks, the astrologers walk. The star stops, the astrologers stop.",
+   "la": "Astrologī stēllam sequuntur. Stēlla ambulat, astrologī ambulant. Stēlla cōnsistit, astrologī cōnsistunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Tertius does not stop. Tertius walks into a wall.",
+   "la": "Tertius nōn cōnsistit. Tertius in mūrum ambulat."
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "Oh! Who is hitting me?",
+   "la": "Ō! Quis mē pulsat?"
+  },
+  {
+   "who": "Secundus",
+   "kind": "line",
+   "en": "The wall, Tertius.",
+   "la": "Mūrus, Tertī."
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "The wall is rude.",
+   "la": "Mūrus est inurbānus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Now the star stands above the two houses: not above the big house, not above the cookshop, but between the houses.",
+   "la": "Nunc stēlla stat suprā duās domūs: nōn suprā domum magnam, nōn suprā popīnam, sed inter domūs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The star is stupid. The astrologers are stupider.",
+   "la": "Stēlla est stulta. Astrologī sunt stultiōrēs."
+  },
+  {
+   "who": "Secundus",
+   "kind": "line",
+   "en": "Which of the two? The big house or the cookshop?",
+   "la": "Uter? Domus magna an popīna?"
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "It is easy. The big house is beautiful. A ruler is born in a beautiful house.",
+   "la": "Facile est. Domus magna est pulchra. Imperātor in domō pulchrā nāscitur."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Primus knocks on the door of the big house. The door opens. In the doorway is a slave.",
+   "la": "Prīmus iānuam domūs magnae pulsat. Iānua aperītur. In iānuā est servus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The slave is tired and angry, because it is night.",
+   "la": "Servus est fessus et īrātus, quia nox est."
+  },
+  {
+   "who": "Servus",
+   "kind": "line",
+   "en": "What do you want?",
+   "la": "Quid vultis?"
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "Hello! We are astrologers. Here a king is born!",
+   "la": "Salvē! Nōs sumus astrologī. Hīc nāscitur rēx!"
+  },
+  {
+   "who": "Servus",
+   "kind": "line",
+   "en": "Here nobody is born. Go away!",
+   "la": "Hīc nēmō nāscitur. Abīte!"
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "But the star...",
+   "la": "Sed stēlla…"
+  },
+  {
+   "who": "Servus",
+   "kind": "line",
+   "en": "The star is not mine. Go away, or the dog comes.",
+   "la": "Stēlla nōn est mea. Abīte, aut canis venit."
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "A dog? Is the dog the king?",
+   "la": "Canis? Estne canis rēx?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The door is shut. From the big house comes a shout. The astrologers do not hear. From the cookshop comes a smell.",
+   "la": "Iānua clauditur. Ex domō magnā venit clāmor. Astrologī nōn audiunt. Ex popīnā venit odor."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The astrologers sniff.",
+   "la": "Astrologī olfaciunt."
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "What is this smell? Is it the smell of a king?",
+   "la": "Quid est hic odor? Estne odor rēgis?"
+  },
+  {
+   "who": "Secundus",
+   "kind": "line",
+   "en": "It is the smell of cabbages. And of pigs.",
+   "la": "Est odor caulium. Et porcōrum."
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "Good! Kings are pigs. Everybody knows.",
+   "la": "Bene! Rēgēs sunt porcī. Omnēs sciunt."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Excursus: Rome in the year 121. True!",
+   "la": "Excursus: Rōma annō centēsimō vīcēsimō prīmō. Vērum!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Who is emperor in 121? And why does he have a beard?",
+   "la": "Quis est imperātor annō centēsimō vīcēsimō prīmō? Et cūr barbam habet?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is true. In the year 121 the Roman emperor is Hadrian. But Hadrian is not in Rome.",
+   "la": "Hoc est vērum. Annō centēsimō vīcēsimō prīmō imperātor Rōmānus est Hadriānus. Sed Hadriānus nōn est Rōmae."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hadrian is always on a journey: in Gaul, in Britain, in Greece, in Egypt.",
+   "la": "Hadriānus semper est in itinere: in Galliā, in Britanniā, in Graeciā, in Aegyptō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hadrian wants to see his empire, and the Romans never see their emperor.",
+   "la": "Hadriānus imperium suum vidēre vult, et Rōmānī imperātōrem suum numquam vident."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hadrian has a beard. The emperors before him do not have a beard. Hadrian is the first emperor with a beard.",
+   "la": "Hadriānus barbam habet. Imperātōrēs priōrēs barbam nōn habent. Hadriānus est prīmus imperātor cum barbā."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Why? The Historia Augusta says: on Hadrian's face there are blemishes, and the beard covers the blemishes.",
+   "la": "Cūr? Historia Augusta dīcit: in faciē Hadriānī sunt vitia, et barba vitia tegit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A beard is like a tunic for the face.",
+   "la": "Barba est quasi tunica faciēī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In Rome there are perhaps a million people. Many are poor. Many live in \"islands\": tall houses, dirty, full of mice.",
+   "la": "Rōmae sunt fortasse mīlle mīlia hominum. Multī sunt pauperēs. Multī habitant in īnsulīs: domūs altae, sordidae, plēnae mūrium."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A Roman \"island\" is not an island in the sea. It is a big, bad house. If an island burns, many die.",
+   "la": "Īnsula Rōmāna nōn est īnsula in marī. Est domus magna et mala. Sī īnsula ārdet, multī moriuntur."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "If an island falls down, more die. If an island stands, everybody complains.",
+   "la": "Sī īnsula cadit, plūrēs moriuntur. Sī īnsula stat, omnēs queruntur."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The Romans do not have numbers for years. They do not say \"the year 121\". The Romans say: \"the year in which Annius Verus, for the second time, and Augur are consuls\".",
+   "la": "Rōmānī numerōs annōrum nōn habent. \"Annus centēsimus vīcēsimus prīmus\" nōn dīcunt. Rōmānī dīcunt: \"annus, quō Annius Vērus iterum et Augur sunt cōnsulēs\"."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is long. The Romans are patient.",
+   "la": "Hoc est longum. Rōmānī sunt patientēs."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading two: A baby in the pig pen.",
+   "la": "Lectiō secunda: Īnfāns in harā."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The astrologers enter the cookshop. In the pig pen, something is shouting.",
+   "la": "Astrologī popīnam intrant. In harā aliquid clāmat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the cookshop is Bucca. Bucca is cooking cabbages. On a table sleeps Bibulus. Bibulus is a poor and dirty man.",
+   "la": "In popīnā est Bucca. Bucca caulēs coquit. In mēnsā dormit Bibulus. Bibulus est vir pauper et sordidus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bibulus is always in the cookshop. Bibulus always sleeps. When Bibulus does not sleep, Bibulus drinks.",
+   "la": "Bibulus semper in popīnā est. Bibulus semper dormit. Quandō Bibulus nōn dormit, Bibulus bibit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The door of the cookshop opens. In come three astrologers.",
+   "la": "Iānua popīnae aperītur. Intrant trēs astrologī."
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "Hello, o woman! Where is the king?",
+   "la": "Salvē, ō fēmina! Ubi est rēx?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "King? Here there is no king. Here is a cookshop. Here there are food, wine and Bibulus.",
+   "la": "Rēx? Hīc nōn est rēx. Hīc est popīna. Hīc sunt cibus, vīnum et Bibulus."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Mmmph.",
+   "la": "Mmmph."
+  },
+  {
+   "who": "Secundus",
+   "kind": "line",
+   "en": "Is that man the king?",
+   "la": "Estne ille rēx?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Him? That is Bibulus. Bibulus is not a king. Bibulus is a pig.",
+   "la": "Ille? Ille est Bibulus. Bibulus nōn est rēx. Bibulus est porcus."
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "A pig! Look! A sign!",
+   "la": "Porcus! Ecce! Signum!"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "What do you want? Do you want food? The cabbages are good. Today there are cabbages. Yesterday there were cabbages. Tomorrow there will be cabbages.",
+   "la": "Quid vultis? Cibumne vultis? Caulēs sunt bonī. Hodiē caulēs sunt. Herī caulēs erant. Crās caulēs erunt."
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "We are not looking for food. We are looking for a king. The star...",
+   "la": "Nōn cibum quaerimus. Rēgem quaerimus. Stēlla…"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Suddenly from the pig pen comes a small voice: \"Waaah!\" Everyone goes quiet. Even Bibulus goes quiet, but Bibulus is always quiet.",
+   "la": "Subitō ex harā venit vōx parva: \"Uāāāh!\" Omnēs tacent. Etiam Bibulus tacet, sed Bibulus semper tacet."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "What is that? Pigs do not shout like that.",
+   "la": "Quid est? Porcī nōn sīc clāmant."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca runs into the pig pen. The astrologers run after Bucca. Tertius runs into the door.",
+   "la": "Bucca in haram currit. Astrologī post Buccam currunt. Tertius in iānuam currit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the pig pen, among the pigs, there is a basket. In the basket there is a baby. The baby is naked, red, fat.",
+   "la": "In harā, inter porcōs, est corbis. In corbe est īnfāns. Īnfāns est nūdus, rubicundus, crassus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The baby does not cry; the baby laughs. Piglets sit around the basket. The baby is like a piglet.",
+   "la": "Īnfāns nōn plōrat; īnfāns cachinnat. Porcellī circum corbem sedent. Īnfāns est similis porcellō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The piglet is like the baby. Who is the piglet? Who is the baby? Nobody knows.",
+   "la": "Porcellus est similis īnfantī. Quis est porcellus? Quis est īnfāns? Nēmō scit."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Who are you, little one? Who leaves you here?",
+   "la": "Quis es tū, parve? Quis tē hīc relinquit?"
+  },
+  {
+   "who": "Īnfāns",
+   "kind": "line",
+   "en": "Oink.",
+   "la": "Oink."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Oh! You are a piglet! Good. You are Porcellus, Piglet.",
+   "la": "Ō! Porcellus es! Bene. Tū es Porcellus."
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "Look! The star is above the pig pen! This is the king!",
+   "la": "Ecce! Stēlla est suprā haram! Hic est rēx!"
+  },
+  {
+   "who": "Secundus",
+   "kind": "line",
+   "en": "A king in a pig pen? Surely a king is not born in a pig pen?",
+   "la": "Rēx in harā? Num rēx in harā nāscitur?"
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "Why not? At this time all things are new.",
+   "la": "Cūr nōn? Hōc tempore omnia sunt nova."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The astrologers kneel. In the dung. Dung is everywhere.",
+   "la": "Astrologī genua flectunt. In stercore. Stercus est ubīque."
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "O king! O future emperor! Look, gold!",
+   "la": "Ō rēx! Ō imperātor futūre! Ecce, aurum!"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Gold! Excellent!",
+   "la": "Aurum! Optimē!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca bites the coin. The coin is real.",
+   "la": "Bucca nummum mordet. Nummus est vērus."
+  },
+  {
+   "who": "Secundus",
+   "kind": "line",
+   "en": "O king! Look, a book of the stars!",
+   "la": "Ō rēx! Ecce, liber stēllārum!"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "A book? I cannot read. But a book burns well. Thanks!",
+   "la": "Liber? Ego legere nōn possum. Sed liber ārdet bene. Grātiās!"
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "O king! Look, fish sauce!",
+   "la": "Ō rēx! Ecce, garum!"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "What?",
+   "la": "Quid?"
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "Garum. Garum is good. Garum is made from rotten fish.",
+   "la": "Garum. Garum est bonum. Garum est ex piscibus putridīs."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "I have garum. In a cookshop there is always garum.",
+   "la": "Garum habeō. In popīnā semper est garum."
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "Oh.",
+   "la": "Ō."
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "Woman! This baby is the future emperor! King of the world! Lord of the lands!",
+   "la": "Fēmina! Hic īnfāns est imperātor futūrus! Rēx mundī! Dominus terrārum!"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "This one? This one is a piglet. This one smells.",
+   "la": "Hic? Hic est porcellus. Hic olet."
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "All kings smell.",
+   "la": "Omnēs rēgēs olent."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "A real Latin text: Historia Augusta, Vīta Marcī 1.5.",
+   "la": "Textus vērus: Historia Augusta, Vīta Marcī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A real book about Marcus: where and when was he born?",
+   "la": "Liber vērus dē Marcō: ubi et quandō nātus est?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Brother Unknown (see the margin) has another book: the Historia Augusta.",
+   "la": "Frāter Ignōtus (vidē marginem) alium librum habet: Historiam Augustam."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "There it is written: Marcus was born in Rome, on the Caelian hill, in the gardens. The day is the sixth before the Kalends of May: that is, the twenty-sixth of April.",
+   "la": "Ibi scrīptum est: Marcus nātus est Rōmae, in monte Caeliō, in hortīs. Diēs est sextus ante Kalendās Māiās: id est, vīcēsimus sextus Aprīlis."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The consuls are Marcus's grandfather (for the second time) and a man who is called \"Augur\".",
+   "la": "Cōnsulēs sunt avus Marcī (iterum) et vir quī \"Augur\" vocātur."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "The real text.",
+   "la": "Textus ipse."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Marcus was born in Rome on the sixth day before the Kalends of May, on the Caelian hill, in the gardens, when his grandfather, for the second time, and Augur were consuls.",
+   "la": "Natus est Marcus Romae ante diem sextum Kalendās Māiās in monte Caelio in hortis avo suo iterum et Augure consulibus."
+  },
+  {
+   "who": "N",
+   "kind": "en_only",
+   "en": "A real sentence from the Historia Augusta (Life of Marcus 1.5). Romans dated a day by counting back to the Kalends (the 1st) of the next month: \"VI kl. Maias\" = the 6th day before 1 May = 26 April. A year had no number: it was named by its two consuls, here in the ablative (\"avo suo iterum et Augure consulibus\" = \"his grandfather (consul for the 2nd time) and Augur being consuls\"). \"In hortis\" = in the gardens. In our story, the gardens have a cookshop and a pig pen next door. The Historia Augusta was written around 395 AD by one forger who pretends to be six writers. It mixes facts and lies. A perfect source for this book."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading three: Two babies.",
+   "la": "Lectiō tertia: Duo īnfantēs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The astrologers leave. Two babies lie in two houses.",
+   "la": "Astrologī abeunt. Duo īnfantēs in duābus domibus iacent."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The astrologers go out. They are happy. They sing. Primus sings well, Secundus sings badly, Tertius sings a different song.",
+   "la": "Astrologī exeunt. Laetī sunt. Cantant. Prīmus cantat bene, Secundus cantat male, Tertius cantat aliud carmen."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Then from the big house comes a great shout: \"A son! A son is born! A son of Annius Verus! It is Marcus!\" Slaves run.",
+   "la": "Tunc ex domō magnā venit clāmor magnus: \"Fīlius! Fīlius nātus est! Fīlius Annī Vērī! Marcus est!\" Servī currunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Lamps burn. A dog barks.",
+   "la": "Lucernae ārdent. Canis lātrat."
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "What are they saying?",
+   "la": "Quid dīcunt?"
+  },
+  {
+   "who": "Prīmus",
+   "kind": "line",
+   "en": "They are saying: \"Farewell, most wise astrologers!\"",
+   "la": "Dīcunt: \"Valēte, astrologī sapientissimī!\""
+  },
+  {
+   "who": "Tertius",
+   "kind": "line",
+   "en": "Oh. Kind people.",
+   "la": "Ō. Hominēs benignī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The astrologers go away. The star goes away. The star too is tired.",
+   "la": "Astrologī abeunt. Stēlla abit. Stēlla quoque est fessa."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the cookshop Bucca looks at the baby. Bibulus wakes up.",
+   "la": "In popīnā Bucca īnfantem spectat. Bibulus ēvigilat."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "What is this?",
+   "la": "Quid est hoc?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "This is Porcellus. The future emperor.",
+   "la": "Hic est Porcellus. Imperātor futūrus."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Ha! Emperor? This one? And I am an emperor. The emperor of wine.",
+   "la": "Ha! Imperātor? Hic? Et ego sum imperātor. Imperātor vīnī."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Be quiet, Bibulus. The astrologers say...",
+   "la": "Tacē, Bibule. Astrologī dīcunt…"
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Astrologers! Astrologers also say: \"Tomorrow, rain.\" And tomorrow there is sun.",
+   "la": "Astrologī! Astrologī quoque dīcunt: \"Crās pluvia.\" Et crās est sōl."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Perhaps. But the gold is real. If this one is the emperor, gold will come. Much gold. Porcellus stays.",
+   "la": "Fortasse. Sed aurum est vērum. Sī hic est imperātor, aurum veniet. Multum aurum. Porcellus manet."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "And if he is not the emperor?",
+   "la": "Et sī nōn est imperātor?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Then Porcellus works. In the kitchen. With the cabbages.",
+   "la": "Tum Porcellus labōrat. In culīnā. Cum caulibus."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Oink.",
+   "la": "Oink."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the big house, little Marcus lies in bed. Marcus does not cry. Marcus does not laugh.",
+   "la": "In domō magnā, Marcus parvus in lectō iacet. Marcus nōn plōrat. Marcus nōn cachinnat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Marcus is serious. Marcus thinks.",
+   "la": "Marcus est gravis. Marcus cōgitat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the cookshop, little Porcellus lies in a basket. Porcellus does not think. Porcellus farts.",
+   "la": "In popīnā, Porcellus parvus in corbe iacet. Porcellus nōn cōgitat. Porcellus pēdit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The sound is big. The pigs are happy. Bibulus flees.",
+   "la": "Sonus est magnus. Porcī laetī sunt. Bibulus fugit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "So begins the life of a Roman man. No, rather: of two men.",
+   "la": "Sīc incipit vīta virī Rōmānī. Immō: duōrum virōrum."
+  },
+  {
+   "who": "Frāter",
+   "kind": "head",
+   "en": "In the margin: Brother Unknown.",
+   "la": "Margō: Frāter Ignōtus."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Brother Unknown complains and quotes the Gospel.",
+   "la": "Frāter Ignōtus queritur et Ēvangelium citat."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I am Brother Unknown. The year is 1150. The monastery is cold. The ink is cold.",
+   "la": "Ego sum Frāter Ignōtus. Annus est mīllēsimus centēsimus quīnquāgēsimus. Mōnastērium est frīgidum. Ātrāmentum est frīgidum."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "My fingers are cold. The abbot says: \"Write this book.\" I write.",
+   "la": "Digitī meī sunt frīgidī. Abbās dīcit: \"Scrībe hunc librum.\" Ego scrībō."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "But this book is stupid: astrologers, pigs, fish sauce.",
+   "la": "Sed hic liber est stultus: astrologī, porcī, garum."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "In the Gospel too there are men from the east and a star.",
+   "la": "In Ēvangeliō quoque sunt virī ab oriente et stēlla."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Those men say: \"Where is he who is born king of the Jews? For we have seen his star in the east and have come to adore him.\"",
+   "la": "Illī virī dīcunt: \"Ubi est, quī nātus est, rēx Iūdaeōrum? Vīdimus enim stēllam eius in oriente et vēnimus adōrāre eum.\"."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Those men are wise. These men are astrologers. There is a big difference.",
+   "la": "Illī virī sunt sapientēs. Hī virī sunt astrologī. Magna differentia est."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "And those men give gold, frankincense and myrrh. Not fish sauce.",
+   "la": "Et illī virī dant aurum, tūs et myrrham. Nōn garum."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "An old saying of scribes: \"Three fingers write, the whole body works.\" It is true.",
+   "la": "Vetus verbum scrīptōrum: \"Trēs digitī scrībunt, tōtum corpus labōrat.\" Vērum est."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "My back hurts.",
+   "la": "Dorsum meum dolet."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Epilogue: what happened?",
+   "la": "Epilogus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "What happened? At night three astrologers saw a new star. The star led them to the Caelian hill. Prīmus knocked on the door of the big house, but a slave shouted: \"Go away!\" So the astrologers went into Bucca's cookshop.",
+   "la": "Quid factum est? Nocte trēs astrologī stēllam novam vīdērunt. Stēlla eōs ad montem Caelium dūxit. Prīmus iānuam domūs magnae pulsāvit, sed servus clāmāvit: \"Abīte!\" Itaque astrologī popīnam Buccae intrāvērunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the pig pen, among the pigs, they found a baby. They knelt and gave gifts: gold, a book, fish sauce. Bucca named the baby \"Porcellus\". That same night, in the big house, Marcus was born. Marcus thought. Porcellus farted.",
+   "la": "In harā, inter porcōs, īnfantem invēnērunt. Genua flexērunt et dōna dedērunt: aurum, librum, garum. Bucca īnfantem \"Porcellum\" vocāvit. Eādem nocte, in domō magnā, Marcus nātus est. Marcus cōgitāvit. Porcellus pepēdit."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "What next?",
+   "la": "Quid deinde?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "But who really is Porcellus? Where does he come from? And what will Bucca do with the astrologers' gold? Soon Porcellus will be four, and Bucca will go looking for the best fish sauce: in a town that no longer exists.",
+   "la": "Sed quis est vērē Porcellus? Unde venit? Et quid faciet Bucca cum aurō astrologōrum? Mox Porcellus quattuor annōs habēbit, et Bucca garum optimum quaeret: in oppidō quod iam nōn est."
+  }
+ ]
+}

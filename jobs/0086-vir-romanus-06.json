@@ -1,0 +1,1228 @@
+{
+ "type": "book",
+ "show": "vir",
+ "slug": "capitulum-06",
+ "date": "2026-11-16T18:06:00+11:00",
+ "title": "Capitulum 6 · Iter Brundisium (The road to Brundisium) · English → Latin, then Latin × 2",
+ "summary": "Vir Rōmānus, Part I, chapter 6 (131 AD, Porcellus is 10; level A2). It is the year 131. Bucca's cousin dies in Brundisium and leaves Bucca an inheritance. Bucca, Porcellus, Bibulus, Sabidius and Hannibal make a long trip along the Via Appia: bad water, boatmen, frogs, mosquitoes. What is the inheritance? Not money. Grammar: Ego, tū, nōs, vōs: persōna prīma et secunda · Rōmam, Rōmā, Brundisium. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "max_credits": 10864,
+ "keep_credits": 1000,
+ "music": "v5",
+ "bitrate": "64k",
+ "voices": {
+  "N": "name:Rossana",
+  "BUCCA": {
+   "name": "Bucca (Vir Rōmānus)",
+   "design": "A huge, loud woman in her forties who runs a street cookshop in ancient Rome: booming, warm, raspy chest voice, bossy, quick and funny. Speaks English with a light Italian accent (never American).",
+   "sample": "Sausages! Hot sausages! One coin! What do you want? Do you want food? The cabbages are good. Be quiet, Bibulus, I am talking!",
+   "fallback": "name:Rossana"
+  },
+  "PORC": {
+   "name": "Porcellus (Vir Rōmānus)",
+   "design": "A cheeky, greedy, loud eleven-year-old boy: bright, a bit nasal, always excited, often with his mouth full. Speaks English with a light Italian accent (never American).",
+   "sample": "I am the emperor! Marcus, am I bigger than you? I think about sausages. I always think. Give me the sausage, please! Oink!",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "MARCUS": {
+   "name": "Marcus (Vir Rōmānus)",
+   "design": "A serious, calm, very polite twelve-year-old boy: clear, precise, gentle and thoughtful, a little old for his age. Speaks English with a light Italian accent (never American).",
+   "sample": "I am reading. The book is about philosophy. A philosopher is a man who thinks, a man who looks for the truth. I will not ride without a reason.",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "BIBULUS": {
+   "name": "Bibulus (Vir Rōmānus)",
+   "design": "A lazy old drunk man in his sixties: hoarse, slow, slurred and sleepy, gravelly, deadpan. Speaks English with a light Italian accent (never American).",
+   "sample": "Mmmph. What is this? Water? I would rather die. I am the emperor of wine. Bucca, I want to tell you something... Nothing. I know nothing.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PRIMUS": {
+   "name": "Primus (Vir Rōmānus)",
+   "design": "A pompous, theatrical middle-aged man who thinks he is a great prophet: rich booming baritone, grand and dramatic. Speaks English with a light Italian accent (never American).",
+   "sample": "Look! A new star! Today on this hill a king is born! O king! O future emperor! Look, gold! All kings smell, woman. All of them.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SECUNDUS": {
+   "name": "Secundus (Vir Rōmānus)",
+   "design": "A fat, practical, slightly whiny middle-aged man: nasal tenor voice, sceptical and dry. Speaks English with a light Italian accent (never American).",
+   "sample": "Where? The sky is big, Primus. Where in the sky? Which of the two houses? It is the smell of cabbages. And of pigs. Surely not.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "TERTIUS": {
+   "name": "Tertius (Vir Rōmānus)",
+   "design": "A tiny, very old man who is nearly deaf and nearly blind: thin, high, quavering, confused and sweet. Speaks English with a light Italian accent (never American).",
+   "sample": "What is it? Is it the moon? Oh! Who is hitting me? The wall is rude. Is the dog the king? Oh. Kind people. Where is the world?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MONK": {
+   "name": "Frater Ignotus (Vir Rōmānus)",
+   "design": "A grumpy elderly English monk in a cold medieval monastery: dry, low, weary and deadpan, a sarcastic murmur. British English accent (never American).",
+   "sample": "I am Brother Unknown. The year is eleven fifty. The monastery is cold. The ink is cold. My fingers are cold. The abbot says: write this book. I write.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SABIDIUS": {
+   "name": "Sabidius (Vir Rōmānus)",
+   "design": "A lazy, smug, elderly Greek philosopher who is a useless slave: soft, slow, silky, superior and unbothered. Speaks English with a Greek accent (never American).",
+   "sample": "You buy my body. You do not buy my mind. My mind is free. My mind does not cut cabbages. Work is patient. Work waits. I am a philosopher.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "HADRIAN": {
+   "name": "Hadrian (Vir Rōmānus)",
+   "design": "A commanding Roman emperor in his fifties: deep, warm, authoritative, amused, a rich and slow voice. Speaks English with a light Italian accent (never American).",
+   "sample": "Hello, Marcus! This horse is yours. Ha! Listen to him! You are not Verus, Marcus. You are Verissimus! And who are you, little one?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PLAGOSUS": {
+   "name": "Plagosus (Vir Rōmānus)",
+   "design": "A small, bald, furious schoolmaster: sharp, barking, nasal, shouting and strict. Speaks English with a light Italian accent (never American).",
+   "sample": "A new pupil! What is your name? Do you know your letters? Not even A? In my school nobody laughs. In my school everybody learns. Or hurts.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PARROT": {
+   "name": "Psittacus (Vir Rōmānus)",
+   "design": "A shrill, squawky cartoon parrot: high, scratchy, screeching, fast, repeating words, very comic. Not American.",
+   "sample": "Hello! Hello! Stupid Bucca! Stupid Bucca! Emperor! Emperor! Sausage! Sausage! When do we get to Rome? When do we get to Rome?",
+   "fallback": "name:Rossana"
+  },
+  "MAN1": {
+   "name": "Romanus (Vir Rōmānus)",
+   "design": "A gruff working-class man in his forties from ancient Rome: rough, tired, impatient, deep. Speaks English with a light Italian accent (never American).",
+   "sample": "What do you want? Here nobody is born. Go away, or the dog comes! The best slaves! Buy, citizens! Dinner is three coins. Here you pay.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MAN2": "name:Pater (Leō Parvus)"
+ },
+ "cast": {
+  "N": "N",
+  "Frāter": "MONK",
+  "Bucca": "BUCCA",
+  "Porcellus": "PORC",
+  "Īnfāns": "PORC",
+  "Porcellus (Staphyla)": "PORC",
+  "Marcus": "MARCUS",
+  "Bibulus": "BIBULUS",
+  "Prīmus": "PRIMUS",
+  "Secundus": "SECUNDUS",
+  "Tertius": "TERTIUS",
+  "Sabidius": "SABIDIUS",
+  "Hadriānus": "HADRIAN",
+  "Plāgōsus": "PLAGOSUS",
+  "Psittacus": "PARROT",
+  "Servus": "MAN1",
+  "Mīles": "MAN1",
+  "Mercātor": "MAN1",
+  "Caupō": "MAN1",
+  "Dominus gregis": "MAN1",
+  "Vir": "MAN2",
+  "Alius mīles": "MAN2",
+  "Fūrius": "MAN2",
+  "Poēta": "MAN2",
+  "Histriō": "MAN2",
+  "Diaulus": "PRIMUS",
+  "Pinguis": "PRIMUS",
+  "Eucliō novus": "TERTIUS"
+ },
+ "sfx": {
+  "goat": [
+   "A single billy goat bleating loudly, close up, \"meh-eh-eh\"",
+   2
+  ]
+ },
+ "items": [
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Vir Rōmānus. Chapter six: The road to Brundisium.",
+   "la": "Capitulum sextum: Iter Brundisium."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Prologue: what will happen?",
+   "la": "Prōlogus. Quid fīet?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "It is the year 131. Bucca's cousin dies in Brundisium and leaves Bucca an inheritance. Bucca, Porcellus, Bibulus, Sabidius and Hannibal make a long trip along the Via Appia: bad water, boatmen, frogs, mosquitoes. What is the inheritance? Not money.",
+   "la": "Annus est centēsimus trīcēsimus prīmus. Cōnsōbrīnus Buccae Brundisiī moritur et Buccae hērēditātem relinquit. Bucca, Porcellus, Bibulus, Sabidius et Hannibal per Viam Appiam iter longum faciunt: aqua mala, nautae, rānae, culicēs. Quid est hērēditās? Nōn pecūnia."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Grammar: first and second person (I, you, we, you all: -ō, -s, -mus, -tis), the verb \"to be\", and cities: to Rome, from Rome, in Rome.",
+   "la": "Grammatica: persōna prīma et secunda (ego, tū, nōs, vōs: -ō, -s, -mus, -tis), verbum \"esse\", et urbēs: Rōmam, Rōmā, Rōmae."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Grammar.",
+   "la": "Grammatica."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Up to now you have read a lot about him and about them: Porcellus eats, the pigs run. Now I and you speak. \"I eat. You eat. We eat. You (all) eat.\" This is person. First person = I, we. Second = you, you all. Third = he, they. Bibulus is the third person; he is always absent.",
+   "la": "Usque adhūc multa dē eō et dē eīs legis: Porcellus edit, porcī currunt. Nunc ego et tū loquimur. \"Ego edō. Tū edis. Nōs edimus. Vōs editis.\" Hoc est persōna. Persōna prīma = ego, nōs. Secunda = tū, vōs. Tertia = is, eī. Bibulus est persōna tertia; semper est absēns."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "-āre — -ēre — -ere — -īre"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "ego — ambulō — videō — legō — audiō"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "tū — ambulās — vidēs — legis — audīs"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "is / ea — ambulat — videt — legit — audit"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "nōs — ambulāmus — vidēmus — legimus — audīmus"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "vōs — ambulātis — vidētis — legitis — audītis"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "eī / eae — ambulant — vident — legunt — audiunt"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "And the verb \"to be\", the stupid king of all verbs: I am, you are, he is, we are, you (all) are, they are.",
+   "la": "Et verbum \"esse\", rēx stultus omnium verbōrum: sum, es, est, sumus, estis, sunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "\"I am tired. You are tired. We are tired. The goat is not tired. The goat is never tired.\"",
+   "la": "\"Ego sum fessus. Tū es fessus. Nōs sumus fessī. Caper nōn est fessus. Caper numquam est fessus.\""
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Cities. Where to? To Rome, to Brundisium (no \"ad\"). Where from? From Rome, from Brundisium (no \"ā\"). Where? In Rome (locative). So: \"We go from Rome to Brundisium.\" This is a journey: both grammar and life.",
+   "la": "Urbēs. Quō? Rōmam, Brundisium (sine \"ad\"). Unde? Rōmā, Brundisiō (sine \"ā\"). Ubi? Rōmae (locātīvus). Itaque: \"Rōmā Brundisium īmus.\" Hoc est iter: et grammatica et vīta."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "New words.",
+   "la": "Verba nova."
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "you (all) eat (edō)",
+   "la": "editis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "absent, away",
+   "la": "absēns"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "(the ending -āre)",
+   "la": "āre"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "sailor",
+   "la": "nauta"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "(the ending -s)",
+   "la": "s"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "(the ending -tis)",
+   "la": "tis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "toilet",
+   "la": "lātrīna"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "parrot",
+   "la": "psittacus, psittacī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "cane, rod (for beating)",
+   "la": "ferula, ferulae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "queen",
+   "la": "rēgīna"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "pirate",
+   "la": "pīrāta, pīrātae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "innkeeper",
+   "la": "caupō, caupōnis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "level, flat; clear",
+   "la": "plānus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "restaurant",
+   "la": "caupōna"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "traveller",
+   "la": "viātor, viātōris"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "bedbug",
+   "la": "cīmex, cīmicis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "thief",
+   "la": "fūr"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I bury",
+   "la": "sepeliō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "next to, close beside",
+   "la": "iūxtā"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "ship",
+   "la": "nāvis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "at night",
+   "la": "noctū"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "marsh, swamp",
+   "la": "palūs, palūdis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "she-mule",
+   "la": "mūla, mūlae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "bring (the boat) in! (appellō)",
+   "la": "appelle"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I tie, I bind up (regular verb)",
+   "la": "ligō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "declares (war) (indīcō)",
+   "la": "indīcit"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "one another, in turn",
+   "la": "invicem"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "of the marsh",
+   "la": "palūster, palūstris, palūstre"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I put to flight",
+   "la": "fugō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "sober",
+   "la": "sōbrius, sōbria, sōbrium"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "port (for ships)",
+   "la": "portus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I sail",
+   "la": "nāvigō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "cage",
+   "la": "cavea, caveae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "gods! (deus, plural)",
+   "la": "dī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "immortal",
+   "la": "immortālis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "magpie",
+   "la": "pīca, pīcae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "past, last",
+   "la": "praeteritus, praeterita, praeteritum"
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading one: The inheritance.",
+   "la": "Lectiō prīma: Hērēditās."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A messenger brings a letter. Everyone goes to Brundisium.",
+   "la": "Nūntius epistulam affert. Omnēs Brundisium eunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The year is 131. Porcellus is ten years old. In the morning a messenger comes into the cookshop with a letter.",
+   "la": "Annus est centēsimus trīcēsimus prīmus. Porcellus decem annōs habet. Māne in popīnam venit nūntius cum epistulā."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca cannot read the letter. Sabidius reads it.",
+   "la": "Bucca epistulam legere nōn potest. Sabidius eam legit."
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "\"Bucca: your cousin is dying in Brundisium. He leaves you his cookshop. Come to Brundisium.\"",
+   "la": "\"Bucca: cōnsōbrīnus tuus Brundisiī moritur. Tibi popīnam suam relinquit. Venī Brundisium.\""
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "My cousin! Oh! Who is my cousin?",
+   "la": "Cōnsōbrīnus meus! Ō! Quis est cōnsōbrīnus meus?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "His name is Lucius Bucca. He was a pirate. Then an innkeeper.",
+   "la": "Nōmen eius est Lūcius Bucca. Pīrāta erat. Deinde caupō."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Oh Lucius! Oh dearest cousin! I never see him! I do not love him! But I love his cookshop!",
+   "la": "Ō Lūcī! Ō cōnsōbrīne cārissime! Eum numquam videō! Eum nōn amō! Sed popīnam eius amō!"
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Brundisium is far away. Brundisium is at the end of Italy.",
+   "la": "Brundisium longē abest. Brundisium est in fīne Ītaliae."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "We are going! We are all going! Me, you, Porcellus, Sabidius!",
+   "la": "Īmus! Omnēs īmus! Ego, tū, Porcellus, Sabidius!"
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Me? Why me?",
+   "la": "Ego? Cūr ego?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Because you alone here are useless. Without you, my cookshop is useful. I cannot leave you behind: you drink everything.",
+   "la": "Quia tū sōlus hīc es inūtilis. Sine tē, popīna mea est ūtilis. Nōn possum tē relinquere: tū omnia bibis."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "And Hannibal?",
+   "la": "Et Hannibal?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal stands in the doorway. Hannibal looks at Bucca. Hannibal says \"meh-eh-eh\".",
+   "la": "Hannibal in iānuā stat. Hannibal Buccam spectat. Hannibal \"mē-ē-ē\" dīcit."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "...And Hannibal.",
+   "la": "…Et Hannibal."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "So, on the first of May, Bucca, Bibulus, Sabidius, Porcellus and Hannibal the goat leave Rome.",
+   "la": "Ita, Kalendīs Māiīs, Bucca, Bibulus, Sabidius, Porcellus et caper Hannibal Rōmā discēdunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "They go along the Appian Way. The Appian Way is long, hard, full of stones.",
+   "la": "Per Viam Appiam eunt. Via Appia est longa, dūra, plēna saxōrum."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "When do we get to Brundisium?",
+   "la": "Quandō Brundisium venīmus?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "After many days.",
+   "la": "Post multōs diēs."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "How many days?",
+   "la": "Quot diēs?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Many.",
+   "la": "Multōs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "After one hour:",
+   "la": "Post ūnam hōram:"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "When do we get to Brundisium?",
+   "la": "Quandō Brundisium venīmus?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Porcellus. Listen to me. If you ask again, I give you to the goat.",
+   "la": "Porcelle. Audī mē. Sī iterum rogās, tē caprō dō."
+  },
+  {
+   "who": "sfx",
+   "kind": "sfx",
+   "sfx": "goat"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I am not asking. I am not asking.",
+   "la": "Nōn rogō. Nōn rogō."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Excursus: The Appian Way. True!",
+   "la": "Excursus: Via Appia. Vērum!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The queen of roads: who built it, and how long is it?",
+   "la": "Rēgīna viārum: quis eam fēcit, et quam longa est?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is true. The Appian Way is \"the queen of roads\". Appius Claudius, the censor, makes it in the year 312 before Christ: first from Rome to Capua, later to Brundisium.",
+   "la": "Hoc est vērum. Via Appia est \"rēgīna viārum\". Appius Claudius, cēnsor, eam facit annō trecentēsimō duodecimō ante Chrīstum: prīmum Rōmā Capuam, posteā Brundisium."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The road is wide, made of big, flat stones. Today you can still see many stones of the Appian Way.",
+   "la": "Via est lāta, ex saxīs magnīs et plānīs. Hodiē etiam multa saxa Viae Appiae vidēre potes."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The Romans build well.",
+   "la": "Rōmānī bene aedificant."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "From Rome to Brundisium is about three hundred and sixty miles. On foot the journey is long: perhaps fifteen or twenty days.",
+   "la": "Rōmā Brundisium sunt circiter trecenta sexāgintā mīlia passuum. Pedibus iter est longum: fortasse quīndecim aut vīgintī diēs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "On the road there are inns, where travellers sleep and eat. Inns are often dirty: bugs in the beds, bad water, innkeepers who are thieves.",
+   "la": "In viā sunt caupōnae, ubi viātōrēs dormiunt et edunt. Caupōnae saepe sunt sordidae: cīmicēs in lectīs, aqua mala, caupōnēs fūrēs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Near the road there are also tombs. The Romans bury the dead outside the city, next to the roads.",
+   "la": "Prope viam sunt etiam sepulcra. Rōmānī mortuōs extrā urbem sepeliunt, iuxtā viās."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "On the tombs it is written: \"Stop, traveller! Read!\" The dead speak. And the dead always speak about themselves.",
+   "la": "In sepulcrīs scrīptum est: \"Siste, viātor! Lege!\" Mortuī loquuntur. Et mortuī semper dē sē loquuntur."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading two: Frogs and mosquitoes.",
+   "la": "Lectiō secunda: Rānae et culicēs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Forum Appii: a bad dinner, worse water, a night without sleep.",
+   "la": "Forum Appiī: cēna mala, aqua peior, nox sine somnō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "On the fifth day they come to Forum Appii. There is a long canal there, like a river: travellers go through the marshes by boat at night, and a mule pulls the boat.",
+   "la": "Quīntō diē ad Forum Appiī veniunt. Ibi est fossa longa, quasi flūmen: viātōrēs in nāve noctū per palūdēs eunt, et mūla nāvem trahit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Forum Appii is full of boatmen and bad innkeepers.",
+   "la": "Forum Appiī est plēnum nautārum et caupōnum malōrum."
+  },
+  {
+   "who": "Caupō",
+   "kind": "line",
+   "en": "Hello, travellers! Do you want dinner? Wine? A bed?",
+   "la": "Salvēte, viātōrēs! Cēnam vultis? Vīnum? Lectum?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "How much does dinner cost?",
+   "la": "Quantī cōnstat cēna?"
+  },
+  {
+   "who": "Caupō",
+   "kind": "line",
+   "en": "Three asses.",
+   "la": "Trēs assēs."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Three! In Rome I give dinner for two asses!",
+   "la": "Trēs! Ego Rōmae cēnam dō duōbus assibus!"
+  },
+  {
+   "who": "Caupō",
+   "kind": "line",
+   "en": "And I am not in Rome. I am here. Three asses.",
+   "la": "Et ego Rōmae nōn sum. Hīc sum. Trēs assēs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The dinner is bad. The water is worse. Sabidius tastes the water.",
+   "la": "Cēna est mala. Aqua est peior. Sabidius aquam gustat."
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "I will not drink this water. I declare war on my belly.",
+   "la": "Hanc aquam nōn bibō. Ventrī meō bellum indīcō."
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "I never drink water. I am wiser than a philosopher.",
+   "la": "Ego numquam aquam bibō. Ego sum sapientior quam philosophus."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I drink water! I am strong!",
+   "la": "Ego aquam bibō! Ego sum fortis!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus drinks the water. After one hour Porcellus is not strong. Porcellus is in the toilet.",
+   "la": "Porcellus aquam bibit. Post ūnam hōram Porcellus nōn est fortis. Porcellus est in latrīnā."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "For a long time.",
+   "la": "Diū."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Night comes. In the boat the boatmen shout: \"Here! Pull in here!\" — \"You are packing in three hundred!\" — \"Whoa, that's enough now!\" A boatman ties up the mule.",
+   "la": "Nox venit. In nāve nautae clāmant: \"Hūc! Appelle hūc!\" — \"Trecentōs īnseris!\" — \"Ohē, iam satis est!\" Nauta mūlam ligat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A whole hour goes by. Then come the mosquitoes. And the frogs. The mosquitoes bite. The frogs sing.",
+   "la": "Hōra tōta abit. Tum veniunt culicēs. Et rānae. Culicēs mordent. Rānae cantant."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A drunk boatman sings. A drunk traveller sings. Hannibal sings.",
+   "la": "Nauta ēbrius cantat. Viātor ēbrius cantat. Hannibal cantat."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "I cannot sleep!",
+   "la": "Nōn possum dormīre!"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Nobody can sleep. This is travel. The poet Horace makes the same journey. And the poet says the same thing.",
+   "la": "Nēmō potest dormīre. Hoc est iter. Poēta Horātius idem iter facit. Et poēta idem dīcit."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "What does the poet say?",
+   "la": "Quid dīcit poēta?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Listen.",
+   "la": "Audī."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "A real Latin text: Horātius, Sermōnēs 1.5.1–15.",
+   "la": "Textus vērus: Horātius, Sermōnēs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The poet Horace makes the same trip, and suffers the same things.",
+   "la": "Poēta Horātius idem iter facit, et eadem patitur."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Sabidius tells about Horace. Horace leaves Rome with a friend. First they come to Aricia, where there is a small inn.",
+   "la": "Sabidius dē Horātiō nārrat. Horātius Rōmā discēdit cum amīcō. Prīmum veniunt Arīciam, ubi est caupōna parva."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Then Forum Appii, full of boatmen and bad innkeepers. There the water is terrible: Horace declares war on his belly.",
+   "la": "Deinde Forum Appiī, plēnum nautārum et caupōnum malōrum. Ibi aqua est pessima: Horātius ventrī suō bellum indīcit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Night comes. The boys and the boatmen hit each other with shouts. A whole hour goes by.",
+   "la": "Nox venit. Puerī et nautae sē invicem clāmōribus pulsant. Hōra tōta abit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Nasty mosquitoes and marsh frogs drive sleep away.",
+   "la": "Culicēs malī et rānae palūstrēs somnum fugant."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "The real text.",
+   "la": "Textus ipse."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "When I had left great Rome, Aricia took me in",
+   "la": "Egressum magna me accepit Aricia Roma"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "with a modest inn; my companion was Heliodorus the teacher of speaking,",
+   "la": "hospitio modico; rhetor comes Heliodorus,"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "by far the most learned of the Greeks; then Forum Appii,",
+   "la": "Graecorum longe doctissimus; inde Forum Appi"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "crammed with boatmen and nasty innkeepers.",
+   "la": "differtum nautis cauponibus atque malignis."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Here, because of the water, which was the worst, I declare war",
+   "la": "hic ego propter aquam, quod erat deterrima, ventri"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "on my belly, waiting, not happily,",
+   "la": "indico bellum, cenantis haud animo aequo"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "for my companions while they ate.",
+   "la": "exspectans comites."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Then the boys hurl insults at the boatmen, the boatmen at the boys:",
+   "la": "tum pueri nautis, pueris convicia nautae"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "\"Pull in here!\" \"You are packing in three hundred!\" \"Whoa,",
+   "la": "ingerere: 'huc adpelle'; 'trecentos inseris'; 'ohe,"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "that's enough now!\" While the fare is collected, while the mule is tied up,",
+   "la": "iam satis est.' dum aes exigitur, dum mula ligatur,"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "a whole hour goes by. Nasty mosquitoes and marsh frogs",
+   "la": "tota abit hora. mali culices ranaeque palustres"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "drive away sleep.",
+   "la": "avertunt somnos."
+  },
+  {
+   "who": "N",
+   "kind": "en_only",
+   "en": "Horace, Satires 1.5 (about 37 BC), lines 1–4, 7–9, 11–15: the poet's trip from Rome to Brundisium, the most famous road trip in Latin. He travels with great men on a peace mission, and he writes about bad water, his stomach, shouting boatmen and mosquitoes. \"Ego ... ventri indico bellum\" = I declare war on my stomach (he refuses to eat). Grammar for this chapter: first person \"ego indico\" (I declare). \"Ohe, iam satis est\" = Whoa, that's enough already! (the boatmen pack in too many passengers: \"you are cramming in three hundred!\")."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading three: Brundisium.",
+   "la": "Lectiō tertia: Brundisium."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Brundisium at last! Where is the cousin's cookshop?",
+   "la": "Tandem Brundisium! Ubi est popīna cōnsōbrīnī?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "After twenty days they come to Brundisium. Their feet are tired. Bucca is angry.",
+   "la": "Post vīgintī diēs Brundisium veniunt. Pedēs sunt fessī. Bucca est īrāta."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Sabidius is sad. Bibulus is sober, because they do not have wine any more. This is terrible.",
+   "la": "Sabidius est trīstis. Bibulus est sōbrius, quia vīnum nōn iam habent. Hoc est terribile."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal is happy. Hannibal is always happy.",
+   "la": "Hannibal est laetus. Hannibal semper est laetus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Brundisium is a big city on the shore. In the harbour there are many ships, which sail to Greece.",
+   "la": "Brundisium est urbs magna in lītore. In portū sunt nāvēs multae, quae in Graeciam nāvigant."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca looks for her cousin's cookshop.",
+   "la": "Bucca popīnam cōnsōbrīnī quaerit."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Where is the cookshop of Lucius Bucca?",
+   "la": "Ubi est popīna Lūciī Buccae?"
+  },
+  {
+   "who": "Vir",
+   "kind": "line",
+   "en": "Lucius's cookshop? Ha! There it is!",
+   "la": "Popīna Lūciī? Ha! Ecce!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A man points to a thing. The thing is not a cookshop. The thing is a cage. In the cage there is a green bird.",
+   "la": "Vir rem mōnstrat. Rēs nōn est popīna. Rēs est cavea. In caveā est avis viridis."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "What is this?",
+   "la": "Quid est hoc?"
+  },
+  {
+   "who": "Vir",
+   "kind": "line",
+   "en": "Your inheritance. Lucius has nothing except debts and a parrot. He sold the cookshop many years ago.",
+   "la": "Hērēditās tua. Lūcius nihil habet nisi dēbita et psittacum. Popīnam multīs ante annīs vēndidit."
+  },
+  {
+   "who": "Vir",
+   "kind": "line",
+   "en": "He drank the money. The debts are yours too, if you want.",
+   "la": "Pecūniam bibit. Dēbita sunt tua quoque, sī vīs."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "I do not want them.",
+   "la": "Nōn volō."
+  },
+  {
+   "who": "Psittacus",
+   "kind": "line",
+   "en": "Khaire! Khaire! Stupid Bucca! Stupid Bucca!",
+   "la": "Khaire! Khaire! Bucca stulta! Bucca stulta!"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Who teaches you this?",
+   "la": "Quis tē docet hoc?"
+  },
+  {
+   "who": "Psittacus",
+   "kind": "line",
+   "en": "Lucius! Lucius! Wine! Wine!",
+   "la": "Lūcius! Lūcius! Vīnum! Vīnum!"
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "I have a new friend.",
+   "la": "Amīcum novum habeō."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Parrot! Who am I?",
+   "la": "Psittace! Quis sum ego?"
+  },
+  {
+   "who": "Psittacus",
+   "kind": "line",
+   "en": "Emperor! Emperor!",
+   "la": "Imperātor! Imperātor!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Everyone goes quiet. Bucca looks at the parrot. The parrot looks at Porcellus.",
+   "la": "Omnēs tacent. Bucca psittacum spectat. Psittacus Porcellum spectat."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "What is he saying?",
+   "la": "Quid dīcit?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Perhaps Lucius hears \"emperor\" from soldiers. Parrots say words without sense.",
+   "la": "Fortasse Lūcius ā mīlitibus \"imperātor\" audit. Psittacī verba sine sēnsū dīcunt."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "No! This is a sign! The bird knows! Porcellus is the emperor!",
+   "la": "Minimē! Hoc est signum! Avis scit! Porcellus est imperātor!"
+  },
+  {
+   "who": "Psittacus",
+   "kind": "line",
+   "en": "Emperor! Sausage! Emperor! Sausage!",
+   "la": "Imperātor! Botulus! Imperātor! Botulus!"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "There you are: without sense.",
+   "la": "Ecce: sine sēnsū."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "So they go back from Brundisium to Rome: twenty days, mosquitoes, frogs, bad water.",
+   "la": "Itaque Brundisiō Rōmam redeunt: vīgintī diēs, culicēs, rānae, aqua mala."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Without a cookshop. Without money. With a parrot. The parrot talks the whole way.",
+   "la": "Sine popīnā. Sine pecūniā. Cum psittacō. Psittacus tōtam viam loquitur."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal wants to eat the parrot.",
+   "la": "Hannibal psittacum edere vult."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "When do we get to Rome?",
+   "la": "Quandō Rōmam venīmus?"
+  },
+  {
+   "who": "Psittacus",
+   "kind": "line",
+   "en": "When do we get to Rome? When do we get to Rome?",
+   "la": "Quandō Rōmam venīmus? Quandō Rōmam venīmus?"
+  },
+  {
+   "who": "Sabidius",
+   "kind": "line",
+   "en": "Oh immortal gods. Now there are two of them.",
+   "la": "Ō dī immortālēs. Nunc duo sunt."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "A real Latin text: Persius, Prologus 8–11.",
+   "la": "Textus vērus: Persius, Prologus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Who teaches a parrot to talk?",
+   "la": "Quis psittacum loquī docet?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "On the road Sabidius looks at the parrot and recites a poem of Persius: \"Who teaches the parrot to say 'Khaire'? Who teaches the magpie to try our words? A good teacher: the belly. The belly teaches what nature denies.\"",
+   "la": "In viā Sabidius psittacum spectat et carmen Persiī dīcit: \"Quis psittacum docet 'Khaire' dīcere? Quis picam docet nostra verba temptāre? Magister bonus: venter. Venter docet, quod nātūra negat.\""
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "The real text.",
+   "la": "Textus ipse."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Who made the parrot so ready with his \"Khaire\",",
+   "la": "quis expedivit psittaco suum 'chaere'"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "and taught the magpie to try our words?",
+   "la": "picamque docuit nostra verba conari?"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "The master of skill and giver of talent,",
+   "la": "magister artis ingenique largitor"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "the belly, an artist at copying the voices that nature denied.",
+   "la": "venter, negatas artifex sequi voces."
+  },
+  {
+   "who": "N",
+   "kind": "en_only",
+   "en": "Persius, prologue to his Satires, lines 8–11 (about 60 AD). \"Who taught the parrot its 'khaire' (Greek: hello), and taught the magpie to try our words? The teacher of art and giver of talent: the belly, an expert at reaching voices that nature denied.\" Rich Romans kept talking parrots from India. Persius's joke: birds (and bad poets) talk for food. Porcellus learns everything for food too. Grammar: dative \"psittaco\" (to the parrot), accusatives \"picam\", \"verba\"."
+  },
+  {
+   "who": "Frāter",
+   "kind": "head",
+   "en": "In the margin: Brother Unknown.",
+   "la": "Margō: Frāter Ignōtus."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Brother Unknown makes a trip too: to Rome, to the Pope.",
+   "la": "Frāter Ignōtus quoque iter facit: Rōmam, ad Papam."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I, Brother Unknown, do not like travel. Last year the abbot sends me to Rome, to the Pope.",
+   "la": "Ego, Frāter Ignōtus, iter nōn amō. Abbās mē annō praeteritō Rōmam mittit, ad Papam."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I make the journey: fifty days. My feet hurt. My belly hurts.",
+   "la": "Ego iter faciō: quīnquāgintā diēs. Pedēs meī dolent. Venter meus dolet."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Innkeepers are thieves. Mosquitoes are thieves of blood. Horace tells the truth.",
+   "la": "Caupōnēs sunt fūrēs. Culicēs sunt fūrēs sanguinis. Horātius vērum dīcit."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "In Rome the Pope does not see me. The Pope is busy. I go back home. Fifty days again.",
+   "la": "Rōmae Papa mē nōn videt. Papa est occupātus. Ego domum redeō. Iterum quīnquāgintā diēs."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "\"Whoa, that's enough now.\"",
+   "la": "\"Ohē, iam satis est.\""
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Epilogue: what happened?",
+   "la": "Epilogus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A messenger brought a letter: Lūcius, Bucca's cousin, had died. Everyone went to Brundisium along the Via Appia. At Forum Appii they ate a bad dinner. Porcellus drank the bad water and was in the toilet for a long time. At night the boatmen shouted, the frogs sang, the mosquitoes bit.",
+   "la": "Nūntius epistulam attulit: Lūcius, cōnsōbrīnus Buccae, mortuus est. Omnēs per Viam Appiam Brundisium iērunt. Ad Forum Appiī cēnam malam ēdērunt. Porcellus aquam malam bibit et diū in latrīnā fuit. Nocte nautae clāmāvērunt, rānae cantāvērunt, culicēs momordērunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Twenty days later they reached Brundisium. The inheritance was not a cookshop, but debts and a parrot. The parrot called Porcellus \"emperor\". Bucca saw a sign. They went back to Rome, with the parrot.",
+   "la": "Post vīgintī diēs Brundisium vēnērunt. Hērēditās nōn erat popīna, sed dēbita et psittacus. Psittacus Porcellum \"imperātōrem\" vocāvit. Bucca signum vīdit. Rōmam rediērunt, cum psittacō."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "What next?",
+   "la": "Quid deinde?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca now believes it: Porcellus is the future emperor. But the future emperor cannot read! Bucca makes a plan: Porcellus will go to school. And at the school there is a teacher who loves his cane.",
+   "la": "Bucca nunc crēdit: Porcellus est imperātor futūrus. Sed imperātor futūrus legere nōn potest! Bucca cōnsilium capit: Porcellus in lūdum ībit. Et in lūdō est magister quī ferulam amat."
+  }
+ ]
+}

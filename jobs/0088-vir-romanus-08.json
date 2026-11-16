@@ -1,0 +1,1034 @@
+{
+ "type": "book",
+ "show": "vir",
+ "slug": "capitulum-08",
+ "date": "2026-11-16T18:08:00+11:00",
+ "title": "Capitulum 8 · In theātrō (At the theatre) · English → Latin, then Latin × 2",
+ "summary": "Vir Rōmānus, Part I, chapter 8 (134 AD, Porcellus is 13; level A2). It is the year 134. Porcellus is thirteen. There are games in Rome, and in the Theatre of Marcellus they are putting on Plautus's Pot Comedy. Bucca sells sausages in front of the theatre. But the actors drink wine with Bibulus, and the manager of the troupe finds a fat boy. Hadrian himself sits in the theatre, with Marcus. Grammar: Hic, ille, iste · ipse, īdem · sē et suus. Full cast; narrator Iulia (Rossana). Every line in English, then in Latin; then the whole chapter in Latin only, twice.",
+ "model": "eleven_flash_v2_5",
+ "stability": 0.5,
+ "max_credits": 10726,
+ "keep_credits": 1000,
+ "music": "v5",
+ "bitrate": "64k",
+ "voices": {
+  "N": "name:Rossana",
+  "BUCCA": {
+   "name": "Bucca (Vir Rōmānus)",
+   "design": "A huge, loud woman in her forties who runs a street cookshop in ancient Rome: booming, warm, raspy chest voice, bossy, quick and funny. Speaks English with a light Italian accent (never American).",
+   "sample": "Sausages! Hot sausages! One coin! What do you want? Do you want food? The cabbages are good. Be quiet, Bibulus, I am talking!",
+   "fallback": "name:Rossana"
+  },
+  "PORC": {
+   "name": "Porcellus (Vir Rōmānus)",
+   "design": "A cheeky, greedy, loud eleven-year-old boy: bright, a bit nasal, always excited, often with his mouth full. Speaks English with a light Italian accent (never American).",
+   "sample": "I am the emperor! Marcus, am I bigger than you? I think about sausages. I always think. Give me the sausage, please! Oink!",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "MARCUS": {
+   "name": "Marcus (Vir Rōmānus)",
+   "design": "A serious, calm, very polite twelve-year-old boy: clear, precise, gentle and thoughtful, a little old for his age. Speaks English with a light Italian accent (never American).",
+   "sample": "I am reading. The book is about philosophy. A philosopher is a man who thinks, a man who looks for the truth. I will not ride without a reason.",
+   "fallback": "name:Leō (Leō Parvus)"
+  },
+  "BIBULUS": {
+   "name": "Bibulus (Vir Rōmānus)",
+   "design": "A lazy old drunk man in his sixties: hoarse, slow, slurred and sleepy, gravelly, deadpan. Speaks English with a light Italian accent (never American).",
+   "sample": "Mmmph. What is this? Water? I would rather die. I am the emperor of wine. Bucca, I want to tell you something... Nothing. I know nothing.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PRIMUS": {
+   "name": "Primus (Vir Rōmānus)",
+   "design": "A pompous, theatrical middle-aged man who thinks he is a great prophet: rich booming baritone, grand and dramatic. Speaks English with a light Italian accent (never American).",
+   "sample": "Look! A new star! Today on this hill a king is born! O king! O future emperor! Look, gold! All kings smell, woman. All of them.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SECUNDUS": {
+   "name": "Secundus (Vir Rōmānus)",
+   "design": "A fat, practical, slightly whiny middle-aged man: nasal tenor voice, sceptical and dry. Speaks English with a light Italian accent (never American).",
+   "sample": "Where? The sky is big, Primus. Where in the sky? Which of the two houses? It is the smell of cabbages. And of pigs. Surely not.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "TERTIUS": {
+   "name": "Tertius (Vir Rōmānus)",
+   "design": "A tiny, very old man who is nearly deaf and nearly blind: thin, high, quavering, confused and sweet. Speaks English with a light Italian accent (never American).",
+   "sample": "What is it? Is it the moon? Oh! Who is hitting me? The wall is rude. Is the dog the king? Oh. Kind people. Where is the world?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MONK": {
+   "name": "Frater Ignotus (Vir Rōmānus)",
+   "design": "A grumpy elderly English monk in a cold medieval monastery: dry, low, weary and deadpan, a sarcastic murmur. British English accent (never American).",
+   "sample": "I am Brother Unknown. The year is eleven fifty. The monastery is cold. The ink is cold. My fingers are cold. The abbot says: write this book. I write.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "SABIDIUS": {
+   "name": "Sabidius (Vir Rōmānus)",
+   "design": "A lazy, smug, elderly Greek philosopher who is a useless slave: soft, slow, silky, superior and unbothered. Speaks English with a Greek accent (never American).",
+   "sample": "You buy my body. You do not buy my mind. My mind is free. My mind does not cut cabbages. Work is patient. Work waits. I am a philosopher.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "HADRIAN": {
+   "name": "Hadrian (Vir Rōmānus)",
+   "design": "A commanding Roman emperor in his fifties: deep, warm, authoritative, amused, a rich and slow voice. Speaks English with a light Italian accent (never American).",
+   "sample": "Hello, Marcus! This horse is yours. Ha! Listen to him! You are not Verus, Marcus. You are Verissimus! And who are you, little one?",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PLAGOSUS": {
+   "name": "Plagosus (Vir Rōmānus)",
+   "design": "A small, bald, furious schoolmaster: sharp, barking, nasal, shouting and strict. Speaks English with a light Italian accent (never American).",
+   "sample": "A new pupil! What is your name? Do you know your letters? Not even A? In my school nobody laughs. In my school everybody learns. Or hurts.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "PARROT": {
+   "name": "Psittacus (Vir Rōmānus)",
+   "design": "A shrill, squawky cartoon parrot: high, scratchy, screeching, fast, repeating words, very comic. Not American.",
+   "sample": "Hello! Hello! Stupid Bucca! Stupid Bucca! Emperor! Emperor! Sausage! Sausage! When do we get to Rome? When do we get to Rome?",
+   "fallback": "name:Rossana"
+  },
+  "MAN1": {
+   "name": "Romanus (Vir Rōmānus)",
+   "design": "A gruff working-class man in his forties from ancient Rome: rough, tired, impatient, deep. Speaks English with a light Italian accent (never American).",
+   "sample": "What do you want? Here nobody is born. Go away, or the dog comes! The best slaves! Buy, citizens! Dinner is three coins. Here you pay.",
+   "fallback": "name:Pater (Leō Parvus)"
+  },
+  "MAN2": "name:Pater (Leō Parvus)"
+ },
+ "cast": {
+  "N": "N",
+  "Frāter": "MONK",
+  "Bucca": "BUCCA",
+  "Porcellus": "PORC",
+  "Īnfāns": "PORC",
+  "Porcellus (Staphyla)": "PORC",
+  "Marcus": "MARCUS",
+  "Bibulus": "BIBULUS",
+  "Prīmus": "PRIMUS",
+  "Secundus": "SECUNDUS",
+  "Tertius": "TERTIUS",
+  "Sabidius": "SABIDIUS",
+  "Hadriānus": "HADRIAN",
+  "Plāgōsus": "PLAGOSUS",
+  "Psittacus": "PARROT",
+  "Servus": "MAN1",
+  "Mīles": "MAN1",
+  "Mercātor": "MAN1",
+  "Caupō": "MAN1",
+  "Dominus gregis": "MAN1",
+  "Vir": "MAN2",
+  "Alius mīles": "MAN2",
+  "Fūrius": "MAN2",
+  "Poēta": "MAN2",
+  "Histriō": "MAN2",
+  "Diaulus": "PRIMUS",
+  "Pinguis": "PRIMUS",
+  "Eucliō novus": "TERTIUS"
+ },
+ "sfx": {
+  "goat": [
+   "A single billy goat bleating loudly, close up, \"meh-eh-eh\"",
+   2
+  ]
+ },
+ "items": [
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Vir Rōmānus. Chapter eight: At the theatre.",
+   "la": "Capitulum octāvum: In theātrō."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Prologue: what will happen?",
+   "la": "Prōlogus. Quid fīet?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "It is the year 134. Porcellus is thirteen. There are games in Rome, and in the Theatre of Marcellus they are putting on Plautus's Pot Comedy. Bucca sells sausages in front of the theatre. But the actors drink wine with Bibulus, and the manager of the troupe finds a fat boy. Hadrian himself sits in the theatre, with Marcus.",
+   "la": "Annus est centēsimus trīcēsimus quārtus. Porcellus trēdecim annōs habet. Rōmae sunt lūdī, et in theātrō Marcellī agitur Aululāria Plautī. Bucca ante theātrum botulōs vēndit. Sed histriōnēs cum Bibulō vīnum bibunt, et dominus gregis puerum crassum invenit. Hadriānus ipse in theātrō sedet, cum Marcō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Grammar: this, that, that of yours, self, the same, and sē, suus.",
+   "la": "Grammatica: hic, ille, iste, ipse, īdem, et sē, suus."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Grammar.",
+   "la": "Grammatica."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the theatre there are many things: this pig, that actor, that parrot of yours. Hic = a thing near me. Ille = a thing far from me; also a famous man: \"that Plautus\" = the famous Plautus everybody knows. Iste = a thing near you, often with disgust: \"that goat of yours\".",
+   "la": "In theātrō multa sunt: hic porcus, ille histriō, iste psittacus. Hic = rēs prope mē. Ille = rēs procul ā mē; et vir clārus: \"Plautus ille\" = ille Plautus quem omnēs nōvērunt. Iste = rēs prope tē, et saepe cum fastīdiō: \"iste caper tuus\"."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "That goat is always \"iste\".",
+   "la": "Iste caper semper est iste."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "vir — fēmina — rēs"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "hic — hic — haec — hoc"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "ille — ille — illa — illud"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "iste — iste — ista — istud"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "ipse — ipse — ipsa — ipsum"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "la": "īdem — īdem — eadem — idem"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Ipse = not someone else: \"Hadrian himself is coming!\" = Hadrian, not his slave. Īdem = not new: \"Porcellus always says the same thing.\" Porcellus is the same boy, in the same tunic, with the same smell.",
+   "la": "Ipse = nōn alius: \"Hadriānus ipse venit!\" = Hadriānus, nōn servus eius. Īdem = nōn novus: \"Porcellus semper idem dīcit.\" Porcellus est īdem puer, eādem tunicā, eōdem odōre."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Sē and suus go back to the subject. \"Bucca praises herself\" = Bucca praises Bucca. \"Bucca sells her (own) sausages\" = Bucca's sausages. But \"Bucca sells his sausages\" = another person's sausages, maybe Porcellus's. This is theft. Grammar makes you a thief.",
+   "la": "Sē et suus ad subiectum redeunt. \"Bucca sē laudat\" = Bucca Buccam laudat. \"Bucca botulōs suōs vēndit\" = botulōs Buccae. Sed \"Bucca botulōs eius vēndit\" = botulōs alterīus hominis, fortasse Porcellī. Hoc est fūrtum. Grammatica tē fūrem facit."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "New words.",
+   "la": "Verba nova."
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "disgust",
+   "la": "fastīdium, fastīdiī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "thirteen",
+   "la": "trēdecim"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "flock, herd",
+   "la": "grex"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "of yesterday (hesternus)",
+   "la": "hesternōs"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "woman's dress",
+   "la": "stola, stolae"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "spectator",
+   "la": "spectātor, spectātōris"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "heir",
+   "la": "hērēs"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "greedy, miserly",
+   "la": "avārus, avāra, avārum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "female slave, maid",
+   "la": "ancilla"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I push, I drive away",
+   "la": "pellō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "of yesterday",
+   "la": "hesternus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "dedicate",
+   "la": "dēdicō, dēdicāre, dēdicāvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "the same (fem. pl., īdem)",
+   "la": "eaedem"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "glorious, boastful",
+   "la": "glōriōsus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "cook",
+   "la": "coquus, coquī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I conceal",
+   "la": "cēlō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "shrine; (pl.) dwelling",
+   "la": "aedēs"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "I rule, I direct",
+   "la": "regō"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "old woman",
+   "la": "anus, anūs"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "crop, field of grain",
+   "la": "seges, segetis"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "cattle prod, goad",
+   "la": "stimulus, stimulī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "iron",
+   "la": "ferrum"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "for oxen (bōs)",
+   "la": "bōbus"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "honour",
+   "la": "honōrō, honōrāre, honōrāvī"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "courage, virtue",
+   "la": "virtūs"
+  },
+  {
+   "who": "N",
+   "kind": "word",
+   "en": "wisely",
+   "la": "sapienter"
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading one: The Roman games.",
+   "la": "Lectiō prīma: Lūdī Rōmānī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Holidays. Bucca sells, Porcellus eats, the actor drinks.",
+   "la": "Diēs fēstī. Bucca vēndit, Porcellus edit, histriō bibit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The year is 134. Porcellus is thirteen years old. Porcellus can read now: sausages, fish sauce, wine.",
+   "la": "Annus est centēsimus trīcēsimus quārtus. Porcellus trēdecim annōs habet. Porcellus nunc legere potest: botulōs, garum, vīnum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Plagosus is happy; Porcellus is leaving the school. Porcellus is happy too.",
+   "la": "Plāgōsus est laetus; Porcellus discēdit ā lūdō. Etiam Porcellus est laetus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Everybody is happy, except the cane.",
+   "la": "Omnēs sunt laetī, nisi ferula."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the month of September there are games in Rome: holidays with shows. In the theatre of Marcellus a play by Plautus is on: the Aulularia, that is, \"The Pot Play\".",
+   "la": "Mēnse Septembrī Rōmae sunt lūdī: diēs fēstī cum spectāculīs. In theātrō Marcellī agitur fābula Plautī: Aululāria, id est \"Fābula dē ollā\"."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca sells sausages in front of the theatre. Here there is a lot of money. Here there are thousands of people, and people in the theatre are always hungry.",
+   "la": "Bucca ante theātrum botulōs vēndit. Hīc est multum pecūniae. Hīc sunt mīlia hominum, et hominēs in theātrō semper ēsuriunt."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Sausages! Hot sausages! These sausages are the best in the whole city!",
+   "la": "Botulī! Botulī calidī! Hī botulī sunt optimī in tōtā urbe!"
+  },
+  {
+   "who": "Vir",
+   "kind": "line",
+   "en": "You said the same thing yesterday.",
+   "la": "Idem herī dīxistī."
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "Yesterday they were the best too. Today they are the same sausages.",
+   "la": "Herī quoque erant optimī. Hodiē sunt īdem botulī."
+  },
+  {
+   "who": "Vir",
+   "kind": "line",
+   "en": "The same? Yesterday's?",
+   "la": "Īdem? Hesternī?"
+  },
+  {
+   "who": "Bucca",
+   "kind": "line",
+   "en": "...New ones. They are new. Buy!",
+   "la": "…Novī. Novī sunt. Ēme!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus stands near Bucca and eats his sausages. No, rather: Bucca's sausages.",
+   "la": "Porcellus prope Buccam stat et botulōs suōs edit. Immō: botulōs Buccae."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal the goat stands near Porcellus and eats his tunic. The parrot shouts in his cage: \"Yesterday's sausages! Yesterday's sausages!\" Bucca covers the cage.",
+   "la": "Hannibal caper prope Porcellum stat et tunicam eius edit. Psittacus in caveā clāmat: \"Botulī hesternī! Botulī hesternī!\" Bucca caveam tegit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Behind the theatre Bibulus sits with a man in a red tunic. The man is an actor.",
+   "la": "Post theātrum Bibulus sedet cum virō in tunicā rubrā. Vir est histriō."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The actor plays Euclio, a greedy old man, in the play. Both drink wine. Both drink a lot of wine.",
+   "la": "Histriō Eucliōnem agit, senem avārum, in fābulā. Ambō vīnum bibunt. Ambō multum vīnum bibunt."
+  },
+  {
+   "who": "Histriō",
+   "kind": "line",
+   "en": "I... I am Euclio! I am the greedy old man! Where is my pot?",
+   "la": "Ego… ego sum Eucliō! Ego sum senex avārus! Ubi est olla mea?"
+  },
+  {
+   "who": "Bibulus",
+   "kind": "line",
+   "en": "Your pot is... wine. Drink.",
+   "la": "Olla tua est… vīnum. Bibe."
+  },
+  {
+   "who": "Histriō",
+   "kind": "line",
+   "en": "I drink! Euclio drinks!",
+   "la": "Bibō! Eucliō bibit!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The actor falls. The actor sleeps. Bibulus sleeps too. This is true love.",
+   "la": "Histriō cadit. Histriō dormit. Bibulus quoque dormit. Hic est amor vērus."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Excursus: The Roman theatre. True!",
+   "la": "Excursus: Theātrum Rōmānum. Vērum!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The Roman theatre: men, masks, old jokes.",
+   "la": "Theātrum Rōmānum: virī, persōnae, iocī veterēs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is true. The theatre of Marcellus is a big theatre in Rome, near the Tiber.",
+   "la": "Hoc est vērum. Theātrum Marcellī est theātrum magnum Rōmae, prope Tiberim."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Augustus builds it and dedicates it to Marcellus, his sister's son. Perhaps fifteen thousand people sit in it.",
+   "la": "Augustus id aedificat et Marcellō, sorōris suae fīliō, dēdicat. In eō sedent fortasse quīndecim mīlia hominum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Parts of it are still standing today: now there are houses in them.",
+   "la": "Partēs eius etiam hodiē stant: in eīs nunc sunt domūs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the Roman theatre all the actors are men. Men also play women.",
+   "la": "In theātrō Rōmānō omnēs histriōnēs sunt virī. Virī etiam fēminās agunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Actors often wear \"personae\": a persona is a false face, a mask. That is where our word \"person\" comes from!",
+   "la": "Histriōnēs saepe persōnās gerunt: persōna est faciēs falsa. Hinc nostrum verbum \"persōna\"!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Plautus writes plays around the year 200 before Christ.",
+   "la": "Plautus fābulās scrībit circiter annō ducentēsimō ante Chrīstum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In his plays there are always the same characters: the greedy old man, the clever slave, the boastful soldier, the young man in love, the thieving cook.",
+   "la": "In fābulīs eius semper eaedem persōnae sunt: senex avārus, servus callidus, mīles glōriōsus, adulēscēns amāns, coquus fūr."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The audience always hears the same jokes and always laughs. This is strange.",
+   "la": "Spectātōrēs semper eōsdem iocōs audiunt et semper cachinnant. Hoc est mīrum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Just like Porcellus and sausages.",
+   "la": "Sīcut Porcellus et botulī."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In the Aulularia the old man Euclio has a pot of gold. Euclio hides the pot in the ground.",
+   "la": "In Aululāriā senex Eucliō ollam aurī habet. Eucliō ollam in terrā cēlat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Euclio is afraid of everyone: slaves, neighbours, cooks, cockerels. Euclio drives his maid, Staphyla, out of the house, because he is afraid of her: perhaps she sees the pot!",
+   "la": "Eucliō omnēs timet: servōs, vīcīnōs, coquōs, gallōs. Eucliō ancillam suam, Staphylam, ex aedibus pellit, quia eam timet: fortasse ollam videt!"
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading two: Porcellus as Staphyla.",
+   "la": "Lectiō secunda: Porcellus Staphyla."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The actor is asleep. Who will play Staphyla?",
+   "la": "Histriō dormit. Quis aget Staphylam?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "On the stage the manager of the troupe shouts. The manager is the man who runs the actors.",
+   "la": "In scaenā dominus gregis clāmat. Dominus gregis est vir quī histriōnēs regit."
+  },
+  {
+   "who": "Dominus gregis",
+   "kind": "line",
+   "en": "Where is Euclio? Where is our actor?",
+   "la": "Ubi est Eucliō? Ubi est histriō noster?"
+  },
+  {
+   "who": "Servus",
+   "kind": "line",
+   "en": "Behind the theatre. Asleep. With some Bibulus.",
+   "la": "Post theātrum. Dormit. Cum quōdam Bibulō."
+  },
+  {
+   "who": "Dominus gregis",
+   "kind": "line",
+   "en": "Immortal gods! The play is starting already! And Staphyla? Where is Staphyla?",
+   "la": "Dī immortālēs! Fābula iam incipit! Et Staphyla? Ubi est Staphyla?"
+  },
+  {
+   "who": "Servus",
+   "kind": "line",
+   "en": "Staphyla is drinking too.",
+   "la": "Staphyla quoque bibit."
+  },
+  {
+   "who": "Dominus gregis",
+   "kind": "line",
+   "en": "Everybody is drinking! I alone am not drinking! This is not fair!",
+   "la": "Omnēs bibunt! Ego sōlus nōn bibō! Hoc nōn est iūstum!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The manager sees Porcellus. Porcellus is fat, red-faced, with his mouth full.",
+   "la": "Dominus gregis Porcellum videt. Porcellus est crassus, rubicundus, cum ōre plēnō."
+  },
+  {
+   "who": "Dominus gregis",
+   "kind": "line",
+   "en": "You! Boy! Come here! You are Staphyla.",
+   "la": "Tū! Puer! Venī hūc! Tū es Staphyla."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Me? Staphyla is a woman!",
+   "la": "Ego? Staphyla est fēmina!"
+  },
+  {
+   "who": "Dominus gregis",
+   "kind": "line",
+   "en": "Here all the women are men. Put on this dress. Wear this mask. You are an old woman.",
+   "la": "Hīc omnēs fēminae sunt virī. Indue hanc stolam. Hanc persōnam gere. Tū es anus."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "What does Staphyla say?",
+   "la": "Quid dīcit Staphyla?"
+  },
+  {
+   "who": "Dominus gregis",
+   "kind": "line",
+   "en": "Staphyla shouts and cries. Can you shout and cry?",
+   "la": "Staphyla clāmat et plōrat. Potesne clāmāre et plōrāre?"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "It is the only thing I can do.",
+   "la": "Hoc est sōlum quod possum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Another actor plays Euclio, but this actor does not know the words. The new Euclio and the new Staphyla come onto the stage.",
+   "la": "Alius histriō Eucliōnem agit, sed hic histriō verba nōn scit. Eucliō novus et Staphyla nova in scaenam veniunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Thousands of people are watching. In the middle, in a big chair, sits an old man with a beard: Hadrian himself!",
+   "la": "Mīlia hominum spectant. In mediō, in sellā magnā, sedet vir senex cum barbā: Hadriānus ipse!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Next to him sits Marcus, thirteen years old, serious, with a book.",
+   "la": "Prope eum sedet Marcus, trēdecim annōs nātus, gravis, cum librō."
+  },
+  {
+   "who": "Eucliō novus",
+   "kind": "line",
+   "en": "Get... get out... get out of the house!",
+   "la": "Ex… exī… exī ex aedibus!"
+  },
+  {
+   "who": "Porcellus (Staphyla)",
+   "kind": "line",
+   "en": "Why?",
+   "la": "Cūr?"
+  },
+  {
+   "who": "Eucliō novus",
+   "kind": "line",
+   "en": "...Because... because I am greedy.",
+   "la": "…Quia… quia ego sum avārus."
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "And I am hungry! Where is your pot? Is there food in it?",
+   "la": "Et ego sum ēsuriēns! Ubi est olla tua? Estne cibus in eā?"
+  },
+  {
+   "who": "Eucliō novus",
+   "kind": "line",
+   "en": "No! There is gold!",
+   "la": "Nōn! Est aurum!"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "I do not eat gold! That old man is stupid!",
+   "la": "Aurum nōn edō! Iste senex est stultus!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The audience laughs. The audience, who know the play, laugh more. Then Hannibal comes onto the stage.",
+   "la": "Spectātōrēs cachinnant. Spectātōrēs, quī fābulam sciunt, cachinnant magis. Tum in scaenam venit Hannibal."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hannibal eats Porcellus's dress. Porcellus stands in a dirty tunic, with the old woman's mask.",
+   "la": "Hannibal stolam Porcellī edit. Porcellus stat in tunicā sordidā, cum persōnā anūs."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The parrot, in his cage under the stage, shouts: \"Emperor! Emperor!\"",
+   "la": "Psittacus, in caveā sub scaenā, clāmat: \"Imperātor! Imperātor!\""
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "A real Latin text: Plautus, Aululāria 40–44.",
+   "la": "Textus vērus: Plautus, Aululāria."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Plautus's real words: a stingy old man throws out his maid.",
+   "la": "Verba vēra Plautī: senex avārus ancillam pellit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is what Plautus really writes.",
+   "la": "Hoc est quod Plautus vērē scrībit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Euclio drives the maid Staphyla out of the house: \"Get out! Get out of the house, you who watch everything, with your eyes that are everywhere!\" Staphyla: \"Why do you beat poor me?\" Euclio: \"So that you may be poor, and have a bad life, worthy of you!\" Staphyla: \"Why are you pushing me out of the house now?\" Euclio: \"Do I give you a reason? You, who are a crop of cattle prods?\" A prod is a stick with iron on it, for oxen.",
+   "la": "Eucliō ancillam Staphylam ē domō pellit: \"Exī! Exī ē domō, tū quae omnia spectās, cum oculīs tuīs quī ubīque sunt!\" Staphyla: \"Cūr mē miseram pulsās?\" Eucliō: \"Ut misera sīs, et vītam malam habeās, dignam tē!\" Staphyla: \"Cūr mē nunc ex aedibus pellis?\" Eucliō: \"Tibi causam dō? Tibi, quae es seges stimulōrum?\" Stimulus est virga cum ferrō, prō bōbus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "A crop is a full field. Staphyla is a field full of beatings.",
+   "la": "Seges est ager plēnus. Staphyla est ager plēnus plāgārum."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "The real text.",
+   "la": "Textus ipse."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "EUCLIO: Get out, I say. Come on, get out. By Hercules, you have to get out of here,",
+   "la": "Eucliō: Exi, inquam. age exi. exeundum hercle tibi hinc est foras,"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "you snoop, with your prying eyes.",
+   "la": "circumspectatrix cum oculis emissiciis."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "STAPHYLA: But why are you beating poor me?",
+   "la": "Staphyla: Nam cur me miseram verberas?"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "EUCLIO: So that you are poor, and live a bad life, a bad woman like you deserves.",
+   "la": "Eucliō: Ut misera sis atque ut te dignam mala malam aetatem exigas."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "STAPHYLA: But for what reason have you pushed me out of the house now?",
+   "la": "Staphyla: Nam qua me nunc causa extrusisti ex aedibus?"
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "EUCLIO: Am I to give you a reason, you crop of cattle prods?",
+   "la": "Eucliō: Tibi ego rationem reddam, stimulorum seges?"
+  },
+  {
+   "who": "N",
+   "kind": "en_only",
+   "en": "Plautus, Aulularia (\"The Pot Comedy\"), lines 40–44, about 200 BC. The miser Euclio throws his old slave out of the house. Plautus is the king of the Latin insult: \"circumspectatrix cum oculis emissiciis\" = you snooper with roaming eyes; \"stimulorum seges\" = you crop of cattle-prods (you field that grows beatings). Romans laughed at the poor old slave and at the stingy old man at the same time. Pronouns: \"tibi\", \"me\", \"te\"; \"dignam mala malam aetatem\" = a bad life worthy of a bad woman. Molière copied this play in 1668 (\"L'Avare\")."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Reading three: That boy.",
+   "la": "Lectiō tertia: Ille puer."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hadrian watches and thinks. Who will be the heir?",
+   "la": "Hadriānus spectat et cōgitat. Quis erit hērēs?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "The theatre shouts. The theatre claps. The theatre laughs. People throw sausages onto the stage.",
+   "la": "Theātrum clāmat. Theātrum plaudit. Theātrum cachinnat. Hominēs botulōs in scaenam iaciunt."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Porcellus catches the sausages and eats them. The people clap more. Porcellus eats more.",
+   "la": "Porcellus botulōs capit et edit. Hominēs magis plaudunt. Porcellus magis edit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "This is the best theatre.",
+   "la": "Hoc est theātrum optimum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "In his chair Hadrian laughs. Hadrian does not often laugh. Hadrian is old and ill.",
+   "la": "In sellā suā Hadriānus cachinnat. Hadriānus nōn saepe cachinnat. Hadriānus est senex et aeger."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hadrian does not have an heir. Hadrian thinks: who will hold the empire after me?",
+   "la": "Hadriānus hērēdem nōn habet. Hadriānus cōgitat: quis post mē imperium habēbit?"
+  },
+  {
+   "who": "Hadriānus",
+   "kind": "line",
+   "en": "Marcus. Who is that boy? That one, with the mask and without the dress?",
+   "la": "Marce. Quis est ille puer? Ille, cum persōnā et sine stolā?"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "That is Porcellus. My neighbour. You know him: \"Falsissimus\".",
+   "la": "Ille est Porcellus. Vīcīnus meus. Tū eum nōvistī: \"Falsissimus\"."
+  },
+  {
+   "who": "Hadriānus",
+   "kind": "line",
+   "en": "Falsissimus! Ha! The same boy? The one who sits on a pig?",
+   "la": "Falsissimus! Ha! Īdem puer? Ille quī in porcō sedet?"
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "The same.",
+   "la": "Īdem."
+  },
+  {
+   "who": "Hadriānus",
+   "kind": "line",
+   "en": "Hmm. The Romans love him. Look, Marcus: everyone loves him. The Romans honour you. Him the Romans love.",
+   "la": "Hmm. Rōmānī eum amant. Spectā, Marce: omnēs eum amant. Tē Rōmānī honōrant. Illum Rōmānī amant."
+  },
+  {
+   "who": "Marcus",
+   "kind": "line",
+   "en": "I am not looking for love. I am looking for virtue.",
+   "la": "Ego nōn amōrem quaerō. Ego virtūtem quaerō."
+  },
+  {
+   "who": "Hadriānus",
+   "kind": "line",
+   "en": "You speak wisely. Too wisely, perhaps, for a boy of thirteen.",
+   "la": "Sapienter dīcis. Nimis sapienter, fortasse, prō puerō trēdecim annōrum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hadrian looks at Marcus. Then he looks at Porcellus. Then at Marcus again.",
+   "la": "Hadriānus Marcum spectat. Deinde Porcellum spectat. Deinde iterum Marcum."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hadrian is silent for a long time. Hadrian is thinking something. Nobody knows what.",
+   "la": "Hadriānus diū tacet. Hadriānus aliquid cōgitat. Nēmō scit quid."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "On the stage Porcellus takes off the mask. Porcellus sees Hadrian. Porcellus raises his hand and says hello:",
+   "la": "In scaenā Porcellus persōnam dēpōnit. Porcellus Hadriānum videt. Porcellus manum tollit et salūtat:"
+  },
+  {
+   "who": "Porcellus",
+   "kind": "line",
+   "en": "Hello, beardy!",
+   "la": "Salvē, barbāte!"
+  },
+  {
+   "who": "Psittacus",
+   "kind": "line",
+   "en": "Emperor! Emperor!",
+   "la": "Imperātor! Imperātor!"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Silence. Thousands of people look at Hadrian. Hadrian slowly raises his hand... and greets Porcellus.",
+   "la": "Silentium. Mīlia hominum Hadriānum spectant. Hadriānus manum lentē tollit… et Porcellum salūtat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Bucca, in front of the theatre, drops a sausage from her hand. Bibulus, behind the theatre, wakes up.",
+   "la": "Bucca, ante theātrum, botulum dē manū dēmittit. Bibulus, post theātrum, ēvigilat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Sabidius, in the street, closes his book. Hannibal eats the dress. And Marcus, in his chair, says nothing.",
+   "la": "Sabidius, in viā, librum claudit. Hannibal stolam edit. Et Marcus, in sellā suā, nihil dīcit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Marcus thinks.",
+   "la": "Marcus cōgitat."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Here ends Part One.",
+   "la": "Explicit pars prīma."
+  },
+  {
+   "who": "Frāter",
+   "kind": "head",
+   "en": "In the margin: Brother Unknown.",
+   "la": "Margō: Frāter Ignōtus."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Brother Unknown finishes Part One.",
+   "la": "Frāter Ignōtus partem prīmam fīnit."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "I, Brother Unknown, am finishing Part One. My fingers are dead. But I tell the truth: I already love this Porcellus.",
+   "la": "Ego, Frāter Ignōtus, partem prīmam fīniō. Digitī meī sunt mortuī. Sed vērum dīcō: hunc Porcellum iam amō."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "He is stupid, disgusting, fat. He is like many novices. He is like me, perhaps, thirty years ago.",
+   "la": "Est stultus, foedus, crassus. Est sīcut multī novīciī. Est sīcut ego, fortasse, ante trīgintā annōs."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "What does Hadrian do? Who will be emperor? I know. History knows. But this book is mad, and perhaps it says something else.",
+   "la": "Quid facit Hadriānus? Quis erit imperātor? Ego sciō. Historia scit. Sed hic liber est īnsānus, et fortasse aliud dīcit."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "The abbot orders: \"Write Part Two.\" Oh, poor me.",
+   "la": "Abbās iubet: \"Scrībe partem secundam.\" Ō mē miserum."
+  },
+  {
+   "who": "Frāter",
+   "kind": "line",
+   "en": "Old sayings of scribes, at the end of a book: \"The book is finished; let there be praise and glory to Christ.\" And: \"May the scribe who wrote this be able to live with Christ.\" And mine: \"Give me a sausage.\"",
+   "la": "Vetera verba scrīptōrum, in fīne librī: \"Fīnītō librō sit laus et glōria Chrīstō.\" Et: \"Scrīptor quī scrīpsit cum Chrīstō vīvere possit.\" Et meum: \"Dā mihi botulum.\""
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "Epilogue: what happened?",
+   "la": "Epilogus."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "There were games in Rome. Bucca sold yesterday's sausages. The actor who was playing Euclio drank with Bibulus and fell asleep. The manager found Porcellus and made him Staphyla.",
+   "la": "Rōmae lūdī erant. Bucca botulōs hesternōs vēndidit. Histriō quī Eucliōnem agēbat cum Bibulō bibit et dormīvit. Dominus gregis Porcellum invēnit et eum Staphylam fēcit."
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "On stage Porcellus shouted, ate and said new lines. Hannibal ate his dress. The audience laughed and threw sausages. Hadrian looked at Porcellus, then at Marcus. In the end Hadrian waved to Porcellus.",
+   "la": "Porcellus in scaenā clāmāvit, ēdit et verba nova dīxit. Hannibal stolam eius ēdit. Spectātōrēs rīsērunt et botulōs iēcērunt. Hadriānus Porcellum spectāvit, deinde Marcum. Tandem Hadriānus Porcellum salūtāvit."
+  },
+  {
+   "who": "N",
+   "kind": "head",
+   "en": "What next?",
+   "la": "Quid deinde?"
+  },
+  {
+   "who": "N",
+   "kind": "line",
+   "en": "Hadrian is old and ill, and he has no heir. Why did he wave to Porcellus? What does he have in mind? In Part Two Hadrian will die, and Rome will look for a new emperor. Maybe two.",
+   "la": "Hadriānus senex est et aeger, et hērēdem nōn habet. Cūr Porcellum salūtāvit? Quid in animō habet? In parte secundā Hadriānus moriētur, et Rōma imperātōrem novum quaeret. Fortasse duōs."
+  }
+ ],
+ "not_before": "2026-11-30"
+}
