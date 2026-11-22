@@ -1,0 +1,227 @@
+# Ex Ōre Equī · Monday 23 November 2026 (a.d. IX Kal. Dec.). Free voices (Jenny + Paola). English → Latin on every line, then all the Latin again.
+# First episode since 16 Nov (17–22 Nov were not rendered), so the recaps say "Diē Lūnae proximō dīximus" (last Monday we said).
+# Sources (read 23 Nov 2026, early morning, Canberra): Bureau of Meteorology place pages (Canberra Central (MS25), Birchgrove, Canterbury,
+# Brisbane City, Como, Sandy Bay, Berrimah) + WillyWeather West Beach (Adelaide) · AAP via Yahoo 22 Nov (Newspoll, last sitting week),
+# Poll Bludger 22 Nov, The Nightly 18 Nov, AAP via Yahoo 18 Nov (WA carve-out), ABC 23 Nov (Pocock), ABC 21 Nov (Li Qiang) · Manila Times 22 Nov,
+# Iran International live blog 21 Nov, ABC News (US) live 22 Nov, CBS live 22 Nov, The Nation (PK) 22 Nov, Trading Economics (Iran, Bahrain, Hormuz)
+# · Fox News live 20 Nov, ABC This Week 22 Nov, The Hill 22 Nov, Yahoo Finance 22 Nov (outages, Cairncross, markets) · AP via Yahoo 22 Nov,
+# EU Today, Seoul Economic Daily 22 Nov (Ukraine, Dymer, NATO, Sparta II) · ABC 22 Nov (Grampians camper) · The Spectator Australia 21 Nov
+# (David Flint) · Britannica, Vatican City State, Catholic Encyclopedia (St Clement I).
+import json
+L = []
+def en(t): L.append(['en', t])
+def la(t): L.append(['la', t])
+def sec(t): L.append(['sec', t])
+def p1(t): L.append(['p1', t])
+def pl(e, t): L.append(['pl', e, t])
+def spl(e, t): L.append(['spl', e, t])
+def p1pl(e, t): L.append(['p1pl', e, t])
+
+# ---------------- opening ----------------
+spl("Hello, listeners. This is Straight from the Horse's Mouth.", "Salvēte, audītōrēs. Haec sunt nūntia ex ōre equī.")
+pl("Today is Monday, the ninth day before the Kalends of December.", "Hodiē est diēs Lūnae, ante diem nōnum Kalendās Decembrēs.")
+pl("In the year 2026.", "Annō bis mīllēsimō vīcēsimō sextō.")
+pl("For a whole week there was no news here. Nobody knows why.", "Tōtam hebdomadem hīc nūlla nūntia fuērunt. Nēmō scit cūr.")
+pl("Perhaps the oats ran out. A committee is looking into it. The committee has not come back either.", "Fortasse avēna dēfēcit. Concilium rem inquīrit. Concilium quoque nōndum rediit.")
+pl("First, the weather. Then Australian affairs.", "Prīmum tempestās. Deinde rēs Austrāliae.")
+pl("Then the world: Iran, America, Ukraine.", "Deinde orbis terrārum: Īrānia, America, Ūcraīna.")
+pl("Then a happy story, opinion, and today in history.", "Tum rēs laeta, opīniō, et hodiē in historiā.")
+pl("At the end, the words of the day.", "In fīne, verba diēī.")
+
+# ---------------- weather ----------------
+en("The weather. Canberra: 17 to 27 degrees, cloudy, a 95% chance of showers, 6 to 20 mm, storms possible, perhaps severe. UV extreme. Tomorrow 11 to 24, partly cloudy, morning fog.")
+spl("The weather.", "Tempestās.")
+pl("First, Canberra.", "Prīmum Canberra.")
+pl("Today in Canberra the sky is cloudy.", "Hodiē Canberrae caelum nūbilum est.")
+pl("In the morning 17 degrees.", "Māne septendecim gradūs.")
+pl("In the afternoon 27 degrees.", "Post merīdiem vīgintī septem gradūs.")
+pl("Showers are almost certain: 95 per cent. Between 6 and 20 millimetres.", "Imbrēs paene certī sunt: nōnāgintā quīnque per centum. Inter sex et vīgintī mīllimetra.")
+pl("Thunder is possible, perhaps severe, with heavy rain.", "Tonitrus possibilis est, fortasse gravis, cum pluviā gravī.")
+pl("Tomorrow, Tuesday, it will be cooler. The sky will be partly cloudy, with fog in the morning.", "Crās, diē Mārtis, frīgidius erit. Caelum partim nūbilum erit, cum nebulā mātūtīnā.")
+pl("Tomorrow morning 11 degrees, in the afternoon 24.", "Crās māne ūndecim gradūs, post merīdiem vīgintī quattuor.")
+pl("Rain today, then sun. The grass will be very good. The flies have already been told.", "Hodiē pluvia, deinde sōl. Herba optima erit. Muscīs iam nūntiātum est.")
+pl("Now the other cities.", "Nunc cēterae urbēs.")
+pl("In Sydney showers, and in the afternoon thunder, perhaps severe. 33 degrees.", "Sydnēiae imbrēs, et post merīdiem tonitrus, fortasse gravis. Trīgintā trēs gradūs.")
+pl("In Melbourne cloudy, perhaps showers in the afternoon. 23 degrees.", "Melburnī caelum nūbilum, post merīdiem fortasse imbrēs. Vīgintī trēs gradūs.")
+pl("In Brisbane partly cloudy. 29 degrees.", "Brisbanae caelum partim nūbilum. Ūndētrīgintā gradūs.")
+pl("In Perth partly cloudy. 22 degrees.", "Perthī caelum partim nūbilum. Vīgintī duo gradūs.")
+pl("In Adelaide partly cloudy, perhaps an early shower. 20 degrees.", "Adēlāidae caelum partim nūbilum, fortasse imber mātūtīnus. Vīgintī gradūs.")
+pl("In Hobart showers. 19 degrees.", "Hobartī imbrēs. Ūndēvīgintī gradūs.")
+pl("In Darwin showers, and thunder. 35 degrees.", "Darwīnī imbrēs, et tonitrus. Trīgintā quīnque gradūs.")
+pl("That is the weather.", "Haec est tempestās.")
+
+# ---------------- Australia ----------------
+en("Australia. The last sitting week of the year: four days. The gas reserve law has still not passed; Labor needs the Coalition. And Newspoll: Labor 27, One Nation 27, Coalition 22, Greens 14. For the first time Angus Taylor is ahead of Albanese as preferred prime minister. Albanese's net approval: minus 31, a new low. On Wednesday, the prices.")
+spl("Australian affairs.", "Rēs Austrāliae.")
+pl("Last Monday we said: from today the Senate sits. The great question: gas for Australians.", "Diē Lūnae proximō dīximus: ab hodiernō diē senātus sedet. Magna quaestiō: gas Austrāliānīs.")
+pl("A week has passed. The law about the gas has still not been passed.", "Hebdomas praeteriit. Lēx dē gas adhūc nōn lāta est.")
+pl("Today begins the last week of parliament this year. Only four days.", "Hodiē incipit ultima hebdomas comitiōrum huius annī. Quattuor diēs tantum.")
+pl("The plan: up to 20 per cent of the gas sent abroad will stay in Australia.", "Cōnsilium: usque ad vīgintī per centum gas quod trāns mare mittitur in Austrāliā manēbit.")
+pl("Labor needs the Coalition, or the Greens.", "Labōrānī Coalitiōnem aut Viridēs requīrunt.")
+pl("Western Australia is now out. Its premier, Roger Cook, says: a permanent carve-out for Western Australia.", "Austrālia Occidentālis nunc abest. Prīmus minister eius, Roger Cook, dīcit: exceptiō perpetua prō Austrāliā Occidentālī.")
+pl("Angus Taylor, leader of the opposition, says: a step in the right direction.", "Angus Taylor, dux oppositiōnis, dīcit: gradus in rēctam viam.")
+pl("But the Coalition still has three demands. Senator Susan McDonald calls the law a pup.", "Sed Coalitiō adhūc tria postulat. Senātrīx Susan McDonald lēgem catulum vocat.")
+pl("A pup. Not even a foal. A foal at least stands up on its first day.", "Catulus. Nē pullus quidem. Pullus saltem prīmō diē surgit.")
+pl("Now the numbers. A new poll, Newspoll, in The Australian.", "Nunc numerī. Nova percontātiō, Newspoll, in The Australian.")
+pl("Labor: 27 per cent. One Nation: also 27 per cent.", "Labōrānī: vīgintī septem per centum. Ūna Nātiō: etiam vīgintī septem per centum.")
+pl("The Coalition: 22. The Greens: 14.", "Coalitiō: vīgintī duo. Viridēs: quattuordecim.")
+pl("Labor and One Nation run neck and neck.", "Labōrānī et Ūna Nātiō aequō gradū currunt.")
+pl("And now, for the first time, the citizens prefer Taylor to Albanese as prime minister.", "Et nunc prīmum cīvēs Taylor prīmum ministrum mālunt quam Albanese.")
+pl("Albanese's approval: minus 31. Never lower.", "Favor Albanese: minus ūnum et trīgintā. Numquam humilior.")
+pl("And the economy. Unemployment: 4.9 per cent. The interest rate 4.85 per cent.", "Et rēs oeconomica. Cīvēs sine opere: quattuor per centum et nōnāgintā centēsimae. Faenus quattuor per centum et octōgintā quīnque centēsimae.")
+pl("On Wednesday, the new prices. Hay is already too dear.", "Diē Mercuriī pretia nova. Faenum iam nimis cārum est.")
+
+# ---------------- Iran ----------------
+en("Iran. On Saturday an Iranian strike hit an industrial site in Bahrain: a fire, two people hurt. The Revolutionary Guards claim they hit two American Patriot radars. Saudi Arabia: 'heinous'. Two tankers struck off Oman. Trump: 'I'm going to make a deal that is going to be permanent.' Ghalibaf: 'neither war nor peace'. Brent below $92.")
+spl("The world. First, Iran.", "Orbis terrārum. Prīmum Īrānia.")
+pl("Last Monday we said: the Revolutionary Guards sent six drones against an American radar in Bahrain.", "Diē Lūnae proximō dīximus: Custōdēs Revolūtiōnis sex fūcōs contrā speculātōrium Americānum in Bahrainiā mīsērunt.")
+pl("Now a new attack.", "Nunc novus impetus.")
+pl("On Saturday an Iranian strike hit an industrial site in Bahrain. There was a fire.", "Diē Sāturnī ictus Īrāniānus officīnam in Bahrainiā percussit. Incendium fuit.")
+pl("Two people were hurt: a Bahraini, and a Pakistani in grave danger.", "Duo hominēs vulnerātī sunt: Bahrainiānus, et Pakistānus in perīculō gravī.")
+pl("The Revolutionary Guards say: we hit two American Patriot radars.", "Custōdēs Revolūtiōnis dīcunt: duo speculātōria Americāna Patriot percussimus.")
+pl("America does not confirm. Earlier it said: false.", "America nōn cōnfirmat. Anteā dīxit: falsum.")
+pl("Saudi Arabia calls the attack heinous. Qatar and Kuwait also condemn it.", "Arabia Saudiana impetum nefārium vocat. Quatāria et Cuvaitum quoque damnant.")
+pl("And at sea: two oil ships were struck off Oman on Saturday.", "Et in marī: duae nāvēs oleāriae diē Sāturnī prope Omaniam ictae sunt.")
+pl("Trump, on Fox, says: I'm going to make a deal that is going to be permanent.", "Trump, in Fox, dīcit: pactiōnem faciam quae perpetua erit.")
+pl("In Tehran, the speaker Ghalibaf says: neither war nor peace.", "Tehrānī, praeses comitiōrum Ghalibaf dīcit: neque bellum neque pāx.")
+pl("Neither war nor peace. In the stable we call that Tuesday.", "Neque bellum neque pāx. In stabulō id diem Mārtis vocāmus.")
+pl("The price of oil: below 92 dollars a barrel. Almost 20 per cent lower this month.", "Pretium oleī: īnfrā nōnāgintā duōs dollarōs prō dōliō. Hōc mēnse paene vīgintī per centum minus.")
+pl("Neither war nor peace, a fire at the industrial site, and oil is cheaper.", "Neque bellum neque pāx, incendium in officīnā, et oleum vīlius est.")
+
+# ---------------- America ----------------
+en("America. A wave of outages: the air traffic ground stop of 13 November, then Microsoft for almost 24 hours, banks, even a network of the NSA. On Friday Trump fired his cyber chief, Sean Cairncross: 'because I didn't think that person was good enough.' Trump: 'They're all separate events.' The intelligence chief Jay Clayton: 'not coordinated', 'not state sponsored', 'we're going to see more of that'. On Friday the Dow fell 950 points; for the week, the worst since 2020.")
+spl("America.", "America.")
+pl("Last Monday we said: in all America the aeroplanes were held on the ground.", "Diē Lūnae proximō dīximus: in tōtā Americā aëroplana in terrā retenta sunt.")
+pl("Duffy said: we have an incredibly old telecommunication system.", "Duffy dīxit: systēma nūntiōrum incrēdibiliter vetus habēmus.")
+pl("Since then: one failure after another.", "Ex eō tempore: dēfectiō post dēfectiōnem.")
+pl("Microsoft failed for almost a whole day. Then the banks. Then even a secret network of the NSA.", "Microsoft paene tōtum diem dēfēcit. Deinde argentāriae. Deinde etiam rēte sēcrētum NSA.")
+pl("On Friday Trump fired his cyber chief, Sean Cairncross.", "Diē Veneris Trump praefectum cyberneticum suum, Sean Cairncross, dīmīsit.")
+pl("Trump says: because I didn't think that person was good enough.", "Trump dīcit: quia nōn putāvī illum satis bonum esse.")
+pl("And Trump says: they're all separate events.", "Et Trump dīcit: omnēs sunt rēs sēparātae.")
+pl("The intelligence chief, Jay Clayton, agrees: not coordinated, not sent by a state.", "Praefectus speculātōrum, Jay Clayton, cōnsentit: nōn coniūncta, nōn ā cīvitāte missa.")
+pl("But Clayton adds: we're going to see more of that.", "Sed Clayton addit: plūra eius generis vidēbimus.")
+pl("Trump says: the air traffic system is fifty-five years old.", "Trump dīcit: systēma viārum āeriārum quīnquāgintā quīnque annōs nātum est.")
+pl("Fifty-five years. For a horse, that is not old age. That is a miracle.", "Quīnquāgintā quīnque annī. Equō id nōn senectūs est. Id mīrāculum est.")
+pl("And the market.", "Et bursa.")
+pl("In one week the Dow fell 8 per cent, the Nasdaq 10. The worst week since 2020.", "Ūnā hebdomade Dow octō per centum cecidit, Nasdaq decem. Pessima hebdomas ab annō bis mīllēsimō vīcēsimō.")
+pl("One failure after another, the chief fired, and the market falls.", "Dēfectiō post dēfectiōnem, praefectus dīmissus, et bursa cadit.")
+
+# ---------------- Ukraine ----------------
+en("Ukraine. On Saturday night 186 Russian drones; 161 brought down. In Dymer, north of Kyiv, a drone partly destroyed a five-storey block: three dead, eleven still missing. Today NATO meets in Brussels about the Russian missiles that fell in Poland. Rutte: 'NATO will defend every inch of Polish territory.' The Washington Post: America proposes three-way talks before Christmas.")
+spl("Ukraine.", "Ūcraīna.")
+pl("Last Monday we said: the exchange of prisoners has not yet happened.", "Diē Lūnae proximō dīximus: permūtātiō captīvōrum nōndum facta est.")
+pl("A week later: it has still not happened.", "Hebdomade post: adhūc nōn facta est.")
+pl("On Saturday night Russia sent 186 drones. Ukraine brought down 161.", "Nocte Sāturnī Russia centum octōgintā sex fūcōs mīsit. Ūcraīna centum sexāgintā ūnum dēiēcit.")
+pl("In the town of Dymer, north of Kyiv, a drone struck a block of flats, five storeys high.", "In oppidō Dymer, ad septentriōnem Kiovī, fūcus īnsulam quīnque tabulātōrum percussit.")
+pl("Part of the block fell. Three dead. Eleven are still missing.", "Pars īnsulae cecidit. Trēs mortuī. Ūndecim adhūc dēsīderantur.")
+pl("And on Friday Russian missiles came down in Poland.", "Et diē Veneris missilia Russica in Polōniā cecidērunt.")
+pl("Today NATO meets in Brussels.", "Hodiē NATO Bruxellīs convenit.")
+pl("Its leader, Rutte, says: NATO will defend every inch of Polish territory.", "Dux eius, Rutte, dīcit: NATO omnem digitum terrae Polōnicae dēfendet.")
+pl("Every inch. In the stable they measure in hands; NATO in inches. NATO is more careful.", "Omnem digitum. In stabulō palmīs mētiuntur; NATO digitīs. NATO dīligentior est.")
+pl("The Washington Post says: America proposes three-way talks before Christmas.", "Washington Post dīcit: America sermōnēs trium partium ante Nātālem Chrīstī prōpōnit.")
+
+# ---------------- happy story ----------------
+en("A happy story. In the Grampians, in Victoria, a man of 55 went camping and told nobody. His car got bogged in mud on a remote track. For about five days he tried to free it, then left a note and walked into the bush. Four-wheel drivers found the car; on Saturday night at 11:30 a police helicopter saw his campfire. Sergeant Kim Talbot: 'He was fine, a little bit of a drop in his glucose levels, and he was hungry.'")
+spl("A happy story.", "Rēs laeta.")
+pl("In the Grampians mountains, in Victoria, a man of fifty-five went camping in the bush.", "In montibus Grampiānīs, in Victōriā, vir quīnquāgintā quīnque annōrum in silvā castra posuit.")
+pl("He told nobody where he was going.", "Nēminī dīxit quō īret.")
+pl("On a remote track his car got stuck in the mud.", "In viā remōtā raeda eius in lutō haesit.")
+pl("For about five days he tried to free the car from the mud.", "Circiter quīnque diēs raedam ē lutō līberāre temptāvit.")
+pl("Five days against the mud. A great battle. But the mud won.", "Quīnque diēs contrā lutum. Proelium magnum. Sed lutum vīcit.")
+pl("Then he left a note on the car, and walked north into the bush, for help.", "Deinde epistulam in raedā relīquit, et ad septentriōnem in silvam ambulāvit, auxilium petēns.")
+pl("People in four-wheel-drive cars found the empty car, and the note. They told the police.", "Hominēs in raedīs fortibus raedam vacuam invēnērunt, et epistulam. Vigilibus nārrāvērunt.")
+pl("On Saturday night a police helicopter saw his fire.", "Nocte Sāturnī helicoptērum vigilum ignem eius vīdit.")
+pl("Sergeant Kim Talbot says: he was fine, a little bit of a drop in his glucose levels, and he was hungry.", "Kim Talbot, vigilum decuriō, dīcit: valēbat, saccharum in sanguine paulum dēcidit, et ēsuriēbat.")
+pl("Hungry, after five days in the mud. A bag of oats would have solved everything.", "Ēsuriēbat, post quīnque diēs in lutō. Saccus avēnae omnia solvisset.")
+
+# ---------------- opinion ----------------
+en("Opinion. David Flint, in The Spectator Australia: 'Can Albanese be dismissed?' He argues that in 1916 Chief Justice Sir Samuel Griffith advised that a governor-general need not always follow ministerial advice, and may dismiss a government that threatens serious, irreparable harm; then the caretaker must call an election at once. He says the courts cannot review this. His real fix: a right of recall for citizens.")
+spl("Opinion.", "Opīniō.")
+pl("This is the opinion of David Flint, in The Spectator Australia.", "Haec est sententia David Flint, in Spectātōre Austrāliae.")
+pl("His title: can Albanese be dismissed?", "Titulus eius: potestne Albanese dīmittī?")
+pl("Flint says: most lawyers think the governor-general only signs what the ministers want.", "Flint dīcit: plērīque iūrisperītī putant: Gubernātor Generālis tantum subscrībit quod ministrī volunt.")
+pl("Flint says: that is wrong.", "Flint dīcit: id falsum est.")
+pl("In 1916 the Chief Justice, Sir Samuel Griffith, gave other advice.", "Annō mīllēsimō nōngentēsimō sextō decimō summus iūdex, Samuel Griffith, aliud cōnsilium dedit.")
+pl("Griffith said: if a government threatens serious harm that cannot be repaired, the governor-general may dismiss it.", "Griffith dīxit: sī rēs pūblica damnum grave et īnsānābile minātur, Gubernātor Generālis eam dīmittere potest.")
+pl("Then a new government must call an election at once. The citizens decide.", "Tum nova rēs pūblica statim comitia indīcere dēbet. Cīvēs dēcernunt.")
+pl("But his real answer: a right for citizens to call back their government.", "Sed vērum respōnsum eius: iūs cīvium reī pūblicae revocandae.")
+pl("A dismissal: the jockey falls at the last fence. A recall: the horse picks a new jockey.", "Dīmissiō: sessor ad ultimam saepem cadit. Revocātiō: equus novum sessōrem ēligit.")
+
+# ---------------- history ----------------
+en("Today in history. 23 November is the feast of St Clement I, pope, about the third successor of St Peter. He wrote a letter to the Corinthians to heal a split there: 'nothing is more beautiful than charity.' The legend: the emperor Trajan sent him to the mines in Crimea, and there he was thrown into the sea tied to an iron anchor. The anchor is his sign. Around 868 St Cyril brought bones and an anchor from Crimea to Rome, to the Basilica of San Clemente.")
+spl("Today in history.", "Hodiē in historiā.")
+pl("Today is the feast of Saint Clement, pope.", "Hodiē est fēstum Sānctī Clēmentis, pontificis.")
+pl("He was about the third successor of Saint Peter, in Rome.", "Circiter tertius successor Sānctī Petrī erat, Rōmae.")
+pl("He wrote a letter to the Corinthians, because in Corinth there was a split.", "Epistulam ad Corinthiōs scrīpsit, quia Corinthī discordia erat.")
+pl("In the letter he writes: nothing is more beautiful than charity.", "In epistulā scrībit: nihil pulchrius est cāritāte.")
+pl("The legend says: the emperor Trajan sent him to the mines, in Crimea.", "Fābula dīcit: imperātor Trāiānus eum ad metalla mīsit, in Chersonēsum Tauricam.")
+pl("There he was thrown into the sea, tied to an iron anchor.", "Ibi in mare dēiectus est, ad ancoram ferream alligātus.")
+pl("And so his sign is the anchor.", "Itaque signum eius est ancora.")
+pl("An iron anchor. A horseshoe is iron too, and much lighter. Nobody asked the blacksmith.", "Ancora ferrea. Solea quoque ferrea est, et multō levior. Nēmō fabrum rogāvit.")
+pl("Around the year 868 Saint Cyril brought bones and an anchor from Crimea to Rome.", "Circā annum octingentēsimum sexāgēsimum octāvum Sānctus Cyrillus ossa et ancoram ē Chersonēsō Rōmam tulit.")
+
+# ---------------- summary ----------------
+en("The summary.")
+spl("The summary.", "Summa rērum.")
+pl("Today begins the last week of parliament this year.", "Hodiē incipit ultima hebdomas comitiōrum huius annī.")
+pl("The law about the gas has still not been passed.", "Lēx dē gas adhūc nōn lāta est.")
+pl("In the new poll Labor and One Nation both have 27 per cent.", "In novā percontātiōne Labōrānī et Ūna Nātiō ambō vīgintī septem per centum habent.")
+pl("For the first time the citizens prefer Taylor to Albanese.", "Prīmum cīvēs Taylor mālunt quam Albanese.")
+pl("An Iranian strike hit an industrial site in Bahrain.", "Ictus Īrāniānus officīnam in Bahrainiā percussit.")
+pl("In America, one failure after another. Trump fired his cyber chief.", "In Americā dēfectiō post dēfectiōnem. Trump praefectum cyberneticum dīmīsit.")
+pl("In Dymer a drone struck a block of flats. Eleven are still missing.", "In oppidō Dymer fūcus īnsulam percussit. Ūndecim adhūc dēsīderantur.")
+pl("In the Grampians a helicopter found a man by his fire.", "In montibus Grampiānīs helicoptērum virum prope ignem eius invēnit.")
+pl("Today is the feast of Saint Clement, with his anchor, from Crimea.", "Hodiē est fēstum Sānctī Clēmentis, cum ancorā eius, ē Chersonēsō.")
+
+# ---------------- words of the day ----------------
+en("The words of the day. Five sentences, slowly.")
+spl("The words of the day.", "Verba diēī.")
+pl("The citizens prefer Taylor.", "Cīvēs Taylor mālunt.")
+pl("One failure after another.", "Dēfectiō post dēfectiōnem.")
+pl("The market fell.", "Bursa cecidit.")
+pl("His car got stuck in the mud.", "Raeda eius in lutō haesit.")
+pl("His sign is the anchor.", "Signum eius est ancora.")
+pl("Again.", "Iterum.")
+pl("The citizens prefer Taylor.", "Cīvēs Taylor mālunt.")
+pl("One failure after another.", "Dēfectiō post dēfectiōnem.")
+pl("The market fell.", "Bursa cecidit.")
+pl("His car got stuck in the mud.", "Raeda eius in lutō haesit.")
+pl("His sign is the anchor.", "Signum eius est ancora.")
+pl("That was the news, straight from the horse's mouth. Goodbye, listeners. Again tomorrow.", "Haec fuērunt nūntia ex ōre equī. Valēte, audītōrēs. Crās iterum.")
+p1pl("Now everything again, in Latin only.", "Nunc omnia iterum, Latīnē tantum.")
+
+job = {
+ "type": "news", "date": "2026-11-23", "music": "v5",
+ "title": "Ex Ōre Equī · Diēs Lūnae, a.d. IX Kal. Dec. (Mon 23 Nov 2026)",
+ "summary": ("Canberra: 17–27°, cloudy, 95% chance of showers (6–20 mm), storms possible morning and afternoon, perhaps severe; NW 25–40 km/h in the morning; UV 11. "
+             "Tuesday 11–24°, partly cloudy, morning fog. Sydney 33 (storm likely), Melbourne 23, Brisbane 29, Perth 22, Adelaide 20, Hobart 19, Darwin 35. "
+             "Australia: last sitting week of the year (four days); the gas reservation bill still not passed, Labor needs the Coalition (or Greens); "
+             "WA carve-out (Roger Cook: 'a permanent carve-out for Western Australia'; Taylor: 'a step in the right direction'); three Coalition demands, "
+             "Susan McDonald calls the bill 'a pup'; Pocock: 'lobbyists' picnic'. Newspoll (The Australian, 22 Nov): Labor 27, One Nation 27, Coalition 22, Greens 14; "
+             "Taylor ahead of Albanese as preferred PM for the first time; Albanese net approval −31, a new low. Unemployment 4.9%, cash rate 4.85% after five rises; "
+             "October CPI on Wednesday. "
+             "Iran: Saturday strike on an industrial site in Bahrain (Sitra), fire, 2 hurt (one critical); IRGC claims hits on 2 US Patriot radars (CENTCOM called an "
+             "earlier claim 'false'); Saudi Arabia 'heinous', Qatar, Kuwait, UAE condemn; 2 tankers struck off Oman; IRGC claims a US MQ-1 shot down (unconfirmed); "
+             "Trump on Fox: 'I'm going to make a deal that is going to be permanent'; Ghalibaf: 'neither war nor peace'; Brent below $92, down nearly 20% this month. "
+             "US: outage wave (FAA ground stop 13 Nov, Microsoft 365 nearly 24 h, banks, an NSA network); Trump fired cyber director Sean Cairncross "
+             "('because I didn't think that person was good enough'; 'They're all separate events'); DNI Jay Clayton: 'not coordinated', 'not state sponsored', "
+             "'we're going to see more of that'; Trump wants $50bn for air traffic control, Congress gave $12bn; Dow −950 on Friday, −8% for the week, Nasdaq −10%, "
+             "worst since 2020; Nikkei −5% Monday. "
+             "Ukraine: 186 drones on 21–22 Nov, 161 downed; Dymer block of flats hit, 3 dead, 11 missing; Zelensky: ~2,700 drones and 165 missiles in a week; "
+             "NATO extraordinary council in Brussels today after Russian missiles fell in Poland; Rutte: 'NATO will defend every inch of Polish territory'; "
+             "Sparta II on fire, drifted into Finnish waters; WaPo: US proposes three-way talks before Christmas. "
+             "Good news: Grampians camper (55) found by a police helicopter after his car was bogged for about five days; Sgt Kim Talbot: 'He was fine ... and he was hungry'. "
+             "Opīniō: David Flint, 'Can Albanese be dismissed?' (Spectator Australia): Griffith's 1916 reserve power, a right of recall. "
+             "St Clement I (feast 23 Nov): letter to the Corinthians, the anchor, Crimea, San Clemente. Every line in English, then Latin; then all the Latin again. "
+             "Sources: Bureau of Meteorology; WillyWeather; AAP; The Australian (Newspoll); Poll Bludger; The Nightly; ABC; Manila Times; Iran International; ABC News; "
+             "CBS News; The Nation; Trading Economics; Fox News; The Hill; Yahoo Finance; AP; EU Today; Seoul Economic Daily; The Spectator Australia; "
+             "Britannica; Vatican City State; Catholic Encyclopedia."),
+ "lines": L,
+}
+if __name__ == "__main__":
+    json.dump(job, open("jobs/0090-news-2026-11-23.json", "w"), ensure_ascii=False, indent=1)
+    lat = [r[-1] for k, *r in L if k != 'en']
+    w = sum(len(t.split()) for t in lat)
+    import re
+    bad = [t for t in lat if re.search(r'\d', t)]
+    print(len(L), 'lines ·', len(lat), 'Latin lines ·', w, 'Latin words · digits:', bad)
