@@ -1,0 +1,208 @@
+# Ex Ōre Equī · Wednesday 25 November 2026 (a.d. VII Kal. Dec.). Free voices (Jenny + Paola). English → Latin on every line, then all the Latin again.
+# Sources (read 25 Nov 2026, early morning, Canberra): Bureau of Meteorology place pages (Russell ACT, Rockdale, Sandringham, Norman Park, Como)
+# + WillyWeather (West Beach, West Hobart) · ABC 24 Nov (Solomon Islands; live blog), The Point 24 Nov, AFR via IndexBox 21 Nov, Yahoo/NewsWire 18 Nov,
+# Savings.com.au 24 Nov, MPA 20 Nov · Rudaw/Tasnim 24 Nov, Newscord/Maritime Executive 24 Nov, Euronews 24 Nov, Times of Israel/JPost 24 Nov,
+# Business Recorder/Reuters, AP 24 Nov · AP, Yahoo Finance, FinanceFeeds, Finwire, The National 24 Nov · Ukrinform, Kyiv Post, TASS, TVP World,
+# Kyiv Independent (24 Nov) · KMOV via KFVS12 24 Nov (St Louis raccoons) · The Spectator Australia 24 Nov (Rowan Dean) · William of Tyre,
+# Ralph de Diceto (Battle of Montgisard, 25 Nov 1177).
+import json
+L = []
+def en(t): L.append(['en', t])
+def la(t): L.append(['la', t])
+def sec(t): L.append(['sec', t])
+def p1(t): L.append(['p1', t])
+def pl(e, t): L.append(['pl', e, t])
+def spl(e, t): L.append(['spl', e, t])
+def p1pl(e, t): L.append(['p1pl', e, t])
+
+# ---------------- opening ----------------
+spl("Hello, listeners. This is Straight from the Horse's Mouth.", "Salvēte, audītōrēs. Haec sunt nūntia ex ōre equī.")
+pl("Today is Wednesday, the seventh day before the Kalends of December.", "Hodiē est diēs Mercuriī, ante diem septimum Kalendās Decembrēs.")
+pl("In the year 2026.", "Annō bis mīllēsimō vīcēsimō sextō.")
+pl("First, the weather. Then Australian affairs.", "Prīmum tempestās. Deinde rēs Austrāliae.")
+pl("Then the world: Iran, America, Ukraine.", "Deinde orbis terrārum: Īrānia, America, Ūcraīna.")
+pl("Then a happy story, opinion, and today in history.", "Tum rēs laeta, opīniō, et hodiē in historiā.")
+pl("At the end, the words of the day.", "In fīne, verba diēī.")
+
+# ---------------- weather ----------------
+en("The weather. Canberra: 8 to 25 degrees, partly cloudy, only a 5% chance of rain. Light winds, becoming east to north-east. UV 11, extreme. Tomorrow 11 to 28, partly cloudy, a 20% chance of rain.")
+spl("The weather.", "Tempestās.")
+pl("First, Canberra.", "Prīmum Canberra.")
+pl("Today in Canberra the sky is partly cloudy.", "Hodiē Canberrae caelum partim nūbilum est.")
+pl("In the morning 8 degrees.", "Māne octō gradūs.")
+pl("In the afternoon 25 degrees.", "Post merīdiem vīgintī quīnque gradūs.")
+pl("Rain is unlikely: 5 per cent.", "Pluvia vix ventūra: quīnque per centum.")
+pl("A light wind from the east. And the sun is very strong: extreme.", "Ventus lēnis ab oriente. Et sōl valdē fortis est: ācerrimus.")
+pl("Tomorrow, Thursday, the sky will be partly cloudy, and it will be warmer.", "Crās, diē Iovis, caelum partim nūbilum erit, et calidius erit.")
+pl("Tomorrow morning 11 degrees, in the afternoon 28. Rain: 20 per cent.", "Crās māne ūndecim gradūs, post merīdiem duodētrīgintā. Pluvia: vīgintī per centum.")
+pl("Strong sun, warm grass. Stand in the shade, and leave the flies to the sun.", "Sōl fortis, herba calida. In umbrā stāte, et muscās sōlī relinquite.")
+pl("Now the other cities.", "Nunc cēterae urbēs.")
+pl("In Sydney cloudy, perhaps a shower. 24 degrees.", "Sydnēiae caelum nūbilum, fortasse imber. Vīgintī quattuor gradūs.")
+pl("In Melbourne sun. 27 degrees.", "Melburnī sōl. Vīgintī septem gradūs.")
+pl("In Brisbane showers, and in the afternoon perhaps thunder. 26 degrees.", "Brisbanae imbrēs, et post merīdiem fortasse tonitrus. Vīgintī sex gradūs.")
+pl("In Perth partly cloudy. 24 degrees.", "Perthī caelum partim nūbilum. Vīgintī quattuor gradūs.")
+pl("In Adelaide sun. 29 degrees.", "Adēlāidae sōl. Ūndētrīgintā gradūs.")
+pl("In Hobart mostly clear. 24 degrees.", "Hobartī caelum plērumque serēnum. Vīgintī quattuor gradūs.")
+pl("That is the weather.", "Haec est tempestās.")
+
+# ---------------- Australia ----------------
+en("Australia. Big news from the Pacific: Solomon Islands Prime Minister Matthew Wale has told Beijing that the 2022 security pact with China will not be renewed when it expires in April. A new treaty with Australia is to be signed in Canberra today, with an extra $980 million in Australian aid. Penny Wong once called the China pact Australia's 'worst foreign policy blunder in the Pacific since the end of World War II.' Lowy's Oliver Nobetau: a 'massive win'. Former PM Sogavare: 'The country must carefully consider what it stands to lose.' At home: day three of the last sitting week, and the gas reserve law has still not passed. The Coalition objects that producers would have to sell gas below market prices; Labor weighs a deal with the Greens. And today at 11.30, the October prices: economists expect 4.8%. The big banks expect the Reserve Bank to hold in December.")
+spl("Australian affairs.", "Rēs Austrāliae.")
+pl("First, big news from the Pacific Ocean.", "Prīmum, magnum nūntium ex Ōceanō Pācificō.")
+pl("In the year 2022 the Solomon Islands made a treaty with China, about security.", "Annō bis mīllēsimō vīcēsimō secundō Īnsulae Salomōnis foedus cum Sīnīs fēcērunt, dē sēcūritāte.")
+pl("Penny Wong called that treaty the worst foreign-policy blunder of Australia in the Pacific since the end of the Second World War.", "Penny Wong id foedus 'pessimum errōrem Austrāliae in rēbus externīs in Pācificō post fīnem secundī bellī mundānī' vocāvit.")
+pl("Now the prime minister of the Solomon Islands, Matthew Wale, has told Beijing: the treaty with China will not be renewed.", "Nunc prīmus minister Īnsulārum Salomōnis, Matthew Wale, Pekīnō nūntiāvit: foedus cum Sīnīs nōn renovābitur.")
+pl("In April the treaty with China ends.", "Mēnse Aprīlī foedus cum Sīnīs fīnem habēbit.")
+pl("And today, in Canberra, a new treaty with Australia will be signed.", "Et hodiē, Canberrae, novum foedus cum Austrāliā signābitur.")
+pl("With the new treaty comes new aid: 980 million dollars.", "Cum novō foedere venit novum auxilium: nōngentī octōgintā mīliōnēs dollarōrum.")
+pl("In the stable we know one law: a horse goes back to whoever has the hay.", "In stabulō ūnam lēgem nōvimus: equus ad eum redit quī faenum habet.")
+pl("Nine hundred and eighty million dollars. That is a great deal of hay.", "Nōngentī octōgintā mīliōnēs dollarōrum. Id est multum faenī.")
+pl("Oliver Nobetau, of the Lowy Institute, says: a massive win.", "Oliver Nobetau, ex Īnstitūtō Lowy, dīcit: magna victōria.")
+pl("But the former prime minister, Sogavare, says: the country must carefully consider what it stands to lose.", "Sed prīmus minister prior, Sogavare, dīcit: patria dīligenter cōnsīderāre dēbet quid āmissūra sit.")
+pl("Now, at home. Yesterday we said: the law about the gas has still not been passed. Three days are left.", "Nunc, domī. Herī dīximus: lēx dē gas adhūc nōn lāta est. Trēs diēs restant.")
+pl("Today two days are left. The law about the gas has still not been passed.", "Hodiē duo diēs restant. Lēx dē gas adhūc nōn lāta est.")
+pl("The Coalition says: the companies would have to sell gas below the price of the market.", "Coalitiō dīcit: societātēs gas īnfrā pretium forī vēndere dēbērent.")
+pl("So the Labor party is thinking about a deal with the Greens.", "Itaque Labōrānī dē pactiōne cum Viridibus cōgitant.")
+pl("Two days. At the racecourse that is the last bend. Nobody has yet left the starting gate.", "Duo diēs. In curriculō ea est ultima flexūra. Nēmō adhūc ē carceribus exiit.")
+pl("And today, at half past eleven, the new prices.", "Et hodiē, hōrā ūndecimā et dīmidiā, pretia nova.")
+pl("Economists say: inflation will be 4.8 per cent. In September it was 4.3 per cent.", "Oeconomī dīcunt: īnflātiō erit quattuor per centum et octōgintā centēsimae. Mēnse Septembrī erat quattuor per centum et trīgintā centēsimae.")
+pl("But the big banks think: in December the central bank will not change the interest rate.", "Sed argentāriae magnae putant: mēnse Decembrī argentāria centrālis faenus nōn mūtābit.")
+
+# ---------------- Iran ----------------
+en("Iran. The Revolutionary Guards' navy claims three oil tankers 'hit naval mines' in Hormuz and caught fire, despite US 'air cover and escort'. Reuters could not verify the claim; there was no word from the US command. Speaker and chief negotiator Ghalibaf: no talks with the US 'until Iran's seven conditions are met', among them the end of sanctions and of the blockade. Treasury sanctioned more than 24 exchange houses and front companies; Bessent: 'Iran's economy is underwater, and its leaders are panicking.' Reports say the administration is debating strikes on senior Iranian leaders; Trump 'has not made a final decision'. Brent about $88.")
+spl("The world. First, Iran.", "Orbis terrārum. Prīmum Īrānia.")
+pl("Yesterday we said: Trump calls the Iranian negotiators tap dancers. The blockade has lasted 130 days.", "Herī dīximus: Trump lēgātōs Īrāniānōs saltātōrēs vocat. Obsidiō centum trīgintā diēs dūrat.")
+pl("Now the Revolutionary Guards say: three oil ships struck naval mines in the strait of Hormuz, and caught fire.", "Nunc Custōdēs Revolūtiōnis dīcunt: trēs nāvēs oleāriae in bombās marīnās in fretō Hormuziānō incurrērunt, et exārsērunt.")
+pl("The Guards say: the ships had American aircraft above them, and an escort, but it did not help.", "Custōdēs dīcunt: nāvēs aëroplana Americāna suprā sē et praesidium habēbant, sed id nōn prōfuit.")
+pl("But nobody has confirmed this. The Americans have said nothing.", "Sed nēmō hoc cōnfirmāvit. Americānī nihil dīxērunt.")
+pl("Ghalibaf, the speaker and chief negotiator, says: no talks with America, until Iran's seven conditions are met.", "Ghalibaf, praeses comitiōrum et prīmus lēgātus, dīcit: nūllī sermōnēs cum Americā, dōnec septem condiciōnēs Īrāniae impleantur.")
+pl("Among the conditions: no more sanctions, and no more blockade.", "Inter condiciōnēs: nūllae iam poenae, et nūlla iam obsidiō.")
+pl("Seven conditions. In the stable we have one condition: hay. Our talks are very short.", "Septem condiciōnēs. In stabulō ūnam condiciōnem habēmus: faenum. Sermōnēs nostrī brevissimī sunt.")
+pl("In Washington the Treasury punished more than twenty-four companies that help Iran with money.", "Washingtōniae aerārium plūs quam vīgintī quattuor societātēs pūnīvit quae Īrāniam pecūniā iuvant.")
+pl("Bessent, the Treasury secretary, says: Iran's economy is underwater, and its leaders are panicking.", "Bessent, minister aerāriī, dīcit: oeconomia Īrāniae sub aquā est, et prīncipēs eius trepidant.")
+pl("And the newspapers say: in Washington they are debating strikes against the leaders of Iran. Trump has not yet decided.", "Et ācta dīcunt: Washingtōniae dē ictibus in prīncipēs Īrāniae disputant. Trump nōndum dēcrēvit.")
+pl("The price of oil: about 88 dollars a barrel.", "Pretium oleī: circiter duodēnōnāgintā dollarī prō dōliō.")
+
+# ---------------- America ----------------
+en("America. Monday's rally reversed on Tuesday: Nvidia fell about 8% after Monday's 31% jump; the Nasdaq fell up to 2.5% during the day, while the Dow rose on strong consumer confidence. AP: 'the momentum is back downward.' Republican congressman Don Bacon: Nvidia should have 'ignored the Administration's inexplicable desire to save Huang.' Senator Ricketts: there are 'unaccounted-for chips'. Huang testifies to the Senate on 3 December. And Trump pardoned the Thanksgiving turkeys, Freedom and Feathers.")
+spl("America.", "America.")
+pl("Yesterday we said: Nvidia brought back its chief, and the market leapt up.", "Herī dīximus: Nvidia prīncipem suum restituit, et bursa surrēxit.")
+pl("Today the market is falling again. Nvidia lost about 8 per cent.", "Hodiē bursa iterum cadit. Nvidia circiter octō per centum āmīsit.")
+pl("On Monday up 31 per cent, on Tuesday down 8.", "Diē Lūnae trīgintā ūnum per centum sūrsum, diē Mārtis octō deorsum.")
+pl("Don Bacon, a Republican, says: Nvidia should have ignored the administration's inexplicable desire to save Huang.", "Don Bacon, Rēpūblicānus, dīcit: Nvidia cupiditātem inexplicābilem administrātiōnis Huang servandī neglegere dēbuit.")
+pl("And Senator Ricketts, also a Republican, says: some chips are missing.", "Et senātor Ricketts, et ipse Rēpūblicānus, dīcit: quaedam lāminae siliceae dēsīderantur.")
+pl("On the third of December Huang must answer to the Senate.", "Ante diem tertium Nōnās Decembrēs Huang senātuī respondēre dēbet.")
+pl("And at the White House Trump pardoned two turkeys, Freedom and Feathers.", "Et in Domō Albā Trump duōbus gallopāvōnibus veniam dedit, Lībertātī et Plūmīs.")
+pl("Two turkeys pardoned. Their crime was never announced. In the stable we demand to see the charges.", "Duo gallopāvōnēs veniam accēpērunt. Crīmen eōrum numquam nūntiātum est. In stabulō crīmina vidēre postulāmus.")
+
+# ---------------- Ukraine ----------------
+en("Ukraine. Overnight Russia launched 96 drones; 73 were shot down or suppressed. In Dymer the rescue work is over: 11 dead, five in hospital; a boy of seven and the woman of 79 were pulled out alive. The Kremlin's Peskov: 'Europeans insist on a four-party format'; 'we don't understand what added value the Europeans could bring'; 'the date has not yet been set.' NATO will send AWACS radar planes to Poland. A Russian drone briefly crossed into Polish airspace; Trump: 'Putin has been landing drones in Poland and a couple of little missiles, by mistake.' The prisoner exchange has still not happened.")
+spl("Ukraine.", "Ūcraīna.")
+pl("Yesterday we said: Peskov, for the Kremlin, says: soon. We are currently considering Abu Dhabi.", "Herī dīximus: Peskov, prō Kremlinō, dīcit: mox. Nunc dē urbe Abu Dhabi cōgitāmus.")
+pl("Today Peskov says: the Europeans insist on talks with four sides.", "Hodiē Peskov dīcit: Eurōpaeī sermōnēs quattuor partium postulant.")
+pl("And he says: we don't understand what the Europeans could add. The date has not yet been set.", "Et dīcit: nōn intellegimus quid Eurōpaeī addere possint. Diēs nōndum cōnstitūtus est.")
+pl("No date. No place. Four riders, and they argue about one saddle. The race has not yet begun.", "Nūllus diēs. Nūllus locus. Quattuor equitēs, et dē ūnā sellā certant. Curriculum nōndum incēpit.")
+pl("Last night Russia sent 96 drones. Ukraine brought down 73.", "Proximā nocte Russia nōnāgintā sex fūcōs mīsit. Ūcraīna septuāgintā trēs dēiēcit.")
+pl("In Dymer the work of the rescuers is over. The dead are eleven.", "In oppidō Dymer opus servātōrum fīnītum est. Mortuī sunt ūndecim.")
+pl("But a boy of seven and the woman of 79 were pulled alive from the ruins.", "Sed puer septem annōrum et fēmina ūndēoctōgintā annōrum ē ruīnīs vīvī extrāctī sunt.")
+pl("NATO is sending radar planes to Poland, because Russian missiles fell in Poland.", "NATO aëroplana speculātōria in Polōniam mittit, quia missilia Russica in Polōniā cecidērunt.")
+pl("Trump says: Putin has been landing drones in Poland, and a couple of little missiles, by mistake.", "Trump dīcit: Putin fūcōs in Polōniā dēpōnit, et duo missilia parva, per errōrem.")
+pl("The exchange of prisoners has still not happened.", "Permūtātiō captīvōrum adhūc nōn facta est.")
+
+# ---------------- happy story ----------------
+en("A happy story. On Monday, in south St Louis, firefighters at a house fire on Pestalozzi Street found a family of five raccoons inside. They carried them out and gave them oxygen for the smoke. No deaths were reported. Photographer John Frey: 'I have been doing photography for over 50 years and have seen just about everything.' And: to see the crews save these raccoons 'was so heartwarming'.")
+spl("A happy story.", "Rēs laeta.")
+pl("On Monday, in the American city of St Louis, a house was burning.", "Diē Lūnae, in urbe Americānā Sānctī Lūdovīcī, domus ārdēbat.")
+pl("The firefighters went in. Inside they found a family of raccoons. Five raccoons.", "Vigilēs intrāvērunt. Intus familiam prōcyōnum invēnērunt. Quīnque prōcyōnēs.")
+pl("The firefighters carried the raccoons out, and gave them oxygen, because of the smoke.", "Vigilēs prōcyōnēs extulērunt, et eīs oxygenium dedērunt, propter fūmum.")
+pl("All five are safe. No death was reported.", "Omnēs quīnque salvī sunt. Nūlla mors nūntiāta est.")
+pl("Smoke in the stable: every horse fears it. So these firefighters are heroes.", "Fūmus in stabulō: omnis equus eum timet. Itaque hī vigilēs hērōēs sunt.")
+pl("Five raccoons saved. We ask for a statue. In bronze. With five small raccoons. And one firefighter, holding the oxygen.", "Quīnque prōcyōnēs servātī. Statuam postulāmus. Aēneam. Cum quīnque prōcyōnibus parvīs. Et ūnō vigile, quī oxygenium tenet.")
+pl("The photographer, John Frey, says: for more than fifty years I have taken pictures, and I have seen almost everything.", "Phōtographus, John Frey, dīcit: plūs quam quīnquāgintā annōs imāginēs faciō, et paene omnia vīdī.")
+pl("He says: to see the firefighters save these raccoons was so heartwarming.", "Dīcit: vigilēs hōs prōcyōnēs servantēs vidēre rēs dulcissima erat.")
+
+# ---------------- opinion ----------------
+en("Opinion. Rowan Dean, in The Spectator Australia: 'Failure, thy name is Chris Bowen.' 'Everything Labor touches turns to muck.' 'Cop31 has collapsed in a heap of confusion, rancour, and rage.' Turkey handed Australia the 'poisoned chalice' of running the negotiations. Net zero is hurting farmers and miners. And 'Chris Bowen is bound to keep failing all the way right up into the Lodge.'")
+spl("Opinion.", "Opīniō.")
+pl("This is the opinion of Rowan Dean, in The Spectator Australia.", "Haec est sententia Rowan Dean, in Spectātōre Austrāliae.")
+pl("His title: failure, your name is Chris Bowen.", "Titulus eius: dēfectiō, nōmen tibi est Chris Bowen.")
+pl("Dean says: everything Labor touches turns to muck.", "Dean dīcit: quidquid Labōrānī tangunt, in caenum vertitur.")
+pl("Muck. In the stable we know this word well. Someone cleans it up every morning. Not the minister.", "Caenum. In stabulō hoc verbum bene nōvimus. Aliquis id cotīdiē māne pūrgat. Nōn minister.")
+pl("Dean says: the conference on the climate has collapsed in a heap of confusion, hatred and rage.", "Dean dīcit: conventus dē climate in cumulum cōnfūsiōnis, odiī et īrae concidit.")
+pl("And he says: Turkey gave Australia a poisoned cup: to lead the talks.", "Et dīcit: Turcia Austrāliae pōculum venēnātum dedit: sermōnēs dūcere.")
+pl("Dean says: the 'net zero' plan is hurting the farmers and the miners.", "Dean dīcit: cōnsilium 'ēmissiōnum nūllārum' agricolīs et metallicīs nocet.")
+pl("And his last line: Bowen will keep failing, all the way up to the house of the prime minister.", "Et versus ultimus eius: Bowen semper dēficiet, usque ad domum prīmī ministrī.")
+
+# ---------------- history ----------------
+en("Today in history. On 25 November 1177, at Montgisard, near Ramla, the young leper king of Jerusalem, Baldwin IV, routed Saladin. He had about 375 knights and 80 Templars, with a few thousand foot soldiers; Saladin's army was far larger. The True Cross was raised before the troops; Baldwin got down from his horse, knelt to pray, then attacked. Saladin's army was chased for twelve miles, and he escaped 'on the swift back of a camel'. It was the feast of St Catherine, and Baldwin later founded a monastery to her on the battlefield.")
+spl("Today in history.", "Hodiē in historiā.")
+pl("On this day, in the year 1177, there was a battle at Montgisard, near Ramla.", "Hōc diē, annō mīllēsimō centēsimō septuāgēsimō septimō, proelium apud Montem Gisardī fuit, prope Ramlam.")
+pl("The king of Jerusalem, Baldwin the Fourth, was young, and a leper.", "Rēx Hierosolymōrum, Balduīnus Quārtus, iuvenis erat, et leprōsus.")
+pl("He had about 375 knights and 80 Templars. Saladin's army was much larger.", "Circiter trecentōs septuāgintā quīnque equitēs et octōgintā Templāriōs habēbat. Exercitus Saladīnī multō maior erat.")
+pl("Before the battle Baldwin got down from his horse, knelt, and prayed. Then he attacked.", "Ante proelium Balduīnus dē equō dēscendit, genua flexit, et ōrāvit. Deinde impetum fēcit.")
+pl("The knights routed Saladin's army, and chased it for twelve miles.", "Equitēs exercitum Saladīnī fūdērunt, et duodecim mīlia passuum persecūtī sunt.")
+pl("Saladin escaped on the swift back of a camel.", "Saladīnus in tergō vēlōcī camēlī effūgit.")
+pl("A camel. We say nothing. Every animal has its day.", "Camēlus. Nihil dīcimus. Suus cuique animālī diēs est.")
+pl("It was the feast of Saint Catherine. Later Baldwin founded a monastery to her, on the field of the battle.", "Erat fēstum Sānctae Catharīnae. Posteā Balduīnus eī monastērium condidit, in campō proeliī.")
+
+# ---------------- summary ----------------
+en("The summary.")
+spl("The summary.", "Summa rērum.")
+pl("The Solomon Islands are ending the treaty with China. Today a new treaty with Australia.", "Īnsulae Salomōnis foedus cum Sīnīs fīniunt. Hodiē novum foedus cum Austrāliā.")
+pl("The law about the gas has still not been passed. Two days are left.", "Lēx dē gas adhūc nōn lāta est. Duo diēs restant.")
+pl("Today the new prices. Economists say: 4.8 per cent.", "Hodiē pretia nova. Oeconomī dīcunt: quattuor per centum et octōgintā centēsimae.")
+pl("Iran says: three oil ships struck naval mines. Nobody has confirmed it.", "Īrānia dīcit: trēs nāvēs oleāriae in bombās marīnās incurrērunt. Nēmō id cōnfirmāvit.")
+pl("Ghalibaf says: no talks, until seven conditions are met.", "Ghalibaf dīcit: nūllī sermōnēs, dōnec septem condiciōnēs impleantur.")
+pl("Nvidia is falling again. Two turkeys have been pardoned.", "Nvidia iterum cadit. Duo gallopāvōnēs veniam accēpērunt.")
+pl("Peskov says: the date of the talks has not yet been set.", "Peskov dīcit: diēs sermōnum nōndum cōnstitūtus est.")
+pl("In St Louis the firefighters saved five raccoons.", "In urbe Sānctī Lūdovīcī vigilēs quīnque prōcyōnēs servāvērunt.")
+pl("On this day in 1177 Baldwin routed Saladin.", "Hōc diē, annō mīllēsimō centēsimō septuāgēsimō septimō, Balduīnus Saladīnum fūdit.")
+
+# ---------------- words of the day ----------------
+en("The words of the day. Five sentences, slowly.")
+spl("The words of the day.", "Verba diēī.")
+pl("The treaty with China will not be renewed.", "Foedus cum Sīnīs nōn renovābitur.")
+pl("A horse goes back to whoever has the hay.", "Equus ad eum redit quī faenum habet.")
+pl("Three ships struck naval mines.", "Trēs nāvēs in bombās marīnās incurrērunt.")
+pl("The firefighters saved five raccoons.", "Vigilēs quīnque prōcyōnēs servāvērunt.")
+pl("Everything Labor touches turns to muck.", "Quidquid Labōrānī tangunt, in caenum vertitur.")
+pl("Again.", "Iterum.")
+pl("The treaty with China will not be renewed.", "Foedus cum Sīnīs nōn renovābitur.")
+pl("A horse goes back to whoever has the hay.", "Equus ad eum redit quī faenum habet.")
+pl("Three ships struck naval mines.", "Trēs nāvēs in bombās marīnās incurrērunt.")
+pl("The firefighters saved five raccoons.", "Vigilēs quīnque prōcyōnēs servāvērunt.")
+pl("Everything Labor touches turns to muck.", "Quidquid Labōrānī tangunt, in caenum vertitur.")
+pl("That was the news, straight from the horse's mouth. Goodbye, listeners. Again tomorrow.", "Haec fuērunt nūntia ex ōre equī. Valēte, audītōrēs. Crās iterum.")
+p1pl("Now everything again, in Latin only.", "Nunc omnia iterum, Latīnē tantum.")
+
+job = {
+ "type": "news", "date": "2026-11-25", "music": "v5",
+ "title": "Ex Ōre Equī · Diēs Mercuriī, a.d. VII Kal. Dec. (Wed 25 Nov 2026)",
+ "summary": ("Canberra: 8–25°, partly cloudy, 5% chance of rain, UV 11 (extreme). Thursday 11–28°, partly cloudy, 20%. "
+             "Sydney 24 (cloudy, a shower possible), Melbourne 27 (sunny), Brisbane 26 (showers, storm possible), Perth 24, Adelaide 29 (sunny), Hobart 24. "
+             "Australia: Solomon Islands PM Matthew Wale tells Beijing the 2022 security pact will not be renewed (expires April); new treaty with Australia "
+             "to be signed in Canberra today, with an extra $980m in aid; Wong had called the pact the 'worst foreign policy blunder in the Pacific since the end of "
+             "World War II'; Nobetau (Lowy): 'massive win'; Sogavare: 'The country must carefully consider what it stands to lose.' Gas reservation bill still not "
+             "passed, day three of the last sitting week; Coalition: producers forced to sell below market prices; Labor weighs a Greens deal. October CPI today "
+             "11:30 AEDT, consensus 4.8% (Sept 4.3%); big four banks expect an RBA hold in December. "
+             "Iran: IRGC navy claims three tankers 'hit naval mines' in Hormuz despite US 'air cover and escort' (unverified; no CENTCOM comment); Ghalibaf: no talks "
+             "'until Iran's seven conditions are met'; Treasury sanctions 24+ exchange houses and fronts, Bessent: 'Iran's economy is underwater, and its leaders "
+             "are panicking'; strikes on Iranian leaders debated, Trump 'has not made a final decision'; Brent ~$88. "
+             "US: Nvidia down ~8% after Monday's +31%; Nasdaq down up to 2.5% intraday; Bacon: 'ignored the Administration's inexplicable desire to save Huang'; "
+             "Ricketts: 'unaccounted-for chips'; Huang before the Senate 3 Dec; turkeys Freedom and Feathers pardoned. "
+             "Ukraine: 96 drones / 73 down overnight; Dymer rescue over, 11 dead, a boy of 7 and a woman of 79 pulled out alive; Peskov: 'Europeans insist on a "
+             "four-party format', 'the date has not yet been set'; NATO AWACS to Poland; Trump: 'a couple of little missiles, by mistake'; swap still pending. "
+             "Good news: St Louis firefighters rescue five raccoons (KMOV/KFVS12). Opīniō: Rowan Dean, 'Failure, thy name is Chris Bowen' (Spectator Australia). "
+             "Battle of Montgisard, 25 Nov 1177. Every line in English, then Latin; then all the Latin again. "
+             "Sources: Bureau of Meteorology; WillyWeather; ABC; The Point; AFR; Yahoo/NewsWire; Savings.com.au; MPA; Rudaw; Tasnim; Newscord; Maritime Executive; "
+             "Euronews; Times of Israel; Reuters; AP; Yahoo Finance; FinanceFeeds; Finwire; The National; Ukrinform; Kyiv Post; TASS; TVP World; Kyiv Independent; "
+             "KMOV/KFVS12; The Spectator Australia; William of Tyre; Ralph de Diceto."),
+ "lines": L,
+}
+if __name__ == "__main__":
+    json.dump(job, open("jobs/0092-news-2026-11-25.json", "w"), ensure_ascii=False, indent=1)
+    lat = [r[-1] for k, *r in L if k != 'en']
+    w = sum(len(t.split()) for t in lat)
+    import re
+    bad = [t for t in lat if re.search(r'\d', t)]
+    print(len(L), 'lines ·', len(lat), 'Latin lines ·', w, 'Latin words · digits:', bad)
