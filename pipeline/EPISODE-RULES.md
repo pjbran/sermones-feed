@@ -152,3 +152,10 @@ His strong words get no points. They are the glue and they come back anyway.
 ## 4f. NO "SUFFERING DAD" (Patrick, 2 Nov 16:17: "I fucking hate 'suffering dad' schtick. American reddit LLM-overtraining shit")
 - In ALL content (podcast, app, stories): no long-suffering parent, no eye-rolls at children, no "at last, silence", no kids as tyrants or manipulators, no bargaining-by-crying jokes.
 - His kids = Piaget-style curiosity: how a child learns to ask, wonder, explain the world; the dad is fond and fascinated. Small frustrations get the bright side ("Although he wanted to go home, he had a good time").
+
+## German news (26 Nov 2026)
+- His order (26 Nov 2026): "all the daily podcast tasks -- can you make them all do german content from now on".
+- News job key `"lang": "de"`: the second language is German. A German Piper voice (`voice_de`, default `de_DE-thorsten-medium`) reads the plain German text: no Latin IPA, no smart spelling. `speed_de` = Piper length_scale (1.0 normal, 1.15 = 15% slower).
+- Same line kinds (`pl`, `spl`, `p1pl`: English, then German), same two passes (all lines, then the German alone), same feed (`news/`), same file names (`acta-<date>.mp3`). English +30% as before.
+- Job key `"test": "<name>"` (+ `"name"`): a sound test. It writes `tests/<name>/<name of the sample>.mp3` and `index.html`. It does not touch the feed or `news/episodes.json`.
+- A Latin news job (no `lang`) is unchanged.

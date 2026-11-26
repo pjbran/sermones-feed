@@ -430,6 +430,11 @@ def run_speed_samples(job):
 
 
 # ---------------- Ācta Diurna: the daily Latin news (Patrick, 7 Nov 2026) ----------------
+def html_escape(t):
+    import html
+    return html.escape(str(t))
+
+
 def run_news(job):
     """The daily Latin news show, FREE voices only (his order 7 Nov 21:28: "no eleven labs — only the free voices I love",
     20-30 min). lines = [kind, text]: 'en' = English headline (Jenny) · 'la' = Latin (Paola, IPA) · 'sec' = Latin section
@@ -446,6 +451,19 @@ def run_news(job):
             free_tts.say(voice, text, w)
         return audio.norm(audio.trim(audio.load(w), thr_db=-55, pad=0.12))
     conv = lambda la: free_tts.latin_ipa(la, v_as_v=True)
+    # 26 Nov 2026 (his order: "make them all do german content from now on"): job "lang": "de" = the second language is GERMAN.
+    # A German Piper voice reads the plain German text (no Latin IPA, no respelling). "speed_de" = Piper length_scale
+    # (1.0 = normal, 1.15 = 15% slower). Same feed, same file names. Latin jobs (no "lang") are unchanged.
+    if job.get('lang') == 'de':
+        vla = job.get('voice_de', 'de_DE-thorsten-medium')
+        ls = float(job.get('speed_de', 1.0))
+        conv = lambda t: t
+        def fclip(voice, text, _ls=ls, _vde=vla):
+            k = f'{voice}|{text}' if (voice != _vde or _ls == 1.0) else f'{voice}|{text}|{_ls}'
+            w = f'clips/free/{hashlib.sha1(k.encode()).hexdigest()[:16]}.wav'
+            if not os.path.exists(w):
+                free_tts.say(voice, text, w, length_scale=_ls if voice == _vde else 1.0)
+            return audio.norm(audio.trim(audio.load(w), thr_db=-55, pad=0.12))
     sp = float(job.get('english_speed', ENGLISH_SPEED))
     # 9 Nov 2026 (his rule: "full English-Latin, then again but all Latin after"): 'pl' / 'spl' / 'p1pl' = [kind, English, Latin]:
     # pass 1 says the English then the Latin; pass 2 says the Latin only ('p1pl' only in pass 1). 'spl' = a section title.
@@ -474,6 +492,21 @@ def run_news(job):
         seq += build(job['lines'], True)
     voice, ev = audio.sequence(seq)
     x = audio.mix_music(voice, ev, MUSIC.get(job.get('music', 'v5')), job.get('music_level_db', -9), job.get('music_dip_db', 7))
+    if job.get('test'):   # a sound test: tests/<test>/<name>.mp3 + index.html. NOT in the feed, NOT in episodes.json.
+        od = f"tests/{job['test']}"; os.makedirs(od, exist_ok=True)
+        tf = f"{job.get('name', 'sample')}.mp3"
+        audio.save_mp3(x, f'{od}/{tf}', {'title': job.get('title', tf)}, bitrate='64k', channels=1)
+        notes = {}
+        if os.path.exists(f'{od}/notes.json'):
+            notes = json.load(open(f'{od}/notes.json'))
+        notes[tf] = job.get('title', tf)
+        json.dump(notes, open(f'{od}/notes.json', 'w'), indent=1, ensure_ascii=False)
+        rows = ''.join(f'<p><b>{html_escape(v)}</b><br><audio controls preload="none" src="{k}"></audio></p>' for k, v in sorted(notes.items()))
+        open(f'{od}/index.html', 'w').write('<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+                                            f'<title>{html_escape(job["test"])}</title><body style="font-family:sans-serif;max-width:640px;margin:24px auto;padding:0 12px">'
+                                            f'<h2>{html_escape(job.get("test_title", job["test"]))}</h2>{rows}</body>')
+        log('built news test', f'{od}/{tf}', f'{len(x) / audio.SR / 60:.1f} min')
+        return {'files': [f'{od}/{tf}'], 'minutes': round(len(x) / audio.SR / 60, 1)}
     fn = f"acta-{job['date']}{job.get('suffix', '')}.mp3"
     # a redo replaces every earlier file of the same day (new name so podcast apps fetch it again)
     old = [e for e in json.load(open('news/episodes.json')) if e['file'].startswith(f"acta-{job['date']}")]

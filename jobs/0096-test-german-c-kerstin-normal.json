@@ -1,0 +1,78 @@
+{
+ "type": "news",
+ "lang": "de",
+ "test": "german-voice",
+ "test_title": "German news voice test (26 Nov 2026)",
+ "name": "c-kerstin-normal",
+ "title": "C · woman (Kerstin), normal speed",
+ "voice_de": "de_DE-kerstin-low",
+ "speed_de": 1.0,
+ "music": "v5",
+ "lines": [
+  [
+   "spl",
+   "Hello, listeners. This is the news, straight from the horse's mouth.",
+   "Hallo, liebe Hörer. Hier sind die Nachrichten, direkt vom Pferd."
+  ],
+  [
+   "pl",
+   "Today is Friday, the twenty-seventh of November.",
+   "Heute ist Freitag, der siebenundzwanzigste November."
+  ],
+  [
+   "spl",
+   "First, the weather.",
+   "Zuerst das Wetter."
+  ],
+  [
+   "pl",
+   "In Canberra it is warm today. Thirty degrees.",
+   "In Canberra ist es heute warm. Dreißig Grad."
+  ],
+  [
+   "pl",
+   "In the afternoon it rains.",
+   "Am Nachmittag regnet es."
+  ],
+  [
+   "pl",
+   "The rain is good. The grass grows.",
+   "Der Regen ist gut. Das Gras wächst."
+  ],
+  [
+   "spl",
+   "Now the news from Australia.",
+   "Jetzt die Nachrichten aus Australien."
+  ],
+  [
+   "pl",
+   "Prices are going up.",
+   "Die Preise steigen."
+  ],
+  [
+   "pl",
+   "Bread costs more, and hay costs more too.",
+   "Das Brot kostet mehr, und das Heu kostet auch mehr."
+  ],
+  [
+   "pl",
+   "The minister is not happy.",
+   "Der Minister ist nicht glücklich."
+  ],
+  [
+   "pl",
+   "But he does not buy hay. So he does not know the real problem.",
+   "Aber er kauft kein Heu. Also kennt er das echte Problem nicht."
+  ],
+  [
+   "pl",
+   "That was the news. Goodbye, and see you tomorrow.",
+   "Das waren die Nachrichten. Auf Wiederhören, und bis morgen."
+  ],
+  [
+   "p1pl",
+   "Now everything again, in German only.",
+   "Jetzt alles noch einmal, nur auf Deutsch."
+  ]
+ ]
+}
