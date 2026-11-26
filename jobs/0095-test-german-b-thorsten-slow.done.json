@@ -1,0 +1,13 @@
+{
+ "job": "jobs/0095-test-german-b-thorsten-slow.json",
+ "ok": true,
+ "files": [
+  "tests/german-voice/b-thorsten-slow.mp3"
+ ],
+ "minutes": 2.0,
+ "log": [
+  "== job jobs/0095-test-german-b-thorsten-slow.json news",
+  "built news test tests/german-voice/b-thorsten-slow.mp3 2.0 min"
+ ],
+ "at": "2026-11-26T03:37:02+00:00"
+}

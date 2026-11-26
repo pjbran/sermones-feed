@@ -1,0 +1,13 @@
+{
+ "job": "jobs/0094-test-german-a-thorsten-normal.json",
+ "ok": true,
+ "files": [
+  "tests/german-voice/a-thorsten-normal.mp3"
+ ],
+ "minutes": 1.9,
+ "log": [
+  "== job jobs/0094-test-german-a-thorsten-normal.json news",
+  "built news test tests/german-voice/a-thorsten-normal.mp3 1.9 min"
+ ],
+ "at": "2026-11-26T03:36:54+00:00"
+}

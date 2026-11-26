@@ -1,13 +1,13 @@
 {
- "job": "jobs/0093-news-2026-11-26.json",
+ "job": "jobs/0096-test-german-c-kerstin-normal.json",
  "ok": true,
  "files": [
-  "acta-2026-11-26.mp3"
+  "tests/german-voice/c-kerstin-normal.mp3"
  ],
- "minutes": 29.5,
+ "minutes": 2.1,
  "log": [
-  "== job jobs/0093-news-2026-11-26.json news",
-  "built news acta-2026-11-26.mp3 29.5 min"
+  "== job jobs/0096-test-german-c-kerstin-normal.json news",
+  "built news test tests/german-voice/c-kerstin-normal.mp3 2.1 min"
  ],
- "at": "2026-11-25T18:41:00+00:00"
+ "at": "2026-11-26T03:37:11+00:00"
 }
