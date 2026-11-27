@@ -1,0 +1,213 @@
+# Ex Ōre Equī · Deutsch · Samstag 28 November 2026. Free voices (Jenny + Thorsten). English → German on every line, then all the German again.
+# Level: week 1 = A1 (main clauses, present tense; past only war/hatte). Grammar of the day (Saturday): separable verbs.
+# Sources (read 28 Nov 2026, early morning, Canberra): Bureau of Meteorology place pages (Braddon ACT, Carlton NSW, West Melbourne, Norman Park,
+# Yokine, Netley, Sandy Bay, Berrimah) · Conversation/Yahoo 26 Nov, The Nightly 26–27 Nov, ABC 27–28 Nov (Victorian election, Blyth) ·
+# Grattan/Yahoo 26 Nov · ABC 25 Nov (CPI), Aussie (RBA calls) · Reuters via Devdiscourse 26 Nov, Age/Brisbane Times 27 Nov (gas bill) ·
+# AP via ClickOrlando, Reuters via Arab News, The National, Gulf News, Times of Israel, Anadolu, Euronews Italia, Breitbart 27 Nov (Iran, Kuwait, oil) ·
+# LB.ua, Kyiv Independent, Ukrinform, AP via PBS 27 Nov (Ukraine) · BBC via AOL 27 Nov (the sisters in Derbyshire).
+import json, re
+L = []
+def en(t): L.append(['en', t])
+def p1(t): L.append(['p1', t])
+def pl(e, t): L.append(['pl', e, t])
+def spl(e, t): L.append(['spl', e, t])
+def p1pl(e, t): L.append(['p1pl', e, t])
+
+# ---------------- opening ----------------
+spl("Hello, listeners. This is the news, straight from the horse's mouth.", "Hallo, liebe Hörer. Hier sind die Nachrichten, direkt vom Pferd.")
+pl("Today is Saturday, the twenty-eighth of November, 2026.", "Heute ist Samstag, der achtundzwanzigste November zweitausendsechsundzwanzig.")
+pl("First the weather. After that Australia: today Victoria votes.", "Zuerst das Wetter. Danach Australien: Heute wählt Victoria.")
+pl("Then the world: Iran and Ukraine.", "Dann die Welt: der Iran und die Ukraine.")
+pl("Then a good piece of news, the grammar of the day and the words of the day.", "Dann eine gute Nachricht, die Grammatik des Tages und die Wörter des Tages.")
+
+# ---------------- weather ----------------
+en("The weather. Canberra today: 16 to 23, rain certain, 10 to 40 mm, thunderstorms likely, possibly severe. Sunday: 13 to 24, partly cloudy.")
+spl("The weather.", "Das Wetter.")
+pl("Today in Canberra it is cloudy. The wind comes from the north.", "Heute ist es in Canberra bewölkt. Der Wind kommt aus dem Norden.")
+pl("In the morning sixteen degrees, in the afternoon twenty-three degrees.", "Am Morgen sechzehn Grad, am Nachmittag dreiundzwanzig Grad.")
+pl("Today it rains for sure: ten to forty millimetres. In the afternoon it gets dark. After that thunderstorms come.", "Heute regnet es ganz sicher: zehn bis vierzig Millimeter. Am Nachmittag wird es dunkel. Danach kommen Gewitter.")
+pl("In a thunderstorm: go into the house at once!", "Bei Gewitter: sofort ins Haus!")
+pl("And hold no fork in the air! No hay fork either. A fork in a thunderstorm is a very bad idea.", "Und keine Gabel in die Luft halten! Auch keine Heugabel. Eine Gabel bei Gewitter ist eine sehr schlechte Idee.")
+pl("Tomorrow, Sunday: thirteen to twenty-four degrees, partly cloudy. Perhaps a light shower. Then it is bright again.", "Morgen, am Sonntag: dreizehn bis vierundzwanzig Grad, teilweise bewölkt. Vielleicht ein leichter Schauer. Dann ist es wieder hell.")
+pl("In Sydney it is partly cloudy, twenty-nine degrees. In the afternoon and in the evening thunderstorms come.", "In Sydney ist es teilweise bewölkt, neunundzwanzig Grad. Am Nachmittag und am Abend kommen Gewitter.")
+pl("In Melbourne a lot of rain, above all in the morning. Twenty-three degrees.", "In Melbourne viel Regen, vor allem am Morgen. Dreiundzwanzig Grad.")
+pl("In Brisbane almost certainly showers, twenty-nine degrees. In Perth it is bright and sunny, thirty degrees.", "In Brisbane fast sicher Schauer, neunundzwanzig Grad. In Perth ist es hell und sonnig, dreißig Grad.")
+pl("In Adelaide twenty-three degrees and perhaps a light shower.", "In Adelaide dreiundzwanzig Grad und vielleicht ein leichter Schauer.")
+pl("In Hobart rain all day, twenty-two degrees. Hobart is a dishwasher today.", "In Hobart den ganzen Tag Regen, zweiundzwanzig Grad. Hobart ist heute eine Spülmaschine.")
+pl("In Darwin thirty-four degrees, and from half past twelve, thunderstorms. So: into the house at once!", "In Darwin vierunddreißig Grad, und ab halb eins Gewitter. Also: sofort ins Haus!")
+
+# ---------------- Australia ----------------
+en("Australia. Victoria votes today. Newspoll: Coalition 57.5, Labor 42.5. Federal parliament has risen; the gas bill is reported passed.")
+spl("Australia.", "Australien.")
+pl("Right now Victoria is voting. Today is the election.", "Gerade wählt Victoria. Heute ist die Wahl.")
+pl("Labor has governed in Victoria for twelve years. Ben Carroll is the premier.", "Labor regiert seit zwölf Jahren in Victoria. Ben Carroll ist der Premier.")
+pl("About four point seven million people may vote. A part votes beforehand already: about half.", "Etwa vier Komma sieben Millionen Menschen dürfen wählen. Ein Teil wählt schon vorher: etwa die Hälfte.")
+pl("The voters fill in the ballot paper. The election lasts until six o'clock in the evening.", "Die Wähler füllen den Wahlzettel aus. Die Wahl dauert bis sechs Uhr am Abend.")
+pl("The poll says: the Coalition is at fifty-seven point five per cent, Labor at forty-two point five.", "Die Umfrage sagt: Die Koalition liegt bei siebenundfünfzig Komma fünf Prozent, Labor bei zweiundvierzig Komma fünf.")
+pl("The newspaper The Nightly says: perhaps that is the biggest swing against Labor since 1955.", "Die Zeitung The Nightly sagt: Vielleicht ist das der größte Swing gegen Labor seit neunzehnhundertfünfundfünfzig.")
+pl("Labor has fifty-six seats now. Perhaps only seventeen stay. The Coalition can win up to sixty-seven seats.", "Labor hat jetzt sechsundfünfzig Sitze. Vielleicht bleiben nur siebzehn. Die Koalition kann bis zu siebenundsechzig Sitze holen.")
+pl("Perhaps Ben Carroll even loses his own seat. For Labor the mood is bad.", "Vielleicht verliert Ben Carroll sogar seinen eigenen Sitz. Bei Labor ist die Laune schlecht.")
+pl("The poll is like a traffic light. For Labor the light is red. For the Coalition it is green.", "Die Umfrage ist wie eine Ampel. Für Labor ist die Ampel rot. Für die Koalition ist sie grün.")
+pl("And for One Nation? Yellow. Yellow means: watch out. At the racetrack too.", "Und für One Nation? Gelb. Gelb heißt: Achtung. Auch auf der Rennbahn.")
+pl("First vote, after that wait. Is that the end for Labor? The result does not come at once, but only in the evening.", "Zuerst wählen, danach warten. Ist das das Ende für Labor? Das Ergebnis kommt nicht sofort, sondern erst am Abend.")
+pl("The Coalition wants to lease the sewer network of Melbourne for ninety years. Ninety years: no dishwasher lives that long.", "Die Koalition will das Kanalnetz von Melbourne für neunzig Jahre verpachten. Neunzig Jahre: So lange lebt keine Spülmaschine.")
+pl("Now Canberra. On Thursday: Leah Blyth changes over to One Nation. Today: the Liberals are still in a bad mood.", "Jetzt Canberra. Am Donnerstag: Leah Blyth wechselt zu One Nation. Heute: Die Liberalen haben immer noch schlechte Laune.")
+pl("Angus Taylor hears the news first from the media. Dave Sharma, a Liberal, says: that is dishonourable.", "Angus Taylor hört die Nachricht zuerst aus den Medien. Dave Sharma, ein Liberaler, sagt: Das ist unehrenhaft.")
+pl("Yesterday our news was: the last vote on gas comes only in February. Today reports say: parliament says yes after all.", "Gestern war unsere Nachricht: Die letzte Abstimmung über das Gas kommt erst im Februar. Heute sagen Berichte: Das Parlament sagt doch Ja.")
+pl("So the law for gas is finished, the reports say. Up to twenty per cent of the gas stays in Australia, from the year 2028.", "Das Gesetz für Gas ist also fertig, sagen die Berichte. Bis zu zwanzig Prozent vom Gas bleiben in Australien, ab dem Jahr zweitausendachtundzwanzig.")
+pl("The year is almost at an end. Parliament takes a break until February.", "Das Jahr ist fast zu Ende. Das Parlament macht bis Februar Pause.")
+pl("The politicians take their luggage and travel home. And who carries the luggage? Not the politicians, of course.", "Die Politiker nehmen ihr Gepäck und fahren nach Hause. Und wer trägt das Gepäck? Natürlich nicht die Politiker.")
+pl("The central bank decides on the eighth of December. The interest rate is at four point eight five per cent. The big banks say: it stays the same.", "Die Zentralbank entscheidet am achten Dezember. Der Zins liegt bei vier Komma acht fünf Prozent. Die großen Banken sagen: Er bleibt gleich.")
+pl("Once more: today Victoria votes, and for Labor the traffic light is red.", "Noch einmal: Heute wählt Victoria, und für Labor ist die Ampel rot.")
+
+# ---------------- Iran ----------------
+en("Iran. Italy names the two dead in Kuwait. Kuwait summons Iran's ambassador. The US stops another ship. Brent near $97.50.")
+spl("The world. First, Iran.", "Die Welt. Zuerst der Iran.")
+pl("On Thursday: in Kuwait two technicians from Italy die. Iran says: it was not us.", "Am Donnerstag: In Kuwait sterben zwei Techniker aus Italien. Der Iran sagt: Wir waren es nicht.")
+pl("Today Italy gives the names: Antonio Saccoccio was sixty-five years old, Emanuele Lo Russo was thirty-six.", "Heute nennt Italien die Namen: Antonio Saccoccio war fünfundsechzig Jahre alt, Emanuele Lo Russo war sechsunddreißig.")
+pl("Antonio Tajani, the foreign minister of Italy, says: it was a drone from Iran. That is unacceptable.", "Antonio Tajani, der Außenminister von Italien, sagt: Es war eine Drohne aus dem Iran. Das ist inakzeptabel.")
+pl("On a drone there is no signature. But Italy says: this drone comes from Iran.", "Auf einer Drohne steht keine Unterschrift. Aber Italien sagt: Diese Drohne kommt aus dem Iran.")
+pl("Kuwait summons the ambassador of Iran. That is no invitation to tea.", "Kuwait bestellt den Botschafter vom Iran ein. Das ist keine Einladung zum Tee.")
+pl("Iran says again: it was not us. And it sends an invitation: Kuwait, Italy and Iran should check the case together.", "Der Iran sagt wieder: Wir waren es nicht. Und er schickt eine Einladung: Kuwait, Italien und der Iran sollen den Fall zusammen prüfen.")
+pl("The Americans stop a ship again: the Pacific Archer, in the Gulf of Oman. The crew is safe.", "Die Amerikaner stoppen wieder ein Schiff: die Pacific Archer, im Golf von Oman. Die Mannschaft ist sicher.")
+pl("That is already at least the fifteenth ship. Since July the Americans have sent one hundred and fifty-eight ships back.", "Das ist schon mindestens das fünfzehnte Schiff. Seit Juli schicken die Amerikaner hundertachtundfünfzig Schiffe zurück.")
+pl("Donald Trump says: victory is near. We give Iran every chance for a deal.", "Donald Trump sagt: Der Sieg ist nah. Wir geben dem Iran jede Chance für einen Deal.")
+pl("Mohammad Mokhber, an adviser in Tehran, says: the Strait of Hormuz stays shut, and the blockade may not stay either.", "Mohammad Mokhber, ein Berater in Teheran, sagt: Die Straße von Hormus bleibt zu, und die Blockade darf auch nicht bleiben.")
+pl("Iran says: the offers come via Qatar and Pakistan, and we are checking them right now.", "Der Iran sagt: Die Angebote kommen über Katar und Pakistan, und wir prüfen sie gerade.")
+pl("Only a part of the oil comes through the Strait of Hormuz now. Before the war it was a hundred per cent, now it is about fifty-four.", "Durch die Straße von Hormus kommt jetzt nur ein Teil vom Öl. Vor dem Krieg waren es hundert Prozent, jetzt sind es etwa vierundfünfzig.")
+pl("On Friday morning a barrel of Brent oil costs ninety-seven dollars and forty-nine cents. Almost a hundred dollars. For a hundred dollars there is a lot of hay. Just for information.", "Am Freitagmorgen kostet ein Barrel Brent-Öl siebenundneunzig Dollar und neunundvierzig Cent. Fast hundert Dollar. Für hundert Dollar gibt es sehr viel Heu. Nur zur Information.")
+pl("So oil is not cheap. For the oil countries the till is ringing. On Sunday OPEC Plus meets.", "Öl ist also nicht billig. Bei den Ölländern klingelt die Kasse. Am Sonntag trifft sich die OPEC plus.")
+pl("Once more: Italy says: the drone comes from Iran. And Iran says again: it was not us.", "Noch einmal: Italien sagt: Die Drohne kommt aus dem Iran. Und der Iran sagt wieder: Wir waren es nicht.")
+
+# ---------------- Ukraine ----------------
+en("Ukraine. 155 drones overnight, power cuts in 6 regions, 6 killed in a day. Trump calls Putin 'my friend'; Zelensky: 'He can't be a friend.'")
+spl("Now Ukraine.", "Jetzt die Ukraine.")
+pl("Yesterday: Kushner says: the exchange of prisoners comes soon. Today: still no date. When does Ukraine fetch its prisoners home? There is no answer yet.", "Gestern: Kushner sagt: Der Austausch von Gefangenen kommt bald. Heute: noch kein Termin. Wann holt die Ukraine ihre Gefangenen nach Hause? Noch gibt es keine Antwort.")
+pl("In the night Russia sends one hundred and fifty-five drones. Ukraine stops a big part: one hundred and ten.", "In der Nacht schickt Russland hundertfünfundfünfzig Drohnen. Die Ukraine stoppt einen großen Teil: hundertzehn.")
+pl("The attacks hit twenty-seven places: stations for trains and stations for electricity.", "Die Angriffe treffen siebenundzwanzig Orte: Bahnhöfe und Stationen für Strom.")
+pl("In six regions the power goes out. There it is dark.", "In sechs Regionen fällt der Strom aus. Dort ist es dunkel.")
+pl("In one day six people die. Twenty-five are injured.", "An einem Tag sterben sechs Menschen. Fünfundzwanzig sind verletzt.")
+pl("In the region of Kharkiv a woman dies. She was eighty-six years old.", "In der Region Charkiw stirbt eine Frau. Sie war sechsundachtzig Jahre alt.")
+pl("The war has lasted a long time already. And the end is not in sight.", "Der Krieg dauert schon lange. Und das Ende ist nicht in Sicht.")
+pl("Donald Trump shows a photo with Putin and writes: my friend.", "Donald Trump zeigt ein Foto mit Putin und schreibt: mein Freund.")
+pl("Volodymyr Zelensky says to the BBC: he cannot be a friend. He is an aggressor and a killer.", "Wolodymyr Selenskyj sagt zur BBC: Er kann kein Freund sein. Er ist ein Aggressor und ein Mörder.")
+pl("A friend brings no drones, but oats. Oats are cheap. That is quite easy.", "Ein Freund bringt keine Drohnen, sondern Hafer. Hafer ist billig. Das ist ganz leicht.")
+pl("Dmitry Peskov, the spokesman of the Kremlin, says: Zelensky insults the president of Russia.", "Dmitri Peskow, der Sprecher vom Kreml, sagt: Selenskyj beleidigt den Präsidenten von Russland.")
+pl("Trump says: we want a deal. We want to stop the killing.", "Trump sagt: Wir wollen einen Deal. Wir wollen das Töten stoppen.")
+pl("Once more: one hundred and fifty-five drones, six regions in the dark, and still no date for the exchange.", "Noch einmal: hundertfünfundfünfzig Drohnen, sechs Regionen im Dunkeln, und noch kein Termin für den Austausch.")
+
+# ---------------- good news ----------------
+en("Good news. Two sisters, aged 100 and 101, meet again after five years (BBC).")
+spl("And now, a good piece of news. From England.", "Und jetzt eine gute Nachricht. Aus England.")
+pl("Dot Rawlinson is a hundred years old. Her sister Betty Blood is a hundred and one.", "Dot Rawlinson ist hundert Jahre alt. Ihre Schwester Betty Blood ist hunderteins.")
+pl("They live in two care homes in Derbyshire. The homes are more than ten miles apart.", "Sie wohnen in zwei Pflegeheimen in Derbyshire. Die Heime liegen mehr als zehn Meilen auseinander.")
+pl("Betty is ill, and the way is far. For five years the sisters do not see each other.", "Betty ist krank, und der Weg ist weit. Fünf Jahre lang sehen sich die Schwestern nicht.")
+pl("But they phone, and they send cards and letters.", "Aber sie telefonieren, und sie schicken Karten und Briefe.")
+pl("Five years of letters: that is a lot of stamps. And on every card: a signature.", "Fünf Jahre Briefe: Das sind viele Briefmarken. Und auf jeder Karte: eine Unterschrift.")
+pl("The care home of Betty is called Haddon Hall, in Buxton. The staff plan a meeting.", "Das Pflegeheim von Betty heißt Haddon Hall, in Buxton. Die Mitarbeiter planen ein Treffen.")
+pl("They look at old photos together. Eric, also a hundred years old, brings flowers along for each sister.", "Sie sehen zusammen alte Fotos an. Eric, auch hundert Jahre alt, bringt jeder Schwester Blumen mit.")
+pl("A hundred years old, and he still brings flowers. A real gentleman. A knight with no horse.", "Hundert Jahre alt, und er bringt immer noch Blumen. Ein echter Gentleman. Ein Ritter ohne Pferd.")
+pl("Betty says: it was quite wonderful. After such a long time I see my sister again.", "Betty sagt: Es war ganz wunderbar. Nach so langer Zeit sehe ich meine Schwester wieder.")
+pl("Charlotte Dent, the boss of the home, says: that was very special.", "Charlotte Dent, die Chefin vom Heim, sagt: Das war ganz besonders.")
+pl("A hundred and one years, and still in a good mood. The secret? Perhaps oats for breakfast.", "Hunderteins Jahre, und immer noch gute Laune. Das Geheimnis? Vielleicht Hafer zum Frühstück.")
+pl("Once more: after five years two sisters see each other again: a hundred and a hundred and one years old.", "Noch einmal: Nach fünf Jahren sehen sich zwei Schwestern wieder: hundert und hunderteins Jahre alt.")
+
+# ---------------- grammar of the day: separable verbs ----------------
+spl("The grammar of the day.", "Die Grammatik des Tages.")
+en("Pattern of the day: separable verbs. In 'ausfüllen' (to fill in) or 'anrufen' (to phone), the small front part splits off and goes to the very end of the sentence: ich fülle … aus, er ruft … an.")
+pl("Today the voters fill in the ballot paper.", "Heute füllen die Wähler den Wahlzettel aus.")
+pl("At six o'clock the polling stations close.", "Um sechs Uhr machen die Wahllokale zu.")
+pl("In six regions the power goes out.", "In sechs Regionen fällt der Strom aus.")
+pl("Kuwait summons the ambassador.", "Kuwait bestellt den Botschafter ein.")
+pl("For five years the sisters phone each other.", "Fünf Jahre lang rufen die Schwestern sich an.")
+pl("The sisters look at old photos.", "Die Schwestern sehen alte Fotos an.")
+pl("Eric brings flowers along.", "Eric bringt Blumen mit.")
+
+# ---------------- recap ----------------
+spl("In short.", "Kurz gesagt.")
+pl("Right now Victoria is voting. The election lasts until six o'clock. The result comes not at once, but only in the evening.", "Gerade wählt Victoria. Die Wahl dauert bis sechs Uhr. Das Ergebnis kommt nicht sofort, sondern erst am Abend.")
+pl("For Labor the traffic light is red. The Coalition can win many seats.", "Für Labor ist die Ampel rot. Die Koalition kann viele Sitze holen.")
+pl("Reports say: the law for gas is finished. The big banks say: the interest rate stays the same.", "Berichte sagen: Das Gesetz für Gas ist fertig. Die großen Banken sagen: Der Zins bleibt gleich.")
+pl("Italy says: the drone comes from Iran. Kuwait summons the ambassador.", "Italien sagt: Die Drohne kommt aus dem Iran. Kuwait bestellt den Botschafter ein.")
+pl("Oil costs almost a hundred dollars. So oil is not cheap.", "Öl kostet fast hundert Dollar. Öl ist also nicht billig.")
+pl("In Ukraine six regions are dark. Still no date for the exchange.", "In der Ukraine sind sechs Regionen dunkel. Noch kein Termin für den Austausch.")
+pl("After five years two sisters see each other again. In Canberra it rains, but for Betty and Dot the day is bright.", "Nach fünf Jahren sehen sich zwei Schwestern wieder. In Canberra regnet es, aber für Betty und Dot ist der Tag hell.")
+
+spl("The words of the day.", "Die Wörter des Tages.")
+pl("to fill in", "ausfüllen")
+pl("The voters fill in the ballot paper.", "Die Wähler füllen den Wahlzettel aus.")
+pl("the traffic light", "die Ampel")
+pl("For Labor the traffic light is red.", "Für Labor ist die Ampel rot.")
+pl("the invitation", "die Einladung")
+pl("That is no invitation to tea.", "Das ist keine Einladung zum Tee.")
+pl("the signature", "die Unterschrift")
+pl("For a deal you need a signature.", "Für einen Deal braucht man eine Unterschrift.")
+pl("the stamp", "die Briefmarke")
+pl("Five years of letters: that is a lot of stamps.", "Fünf Jahre Briefe: Das sind viele Briefmarken.")
+pl("the checkout, the till", "die Kasse")
+pl("For the oil countries the till is ringing.", "Bei den Ölländern klingelt die Kasse.")
+pl("the mood", "die Laune")
+pl("A hundred and one years, and still in a good mood.", "Hunderteins Jahre, und immer noch gute Laune.")
+pl("the luggage", "das Gepäck")
+pl("The politicians take their luggage and travel home.", "Die Politiker nehmen ihr Gepäck und fahren nach Hause.")
+pl("the same; in a moment", "gleich")
+pl("The big banks say: it stays the same.", "Die großen Banken sagen: Er bleibt gleich.")
+pl("the dishwasher", "die Spülmaschine")
+pl("Hobart is a dishwasher today.", "Hobart ist heute eine Spülmaschine.")
+
+# ---------------- close ----------------
+pl("That was the news, straight from the horse's mouth. Goodbye, listeners. See you tomorrow.", "Das waren die Nachrichten, direkt vom Pferd. Auf Wiederhören, liebe Hörer. Bis morgen.")
+p1pl("Now everything again, in German only.", "Jetzt alles noch einmal, nur auf Deutsch.")
+
+JOB = "jobs/0098-news-2026-11-28.json"
+job = {
+ "type": "news", "lang": "de", "voice_de": "de_DE-thorsten-medium", "speed_de": 1.0,
+ "date": "2026-11-28", "music": "v5",
+ "title": "Ex Ōre Equī · Deutsch · Samstag (Sat 28 Nov 2026)",
+ "summary": ("Canberra: 16–23°, cloudy, rain 100% (10–40 mm), N wind turning NW, thunderstorms likely, possibly severe. Sunday 13–24°, partly cloudy, 40%. "
+             "Sydney 29 (storms later), Melbourne 23 (rain, mostly morning), Brisbane 29 (showers 90%), Perth 30 (sunny), Adelaide 23 (50%), Hobart 22 (rain), Darwin 34 (storms from ~12:30). "
+             "Australia: Victoria votes today; Labor in power 12 years (Premier Ben Carroll); Newspoll 57.5–42.5 to the Coalition (primaries C 33, L 20, ON 18, G 17); "
+             "The Nightly: biggest swing against Labor since 1955, Labor could fall from 56 seats to 17, Coalition up to 67; ~4.7m voters, about half voted early; "
+             "Coalition plan: 90-year lease of Melbourne's sewerage network. Federal: Blyth fallout (Taylor learned from the media; Sharma 'dishonorable'); "
+             "gas reservation bill reported passed (House final vote Fri 27 Nov; up to 20% from 2028); parliament has risen until February; CPI 4.9%; "
+             "RBA 8 Dec, cash rate 4.85%, big four expect a hold. "
+             "Iran: Italy names the dead in Kuwait (Antonio Saccoccio, 65; Emanuele Lo Russo, 36); Tajani: an Iranian-made drone, 'inaccettabile'; "
+             "Kuwait summons Iran's ambassador ('a flagrant violation of Kuwait's sovereignty'); Araghchi: possibly 'a precooked recipe for war', offers a joint probe; "
+             "CENTCOM disables the Pacific Archer in the Gulf of Oman (crew unharmed), at least the 15th ship, 158 redirected since July; Trump: 'We have victory at hand', "
+             "'We are giving them every chance to make a deal'; Mokhber: Hormuz will not reopen, nor will the blockade remain; proposals via Qatar and Pakistan 'under review'; "
+             "Hormuz flows ~54% of pre-war; Brent $97.49 Fri morning; OPEC+ meets Sunday. "
+             "Ukraine: 155 drones, 110 downed, 27 locations hit, power cuts in 6 oblasts; 6 killed, 25 injured in a day (Kharkiv region: a woman, 86); "
+             "Trump calls Putin 'my friend'; Zelensky (BBC): 'He can't be a friend', 'an aggressor and a killer'; Peskov: 'insulting his counterpart'; "
+             "Trump: 'We want to make a deal. We want to stop the killing.'; no date for the POW swap; EU leaders fail to agree a loan. "
+             "Good news: sisters Dot Rawlinson (100) and Betty Blood (101) meet again after five years at Haddon Hall care home, Buxton (BBC). "
+             "Grammar of the day: separable verbs. Every line in English, then German; then all the German again. "
+             "Sources: Bureau of Meteorology; Conversation/Yahoo; The Nightly; ABC; Aussie; Reuters via Devdiscourse; The Age/Brisbane Times; AP; Reuters via Arab News; "
+             "The National; Gulf News; Times of Israel; Anadolu; Euronews Italia; Breitbart; LB.ua; Kyiv Independent; Ukrinform; PBS; BBC via AOL."),
+ "lines": L,
+}
+
+# target words (cards first answered 26–27 Nov; most missed first; Kita and wenn left out: care rule / above the week-1 ceiling)
+TARGETS = {
+ "die Unterschrift": r"\bUnterschrift\w*", "schicken": r"\bschick\w*", "die Einladung": r"\bEinladung\w*", "die Kasse": r"\bKasse\b",
+ "die Gabel": r"gabel", "die Laune": r"\bLaune\b", "billig": r"\bbillig\w*", "das Ende": r"\bEnde\b", "das Gepäck": r"\bGepäck\b",
+ "dauern": r"\bdauer(n|t)\b", "bleiben": r"\bbleib\w*", "holen": r"\bhol(en|t|e|st)\b", "ausfüllen": r"\b(ausfüllen|füll\w*( \w+){0,4} aus\b)",
+ "erst": r"\berst\b", "gerade": r"\bgerade\b", "sofort": r"\bsofort\b", "fast": r"\bfast\b", "danach": r"\bdanach\b",
+ "zuerst": r"\bzuerst\b", "wieder": r"\bwieder\b", "gleich": r"\bgleich\b", "sondern": r"\bsondern\b", "also": r"\balso\b",
+ "die Spülmaschine": r"Spülmaschine\w*", "die Briefmarke": r"Briefmarke\w*", "der Teil": r"\bTeil\b", "leicht": r"\bleicht\w*",
+ "dunkel": r"\bdunk(el|l)\w*", "hell": r"\bhell\w*", "die Ampel": r"\bAmpel\b",
+}
+
+if __name__ == "__main__":
+    json.dump(job, open(JOB, "w"), ensure_ascii=False, indent=1)
+    de = [r[-1] for k, *r in L if k != 'en']
+    w = sum(len(t.split()) for t in de)
+    ew = sum(len(r[0].split()) for k, *r in L)
+    bad = [t for t in de if re.search(r'\d', t)]
+    print(len(L), 'lines ·', len(de), 'German lines ·', w, 'German words ·', ew, 'English words · digits:', bad)
+    txt = "\n".join(de)
+    low = []
+    for k, rx in TARGETS.items():
+        n = len(re.findall(rx, txt, re.I))
+        print(f"  {k}: {n}", end=';')
+        if n < 3: low.append(k)
+    print("\nTARGETS UNDER 3:", low)
